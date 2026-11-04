@@ -76,6 +76,10 @@ Når kitzhen.dk flyttes, omdøber SiteGround mappen – ret stien i begge jobs o
 
 Hvert push til `main` udrulles via GitHub Actions (FTPS) til SiteGround. Kræver secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` og variablerne `SITE_DIR` (fx `kitzhen.dk/public_html`) og `SITE_URL` (fx `https://kitzhen.dk`). Mangler de, springes udrulningen over. Udrulningen stopper, hvis mappen ikke indeholder `wp-config.php`.
 
+## Statistik
+
+Matomo via WordPress-pluginnet "Matomo Analytics" (kører på egen server, ingen tredjepart). `inc/consent.php` lægger `requireCookieConsent` i `_paq` før pluginets kode: uden samtykke tælles besøg uden cookies; med samtykke til statistik må Matomo sætte `_pk_id` (12 mdr.) og `_pk_ses`. IP-anonymisering slås til i pluginets indstillinger. Cookie- og privatlivspolitikken (`inc/legal.php`, version 6) beskriver det.
+
 ## Design
 
 Som Fitbase: hvid baggrund, sort tekst, BDO Grotesk, afrundede hjørner, tynde linjeikoner. Accentfarve `#24FF00` fra Kitzhen-logoet (grøn cirkel), brugt sparsomt (købsknap).
