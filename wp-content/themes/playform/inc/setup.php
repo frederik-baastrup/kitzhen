@@ -142,6 +142,7 @@ add_filter(
 				$response->header( 'X-PF-Offers', implode( ' ', array_map( static fn( $r ) => $r['shop'] . '=' . $r['n'], $counts ) ) );
 				$state = get_option( 'playform_import_state' );
 				$response->header( 'X-PF-State', $state ? wp_json_encode( array_intersect_key( (array) $state, array_flip( [ 'shop', 'offset', 'queue', 'started', 'today', 'i' ] ) ) ) : 'none' );
+				$response->header( 'X-PF-Legacy', (string) wp_json_encode( array_count_values( array_map( static fn( $v ) => explode( ':', (string) $v )[0], (array) get_option( 'playform_legacy_imgs', [] ) ) ) ) );
 				$response->header( 'X-PF-Running', get_transient( 'playform_feeds_running' ) ? 'yes' : 'no' );
 			}
 		}
@@ -169,6 +170,7 @@ function playform_run_upgrades(): void {
 	if ( function_exists( 'playform_best_check' ) && ! get_option( 'playform_best_checked' ) ) {
 		playform_best_check( false ); // første rapport med det samme
 	}
+	playform_legacy_article_images();
 	playform_article_images();
 	playform_guide_topics();
 	if ( class_exists( '\Playform\Feeds\Sales' ) ) {
@@ -226,6 +228,59 @@ function playform_update_text( string $slug, string $old, string $new ): void {
 }
 
 /**
+ * Henter de gamle artikelbilleder fra kitzhen.dk (content/legacy-images.php) og sætter dem som udvalgt billede.
+ * Kun billeder på mindst 1200 px i bredden bruges (ingen pixelerede billeder) – ellers beholdes Pexels-billedet.
+ * Højst $limit pr. kørsel; resten tages af en planlagt kørsel et par minutter senere. Status i option playform_legacy_imgs.
+ */
+function playform_legacy_article_images( int $limit = 8 ): void {
+	$file = get_template_directory() . '/content/legacy-images.php';
+	$map  = is_readable( $file ) ? require $file : [];
+	$done = (array) get_option( 'playform_legacy_imgs', [] );
+	$todo = array_diff_key( $map, $done );
+	if ( ! $todo ) {
+		return;
+	}
+	require_once ABSPATH . 'wp-admin/includes/media.php';
+	require_once ABSPATH . 'wp-admin/includes/file.php';
+	require_once ABSPATH . 'wp-admin/includes/image.php';
+	foreach ( array_slice( $todo, 0, $limit, true ) as $slug => $url ) {
+		$post = get_posts( [ 'name' => $slug, 'post_type' => 'post', 'post_status' => 'any', 'numberposts' => 1 ] );
+		if ( ! $post ) {
+			continue; // guiden er ikke oprettet endnu – prøv igen senere
+		}
+		$id  = $post[0]->ID;
+		$tmp = download_url( $url, 30 );
+		if ( is_wp_error( $tmp ) ) {
+			$done[ $slug ] = 'fejl';
+			continue;
+		}
+		$size = @getimagesize( $tmp ); // phpcs:ignore
+		if ( ! $size || (int) $size[0] < 1200 ) {
+			@unlink( $tmp ); // phpcs:ignore
+			$done[ $slug ] = 'for lille:' . (int) ( $size[0] ?? 0 );
+			continue;
+		}
+		$ext = image_type_to_extension( (int) $size[2], false ) ?: 'jpg';
+		$att = media_handle_sideload( [ 'name' => $slug . '.' . $ext, 'tmp_name' => $tmp ], $id, get_the_title( $id ) );
+		if ( is_wp_error( $att ) ) {
+			@unlink( $tmp ); // phpcs:ignore
+			$done[ $slug ] = 'fejl';
+			continue;
+		}
+		update_post_meta( $att, '_pf_legacy_img', $url );
+		update_post_meta( $att, '_wp_attachment_image_alt', get_the_title( $id ) );
+		set_post_thumbnail( $id, $att );
+		$done[ $slug ] = 'ok';
+	}
+	update_option( 'playform_legacy_imgs', $done, false );
+	if ( array_diff_key( $map, $done ) && ! wp_next_scheduled( 'playform_legacy_images' ) ) {
+		wp_schedule_single_event( time() + 120, 'playform_legacy_images' );
+	}
+}
+add_action( 'playform_legacy_images', static fn() => playform_legacy_article_images() );
+
+
+/**
  * Artikelbilleder (Pexels, fri licens) fra assets/img/articles/<slug>.jpg.
  * Sættes på indlæg uden billede eller med et for lille billede (< 1200 px) – et billede,
  * redaktøren selv har valgt i den rigtige størrelse, bliver stående.
@@ -248,6 +303,9 @@ function playform_article_images(): void {
 		$thumb = get_post_thumbnail_id( $id );
 		$hash  = md5_file( $src );
 		if ( $thumb ) {
+			if ( get_post_meta( $thumb, '_pf_legacy_img', true ) ) {
+				continue; // billedet fra det gamle kitzhen.dk vinder
+			}
 			if ( get_post_meta( $thumb, '_pf_auto_img', true ) === $hash ) {
 				continue; // allerede dette billede
 			}
