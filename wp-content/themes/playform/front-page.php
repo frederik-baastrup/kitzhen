@@ -44,8 +44,9 @@ $hero = [
 	[ 'slug' => 'grill', 'title' => 'Grill', 'big' => true, 'subs' => [ [ 'Gasgrill', [ 'sub' => 'gasgrill' ] ], [ 'Kamado grill', [ 'sub' => 'kamado-grill' ] ], [ 'Kulgrill', [ 'sub' => 'kulgrill' ] ], [ 'Pizzaovn', [ 'sub' => 'pizzaovn' ] ] ] ],
 	[ 'slug' => 'kaffe-drikke', 'title' => 'Kaffe', 'subs' => [ [ 'Espressomaskine', [ 'sub' => 'espressomaskine' ] ], [ 'Kaffekværn', [ 'sub' => 'kaffekvaern' ] ], [ 'Mokkakande', [ 'sub' => 'mokkakande' ] ] ] ],
 	[ 'slug' => 'gryder-pander', 'title' => 'Gryder & pander', 'subs' => [ [ 'Gryder', [ 'sub' => 'gryde' ] ], [ 'Stegepander', [ 'sub' => 'stegepande' ] ], [ 'Grydesæt', [ 'sub' => 'grydesaet' ] ], [ 'Wokpander', [ 'sub' => 'wokpande' ] ] ] ],
+	[ 'slug' => 'koekkenmaskiner', 'title' => 'Køkkenmaskiner', 'subs' => [ [ 'Røremaskine', [ 'sub' => 'roeremaskine' ] ], [ 'Stavblender', [ 'sub' => 'stavblender' ] ], [ 'Blender', [ 'sub' => 'blender' ] ], [ 'Foodprocessor', [ 'sub' => 'foodprocessor' ] ] ] ],
 ];
-// Desktop: de tre store kort ovenfor. Mobil: karrusel med 6 kategorier – maskiner og grill først (størst kurv og kommission).
+// Desktop: det store kort til venstre og tre kort til højre. Mobil: karrusel med 6 kategorier – maskiner og grill først (størst kurv og kommission).
 $mob = array_values( array_filter(
 	[ 'grill', 'kaffe-drikke', 'ovne-apparater', 'koekkenmaskiner', 'gryder-pander', 'knive-redskaber' ],
 	static function ( $c ) {
@@ -88,7 +89,7 @@ $has_deals = count( $deals ) >= 4;
 				</div>
 				<span class="cat__arrow" aria-hidden="true"><?php echo playform_icon( 'arrow-right', 20, 1.4 ); // phpcs:ignore ?></span>
 			</div>
-			<?php if ( $i === 2 ) : ?></div><?php endif; ?>
+			<?php if ( $i === 3 ) : ?></div><?php endif; ?>
 		<?php endforeach; ?>
 	</div>
 

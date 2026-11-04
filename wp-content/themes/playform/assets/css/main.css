@@ -1341,3 +1341,9 @@ ul.guide__facts { display: inline-flex; flex-wrap: wrap; align-items: center; ma
 	.site-header__row > .mm > .mm__item--plain { display: flex; margin-left: auto; }
 	.site-header__row > .mm { gap: 18px; }
 }
+/* Kitzhen: forsiden har ét stort kort og tre kort til højre. Det store kort strækker sig til samme højde. */
+@media (min-width: 901px) {
+	.hero__side { grid-template-rows: repeat(3, minmax(0, 1fr)); }
+	.hero__side .cat { min-height: 196px; }
+	.hero .cat--big { min-height: 0; }
+}
