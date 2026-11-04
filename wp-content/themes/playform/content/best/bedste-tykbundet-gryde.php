@@ -34,16 +34,14 @@ HTML,
 			'slug'    => 'staub-la-cocotte-rund-stoebejernsgryde-26-cm-5-2-l-kirsebaerroed',
 			'name'    => 'Staub La Cocotte rund 26 cm, 5,2 l',
 			'role'    => 'Bedst til ovn og grydebrød',
-			'reviews' => [
-				[ 'Consumer Reports', 'https://www.consumerreports.org/home-garden/cookware/staub-round-cocotte/m396579/' ],
-			],
-			'verdict' => 'Klassisk støbejernsgryde til simreretter og grydebrød – stærk i ovnen, mindre jævn på kogepladen.',
+			'reviews' => [], // Consumer Reports' test kan ikke åbnes fra Danmark (blokeret + betalingsmur), så den bruges ikke.
+			'verdict' => 'Klassisk støbejernsgryde til simreretter og grydebrød – bedst i ovnen og ved lav varme.',
 			'why'     => <<<'HTML'
 <p>Staub La Cocotte er en af de mest kendte støbejernsgryder. Butikken beskriver den 26 cm runde gryde på 5,2 liter som en allrounder til kraftige simreretter som boeuf bourguignon, kødgryder, fyldige supper og grydebrød med sprød skorpe.</p>
-<p>Consumer Reports har testet Staubs runde cocotte, og resultatet er blandet – og det skal du kende, før du køber. Gryden blev hurtigt varm og gav gode resultater med brød, men den var mindre egnet til madlavning på kogepladen: varmen var ujævn over bunden, så maden kan brænde på nogle steder, mens den stadig er ved at blive varm andre steder, og tomatsovs simrede ujævnt. Den fik også en lav score for, hvor nem den er at gøre ren. Brug den derfor helst i ovnen og til lange retter ved lav varme, hvor støbejernet kan nå at blive varmt hele vejen igennem.</p>
+<p>Støbejern er langsomt om at blive varmt, men holder varmen længe, når det først er varmt. Derfor er gryden stærkest i ovnen og til lange retter ved lav varme, hvor støbejernet kan nå at blive varmt hele vejen igennem. På kogepladen skal du give den tid til at varme op og holde varmen moderat, så maden ikke brænder på i bunden. Valget er vores vurdering ud fra butikkens oplysninger; vi har ikke fundet en uafhængig test, du kan læse fra Danmark.</p>
 HTML,
 			'good'    => [ 'Grydebrød', 'Gryderetter, der skal stå længe i ovnen', 'Dig, der vil have en gryde, der også kan stå på bordet' ],
-			'less'    => [ 'Sovs og retter, der skal røres i på kogepladen ved høj varme', 'Dig, der vil have en let gryde, der er nem at gøre ren' ],
+			'less'    => [ 'Sovs og retter, der skal røres i på kogepladen ved høj varme', 'Dig, der vil have en let gryde' ],
 		],
 		[
 			'ean'     => '5706631004138',
