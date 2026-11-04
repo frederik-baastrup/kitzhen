@@ -181,7 +181,22 @@ function playform_refresh_multishop( int $batch = 300 ): void {
 }
 add_action( 'playform_refresh_multishop', static fn() => playform_refresh_multishop() );
 
+/**
+ * Lancering 4. nov. 2026 (kitzhen.dk): slår WooCommerce' "Kommer snart"-tilstand fra og åbner for søgemaskiner.
+ * Kører kun én gang – slår ejeren det til igen, bliver det ikke slået fra på ny.
+ */
+function playform_launch(): void {
+	if ( get_option( 'playform_launched' ) ) {
+		return;
+	}
+	update_option( 'woocommerce_coming_soon', 'no' );
+	update_option( 'woocommerce_store_pages_only', 'no' );
+	update_option( 'blog_public', '1' );
+	update_option( 'playform_launched', current_time( 'mysql' ), false );
+}
+
 function playform_run_upgrades(): void {
+	playform_launch();
 	playform_refresh_multishop();
 	playform_update_legal_pages();
 	playform_author_profile();
