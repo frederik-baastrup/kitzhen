@@ -1313,3 +1313,18 @@ ul.guide__facts { display: inline-flex; flex-wrap: wrap; align-items: center; ma
 }
 @media (max-width: 760px) { .pd__legal { font-size: 11px; line-height: 1.45; } }
 .pricebox .pricebox__chips { margin: 0; }
+
+/* Kitzhen: headeren på to linjer på desktop. Linje 1: logo, søgning, Viden/Købsguides/Tilbud.
+   Linje 2: de 8 kategorier. Mega-menuen åbner under linje 2 (panelet er placeret ud fra hele rækken). */
+@media (min-width: 1081px) {
+	.site-header__row { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-rows: 72px 48px; grid-template-areas: "logo search knowledge" "mm mm mm"; column-gap: 32px; height: auto; }
+	.site-header__row > .logo { grid-area: logo; align-self: center; }
+	.site-header__row > .search { grid-area: search; justify-self: center; width: 100%; max-width: 560px; margin-left: 0; }
+	.site-header__row > .knowledge { grid-area: knowledge; display: flex; align-self: center; }
+	.site-header__row > .mm { grid-area: mm; max-width: none; gap: 30px; align-self: stretch; border-top: 1px solid #EDEDE8; margin: 0 -1px; }
+	.site-header__row > .mm > .mm__item--plain { display: none; }
+	/* Søgningen har sin egen plads, så menuen skal ikke folde sammen, når den åbnes. */
+	.site-header.is-searching .mm { max-width: none; margin: 0 -1px; overflow: visible; visibility: visible; }
+	.site-header.is-searching .mm__item { opacity: 1; transform: none; }
+	.site-header.is-searching .search { flex-grow: 0; }
+}
