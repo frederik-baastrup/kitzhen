@@ -9,9 +9,11 @@ on:
 # Actions → Variables): SITE_DIR (fx kitzhen.dk/public_html) og SITE_URL (fx https://kitzhen.dk).
 # FTP-adgangen ligger i secrets: FTP_SERVER, FTP_USERNAME, FTP_PASSWORD.
 # Mangler noget af det, springes udrulningen over (sitet er ikke sat op på SiteGround endnu).
+# Indtil kitzhen.dk peger på SiteGround, ligger sitet på det midlertidige domæne (fundet med ftp-list.yml 4. nov. 2026).
+# Når hoveddomænet skiftes, omdøber SiteGround mappen – ret så standardværdierne her (eller sæt variablerne).
 env:
-  SITE_DIR: ${{ vars.SITE_DIR }}
-  SITE_URL: ${{ vars.SITE_URL }}
+  SITE_DIR: ${{ vars.SITE_DIR || 'frederikb10.sg-host.com/public_html' }}
+  SITE_URL: ${{ vars.SITE_URL || 'https://frederikb10.sg-host.com' }}
 jobs:
   deploy:
     runs-on: ubuntu-latest
