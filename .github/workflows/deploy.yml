@@ -23,6 +23,14 @@ jobs:
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
         run: |
+          # Det midlertidige domæne (fx frederikb10.sg-host.com) forsvinder, når hoveddomænet skiftes til kitzhen.dk.
+          # Kan FTP-værten fra secret'en ikke slås op, bruges kitzhen.dk (samme SiteGround-server).
+          FTP_HOST="$FTP_SERVER"
+          if [ -n "$FTP_SERVER" ] && ! getent hosts "$FTP_SERVER" >/dev/null; then
+            echo "FTP-værten fra secret'en findes ikke længere – bruger kitzhen.dk."
+            FTP_HOST="kitzhen.dk"
+          fi
+          echo "FTP_HOST=$FTP_HOST" >> "$GITHUB_ENV"
           if [ -z "$FTP_SERVER" ] || [ -z "$SITE_DIR" ] || [ -z "$SITE_URL" ]; then
             echo "::notice::Udrulning springes over: FTP_SERVER (secret), SITE_DIR og SITE_URL (variabler) er ikke sat endnu."
             echo "ready=false" >> "$GITHUB_OUTPUT"
@@ -44,16 +52,16 @@ jobs:
         run: |
           # Når hoveddomænet i SiteGround skiftes til kitzhen.dk, omdøbes mappen. Findes den nye mappe, bruges den automatisk.
           if [ -z "$VAR_SITE_DIR" ] && curl -sS -k --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" --list-only \
-               "ftp://$FTP_SERVER:21/kitzhen.dk/public_html/" 2>/dev/null | grep -qx "wp-config.php"; then
+               "ftp://$FTP_HOST:21/kitzhen.dk/public_html/" 2>/dev/null | grep -qx "wp-config.php"; then
             echo "Hoveddomænet er kitzhen.dk – udruller dertil."
             SITE_DIR="kitzhen.dk/public_html"
             echo "SITE_DIR=kitzhen.dk/public_html" >> "$GITHUB_ENV"
             echo "SITE_URL=https://kitzhen.dk" >> "$GITHUB_ENV"
           fi
           if ! curl -sS -k --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" --list-only \
-               "ftp://$FTP_SERVER:21/$SITE_DIR/" | grep -qx "wp-config.php"; then
+               "ftp://$FTP_HOST:21/$SITE_DIR/" | grep -qx "wp-config.php"; then
             echo "::error::Fandt ikke $SITE_DIR/wp-config.php på FTP-serveren. Mapper i roden:"
-            curl -sS -k --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" --list-only "ftp://$FTP_SERVER:21/" || true
+            curl -sS -k --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" --list-only "ftp://$FTP_HOST:21/" || true
             exit 1
           fi
 
@@ -61,11 +69,12 @@ jobs:
         if: steps.setup.outputs.ready == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: ${{ env.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           protocol: ftps
+          security: loose
           local-dir: ./wp-content/plugins/playform-feeds/
           server-dir: ${{ env.SITE_DIR }}/wp-content/plugins/playform-feeds/
           dangerous-clean-slate: false
@@ -74,11 +83,12 @@ jobs:
         if: steps.setup.outputs.ready == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: ${{ env.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           protocol: ftps
+          security: loose
           local-dir: ./wp-content/themes/playform/
           server-dir: ${{ env.SITE_DIR }}/wp-content/themes/playform/
           dangerous-clean-slate: false
@@ -94,7 +104,7 @@ jobs:
         run: |
           echo "${GITHUB_SHA}-${GITHUB_RUN_ID}" > playform-deploy.txt
           curl -sS -k --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" -T playform-deploy.txt \
-            "ftp://$FTP_SERVER:21/$SITE_DIR/wp-content/playform-deploy.txt"
+            "ftp://$FTP_HOST:21/$SITE_DIR/wp-content/playform-deploy.txt"
 
       # Besøg siden uden om cachen (REST-API'et caches ikke). Det kører opdateringerne med det samme,
       # og de tømmer SiteGrounds sidecache (playform_purge_cache), så ændringer ses straks.
