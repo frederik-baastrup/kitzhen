@@ -114,6 +114,25 @@ add_filter(
 			$response->header( 'X-PF-Upgrade', ! empty( $GLOBALS['pf_upgrade_ran'] ) ? 'ran' : 'skipped' );
 			$response->header( 'X-PF-Purge', (string) get_option( 'playform_last_purge', 'never' ) );
 			$response->header( 'X-PF-Css', (string) filemtime( get_template_directory() . '/assets/css/main.css' ) );
+			// Produkter i købsguides, der ikke kan købes: guide:EAN=status (status, lager, kategori).
+			if ( function_exists( 'playform_root_posts' ) ) {
+				global $wpdb;
+				$bad = [];
+				foreach ( playform_root_posts() as $slug => $pid ) {
+					foreach ( playform_picks( (int) $pid ) as $pk ) {
+						$ean = (string) ( $pk['ean'] ?? '' );
+						$row = $wpdb->get_row( $wpdb->prepare( "SELECT p.ID, p.post_status FROM {$wpdb->posts} p JOIN {$wpdb->postmeta} m ON m.post_id = p.ID AND m.meta_key = '_pf_ean' WHERE p.post_type = 'product' AND m.meta_value = %s LIMIT 1", $ean ) );
+						if ( ! $row ) {
+							$offer = $wpdb->get_var( $wpdb->prepare( "SELECT CONCAT(shop, '/', product_id) FROM {$wpdb->prefix}pf_offers WHERE ean = %s LIMIT 1", $ean ) );
+							$bad[] = "$slug:$ean=none(offer:" . ( $offer ?: '-' ) . ')';
+						} elseif ( $row->post_status !== 'publish' || ! get_post_meta( $row->ID, '_pf_in_stock', true ) ) {
+							$bad[] = "$slug:$ean={$row->ID}/{$row->post_status}/stock" . (int) get_post_meta( $row->ID, '_pf_in_stock', true ) . '/img' . ( get_post_meta( $row->ID, '_pf_image', true ) ? 1 : 0 ) . '/' . get_post_meta( $row->ID, '_pf_category', true );
+						}
+					}
+				}
+				$response->header( 'X-PF-Picks', $bad ? implode( ' ', $bad ) : 'ok' );
+				$response->header( 'X-PF-Imageless', (string) get_option( 'playform_imageless_hidden', 'unset' ) );
+			}
 		}
 		return $response;
 	}
