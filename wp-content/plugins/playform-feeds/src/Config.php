@@ -40,6 +40,13 @@ final class Config {
 			'hvidevareshoppen'    => [ 'name' => 'HvidevareShoppen.dk', 'url' => "$base&bannerid=56457&feedid=1000" ],
 			'koege-kafferisteri'  => [ 'name' => 'Køge Kafferisteri', 'url' => "$base&bannerid=79640&feedid=1878" ],
 			'barlife'             => [ 'name' => 'Barlife.dk', 'url' => "$base&bannerid=46609&feedid=651" ],
+			// Moreland sælger mest havemøbler, pool og legetøj. Kun grill, grilltilbehør og pizzaovne kommer med
+			// (fast kategori-oversættelse; alle andre butikskategorier udelukkes).
+			'moreland'            => [
+				'name'         => 'Moreland',
+				'url'          => "$base&bannerid=16450&feedid=6",
+				'category_map' => [ 'grill' => 'grill', 'grill tilbehør' => 'grill', 'pizzaovn' => 'pizza-bagning' ],
+			],
 		];
 		$custom = get_option( 'playform_shops' );
 		return is_array( $custom ) && $custom ? $custom : $defaults;

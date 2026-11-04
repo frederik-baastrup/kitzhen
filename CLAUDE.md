@@ -45,7 +45,7 @@ Samme som Fitbase:
 
 ## Shops (Partner-ads, partnerid 14854)
 
-KitchenOne.dk (~27.700 produkter), HvidevareShoppen.dk (~9.300), Barlife.dk (~7.500), Japanske kokkeknive, Køge Kafferisteri, Cibumic.dk, Bagestålet.dk. Gourmetshoppen.com er godkendt, men feedet var tomt 4. nov. 2026. Shop ↔ feed-link er bekræftet ud fra `bannerid` i feedets `vareurl`.
+KitchenOne.dk (~27.700 produkter), HvidevareShoppen.dk (~9.300), Barlife.dk (~7.500), Japanske kokkeknive, Køge Kafferisteri, Cibumic.dk, Bagestålet.dk. Moreland (mest havemøbler) kun med grill, grilltilbehør og pizzaovne via `category_map` (~21 produkter). Gourmetshoppen.com er godkendt, men feedet var tomt 4. nov. 2026. Shop ↔ feed-link er bekræftet ud fra `bannerid` i feedets `vareurl`.
 
 HvidevareShoppen, KitchenOne og Barlife sælger meget, der ikke er køkkenudstyr (hvidevarer til vask/frys, køkkenskabe, emhætter, spiritus, delikatesser, interiør). `Config::exclude()` holder det ude; tjek altid fordelingen efter en import (`wp playform stats`). Reglerne er testet på feedsne fra 4. nov. 2026: ca. 21.000 produkter i kategorierne.
 
