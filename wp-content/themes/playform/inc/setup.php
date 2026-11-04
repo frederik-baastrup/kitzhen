@@ -499,6 +499,68 @@ add_action(
 );
 
 /**
+ * Flytter WordPress fra SiteGrounds midlertidige adresse ($from, fx frederikb10.sg-host.com) til domænet ($to).
+ * Sker automatisk første gang, siden kaldes på domænet (se init nedenfor) – ingen opsætning i WordPress.
+ * Erstatter adressen overalt i databasen; serialiserede værdier pakkes ud og ind igen, så længderne passer.
+ * Samme metode som Fitbases flytning til fitbase.dk 2. nov. 2026.
+ */
+function playform_move_domain( string $from, string $to ): void {
+	update_option( 'home', 'https://' . $to );
+	update_option( 'siteurl', 'https://' . $to );
+	$pairs = [
+		'https://' . $from          => 'https://' . $to,
+		'http://' . $from           => 'https://' . $to,
+		'https:\\/\\/' . $from      => 'https:\\/\\/' . $to, // JSON-escapet
+		'http:\\/\\/' . $from       => 'https:\\/\\/' . $to,
+		$from                       => $to,
+	];
+	global $wpdb;
+	$like = '%' . $wpdb->esc_like( $from ) . '%';
+	$fix  = static function ( $value ) use ( &$fix, $pairs ) {
+		if ( is_string( $value ) ) {
+			if ( is_serialized( $value ) ) {
+				$data = @unserialize( $value, [ 'allowed_classes' => false ] ); // phpcs:ignore
+				return false === $data && 'b:0;' !== $value ? strtr( $value, $pairs ) : serialize( $fix( $data ) );
+			}
+			return strtr( $value, $pairs );
+		}
+		if ( is_array( $value ) ) {
+			foreach ( $value as $k => $v ) {
+				$value[ $k ] = $fix( $v );
+			}
+		}
+		return $value;
+	};
+	$tables = [
+		$wpdb->posts         => [ 'ID', [ 'post_content', 'post_excerpt', 'guid', 'post_content_filtered' ] ],
+		$wpdb->postmeta      => [ 'meta_id', [ 'meta_value' ] ],
+		$wpdb->options       => [ 'option_id', [ 'option_value' ] ],
+		$wpdb->termmeta      => [ 'meta_id', [ 'meta_value' ] ],
+		$wpdb->term_taxonomy => [ 'term_taxonomy_id', [ 'description' ] ],
+		$wpdb->comments      => [ 'comment_ID', [ 'comment_content', 'comment_author_url' ] ],
+		$wpdb->commentmeta   => [ 'meta_id', [ 'meta_value' ] ],
+		$wpdb->users         => [ 'ID', [ 'user_url' ] ],
+		$wpdb->usermeta      => [ 'umeta_id', [ 'meta_value' ] ],
+	];
+	foreach ( $tables as $table => [ $id_col, $cols ] ) {
+		foreach ( $cols as $col ) {
+			$rows = $wpdb->get_results( $wpdb->prepare( "SELECT `$id_col` AS id, `$col` AS v FROM `$table` WHERE `$col` LIKE %s", $like ) ); // phpcs:ignore
+			foreach ( (array) $rows as $r ) {
+				$new = $fix( $r->v );
+				if ( $new !== $r->v ) {
+					$wpdb->update( $table, [ $col => $new ], [ $id_col => $r->id ] );
+				}
+			}
+		}
+	}
+	update_option( 'playform_moved_domain', $from . ' -> ' . $to . ' ' . current_time( 'mysql' ), false );
+	wp_cache_flush();
+	if ( function_exists( 'playform_purge_everything' ) ) {
+		playform_purge_everything();
+	}
+}
+
+/**
  * Én adresse: https://<domæne> uden www. www-adressen og http sendes videre med 301.
  * Gælder kun på sitets eget domæne (Config::site()['domain']), så SiteGrounds midlertidige
  * adresse og localhost virker, indtil domænet peger på den nye hosting.
@@ -512,6 +574,17 @@ add_action(
 		$domain = playform_site( 'domain' );
 		$host   = strtolower( (string) ( $_SERVER['HTTP_HOST'] ?? '' ) ); // phpcs:ignore
 		$host   = preg_replace( '/:\d+$/', '', $host );
+		$home   = (string) wp_parse_url( (string) get_option( 'home' ), PHP_URL_HOST );
+		// Domænet peger nu på den nye hosting, men WordPress står stadig på SiteGrounds midlertidige adresse: flyt.
+		if ( $domain !== '' && in_array( $host, [ $domain, 'www.' . $domain ], true ) && $home !== '' && $home !== $domain && str_ends_with( $home, '.sg-host.com' ) ) {
+			playform_move_domain( $home, $domain );
+			$home = $domain;
+		}
+		// Efter flytningen sendes den midlertidige adresse videre til domænet.
+		if ( $home === $domain && $host !== '' && str_ends_with( $host, '.sg-host.com' ) ) {
+			wp_redirect( 'https://' . $domain . ( $_SERVER['REQUEST_URI'] ?? '/' ), 301 ); // phpcs:ignore
+			exit;
+		}
 		if ( $domain === '' || ! in_array( $host, [ $domain, 'www.' . $domain ], true ) ) {
 			return;
 		}

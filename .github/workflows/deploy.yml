@@ -40,7 +40,16 @@ jobs:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          VAR_SITE_DIR: ${{ vars.SITE_DIR }}
         run: |
+          # Når hoveddomænet i SiteGround skiftes til kitzhen.dk, omdøbes mappen. Findes den nye mappe, bruges den automatisk.
+          if [ -z "$VAR_SITE_DIR" ] && curl -sS -k --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" --list-only \
+               "ftp://$FTP_SERVER:21/kitzhen.dk/public_html/" 2>/dev/null | grep -qx "wp-config.php"; then
+            echo "Hoveddomænet er kitzhen.dk – udruller dertil."
+            SITE_DIR="kitzhen.dk/public_html"
+            echo "SITE_DIR=kitzhen.dk/public_html" >> "$GITHUB_ENV"
+            echo "SITE_URL=https://kitzhen.dk" >> "$GITHUB_ENV"
+          fi
           if ! curl -sS -k --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" --list-only \
                "ftp://$FTP_SERVER:21/$SITE_DIR/" | grep -qx "wp-config.php"; then
             echo "::error::Fandt ikke $SITE_DIR/wp-config.php på FTP-serveren. Mapper i roden:"
