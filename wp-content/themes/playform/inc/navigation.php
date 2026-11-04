@@ -162,7 +162,7 @@ function playform_menu_labels(): array {
 		'kedel'               => 'Kedler',
 		'sodavandsmaskine'    => 'Sodavandsmaskiner',
 		'isterningmaskine'    => 'Isterningmaskiner',
-		'drikkevarekoeleskab' => 'Køleskabe til drikkevarer',
+		'vinkoeleskab'        => 'Vinkøleskabe',
 		'toendekoeler'        => 'Tøndekølere',
 		'mikroovn'            => 'Mikroovne',
 		'miniovn'             => 'Miniovne',

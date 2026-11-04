@@ -94,7 +94,7 @@ final class Config {
 				'kedel'                => [ 'name' => 'Kedel', 'match' => 'elkedel|vandkoger|\bkedel\b|kedel til|fløjtekedel' ],
 				'sodavandsmaskine'     => [ 'name' => 'Sodavandsmaskine', 'match' => 'sodavandsmaskine|sodastream|kulsyremaskine|aarke' ],
 				'isterningmaskine'     => [ 'name' => 'Isterningmaskine', 'match' => 'isterningmaskine|ice ?maker' ],
-				'drikkevarekoeleskab'  => [ 'name' => 'Køleskab til drikkevarer', 'match' => 'drikkevarekøleskab|køleskab til drikke|vinkøleskab|ølkøler|minikøleskab|barkøleskab' ],
+				'vinkoeleskab'         => [ 'name' => 'Vinkøleskab', 'match' => 'drikkevarekøleskab|køleskab til drikke|vinkøleskab|ølkøler|minikøleskab|barkøleskab' ],
 				'toendekoeler'         => [ 'name' => 'Tøndekøler', 'match' => 'tøndekøler|party ?cooler' ],
 			],
 			'ovne-apparater' => [

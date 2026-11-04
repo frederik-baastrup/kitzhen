@@ -8,7 +8,7 @@ return [
 	'slug'     => 'bedste-koeleskab-til-drikkevarer',
 	'title'    => 'Køleskab til drikkevarer: Vores bud på de 3 bedste',
 	'excerpt'  => 'Et køleskab til drikkevarer frigør plads i det store køleskab og holder vin, øl og sodavand klar. Her er vores bud på de 3 bedste fra danske butikker – fra vinkøleskab til party cooler.',
-	'more_cat' => 'drikkevarekoeleskab',
+	'more_cat' => 'vinkoeleskab',
 	'intro'    => <<<'HTML'
 <p>Et køleskab til drikkevarer giver plads i det almindelige køleskab og holder vin, øl, sodavand og vand klar – i køkkenet, stuen, kælderen eller udestuen. Der er to hovedtyper: vinkøleskabe med glaslåge, præcis temperatur og hylder til flasker, og mobile "party coolers", der kan stå, hvor festen er.</p>
 <p>Lige nu har de danske butikker vi samarbejder med flest vinkøleskabe, så to af vores tre bud er vinkøleskabe – de kan sagtens også rumme øl og sodavand. Nederst finder du en købsguide til størrelse, temperatur, støj og placering.</p>
@@ -67,7 +67,7 @@ HTML,
 <p>Med to zoner kan du have rødvin og hvidvin ved hver sin temperatur. Med én zone er hele skabet samme temperatur – fint, hvis du mest har drikkevarer, der skal være kolde.</p>
 <h3>Støj og placering</h3>
 <p>Skal skabet stå i stuen eller i et åbent køkken, så kig efter støjniveauet i dB. Fritstående skabe skal have luft omkring sig; indbygningsmodeller har ventilation fortil og kan bygges ind i køkkenet.</p>
-<p>Se alle <a href="/kaffe-drikke/drikkevarekoeleskab/">køleskabe til drikkevarer og vin</a>, og find de rigtige glas i vores guides til <a href="/bedste-roedvinsglas/">rødvinsglas</a> og <a href="/bedste-store-vinglas/">store vinglas</a>.</p>
+<p>Se alle <a href="/kaffe-drikke/vinkoeleskab/">vinkøleskabe</a>, og find de rigtige glas i vores guides til <a href="/bedste-roedvinsglas/">rødvinsglas</a> og <a href="/bedste-store-vinglas/">store vinglas</a>.</p>
 HTML,
 	'faq'      => [
 		[ 'Kan man have øl i et vinkøleskab?', 'Ja. Tjek bare, hvor lav temperaturen kan gå. Mange vinkøleskabe går ned til omkring 5 °C, hvilket er fint til øl og sodavand.' ],

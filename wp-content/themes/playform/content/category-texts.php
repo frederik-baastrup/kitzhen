@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) || exit;
 return [
 
 	// Hovedkategorier.
-	'kaffe-drikke'    => [ 'intro' => 'Espressomaskiner, kaffekværne, mokkakander, kedler, sodavandsmaskiner og køleskabe til drikkevarer fra flere danske webshops samlet ét sted.' ],
+	'kaffe-drikke'    => [ 'intro' => 'Espressomaskiner, kaffekværne, mokkakander, kedler, sodavandsmaskiner og vinkøleskabe fra flere danske webshops samlet ét sted.' ],
 	'ovne-apparater'  => [ 'intro' => 'Mikroovne, miniovne, airfryere, brødristere, paninigrills og andre apparater til køkkenet fra flere danske webshops samlet ét sted.' ],
 	'grill'           => [ 'intro' => 'Gasgrill, kulgrill, kamado, røgeovn og andet til udekøkkenet fra flere danske webshops samlet ét sted.' ],
 	'gryder-pander'   => [ 'intro' => 'Gryder, grydesæt, stegepander, wokpander og specialpander til induktion og gas fra flere danske webshops samlet ét sted.' ],
@@ -31,7 +31,7 @@ return [
 	'kedel'               => [ 'intro' => 'Elkedler og kedler til komfur og induktion. Se modeller fra flere danske webshops samlet ét sted.' ],
 	'sodavandsmaskine'    => [ 'intro' => 'Sodavandsmaskiner, der laver kulsyrevand derhjemme. Se modeller fra flere danske webshops samlet ét sted.' ],
 	'isterningmaskine'    => [ 'intro' => 'Isterningmaskiner, der laver isterninger på få minutter – til fester, bar og sommer. Se modeller fra flere danske webshops.' ],
-	'drikkevarekoeleskab' => [ 'intro' => 'Køleskabe til drikkevarer, vinkøleskabe og ølkølere. Se modeller fra flere danske webshops samlet ét sted.' ],
+	'vinkoeleskab'        => [ 'intro' => 'Vinkøleskabe og køleskabe til drikkevarer – fra små modeller til køkkenet til store vinskabe med flere temperaturzoner. Se modeller fra flere danske webshops samlet ét sted.' ],
 	'toendekoeler'        => [ 'intro' => 'Tøndekølere og party coolers, der holder drikkevarerne kolde til fester. Se udvalget fra flere danske webshops.' ],
 
 	// Ovne & apparater.

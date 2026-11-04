@@ -197,6 +197,7 @@ function playform_launch(): void {
 
 function playform_run_upgrades(): void {
 	playform_launch();
+	playform_rename_categories(); // før Install::activate, så der ikke oprettes en ny kategori ved siden af den gamle
 	playform_refresh_multishop();
 	playform_update_legal_pages();
 	playform_author_profile();
@@ -706,3 +707,50 @@ add_action(
 	},
 	0
 );
+
+/**
+ * Omdøbte kategorier: gammel slug => [ ny slug, nyt navn, gammel intro ]. Kategorien beholder sit term-id,
+ * så produkterne følger med. Introen skiftes kun, hvis redaktøren ikke har rettet den.
+ */
+function playform_renamed_categories(): array {
+	return [
+		'drikkevarekoeleskab' => [ 'vinkoeleskab', 'Vinkøleskab', 'Køleskabe til drikkevarer, vinkøleskabe og ølkølere. Se modeller fra flere danske webshops samlet ét sted.' ],
+	];
+}
+
+function playform_rename_categories(): void {
+	$texts = file_exists( get_template_directory() . '/content/category-texts.php' ) ? (array) include get_template_directory() . '/content/category-texts.php' : [];
+	foreach ( playform_renamed_categories() as $old => [ $new, $name, $old_intro ] ) {
+		$term = get_term_by( 'slug', $old, 'product_cat' );
+		if ( ! $term || get_term_by( 'slug', $new, 'product_cat' ) ) {
+			continue;
+		}
+		$args = [ 'slug' => $new, 'name' => $name ];
+		if ( trim( $term->description ) === $old_intro && ! empty( $texts[ $new ]['intro'] ) ) {
+			$args['description'] = $texts[ $new ]['intro'];
+		}
+		wp_update_term( $term->term_id, 'product_cat', $args );
+	}
+}
+
+// Gamle kategoriadresser (fx /kaffe-drikke/drikkevarekoeleskab/) → 301 til den nye adresse.
+add_action( 'template_redirect', function (): void {
+	$path = trim( (string) wp_parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH ), '/' );
+	if ( '' === $path ) {
+		return;
+	}
+	foreach ( playform_renamed_categories() as $old => [ $new ] ) {
+		$parts = explode( '/', $path );
+		$i     = array_search( $old, $parts, true );
+		if ( false === $i ) {
+			continue;
+		}
+		$term = get_term_by( 'slug', $new, 'product_cat' );
+		$url  = $term ? get_term_link( $term ) : '';
+		if ( $url && ! is_wp_error( $url ) ) {
+			$rest = implode( '/', array_slice( $parts, $i + 1 ) ); // fx tilbud/ eller page/2/
+			wp_safe_redirect( trailingslashit( $url ) . ( $rest ? trailingslashit( $rest ) : '' ), 301 );
+			exit;
+		}
+	}
+}, 1 );
