@@ -174,7 +174,7 @@ function playform_run_upgrades(): void {
 	if ( class_exists( '\Playform\Feeds\Sales' ) ) {
 		\Playform\Feeds\Sales::refresh_all( current_time( 'Y-m-d' ) ); // kontrollerede førpriser
 	}
-	foreach ( [ 'playform_front_popular', 'playform_front_deals', 'playform_front_new', 'playform_price_ranges' ] as $t ) {
+	foreach ( [ 'playform_front_popular', 'playform_front_deals', 'playform_front_new', 'playform_price_ranges', 'playform_front_cat_espressomaskine', 'playform_front_cat_gasgrill', 'playform_front_cat_roeremaskine', 'playform_front_cat_pizzaovn', 'playform_front_cat_airfryer' ] as $t ) {
 		delete_transient( $t );
 	}
 	// Indlæg (guides) ligger direkte under roden: /bedste-gasgrill/ (samme adresser som det gamle site).
