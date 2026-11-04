@@ -8,6 +8,11 @@ namespace Playform\Feeds;
 final class Attributes {
 
 	public static function extract( array $offer, string $category ): array {
+		// Kun de egenskaber, nichen bruger (Config::attributes()). Kitzhen: ingen endnu.
+		$enabled = Config::attributes();
+		if ( ! $enabled ) {
+			return [];
+		}
 		$text = mb_strtolower( $offer['name'] . ' ' . $offer['description'] );
 		$attr = [
 			'foldable'   => null,
@@ -35,6 +40,6 @@ final class Attributes {
 		if ( $category === 'vaegte-kettlebells' && preg_match( '/(\d{1,3}(?:[.,]\d)?)\s*kg/u', mb_strtolower( $offer['name'] ), $m ) ) {
 			$attr['weight_kg'] = (float) str_replace( ',', '.', $m[1] );
 		}
-		return array_filter( $attr, static fn( $v ) => $v !== null );
+		return array_intersect_key( array_filter( $attr, static fn( $v ) => $v !== null ), array_flip( $enabled ) );
 	}
 }

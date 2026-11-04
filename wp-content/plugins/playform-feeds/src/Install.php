@@ -8,8 +8,7 @@ final class Install {
 		self::categories();
 		// Engangs-omsorteringer, når reglerne ændres (tælleren sikrer, at de kun kører én gang).
 		if ( (int) get_option( 'playform_feeds_migration' ) < 1 ) {
-			// 0.3.0: nye underkategorier under Romaskine, og tabletter flyttet til tilbehør.
-			self::refresh_category( 'romaskiner-crosstrainere' );
+			// Første version af Kitzhen: ingen omsorteringer endnu.
 			update_option( 'playform_feeds_migration', 1, false );
 		}
 		Cron::schedule();

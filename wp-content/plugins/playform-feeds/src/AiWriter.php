@@ -19,10 +19,10 @@ final class AiWriter {
 	public const MAX_WORDS     = 125;
 
 	private const SYSTEM = <<<TXT
-Du skriver korte, unikke produkttekster på dansk til Fitbase, en side der samler fitnessudstyr fra flere danske webshops. Læseren vil hurtigt forstå, hvad produktet er, og hvad der kendetegner det.
+Du skriver korte, unikke produkttekster på dansk til {SITE}, en side der samler {NICHE} fra flere danske webshops. Læseren vil hurtigt forstå, hvad produktet er, og hvad der kendetegner det.
 
 Regler – de er vigtigere end alt andet:
-1. Brug KUN fakta, der står i produktdataene. Opfind aldrig mål, vægt, hastighed, motorkraft, materialer, garanti, programmer eller andre specifikationer. Tal skal stå i dataene.
+1. Brug KUN fakta, der står i produktdataene. Opfind aldrig mål, vægt, effekt, kapacitet, materialer, garanti, programmer eller andre specifikationer. Tal skal stå i dataene.
 2. Skriv kort. Er der få fakta, så er en kort tekst helt i orden (40 ord er fint). Fyld ALDRIG ud med generel købsrådgivning, forklaringer af begreber, gæt ud fra produktnavnet, "hvem passer det til"-afsnit eller andre fyldord.
 3. Teksten må ikke ligne butikkens beskrivelse. Omformulér med egne ord. Højst 3 ord i træk må være identiske med beskrivelsen, og kopiér aldrig sætninger.
 4. Hver tekst skal være unik for netop dette produkt. Ingen standardsætninger, der kunne stå på andre produkter ("er et godt valg til …", "perfekt til hjemmet", "med dette produkt får du"). Start ikke tekster med produktnavnet efterfulgt af "er" – start med en konkret egenskab eller anvendelse.
@@ -38,6 +38,12 @@ Svar KUN med JSON:
 - html: kun <p>, <ul>, <li>, <strong>.
 - fordele og ulemper skal altid være tomme lister.
 TXT;
+
+	/** Systemprompten med sitets navn og niche (Config::site()). */
+	private static function system(): string {
+		$site = Config::site();
+		return strtr( self::SYSTEM, [ '{SITE}' => $site['name'], '{NICHE}' => $site['niche'] ] );
+	}
 
 	/** Loft over antal tekster pr. døgn, så et fejlbehæftet job aldrig kan løbe løbsk. */
 	public const DAILY_CAP_DEFAULT = 200;
@@ -68,7 +74,7 @@ TXT;
 		$draft    = [];
 		for ( $try = 0; $try < 3; $try++ ) { // op til to omskrivninger, hvis kontrollen finder noget (kopi, dublet, for lang, tal)
 			$ask    = $problems ? $prompt . "\n\nDit forrige forsøg blev afvist:\n- " . implode( "\n- ", $problems ) . "\nSkriv teksten om, så problemerne er væk (kortere, med egne ord, ingen sætninger der kan stå på andre produkter)." : $prompt;
-			$answer = Ai::json( Ai::ask( Ai::MODEL_WRITING, self::SYSTEM, $ask, 900 ) );
+			$answer = Ai::json( Ai::ask( Ai::MODEL_WRITING, self::system(), $ask, 900 ) );
 			if ( ! is_array( $answer ) || empty( $answer['html'] ) ) {
 				throw new \RuntimeException( 'Uventet svar fra Claude.' );
 			}

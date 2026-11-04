@@ -2,14 +2,10 @@
 namespace Playform\Feeds;
 
 /**
- * Placerer et produkt i Playforms kategoritræ ud fra navn og butikkens kategori.
+ * Placerer et produkt i sitets kategoritræ (Config::categories()) ud fra navn og butikkens kategori.
  * Returnerer en kategori-slug, 'exclude' (skal ikke med) eller Config::uncategorized_slug().
  */
 final class Classifier {
-
-	/** Maskinkategorier, hvor tilbehør (silikone, måtter, reservedele …) skal sendes til Tilbehør. */
-	private const MACHINE = [ 'lobebaand', 'motionscykler', 'romaskiner-crosstrainere' ];
-	private const ACCESSORY = 'silikone|smøre|olie|beskyttelsesmåtte|måtte til|underlag|gulvbeskytt|reservedel|sikkerhedsnøgle|pulsbælte|\bbælte til|motorbælte|holder til|tabletholder|cover|overtræk|sadel|pedal(er)?\b|hjul til|rensetablet|tabletter|klortablet|\bbase for\b';
 
 	public static function classify( array $offer ): string {
 		$name = mb_strtolower( $offer['name'] );
@@ -36,8 +32,9 @@ final class Classifier {
 		if ( ! $found && ! in_array( $cat, Config::meaningless_shop_categories(), true ) && $cat !== mb_strtolower( $offer['brand'] ) ) {
 			$found = self::first_match( $cat );
 		}
-		if ( $found && in_array( $found, self::MACHINE, true ) && self::m( self::ACCESSORY, $name ) ) {
-			$found = 'tilbehor';
+		// Tilbehør til maskiner (reservedele, filtre …) placeres for sig (Config::machine_categories()).
+		if ( $found && in_array( $found, Config::machine_categories(), true ) && self::m( Config::accessory_pattern(), $name ) ) {
+			$found = Config::accessory_target();
 		}
 		return $found ?: Config::uncategorized_slug();
 	}

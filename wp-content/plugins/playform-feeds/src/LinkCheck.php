@@ -71,7 +71,7 @@ final class LinkCheck {
 					'timeout'             => 10,
 					'redirection'         => 0,
 					'limit_response_size' => 8192,
-					'user-agent'          => 'Mozilla/5.0 (compatible; FitbaseLinkCheck/1.0; +https://fitbase.dk)',
+					'user-agent'          => 'Mozilla/5.0 (compatible; ' . Config::site()['name'] . 'LinkCheck/1.0; +https://' . Config::site()['domain'] . ')',
 				]
 			);
 			if ( is_wp_error( $res ) ) {

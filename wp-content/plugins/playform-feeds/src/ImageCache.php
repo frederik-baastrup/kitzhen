@@ -37,7 +37,7 @@ final class ImageCache {
 		if ( is_file( $dest ) ) {
 			return true;
 		}
-		$res = wp_remote_get( $remote, [ 'timeout' => 20, 'redirection' => 3, 'user-agent' => 'Playform/1.0 (+https://playform.dk)' ] );
+		$res = wp_remote_get( $remote, [ 'timeout' => 20, 'redirection' => 3, 'user-agent' => Config::site()['name'] . '/1.0 (+https://' . Config::site()['domain'] . ')' ] );
 		if ( is_wp_error( $res ) || wp_remote_retrieve_response_code( $res ) !== 200 ) {
 			return false;
 		}

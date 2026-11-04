@@ -2,142 +2,210 @@
 namespace Playform\Feeds;
 
 /**
- * Al opsætning ét sted: shops, kategoritræ og sorteringsregler.
- * En ny niche (fx hvidevarer) er en ny udgave af denne fil.
+ * Al opsætning for nichen ét sted: sitets navn, shops, kategoritræ, sorteringsregler og filtre.
+ * Kitzhen (køkkenudstyr). En ny niche er en ny udgave af denne fil; resten af koden er den samme som Fitbase.
  */
 final class Config {
 
-	/** Partner-ads feeds. Kan overstyres med option 'playform_shops'. */
+	/** Sitets navn og kontaktoplysninger. Bruges af temaet (playform_site()) og importens tekster. */
+	public static function site(): array {
+		return [
+			'name'     => 'Kitzhen',
+			'domain'   => 'kitzhen.dk',
+			'email'    => 'kontakt@kitzhen.dk',
+			'niche'    => 'køkkenudstyr', // "Find køkkenudstyr fra …"
+			'tagline'  => 'Køkkenudstyr fra flere danske webshops samlet ét sted',
+			'company'  => 'Mondae',
+			'cvr'      => '37208329',
+			'address'  => 'Rønnevej 19 B, kl., 5270 Odense N',
+			'owner'    => 'Frederik Baastrup',
+			'accent'   => '#24FF00', // fra logoet
+		];
+	}
+
+	/**
+	 * Partner-ads feeds. Kan overstyres med option 'playform_shops'.
+	 * Shops uden 'url' springes over af importen. Feed-linket findes under programmet i Partner-ads
+	 * (feed_udlaes.php?partnerid=…&bannerid=…&feedid=…). Kun godkendte programmer.
+	 */
 	public static function shops(): array {
 		$base     = 'https://www.partner-ads.com/dk/feed_udlaes.php?partnerid=14854';
+		// Rækkefølgen af feed-links antaget ud fra ejerens besked 4. nov. 2026 – bekræftes.
 		$defaults = [
-			'apuls'                 => [ 'name' => 'Apuls.dk',              'url' => "$base&bannerid=46187&feedid=637" ],
-			'fitnessshoppen'        => [ 'name' => 'Fitnessshoppen.dk',     'url' => "$base&bannerid=74933&feedid=1680" ],
-			'traeningspartner'      => [ 'name' => 'Træningspartner',       'url' => "$base&bannerid=67325&feedid=1378" ],
-			'den-intelligente-krop' => [ 'name' => 'Den Intelligente Krop', 'url' => "$base&bannerid=38097&feedid=400" ],
-			'optimasport'           => [ 'name' => 'OptimaSport.dk',        'url' => "$base&bannerid=83091&feedid=2014" ],
-			// Kun dame- og herrecykler (til købsguiderne om citybikes). Hver størrelse er en række i feedet,
-			// så rækker med samme navn samles til ét produkt ('group_variants').
-			'cykelexperten'         => [
-				'name'           => 'Cykelexperten.dk',
-				'url'            => "$base&bannerid=35898&feedid=345",
-				'category_map'   => [ 'cykler > damecykler' => 'damecykler', 'cykler > herrecykler' => 'herrecykler' ],
-				'group_variants' => true,
-			],
+			'gourmetshoppen'      => [ 'name' => 'Gourmetshoppen.com', 'url' => "$base&bannerid=56457&feedid=1000" ],
+			'bagestaalet'         => [ 'name' => 'Bagestålet.dk', 'url' => "$base&bannerid=79640&feedid=1878" ],
+			'cibumic'             => [ 'name' => 'Cibumic.dk', 'url' => "$base&bannerid=46609&feedid=651" ],
+			'japanske-kokkeknive' => [ 'name' => 'Japanske kokkeknive', 'url' => "$base&bannerid=80950&feedid=1925" ],
+			'kitchenone'          => [ 'name' => 'KitchenOne.dk', 'url' => "$base&bannerid=90982&feedid=2362" ],
+			'hvidevareshoppen'    => [ 'name' => 'HvidevareShoppen.dk', 'url' => "$base&bannerid=59757&feedid=1113" ],
+			'koege-kafferisteri'  => [ 'name' => 'Køge Kafferisteri', 'url' => "$base&bannerid=58102&feedid=1060" ],
+			'barlife'             => [ 'name' => 'Barlife.dk', 'url' => "$base&bannerid=79283&feedid=1862" ],
 		];
 		$custom = get_option( 'playform_shops' );
 		return is_array( $custom ) && $custom ? $custom : $defaults;
 	}
 
 	/**
-	 * Playforms kategorier. 'match' testes først mod produktnavnet, derefter mod butikkens kategori.
-	 * Rækkefølgen betyder noget: den første kategori, der matcher, vinder.
+	 * Kitzhens kategorier. 'match' testes først mod produktnavnet, derefter mod butikkens kategori.
+	 * Rækkefølgen betyder noget: den første kategori, der matcher, vinder (fx pizzaovn før ovn,
+	 * grillpande før grill, isterningmaskine før ismaskine).
+	 * Slugs må aldrig starte med "bedste-" – det er forbeholdt guides på roden (se permalinks.php).
 	 */
 	public static function categories(): array {
 		return [
-			'trampoliner'        => [ 'name' => 'Trampoliner', 'match' => 'trampolin|mini-?tramp|rebounder' ],
-			'lobebaand'          => [ 'name' => 'Løbebånd', 'match' => 'løbebånd|gåbånd|walking ?pad|curve runner|treadmill' ],
-			'motionscykler'      => [ 'name' => 'Motionscykler', 'match' => 'siddecykel|spinningcykel|spinning ?bike|spin ?bike|motionscykel|kondicykel|liggecykel|air ?bike|assault ?bike|ergometercykel|indoor ?cycle|indendørscykel|pedaltræner' ],
-			'romaskiner-crosstrainere' => [ 'name' => 'Romaskiner & crosstrainere', 'match' => 'romaskine|rower|rowing|roergometer|ski ?erg|crosstrainer|cross ?trainer|elliptical' ],
-			'vaegte-kettlebells' => [ 'name' => 'Vægte & kettlebells', 'match' => 'bodypump|ez ?curl|curl ?bar|weight ?bar|vægtstænger|kettlebell|håndvægt|dumbbell|vægtskive|bumper|vægtstang|barbell|vægtstativ|stativ til håndvægt|curlstang|olympisk stang|vægtvest|ankelvægt' ],
-			'styrke-baenke'      => [ 'name' => 'Bænke & racks', 'match' => 'multi træningsmaskine|træningsmaskine|stack|lat[- ]?attachment|træningsbænk|vægtbænk|\bbænk\b|\bbench\b|\brack\b|racks|power ?cage|squat|smith|multigym|home ?gym|styrkemaskine|kabeltræk|lat ?pull|leg ?press|benpres|pulley|keiser|plate loaded|pull[- ]?up|dip ?station|chin[- ]?up|vægtstak' ],
-			'yoga-pilates'       => [ 'name' => 'Yoga & pilates', 'match' => 'yoga|pilates|reformer|meditation' ],
-			'restitution'        => [ 'name' => 'Restitution', 'match' => 'sauna|jacknobber|ekoroll|rygstrækker|backflex|massage|foam ?roller|foamroller|recovery|kuldeterapi|varmeterapi|isbad|ice ?bath|triggerpunkt|massagepistol' ],
-			'damecykler'         => [ 'name' => 'Damecykler', 'match' => 'damecykel|damecykler' ],
-			'herrecykler'        => [ 'name' => 'Herrecykler', 'match' => 'herrecykel|herrecykler' ],
-			'tilbehor'           => [ 'name' => 'Tilbehør', 'match' => 'fitnessbold|træningsbold|\\bbold\\b|grips|løftekæde|hammer|wallbar|ribbe|slyngetræner|push-?up|parallettes|stepbænk|vægtvest|weight ?vest|power ?bags?|timer|pegboard|hand ?grip|flexbar|hand ?wraps|håndbind|\\bmma\\b|boksehjelm|benskinne|shin ?guard|skridtbeskytter|tandbeskytter|løftebælte|træningsbælte|fjederlås|\\bgreb\\b|attachment|hoppetræning|vibrationstræner|chalk|magnesia|kinesio|sportstape|\\btape\\b|boksehandske|boksesæk|boksebold|boksning|sandsæk|træningsmåtte|gulvmåtte|underlag|gulv\b|måtte|elastik|træningsbånd|loop ?band|modstandsbånd|sjippetov|springreb|ab ?wheel|mavehjul|medicinbold|slam ?ball|wall ?ball|gymball|balancebold|balance|stepbræt|træningshandske|løftestropper|vægtløfterbælte|greb og håndtag|håndtag|kalk|sandbag|battle ?rope|plyo|agility|træningsudstyr|core|boldtræning|suspension|trx|ringe|vægtløftning' ],
+			'pizza-bagning'   => [ 'name' => 'Pizza & bagning', 'match' => 'pizza|bagest[åa]l|bagesten|brødmaskine|bagemaskine|pastamaskine|pasta ?maker|bageform|springform|kageform|muffinform|bageplade|dejskraber|kagerulle|udstikker|sprøjtepose|hævekurv|surdej' ],
+			'kaffe-drikke'    => [ 'name' => 'Kaffe & drikke', 'match' => 'espresso|kaffemaskine|kaffebrygger|kaffekværn|kaffe ?kværn|mokkakande|\bmoka\b|stempelkande|french ?press|filterkaffe|kaffefilter|mælkeskummer|mælkeskumm|elkedel|vandkoger|\bkedel\b|kedel til|tekande|sodavandsmaskine|sodastream|kulsyre|isterningmaskine|drikkevarekøleskab|køleskab til drikke|vinkøleskab|ølkøler|tøndekøler|party ?cooler|cocktail|shaker|barudstyr|isspand' ],
+			'ovne-apparater'  => [ 'name' => 'Ovne & apparater', 'match' => 'mikroovn|mikrobølge|miniovn|mini ?ovn|minikøkken|airfryer|air ?fryer|varmluftsfriture|friture|brødrister|toaster|paninigrill|panini|sandwichtoaster|sandwich ?maker|vaffeljern|riskoger|slow ?cooker|langtidskoger|multicooker|trykkoger|sous ?vide|dehydrator|frugttørrer|vakuumpakker|vakuumpakning|\bismaskine|softice|gaskomfur|komfur|kogeplade|induktionsplade|indbygningsovn|\bovn\b|emhætte' ],
+			'koekkenmaskiner' => [ 'name' => 'Køkkenmaskiner', 'match' => 'stavblender|blender|smoothie ?maker|røremaskine|køkkenmaskine|foodprocessor|food ?processor|minihakker|hakkemaskine|kødhakker|slow ?juicer|juicer|juicemaskine|saftpresser|citruspresser|spiralizer|pålægsmaskine|rullepølsepresse|pølsemaskine|elektrisk kartoffelskræller|kartoffelskræller,? elektrisk|håndmixer|elpisker' ],
+			'gryder-pander'   => [ 'name' => 'Gryder & pander', 'match' => 'gryde|kasserolle|sauterpande|(?<!paella)pande\b|stegepande|wok\b|wokpande|grillpande|blinispande|æbleskivepande|støbejern|dutch ?oven|bradepande|ovnfast fad|låg til' ],
+			'grill'           => [ 'name' => 'Grill & udekøkken', 'match' => 'gasgrill|kulgrill|kamado|big green egg|grill|røgeovn|smoker|bordgrill|raclette|gasbrænder|paella|grillkul|briketter|plancha|bålpande|udekøkken' ],
+			'knive-redskaber' => [ 'name' => 'Knive & redskaber', 'match' => 'kniv|knive|santoku|gyuto|nakiri|petty|knivsliber|slibesten|vandsten|knivblok|knivmagnet|skærebræt|skærebrædt|rivejern|parmesan|grøntsagshakker|mandolin|skræller|hvidløgspresse|køkkensaks|piskeris|grydeske|paletkniv|stegevender|\bøse\b|dørslag|sigte\b|køkkenvægt|stegetermometer|køkkentermometer|æggeur|måleske|målebæger|køkkenredskab' ],
+			'servering'       => [ 'name' => 'Servering & borddækning', 'match' => 'vinglas|rødvinsglas|hvidvinsglas|champagneglas|ølglas|drikkeglas|\bglas\b|karaffel|dekanter|tallerken|\bskål\b|skåle|\bkop\b|kopper|krus|bestik|\bstel\b|julestel|spisestel|ostesæt|ostebræt|serveringsbakke|serveringsfad|\bfad\b|kande\b|bordskåner|dækkeserviet|tapasbræt' ],
 		];
 	}
 
 	/**
-	 * Underkategorier = egne landingssider, fx /kategori/lobebaand/foldbart-lobebaand/.
-	 * 'match' testes mod produktnavnet, 'desc' mod butikkens beskrivelse, 'attr' mod udtrukne egenskaber,
-	 * og 'not' udelukker ud fra navnet. Et produkt kan ligge i flere. En underkategori kan selv have
-	 * underkategorier (fx Romaskine → Romaskine med vand).
-	 * Navnene er valgt efter, hvad folk søger på (ental, som i Google).
+	 * Underkategorier = egne landingssider, fx /grill/gasgrill/. Navnene følger søgeordene i guiderne
+	 * (/bedste-gasgrill/ linker til /grill/gasgrill/). 'match' testes mod produktnavnet, 'desc' mod
+	 * butikkens beskrivelse, 'not' udelukker ud fra navnet. Et produkt kan ligge i flere.
+	 * Slugs skal være unikke i hele træet (WooCommerce-krav) og må ikke starte med "bedste-".
 	 */
 	public static function subcategories(): array {
 		return [
-			'lobebaand' => [
-				'foldbart-lobebaand'          => [ 'name' => 'Foldbart løbebånd', 'match' => 'foldbar|sammenklappelig|folding', 'attr' => [ 'foldable' => true ] ],
-				'gaabaand'                    => [ 'name' => 'Gåbånd', 'match' => 'gåbånd|walking ?pad|gå/løbebånd|walkingpad' ],
-				'lobebaand-med-incline'       => [ 'name' => 'Løbebånd med incline', 'attr' => [ 'incline' => true ] ],
-				'manuelt-lobebaand'           => [ 'name' => 'Manuelt løbebånd', 'match' => 'manuel|curve|curved|uden strøm|non-?motor' ],
-				'lobebaand-til-tunge-brugere' => [ 'name' => 'Løbebånd til tunge brugere', 'attr' => [ 'max_weight' => [ 150, null ] ] ],
+			'pizza-bagning' => [
+				'pizzaovn'    => [ 'name' => 'Pizzaovn', 'match' => 'pizzaovn|pizza ?ovn|pizza oven' ],
+				'pizzasten'   => [ 'name' => 'Pizzasten og bagestål', 'match' => 'pizzasten|pizza ?sten|bagesten|bagest[åa]l|pizzastål' ],
+				'broedmaskine'=> [ 'name' => 'Brødmaskine', 'match' => 'brødmaskine|bagemaskine' ],
+				'pastamaskine'=> [ 'name' => 'Pastamaskine', 'match' => 'pastamaskine|pasta ?maker' ],
+				'bageforme'   => [ 'name' => 'Bageforme', 'match' => 'bageform|springform|kageform|muffinform|brødform' ],
 			],
-			'motionscykler' => [
-				'spinningcykel' => [ 'name' => 'Spinningcykel', 'match' => 'spinning|spin ?bike|indoor ?cycl|indendørscykel' ],
-				'kondicykel'    => [ 'name' => 'Kondicykel', 'match' => 'motionscykel|kondicykel|ergometer|exercise ?bike|upright' ],
-				'liggecykel'    => [ 'name' => 'Liggecykel', 'match' => 'liggecykel|recumbent|siddecykel' ],
-				'airbike'       => [ 'name' => 'Airbike', 'match' => 'air ?bike|assault|fan ?bike|echo bike' ],
+			'kaffe-drikke' => [
+				'espressomaskine'      => [ 'name' => 'Espressomaskine', 'match' => 'espressomaskine|espresso ?maskine|espressomachine|fuldautomatisk|portafilter', 'not' => 'kværn|tamper|kande|kop' ],
+				'kaffekvaern'          => [ 'name' => 'Kaffekværn', 'match' => 'kaffekværn|kaffe ?kværn|grinder' ],
+				'mokkakande'           => [ 'name' => 'Mokkakande', 'match' => 'mokkakande|moka|bialetti' ],
+				'stempelkande'         => [ 'name' => 'Stempelkande', 'match' => 'stempelkande|french ?press' ],
+				'kedel'                => [ 'name' => 'Kedel', 'match' => 'elkedel|vandkoger|\bkedel\b|kedel til|fløjtekedel' ],
+				'sodavandsmaskine'     => [ 'name' => 'Sodavandsmaskine', 'match' => 'sodavandsmaskine|sodastream|kulsyremaskine|aarke' ],
+				'isterningmaskine'     => [ 'name' => 'Isterningmaskine', 'match' => 'isterningmaskine|ice ?maker' ],
+				'drikkevarekoeleskab'  => [ 'name' => 'Køleskab til drikkevarer', 'match' => 'drikkevarekøleskab|køleskab til drikke|vinkøleskab|ølkøler|minikøleskab|barkøleskab' ],
+				'toendekoeler'         => [ 'name' => 'Tøndekøler', 'match' => 'tøndekøler|party ?cooler' ],
 			],
-			'romaskiner-crosstrainere' => [
-				'romaskine'     => [ 'name' => 'Romaskine', 'match' => 'romaskine|rower|rowing|roergometer|ski ?erg' ],
-				'crosstrainer'  => [ 'name' => 'Crosstrainer', 'match' => 'crosstrainer|cross ?trainer|elliptical' ],
+			'ovne-apparater' => [
+				'mikroovn'    => [ 'name' => 'Mikroovn', 'match' => 'mikroovn|mikrobølge' ],
+				'miniovn'     => [ 'name' => 'Miniovn', 'match' => 'miniovn|mini ?ovn|bordovn' ],
+				'airfryer'    => [ 'name' => 'Airfryer', 'match' => 'airfryer|air ?fryer|varmluftsfriture' ],
+				'broedrister' => [ 'name' => 'Brødrister', 'match' => 'brødrister|toaster', 'not' => 'sandwich' ],
+				'paninigrill' => [ 'name' => 'Paninigrill', 'match' => 'paninigrill|panini|sandwichtoaster|kontaktgrill' ],
+				'riskoger'    => [ 'name' => 'Riskoger', 'match' => 'riskoger|rice ?cooker' ],
+				'slow-cooker' => [ 'name' => 'Slow cooker', 'match' => 'slow ?cooker|langtidskoger|multicooker' ],
+				'sous-vide'   => [ 'name' => 'Sous vide', 'match' => 'sous ?vide' ],
+				'dehydrator'  => [ 'name' => 'Dehydrator', 'match' => 'dehydrator|frugttørrer|madtørrer' ],
+				'vakuumpakker'=> [ 'name' => 'Vakuumpakker', 'match' => 'vakuumpakker|vakuumpakning|vakuummaskine' ],
+				'ismaskine'   => [ 'name' => 'Ismaskine', 'match' => '\bismaskine|softice|ice ?cream' ],
+				'gaskomfur'   => [ 'name' => 'Gaskomfur', 'match' => 'gaskomfur|gaskogeplade|gasblus' ],
 			],
-			'vaegte-kettlebells' => [
-				'kettlebell'    => [ 'name' => 'Kettlebells', 'match' => 'kettlebell' ],
-				'haandvaegte'   => [ 'name' => 'Håndvægte', 'match' => 'håndvægt|dumbbell|hexagon|dumbell' ],
-				'vaegtskiver'   => [ 'name' => 'Vægtskiver', 'match' => 'vægtskive|bumper|\bplates?\b|skive' ],
-				'vaegtstaenger' => [ 'name' => 'Vægtstænger', 'match' => 'vægtstang|vægtstænger|barbell|curl ?bar|ez[- ]?bar|weight ?bar|olympisk stang' ],
-				'vaegtstativ'   => [ 'name' => 'Vægtstativ', 'match' => 'stativ|dumbbell ?rack|vægtrack|opbevaring' ],
+			'koekkenmaskiner' => [
+				'stavblender'      => [ 'name' => 'Stavblender', 'match' => 'stavblender|stavmixer|hand ?blender' ],
+				'blender'          => [ 'name' => 'Blender', 'match' => 'blender|smoothie', 'not' => 'stav|hand ?blender' ],
+				'roeremaskine'     => [ 'name' => 'Røremaskine', 'match' => 'røremaskine|køkkenmaskine|stand ?mixer' ],
+				'foodprocessor'    => [ 'name' => 'Foodprocessor', 'match' => 'foodprocessor|food ?processor|minihakker|hakkemaskine' ],
+				'slow-juicer'      => [ 'name' => 'Slow juicer', 'match' => 'slow ?juicer|saftpresser' ],
+				'juicemaskine'     => [ 'name' => 'Juicemaskine', 'match' => 'juicer|juicemaskine|citruspresser', 'not' => 'slow' ],
+				'spiralizer'       => [ 'name' => 'Spiralizer', 'match' => 'spiralizer|spiralskærer' ],
+				'palaegsmaskine'   => [ 'name' => 'Pålægsmaskine', 'match' => 'pålægsmaskine|skæremaskine' ],
+				'rullepoelsepresse'=> [ 'name' => 'Rullepølsepresse', 'match' => 'rullepølsepresse' ],
 			],
-			'styrke-baenke' => [
-				'traeningsbaenk' => [ 'name' => 'Træningsbænk', 'match' => 'bænk|bench' ],
-				'power-rack'     => [ 'name' => 'Power rack', 'match' => '\brack\b|power ?cage|squat ?stand|squat ?rack|half ?rack' ],
-				'multigym'       => [ 'name' => 'Multigym', 'match' => 'multigym|multi ?gym|home ?gym|multistation|funktionel træner|cable' ],
-				'pull-up-stang'  => [ 'name' => 'Pull-up-stang', 'match' => 'pull[- ]?up|chin[- ]?up|dip' ],
+			'gryder-pander' => [
+				'gryde'          => [ 'name' => 'Gryde', 'match' => 'gryde|kasserolle|dutch ?oven', 'not' => 'grydesæt|gryde ?sæt' ],
+				'grydesaet'      => [ 'name' => 'Grydesæt', 'match' => 'grydesæt|gryde ?sæt|\d+ ?dele' ],
+				'stegepande'     => [ 'name' => 'Stegepande', 'match' => 'stegepande|sauterpande|(?<!paella|grill|blinis|æbleskive)pande\b', 'not' => 'grill|blinis|æbleskive|wok|paella' ],
+				'wokpande'       => [ 'name' => 'Wokpande', 'match' => 'wok' ],
+				'grillpande'     => [ 'name' => 'Grillpande', 'match' => 'grillpande' ],
+				'blinispande'    => [ 'name' => 'Blinispande', 'match' => 'blinis|pandekagepande|crepe' ],
+				'aebleskivepande'=> [ 'name' => 'Æbleskivepande', 'match' => 'æbleskive' ],
 			],
-			'yoga-pilates' => [
-				'yogamaatte'       => [ 'name' => 'Yogamåtte', 'match' => 'yogamåtte|yoga ?mat|yoga ?måtte' ],
-				'pilates-reformer' => [ 'name' => 'Pilates reformer', 'match' => 'reformer' ],
-				'yogatilbehor'     => [ 'name' => 'Yogatilbehør', 'match' => 'yogablok|yoga ?blok|yogastrop|strop|meditationspude|bolster' ],
+			'grill' => [
+				'gasgrill'     => [ 'name' => 'Gasgrill', 'match' => 'gasgrill|gas ?grill' ],
+				'kulgrill'     => [ 'name' => 'Kulgrill', 'match' => 'kulgrill|kul ?grill|kuglegrill', 'not' => 'kamado' ],
+				'kamado-grill' => [ 'name' => 'Kamado grill', 'match' => 'kamado|big green egg' ],
+				'roegeovn'     => [ 'name' => 'Røgeovn', 'match' => 'røgeovn|smoker|rygeovn' ],
+				'bordgrill'    => [ 'name' => 'Bordgrill', 'match' => 'bordgrill|elgrill|elektrisk grill|raclette' ],
+				'gasbraender'  => [ 'name' => 'Gasbrænder', 'match' => 'gasbrænder|paella ?brænder|gasblus' ],
+				'paellapande'  => [ 'name' => 'Paellapande', 'match' => 'paella' ],
 			],
-			'restitution' => [
-				'massagepistol' => [ 'name' => 'Massagepistol', 'match' => 'massagepistol|massage ?gun|theragun|percussion' ],
-				'foam-roller'   => [ 'name' => 'Foam roller', 'match' => 'foam ?roller|foamroller|massagerulle|\broll\b|blackroll' ],
-				'recovery-boots' => [ 'name' => 'Recovery boots', 'match' => 'recovery boots|kompressionsstøvle' ],
-				'kuldeterapi'   => [ 'name' => 'Kuldeterapi og isbad', 'match' => 'kulde|isbad|ice ?bath|cold' ],
+			'knive-redskaber' => [
+				'kokkekniv'       => [ 'name' => 'Kokkekniv', 'match' => 'kokkekniv|chef|santoku|gyuto|nakiri|kokkeknive' ],
+				'japansk-kniv'    => [ 'name' => 'Japansk kniv', 'match' => 'japansk|santoku|gyuto|nakiri|petty|damask|shun|global|kai\b' ],
+				'steakknive'      => [ 'name' => 'Steakknive', 'match' => 'steakkniv|steak ?kniv|bøfkniv' ],
+				'knivsliber'      => [ 'name' => 'Knivsliber', 'match' => 'knivsliber|slibesten|vandsten|strygestål' ],
+				'rivejern'        => [ 'name' => 'Rivejern', 'match' => 'rivejern|parmesan|microplane' ],
+				'groentsagshakker'=> [ 'name' => 'Grøntsagshakker', 'match' => 'grøntsagshakker|mandolin|hakker', 'not' => 'mini|elektrisk' ],
+				'skaerebraet'     => [ 'name' => 'Skærebræt', 'match' => 'skærebræt|skærebrædt|bambus' ],
 			],
-			'trampoliner' => [
-				'havetrampolin'       => [ 'name' => 'Havetrampolin', 'match' => 'ø ?\\d{3}|\\d,\\d{1,2} ?m\\b|sikkerhedsnet|premium|flexi|oval|rektangul|inground' ],
-				'nedgravet-trampolin' => [ 'name' => 'Nedgravet trampolin', 'match' => 'inground|nedgrav' ],
-				'fitnesstrampolin'    => [ 'name' => 'Fitnesstrampolin', 'match' => 'fitness|mini-?tramp|rebounder|\\b(8\\d|9\\d|1[0-4]\\d) ?cm' ],
-			],
-			'tilbehor' => [
-				'traeningsmaatte' => [ 'name' => 'Træningsmåtte', 'match' => 'træningsmåtte|gulvmåtte|måtte|gulv' ],
-				'elastikker'      => [ 'name' => 'Træningselastik', 'match' => 'elastik|band\b|bands\b|loop' ],
-				'boksning'        => [ 'name' => 'Boksning', 'match' => 'boks|mma|hand ?wraps|håndbind|sandsæk|punching' ],
-				'traeningsbolde'  => [ 'name' => 'Træningsbolde', 'match' => 'bold\b|ball\b|gymball|medicinbold|slam ?ball|wall ?ball' ],
-				'sjippetov'       => [ 'name' => 'Sjippetov', 'match' => 'sjippetov|springreb|jump ?rope' ],
-			],
-			// Under Romaskine. 'desc' testes mod butikkens beskrivelse, 'not' udelukker ud fra navnet.
-			'romaskine' => [
-				'romaskine-vand'               => [ 'name' => 'Romaskine med vand', 'match' => 'vandromaskine|vand-romaskine|water|aqua', 'desc' => 'vandmodstand|vand-?modstand|vandtank|vandbeholder|water ?resistance|water ?tank|vandfyldt|fyldt med vand|vandets modstand|modstand fra vand|vand som modstand', 'not' => 'ski ?erg' ],
-				'romaskine-luftmodstand'       => [ 'name' => 'Romaskine med luftmodstand', 'match' => '\bair\b|airmag|air ?rower|luftromaskine', 'desc' => 'luftmodstand|luft-?modstand|air ?resistance|vindmodstand|luft som modstand|blæsermodstand|ventilatorhjul|vifte', 'not' => 'ski ?erg|vand|water|aqua' ],
-				'romaskine-magnetisk'          => [ 'name' => 'Magnetisk romaskine', 'match' => 'magnet|airmag', 'desc' => 'magnetisk modstand|magnetmodstand|magnet-?modstand|magnetic resistance|magnetisk bremse|magnetbremse|magnetsystem|magnetiske modstand', 'not' => 'ski ?erg|vand|water|aqua' ],
-				'romaskine-til-hjemmetraening' => [ 'name' => 'Romaskine til hjemmetræning', 'desc' => 'hjemmetræning|til hjemmet|i hjemmet|hjemmebrug|hjemme-?gym|home ?gym|derhjemme|hjemmefitness|til private|privat brug', 'not' => 'ski ?erg' ],
+			'servering' => [
+				'vinglas'      => [ 'name' => 'Vinglas', 'match' => 'vinglas|rødvinsglas|hvidvinsglas|champagneglas|bordeaux|bourgogne' ],
+				'tallerkener'  => [ 'name' => 'Tallerkener', 'match' => 'tallerken|pastatallerken|dyb tallerken' ],
+				'spisestel'    => [ 'name' => 'Spisestel', 'match' => '\bstel\b|julestel|spisestel|service' ],
+				'ostesaet'     => [ 'name' => 'Ostesæt', 'match' => 'ostesæt|ostebræt|ostekniv' ],
+				'karafler'     => [ 'name' => 'Karafler', 'match' => 'karaffel|dekanter|kande\b' ],
 			],
 		];
 	}
 
-	/** Produkter, der aldrig skal med (navn eller butikkens kategori). */
+	/** Produkter, der aldrig skal med (navn eller butikkens kategori). Finjusteres, når feedsne er hentet. */
 	public static function exclude(): array {
 		return [
 			'gavekort',
-			// Trampoliner er med, men ikke tilbehøret (stige, cover, elastik, forankring, sikring m.m.).
-			'\\b(stige|cover|elastik|forankring\\w*|stormsikring|basketkurv|opbevaringslommer|rutchebane|fjedre?|kantbeklædning|betræk|net)\\b[^,]{0,40}trampolin|trampolin[^,]{0,25}\\b(stormsikring|basketkurv|opbevaringslommer|rutchebane|stige|cover)\\b|tilbehør til trampolin',
-			'konnector|connector kit|\\bkit for\\b|spare ?part|replacement part|\\bsn ?[<>]',
-			'\bguide\b|guides til|tips og tricks|de bedste|de \d bedste|vedligeholder du',
-			'kosttilskud|protein|kreatin|\bbcaa\b|vitamin|mad og drikke|drikkeflask|termokop',
-			'\bsko\b|sneaker|t-shirt|tights|shorts|bukser|jakke|hættetrøje|sportstøj|træningstøj|fritidstøj|tøj & sko|kompressionsbeklædning|strømpe|sokker|undertøj|nederdel|kjole',
-			'løbesko|leggins|leggings|termokrus|camping|grill|flåt|næsestrip|basketstander|netgarniture|skudtræner|shine & protect|bandage|sleeve|\\bbrace\\b|albuebeskytter|knæbeskytter|smerteplaster|plaster\\b|træningssko|pulsmåling|pleje|hygiejne|bøger|\bbog\b|skærmbrille|computer-|søvn|udlejning|\bdemo\b|reservedel|håndbold|fodbold|basketball|volleyball|svøm|padel|tennis|golf|kampsport|graviditet|sanser|børn|ergonomi|funktionelle møbler|\bnav\b|fokus|lyd &|måleapparat|åndedræt|bækkenbund|støttebind|hårtilbehør|\btens\b|hydrogen',
+			'reservedel|spare ?part|replacement part|\bsn ?[<>]',
+			'\bguide\b|opskriftsbog|kogebog|\bbog\b|bøger',
+			// Hvidevarer, der ikke hører til i et køkken-sortiment for madlavning
+			'vaskemaskine|tørretumbler|vaskesøjle|opvaskemaskine|fryser|kummefryser|køle-?fryseskab|\bkøleskab\b(?!.*(drikke|vin|øl))|støvsuger|robotstøvsuger|affugter|aircondition|varmepumpe|\btv\b|fjernsyn',
+			// Fødevarer og forbrugsvarer (vi samler udstyr, ikke mad)
+			'kaffebønner|hele bønner|formalet kaffe|espressobønner|kapsler|kaffepuder|\bte\b \d|chokolade|slik|krydderi|olivenolie|eddike|sirup|marmelade|kulsyrepatron|rensetablet|afkalkning|filterposer',
+			// Tøj og tekstiler
+			'forklæde|grydelapp|grydehandske|viskestykke|karklud|\bt-shirt\b',
 		];
 	}
 
 	/** Butikskategorier, hvor kun vores egne regler må afgøre placeringen (de siger intet om produktet). */
 	public static function meaningless_shop_categories(): array {
-		return [ 'brands', 'træningsudstyr a-z', 'tilbud', 'nyheder', 'sport', 'wellness', 'tilbehør', 'fødder', 'ryg', 'mave', 'hænder', 'træning' ];
+		return [ 'brands', 'mærker', 'tilbud', 'udsalg', 'nyheder', 'gaveideer', 'gaver', 'alle produkter', 'køkken', 'køkkenudstyr', 'black friday' ];
+	}
+
+	/**
+	 * Maskinkategorier, hvor tilbehør (filtre, reservedele, låg …) i stedet skal til 'accessory_target'.
+	 * Fitbase bruger det til løbebånd m.m.; Kitzhen bruger det ikke endnu.
+	 */
+	public static function machine_categories(): array {
+		return [];
+	}
+
+	public static function accessory_pattern(): string {
+		return 'reservedel|filter til|kande til|skål til|knivblad til|tilbehør til';
+	}
+
+	public static function accessory_target(): string {
+		return 'knive-redskaber';
+	}
+
+	/**
+	 * Hvilke filteregenskaber Attributes skal udtrække fra teksten (se Attributes::extract()).
+	 * Fitbase: foldable, incline, max_speed, max_weight, weight_kg. Kitzhen: ingen endnu.
+	 */
+	public static function attributes(): array {
+		return [];
+	}
+
+	/** Prisintervaller i filtre og mega-menu: nøgle => [ label, min, max ]. */
+	public static function price_bands(): array {
+		return [
+			'0-250'     => [ 'Under 250 kr', 0, 250 ],
+			'250-500'   => [ '250–500 kr', 250, 500 ],
+			'500-1000'  => [ '500–1.000 kr', 500, 1000 ],
+			'1000-2500' => [ '1.000–2.500 kr', 1000, 2500 ],
+			'2500-5000' => [ '2.500–5.000 kr', 2500, 5000 ],
+			'5000-'     => [ 'Over 5.000 kr', 5000, PHP_INT_MAX ],
+		];
 	}
 
 	public static function uncategorized_slug(): string {

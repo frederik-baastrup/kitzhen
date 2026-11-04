@@ -50,7 +50,7 @@ final class Cron {
 		try {
 			LinkCheck::run(); // døde produktsider hos butikkerne
 		} catch ( \Throwable $e ) {
-			error_log( 'Fitbase linktjek: ' . $e->getMessage() ); // phpcs:ignore
+			error_log( Config::site()['name'] . ' linktjek: ' . $e->getMessage() ); // phpcs:ignore
 		}
 		if ( ! Ai::enabled() ) {
 			return 0;

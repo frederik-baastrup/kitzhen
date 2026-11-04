@@ -51,9 +51,10 @@ final class AiClassifier {
 		foreach ( Config::categories() as $slug => $def ) {
 			$cats[] = "- $slug: {$def['name']}";
 		}
-		$system = "Du sorterer produkter for Playform, en dansk side med fitnessudstyr til hjemmet.\n"
+		$site   = Config::site();
+		$system = "Du sorterer produkter for {$site['name']}, en dansk side med {$site['niche']} til hjemmet.\n"
 			. "Kategorier:\n" . implode( "\n", $cats ) . "\n"
-			. "- exclude: hører ikke til på en fitnessside (tøj, sko, kosttilskud, plastre, bandager, medicinsk udstyr, camping, holdsport, gavekort, rengøring m.m.)\n"
+			. "- exclude: hører ikke til på en side med {$site['niche']} (fødevarer, kaffebønner, tøj, tekstiler, hvidevarer til vask og frys, støvsugere, gavekort, reservedele m.m.)\n"
 			. "- unknown: du er i tvivl\n"
 			. 'Svar KUN med JSON: et objekt hvor nøglen er produktets id og værdien er kategoriens slug. Ingen forklaring.';
 		$lines = array_map(
