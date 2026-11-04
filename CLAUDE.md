@@ -61,6 +61,15 @@ wp playform sales                   # genberegn butikstilbud
 
 På hosting: kør `wp playform import` fra et rigtigt cronjob kl. 05:30 og 17:30 og sæt `DISABLE_WP_CRON`.
 
+Cronjobs på SiteGround (Site Tools → Devs → Cron Jobs), sat op 4. nov. 2026 på det midlertidige domæne:
+
+```
+30 5,17 * * *  cd /home/customer/www/frederikb10.sg-host.com/public_html && wp playform import --quiet
+*/5 * * * *    cd /home/customer/www/frederikb10.sg-host.com/public_html && wp cron event run --due-now --quiet
+```
+
+Når kitzhen.dk flyttes, omdøber SiteGround mappen – ret stien i begge jobs og `SITE_DIR`/`SITE_URL` i deploy.yml.
+
 ## Udrulning
 
 Hvert push til `main` udrulles via GitHub Actions (FTPS) til SiteGround. Kræver secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` og variablerne `SITE_DIR` (fx `kitzhen.dk/public_html`) og `SITE_URL` (fx `https://kitzhen.dk`). Mangler de, springes udrulningen over. Udrulningen stopper, hvis mappen ikke indeholder `wp-config.php`.
