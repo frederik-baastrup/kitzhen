@@ -84,5 +84,8 @@ Som Fitbase: hvid baggrund, sort tekst, BDO Grotesk, afrundede hjørner, tynde l
 
 - **Grill:** dækkes af KitchenOne (ca. 1.160 produkter: gasgrill, kamado, kulgrill, røgeovne, tilbehør). En ekstra grillforhandler er ikke nødvendig.
 - SEO-tekst og FAQ til kategorierne mangler (kun intro).
-- Guides fra det gamle site skal skrives om som `content/best/<slug>.php`.
+- Guides fra det gamle site skal skrives om som `content/best/<slug>.php` (samme format som Fitbases `content/best/`, se `playform_seed_best()` og `playform_best_html()` i `inc/best.php`). Importen er kørt (4. nov. 2026). Rækkefølge efter trafik på det gamle site: bedste-kedel-til-induktion (212), bedste-gasgrill (159), bedste-tykbundet-gryde (154), bedste-groentsagshakker (89), bedste-flad-broedrister (69), derefter resten efter indgange i redirect-planen.
+  - **Højst 5 modeller pr. guide** (ejerens valg 4. nov. 2026). Hver model skal findes i feedsne (vælg via EAN), være på lager og have billede.
+  - Top-valg bygger på rigtige anmeldelser af præcis samme model (links i 'reviews'); ellers markeret "vores vurdering". Aldrig påstand om egen test.
+  - Et artikelfoto pr. guide fra Pexels i `assets/img/articles/<slug>.jpg` (1800 px). Aldrig produktbilleder.
 - Udrulning kører til det midlertidige domæne (frederikb10.sg-host.com). Når kitzhen.dk flyttes, skal SITE_DIR/SITE_URL i deploy.yml rettes.
