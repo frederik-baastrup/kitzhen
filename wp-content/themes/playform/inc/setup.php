@@ -132,6 +132,17 @@ add_filter(
 				}
 				$response->header( 'X-PF-Picks', $bad ? implode( ' ', $bad ) : 'ok' );
 				$response->header( 'X-PF-Imageless', (string) get_option( 'playform_imageless_hidden', 'unset' ) );
+				$last = (array) get_option( 'playform_feeds_last_run', [] );
+				$sum  = [ 'started=' . ( $last['started'] ?? '-' ), 'finished=' . ( $last['finished'] ?? '-' ) ];
+				foreach ( (array) ( $last['shops'] ?? [] ) as $k => $st ) {
+					$sum[] = $k . ':' . (int) ( $st['read'] ?? 0 ) . 'r/' . (int) ( $st['new'] ?? 0 ) . 'n' . ( ! empty( $st['error'] ) ? '/ERR ' . substr( (string) $st['error'], 0, 80 ) : '' );
+				}
+				$response->header( 'X-PF-Lastrun', implode( ' ', $sum ) );
+				$counts = $wpdb->get_results( "SELECT shop, COUNT(*) n FROM {$wpdb->prefix}pf_offers GROUP BY shop", ARRAY_A ) ?: [];
+				$response->header( 'X-PF-Offers', implode( ' ', array_map( static fn( $r ) => $r['shop'] . '=' . $r['n'], $counts ) ) );
+				$state = get_option( 'playform_import_state' );
+				$response->header( 'X-PF-State', $state ? wp_json_encode( array_intersect_key( (array) $state, array_flip( [ 'shop', 'offset', 'queue', 'started', 'today', 'i' ] ) ) ) : 'none' );
+				$response->header( 'X-PF-Running', get_transient( 'playform_feeds_running' ) ? 'yes' : 'no' );
 			}
 		}
 		return $response;
