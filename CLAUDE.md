@@ -75,4 +75,4 @@ Som Fitbase: hvid baggrund, sort tekst, BDO Grotesk, afrundede hjørner, tynde l
 - Kategoribilleder (`cat-<slug>.jpg`) mangler.
 - SEO-tekst og FAQ til kategorierne mangler (kun intro).
 - Guides fra det gamle site skal skrives om som `content/best/<slug>.php`.
-- Udrulning til SiteGround er ikke sat op endnu.
+- Udrulning kører til det midlertidige domæne (frederikb10.sg-host.com). Når kitzhen.dk flyttes, skal SITE_DIR/SITE_URL i deploy.yml rettes.
