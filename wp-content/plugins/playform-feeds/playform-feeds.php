@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Playform Feeds
- * Description: Importerer produktfeeds fra Partner-ads, sorterer dem i Playforms kategorier og holder priser, lager og prishistorik opdateret.
+ * Description: Importerer produktfeeds fra Partner-ads, sorterer dem i sitets kategorier (Config.php) og holder priser, lager og prishistorik opdateret.
  * Version: 0.1.0
  * Requires PHP: 8.1
  * Requires Plugins: woocommerce

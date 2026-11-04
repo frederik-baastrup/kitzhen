@@ -71,7 +71,7 @@ Som Fitbase: hvid baggrund, sort tekst, BDO Grotesk, afrundede hjørner, tynde l
 
 ## Åbne punkter (4. nov. 2026)
 
-- **Grill:** Kategorien er den tredjestørste målt på trafik, men har ingen ren grillforhandler. KitchenOne dækker en del. Mange forhandlere sælger grill, men ikke alle hører hjemme under køkken.
+- **Grill:** dækkes af KitchenOne (ca. 1.160 produkter: gasgrill, kamado, kulgrill, røgeovne, tilbehør). En ekstra grillforhandler er ikke nødvendig.
 - Kategoribilleder (`cat-<slug>.jpg`) mangler.
 - SEO-tekst og FAQ til kategorierne mangler (kun intro).
 - Guides fra det gamle site skal skrives om som `content/best/<slug>.php`.
