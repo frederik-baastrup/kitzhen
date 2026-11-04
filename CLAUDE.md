@@ -19,7 +19,7 @@ Alt, der er særligt for nichen, ligger i `wp-content/plugins/playform-feeds/src
   - `content/category-texts.php` – intro, SEO-tekst og FAQ til kategorierne. Tomme felter udfyldes ved udrulning; felter med tekst røres ikke.
   - `inc/setup.php` – opdateringer efter udrulning, standardsider, cache-tømning. Permalinks `/%postname%/`.
   - `inc/legal.php` – privatlivs- og cookiepolitik med pladsholdere (`{NAME}`, `{DOMAIN}` …).
-  - `assets/img/` – logo (sort tekst til lys baggrund), `logo-white.svg`, favicon. Kategoribilleder lægges som `cat-<slug>.jpg` (+ `th-<slug>.jpg` til mobilmenuen); mangler de, vises `cat-placeholder.svg`.
+  - `assets/img/` – logo (sort tekst til lys baggrund), `logo-white.svg`, favicon. Kategoribilleder: `cat-<slug>.jpg` (1600×1100) + `th-<slug>.jpg` (240×240, mobilmenu); mangler de, vises `cat-placeholder.svg`. De 8 hovedkategorier har fotos fra Pexels (fri licens, ingen kreditering krævet), foto-id: grill 16617574, kaffe-drikke 5825346, ovne-apparater 5825716, koekkenmaskiner 6608137, gryder-pander 15257786, knive-redskaber 32878603, pizza-bagning 905847, servering 1114425. Underkategorier bruger forælderens billede. Brug aldrig produktbilleder som kategori- eller artikelbilleder.
 
 ## URL'er
 
@@ -72,7 +72,6 @@ Som Fitbase: hvid baggrund, sort tekst, BDO Grotesk, afrundede hjørner, tynde l
 ## Åbne punkter (4. nov. 2026)
 
 - **Grill:** dækkes af KitchenOne (ca. 1.160 produkter: gasgrill, kamado, kulgrill, røgeovne, tilbehør). En ekstra grillforhandler er ikke nødvendig.
-- Kategoribilleder (`cat-<slug>.jpg`) mangler.
 - SEO-tekst og FAQ til kategorierne mangler (kun intro).
 - Guides fra det gamle site skal skrives om som `content/best/<slug>.php`.
 - Udrulning kører til det midlertidige domæne (frederikb10.sg-host.com). Når kitzhen.dk flyttes, skal SITE_DIR/SITE_URL i deploy.yml rettes.
