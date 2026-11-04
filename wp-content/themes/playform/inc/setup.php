@@ -232,7 +232,7 @@ function playform_update_text( string $slug, string $old, string $new ): void {
  * Kun billeder på mindst 1200 px i bredden bruges (ingen pixelerede billeder) – ellers beholdes Pexels-billedet.
  * Højst $limit pr. kørsel; resten tages af en planlagt kørsel et par minutter senere. Status i option playform_legacy_imgs.
  */
-function playform_legacy_article_images( int $limit = 8 ): void {
+function playform_legacy_article_images( int $limit = 4 ): void {
 	$file = get_template_directory() . '/content/legacy-images.php';
 	$map  = is_readable( $file ) ? require $file : [];
 	$done = (array) get_option( 'playform_legacy_imgs', [] );
@@ -243,7 +243,14 @@ function playform_legacy_article_images( int $limit = 8 ): void {
 	require_once ABSPATH . 'wp-admin/includes/media.php';
 	require_once ABSPATH . 'wp-admin/includes/file.php';
 	require_once ABSPATH . 'wp-admin/includes/image.php';
+	@set_time_limit( 300 ); // phpcs:ignore
+	// Planlæg næste kørsel først – stopper denne kørsel undervejs (timeout), fortsætter den næste, hvor vi slap.
+	if ( count( $todo ) > $limit && ! wp_next_scheduled( 'playform_legacy_images' ) ) {
+		wp_schedule_single_event( time() + 120, 'playform_legacy_images' );
+	}
 	foreach ( array_slice( $todo, 0, $limit, true ) as $slug => $url ) {
+		$done[ $slug ] = 'fejl'; // gemmes med det samme, så et billede, der får kørslen til at gå ned, ikke blokerer resten
+		update_option( 'playform_legacy_imgs', $done, false );
 		$post = get_posts( [ 'name' => $slug, 'post_type' => 'post', 'post_status' => 'any', 'numberposts' => 1 ] );
 		if ( ! $post ) {
 			continue; // guiden er ikke oprettet endnu – prøv igen senere
@@ -271,6 +278,7 @@ function playform_legacy_article_images( int $limit = 8 ): void {
 		update_post_meta( $att, '_wp_attachment_image_alt', get_the_title( $id ) );
 		set_post_thumbnail( $id, $att );
 		$done[ $slug ] = 'ok';
+		update_option( 'playform_legacy_imgs', $done, false );
 	}
 	update_option( 'playform_legacy_imgs', $done, false );
 	if ( array_diff_key( $map, $done ) && ! wp_next_scheduled( 'playform_legacy_images' ) ) {
