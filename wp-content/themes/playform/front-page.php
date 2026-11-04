@@ -27,10 +27,10 @@ function playform_front_products( string $which ): array {
 			$base['order']        = 'DESC';
 		} elseif ( $which === 'new' ) {
 			$base['orderby'] = 'rand';
-			$base['tax_query'] = [ [ 'taxonomy' => 'product_cat', 'field' => 'slug', 'terms' => [ 'lobebaand', 'motionscykler', 'romaskiner-crosstrainere', 'styrke-baenke', 'restitution' ] ] ];
+			$base['tax_query'] = [ [ 'taxonomy' => 'product_cat', 'field' => 'slug', 'terms' => array_column( playform_menu_spec(), 0 ) ] ];
 		} else {
-			// "Populære": de store træningsmaskiner fra hovedkategorierne, blandet hver dag.
-			$base['tax_query']    = [ [ 'taxonomy' => 'product_cat', 'field' => 'slug', 'terms' => [ 'lobebaand', 'motionscykler', 'romaskiner-crosstrainere', 'vaegte-kettlebells', 'styrke-baenke' ] ] ];
+			// "Populære": maskiner og grill (størst kurv og kommission), blandet hver dag.
+			$base['tax_query']    = [ [ 'taxonomy' => 'product_cat', 'field' => 'slug', 'terms' => [ 'grill', 'kaffe-drikke', 'koekkenmaskiner', 'ovne-apparater', 'pizza-bagning' ] ] ];
 			$base['meta_query'][] = [ 'key' => '_price', 'value' => 400, 'compare' => '>=', 'type' => 'NUMERIC' ];
 			$base['orderby']      = 'rand';
 		}
@@ -41,35 +41,29 @@ function playform_front_products( string $which ): array {
 }
 
 $hero = [
-	[ 'slug' => 'lobebaand', 'title' => 'Løbebånd', 'img' => 'hero-lobebaand.jpg', 'big' => true, 'subs' => [ [ 'Foldbart løbebånd', [ 'sub' => 'foldbart-lobebaand' ] ], [ 'Gåbånd', [ 'sub' => 'gaabaand' ] ], [ 'Løbebånd med incline', [ 'sub' => 'lobebaand-med-incline' ] ], [ 'Billigt løbebånd', [ 'sortering' => 'pris-lav' ] ] ] ],
-	[ 'slug' => 'kettlebell', 'title' => 'Kettlebells', 'img' => 'hero-kettlebells.jpg', 'subs' => [ [ 'Kettlebell 12 kg', [ 'sub' => 'kettlebell', 'vaegt' => '12' ] ], [ 'Kettlebell 16 kg', [ 'sub' => 'kettlebell', 'vaegt' => '16' ] ], [ 'Kettlebell 24 kg', [ 'sub' => 'kettlebell', 'vaegt' => '24' ] ] ] ],
-	[ 'slug' => 'motionscykler', 'title' => 'Motionscykler', 'img' => 'hero-motionscykler.jpg', 'subs' => [ [ 'Spinningcykel', [ 'sub' => 'spinningcykel' ] ], [ 'Kondicykel', [ 'sub' => 'kondicykel' ] ], [ 'Airbike', [ 'sub' => 'airbike' ] ], [ 'Liggecykel', [ 'sub' => 'liggecykel' ] ] ] ],
+	[ 'slug' => 'grill', 'title' => 'Grill', 'big' => true, 'subs' => [ [ 'Gasgrill', [ 'sub' => 'gasgrill' ] ], [ 'Kamado grill', [ 'sub' => 'kamado-grill' ] ], [ 'Kulgrill', [ 'sub' => 'kulgrill' ] ], [ 'Pizzaovn', [ 'sub' => 'pizzaovn' ] ] ] ],
+	[ 'slug' => 'kaffe-drikke', 'title' => 'Kaffe', 'subs' => [ [ 'Espressomaskine', [ 'sub' => 'espressomaskine' ] ], [ 'Kaffekværn', [ 'sub' => 'kaffekvaern' ] ], [ 'Mokkakande', [ 'sub' => 'mokkakande' ] ] ] ],
+	[ 'slug' => 'gryder-pander', 'title' => 'Gryder & pander', 'subs' => [ [ 'Gryder', [ 'sub' => 'gryde' ] ], [ 'Stegepander', [ 'sub' => 'stegepande' ] ], [ 'Grydesæt', [ 'sub' => 'grydesaet' ] ], [ 'Wokpander', [ 'sub' => 'wokpande' ] ] ] ],
 ];
-// Desktop: de tre store kort ovenfor. Mobil: karrusel med 6 kategorier – dyre maskiner først (størst kurv og kommission).
+// Desktop: de tre store kort ovenfor. Mobil: karrusel med 6 kategorier – maskiner og grill først (størst kurv og kommission).
 $mob = array_values( array_filter(
-	[ 'lobebaand', 'motionscykler', 'romaskiner-crosstrainere', 'styrke-baenke', 'vaegte-kettlebells', 'restitution' ],
+	[ 'grill', 'kaffe-drikke', 'ovne-apparater', 'koekkenmaskiner', 'gryder-pander', 'knive-redskaber' ],
 	static function ( $c ) {
 		$t = get_term_by( 'slug', $c, 'product_cat' );
 		return $t && ( $t->count > 0 || get_term_children( $t->term_id, 'product_cat' ) );
 	}
 ) );
-$extra = [
-	'romaskiner-crosstrainere' => [ 'Romaskiner', 'mm-romaskine.jpg' ],
-	'vaegte-kettlebells'       => [ 'Vægte & kettlebells', 'hero-kettlebells.jpg' ],
-	'styrke-baenke'            => [ 'Bænke & racks', 'mm-baenk.jpg' ],
-	'yoga-pilates'             => [ 'Yoga & pilates', 'mm-pilates.jpg' ],
-	'restitution'              => [ 'Restitution', 'mm-restitution.jpg' ],
-	'tilbehor'                 => [ 'Tilbehør', 'mm-tilbehor.jpg' ],
-];
 foreach ( $hero as &$h ) {
 	$pos       = array_search( $h['slug'], $mob, true );
 	$h['mob']  = false !== $pos ? $pos : -1; // -1 = kun desktop
 	$h['desk'] = true;
+	$h['img']  = playform_category_image( $h['slug'] );
 }
 unset( $h );
 foreach ( $mob as $pos => $c ) {
-	if ( isset( $extra[ $c ] ) ) {
-		$hero[] = [ 'slug' => $c, 'title' => $extra[ $c ][0], 'img' => $extra[ $c ][1], 'mob' => $pos, 'desk' => false, 'subs' => array_map( static fn( $l ) => [ $l[0], $l[1] ], array_slice( playform_sub_links( $c ), 0, 3 ) ) ];
+	if ( ! in_array( $c, array_column( $hero, 'slug' ), true ) ) {
+		$t      = get_term_by( 'slug', $c, 'product_cat' );
+		$hero[] = [ 'slug' => $c, 'title' => $t ? playform_cat_label( $t ) : $c, 'img' => playform_category_image( $c ), 'mob' => $pos, 'desk' => false, 'subs' => array_map( static fn( $l ) => [ $l[0], $l[1] ], array_slice( playform_sub_links( $c ), 0, 3 ) ) ];
 	}
 }
 $deals     = playform_front_products( 'deals' );
@@ -81,7 +75,7 @@ $has_deals = count( $deals ) >= 4;
 		<?php foreach ( $hero as $i => $h ) : ?>
 			<?php if ( $i === 1 ) : ?><div class="hero__side"><?php endif; ?>
 			<div class="cat<?php echo ! empty( $h['big'] ) ? ' cat--big' : ''; ?><?php echo $h['desk'] ? '' : ' cat--mob'; ?><?php echo $h['mob'] < 0 ? ' cat--desk' : ''; ?>"<?php echo $h['mob'] >= 0 ? ' style="--mob-order:' . (int) $h['mob'] . '"' : ''; ?>>
-				<img class="cat__img" src="<?php echo esc_url( playform_asset( $h['img'] ) ); ?>" alt="" <?php echo $i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'; ?>>
+				<img class="cat__img" src="<?php echo esc_url( $h['img'] ); ?>" alt="" <?php echo $i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'; ?>>
 				<span class="cat__shade"></span>
 				<a class="cat__main" href="<?php echo esc_url( playform_category_url( $h['slug'], $h['args'] ?? [] ) ); ?>" aria-label="<?php echo esc_attr( $h['title'] ); ?>"></a>
 				<div class="cat__body">
@@ -122,7 +116,7 @@ get_template_part(
 	<div class="news">
 		<div>
 			<h2>Få besked, når prisen falder</h2>
-			<p>Ugens bedste tilbud på fitnessudstyr og nye guides direkte i din indbakke. Ca. én mail om ugen.</p>
+			<p>Ugens bedste tilbud på <?php echo esc_html( playform_site( 'niche' ) ); ?> og nye guides direkte i din indbakke. Ca. én mail om ugen.</p>
 		</div>
 		<form class="news__form" method="post" action="#" data-newsletter data-endpoint="<?php echo esc_url( rest_url( 'playform/v1/newsletter' ) ); ?>">
 			<input type="text" name="website" tabindex="-1" autocomplete="off" class="sr-only" aria-hidden="true">
@@ -139,16 +133,6 @@ get_template_part(
 
 <?php
 $posts = get_posts( [ 'post_type' => 'post', 'posts_per_page' => 8 ] );
-$fallback = [
-	[ 'Bedste løbebånd til hjemmet: Sådan vælger du det rigtige', 'Købsguide', 'guide-lobebaand.jpg' ],
-	[ 'Gåbånd til kontoret: Er det pengene værd?', 'Hjemmekontor', 'guide-gaabaand.jpg' ],
-	[ 'Kettlebell for begyndere: 8 øvelser du skal kunne', 'Træning', 't-kettlebell.jpg' ],
-	[ 'Crosstrainer eller motionscykel – hvad skal du vælge?', 'Købsguide', 't-cykel.jpg' ],
-	[ 'Sådan indretter du et hjemmegym på 4 m²', 'Hjemmegym', 't-hjemmegym.jpg' ],
-	[ 'Hvor tunge håndvægte skal du købe?', 'Købsguide', 't-haandvaegte.jpg' ],
-	[ 'Træningsbænk: 5 ting du skal kigge efter', 'Købsguide', 't-baenk.jpg' ],
-	[ 'Romaskine: Teknik og de typiske fejl', 'Træning', 't-romaskine.jpg' ],
-];
 $items = [];
 if ( $posts ) {
 	foreach ( $posts as $post_item ) {
@@ -156,17 +140,14 @@ if ( $posts ) {
 		$items[] = [
 			'title' => get_the_title( $post_item ),
 			'tag'   => $cats ? $cats[0]->name : 'Guide',
-			'img'   => playform_post_image( $post_item, 700 ) ?: playform_asset( 'guide-lobebaand.jpg' ),
+			'img'   => playform_post_image( $post_item, 700 ) ?: playform_asset( 'cat-placeholder.svg' ),
 			'url'   => get_permalink( $post_item ),
 			'date'  => get_the_date( 'j. M Y', $post_item ),
 		];
 	}
-} else {
-	foreach ( $fallback as [ $t, $tag, $img ] ) {
-		$items[] = [ 'title' => $t, 'tag' => $tag, 'img' => playform_asset( $img ), 'url' => home_url( '/viden/' ), 'date' => '' ];
-	}
 }
 ?>
+<?php if ( $items ) : // vises, når der er udgivne guides ?>
 <section class="wrap section">
 	<div class="section__head">
 		<h2>Guides og artikler</h2>
@@ -202,9 +183,10 @@ if ( $posts ) {
 		<?php endforeach; ?>
 	</div>
 </section>
+<?php endif; ?>
 
 <?php
 $front   = get_post( (int) get_option( 'page_on_front' ) );
-$seo     = $front && trim( $front->post_content ) ? apply_filters( 'the_content', $front->post_content ) : '<h2>Fitnessudstyr til hjemmet – samlet ét sted</h2><p>Fitbase samler fitnessudstyr fra flere danske webshops ét sted. Vi henter priser og lagerstatus to gange i døgnet, så du hurtigt kan finde løbebåndet, kettlebellen eller motionscyklen, der passer til dig. Når du har fundet det rigtige produkt, sender vi dig videre til shoppen, hvor du gennemfører købet som normalt.</p><h3>Hvilket fitnessudstyr skal du vælge?</h3><p>Det afhænger af, hvad du vil træne, og hvor meget plads du har. Vil du forbedre din kondition, er et løbebånd, en crosstrainer eller en spinningcykel det oplagte valg. Har du begrænset plads, kan et foldbart løbebånd eller et gåbånd til hjemmekontoret være en god løsning. Til styrketræning kommer du langt med et par justerbare håndvægte, en kettlebell og en træningsbænk.</p><h3>Hvad skal du være opmærksom på?</h3><p>Kig efter maksimal brugervægt, garanti og støjniveau, især hvis du bor i lejlighed. På løbebånd er motorkraft og løbefladens størrelse vigtige, mens svinghjulets vægt betyder meget for, hvor jævn en spinningcykel føles.</p>';
+$seo     = $front && trim( $front->post_content ) ? apply_filters( 'the_content', $front->post_content ) : '<h2>Køkkenudstyr fra danske webshops – samlet ét sted</h2><p>' . esc_html( playform_site( 'name' ) ) . ' samler køkkenudstyr fra flere danske webshops ét sted. Vi henter priser og lagerstatus to gange i døgnet, så du hurtigt kan finde gryden, kokkekniven, kaffemaskinen eller grillen, der passer til dig. Når du har fundet det rigtige produkt, sender vi dig videre til shoppen, hvor du gennemfører købet som normalt.</p><h3>Find det rigtige køkkenudstyr</h3><p>Start med det, du laver mad i hver dag. Har du induktion, så tjek at gryder og pander er mærket til induktion. En god kokkekniv og et ordentligt skærebræt gør mere for madlavningen end mange specialredskaber, og en stavblender eller røremaskine dækker de fleste opgaver i et almindeligt køkken.</p><h3>Hvad skal du være opmærksom på?</h3><p>Se på materialer, garanti og hvordan udstyret skal rengøres – kan det tåle opvaskemaskine? På maskiner er effekt og kapacitet vigtige, mens tykkelsen på bunden betyder meget for, hvor jævnt en gryde eller pande fordeler varmen.</p>';
 get_template_part( 'template-parts/seo-text', null, [ 'html' => $seo, 'right' => true ] );
 get_footer();

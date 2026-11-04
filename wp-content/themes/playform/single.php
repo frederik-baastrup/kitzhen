@@ -27,7 +27,7 @@ while ( have_posts() ) :
 			<div class="guide__meta">
 				<a class="byline" href="<?php echo esc_url( $author['url'] ); ?>" rel="author">
 					<?php echo playform_author_avatar( $author, 44 ); // phpcs:ignore ?>
-					<span class="byline__txt"><b><span>Af</span> <?php echo esc_html( $author['name'] ); ?></b><em><?php echo esc_html( $author['role'] ); ?> hos Fitbase</em></span>
+					<span class="byline__txt"><b><span>Af</span> <?php echo esc_html( $author['name'] ); ?></b><em><?php echo esc_html( $author['role'] ); ?> hos <?php echo esc_html( playform_site( 'name' ) ); ?></em></span>
 				</a>
 				<div class="guide__chips">
 				<ul class="guide__facts">
@@ -78,7 +78,7 @@ while ( have_posts() ) :
 						<div class="author-card__who">
 							<span class="author-card__label">Skrevet af</span>
 							<a class="author-card__name" href="<?php echo esc_url( $author['url'] ); ?>" rel="author"><?php echo esc_html( $author['name'] ); ?></a>
-							<span class="author-card__role"><?php echo esc_html( $author['role'] ); ?> hos Fitbase</span>
+							<span class="author-card__role"><?php echo esc_html( $author['role'] ); ?> hos <?php echo esc_html( playform_site( 'name' ) ); ?></span>
 						</div>
 						<a class="author-card__profile" href="<?php echo esc_url( $author['url'] ); ?>">Se profil <?php echo playform_icon( 'arrow-right', 14, 1.6 ); // phpcs:ignore ?></a>
 					</div>
@@ -107,7 +107,7 @@ while ( have_posts() ) :
 			<div class="guides-list">
 				<?php foreach ( $more as $m ) : ?>
 					<a href="<?php echo esc_url( get_permalink( $m ) ); ?>" class="guide-row">
-						<img src="<?php echo esc_url( get_the_post_thumbnail_url( $m, 'thumbnail' ) ?: playform_asset( 't-hjemmegym.jpg' ) ); ?>" alt="" loading="lazy">
+						<img src="<?php echo esc_url( get_the_post_thumbnail_url( $m, 'thumbnail' ) ?: playform_asset( 'cat-placeholder.svg' ) ); ?>" alt="" loading="lazy">
 						<span><b><?php echo esc_html( get_the_title( $m ) ); ?></b><span><?php echo esc_html( get_the_date( 'j. M Y', $m ) ); ?></span></span>
 					</a>
 				<?php endforeach; ?>

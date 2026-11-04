@@ -8,7 +8,7 @@ $cookie_url = home_url( '/cookies/' );
 ?>
 <div class="cc" id="cookie-banner" data-cc data-version="<?php echo (int) PLAYFORM_CONSENT_VERSION; ?>" tabindex="-1" role="dialog" aria-labelledby="cc-title" aria-describedby="cc-text" hidden>
 	<div class="cc__view" data-cc-view="main">
-		<h2 class="cc__title" id="cc-title">Cookies på Fitbase</h2>
+		<h2 class="cc__title" id="cc-title">Cookies på <?php echo esc_html( playform_site( 'name' ) ); ?></h2>
 		<p class="cc__text" id="cc-text">Vi bruger de nødvendige cookies, for at siden virker. Statistik og markedsføring sætter vi kun, hvis du siger ja. Du kan altid ændre dit valg. Læs mere i vores <a href="<?php echo esc_url( $cookie_url ); ?>">cookiepolitik</a>.</p>
 		<div class="cc__btns">
 			<button type="button" class="cc__btn cc__btn--solid" data-cc-act="reject">Kun nødvendige</button>

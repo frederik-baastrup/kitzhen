@@ -36,17 +36,17 @@ add_filter(
 			return $parts;
 		}
 		if ( is_front_page() ) {
-			return [ 'title' => 'Fitbase.dk – Find det rigtige træningsudstyr' ];
+			return [ 'title' => playform_site( 'name' ) . '.dk – Find det rigtige ' . playform_site( 'niche' ) ];
 		}
 		if ( playform_is_tilbud_page() ) {
 			$t              = get_queried_object();
-			$parts['title'] = $t instanceof WP_Term ? 'Tilbud på ' . mb_strtolower( playform_cat_label( $t ) ) . ' – aktuelle tilbud fra danske shops' : 'Tilbud på fitnessudstyr – aktuelle tilbud fra danske shops';
+			$parts['title'] = $t instanceof WP_Term ? 'Tilbud på ' . mb_strtolower( playform_cat_label( $t ) ) . ' – aktuelle tilbud fra danske shops' : 'Tilbud på ' . playform_site( 'niche' ) . ' – aktuelle tilbud fra danske shops';
 		} elseif ( is_tax( 'product_cat' ) ) {
 			$parts['title'] = 'Køb ' . mb_strtolower( single_term_title( '', false ) ) . ' – stort udvalg fra danske shops';
 		} elseif ( is_singular( 'product' ) ) {
 			$parts['title'] = get_the_title() . ' – se pris';
 		}
-		$parts['site'] = 'Fitbase';
+		$parts['site'] = playform_site( 'name' );
 		unset( $parts['tagline'] );
 		return $parts;
 	}
@@ -61,17 +61,17 @@ add_action(
 		}
 		$desc = '';
 		if ( is_front_page() ) {
-			$desc = 'Find løbebånd, motionscykler, romaskiner, vægte og andet fitnessudstyr fra danske webshops ét sted. Sammenlign priser, se tilbud og læs vores købsguides.';
+			$desc = 'Find gryder, knive, grill, kaffemaskiner og andet køkkenudstyr fra danske webshops ét sted. Sammenlign priser, se tilbud og læs vores købsguides.';
 		} elseif ( playform_is_tilbud_page() ) {
 			$t    = get_queried_object();
-			$desc = sprintf( 'Se %s, som danske webshops har sat på tilbud lige nu. Vi samler butikkernes egne tilbud ét sted, og du handler direkte hos butikken.', $t instanceof WP_Term ? mb_strtolower( playform_cat_label( $t ) ) : 'fitnessudstyr' );
+			$desc = sprintf( 'Se %s, som danske webshops har sat på tilbud lige nu. Vi samler butikkernes egne tilbud ét sted, og du handler direkte hos butikken.', $t instanceof WP_Term ? mb_strtolower( playform_cat_label( $t ) ) : playform_site( 'niche' ) );
 		} elseif ( is_tax( 'product_cat' ) ) {
 			$desc = wp_strip_all_tags( term_description() );
 		} elseif ( is_singular( 'product' ) ) {
 			$id   = get_the_ID();
 			$p    = wc_get_product( $id );
 			$shop = playform_shop_name( (string) get_post_meta( $id, '_pf_best_shop', true ) );
-			$desc = $p ? sprintf( '%s til %s hos %s. Se pris, lagerstatus og prishistorik på Fitbase.', $p->get_name(), playform_kr( (float) $p->get_price() ), $shop ) : '';
+			$desc = $p ? sprintf( '%s til %s hos %s. Se pris, lagerstatus og prishistorik på %s.', $p->get_name(), playform_kr( (float) $p->get_price() ), $shop, playform_site( 'name' ) ) : '';
 		}
 		if ( $desc ) {
 			echo '<meta name="description" content="' . esc_attr( mb_substr( $desc, 0, 160 ) ) . '">' . "\n";

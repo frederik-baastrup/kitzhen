@@ -1,6 +1,6 @@
-# Playform
+# Kitzhen
 
-Fitnessudstyr fra flere danske shops samlet ét sted. WordPress + WooCommerce med et eget importplugin og et eget tema.
+Køkkenudstyr fra flere danske shops samlet ét sted (kitzhen.dk). Samme kodebase som Fitbase (playform-repoet); nichen er sat op i `wp-content/plugins/playform-feeds/src/Config.php`. WordPress + WooCommerce med et eget importplugin og et eget tema.
 
 ## Indhold
 

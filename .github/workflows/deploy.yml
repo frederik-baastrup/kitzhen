@@ -5,18 +5,35 @@ on:
     branches: [main]
   workflow_dispatch:
 
-# Sitet ligger i mappen fitbase.dk/public_html på FTP-kontoen (indtil 2. nov. 2026: frederikb7.sg-host.com).
-# Skiftes hoveddomænet igen, omdøber SiteGround mappen – ret så SITE_DIR her.
+# Mappen på FTP-kontoen og sitets adresse sættes som repository-variabler (Settings → Secrets and variables →
+# Actions → Variables): SITE_DIR (fx kitzhen.dk/public_html) og SITE_URL (fx https://kitzhen.dk).
+# FTP-adgangen ligger i secrets: FTP_SERVER, FTP_USERNAME, FTP_PASSWORD.
+# Mangler noget af det, springes udrulningen over (sitet er ikke sat op på SiteGround endnu).
 env:
-  SITE_DIR: fitbase.dk/public_html
+  SITE_DIR: ${{ vars.SITE_DIR }}
+  SITE_URL: ${{ vars.SITE_URL }}
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Tjek at udrulningen er sat op
+        id: setup
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        run: |
+          if [ -z "$FTP_SERVER" ] || [ -z "$SITE_DIR" ] || [ -z "$SITE_URL" ]; then
+            echo "::notice::Udrulning springes over: FTP_SERVER (secret), SITE_DIR og SITE_URL (variabler) er ikke sat endnu."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.setup.outputs.ready == 'true'
 
       # Stop, hvis mappen ikke er en WordPress-installation – ellers ville vi uploade til en tom mappe.
       - name: Tjek at mappen findes på serveren
+        if: steps.setup.outputs.ready == 'true'
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
@@ -30,6 +47,7 @@ jobs:
           fi
 
       - name: Udrul pluginnet
+        if: steps.setup.outputs.ready == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -42,6 +60,7 @@ jobs:
           dangerous-clean-slate: false
 
       - name: Udrul temaet
+        if: steps.setup.outputs.ready == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -56,6 +75,7 @@ jobs:
       # Til sidst: nyt udrulnings-id. Først når det skifter, kører siden sine opdateringer
       # (se themes/playform/inc/setup.php), så de aldrig kører med halvt uploadede filer.
       - name: Marker udrulningen som færdig
+        if: steps.setup.outputs.ready == 'true'
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
@@ -68,10 +88,11 @@ jobs:
       # Besøg siden uden om cachen (REST-API'et caches ikke). Det kører opdateringerne med det samme,
       # og de tømmer SiteGrounds sidecache (playform_purge_cache), så ændringer ses straks.
       - name: Kør opdateringer og tøm cachen
+        if: steps.setup.outputs.ready == 'true'
         run: |
           sleep 3
           for i in 1 2 3; do
-            code=$(curl -s -D hdr.txt -o /dev/null -w "%{http_code}" --max-time 240 "https://fitbase.dk/wp-json/?pf_deploy=${GITHUB_RUN_ID}-$i" -H "Cache-Control: no-cache")
+            code=$(curl -s -D hdr.txt -o /dev/null -w "%{http_code}" --max-time 240 "$SITE_URL/wp-json/?pf_deploy=${GITHUB_RUN_ID}-$i" -H "Cache-Control: no-cache")
             echo "Svar: $code"
             grep -i "x-pf-" hdr.txt || echo "(ingen x-pf-headere)"
             css=$(grep -i "^x-pf-css:" hdr.txt | tr -d '\r' | awk '{print $2}')

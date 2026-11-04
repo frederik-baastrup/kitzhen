@@ -1,7 +1,7 @@
 <?php
 /**
  * Udkast til privatlivspolitik og cookiepolitik.
- * Skrevet ud fra, hvad siden faktisk gør i dag. Ejer: Mondae (CVR 37208329) v/ Frederik Baastrup.
+ * Skrevet ud fra, hvad siden faktisk gør i dag. Sitets navn, domæne og firma kommer fra playform_site() ({NAME}, {DOMAIN} osv. erstattes i playform_legal_fill()).
  * Ændres teksten, så hæv PLAYFORM_LEGAL_VERSION, så siderne opdateres ved næste udrulning
  * (kun hvis redaktøren ikke selv har rettet dem – se playform_update_legal_pages()).
  */
@@ -10,15 +10,32 @@ defined( 'ABSPATH' ) || exit;
 
 const PLAYFORM_LEGAL_VERSION = 5;
 
+/** Indsætter sitets navn, domæne, e-mail m.m. i teksterne. */
+function playform_legal_fill( string $html ): string {
+	$site = playform_site();
+	return strtr(
+		$html,
+		[
+			'{NAME}'    => $site['name'],
+			'{DOMAIN}'  => $site['domain'],
+			'{EMAIL}'   => $site['email'],
+			'{NICHE}'   => $site['niche'],
+			'{COMPANY}' => $site['company'],
+			'{ADDRESS}' => $site['address'],
+			'{CVR}'     => $site['cvr'],
+		]
+	);
+}
+
 function playform_legal_privacy(): string {
-	return <<<'HTML'
-<p><em>Senest opdateret: 2. november 2026</em></p>
+	return playform_legal_fill( <<<'HTML'
+<p><em>Senest opdateret: 4. november 2026</em></p>
 
 <h2>Hvem er ansvarlig?</h2>
-<p>Fitbase (fitbase.dk) drives af Mondae, Rønnevej 19 B, kl., 5270 Odense N, CVR 37208329. Du kan altid kontakte os på <a href="mailto:kontakt@fitbase.dk">kontakt@fitbase.dk</a>.</p>
+<p>{NAME} ({DOMAIN}) drives af {COMPANY}, {ADDRESS}, CVR {CVR}. Du kan altid kontakte os på <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>
 
-<h2>Hvad Fitbase er</h2>
-<p>Fitbase samler fitnessudstyr fra flere danske webshops ét sted. Du kan ikke købe noget direkte hos os. Når du klikker på "Gå til butik", sendes du videre til butikken, og det er butikken, der behandler dit køb og dine oplysninger i forbindelse med det.</p>
+<h2>Hvad {NAME} er</h2>
+<p>{NAME} samler {NICHE} fra flere danske webshops ét sted. Du kan ikke købe noget direkte hos os. Når du klikker på "Gå til butik", sendes du videre til butikken, og det er butikken, der behandler dit køb og dine oplysninger i forbindelse med det.</p>
 
 <h2>Hvilke oplysninger vi behandler</h2>
 <h3>Når du besøger siden</h3>
@@ -33,7 +50,7 @@ function playform_legal_privacy(): string {
 <p>Skriver du til os, bruger vi dine oplysninger til at svare dig. Vi sletter korrespondancen, når den ikke længere er relevant, og senest efter 12 måneder.</p>
 
 <h2>Når du klikker videre til en butik</h2>
-<p>Linkene til butikkerne går gennem affiliate-netværket Partner-ads. Partner-ads registrerer klikket, så butikken kan se, at du kom fra Fitbase, og så vi kan få provision, hvis du handler. Det sker hos Partner-ads og butikken – ikke på fitbase.dk – og er omfattet af deres egne privatlivspolitikker. Vi får ingen oplysninger om, hvem du er, eller hvad du køber, kun at der er sket et salg.</p>
+<p>Linkene til butikkerne går gennem affiliate-netværket Partner-ads. Partner-ads registrerer klikket, så butikken kan se, at du kom fra {NAME}, og så vi kan få provision, hvis du handler. Det sker hos Partner-ads og butikken – ikke på {DOMAIN} – og er omfattet af deres egne privatlivspolitikker. Vi får ingen oplysninger om, hvem du er, eller hvad du køber, kun at der er sket et salg.</p>
 
 <h2>Produktbilleder</h2>
 <p>Produktbillederne er leveret af butikkerne og gemmes på vores egen server. Når du ser et produkt, sendes din IP-adresse derfor ikke til butikkerne.</p>
@@ -47,16 +64,17 @@ function playform_legal_privacy(): string {
 
 <h2>Dine rettigheder</h2>
 <p>Du har ret til at få indsigt i de oplysninger, vi har om dig, og til at få dem rettet eller slettet. Du kan også gøre indsigelse mod behandlingen, få begrænset behandlingen og få udleveret dine oplysninger (dataportabilitet). Har du givet samtykke, kan du altid trække det tilbage.</p>
-<p>Kontakt os på <a href="mailto:kontakt@fitbase.dk">kontakt@fitbase.dk</a>, hvis du vil bruge dine rettigheder. Er du utilfreds med, hvordan vi behandler dine oplysninger, kan du klage til Datatilsynet, datatilsynet.dk.</p>
-HTML;
+<p>Kontakt os på <a href="mailto:{EMAIL}">{EMAIL}</a>, hvis du vil bruge dine rettigheder. Er du utilfreds med, hvordan vi behandler dine oplysninger, kan du klage til Datatilsynet, datatilsynet.dk.</p>
+HTML
+	);
 }
 
 function playform_legal_cookies(): string {
-	return <<<'HTML'
-<p><em>Senest opdateret: 2. november 2026</em></p>
+	return playform_legal_fill( <<<'HTML'
+<p><em>Senest opdateret: 4. november 2026</em></p>
 
-<h2>Bruger Fitbase cookies?</h2>
-<p>Fitbase bruger lige nu ingen cookies til statistik eller markedsføring. Vi har alligevel et samtykkevalg, så det er på plads, hvis vi senere tilføjer sådanne værktøjer. Du kan ændre dit valg når som helst via "Cookie-indstillinger" nederst på alle sider.</p>
+<h2>Bruger {NAME} cookies?</h2>
+<p>{NAME} bruger lige nu ingen cookies til statistik eller markedsføring. Vi har alligevel et samtykkevalg, så det er på plads, hvis vi senere tilføjer sådanne værktøjer. Du kan ændre dit valg når som helst via "Cookie-indstillinger" nederst på alle sider.</p>
 
 <h2>Nødvendige cookies</h2>
 <p>Disse cookies er nødvendige og kræver ikke samtykke:</p>
@@ -69,11 +87,12 @@ function playform_legal_cookies(): string {
 <p>Hvis vi begynder at bruge statistikværktøjer eller markedsføring, sættes og indlæses de først, når du har sagt ja. Du kan sige nej og bruge siden på samme måde. Du kan altid trække dit samtykke tilbage, og det er lige så nemt som at give det.</p>
 
 <h2>Når du klikker videre til en butik</h2>
-<p>Når du klikker på "Gå til butik", sendes du via affiliate-netværket Partner-ads videre til butikken. Partner-ads og butikken sætter deres egne cookies hos sig, så de kan registrere, at du kom fra Fitbase, og vi kan få provision, hvis du handler. Det sker på deres sider og efter du har forladt Fitbase, og de er ansvarlige for det. Du kan læse mere i Partner-ads' og den enkelte butiks cookie- og privatlivspolitik og styre cookies i din browser.</p>
+<p>Når du klikker på "Gå til butik", sendes du via affiliate-netværket Partner-ads videre til butikken. Partner-ads og butikken sætter deres egne cookies hos sig, så de kan registrere, at du kom fra {NAME}, og vi kan få provision, hvis du handler. Det sker på deres sider og efter du har forladt {NAME}, og de er ansvarlige for det. Du kan læse mere i Partner-ads' og den enkelte butiks cookie- og privatlivspolitik og styre cookies i din browser.</p>
 
 <h2>Spørgsmål</h2>
-<p>Kontakt os på <a href="mailto:kontakt@fitbase.dk">kontakt@fitbase.dk</a>. Fitbase drives af Mondae, CVR 37208329.</p>
-HTML;
+<p>Kontakt os på <a href="mailto:{EMAIL}">{EMAIL}</a>. {NAME} drives af {COMPANY}, CVR {CVR}.</p>
+HTML
+	);
 }
 
 /**

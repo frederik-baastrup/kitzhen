@@ -3,25 +3,20 @@
  * Hovedmenu og mega-menu.
  *
  * Alle menupunkter har samme panel: Kategorier (venstre) | underkategorier for den markerede (midt) | Pris (højre).
- * Træningsmaskiner og Styrketræning er grupperingskategorier: de samler rigtige kategorier og har en
- * oversigtsside i stedet for et produktgitter.
+ * Grupperingskategorier (playform_virtual_groups()) samler rigtige kategorier og har en oversigtsside
+ * i stedet for et produktgitter. Fitbase bruger dem (Træningsmaskiner, Styrketræning); Kitzhen har ingen.
  */
 
 defined( 'ABSPATH' ) || exit;
 
 /** Grupperingskategorier og de rigtige kategorier, de samler (bruges også af opsætningen). */
 function playform_virtual_groups(): array {
-	return [
-		'traeningsmaskiner' => [ 'label' => 'Træningsmaskiner', 'children' => [ 'lobebaand', 'motionscykler', 'romaskiner-crosstrainere' ] ],
-		'styrketraening'    => [ 'label' => 'Styrketræning', 'children' => [ 'vaegte-kettlebells', 'styrke-baenke' ] ],
-		// Ikke i hovedmenuen – bruges af købsguiderne om citybikes (produkter fra Cykelexperten.dk).
-		'cykler'            => [ 'label' => 'Cykler', 'children' => [ 'damecykler', 'herrecykler' ] ],
-	];
+	return [];
 }
 
 /** Er det en grupperingskategori (oversigtsside uden egne produkter)? */
 function playform_is_virtual_category( string $slug ): bool {
-	return isset( playform_virtual_groups()[ $slug ] ) || $slug === 'kondiudstyr';
+	return isset( playform_virtual_groups()[ $slug ] );
 }
 
 function playform_category_url( string $slug, array $args = [] ): string {
@@ -71,13 +66,7 @@ function playform_root_slug( string $slug ): string {
  * @return array<int,array{0:string,1:string}> [ [ label, nøgle til ?pris= ], … ]
  */
 function playform_price_ranges( WP_Term $term ): array {
-	$ranges = [
-		'0-1000'     => [ 'Under 1.000 kr', 0, 1000 ],
-		'1000-3000'  => [ '1.000–3.000 kr', 1000, 3000 ],
-		'3000-6000'  => [ '3.000–6.000 kr', 3000, 6000 ],
-		'6000-10000' => [ '6.000–10.000 kr', 6000, 10000 ],
-		'10000-'     => [ 'Over 10.000 kr', 10000, PHP_INT_MAX ],
-	];
+	$ranges = playform_price_bands();
 	$all = get_transient( 'playform_price_ranges' );
 	if ( ! is_array( $all ) ) {
 		$all = [];
@@ -120,30 +109,19 @@ function playform_price_ranges( WP_Term $term ): array {
 
 /** Billede til oversigtssidernes kategorikort. */
 function playform_category_image( string $slug, string $fallback = '' ): string {
-	$map = [
-		'lobebaand'                => 'hero-lobebaand.jpg',
-		'motionscykler'            => 'hero-motionscykler.jpg',
-		'romaskine'                => 't-romaskine.jpg',
-		'crosstrainer'             => 'mm-crosstrainer.jpg',
-		'romaskiner-crosstrainere' => 'mm-romaskine.jpg',
-		'vaegte-kettlebells'       => 'hero-kettlebells.jpg',
-		'styrke-baenke'            => 'mm-baenk.jpg',
-		'yoga-pilates'             => 'mm-pilates.jpg',
-		'restitution'              => 'mm-restitution.jpg',
-		'tilbehor'                 => 'mm-tilbehor.jpg',
-		'traeningsmaskiner'        => 'hero-lobebaand.jpg',
-		'styrketraening'           => 'mm-vaegte.jpg',
-	];
-	return playform_asset( $map[ $slug ] ?? $map[ $fallback ] ?? 't-hjemmegym.jpg' );
+	// Billeder lægges i assets/img/cat-<slug>.jpg (og th-<slug>.jpg til mobilmenuen). Mangler det, bruges forælderens
+	// og til sidst en neutral pladsholder.
+	foreach ( [ $slug, $fallback ] as $s ) {
+		if ( $s !== '' && is_file( get_template_directory() . "/assets/img/cat-$s.jpg" ) ) {
+			return playform_asset( "cat-$s.jpg" );
+		}
+	}
+	return playform_asset( 'cat-placeholder.svg' );
 }
 
 /** Lille, kvadratisk udgave af kategoribilledet til mobilmenuen (assets/img/th-*.jpg). Tom, hvis kategorien ikke har sit eget. */
 function playform_category_thumb( string $slug ): string {
-	$file = basename( (string) wp_parse_url( playform_category_image( $slug, '-' ), PHP_URL_PATH ) );
-	if ( $file === 't-hjemmegym.jpg' ) {
-		return '';
-	}
-	return playform_asset( 'th-' . explode( '-', $file, 2 )[1] );
+	return is_file( get_template_directory() . "/assets/img/th-$slug.jpg" ) ? playform_asset( "th-$slug.jpg" ) : '';
 }
 
 /**
@@ -152,11 +130,14 @@ function playform_category_thumb( string $slug ): string {
  */
 function playform_menu_spec(): array {
 	return [
-		[ 'traeningsmaskiner', [ 'lobebaand', 'motionscykler', [ 'romaskine', 'Romaskiner' ], [ 'crosstrainer', 'Crosstrainere' ] ] ],
-		[ 'styrketraening', [ 'vaegte-kettlebells', 'styrke-baenke' ] ],
-		[ 'yoga-pilates', null ],
-		[ 'restitution', null ],
-		[ 'tilbehor', null ],
+		[ 'kaffe-drikke', null ],
+		[ 'ovne-apparater', null ],
+		[ 'koekkenmaskiner', null ],
+		[ 'gryder-pander', null ],
+		[ 'knive-redskaber', null ],
+		[ 'grill', null ],
+		[ 'pizza-bagning', null ],
+		[ 'servering', null ],
 	];
 }
 
@@ -164,20 +145,67 @@ function playform_menu_spec(): array {
 function playform_menu_labels(): array {
 	// Kategorierne hedder ental (som folk søger), men i menu, faner og "Tilbud på …" læser flertal bedst.
 	$out = [
-		'romaskine'        => 'Romaskiner',
-		'crosstrainer'     => 'Crosstrainere',
-		'yogamaatte'       => 'Yogamåtter',
-		'pilates-reformer' => 'Pilates reformere',
-		'massagepistol'    => 'Massagepistoler',
-		'foam-roller'      => 'Foam rollers',
-		'traeningsmaatte'  => 'Træningsmåtter',
-		'elastikker'       => 'Træningselastikker',
-		'boksning'         => 'Boksudstyr',
-		'traeningsbaenk'   => 'Træningsbænke',
-		'spinningcykel'    => 'Spinningcykler',
-		'kondicykel'       => 'Kondicykler',
-		'liggecykel'       => 'Liggecykler',
-		'airbike'          => 'Airbikes',
+		// Hovedkategorier: korte navne i topmenuen.
+		'kaffe-drikke'        => 'Kaffe & drikke',
+		'ovne-apparater'      => 'Ovne & apparater',
+		'koekkenmaskiner'     => 'Køkkenmaskiner',
+		'gryder-pander'       => 'Gryder & pander',
+		'knive-redskaber'     => 'Knive',
+		'grill'               => 'Grill',
+		'pizza-bagning'       => 'Pizza & bagning',
+		'servering'           => 'Servering',
+		// Underkategorier i flertal.
+		'espressomaskine'     => 'Espressomaskiner',
+		'kaffekvaern'         => 'Kaffekværne',
+		'mokkakande'          => 'Mokkakander',
+		'stempelkande'        => 'Stempelkander',
+		'kedel'               => 'Kedler',
+		'sodavandsmaskine'    => 'Sodavandsmaskiner',
+		'isterningmaskine'    => 'Isterningmaskiner',
+		'drikkevarekoeleskab' => 'Køleskabe til drikkevarer',
+		'toendekoeler'        => 'Tøndekølere',
+		'mikroovn'            => 'Mikroovne',
+		'miniovn'             => 'Miniovne',
+		'airfryer'            => 'Airfryere',
+		'broedrister'         => 'Brødristere',
+		'paninigrill'         => 'Paninigrills',
+		'riskoger'            => 'Riskogere',
+		'slow-cooker'         => 'Slow cookers',
+		'dehydrator'          => 'Dehydratorer',
+		'vakuumpakker'        => 'Vakuumpakkere',
+		'ismaskine'           => 'Ismaskiner',
+		'gaskomfur'           => 'Gaskomfurer',
+		'stavblender'         => 'Stavblendere',
+		'blender'             => 'Blendere',
+		'roeremaskine'        => 'Røremaskiner',
+		'foodprocessor'       => 'Foodprocessorer',
+		'slow-juicer'         => 'Slow juicere',
+		'juicemaskine'        => 'Juicemaskiner',
+		'spiralizer'          => 'Spiralizere',
+		'palaegsmaskine'      => 'Pålægsmaskiner',
+		'rullepoelsepresse'   => 'Rullepølsepresser',
+		'gryde'               => 'Gryder',
+		'stegepande'          => 'Stegepander',
+		'wokpande'            => 'Wokpander',
+		'grillpande'          => 'Grillpander',
+		'blinispande'         => 'Blinispander',
+		'aebleskivepande'     => 'Æbleskivepander',
+		'gasgrill'            => 'Gasgrill',
+		'kulgrill'            => 'Kulgrill',
+		'kamado-grill'        => 'Kamado grill',
+		'roegeovn'            => 'Røgeovne',
+		'bordgrill'           => 'Bordgrill',
+		'gasbraender'         => 'Gasbrændere',
+		'paellapande'         => 'Paellapander',
+		'kokkekniv'           => 'Kokkeknive',
+		'japansk-kniv'        => 'Japanske knive',
+		'knivsliber'          => 'Knivslibere',
+		'groentsagshakker'    => 'Grøntsagshakkere',
+		'skaerebraet'         => 'Skærebrætter',
+		'pizzaovn'            => 'Pizzaovne',
+		'broedmaskine'        => 'Brødmaskiner',
+		'pastamaskine'        => 'Pastamaskiner',
+		'karafler'            => 'Karafler',
 	];
 	foreach ( playform_menu_spec() as [ $slug, $cats ] ) {
 		if ( isset( playform_virtual_groups()[ $slug ] ) ) {
@@ -281,11 +309,22 @@ function playform_menu(): array {
 /** Populære kategorier, der vises i søgefeltet, før man har skrevet noget. */
 function playform_search_shortcuts(): array {
 	$out = [];
-	foreach ( [ 'lobebaand', 'gaabaand', 'spinningcykel', 'romaskine', 'kettlebell', 'haandvaegte', 'massagepistol', 'yogamaatte' ] as $slug ) {
+	foreach ( [ 'gasgrill', 'kokkekniv', 'espressomaskine', 'stegepande', 'airfryer', 'pizzaovn', 'stavblender', 'mikroovn' ] as $slug ) {
 		$t = get_term_by( 'slug', $slug, 'product_cat' );
 		if ( $t && $t->count > 0 ) {
 			$out[] = [ $t->name, get_term_link( $t ) ];
 		}
 	}
 	return $out;
+}
+
+/** "Populære" i sidefoden: [ visningsnavn, kategori-slug ]. */
+function playform_footer_popular(): array {
+	return [
+		[ 'Gasgrill', 'gasgrill' ],
+		[ 'Kokkeknive', 'kokkekniv' ],
+		[ 'Espressomaskiner', 'espressomaskine' ],
+		[ 'Stegepander', 'stegepande' ],
+		[ 'Airfryere', 'airfryer' ],
+	];
 }

@@ -28,13 +28,11 @@ function playform_filter_groups(): array {
 		'kat'         => [ 'label' => 'Kategori', 'options' => [], 'dynamic' => 'category', 'no_cat' => true, 'collapse' => 8 ],
 		'pris'        => [
 			'label'   => 'Pris',
-			'options' => [
-				'0-1000'     => [ 'Under 1.000 kr', $range( '_price', 0, 1000 ) ],
-				'1000-3000'  => [ '1.000–3.000 kr', $range( '_price', 1000, 3000 ) ],
-				'3000-6000'  => [ '3.000–6.000 kr', $range( '_price', 3000, 6000 ) ],
-				'6000-10000' => [ '6.000–10.000 kr', $range( '_price', 6000, 10000 ) ],
-				'10000-'     => [ 'Over 10.000 kr', $range( '_price', 10000, null ) ],
-			],
+			// Intervallerne kommer fra Config::price_bands() (samme som i mega-menuen).
+			'options' => array_map(
+				static fn( array $b ) => [ $b[0], $range( '_price', (float) $b[1], $b[2] >= PHP_INT_MAX ? null : (float) $b[2] ) ],
+				playform_price_bands()
+			),
 		],
 		'maerke'      => [ 'label' => 'Mærke', 'options' => [], 'dynamic' => 'brand', 'collapse' => 8 ], // mulighederne bygges ud fra kategoriens produkter
 		'egenskab'    => [
@@ -43,39 +41,10 @@ function playform_filter_groups(): array {
 			'options' => [
 				'lager'   => [ 'På lager', static fn( $m ) => ! empty( $m['_pf_in_stock'] ) ],
 				'tilbud'  => [ 'Tilbud', static fn( $m ) => ! empty( $m['_pf_shop_sale'] ) ],
-				'foldbar' => [ 'Foldbar', static fn( $m ) => ! empty( $m['_pf_foldable'] ) ],
-				'incline' => [ 'Med incline', static fn( $m ) => ! empty( $m['_pf_incline'] ) ],
 			],
 		],
-		'hastighed'   => [
-			'label'   => 'Max hastighed',
-			'only'    => [ 'lobebaand' ],
-			'options' => [
-				'0-13'  => [ 'Op til 12 km/t', $range( '_pf_max_speed', 0, 13 ) ],
-				'13-17' => [ '13–16 km/t', $range( '_pf_max_speed', 13, 17 ) ],
-				'17-'   => [ 'Over 16 km/t', $range( '_pf_max_speed', 17, null ) ],
-			],
-		],
-		'brugervaegt' => [
-			'label'   => 'Max brugervægt',
-			'only'    => [ 'lobebaand', 'motionscykler', 'romaskiner-crosstrainere', 'styrke-baenke' ],
-			'options' => [
-				'0-121'   => [ 'Op til 120 kg', $range( '_pf_max_weight', 0, 121 ) ],
-				'121-151' => [ '121–150 kg', $range( '_pf_max_weight', 121, 151 ) ],
-				'151-'    => [ 'Over 150 kg', $range( '_pf_max_weight', 151, null ) ],
-			],
-		],
-		'vaegt'       => [
-			'label'   => 'Vægt',
-			'only'    => [ 'vaegte-kettlebells' ],
-			'options' => [
-				'8'  => [ '8 kg', static fn( $m ) => (float) ( $m['_pf_weight_kg'] ?? 0 ) === 8.0 ],
-				'12' => [ '12 kg', static fn( $m ) => (float) ( $m['_pf_weight_kg'] ?? 0 ) === 12.0 ],
-				'16' => [ '16 kg', static fn( $m ) => (float) ( $m['_pf_weight_kg'] ?? 0 ) === 16.0 ],
-				'20' => [ '20 kg', static fn( $m ) => (float) ( $m['_pf_weight_kg'] ?? 0 ) === 20.0 ],
-				'24' => [ '24 kg', static fn( $m ) => (float) ( $m['_pf_weight_kg'] ?? 0 ) === 24.0 ],
-			],
-		],
+		// Fitbase har her filtre for foldbar, incline, hastighed, brugervægt og vægt (Config::attributes()).
+		// Kitzhen har ingen egenskabsfiltre endnu.
 	];
 }
 

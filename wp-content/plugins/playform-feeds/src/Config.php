@@ -30,16 +30,16 @@ final class Config {
 	 */
 	public static function shops(): array {
 		$base     = 'https://www.partner-ads.com/dk/feed_udlaes.php?partnerid=14854';
-		// Rækkefølgen af feed-links antaget ud fra ejerens besked 4. nov. 2026 – bekræftes.
+		// Koblet til shop ud fra bannerid i feedets vareurl (4. nov. 2026). Gourmetshoppens feed var tomt den dag.
 		$defaults = [
-			'gourmetshoppen'      => [ 'name' => 'Gourmetshoppen.com', 'url' => "$base&bannerid=56457&feedid=1000" ],
-			'bagestaalet'         => [ 'name' => 'Bagestålet.dk', 'url' => "$base&bannerid=79640&feedid=1878" ],
-			'cibumic'             => [ 'name' => 'Cibumic.dk', 'url' => "$base&bannerid=46609&feedid=651" ],
-			'japanske-kokkeknive' => [ 'name' => 'Japanske kokkeknive', 'url' => "$base&bannerid=80950&feedid=1925" ],
-			'kitchenone'          => [ 'name' => 'KitchenOne.dk', 'url' => "$base&bannerid=90982&feedid=2362" ],
-			'hvidevareshoppen'    => [ 'name' => 'HvidevareShoppen.dk', 'url' => "$base&bannerid=59757&feedid=1113" ],
-			'koege-kafferisteri'  => [ 'name' => 'Køge Kafferisteri', 'url' => "$base&bannerid=58102&feedid=1060" ],
-			'barlife'             => [ 'name' => 'Barlife.dk', 'url' => "$base&bannerid=79283&feedid=1862" ],
+			'gourmetshoppen'      => [ 'name' => 'Gourmetshoppen.com', 'url' => "$base&bannerid=80950&feedid=1925" ],
+			'bagestaalet'         => [ 'name' => 'Bagestålet.dk', 'url' => "$base&bannerid=90982&feedid=2362" ],
+			'cibumic'             => [ 'name' => 'Cibumic.dk', 'url' => "$base&bannerid=59757&feedid=1113" ],
+			'japanske-kokkeknive' => [ 'name' => 'Japanske kokkeknive', 'url' => "$base&bannerid=58102&feedid=1060" ],
+			'kitchenone'          => [ 'name' => 'KitchenOne.dk', 'url' => "$base&bannerid=79283&feedid=1862" ],
+			'hvidevareshoppen'    => [ 'name' => 'HvidevareShoppen.dk', 'url' => "$base&bannerid=56457&feedid=1000" ],
+			'koege-kafferisteri'  => [ 'name' => 'Køge Kafferisteri', 'url' => "$base&bannerid=79640&feedid=1878" ],
+			'barlife'             => [ 'name' => 'Barlife.dk', 'url' => "$base&bannerid=46609&feedid=651" ],
 		];
 		$custom = get_option( 'playform_shops' );
 		return is_array( $custom ) && $custom ? $custom : $defaults;
@@ -55,9 +55,9 @@ final class Config {
 		return [
 			'pizza-bagning'   => [ 'name' => 'Pizza & bagning', 'match' => 'pizza|bagest[åa]l|bagesten|brødmaskine|bagemaskine|pastamaskine|pasta ?maker|bageform|springform|kageform|muffinform|bageplade|dejskraber|kagerulle|udstikker|sprøjtepose|hævekurv|surdej' ],
 			'kaffe-drikke'    => [ 'name' => 'Kaffe & drikke', 'match' => 'espresso|kaffemaskine|kaffebrygger|kaffekværn|kaffe ?kværn|mokkakande|\bmoka\b|stempelkande|french ?press|filterkaffe|kaffefilter|mælkeskummer|mælkeskumm|elkedel|vandkoger|\bkedel\b|kedel til|tekande|sodavandsmaskine|sodastream|kulsyre|isterningmaskine|drikkevarekøleskab|køleskab til drikke|vinkøleskab|ølkøler|tøndekøler|party ?cooler|cocktail|shaker|barudstyr|isspand' ],
-			'ovne-apparater'  => [ 'name' => 'Ovne & apparater', 'match' => 'mikroovn|mikrobølge|miniovn|mini ?ovn|minikøkken|airfryer|air ?fryer|varmluftsfriture|friture|brødrister|toaster|paninigrill|panini|sandwichtoaster|sandwich ?maker|vaffeljern|riskoger|slow ?cooker|langtidskoger|multicooker|trykkoger|sous ?vide|dehydrator|frugttørrer|vakuumpakker|vakuumpakning|\bismaskine|softice|gaskomfur|komfur|kogeplade|induktionsplade|indbygningsovn|\bovn\b|emhætte' ],
+			'ovne-apparater'  => [ 'name' => 'Ovne & apparater', 'match' => 'mikroovn|mikrobølge|miniovn|mini ?ovn|minikøkken|airfryer|air ?fryer|varmluftsfriture|friture|brødrister|toaster|paninigrill|panini|sandwichtoaster|sandwich ?maker|vaffeljern|riskoger|slow ?cooker|langtidskoger|multicooker|trykkoger|sous ?vide|dehydrator|frugttørrer|vakuumpakker|vakuumpakning|\bismaskine|softice|gaskomfur|komfur|kogeplade|induktionsplade|indbygningsovn|\bovn\b' ],
 			'koekkenmaskiner' => [ 'name' => 'Køkkenmaskiner', 'match' => 'stavblender|blender|smoothie ?maker|røremaskine|køkkenmaskine|foodprocessor|food ?processor|minihakker|hakkemaskine|kødhakker|slow ?juicer|juicer|juicemaskine|saftpresser|citruspresser|spiralizer|pålægsmaskine|rullepølsepresse|pølsemaskine|elektrisk kartoffelskræller|kartoffelskræller,? elektrisk|håndmixer|elpisker' ],
-			'gryder-pander'   => [ 'name' => 'Gryder & pander', 'match' => 'gryde|kasserolle|sauterpande|(?<!paella)pande\b|stegepande|wok\b|wokpande|grillpande|blinispande|æbleskivepande|støbejern|dutch ?oven|bradepande|ovnfast fad|låg til' ],
+			'gryder-pander'   => [ 'name' => 'Gryder & pander', 'match' => 'gryde(?!ske|skab|lap|underlag)|kasserolle|sauterpande|(?<!paella)pande\b|stegepande|wok\b|wokpande|grillpande|blinispande|æbleskivepande|støbejern|dutch ?oven|bradepande|ovnfast fad|låg til' ],
 			'grill'           => [ 'name' => 'Grill & udekøkken', 'match' => 'gasgrill|kulgrill|kamado|big green egg|grill|røgeovn|smoker|bordgrill|raclette|gasbrænder|paella|grillkul|briketter|plancha|bålpande|udekøkken' ],
 			'knive-redskaber' => [ 'name' => 'Knive & redskaber', 'match' => 'kniv|knive|santoku|gyuto|nakiri|petty|knivsliber|slibesten|vandsten|knivblok|knivmagnet|skærebræt|skærebrædt|rivejern|parmesan|grøntsagshakker|mandolin|skræller|hvidløgspresse|køkkensaks|piskeris|grydeske|paletkniv|stegevender|\bøse\b|dørslag|sigte\b|køkkenvægt|stegetermometer|køkkentermometer|æggeur|måleske|målebæger|køkkenredskab' ],
 			'servering'       => [ 'name' => 'Servering & borddækning', 'match' => 'vinglas|rødvinsglas|hvidvinsglas|champagneglas|ølglas|drikkeglas|\bglas\b|karaffel|dekanter|tallerken|\bskål\b|skåle|\bkop\b|kopper|krus|bestik|\bstel\b|julestel|spisestel|ostesæt|ostebræt|serveringsbakke|serveringsfad|\bfad\b|kande\b|bordskåner|dækkeserviet|tapasbræt' ],
@@ -164,6 +164,14 @@ final class Config {
 			'kaffebønner|hele bønner|formalet kaffe|espressobønner|kapsler|kaffepuder|\bte\b \d|chokolade|slik|krydderi|olivenolie|eddike|sirup|marmelade|kulsyrepatron|rensetablet|afkalkning|filterposer',
 			// Tøj og tekstiler
 			'forklæde|grydelapp|grydehandske|viskestykke|karklud|\bt-shirt\b',
+			// Køkkenindretning og bad (HvidevareShoppen sælger skabe, låger, emhætter og vaske)
+			'køkken og bad|grydeskab|overskab|underskab|højskab|emhætte|emfang|bordplade|køkkenlåge|køkkenvask|armatur|vandhane|udblæsningskit',
+			// Forbrugsvarer og reservedele til maskinerne
+			'vakuumposer|vakuumruller|vakuumroller|poser til|papirforme|silikoneform|bagepapir|sugerør|ekstrakt|smagsekstrakt|filter til|kulfilter|røgpiller|røgchips|røgtræ|grillkul|briketter|optænding|cover til|overtræk|beholder til|mixerbehållare|dricklock',
+			// Fest, bolig og interiør
+			'festartikler|barspil|drikkespil|flag på|julekugle|julepynt|juletræ|lysestage|fyrfad|\bvase\b|lampe|pendel|\btæppe|plaid|opbevaringsboks',
+			// Mad og drikke (Barlife og KitchenOne har også delikatesser og spiritus)
+			'delikatesser|drikkevarer \||spiritus|whisky|likør|\bgin\b|\brom\b|rødvin(?!sglas)|hvidvin(?!sglas)|champagne(?!glas|køler|spand|sabel)|oliven|saucer og soja',
 		];
 	}
 

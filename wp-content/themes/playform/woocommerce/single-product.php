@@ -148,7 +148,7 @@ while ( have_posts() ) :
 		</div>
 	</section>
 
-	<section class="usps" aria-label="Sådan virker Fitbase">
+	<section class="usps" aria-label="Sådan virker <?php echo esc_attr( playform_site( 'name' ) ); ?>">
 		<ul class="wrap usps__in">
 			<li><?php echo playform_icon( 'refresh', 18, 1.4 ); // phpcs:ignore ?><span><b>Opdateret 2× dagligt</b>Pris og lager direkte fra butikken</span></li>
 			<li><?php echo playform_icon( 'store', 18, 1.4 ); // phpcs:ignore ?><span><b>Du handler hos butikken</b>Butikkens vilkår for levering og retur</span></li>
@@ -192,7 +192,7 @@ while ( have_posts() ) :
 		?>
 		<div>
 			<h2>Prishistorik</h2>
-			<p class="muted">Laveste pris pr. dag, målt af Fitbase</p>
+			<p class="muted">Laveste pris pr. dag, målt af <?php echo esc_html( playform_site( 'name' ) ); ?></p>
 			<?php get_template_part( 'template-parts/price-chart', null, [ 'history' => $history ] ); ?>
 		</div>
 		<?php

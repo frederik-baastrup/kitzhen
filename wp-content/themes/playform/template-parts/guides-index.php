@@ -11,7 +11,7 @@ $topics  = get_categories( [ 'hide_empty' => true, 'orderby' => 'count', 'order'
 $total   = (int) wp_count_posts( 'post' )->publish;
 $paged   = max( 1, (int) get_query_var( 'paged' ) );
 $title   = $current ? $current->name : 'Viden & guides';
-$intro   = $current && trim( $current->description ) ? wp_strip_all_tags( $current->description ) : 'Købsguides, træningstips og svar på de spørgsmål, der dukker op, når du skal indrette dit hjemmegym.';
+$intro   = $current && trim( $current->description ) ? wp_strip_all_tags( $current->description ) : 'Købsguides og svar på de spørgsmål, der dukker op, når du skal vælge og bruge dit køkkenudstyr.';
 $crumbs  = [ [ 'Forside', home_url( '/' ) ], [ 'Viden & guides', $current ? $blog : '' ] ];
 if ( $current ) {
 	$crumbs[] = [ $current->name, '' ];
@@ -19,7 +19,7 @@ if ( $current ) {
 
 $card = static function ( WP_Post $p, bool $big = false ): void {
 	$cats = get_the_category( $p->ID );
-	$img  = playform_post_image( $p, $big ? 1200 : 700 ) ?: playform_asset( 'guide-lobebaand.jpg' );
+	$img  = playform_post_image( $p, $big ? 1200 : 700 ) ?: playform_asset( 'cat-placeholder.svg' );
 	$min  = playform_read_minutes( apply_filters( 'the_content', $p->post_content ) );
 	$a    = playform_author( (int) $p->post_author );
 	?>

@@ -115,7 +115,7 @@ add_action(
 		if ( ! $segs ) {
 			return;
 		}
-		$aliases = [ 'kondiudstyr' => 'traeningsmaskiner' ];
+		$aliases = []; // gamle kategorinavne => nye (Fitbase: kondiudstyr => traeningsmaskiner)
 		$first   = $aliases[ $segs[0] ] ?? $segs[0];
 		$is_cat  = in_array( $first, [ 'kategori', 'vare-kategori', 'product-category' ], true ) || get_term_by( 'slug', sanitize_title( $first ), 'product_cat' );
 		if ( ! $is_cat ) {
@@ -129,4 +129,39 @@ add_action(
 		}
 	},
 	5
+);
+
+/**
+ * Kategorier ligger direkte under roden ligesom guiderne (/grill/ og /bedste-gasgrill/). Kategoriernes regler
+ * vinder over indlæg med samme adresse, så en kategori må aldrig hedde "bedste-…" – den adresse er forbeholdt guides.
+ */
+function playform_reserved_slug( string $slug ): bool {
+	return str_starts_with( $slug, 'bedste-' );
+}
+
+add_filter(
+	'pre_insert_term',
+	static function ( $term, string $taxonomy, array $args = [] ) {
+		if ( 'product_cat' !== $taxonomy || is_wp_error( $term ) ) {
+			return $term;
+		}
+		$slug = sanitize_title( $args['slug'] ?? '' ) ?: sanitize_title( (string) $term );
+		return playform_reserved_slug( $slug )
+			? new WP_Error( 'playform_reserved_slug', 'Kategorier må ikke starte med "bedste-". Den adresse er forbeholdt købsguides.' )
+			: $term;
+	},
+	10,
+	3
+);
+
+add_filter(
+	'wp_update_term_data',
+	static function ( array $data, int $term_id, string $taxonomy ): array {
+		if ( 'product_cat' === $taxonomy && playform_reserved_slug( (string) ( $data['slug'] ?? '' ) ) ) {
+			$data['slug'] = (string) get_term_field( 'slug', $term_id, 'product_cat' ); // behold den gamle adresse
+		}
+		return $data;
+	},
+	10,
+	3
 );

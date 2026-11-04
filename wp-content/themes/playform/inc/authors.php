@@ -3,16 +3,16 @@
  * Forfattere: navn i stedet for e-mail, forfatterside (/viden/forfatter/navn/), forfatterboks under
  * artikler og struktureret data (Person/ProfilePage/Article) – det, Google kigger efter ved E-E-A-T.
  *
- * Profilen redigeres under Brugere → Profil: navn, "Biografiske oplysninger" og felterne under "Fitbase-forfatter".
+ * Profilen redigeres under Brugere → Profil: navn, "Biografiske oplysninger" og felterne under "<sitenavn>-forfatter".
  * Billeder hentes aldrig fra Gravatar (ingen tredjepartskald) – brug feltet "Profilbillede".
  */
 defined( 'ABSPATH' ) || exit;
 
-/** Standardtekster, indtil profilen er udfyldt. Ingen påståede kvalifikationer – kun hvad Fitbase er. */
+/** Standardtekster, indtil profilen er udfyldt. Ingen påståede kvalifikationer – kun hvad sitet er. */
 function playform_author_defaults(): array {
 	return [
 		'role' => 'Stifter og redaktør',
-		'bio'  => 'Frederik Baastrup står bag Fitbase. Han samler fitnessudstyret fra de danske webshops ét sted og skriver købsguiderne, så du kan sammenligne priser, specifikationer og tilbud, før du køber.',
+		'bio'  => sprintf( 'Frederik Baastrup står bag %s. Han samler %s fra de danske webshops ét sted og skriver købsguiderne, så du kan sammenligne priser, specifikationer og tilbud, før du køber.', playform_site( 'name' ), playform_site( 'niche' ) ),
 	];
 }
 
@@ -45,7 +45,7 @@ function playform_fix_author_name(): void {
 /** Alt, skabelonerne skal bruge om en forfatter. */
 function playform_author( int $user_id ): array {
 	$u    = get_userdata( $user_id );
-	$name = $u ? $u->display_name : 'Fitbase';
+	$name = $u ? $u->display_name : playform_site( 'name' );
 	$bio  = trim( (string) get_user_meta( $user_id, 'description', true ) );
 	$links = array_values(
 		array_filter(
@@ -86,7 +86,7 @@ function playform_author_schema( array $a ): array {
 		'name'     => $a['name'],
 		'url'      => $a['url'],
 		'jobTitle' => $a['role'],
-		'worksFor' => [ '@type' => 'Organization', 'name' => 'Fitbase', 'url' => home_url( '/' ) ],
+		'worksFor' => [ '@type' => 'Organization', 'name' => playform_site( 'name' ), 'url' => home_url( '/' ) ],
 	];
 	if ( $a['photo'] ) {
 		$p['image'] = $a['photo'];
@@ -116,7 +116,7 @@ add_action(
 				'dateModified'  => get_the_modified_date( 'c', $id ),
 				'mainEntityOfPage' => get_permalink( $id ),
 				'author'        => playform_author_schema( $a ),
-				'publisher'     => [ '@type' => 'Organization', 'name' => 'Fitbase', 'url' => home_url( '/' ), 'logo' => [ '@type' => 'ImageObject', 'url' => playform_asset( 'logo.svg' ) ] ],
+				'publisher'     => [ '@type' => 'Organization', 'name' => playform_site( 'name' ), 'url' => home_url( '/' ), 'logo' => [ '@type' => 'ImageObject', 'url' => playform_asset( 'logo.svg' ) ] ],
 			];
 			if ( has_post_thumbnail( $id ) ) {
 				$d['image'] = get_the_post_thumbnail_url( $id, 'large' );
@@ -160,7 +160,7 @@ $playform_author_fields = static function ( WP_User $u ) {
 		'pf_linkedin'  => [ 'LinkedIn', 'Fuld adresse til din profil' ],
 		'pf_instagram' => [ 'Instagram', 'Fuld adresse til din profil' ],
 	];
-	echo '<h2>Fitbase-forfatter</h2><p>Vises på forfattersiden og under artiklerne. Biografien skrives i feltet "Biografiske oplysninger" ovenfor.</p><table class="form-table">';
+	echo '<h2>' . esc_html( playform_site( 'name' ) ) . '-forfatter</h2><p>Vises på forfattersiden og under artiklerne. Biografien skrives i feltet "Biografiske oplysninger" ovenfor.</p><table class="form-table">';
 	foreach ( $f as $key => [ $label, $help ] ) {
 		echo '<tr><th><label for="' . esc_attr( $key ) . '">' . esc_html( $label ) . '</label></th><td><input type="text" class="regular-text" id="' . esc_attr( $key ) . '" name="' . esc_attr( $key ) . '" value="' . esc_attr( (string) get_user_meta( $u->ID, $key, true ) ) . '"><p class="description">' . esc_html( $help ) . '</p></td></tr>';
 	}
@@ -196,7 +196,7 @@ function playform_author_profile(): void {
 	foreach ( $users as $u ) {
 		$bio = trim( (string) get_user_meta( $u->ID, 'description', true ) );
 		if ( '' === $bio || playform_author_defaults()['bio'] === $bio ) {
-			update_user_meta( $u->ID, 'description', 'Frederik Baastrup er stifter og redaktør af Fitbase. Til daglig driver han Mondae, hvor han arbejder med webdesign og digitale løsninger. Med Fitbase samler han fitnessudstyr fra danske webshops ét sted og skriver købsguides, der gør det nemt at sammenligne priser, specifikationer og tilbud – med åbenhed om, hvordan produkterne er valgt, og hvordan siden tjener penge.' );
+			update_user_meta( $u->ID, 'description', sprintf( 'Frederik Baastrup er stifter og redaktør af %1$s. Til daglig driver han Mondae, hvor han arbejder med webdesign og digitale løsninger. Med %1$s samler han %2$s fra danske webshops ét sted og skriver købsguides, der gør det nemt at sammenligne priser, specifikationer og tilbud – med åbenhed om, hvordan produkterne er valgt, og hvordan siden tjener penge.', playform_site( 'name' ), playform_site( 'niche' ) ) );
 		}
 		if ( '' === (string) get_user_meta( $u->ID, 'pf_photo', true ) ) {
 			update_user_meta( $u->ID, 'pf_photo', playform_asset( 'authors/frederik-baastrup.jpg' ) );

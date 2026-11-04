@@ -12,7 +12,7 @@
  * Tilføj tracking ALDRIG direkte i skabelonerne. Registrér det i stedet, så det kun køres efter samtykke:
  *
  *   add_filter( 'playform_consent_scripts', function ( array $s ): array {
- *       $s[] = [ 'category' => 'statistik', 'src' => 'https://…/script.js', 'attrs' => [ 'data-domain' => 'fitbase.dk' ] ];
+ *       $s[] = [ 'category' => 'statistik', 'src' => 'https://…/script.js', 'attrs' => [ 'data-domain' => 'kitzhen.dk' ] ];
  *       $s[] = [ 'category' => 'marketing', 'inline' => 'fbq("init","123");' ];
  *       return $s;
  *   } );

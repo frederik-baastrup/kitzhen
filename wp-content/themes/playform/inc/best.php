@@ -1,6 +1,6 @@
 <?php
 /**
- * Købsguides af typen "Vores bud på de 3 bedste X" (overført fra det gamle fitbase.dk).
+ * Købsguides af typen "Vores bud på de 3 bedste X" (Fitbase: overført fra det gamle fitbase.dk; Kitzhen: omskrevet fra det gamle Kitzhen-blog).
  *
  * - Ligger på samme URL som på det gamle site: /romaskine-med-vand/ (ikke /viden/…), så de beholder placeringer og links.
  * - Indholdet er almindelig tekst i indlægget. Kun de levende dele (pris, butik, lager, knap) kommer fra shortcodes,
@@ -262,28 +262,39 @@ add_action(
 );
 
 /* -------------------------------------------------------------------------
- * Adresser fra det gamle fitbase.dk
+ * Adresser
  * ---------------------------------------------------------------------- */
 
-/** Mappe for købsguides: /koebsguide/romaskine-med-vand/ (samme mappenavn som det gamle fitbase.dk). */
-const PLAYFORM_GUIDE_BASE = 'koebsguide';
-
 /**
- * Købsguides fra det gamle fitbase.dk. slug => post-ID.
- * (Lå før direkte under roden – /romaskine-med-vand/ – og viderestilles nu til /koebsguide/<slug>/.)
+ * Mappe for købsguides. Tom = guides ligger direkte under roden (/bedste-gasgrill/), som på det gamle
+ * Kitzhen – så de beholder deres placeringer. Fitbase bruger 'koebsguide' (/koebsguide/romaskine-med-vand/).
+ * Kategori-slugs må derfor aldrig starte med "bedste-" (se permalinks.php).
  */
+const PLAYFORM_GUIDE_BASE = '';
+
+/** Oversigten over købsguides (emnet "Købsguides"): /koebsguide/. */
+const PLAYFORM_GUIDE_INDEX = 'koebsguide';
+
+/** Købsguides fra content/best/. slug => post-ID. */
 function playform_root_posts(): array {
 	return (array) get_option( 'playform_root_posts', [] );
 }
 
 /** Adressen på en købsguide – eller oversigten, uden slug. */
 function playform_guide_url( string $slug = '' ): string {
-	return home_url( user_trailingslashit( PLAYFORM_GUIDE_BASE . ( '' !== $slug ? '/' . $slug : '' ) ) );
+	if ( '' === $slug ) {
+		return home_url( user_trailingslashit( PLAYFORM_GUIDE_INDEX ) );
+	}
+	return home_url( user_trailingslashit( ( '' !== PLAYFORM_GUIDE_BASE ? PLAYFORM_GUIDE_BASE . '/' : '' ) . $slug ) );
 }
 
+// Guides under en mappe (Fitbase): indlæggets adresse er /<mappe>/<slug>/ i stedet for den normale permalink.
 add_filter(
 	'post_link',
 	static function ( string $link, WP_Post $post ): string {
+		if ( '' === PLAYFORM_GUIDE_BASE ) {
+			return $link;
+		}
 		$root = playform_root_posts();
 		return isset( $root[ $post->post_name ] ) && (int) $root[ $post->post_name ] === (int) $post->ID ? playform_guide_url( $post->post_name ) : $link;
 	},
@@ -304,45 +315,93 @@ add_filter(
 add_filter(
 	'rewrite_rules_array',
 	static function ( array $rules ): array {
-		$base = preg_quote( PLAYFORM_GUIDE_BASE, '#' );
-		$new  = [
-			'^' . $base . '/?$'                => 'index.php?category_name=kobsguide',
-			'^' . $base . '/page/([0-9]+)/?$' => 'index.php?category_name=kobsguide&paged=$matches[1]',
+		$index = preg_quote( PLAYFORM_GUIDE_INDEX, '#' );
+		$new   = [
+			'^' . $index . '/?$'                => 'index.php?category_name=kobsguide',
+			'^' . $index . '/page/([0-9]+)/?$' => 'index.php?category_name=kobsguide&paged=$matches[1]',
 		];
-		foreach ( playform_root_posts() as $slug => $id ) {
-			$new[ '^' . $base . '/' . preg_quote( $slug, '#' ) . '/?$' ] = 'index.php?p=' . (int) $id;
+		if ( '' !== PLAYFORM_GUIDE_BASE ) {
+			$base = preg_quote( PLAYFORM_GUIDE_BASE, '#' );
+			foreach ( playform_root_posts() as $slug => $id ) {
+				$new[ '^' . $base . '/' . preg_quote( $slug, '#' ) . '/?$' ] = 'index.php?p=' . (int) $id;
+			}
 		}
 		return $new + $rules;
 	},
 	20
 );
 
-/** Gamle adresser, der ikke findes mere. Fravalgte emner går til forsiden (ejerens valg). */
+/**
+ * Gamle adresser fra det tidligere Kitzhen-blog, der ikke findes mere: sti => ny adresse (301) eller 410 (fjernet).
+ * Guides fik "bedste-" foran og mistede "-test" (ejerens valg 4. nov. 2026). Opskrifter og indhold uden for emnet er fjernet.
+ */
 function playform_legacy_redirects(): array {
-	$home = home_url( '/' );
 	return [
-		'vaelg-den-rigtige-fodboldstoevle'                                => $home,
-		'vaelg-en-fodboldtroeje-der-matcher-dit-yndlingshold'             => $home,
-		'kosttilskud-og-traening-optimer-din-praestation-og-restitution' => $home,
-		'cykling'                                                         => $home,
-		'annoncoerer'                                                     => $home,
-		'sammenklappeligt-loebebaand'                                     => playform_guide_url( 'foldbart-loebebaand' ),
-		'curved-loebebaand'                                               => playform_guide_url( 'loebebaand-uden-motor' ),
-		'mini-motionscykel'                                               => playform_guide_url( 'siddecykel' ),
-		'koebsguide/fitness'                                              => playform_guide_url(),
-		'koebsguide/sport'                                                => playform_guide_url(),
-		'koebsguide/traeningsmaskiner'                                    => home_url( '/traeningsmaskiner/' ),
-		'koebsguide/styrketraening'                                       => home_url( '/styrketraening/' ),
-		'koebsguide/traeningsudstyr'                                      => home_url( '/tilbehor/' ),
-		'hvad-er-cardio'                                                  => home_url( '/viden/hvad-er-cardio/' ),
-		'guide-derfor-boer-du-proeve-kompressionsterapi'                  => home_url( '/viden/kompressionsterapi/' ),
-		'sitemap_index.xml'                                               => home_url( '/wp-sitemap.xml' ), // gammelt Yoast-sitemap i Search Console
-		'post-sitemap.xml'                                                => home_url( '/wp-sitemap.xml' ),
-		'page-sitemap.xml'                                                => home_url( '/wp-sitemap.xml' ),
-		'generelt'                                                        => home_url( '/viden/' ),
-		'viden/artikler'                                                  => home_url( '/viden/' ),
-		'om'                                                              => home_url( '/viden/forfatter/frederik-baastrup/' ),
-		'author/mondae'                                                   => home_url( '/viden/forfatter/frederik-baastrup/' ),
+		// Fra redirect-planen (Matomo + WordPress-eksport 4. nov. 2026). 410 = fjernet uden erstatning.
+		'kedel-til-induktion' => '/bedste-kedel-til-induktion/', // 212 indgange
+		'tykbundet-gryde' => '/bedste-tykbundet-gryde/', // 154 indgange
+		'groentsagshakker' => '/bedste-groentsagshakker/', // 89 indgange
+		'flad-broedrister' => '/bedste-flad-broedrister/', // 69 indgange
+		'italiensk-pastatallerken' => '/bedste-italiensk-pastatallerken/', // 50 indgange
+		'miniovn-med-varmluft' => '/bedste-miniovn-med-varmluft/', // 45 indgange
+		'koeleskab-til-drikkevarer' => '/bedste-koeleskab-til-drikkevarer/', // 36 indgange
+		'rullepoelsepresse' => '/bedste-rullepoelsepresse/', // 35 indgange
+		'elektrisk-knivsliber' => '/bedste-elektrisk-knivsliber/', // 30 indgange
+		'elektrisk-roegeovn' => '/bedste-elektrisk-roegeovn/', // 30 indgange
+		'blinispande-til-induktion' => '/bedste-blinispande-til-induktion/', // 28 indgange
+		'grillpande-til-induktion' => '/bedste-grillpande-til-induktion/', // 25 indgange
+		'pizzaovn-til-grill' => '/bedste-pizzaovn-til-grill/', // 20 indgange
+		'mini-foodprocessor' => '/bedste-mini-foodprocessor/', // 19 indgange
+		'mokkakande' => '/bedste-mokkakande/', // 19 indgange
+		'elektrisk-kartoffelskraeller' => '/bedste-elektrisk-kartoffelskraeller/', // 17 indgange
+		'bambus-skaerebraet' => '/bedste-bambus-skaerebraet/', // 14 indgange
+		'bedste-airfryer-test' => '/bedste-airfryer/', // 12 indgange
+		'bedste-spiralizer-test' => '/bedste-spiralizer/', // 12 indgange
+		'aebleskivepande-til-induktion' => '/bedste-aebleskivepande-til-induktion/', // 10 indgange
+		'cozze-pizzaovn-test' => '/bedste-pizzaovn/', // 10 indgange
+		'fuldautomatisk-espressomaskine' => '/bedste-fuldautomatisk-espressomaskine/', // 10 indgange
+		'ostesaet' => '/bedste-ostesaet/', // 10 indgange
+		'bananpandekager-uden-aeg-og-maelk' => 410, // 9 indgange
+		'bedste-kokkekniv-test' => '/bedste-kokkekniv/', // 9 indgange
+		'elektrisk-bordgrill' => '/bedste-elektrisk-bordgrill/', // 9 indgange
+		'kage-i-kop-opskrift' => 410, // 9 indgange
+		'store-vinglas' => '/bedste-store-vinglas/', // 7 indgange
+		'lille-stegepande' => '/bedste-stegepande/', // 5 indgange
+		'julestel' => '/bedste-julestel/', // 4 indgange
+		'kylling-i-roedvin-opskrift' => 410, // 4 indgange
+		'rengoering-af-mikroovn' => '/bedste-mikroovn/', // 4 indgange
+		'dobbelt-airfryer' => '/bedste-airfryer/', // 3 indgange
+		'hellofresh-goer-det-nemt-at-lave-aftensmad' => 410, // 3 indgange
+		'hvad-er-forskellen-paa-zinfandel-og-primitivo' => '/bedste-roedvinsglas/', // 2 indgange
+		'pizzaovn-til-kokkenet' => '/bedste-pizzaovn/', // 2 indgange
+		'qknives-anmeldelse' => '/bedste-kokkekniv/', // 2 indgange
+		'scrambled-eggs-med-parmaskinke-og-tomater' => 410, // 2 indgange
+		'opskrift-hollandaisesauce' => 410, // 1 indgange
+		'opskrifter' => '/viden/', // 1 indgange
+		'annoncoerer' => '/kontakt-os/', // 0 indgange
+		'fynsk-restaurant-michelin-stjerne-aro' => 410, // 0 indgange
+		'hvad-er-forskellen-paa-cafe-latte-og-cappuccino' => '/bedste-espressomaskine/', // 0 indgange
+		'koebsguide/bar-og-vin' => '/servering/', // 0 indgange
+		'koebsguide/hvidevarer' => '/ovne-apparater/', // 0 indgange
+		'koebsguide/kaffe-og-te' => '/kaffe-drikke/', // 0 indgange
+		'koebsguide/koekkengrej' => '/knive-redskaber/', // 0 indgange
+		'koebsguide/koekkenmaskiner' => '/koekkenmaskiner/', // 0 indgange
+		'koebsguide/til-bordet' => '/servering/', // 0 indgange
+		'koebsguide/udekoekken' => '/grill/', // 0 indgange
+		'koldskaal-opskrift' => 410, // 0 indgange
+		'opskrift-paa-grillet-laks-med-lime-squash-og-kartofler' => 410, // 0 indgange
+		'opskrifter/aftensmad' => 410, // 0 indgange
+		'opskrifter/dessert' => 410, // 0 indgange
+		'opskrifter/morgenmad' => 410, // 0 indgange
+		'viden/anmeldelse' => '/viden/', // 0 indgange
+		'viden/artikler' => '/viden/', // 0 indgange
+		'viden/guides' => '/viden/', // 0 indgange
+		'viden/nyheder' => '/viden/', // 0 indgange
+		// Gamle sitemaps fra Yoast i Search Console
+		'sitemap_index.xml' => '/wp-sitemap.xml',
+		'post-sitemap.xml'  => '/wp-sitemap.xml',
+		'page-sitemap.xml'  => '/wp-sitemap.xml',
+		'category-sitemap.xml' => '/wp-sitemap.xml',
 	];
 }
 
@@ -351,10 +410,10 @@ add_action(
 	static function () {
 		$path = trim( rawurldecode( (string) wp_parse_url( (string) ( $_SERVER['REQUEST_URI'] ?? '' ), PHP_URL_PATH ) ), '/' ); // phpcs:ignore
 		$root = playform_root_posts();
-		// Én adresse pr. købsguide: /romaskine-med-vand/ og /viden/romaskine-med-vand/ → /koebsguide/romaskine-med-vand/
+		// Guides under en mappe (Fitbase): én adresse pr. købsguide.
 		if ( is_singular( 'post' ) ) {
 			$post = get_queried_object();
-			if ( $post instanceof WP_Post && (int) ( $root[ $post->post_name ] ?? 0 ) === (int) $post->ID && PLAYFORM_GUIDE_BASE . '/' . $post->post_name !== $path ) {
+			if ( '' !== PLAYFORM_GUIDE_BASE && $post instanceof WP_Post && (int) ( $root[ $post->post_name ] ?? 0 ) === (int) $post->ID && PLAYFORM_GUIDE_BASE . '/' . $post->post_name !== $path ) {
 				wp_safe_redirect( get_permalink( $post ), 301 );
 				exit;
 			}
@@ -362,23 +421,29 @@ add_action(
 		}
 		// Den gamle emneside for købsguides → /koebsguide/
 		if ( preg_match( '#^viden/emne/kobsguide(?:/page/(\d+))?$#', $path, $m ) ) {
-			wp_safe_redirect( ! empty( $m[1] ) ? playform_guide_url( 'page/' . $m[1] ) : playform_guide_url(), 301 );
+			wp_safe_redirect( ! empty( $m[1] ) ? home_url( user_trailingslashit( PLAYFORM_GUIDE_INDEX . '/page/' . $m[1] ) ) : playform_guide_url(), 301 );
 			exit;
 		}
 		if ( ! is_404() ) {
 			return;
 		}
 		$path = preg_replace( '#/(feed|amp)$#', '', $path );
-		// Købsguidernes gamle adresse direkte under roden (som på det gamle fitbase.dk)
-		if ( isset( $root[ $path ] ) ) {
+		if ( '' !== PLAYFORM_GUIDE_BASE && isset( $root[ $path ] ) ) {
 			wp_safe_redirect( playform_guide_url( $path ), 301 );
 			exit;
 		}
 		$map = playform_legacy_redirects();
-		if ( isset( $map[ $path ] ) ) {
-			wp_safe_redirect( $map[ $path ], 301 );
-			exit;
+		if ( ! isset( $map[ $path ] ) ) {
+			return;
 		}
+		if ( 410 === $map[ $path ] ) {
+			// Fjernet uden erstatning: 410 fortæller Google, at siden er væk med vilje (hurtigere ud af indekset end 404).
+			status_header( 410 );
+			nocache_headers();
+			return; // WordPress viser 404-skabelonen med status 410
+		}
+		wp_safe_redirect( str_starts_with( (string) $map[ $path ], '/' ) ? home_url( $map[ $path ] ) : $map[ $path ], 301 );
+		exit;
 	},
 	4
 );

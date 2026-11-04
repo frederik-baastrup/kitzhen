@@ -36,7 +36,7 @@ $posts = get_posts( [ 'post_type' => 'post', 'author' => $a['id'], 'posts_per_pa
 		<div><b>Data direkte fra butikkerne</b><p>Priser, lagerstatus og specifikationer hentes fra de danske butikkers produktdata to gange i døgnet.</p></div>
 		<div><b>Ingen opdigtede fakta</b><p>Guiderne bygger på producenternes oplysninger og generel købsrådgivning. Står en oplysning ikke i dataene, skriver vi den ikke.</p></div>
 		<div><b>Ærlige tilbud</b><p>Vi viser kun butikkernes egne tilbud i højst 14 dage, og det står altid, hvor en førpris kommer fra.</p></div>
-		<div><b>Annoncer</b><p>Siden indeholder affiliate-links, og vi får provision ved køb. Vi fremhæver især større træningsmaskiner. <a href="<?php echo esc_url( home_url( '/saadan-tjener-vi-penge/' ) ); ?>">Sådan tjener vi penge</a>.</p></div>
+		<div><b>Annoncer</b><p>Siden indeholder affiliate-links, og vi får provision ved køb. <a href="<?php echo esc_url( home_url( '/saadan-tjener-vi-penge/' ) ); ?>">Sådan tjener vi penge</a>.</p></div>
 	</div>
 </section>
 
@@ -46,7 +46,7 @@ $posts = get_posts( [ 'post_type' => 'post', 'author' => $a['id'], 'posts_per_pa
 		<div class="guides-list">
 			<?php foreach ( $posts as $m ) : ?>
 				<a href="<?php echo esc_url( get_permalink( $m ) ); ?>" class="guide-row">
-					<img src="<?php echo esc_url( get_the_post_thumbnail_url( $m, 'thumbnail' ) ?: playform_asset( 't-hjemmegym.jpg' ) ); ?>" alt="" loading="lazy">
+					<img src="<?php echo esc_url( get_the_post_thumbnail_url( $m, 'thumbnail' ) ?: playform_asset( 'cat-placeholder.svg' ) ); ?>" alt="" loading="lazy">
 					<span><b><?php echo esc_html( get_the_title( $m ) ); ?></b><span><?php echo esc_html( get_the_modified_date( 'j. M Y', $m ) ); ?></span></span>
 				</a>
 			<?php endforeach; ?>

@@ -1,59 +1,61 @@
-# Fitbase – projektnoter til Claude
+# Kitzhen – projektnoter til Claude
 
-Fitbase (fitbase.dk, tidligere Playform) er en affiliate-side, der ligner en webshop. Den samler fitnessudstyr fra flere danske shops via Partner-ads-produktfeeds. Man køber ikke på siden: "Gå til butik" sender brugeren videre til shoppen via et affiliate-link.
+Kitzhen (kitzhen.dk) er en affiliate-side, der ligner en webshop. Den samler køkkenudstyr fra flere danske shops via Partner-ads-produktfeeds. Man køber ikke på siden: "Gå til butik" sender brugeren videre til shoppen via et affiliate-link.
 
-Ejer: Frederik Baastrup. Al tekst på siden er på dansk.
+Ejer: Frederik Baastrup (Mondae). Al tekst på siden er på dansk.
 
-Siden hed Playform. Synlige tekster og logo siger nu Fitbase (`playform_rebrand()` i `inc/setup.php` rettede databasen én gang). Kodenavne er bevidst bevaret: mappenavne `playform`/`playform-feeds`, namespace `Playform\Feeds`, funktioner `playform_*`, metafelter `_pf_*` og shortcoden `[playform_produkter]` – omdøb dem ikke, det bryder udrulning og data.
+**Samme kodebase som Fitbase** (github.com/frederik-baastrup/playform). Kitzhen startede som en kopi af Fitbase 4. nov. 2026. Kodenavnene er bevidst de samme: mappenavne `playform`/`playform-feeds`, namespace `Playform\Feeds`, funktioner `playform_*`, metafelter `_pf_*`, shortcodes `[playform_produkter]` og `[fitbase_…]`. Så kan rettelser flyttes mellem de to sites. Omdøb dem ikke.
+
+Alt, der er særligt for nichen, ligger i `wp-content/plugins/playform-feeds/src/Config.php`: sitets navn og kontaktoplysninger (`site()`), shops, kategorier, underkategorier, udelukkelser, prisintervaller og filteregenskaber. Temaet læser navn, domæne m.m. via `playform_site()` (`inc/site.php`). Skriv aldrig "Kitzhen" eller "kitzhen.dk" direkte i en skabelon.
 
 ## Opbygning
 
-- `wp-content/plugins/playform-feeds/` – importen (PHP 8.1+, kræver WooCommerce)
-  - `src/Config.php` – shops (feed-URL'er), kategoritræ og sorteringsregler. **En ny niche = en ny Config.**
-  - `src/FeedReader.php` – læser feeds som strøm (XMLReader). Feeds er iso-8859-1; XMLReader giver korrekt UTF-8.
-  - `src/Normalizer.php` – ensretter felter (lager, levering, pris, EAN, billed-URL).
-  - `src/Classifier.php` – placerer produkter i vores kategorier (regler; AI-fallback kommer).
-  - `src/Attributes.php` – udtrækker filtre (foldbar, incline, km/t, maks. brugervægt, vægt i kg) fra tekst. Intet gættes.
-  - `src/Offers.php` – tabel `wp_pf_offers`: ét tilbud pr. produkt pr. butik. Produkter matches på tværs af shops via EAN.
-  - `src/PriceHistory.php` – tabel `wp_pf_price_history`: dagens laveste pris pr. produkt pr. butik.
-  - `src/Sales.php` – butikkernes tilbud (højst 14 dage gamle) → `_pf_shop_sale`. Genberegnes efter hver import.
-  - `src/ProductSync.php` – opretter/opdaterer WooCommerce "eksterne produkter".
-  - `src/Subcategories.php` – underkategorier (landingssider) ud fra regler i `Config::subcategories()`.
-  - `src/ImageCache.php` – produktbilleder gemmes på egen server (GDPR + hastighed).
-  - `src/LinkCheck.php` – efter hver import tjekkes 300 tilbud (længst utjekkede først), om butikkens produktside findes. 404/410 eller viderestilling til forsiden → `link_dead_url`, og tilbuddet tæller ikke med i `Offers::for_product()` (ingen "Gå til butik" til døde sider). 403/429/5xx er ikke bevis.
-  - `src/Ai.php`, `src/AiClassifier.php`, `src/AiWriter.php`, `src/AdminTexts.php` – AI-sortering og -tekster med godkendelse.
-  - `src/Importer.php`, `src/Cron.php`, `src/Cli.php`, `src/Admin.php`, `src/Frontend.php`
-- `wp-content/themes/playform/` – temaet, bygget ud fra designet (forside, kategoriside, produktside).
-  - `inc/navigation.php` – menuen (`playform_menu_spec()`): Træningsmaskiner, Styrketræning, Yoga & pilates, Restitution, Tilbehør, Tilbud. Træningsmaskiner og Styrketræning er grupperingskategorier med oversigtsside.
-  - `template-parts/mobile-menu.php` – mobilmenuen (≤1080 px): skuffe med lag, menupunkt → kategori (underkategorier, pris, tilbud). Bygges ud fra `playform_menu()` ligesom mega-menuen.
-  - `inc/permalinks.php` – flade kategori-URL'er (`/traeningsmaskiner/lobebaand/gaabaand/`) og `/…/tilbud/`-sider. WooCommerce' præfiks `kategori` bruges kun til gamle links, som omdirigeres.
-  - `inc/authors.php` – forfattere (E-E-A-T): navn i byline, forfatterside `/viden/forfatter/navn/`, forfatterboks under artikler, JSON-LD (Article, ProfilePage/Person). Ingen Gravatar – profilbillede via feltet `pf_photo`. Påstå aldrig kvalifikationer, ejeren ikke selv har skrevet i sin profil.
-  - `template-parts/guides-index.php` – Viden & guides (`/viden/`) og emnesider (`/viden/emne/<emne>/`): emnefaner, fremhævet guide, gitter. Emner = WordPress-kategorier.
-  - `assets/img/articles/<slug>.jpg` – artikelbilleder fra Pexels (fri licens, 1800 px). `playform_article_images()` sætter dem på indlæg uden billede eller med for lille billede. Brug aldrig produktbilleder som artikelbilleder.
-  - `inc/best.php` + `content/best/<slug>.php` – købsguides "Vores bud på de 3 bedste X" overført fra det gamle fitbase.dk. Ligger under `/koebsguide/<slug>/` (`PLAYFORM_GUIDE_BASE`, `playform_guide_url()`); oversigten er `/koebsguide/` (emnet `kobsguide`). Gamle adresser direkte under roden (`/romaskine-med-vand/`, som på det gamle site), `/viden/<slug>/` og `/viden/emne/kobsguide/` viderestilles med 301 (`playform_root_posts()`). Top 3 med links til rigtige anmeldelser af præcis samme model, ellers markeret "vores vurdering". Aldrig påstand om egen test. Levende pris/lager via shortcodes. Gamle URL'er, der ikke findes mere, viderestilles i `playform_legacy_redirects()` (fravalgte emner → forsiden).
-  - `inc/search.php` – søgeforslag (`/wp-json/playform/v1/search`).
-- `dev/setup-local.sh` – lokal WordPress med SQLite i `.local/` (ignoreres af git).
+- `wp-content/plugins/playform-feeds/` – importen (PHP 8.1+, kræver WooCommerce). Se Fitbases CLAUDE.md for de enkelte klasser; de er uændrede, bortset fra at `Classifier` og `Attributes` nu læser maskinkategorier og filteregenskaber fra Config.
+- `wp-content/themes/playform/` – temaet.
+  - `inc/site.php` – `playform_site()` og `playform_price_bands()`.
+  - `inc/navigation.php` – topmenuen: de 8 hovedkategorier (`playform_menu_spec()`), flertalsnavne (`playform_menu_labels()`), "Populære" i sidefoden. Ingen grupperingskategorier.
+  - `inc/permalinks.php` – flade kategori-URL'er (`/grill/gasgrill/`). Kategorier må ikke starte med `bedste-` (blokeres ved oprettelse).
+  - `inc/best.php` + `content/best/<slug>.php` – købsguides "Vores bud på de bedste X". **Guides ligger på roden** (`PLAYFORM_GUIDE_BASE = ''`): `/bedste-gasgrill/`. Oversigten er `/koebsguide/` (`PLAYFORM_GUIDE_INDEX`). `playform_legacy_redirects()` har de gamle Kitzhen-adresser (301 eller 410).
+  - `content/category-texts.php` – intro, SEO-tekst og FAQ til kategorierne. Tomme felter udfyldes ved udrulning; felter med tekst røres ikke.
+  - `inc/setup.php` – opdateringer efter udrulning, standardsider, cache-tømning. Permalinks `/%postname%/`.
+  - `inc/legal.php` – privatlivs- og cookiepolitik med pladsholdere (`{NAME}`, `{DOMAIN}` …).
+  - `assets/img/` – logo (sort tekst til lys baggrund), `logo-white.svg`, favicon. Kategoribilleder lægges som `cat-<slug>.jpg` (+ `th-<slug>.jpg` til mobilmenuen); mangler de, vises `cat-placeholder.svg`.
+
+## URL'er
+
+- Guides: `/bedste-<emne>/`. Aldrig "test" i URL'en (ejerens valg). Gamle adresser uden "bedste-" eller med "-test" omdirigeres med 301.
+- Kategorier: `/kaffe-drikke/`, `/ovne-apparater/`, `/koekkenmaskiner/`, `/gryder-pander/`, `/knive-redskaber/`, `/grill/`, `/pizza-bagning/`, `/servering/` – underkategorier under dem.
+- `/viden/` = Viden & guides (alle indlæg), `/viden/emne/<emne>/`, `/koebsguide/` = oversigt over købsguides.
+- Produkter: `/produkt/<navn>/`.
+- Redirect-planen (alle gamle URL'er og hvorfor) ligger i Claude-dokumentet "Kitzhen.dk – ombygningsplan".
 
 ## Vigtige regler
 
-1. **Tilbud = butikkernes egne tilbud, højst 14 dage gamle.** Et produkt er på tilbud, når den billigste butik på lager selv har markeret det med en førpris (`glpris` > pris), og netop det tilbud højst er 14 dage gammelt (Forbrugerombudsmandens to-ugers-regel). Se `Sales` (`Sales::DAYS`) og kolonnen `sale_since` i `wp_pf_offers`. Vi viser "Tilbud hos [butik]", prisen, en overstreget førpris og rabat i % (`playform_save_pct()`). **Førprisen:** helst *kontrolleret førpris* (`Sales::reference()` → `_pf_sale_ref`): den laveste pris hos samme butik i de 30 dage før `sale_since`, når vores prishistorik for butikken går mindst 30 dage tilbage fra tilbudsstarten (førprisreglen). Findes den ikke, viser vi butikkens egen førpris (`glpris` → `_pf_sale_list`) tydeligt mærket "Butikkens førpris" (ejerens valg 2. nov. 2026, indtil vores historik er lang nok). `_pf_sale_percent` (butikkens rabat) bruges til sortering. Vores egen prishistorik (`PriceHistory::drop()`) er ikke et tilbud. Den vises kun som faktuel prisinfo på produktsiden ("Laveste pris de 30 dage før").
-2. **AI må aldrig opfinde fakta.** Produkttekster skrives kun ud fra feed-data (navn, mærke, beskrivelse, kategori) og generel købsrådgivning for kategorien. Ingen opdigtede specifikationer. Ejeren godkender ikke hver tekst: `AiWriter::check()` faktatjekker automatisk (alle tal skal stå i feed-data, ingen reklamesuperlativer). Teksterne er lange (ca. 300–450 ord: indledning, "Det får du", "Hvem passer den til?", "Det skal du overveje" med generel købsrådgivning uden tal); `_pf_ai_version` = 2. Korte tekster i det gamle format skrives om, når alle produkter har tekst. Består teksten, udgives den straks; ellers venter den under Produkter → Tekster til godkendelse. `Cron::after_import()` skriver `playform_ai_texts_per_run` (standard 100) nye tekster efter hver fuld import, højst 200 pr. døgn.
-3. **Affiliate-links** har `rel="sponsored nofollow"`, og siden skal tydeligt oplyse, at den indeholder annoncer. Alle klik-links går gennem `playform_aff_url()`: `uid` = produktets slug, `uid2` = købsguidens slug, `produktside` eller `produktside-prisliste` (statiske værdier – siderne caches).
-4. **Produkter uden billede vises ikke** (kladde, se `ProductSync::refresh()`) – typisk udgåede varer eller reservedele. **Udsolgte produkter slettes ikke.** Siden bliver liggende som "ikke på lager". Eksterne produkter kan ikke have WooCommerce-lagerstatus, så vi bruger metafeltet `_pf_in_stock`.
-5. **Prissammenligning er en bonus.** De fleste produkter sælges af én butik. Produktsiden viser "Sælges af [butik]" ved én butik og prislisten ved flere.
-6. **Ingen pixelerede billeder.** `playform_post_image()` viser kun et indlægsbillede, hvis det er stort nok (hero ≥ 1200 px, kort ≥ 700 px).
-7. **Ingen tredjepartskald fra den offentlige side.** Skrift ligger i `themes/playform/assets/fonts/`, billeder caches lokalt, WooCommerce' scripts og sporings-cookies er slået fra.
-8. **Redaktørens rettelser vinder.** Metafeltet `_pf_locks` (`name`, `category`) forhindrer importen i at overskrive.
+Samme som Fitbase:
+
+1. **Tilbud = butikkernes egne tilbud, højst 14 dage gamle** (`Sales::DAYS`). Kontrolleret førpris fra vores prishistorik, ellers butikkens førpris tydeligt mærket "Butikkens førpris".
+2. **AI må aldrig opfinde fakta.** Produkttekster kun ud fra feed-data; `AiWriter::check()` faktatjekker.
+3. **Affiliate-links** har `rel="sponsored nofollow"`, og siden oplyser tydeligt, at den indeholder annoncer. Alle klik går gennem `playform_aff_url()`.
+4. **Produkter uden billede vises ikke.** Udsolgte produkter slettes ikke.
+5. **Prissammenligning er en bonus.** "Sælges af [butik]" ved én butik, prisliste ved flere.
+6. **Ingen pixelerede billeder.**
+7. **Ingen tredjepartskald fra den offentlige side.**
+8. **Redaktørens rettelser vinder** (`_pf_locks`, seed-hash på guides, tomme felter på kategoritekster).
+9. **Guides påstår aldrig egen test.** Top-valg bygger på rigtige anmeldelser af præcis samme model, ellers markeret "vores vurdering". Det gamle Kitzhen blev ramt af en algoritmisk nedtoning (AI-tekster), så guides skrives om med reel substans – de gamle tekster flyttes ikke over uændret.
+
+## Shops (Partner-ads, partnerid 14854)
+
+KitchenOne.dk (~27.700 produkter), HvidevareShoppen.dk (~9.300), Barlife.dk (~7.500), Japanske kokkeknive, Køge Kafferisteri, Cibumic.dk, Bagestålet.dk. Gourmetshoppen.com er godkendt, men feedet var tomt 4. nov. 2026. Shop ↔ feed-link er bekræftet ud fra `bannerid` i feedets `vareurl`.
+
+HvidevareShoppen, KitchenOne og Barlife sælger meget, der ikke er køkkenudstyr (hvidevarer til vask/frys, køkkenskabe, emhætter, spiritus, delikatesser, interiør). `Config::exclude()` holder det ude; tjek altid fordelingen efter en import (`wp playform stats`). Reglerne er testet på feedsne fra 4. nov. 2026: ca. 21.000 produkter i kategorierne.
 
 ## Kommandoer
 
 ```bash
-dev/setup-local.sh <kildemappe>     # lokal WordPress (admin/admin)
 wp playform import                  # hent og importer alle feeds
-wp playform import --shop=apuls --limit=50
-wp playform import --file=apuls:/sti/feed.xml
+wp playform import --shop=kitchenone --limit=50
+wp playform import --file=kitchenone:/sti/feed.xml
 wp playform stats                   # produkter pr. kategori
-wp playform drops                   # genberegn målte prisfald (prishistorik)
 wp playform sales                   # genberegn butikstilbud
 ```
 
@@ -61,12 +63,16 @@ På hosting: kør `wp playform import` fra et rigtigt cronjob kl. 05:30 og 17:30
 
 ## Udrulning
 
-Hvert push til `main` udrulles via GitHub Actions (FTPS) til `fitbase.dk/public_html` på FTP-kontoen (`SITE_DIR` i `.github/workflows/deploy.yml`; udrulningen stopper, hvis mappen ikke indeholder `wp-config.php`). Hoveddomænet blev skiftet fra `frederikb7.sg-host.com` til fitbase.dk den 2. nov. 2026; `playform_move_to_fitbase_dk()` flytter WordPress-adressen. GitHub-secret `FTP_SERVER` skal være SiteGrounds FTP-værtsnavn, ikke det midlertidige domæne.
+Hvert push til `main` udrulles via GitHub Actions (FTPS) til SiteGround. Kræver secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` og variablerne `SITE_DIR` (fx `kitzhen.dk/public_html`) og `SITE_URL` (fx `https://kitzhen.dk`). Mangler de, springes udrulningen over. Udrulningen stopper, hvis mappen ikke indeholder `wp-config.php`.
 
 ## Design
 
-Designet ligger som et Claude-artefakt (Playform: forside, kategoriside, produktside). Stil: hvid baggrund, sort tekst, BDO Grotesk, afrundede hjørner (14–18 px), accentfarve #23D200 (fra logoet) brugt sparsomt, tynde linjeikoner (stroke 1.4), tynde streger med lav opacity.
+Som Fitbase: hvid baggrund, sort tekst, BDO Grotesk, afrundede hjørner, tynde linjeikoner. Accentfarve `#24FF00` fra Kitzhen-logoet (grøn cirkel), brugt sparsomt (købsknap).
 
-## Shops
+## Åbne punkter (4. nov. 2026)
 
-Apuls.dk, Fitnessshoppen.dk, Træningspartner, Den Intelligente Krop (kun træning, yoga, pilates, massage) og OptimaSport.dk (kun restitution). Cykelexperten.dk kun dame- og herrecykler (`category_map` i `Config::shops()`, størrelsesvarianter samles med `group_variants`) til købsguiderne om citybikes; gruppen Cykler (`/cykler/`) er ikke i hovedmenuen. Cykelpartner har ingen hele cykler og er ikke med. Padelshoppen og Watery er fravalgt (ikke fitness).
+- **Grill:** Kategorien er den tredjestørste målt på trafik, men har ingen ren grillforhandler. KitchenOne dækker en del. Mange forhandlere sælger grill, men ikke alle hører hjemme under køkken.
+- Kategoribilleder (`cat-<slug>.jpg`) mangler.
+- SEO-tekst og FAQ til kategorierne mangler (kun intro).
+- Guides fra det gamle site skal skrives om som `content/best/<slug>.php`.
+- Udrulning til SiteGround er ikke sat op endnu.

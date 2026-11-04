@@ -20,7 +20,7 @@ add_action(
 						[
 							'@type' => 'Organization',
 							'@id'   => $home . '#organisation',
-							'name'  => 'Fitbase',
+							'name'  => playform_site( 'name' ),
 							'url'   => $home,
 							'logo'  => [ '@type' => 'ImageObject', 'url' => get_template_directory_uri() . '/assets/img/favicon-192.png', 'width' => 192, 'height' => 192 ],
 						],
@@ -28,7 +28,7 @@ add_action(
 							'@type'           => 'WebSite',
 							'@id'             => $home . '#website',
 							'url'             => $home,
-							'name'            => 'Fitbase',
+							'name'            => playform_site( 'name' ),
 							'inLanguage'      => 'da-DK',
 							'publisher'       => [ '@id' => $home . '#organisation' ],
 							'potentialAction' => [
@@ -56,7 +56,7 @@ add_action(
 				'name'       => $term instanceof WP_Term ? wp_specialchars_decode( playform_cat_label( $term ) ) : '',
 				'url'        => $term instanceof WP_Term ? get_term_link( $term ) : '',
 				'inLanguage' => 'da-DK',
-				'isPartOf'   => [ '@type' => 'WebSite', 'name' => 'Fitbase', 'url' => home_url( '/' ) ],
+				'isPartOf'   => [ '@type' => 'WebSite', 'name' => playform_site( 'name' ), 'url' => home_url( '/' ) ],
 			];
 			if ( $items ) {
 				$data['mainEntity'] = [ '@type' => 'ItemList', 'numberOfItems' => count( $items ), 'itemListElement' => $items ];

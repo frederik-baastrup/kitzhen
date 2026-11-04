@@ -40,7 +40,7 @@ if ( $offers ) {
 	$title = $is_cat ? 'Tilbud på ' . mb_strtolower( $label ) : 'Tilbud';
 	$intro = sprintf(
 		'Her er %s, som butikkerne selv har sat på tilbud lige nu. Vi viser kun tilbud, der højst er %d dage gamle, og prisen er butikkens egen – tjek altid den endelige pris hos butikken.',
-		$is_cat ? mb_strtolower( $label ) : 'fitnessudstyr',
+		$is_cat ? mb_strtolower( $label ) : playform_site( 'niche' ),
 		class_exists( '\Playform\Feeds\Sales' ) ? \Playform\Feeds\Sales::DAYS : 14
 	);
 } elseif ( $is_cat ) {

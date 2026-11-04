@@ -113,7 +113,7 @@ function playform_best_check( bool $notify = false ): array {
 				];
 			}
 			foreach ( (array) ( $pk['reviews'] ?? [] ) as [ $label, $url ] ) {
-				$res  = wp_remote_head( $url, [ 'timeout' => 12, 'redirection' => 5, 'user-agent' => 'Mozilla/5.0 (compatible; FitbaseLinkCheck/1.0)' ] );
+				$res  = wp_remote_head( $url, [ 'timeout' => 12, 'redirection' => 5, 'user-agent' => 'Mozilla/5.0 (compatible; ' . playform_site( 'name' ) . 'LinkCheck/1.0)' ] );
 				$code = is_wp_error( $res ) ? 0 : (int) wp_remote_retrieve_response_code( $res );
 				if ( $code === 405 || $code === 403 ) { // nogle sider afviser HEAD – prøv GET
 					$res  = wp_remote_get( $url, [ 'timeout' => 15, 'redirection' => 5, 'limit_response_size' => 20000 ] );
@@ -153,7 +153,7 @@ function playform_best_check( bool $notify = false ): array {
 		}
 		wp_mail(
 			get_option( 'admin_email' ),
-			'Fitbase: ' . count( $report['articles'] ) . ' købsguide(s) skal opdateres',
+			playform_site( 'name' ) . ': ' . count( $report['articles'] ) . ' købsguide(s) skal opdateres',
 			"Det ugentlige tjek fandt problemer. Indtil artiklerne er opdateret, viser siden automatisk et alternativ ved udsolgte produkter.\n\n" . implode( "\n", $lines ) . "\nSe også Indlæg → Tjek af købsguides i WordPress."
 		);
 	}
