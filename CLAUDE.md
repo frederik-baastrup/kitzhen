@@ -21,6 +21,8 @@ Alt, der er særligt for nichen, ligger i `wp-content/plugins/playform-feeds/src
   - `inc/legal.php` – privatlivs- og cookiepolitik med pladsholdere (`{NAME}`, `{DOMAIN}` …).
   - `assets/img/` – logo (sort tekst til lys baggrund), `logo-white.svg`, favicon. Kategoribilleder: `cat-<slug>.jpg` (1600×1100) + `th-<slug>.jpg` (240×240, mobilmenu); mangler de, vises `cat-placeholder.svg`. De 8 hovedkategorier har fotos fra Pexels (fri licens, ingen kreditering krævet), foto-id: grill 16617574, kaffe-drikke 5825346, ovne-apparater 5825716, koekkenmaskiner 6608137, gryder-pander 15257786, knive-redskaber 32878603, pizza-bagning 905847, servering 1114425. Underkategorier bruger forælderens billede. Brug aldrig produktbilleder som kategori- eller artikelbilleder.
 
+  - `inc/campaigns.php` – automatiske sæsonkampagner (ejerens ønske 4. nov. 2026: ingen opsætning i WordPress). Black Friday (hele november; baren skifter fra Black Month til nedtælling, Black Friday, Black Weekend og Cyber Monday), januarudsalg (1.–31. jan), sommerudsalg (25. jun–10. aug), efterårstilbud (15. sep–31. okt). Sort bar under menuen i perioden; fast side pr. kampagne (`/black-friday/` osv.), der viser butikkernes tilbud med samme regler som `/tilbud/` og står hele året med en note om næste gang. Lov aldrig mere, end tilbuddene holder.
+
 ## URL'er
 
 - Guides: `/bedste-<emne>/`. Aldrig "test" i URL'en (ejerens valg). Gamle adresser uden "bedste-" eller med "-test" omdirigeres med 301.
