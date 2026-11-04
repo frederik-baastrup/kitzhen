@@ -1,10 +1,10 @@
 name: Vis mapper på FTP-kontoen
 # Hjælper ved opsætning: lister mapperne i roden (og ét niveau ned) på SiteGrounds FTP-konto og gemmer
-# listen på grenen ftp-list-result, så SITE_DIR kan sættes rigtigt. Kører ved push til grenen ftp-list.
+# listen på grenen ftp-list-result, så SITE_DIR kan sættes rigtigt. Kører ved push til grenen ftp-list eller claude/ftp-list.
 on:
   workflow_dispatch:
   push:
-    branches: [ftp-list]
+    branches: [ftp-list, "claude/ftp-list"]
 permissions:
   contents: write
 jobs:
