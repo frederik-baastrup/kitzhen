@@ -1,0 +1,20 @@
+Kørt (UTC): 2026-11-04 10:09:59
+FTP_SERVER sat
+FTP_USERNAME sat
+FTP_PASSWORD sat
+== /
+..
+.
+frederikb10.sg-host.com
+== /../
+..
+.
+frederikb10.sg-host.com
+== /./
+..
+.
+frederikb10.sg-host.com
+== /frederikb10.sg-host.com/
+..
+.
+public_html
