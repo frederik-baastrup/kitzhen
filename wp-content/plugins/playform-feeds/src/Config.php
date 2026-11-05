@@ -40,6 +40,14 @@ final class Config {
 			'hvidevareshoppen'    => [ 'name' => 'HvidevareShoppen.dk', 'url' => "$base&bannerid=56457&feedid=1000" ],
 			'koege-kafferisteri'  => [ 'name' => 'Køge Kafferisteri', 'url' => "$base&bannerid=79640&feedid=1878" ],
 			'barlife'             => [ 'name' => 'Barlife.dk', 'url' => "$base&bannerid=46609&feedid=651" ],
+			// Tilføjet 5. nov. 2026 (godkendte programmer, testet mod kategorierne).
+			'kirlund'             => [ 'name' => 'Kirlund', 'url' => "$base&bannerid=116914&feedid=4306" ],
+			'kitchen-gadget'      => [ 'name' => 'Kitchen Gadget', 'url' => "$base&bannerid=107557&feedid=3406" ],
+			'kitchentech'         => [ 'name' => 'Kitchentech.dk', 'url' => "$base&bannerid=114562&feedid=4050" ],
+			'nordic-roots'        => [ 'name' => 'Nordic-roots.dk', 'url' => "$base&bannerid=115958&feedid=4219" ],
+			'riceknife'           => [ 'name' => 'Riceknife', 'url' => "$base&bannerid=104291&feedid=3171" ],
+			'sumisu'              => [ 'name' => 'Sumisu', 'url' => "$base&bannerid=112338&feedid=3823" ],
+			'ushi'                => [ 'name' => 'Ushi.dk', 'url' => "$base&bannerid=90749&feedid=2345" ],
 			// Moreland sælger mest havemøbler, pool og legetøj. Kun grill, grilltilbehør og pizzaovne kommer med
 			// (fast kategori-oversættelse; alle andre butikskategorier udelukkes).
 			'moreland'            => [
