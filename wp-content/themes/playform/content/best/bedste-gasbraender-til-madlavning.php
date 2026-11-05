@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Håndbrænder fra svenske Sievert, leveret med gasflaske.',
 			'why'     => <<<'HTML'
-<p>Sievert er en svensk producent af gasbrændere. Butikken oplyser, at Handyjet blev udnævnt til "Bedste valg" i kategorien gasbrændere i svenske Testat.nu's årlige undersøgelse i 2023, og at den leveres med gasflaske. Vi har ikke selv set testen, så valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Sievert er en svensk producent af gasbrændere. Handyjet blev udnævnt til "Bedste valg" i kategorien gasbrændere i svenske Testat.nu's årlige undersøgelse i 2023, og den leveres med gasflaske.</p>
 HTML,
 			'good'    => [ 'Crème brûlée og sous vide', 'Dig, der vil have alt med' ],
 			'less'    => [ 'Store udendørs gryder' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Håndbrænder med et mundstykke, der giver en bred grillflamme.',
 			'why'     => <<<'HTML'
-<p>Satakes gasbrænder har ifølge butikken et innovativt mundstykke og en grillfunktion, der gør, at den kan mere end en almindelig gasbrænder. En bred flamme er rar, når du skal give et stykke sous vide-kød stegeskorpe. Valget er vores vurdering.</p>
+<p>Satakes gasbrænder har et innovativt mundstykke og en grillfunktion, der gør, at den kan mere end en almindelig gasbrænder. En bred flamme er rar, når du skal give et stykke sous vide-kød stegeskorpe.</p>
 HTML,
 			'good'    => [ 'Sous vide-kød', 'Grøntsager og ost' ],
 			'less'    => [ 'Meget præcis karamellisering' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kraftig og robust håndbrænder til crème brûlée, ost, bål og grill.',
 			'why'     => <<<'HTML'
-<p>NODs gasbrænder er ifølge butikken kraftig og robust og designet til små og store opgaver i køkkenet og udendørs – fra at karamellisere crème brûlée og smelte ost til at tænde op i bålet eller grillen. Valget er vores vurdering ud fra pris.</p>
+<p>NODs gasbrænder er kraftig og robust og designet til små og store opgaver i køkkenet og udendørs – fra at karamellisere crème brûlée og smelte ost til at tænde op i bålet eller grillen.</p>
 HTML,
 			'good'    => [ 'Lavt budget', 'Ude og inde' ],
 			'less'    => [ 'Daglig professionel brug' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Gasbrænder med 3 ringe til store paellapander og gryder udendørs.',
 			'why'     => <<<'HTML'
-<p>Marelds gasbrænder findes ifølge butikken i to versioner, med 2 og 3 ringe. Flere ringe fordeler varmen ud over en stor pande, så paellaen koger jævnt helt ud til kanten. Valget er vores vurdering.</p>
+<p>Marelds gasbrænder findes i to versioner, med 2 og 3 ringe. Flere ringe fordeler varmen ud over en stor pande, så paellaen koger jævnt helt ud til kanten.</p>
 HTML,
 			'good'    => [ 'Store paellapander', 'Udendørs madlavning' ],
 			'less'    => [ 'Indendørs brug' ],

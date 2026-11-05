@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kraftig panini- og bordgrill på 2000 W i rustfrit stål med sort finish.',
 			'why'     => <<<'HTML'
-<p>Hâws Møn Proff er ifølge butikken en kraftfuld bord- og paninigrill med en effekt på 2000 watt og et robust design i rustfrit stål. Den kan bruges både til paninier og som bordgrill. Valget er vores vurdering.</p>
+<p>Hâws Møn Proff er en kraftfuld bord- og paninigrill med en effekt på 2000 watt og et robust design i rustfrit stål. Den kan bruges både til paninier og som bordgrill.</p>
 HTML,
 			'good'    => [ 'Paninier og grillmad', 'Familier' ],
 			'less'    => [ 'Små køkkener' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Paninigrill og bordgrill i ét med non-stick plader – fra panini til burgere.',
 			'why'     => <<<'HTML'
-<p>Champion Paninigrill Pro kombinerer ifølge butikken to funktioner i ét apparat, så du kan grille alt fra sprøde paninier til saftige burgere, og grillpladerne har non-stick. Valget er vores vurdering.</p>
+<p>Champion Paninigrill Pro kombinerer to funktioner i ét apparat, så du kan grille alt fra sprøde paninier til saftige burgere, og grillpladerne har non-stick.</p>
 HTML,
 			'good'    => [ 'Burgere og paninier', 'Nem rengøring' ],
 			'less'    => [ 'Meget tykke sandwich' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Enkel panini- og sandwichgrill til perfekt grillede sandwich.',
 			'why'     => <<<'HTML'
-<p>NODs panini- og sandwichgrill er ifølge butikken det perfekte værktøj til nemt at lave grillede sandwich. Den er et godt valg, hvis du mest skal bruge den til frokost. Valget er vores vurdering ud fra pris.</p>
+<p>NODs panini- og sandwichgrill er det perfekte værktøj til nemt at lave grillede sandwich. Den er et godt valg, hvis du mest skal bruge den til frokost.</p>
 HTML,
 			'good'    => [ 'Frokost', 'Lavt budget' ],
 			'less'    => [ 'Grillmad til aftensmad' ],

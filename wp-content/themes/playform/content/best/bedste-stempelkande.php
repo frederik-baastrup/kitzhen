@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Dobbeltvægget stempelkande i rustfrit stål, bygget som en tank – med Espros filter mod grums.',
 			'why'     => <<<'HTML'
-<p>Espro P7 er ifølge butikken Espros bud på den ultimative måde at brygge kaffe og te på. I modsætning til de traditionelle stempelkander i glas er P7 bygget i rustfrit stål, der er vakuumisoleret, så kaffen holder sig varm. Espro er kendt for et dobbelt filter, der giver kaffe uden grums. Valget er vores vurdering.</p>
+<p>Espro P7 er Espros bud på den ultimative måde at brygge kaffe og te på. I modsætning til de traditionelle stempelkander i glas er P7 bygget i rustfrit stål, der er vakuumisoleret, så kaffen holder sig varm. Espro er kendt for et dobbelt filter, der giver kaffe uden grums.</p>
 HTML,
 			'good'    => [ 'Kaffe uden grums', 'Kaffe, der skal holde sig varm' ],
 			'less'    => [ 'Små budgetter' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stempelkande på 1 liter i lakeret rustfrit stål, designet af HolmbäckNordentoft.',
 			'why'     => <<<'HTML'
-<p>Stelton Emma er ifølge butikken designet af HolmbäckNordentoft og rummer 1 liter, så den er velegnet til både hverdag og gæster. Den er lavet af lakeret rustfrit stål og passer til resten af Emma-serien. Valget er vores vurdering.</p>
+<p>Stelton Emma er designet af HolmbäckNordentoft og rummer 1 liter, så den er velegnet til både hverdag og gæster. Den er lavet af lakeret rustfrit stål og passer til resten af Emma-serien.</p>
 HTML,
 			'good'    => [ 'Skandinavisk design', 'Kaffe til flere' ],
 			'less'    => [ 'Dig, der vil se kaffen' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stempelkande på 1 liter til flere kopper ad gangen.',
 			'why'     => <<<'HTML'
-<p>AdHocs french press er ifølge butikken udviklet til dig, der vil brygge flere kopper kaffe ad gangen uden at gå på kompromis. Valget er vores vurdering ud fra pris.</p>
+<p>AdHocs french press er udviklet til dig, der vil brygge flere kopper kaffe ad gangen uden at gå på kompromis.</p>
 HTML,
 			'good'    => [ 'Lavt budget', 'Kaffe til flere' ],
 			'less'    => [ 'Dig, der vil holde kaffen varm længe' ],

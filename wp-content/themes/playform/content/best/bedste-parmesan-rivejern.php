@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Barberbladsskarpt rivejern i rustfrit stål, der river begge veje.',
 			'why'     => <<<'HTML'
-<p>Microplane er kendt for rivejern med fotoætsede skær. Butikken oplyser, at Gourmet-rivejernet har tovejsskær, så du kan rive begge veje, og at de barberbladsskarpe skær i rustfrit stål skærer råvarerne frem for at flå dem. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Microplane er kendt for rivejern med fotoætsede skær. Gourmet-rivejernet har tovejsskær, så du kan rive begge veje, og de barberbladsskarpe skær i rustfrit stål skærer råvarerne frem for at flå dem.</p>
 HTML,
 			'good'    => [ 'Parmesan, pecorino og chokolade', 'Hurtig rivning i køkkenet' ],
 			'less'    => [ 'Rivning ved bordet' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Parmesankværn i 18/10 rustfrit stål til ost ved bordet og chokolade over desserten.',
 			'why'     => <<<'HTML'
-<p>Rösles parmesankværn er ifølge butikken lavet af 18/10 rustfrit stål og klarer forskellige madvarer, fra parmesan over pastaen til chokolade over isdesserten. En kværn er rar ved bordet, fordi du ikke rører osten med fingrene. Valget er vores vurdering.</p>
+<p>Rösles parmesankværn er lavet af 18/10 rustfrit stål og klarer forskellige madvarer, fra parmesan over pastaen til chokolade over isdesserten. En kværn er rar ved bordet, fordi du ikke rører osten med fingrene.</p>
 HTML,
 			'good'    => [ 'Pastaaften med gæster', 'Rustfrit stål, der holder' ],
 			'less'    => [ 'Store mængder ost' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Klassisk ostekværn fra Zyliss, der gør rivning af ost nem.',
 			'why'     => <<<'HTML'
-<p>Zyliss Beluga er en klassisk ostekværn. Butikken skriver, at den er designet til at gøre rivning af ost nem og effektiv, og at den er i solid kvalitet. Valget er vores vurdering ud fra pris.</p>
+<p>Zyliss Beluga er en klassisk ostekværn. Den er designet til at gøre rivning af ost nem og effektiv, og den er i solid kvalitet.</p>
 HTML,
 			'good'    => [ 'Lavt budget', 'Rivning ved bordet' ],
 			'less'    => [ 'Meget fin ost' ],

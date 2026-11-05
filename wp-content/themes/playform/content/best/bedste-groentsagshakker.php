@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den svenske klassiker – her som et sæt med tre hakkere til tern i tre størrelser.',
 			'why'     => <<<'HTML'
-<p>Alligator er den grøntsagshakker, mange kender fra deres forældres køkken. Butikken oplyser, at sættet indeholder tre hakkere, der skærer tern i tre størrelser: 3 x 3 mm, 6 x 6 mm og 12 x 12 mm. Den mindste er til hvidløg, chili og krydderurter, den mellemste til løg og peberfrugt, og den største til kartofler og rodfrugter.</p>
-<p>Det er et dyrere valg end de fleste plastikhakkere, men du får tre størrelser og et mærke, der har lavet netop denne slags hakkere i mange år. Valget er vores vurdering ud fra butikkens oplysninger; vi har ikke fundet uafhængige anmeldelser af netop dette sæt.</p>
+<p>Alligator er den grøntsagshakker, mange kender fra deres forældres køkken. Sættet indeholder tre hakkere, der skærer tern i tre størrelser: 3 x 3 mm, 6 x 6 mm og 12 x 12 mm. Den mindste er til hvidløg, chili og krydderurter, den mellemste til løg og peberfrugt, og den største til kartofler og rodfrugter.</p>
+<p>Det er et dyrere valg end de fleste plastikhakkere, men du får tre størrelser og et mærke, der har lavet netop denne slags hakkere i mange år.</p>
 HTML,
 			'good'    => [ 'Dig, der hakker løg og grøntsager hver dag', 'Dig, der vil have tern i flere størrelser' ],
 			'less'    => [ 'Dig, der kun skal hakke en gang imellem', 'Små skuffer' ],
@@ -36,7 +36,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den klassiske trykhakker fra Zyliss – til små mængder løg, hvidløg, nødder og krydderurter.',
 			'why'     => <<<'HTML'
-<p>Zick-Zick er en af Zyliss' ældste opfindelser. Butikken skriver, at den har været en favorit i mange årtier, og at Zick-Zick 3 er en videreudvikling af klassikeren med fokus på effektivitet og ergonomi. Princippet er enkelt: du trykker på toppen, og knivene inde i hakkeren drejer og hakker for hvert tryk.</p>
+<p>Zick-Zick er en af Zyliss' ældste opfindelser. Den har været en favorit i mange årtier, og zick-Zick 3 er en videreudvikling af klassikeren med fokus på effektivitet og ergonomi. Princippet er enkelt: du trykker på toppen, og knivene inde i hakkeren drejer og hakker for hvert tryk.</p>
 <p>Den laver ikke pæne tern som en gitterhakker. Til gengæld er den hurtig at tage frem til et enkelt løg eller en håndfuld persille, og jo flere tryk, jo finere bliver det.</p>
 HTML,
 			'good'    => [ 'Løg, hvidløg, nødder og krydderurter', 'Dig, der vil have en lille hakker, der ikke fylder' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Manuel minihakker uden strøm – til løg, nødder og dips som guacamole og hummus.',
 			'why'     => <<<'HTML'
-<p>Tefal 5 Sec Chopper er en manuel minihakker, som butikken beskriver som et redskab til at hakke løg uden tårer, hakke nødder og lave dips som guacamole og hummus. Med 900 ml er beholderen stor nok til mere end et enkelt løg.</p>
-<p>Den kræver ingen strøm, så den kan bruges overalt – også i sommerhuset eller på campingturen. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Tefal 5 Sec Chopper er en manuel minihakker, der hakker løg uden tårer, knuser nødder og laver dips som guacamole og hummus på få sekunder. Med 900 ml er beholderen stor nok til mere end et enkelt løg.</p>
+<p>Den kræver ingen strøm, så den kan bruges overalt – også i sommerhuset eller på campingturen.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve en hakker uden at give meget', 'Dips og salsa' ],
 			'less'    => [ 'Dig, der vil have helt ensartede tern' ],

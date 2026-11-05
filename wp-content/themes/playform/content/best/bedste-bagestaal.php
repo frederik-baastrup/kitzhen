@@ -20,9 +20,9 @@ HTML,
 			'name'    => 'Gourmetstål Classic pizzastål',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Pizzastål, der ikke knækker ved store temperaturudsving – og som ifølge butikken vejer 9 kg.',
+			'verdict' => 'Pizzastål, der ikke knækker ved store temperaturudsving – og som vejer 9 kg.',
 			'why'     => <<<'HTML'
-<p>Gourmetstål Classic fungerer som en pizzasten, bare af stål. Butikken forklarer, at stålet ikke knækker ved store temperaturudsving, og at pladen vejer 9 kg. Vægten er en fordel: jo mere stål, jo mere varme til bunden. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Gourmetstål Classic fungerer som en pizzasten, bare af stål. Stålet knækker ikke ved store temperaturudsving, og pladen vejer 9 kg. Vægten er en fordel: jo mere stål, jo mere varme til bunden.</p>
 HTML,
 			'good'    => [ 'Pizza og brød i ovnen', 'Grill' ],
 			'less'    => [ 'Dig, der skal løfte den ofte' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Bagestål i 6 mm kulstofstål fra SSAB, fremstillet i Sverige.',
 			'why'     => <<<'HTML'
-<p>Kockums Jernverks bagestål fremstilles ifølge butikken i Sverige af 6 mm kulstofstål fra SSAB, og stålet holder optimalt på varmen, så både pizza og brød får skorpe og krumme. Valget er vores vurdering.</p>
+<p>Kockums Jernverks bagestål fremstilles i Sverige af 6 mm kulstofstål fra SSAB, og stålet holder optimalt på varmen, så både pizza og brød får skorpe og krumme.</p>
 HTML,
 			'good'    => [ 'Brød med skorpe', 'Lavt budget' ],
 			'less'    => [ 'Store pizzaer over 35 cm' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Rundt pizzastål på 30 cm, der passer i mindre ovne og på grillen.',
 			'why'     => <<<'HTML'
-<p>Gourmetståls runde pizzastål er inspireret af den klassiske pizzasten, og butikken fremhæver, at du ikke skal være nervøs for, at det knækker. Den runde form passer godt på grillen og i mindre ovne. Valget er vores vurdering.</p>
+<p>Gourmetståls runde pizzastål er inspireret af den klassiske pizzasten, og du skal ikke være nervøs for, at det knækker. Den runde form passer godt på grillen og i mindre ovne.</p>
 HTML,
 			'good'    => [ 'Grill og kamado', 'Små ovne' ],
 			'less'    => [ 'Brød og store pizzaer' ],

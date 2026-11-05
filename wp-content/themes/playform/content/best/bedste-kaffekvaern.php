@@ -23,7 +23,7 @@ HTML,
 			'verdict' => 'Elektrisk kaffekværn i Smeg-design med præcise indstillinger.',
 			'why'
 => <<<'HTML'
-<p>Smegs kaffekværn kombinerer ifølge butikken stilrent design med avanceret funktionalitet og præcise indstillinger, så du kan få det bedste ud af dine bønner. Den passer til andre Smeg-apparater. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Smegs kaffekværn kombinerer stilrent design med avanceret funktionalitet og præcise indstillinger, så du kan få det bedste ud af dine bønner. Den passer til andre Smeg-apparater.</p>
 HTML,
 			'good'    => [ 'Filterkaffe og stempelkande', 'Design' ],
 			'less'    => [ 'Dig, der kun brygger espresso på højt niveau' ],
@@ -36,7 +36,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Robust håndkværn med kegleformet kværnhjul – en favorit blandt kaffenørder.',
 			'why'     => <<<'HTML'
-<p>Comandante er en tysk håndkværn. Butikken beskriver MK4 som en robust, hånddrevet kaffekværn med høj præstationsevne og et kværnhjul med avanceret design. En god håndkværn kan male lige så ensartet som en dyr elektrisk kværn og kan tages med på tur. Valget er vores vurdering.</p>
+<p>Comandante er en tysk håndkværn. MK4 er en robust, hånddrevet kaffekværn med høj præstationsevne og et kværnhjul med avanceret design. En god håndkværn kan male lige så ensartet som en dyr elektrisk kværn og kan tages med på tur.</p>
 HTML,
 			'good'    => [ 'Filterkaffe og pour over', 'Rejser og camping' ],
 			'less'    => [ 'Store mængder kaffe hver morgen' ],
@@ -49,7 +49,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stilren og brugervenlig kaffekværn med fuld kontrol over kværningen.',
 			'why'     => <<<'HTML'
-<p>Severin KM 3880 er ifølge butikken en stilren og brugervenlig kaffekværn til kaffeentusiaster, der ønsker fuld kontrol over kværningen – uanset om der brygges én kop eller en hel kande. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Severin KM 3880 er en stilren og brugervenlig kaffekværn til kaffeentusiaster, der ønsker fuld kontrol over kværningen – uanset om der brygges én kop eller en hel kande.</p>
 HTML,
 			'good'    => [ 'Lavt budget', 'Filterkaffe' ],
 			'less'    => [ 'Espresso' ],

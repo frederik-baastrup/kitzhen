@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => '90 cm gaskomfur i rustfrit stål fra italienske Smeg med to elektriske ovne.',
 			'why'     => <<<'HTML'
-<p>Smeg SCB92MX8 er et stort gaskomfur med to elektriske ovne. Butikken nævner funktioner som eco-tilstand, rotisserie, grill og luftcirkulation. To ovne gør det muligt at lave steg og kage samtidig. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Smeg SCB92MX8 er et stort gaskomfur med to elektriske ovne. Der er eco-tilstand, rotisserie, grill og luftcirkulation. To ovne gør det muligt at lave steg og kage samtidig.</p>
 HTML,
 			'good'    => [ 'Store familier og madentusiaster', 'Køkkener med plads til 90 cm' ],
 			'less'    => [ 'Små køkkener' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => '90 cm gaskomfur i rustfrit stål med multifunktionsovn, 5 brændere og støbejernsriste.',
 			'why'     => <<<'HTML'
-<p>La Germania er et italiensk mærke. Butikken oplyser, at Prima er et 90 cm gaskomfur i rustfrit stål med multifunktionsovn og 5 brændere, og at det har en solid gaskogeplade med robuste støbejernsriste. Valget er vores vurdering.</p>
+<p>La Germania er et italiensk mærke. Prima er et 90 cm gaskomfur i rustfrit stål med multifunktionsovn og 5 brændere, og det har en solid gaskogeplade med robuste støbejernsriste.</p>
 HTML,
 			'good'    => [ 'Mange gryder på én gang', 'Wok' ],
 			'less'    => [ 'Dig, der vil have to ovne' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Gasblus i rustfrit stål med to brændere på 3,4 og 4,3 kW og piezo-tænding.',
 			'why'     => <<<'HTML'
-<p>Mustangs gasblus er ifølge butikken egnet til både indendørs og udendørs brug. Det har to kogeplader med integreret piezo-tænding og en effekt på 3,4 kW og 4,3 kW. Det er et godt valg til sommerhuset, campingvognen eller som ekstra blus. Valget er vores vurdering.</p>
+<p>Mustangs gasblus er egnet til både indendørs og udendørs brug. Det har to kogeplader med integreret piezo-tænding og en effekt på 3,4 kW og 4,3 kW. Det er et godt valg til sommerhuset, campingvognen eller som ekstra blus.</p>
 HTML,
 			'good'    => [ 'Sommerhus og camping', 'Ekstra blus til wok og paella' ],
 			'less'    => [ 'Dig, der vil have en ovn' ],

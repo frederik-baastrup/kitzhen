@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Paellapande fra Staubs Pan Series på 34 cm – en god størrelse til komfuret.',
 			'why'     => <<<'HTML'
-<p>Staubs paellapande er 34 cm i diameter – stor nok til en paella til fire, men lille nok til komfuret. Butikken beskriver den som en pande til den klassiske spanske risret med kylling eller skaldyr. Tjek materiale og induktion hos butikken. Valget er vores vurdering ud fra mærkets ry.</p>
+<p>Staubs paellapande er 34 cm i diameter – stor nok til en paella til fire, men lille nok til komfuret. Den er en pande til den klassiske spanske risret med kylling eller skaldyr. Tjek materiale og induktion hos butikken.</p>
 HTML,
 			'good'    => [ 'Paella på komfuret', 'Fire personer' ],
 			'less'    => [ 'Store selskaber' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Klassisk spansk paellapande fra Garcima i 40 cm.',
 			'why'     => <<<'HTML'
-<p>Garcima er en spansk producent af paellapander. Butikken nævner kød, kylling, skaldyr og snegle som klassiske ingredienser. Med 40 cm er der plads til 6–8 personer. Den traditionelle stålpande skal tørres og smøres med olie efter brug. Valget er vores vurdering.</p>
+<p>Garcima er en spansk producent af paellapander. Kød, kylling, skaldyr og snegle er de klassiske ingredienser. Med 40 cm er der plads til 6–8 personer. Den traditionelle stålpande skal tørres og smøres med olie efter brug.</p>
 HTML,
 			'good'    => [ 'Den klassiske spanske pande', 'Lavt budget' ],
 			'less'    => [ 'Almindelige kogeplader' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stor paellapande i koldvalset stål til åben ild eller gasblus.',
 			'why'     => <<<'HTML'
-<p>Muurikkas 60 cm paellapande er lavet til åben ild eller gasblus, oplyser butikken. Den er i koldvalset stål, der ikke er rustfrit, så den skal vedligeholdes. Med 60 cm er der paella til en hel havefest. Valget er vores vurdering.</p>
+<p>Muurikkas 60 cm paellapande er lavet til åben ild eller gasblus. Den er i koldvalset stål, der ikke er rustfrit, så den skal vedligeholdes. Med 60 cm er der paella til en hel havefest.</p>
 HTML,
 			'good'    => [ 'Havefester', 'Gasbrænder og bål' ],
 			'less'    => [ 'Køkkenet' ],
@@ -62,7 +62,7 @@ HTML,
 			'verdict' => 'Paellapande på 40 cm i rustfrit stål – ruster ikke.',
 			'why'
 => <<<'HTML'
-<p>Marelds paellapande er i rustfrit stål og 40 cm i diameter, oplyser butikken. Rustfrit stål kræver ikke den samme pleje som klassiske stålpander. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Marelds paellapande er i rustfrit stål og 40 cm i diameter. Rustfrit stål kræver ikke den samme pleje som klassiske stålpander.</p>
 HTML,
 			'good'    => [ 'Dig, der ikke vil passe en stålpande' ],
 			'less'    => [ 'Den helt traditionelle socarrat' ],

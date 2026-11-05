@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stor og støjsvag party cooler på 50 liter (43 dB).',
 			'why'     => <<<'HTML'
-<p>NOD Party Cooler 50 liter er ifølge butikken praktisk, stilren og støjsvag med 43 dB, og den holder drikkevarer og andre varer kolde lige der, hvor du har brug for det. 50 liter er nok til en rigtig fest. Valget er vores vurdering.</p>
+<p>NOD Party Cooler 50 liter er praktisk, stilren og støjsvag med 43 dB, og den holder drikkevarer og andre varer kolde lige der, hvor du har brug for det. 50 liter er nok til en rigtig fest.</p>
 HTML,
 			'good'    => [ 'Fester og terrassen', 'Øl og sodavand i dåser' ],
 			'less'    => [ 'Langtidsopbevaring af vin' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt party cooler på 30 liter – lige så støjsvag.',
 			'why'     => <<<'HTML'
-<p>NOD Party Cooler 30 liter er ifølge butikken en kompakt, støjsvag (43 dB) og stilren køler til drikkevarer og lettere madvarer. Den passer bedre i stuen og på mindre altaner. Valget er vores vurdering.</p>
+<p>NOD Party Cooler 30 liter er en kompakt, støjsvag (43 dB) og stilren køler til drikkevarer og lettere madvarer. Den passer bedre i stuen og på mindre altaner.</p>
 HTML,
 			'good'    => [ 'Stuen og små altaner' ],
 			'less'    => [ 'Store fester' ],

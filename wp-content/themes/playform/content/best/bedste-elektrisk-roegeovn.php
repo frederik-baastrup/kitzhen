@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kraftig elektrisk røgeovn på 1650 W – nem at gå til for både nybegyndere og øvede.',
 			'why'     => <<<'HTML'
-<p>Mareld Elrøg er den kraftigste af vores tre valg. Butikken oplyser, at den har en effekt på 1650 W og fremhæver, at du hverken skal bruge en masse kul eller flere timers forberedelse for at få røget mad.</p>
-<p>Mareld sælger også reservedele som varmeelement, termostat, termometer, riste og bakker til ovnen, så den kan holdes kørende i mange år. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Mareld Elrøg er den kraftigste af vores tre valg. Den har en effekt på 1650 W, og du hverken skal bruge en masse kul eller flere timers forberedelse for at få røget mad.</p>
+<p>Mareld sælger også reservedele som varmeelement, termostat, termometer, riste og bakker til ovnen, så den kan holdes kørende i mange år.</p>
 HTML,
 			'good'    => [ 'Dig, der vil røge ofte og meget', 'Dig, der vil kunne skifte reservedele' ],
 			'less'    => [ 'Dig, der kun røger et par fisk om året' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Røgeskab med fire stålriste på 37 x 33 cm og fedtopsamling – til store portioner.',
 			'why'     => <<<'HTML'
-<p>Mustangs elektriske rygeovn er et røgeskab med god plads. Butikken oplyser, at den leveres med fire stålriste, der måler 37 x 33 centimeter, og en praktisk fedtopsamling, og at den kan bruges til grøntsager, fisk, kød og andre råvarer.</p>
-<p>Fire riste giver plads til at røge en hel fangst eller pålæg til en fest på én gang. Valget er vores vurdering.</p>
+<p>Mustangs elektriske rygeovn er et røgeskab med god plads. Den leveres med fire stålriste, der måler 37 x 33 centimeter, og en praktisk fedtopsamling, og den kan bruges til grøntsager, fisk, kød og andre råvarer.</p>
+<p>Fire riste giver plads til at røge en hel fangst eller pålæg til en fest på én gang.</p>
 HTML,
 			'good'    => [ 'Store mængder fisk og kød', 'Haven og terrassen' ],
 			'less'    => [ 'Små altaner' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Elektrisk røgeovn i rustfrit stål på 1100 W fra finske Muurikka.',
 			'why'     => <<<'HTML'
-<p>Muurikka er et finsk mærke med fokus på udendørs madlavning. Butikken beskriver 1100W Pro som en elektrisk røgeovn i rustfrit stål, der passer til både nybegyndere og erfarne.</p>
-<p>Den er et godt sted at starte, hvis du vil prøve at røge uden at give mere end nødvendigt. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Muurikka er et finsk mærke med fokus på udendørs madlavning. 1100W Pro er en elektrisk røgeovn i rustfrit stål, der passer til både nybegyndere og erfarne.</p>
+<p>Den er et godt sted at starte, hvis du vil prøve at røge uden at give mere end nødvendigt.</p>
 HTML,
 			'good'    => [ 'Begyndere', 'Fisk og mindre portioner' ],
 			'less'    => [ 'Store mængder ad gangen' ],

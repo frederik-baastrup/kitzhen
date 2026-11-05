@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kuglegrill i emaljeret stål med grillrist på 54 cm og plads til tilbehør i midten af risten.',
 			'why'     => <<<'HTML'
-<p>Mustang Gourmet 57 er ifølge butikken en kulgrill i emaljeret stål med porcelænsemaljeret låg og grillskål. Den har en rustfri multi-grillrist på 54 cm, hvor midten kan udskiftes med tilbehør. Valget er vores vurdering ud fra butikkens oplysninger og prisen.</p>
+<p>Mustang Gourmet 57 er en kulgrill i emaljeret stål med porcelænsemaljeret låg og grillskål. Den har en rustfri multi-grillrist på 54 cm, hvor midten kan udskiftes med tilbehør.</p>
 HTML,
 			'good'    => [ 'Familier', 'Direkte og indirekte grill' ],
 			'less'    => [ 'Lang rygning' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Isoleret kulgrill på 47 cm med Accu-Temp termometer og sideborde.',
 			'why'     => <<<'HTML'
-<p>Broil King KEG 5000 har ifølge butikken blandt andet et Deluxe Accu-Temp termometer og flytbare sidehylder. KEG-grillen er isoleret, så den holder varmen godt og egner sig til både grill og lang rygning. Valget er vores vurdering.</p>
+<p>Broil King KEG 5000 har blandt andet et Deluxe Accu-Temp termometer og flytbare sidehylder. KEG-grillen er isoleret, så den holder varmen godt og egner sig til både grill og lang rygning.</p>
 HTML,
 			'good'    => [ 'Rygning og lang tilberedning', 'Grill hele året' ],
 			'less'    => [ 'Lavt budget' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt kulgrill i rustfrit stål designet af Jasper Morrison – til picnic og stranden.',
 			'why'     => <<<'HTML'
-<p>HAYs transportable kulgrill er ifølge butikken designet af Jasper Morrison, lavet af slidstærkt rustfrit stål og har praktiske sidehåndtag, så den er oplagt til spontane ture. Valget er vores vurdering.</p>
+<p>HAYs transportable kulgrill er designet af Jasper Morrison, lavet af slidstærkt rustfrit stål og har praktiske sidehåndtag, så den er oplagt til spontane ture.</p>
 HTML,
 			'good'    => [ 'Picnic og strand', 'Design' ],
 			'less'    => [ 'Store familier' ],

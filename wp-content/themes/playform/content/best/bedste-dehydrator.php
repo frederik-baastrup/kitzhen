@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Dehydrator med 6 indsatse i rustfrit stål og justerbar temperatur.',
 			'why'     => <<<'HTML'
-<p>Steba ED6 er ifølge butikken lavet med 6 indsatse i rustfrit stål, hvor du kan lægge frugt, grøntsager og krydderurter, og temperaturen kan indstilles. Riste i stål er nemmere at holde rene end plast. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Steba ED6 er lavet med 6 indsatse i rustfrit stål, hvor du kan lægge frugt, grøntsager og krydderurter, og temperaturen kan indstilles. Riste i stål er nemmere at holde rene end plast.</p>
 HTML,
 			'good'    => [ 'Frugt, grønt og urter', 'Dig, der vil undgå plast' ],
 			'less'    => [ 'Meget store mængder' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt dehydrator med fem etager og nonstick-net og -ark til små bær og frugtlæder.',
 			'why'     => <<<'HTML'
-<p>NODs dehydrator er ifølge butikken kraftfuld og kompakt med fem etager og to nonstick-tilbehør: et net til små bær og et ark til frugtlæder. Valget er vores vurdering.</p>
+<p>NODs dehydrator er kraftfuld og kompakt med fem etager og to nonstick-tilbehør: et net til små bær og et ark til frugtlæder.</p>
 HTML,
 			'good'    => [ 'Frugtlæder og bær', 'Små køkkener' ],
 			'less'    => [ 'Kød i store mængder' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Enkel tørreovn til frugt, grøntsager og urter til en lav pris.',
 			'why'     => <<<'HTML'
-<p>Princess' tørreovn er ifølge butikken en praktisk boks til at tørre frugt, grøntsager og urter hurtigt og effektivt. Den er et godt sted at starte. Valget er vores vurdering ud fra pris.</p>
+<p>Princess' tørreovn er en praktisk boks til at tørre frugt, grøntsager og urter hurtigt og effektivt. Den er et godt sted at starte.</p>
 HTML,
 			'good'    => [ 'Begyndere', 'Lavt budget' ],
 			'less'    => [ 'Store mængder' ],

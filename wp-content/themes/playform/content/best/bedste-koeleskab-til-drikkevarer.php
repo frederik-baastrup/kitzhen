@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fritstående vinkøleskab til 24 flasker med træhylder – stilrent nok til at stå i køkkenet.',
 			'why'     => <<<'HTML'
-<p>mQuvée WineExpert 24 er et fritstående vinkøleskab med plads til 24 flasker. Butikken oplyser, at flaskerne ligger på elegante træhylder, og at det stilrene design passer ind i ethvert køkken.</p>
-<p>24 flasker er en god størrelse, hvis du vil have vin, øl og sodavand klar til hverdag og fest uden at skabet fylder for meget. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>mQuvée WineExpert 24 er et fritstående vinkøleskab med plads til 24 flasker. Flaskerne ligger på elegante træhylder, og det stilrene design passer ind i ethvert køkken.</p>
+<p>24 flasker er en god størrelse, hvis du vil have vin, øl og sodavand klar til hverdag og fest uden at skabet fylder for meget.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have vin og drikkevarer klar i køkkenet', 'Dig, der vil have et skab, der også ser pænt ud' ],
 			'less'    => [ 'Dig, der skal have mange dåser og kasser øl' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Smalt 1-zones vinkøleskab til 18 flasker, der kan bygges ind – med temperatur fra 5 til 20 °C.',
 			'why'     => <<<'HTML'
-<p>Caso WineSafe 18 er et indbygningsvinkøleskab med plads til op til 18 flasker. Butikken oplyser, at det har én zone, og at temperaturen kan justeres mellem 5 og 20 °C på et touch-display.</p>
-<p>Det lave temperaturområde gør det også brugbart til hvidvin, bobler, øl og sodavand. Skal skabet bygges ind i køkkenet, så tjek målene og ventilationskravene hos butikken. Valget er vores vurdering.</p>
+<p>Caso WineSafe 18 er et indbygningsvinkøleskab med plads til op til 18 flasker. Det har én zone, og temperaturen kan justeres mellem 5 og 20 °C på et touch-display.</p>
+<p>Det lave temperaturområde gør det også brugbart til hvidvin, bobler, øl og sodavand. Skal skabet bygges ind i køkkenet, så tjek målene og ventilationskravene hos butikken.</p>
 HTML,
 			'good'    => [ 'Køkkener, hvor skabet skal bygges ind', 'Hvidvin, bobler og kolde drikke' ],
 			'less'    => [ 'Dig, der skal have rødvin og hvidvin ved forskellig temperatur samtidig' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Mobil og støjsvag køler på 50 liter, der holder drikkevarerne kolde lige der, hvor du er.',
 			'why'     => <<<'HTML'
-<p>NOD Party Cooler er ikke et klassisk køleskab, men en køler, du kan stille i stuen, udestuen eller hobbyrummet. Butikken beskriver den som praktisk, stilren og støjsvag (43 dB) og fremhæver, at du slipper for at gå frem og tilbage til køleskabet.</p>
-<p>Med 50 liter er der god plads til øl, sodavand og vin til en fest. Valget er vores vurdering ud fra butikkens oplysninger og prisen.</p>
+<p>NOD Party Cooler er ikke et klassisk køleskab, men en køler, du kan stille i stuen, udestuen eller hobbyrummet. Den er praktisk, stilren og støjsvag (43 dB), og du slipper for at gå frem og tilbage til køleskabet.</p>
+<p>Med 50 liter er der god plads til øl, sodavand og vin til en fest.</p>
 HTML,
 			'good'    => [ 'Fester, terrassen og udestuen', 'Øl og sodavand i dåser' ],
 			'less'    => [ 'Langtidsopbevaring af vin' ],

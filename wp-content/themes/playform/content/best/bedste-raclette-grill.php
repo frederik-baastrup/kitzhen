@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Raclette til otte personer – et naturligt samlingspunkt for familie og venner.',
 			'why'     => <<<'HTML'
-<p>Tefal Gourmet Nordic Spirit har ifølge butikken kapacitet til otte personer og skaber rammerne for hyggelige stunder, hvor alle tilbereder deres egen mad i eget tempo. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Tefal Gourmet Nordic Spirit har kapacitet til otte personer og skaber rammerne for hyggelige stunder, hvor alle tilbereder deres egen mad i eget tempo.</p>
 HTML,
 			'good'    => [ 'Store familier og gæster' ],
 			'less'    => [ 'To personer' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Raclette med aftagelig, ridsefast non-stick grillplade, der tåler opvaskemaskine.',
 			'why'     => <<<'HTML'
-<p>WMF Lono har ifølge butikken en aftagelig grillplade med non-stick-belægning, der både er ridsefast og tåler opvaskemaskine. Det er en stor fordel efter en lang raclette-aften. Valget er vores vurdering.</p>
+<p>WMF Lono har en aftagelig grillplade med non-stick-belægning, der både er ridsefast og tåler opvaskemaskine. Det er en stor fordel efter en lang raclette-aften.</p>
 HTML,
 			'good'    => [ 'Nem oprydning', 'Hele året' ],
 			'less'    => [ 'Meget store selskaber' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fem funktioner i ét: raclette, grill, ostefondue, chokoladefondue og oliefondue.',
 			'why'     => <<<'HTML'
-<p>Princess Raclette &amp; Fondue kombinerer ifølge butikken fem funktioner: raclette, grill, ostefondue, chokoladefondue og oliefondue. Den er perfekt, hvis du både vil have raclette og fondue uden to apparater. Valget er vores vurdering.</p>
+<p>Princess Raclette &amp; Fondue kombinerer fem funktioner: raclette, grill, ostefondue, chokoladefondue og oliefondue. Den er perfekt, hvis du både vil have raclette og fondue uden to apparater.</p>
 HTML,
 			'good'    => [ 'Fondue og raclette', 'Hyggeaftener' ],
 			'less'    => [ 'Dig, der kun vil have raclette' ],

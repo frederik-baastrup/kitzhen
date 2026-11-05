@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den ikoniske røremaskine med en skål på 4,8 liter – plads til omkring 1 kg mel.',
 			'why'     => <<<'HTML'
-<p>KitchenAid Artisan er den røremaskine, de fleste kender. Butikken oplyser, at KSM175 har en skål på 4,8 liter med plads til op imod 1 kg mel eller 12 æggehvider, og at den er en videreudvikling af KSM150-modellen. Der findes meget tilbehør til KitchenAid, og maskinen fås i mange farver. Valget er vores vurdering ud fra butikkens oplysninger og modellens udbredelse.</p>
+<p>KitchenAid Artisan er den røremaskine, de fleste kender. KSM175 har en skål på 4,8 liter med plads til op imod 1 kg mel eller 12 æggehvider, og den er en videreudvikling af KSM150-modellen. Der findes meget tilbehør til KitchenAid, og maskinen fås i mange farver.</p>
 HTML,
 			'good'    => [ 'Kager, flødeskum og almindelig brøddej', 'Dig, der vil udvide med tilbehør' ],
 			'less'    => [ 'Meget store og tunge deje' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den svenske klassiker med roterende skål og en motor på 1500 W – lavet i Sverige siden 1940.',
 			'why'     => <<<'HTML'
-<p>Ankarsrum Assistent har en helt anden opbygning end de fleste røremaskiner: skålen drejer rundt, og dejen æltes af en rulle og en skraber. Butikken oplyser, at den nye udgave har en forbedret motor på 1500 W, der kører mere ensartet ved store belastninger og er mere lydsvag, og at maskinen er produceret i Sverige siden 1940. Den er kendt for at kunne klare store mængder dej. Valget er vores vurdering.</p>
+<p>Ankarsrum Assistent har en helt anden opbygning end de fleste røremaskiner: skålen drejer rundt, og dejen æltes af en rulle og en skraber. Den nye udgave har en forbedret motor på 1500 W, der kører mere ensartet ved store belastninger og er mere lydsvag, og maskinen er produceret i Sverige siden 1940. Den er kendt for at kunne klare store mængder dej.</p>
 HTML,
 			'good'    => [ 'Store mængder brøddej', 'Dig, der bager meget' ],
 			'less'    => [ 'Dig, der mest pisker flødeskum og kagedej' ],
@@ -46,9 +46,9 @@ HTML,
 			'name'    => 'Wilfa Probaker KM1GY-70',
 			'role'    => 'Størst kapacitet',
 			'reviews' => [],
-			'verdict' => 'Røremaskine med 7 liters roterende skål, der ifølge butikken kan ælte op til 5 kg dej.',
+			'verdict' => 'Røremaskine med 7 liters roterende skål, der kan ælte op til 5 kg dej.',
 			'why'     => <<<'HTML'
-<p>Wilfa Probaker er udviklet i samarbejde med det norske kokkelandshold. Butikken oplyser, at den har en 7 liters roterende skål, der kan ælte en dej på op til 5 kg, og 20 hastighedsindstillinger. Det gør den til et godt valg for dig, der bager til mange eller bager meget brød. Valget er vores vurdering.</p>
+<p>Wilfa Probaker er udviklet i samarbejde med det norske kokkelandshold. Den har en 7 liters roterende skål, der kan ælte en dej på op til 5 kg, og 20 hastighedsindstillinger. Det gør den til et godt valg for dig, der bager til mange eller bager meget brød.</p>
 HTML,
 			'good'    => [ 'Store familier og storbagning', 'Tunge brøddeje' ],
 			'less'    => [ 'Små køkkener' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Køkkenmaskine med en skål på 4,3 liter, der tager op til 1 kg mel – til en lavere pris.',
 			'why'     => <<<'HTML'
-<p>Kenwood har lavet køkkenmaskiner i årtier. Butikken oplyser, at KHC40-modellens skål på 4,3 liter har et praktisk håndtag og rummer op til 1.000 gram mel. Den er et fornuftigt valg, hvis du bager jævnligt og vil holde prisen nede. Valget er vores vurdering.</p>
+<p>Kenwood har lavet køkkenmaskiner i årtier. KHC40-modellens skål på 4,3 liter har et praktisk håndtag og rummer op til 1.000 gram mel. Den er et fornuftigt valg, hvis du bager jævnligt og vil holde prisen nede.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en røremaskine uden at give meget' ],
 			'less'    => [ 'Meget store mængder dej' ],

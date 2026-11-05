@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Mikroovn, airfryer og varmluftsovn i én maskine med 10 automatiske indstillinger.',
 			'why'     => <<<'HTML'
-<p>Sage Combi Wave er tre apparater i ét. Butikken oplyser, at den er både mikroovn, airfryer og varmluftsovn, og at den har 10 automatiske indstillinger – fx til at genopvarme lasagne, så den bliver varm hele vejen igennem.</p>
-<p>Har du lidt plads på køkkenbordet, kan den spare dig for både en airfryer og en miniovn. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Sage Combi Wave er tre apparater i ét. Den er både mikroovn, airfryer og varmluftsovn, og den har 10 automatiske indstillinger – fx til at genopvarme lasagne, så den bliver varm hele vejen igennem.</p>
+<p>Har du lidt plads på køkkenbordet, kan den spare dig for både en airfryer og en miniovn.</p>
 HTML,
 			'good'    => [ 'Små køkkener', 'Dig, der vil have mikroovn og airfryer i én' ],
 			'less'    => [ 'Dig, der kun skal varme kaffe og rester' ],
@@ -36,8 +36,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Brugervenlig mikroovn på 25 liter med one-touch knapper og 12 forudindstillede programmer.',
 			'why'     => <<<'HTML'
-<p>Sage Compact Wave er lavet til at være nem. Butikken oplyser, at den kan opvarme, optø og smelte, har one-touch knapper, en låge, der er nem at lukke, 12 forudindstillede programmer og en kapacitet på 25 liter.</p>
-<p>Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Sage Compact Wave er lavet til at være nem. Den kan opvarme, optø og smelte, har one-touch knapper, en låge, der er nem at lukke, 12 forudindstillede programmer og en kapacitet på 25 liter.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en enkel mikroovn med gode programmer' ],
 			'less'    => [ 'Dig, der vil have grill og varmluft' ],
@@ -50,8 +49,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Mikroovn på 25 liter med 10 effektniveauer og 9 automatiske programmer, blandt andet pizza og popcorn.',
 			'why'     => <<<'HTML'
-<p>Caso MCG25 Chef har ifølge butikken en kapacitet på 25 liter, 10 mikrobølgeniveauer og 9 automatiske programmer, herunder pizza, optøning, pasta og popcorn.</p>
-<p>Den ligger i midten prismæssigt og giver mange funktioner for pengene. Valget er vores vurdering.</p>
+<p>Caso MCG25 Chef har en kapacitet på 25 liter, 10 mikrobølgeniveauer og 9 automatiske programmer, herunder pizza, optøning, pasta og popcorn.</p>
+<p>Den ligger i midten prismæssigt og giver mange funktioner for pengene.</p>
 HTML,
 			'good'    => [ 'Familier', 'Mange programmer' ],
 			'less'    => [ 'Indbygning' ],
@@ -64,8 +63,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Mikroovn i Smegs design med grill, optøning, varmholdning og soft close-dør.',
 			'why'     => <<<'HTML'
-<p>Smeg MOC01 kombinerer ifølge butikken mikrobølge, grill, optøning og varmholdning i én model med det karakteristiske Smeg-design og en soft close-dør. Butikken nævner også inverterteknologi og roterende tallerken for jævn tilberedning.</p>
-<p>Den er et oplagt valg, hvis mikroovnen skal passe til andre Smeg-apparater. Valget er vores vurdering.</p>
+<p>Smeg MOC01 kombinerer mikrobølge, grill, optøning og varmholdning i én model med det karakteristiske Smeg-design og en soft close-dør. Inverterteknologi og roterende tallerken sørger for jævn tilberedning.</p>
+<p>Den er et oplagt valg, hvis mikroovnen skal passe til andre Smeg-apparater.</p>
 HTML,
 			'good'    => [ 'Dig, der lægger vægt på design', 'Grill og varmholdning' ],
 			'less'    => [ 'Dig, der vil have mest maskine for pengene' ],
@@ -78,8 +77,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Mikroovn på 20 liter med grill og keramisk bundplade i stedet for drejetallerken.',
 			'why'     => <<<'HTML'
-<p>Severins mikroovn har ifølge butikken en keramisk bundplade i stedet for den klassiske roterende tallerken, så du slipper for en tallerken, der skal tages ud og vaskes. Den har grillfunktion, 20 liter og drejeknapper til effekt og tid.</p>
-<p>En flad bund gør også mikroovnen nemmere at gøre ren og giver plads til større, firkantede fade. Valget er vores vurdering.</p>
+<p>Severins mikroovn har en keramisk bundplade i stedet for den klassiske roterende tallerken, så du slipper for en tallerken, der skal tages ud og vaskes. Den har grillfunktion, 20 liter og drejeknapper til effekt og tid.</p>
+<p>En flad bund gør også mikroovnen nemmere at gøre ren og giver plads til større, firkantede fade.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en enkel og billig mikroovn', 'Nem rengøring' ],
 			'less'    => [ 'Store familier' ],

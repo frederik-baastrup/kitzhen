@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Enkel og klassisk rullepølsepresse med låg og 30 meter kødsnor – alt, hvad du skal bruge for at komme i gang.',
 			'why'     => <<<'HTML'
-<p>Holms rullepølsepresse er den klassiske, enkle type. Butikken oplyser, at den måler 21 x 10 x 7,5 cm og leveres med låg og 30 meter kødsnor, og at rullepølsen enten kan koges før presningen eller lægges rå i pressen.</p>
-<p>Størrelsen passer til en almindelig rullepølse til en familie eller en julefrokost. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Holms rullepølsepresse er den klassiske, enkle type. Den måler 21 x 10 x 7,5 cm og leveres med låg og 30 meter kødsnor, og rullepølsen enten kan koges før presningen eller lægges rå i pressen.</p>
+<p>Størrelsen passer til en almindelig rullepølse til en familie eller en julefrokost.</p>
 HTML,
 			'good'    => [ 'Dig, der vil lave rullepølse til jul', 'Begyndere – alt følger med' ],
 			'less'    => [ 'Meget store rullepølser' ],

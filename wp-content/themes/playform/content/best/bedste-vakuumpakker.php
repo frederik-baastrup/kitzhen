@@ -20,9 +20,9 @@ HTML,
 			'name'    => 'OBH Nordica Complete Seal',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Vakuumpakker, der ifølge butikken kan få maden til at holde op til fem gange så længe.',
+			'verdict' => 'Vakuumpakker, der kan få maden til at holde op til fem gange så længe.',
 			'why'     => <<<'HTML'
-<p>OBH Nordica Complete Seal er ifølge butikken et godt valg, hvis du vil spare tid og penge og undgå madspild, og butikken skriver, at vakuumpakket mad kan holde op til fem gange så længe. Valget er vores vurdering.</p>
+<p>OBH Nordica Complete Seal er et godt valg, hvis du vil spare tid og penge og undgå madspild, og vakuumpakket mad kan holde op til fem gange så længe.</p>
 HTML,
 			'good'    => [ 'Fryseren og madspild', 'Sous vide' ],
 			'less'    => [ 'Væsker og supper' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kammervakuummaskine fra tyske Caso – kan også pakke væsker.',
 			'why'     => <<<'HTML'
-<p>Caso VacuChef 50 er ifølge butikken en kammervakuummaskine af høj kvalitet. I en kammermaskine ligger hele posen inde i maskinen, så du kan vakuumpakke supper, saucer og marinader. Den er dyr, men til dig, der pakker meget. Valget er vores vurdering.</p>
+<p>Caso VacuChef 50 er en kammervakuummaskine af høj kvalitet. I en kammermaskine ligger hele posen inde i maskinen, så du kan vakuumpakke supper, saucer og marinader. Den er dyr, men til dig, der pakker meget.</p>
 HTML,
 			'good'    => [ 'Væsker og marinader', 'Jægere og storindkøb' ],
 			'less'    => [ 'Små køkkener' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Vakuumpakker med elektronisk temperaturkontrol, der holder maden frisk og beskytter mod frostskader.',
 			'why'     => <<<'HTML'
-<p>Caso VC100 holder ifølge butikken maden frisk længere og beskytter mod frostskader, og den elektroniske temperaturkontrol sikrer, at maden ikke tager skade under svejsningen. Valget er vores vurdering ud fra pris.</p>
+<p>Caso VC100 holder maden frisk længere og beskytter mod frostskader, og den elektroniske temperaturkontrol sikrer, at maden ikke tager skade under svejsningen.</p>
 HTML,
 			'good'    => [ 'Lavt budget', 'Fryseren' ],
 			'less'    => [ 'Mange poser i træk' ],

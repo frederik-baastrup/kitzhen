@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Mokkakanden fra mærket, der opfandt den – her som limited edition i de italienske farver til 6 kopper.',
 			'why'     => <<<'HTML'
-<p>Bialetti er det mærke, der gjorde mokkakanden kendt over hele verden. Denne kaffebrygger til 6 kopper er ifølge butikken en limited edition i de italienske farver grøn og rød, og den beskrives som nem at bruge.</p>
-<p>6 kopper betyder 6 små espressokopper – det rækker til to–tre almindelige kopper kaffe med mælk. Valget er vores vurdering ud fra butikkens oplysninger og mærkets historie.</p>
+<p>Bialetti er det mærke, der gjorde mokkakanden kendt over hele verden. Denne kaffebrygger til 6 kopper er en limited edition i de italienske farver grøn og rød, og den beskrives som nem at bruge.</p>
+<p>6 kopper betyder 6 små espressokopper – det rækker til to–tre almindelige kopper kaffe med mælk.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have den klassiske mokkakande', 'Kaffe til to–tre personer' ],
 			'less'    => [ 'Induktion – tjek modellen hos butikken først' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Skulpturel espressokande designet af Mario Trimarchi – inspireret af Alessis klassiske 8-kantede kande.',
 			'why'     => <<<'HTML'
-<p>Alessi Ossidiana er designet af den prisbelønnede arkitekt Mario Trimarchi. Butikken fortæller, at kanden er inspireret af Alessis klassiske 8-kantede espressokande og af vulkanstenen obsidian, som den har sit navn efter.</p>
-<p>Med 3 kopper passer den til én–to personer. Den er et godt valg, hvis kanden også skal se godt ud på komfuret. Valget er vores vurdering.</p>
+<p>Alessi Ossidiana er designet af den prisbelønnede arkitekt Mario Trimarchi. Kanden er inspireret af Alessis klassiske 8-kantede espressokande og af vulkanstenen obsidian, som den har sit navn efter.</p>
+<p>Med 3 kopper passer den til én–to personer. Den er et godt valg, hvis kanden også skal se godt ud på komfuret.</p>
 HTML,
 			'good'    => [ 'Én–to personer', 'Dig, der vil have en designklassiker' ],
 			'less'    => [ 'Kaffe til mange' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Mokkakande med topkammer i borosilikatglas, så du kan se kaffen stige op.',
 			'why'     => <<<'HTML'
-<p>La Cafetières espressobrygger kombinerer den klassiske mokkakande med et moderne twist. Butikken oplyser, at topkammeret er lavet af borosilikatglas, der er både slag- og varmebestandigt, så du kan se brygningen ske.</p>
-<p>Glasset gør det også nemmere at se, hvornår kanden er færdig, så du kan tage den af varmen i tide. Valget er vores vurdering.</p>
+<p>La Cafetières espressobrygger kombinerer den klassiske mokkakande med et moderne twist. Topkammeret er lavet af borosilikatglas, der er både slag- og varmebestandigt, så du kan se brygningen ske.</p>
+<p>Glasset gør det også nemmere at se, hvornår kanden er færdig, så du kan tage den af varmen i tide.</p>
 HTML,
 			'good'    => [ 'Dig, der vil kunne se kaffen', 'Pynt på komfuret' ],
 			'less'    => [ 'Dig, der vil have en kande, der kan tåle hårdhændet brug' ],

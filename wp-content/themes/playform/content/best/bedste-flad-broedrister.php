@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Flad brødrister i rustfrit stål med to quartz-varmelegemer og en risteflade på 20 x 25 cm.',
 			'why'     => <<<'HTML'
-<p>OBH Nordica Inox Horizon er en flad brødrister i rustfrit stål. Butikken oplyser, at den har to quartz-varmelegemer, en ekstra stor risteflade på 20 x 25 cm og trinløs indstilling af ristningsgraden, så du kan undgå, at brødet bliver for mørkt.</p>
-<p>Ristefladen er stor nok til flere boller eller skiver på én gang, og stålet gør, at den ser pænere ud på køkkenbordet end mange plastikmodeller. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>OBH Nordica Inox Horizon er en flad brødrister i rustfrit stål. Den har to quartz-varmelegemer, en ekstra stor risteflade på 20 x 25 cm og trinløs indstilling af ristningsgraden, så du kan undgå, at brødet bliver for mørkt.</p>
+<p>Ristefladen er stor nok til flere boller eller skiver på én gang, og stålet gør, at den ser pænere ud på køkkenbordet end mange plastikmodeller.</p>
 HTML,
 			'good'    => [ 'Boller, rundstykker og croissanter', 'Familier, der rister meget på én gang' ],
 			'less'    => [ 'Dig, der kun rister almindeligt toastbrød' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Flad brødrister med en risteflade på 25 x 20 cm – til flere slags brød på én gang.',
 			'why'     => <<<'HTML'
-<p>Witt Classic er bygget efter samme princip. Butikken skriver, at den har et fladt design, så du nemt kan riste flere typer brød og flere ad gangen, og at ristearealet måler 25 x 20 cm – samme størrelse som OBH Nordica.</p>
-<p>De to modeller ligger tæt i pris, så det kan godt ende med at handle om, hvilken du synes ser bedst ud – og hvilken der er på tilbud. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Witt Classic er bygget efter samme princip. Den har et fladt design, så du nemt kan riste flere typer brød og flere ad gangen, og ristearealet måler 25 x 20 cm – samme størrelse som OBH Nordica.</p>
+<p>De to modeller ligger tæt i pris, så det kan godt ende med at handle om, hvilken du synes ser bedst ud – og hvilken der er på tilbud.</p>
 HTML,
 			'good'    => [ 'Rugbrød, boller og bagels', 'Brunch og weekendmorgenmad' ],
 			'less'    => [ 'Meget små køkkener' ],

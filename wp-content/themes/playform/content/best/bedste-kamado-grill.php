@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Robust kamado i mellemstørrelse – til at grille, ryge og bage.',
 			'why'     => <<<'HTML'
-<p>Kamado Sumo er et svensk mærke med fokus på kamado-grills. Butikken beskriver Signature Midi som en robust og gennemtænkt kulgrill, der tager grillningen til næste niveau. Midi-størrelsen er god til en almindelig familie. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Kamado Sumo er et svensk mærke med fokus på kamado-grills. Signature Midi er en robust og gennemtænkt kulgrill, der tager grillningen til næste niveau. Midi-størrelsen er god til en almindelig familie.</p>
 HTML,
 			'good'    => [ 'Familier', 'Rygning og langtidsgrill' ],
 			'less'    => [ 'Altaner – den er tung' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Webers kamado med Webers hidtil største integrerede termometer.',
 			'why'     => <<<'HTML'
-<p>Weber Summit Kamado er Webers bud på en kamado. Butikken fremhæver det store, integrerede termometer – Webers hidtil største – så du kan holde øje med temperaturen. Den er dyr, men en komplet grillstation. Valget er vores vurdering.</p>
+<p>Weber Summit Kamado er Webers bud på en kamado. Det store, integrerede termometer – Webers hidtil største – gør det let at holde øje med temperaturen. Den er dyr, men en komplet grillstation.</p>
 HTML,
 			'good'    => [ 'Grillentusiaster', 'Dig, der vil have Weber-kvalitet' ],
 			'less'    => [ 'Små budgetter' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Mindre kamado med kraftfuld funktionalitet i et smart format.',
 			'why'     => <<<'HTML'
-<p>Icon Junior er ifølge butikken en mindre kamado, der kombinerer kraftfuld funktionalitet med et smart format, og et fremragende valg til mindre selskaber. Valget er vores vurdering.</p>
+<p>Icon Junior er en mindre kamado, der kombinerer kraftfuld funktionalitet med et smart format, og et fremragende valg til mindre selskaber.</p>
 HTML,
 			'good'    => [ 'Par og små familier', 'Små terrasser' ],
 			'less'    => [ 'Store selskaber' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt kamado til at grille, ryge og bage – maksimal smag på minimal plads.',
 			'why'     => <<<'HTML'
-<p>Signature Junior er ifølge butikken lavet til dig, der vil have maksimal smag på minimal plads, og den kan både grille, ryge og bage. Den er den billigste vej ind i kamado-verdenen. Valget er vores vurdering.</p>
+<p>Signature Junior er lavet til dig, der vil have maksimal smag på minimal plads, og den kan både grille, ryge og bage. Den er den billigste vej ind i kamado-verdenen.</p>
 HTML,
 			'good'    => [ 'Begyndere', 'Lavt budget' ],
 			'less'    => [ 'Store stege' ],

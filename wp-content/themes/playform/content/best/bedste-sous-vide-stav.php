@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Vandtæt sous vide-stav (IPX7), der cirkulerer 7,5 liter vand i minuttet.',
 			'why'     => <<<'HTML'
-<p>Steba er et tysk mærke med mange sous vide-produkter. Butikken oplyser, at SV120 er IPX7-godkendt og dermed helt vandtæt, og at den cirkulerer 7,5 liter vand i minuttet, så temperaturen er jævn i hele vandbadet. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Steba er et tysk mærke med mange sous vide-produkter. SV120 er IPX7-godkendt og dermed helt vandtæt, og den cirkulerer 7,5 liter vand i minuttet, så temperaturen er jævn i hele vandbadet.</p>
 HTML,
 			'good'    => [ 'Bøffer, fisk og kylling', 'Dig, der vil have en robust stav' ],
 			'less'    => [ 'Dig, der også mangler en vakuumpakker' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Sæt med sous vide-cirkulator og vakuumpakker – alt, hvad du skal bruge for at komme i gang.',
 			'why'     => <<<'HTML'
-<p>Dette sæt indeholder ifølge butikken alt, hvad du skal bruge for at mestre sous vide derhjemme: en cirkulator og en vakuumpakker. Butikken forklarer, at metoden sikrer en jævn tilberedning, der bevarer saft og smag. Valget er vores vurdering ud fra pris og indhold.</p>
+<p>Dette sæt indeholder alt, hvad du skal bruge for at mestre sous vide derhjemme: en cirkulator og en vakuumpakker. Metoden sikrer en jævn tilberedning, der bevarer saft og smag.</p>
 HTML,
 			'good'    => [ 'Begyndere', 'Dig uden vakuumpakker' ],
 			'less'    => [ 'Dig, der allerede har en vakuumpakker' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Vandtæt sous vide-stav fra Steba til mørt og smagfuldt kød.',
 			'why'     => <<<'HTML'
-<p>Steba SV 75 er ifølge butikken vandtæt og lavet til mørt og smagfuldt kød. Butikken fremhæver, at sous vide bevarer råvarernes smag. Valget er vores vurdering ud fra pris.</p>
+<p>Steba SV 75 er vandtæt og lavet til mørt og smagfuldt kød. Sous vide bevarer råvarernes smag.</p>
 HTML,
 			'good'    => [ 'Lavt budget' ],
 			'less'    => [ 'Store vandbade' ],

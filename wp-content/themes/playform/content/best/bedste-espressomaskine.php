@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Espressomaskine med indbygget kaffekværn og ThermoJet-opvarmning – alt, hvad du skal bruge, i én maskine.',
 			'why'     => <<<'HTML'
-<p>Sage Barista Pro er en af de mest populære espressomaskiner til hjemmet. Butikken fremhæver den integrerede kaffekværn, der sørger for den rette mængde kaffe, og ThermoJet-opvarmningen, der gør, at maskinen hurtigt er klar til at brygge.</p>
-<p>Med kværnen indbygget slipper du for at købe en separat kværn, og det er netop kværnen, der afgør mest for smagen. Valget er vores vurdering ud fra butikkens oplysninger og modellens udbredelse.</p>
+<p>Sage Barista Pro er en af de mest populære espressomaskiner til hjemmet. Den integrerede kaffekværn sørger for den rette mængde kaffe, og ThermoJet-opvarmningen gør maskinen klar til at brygge på ingen tid.</p>
+<p>Med kværnen indbygget slipper du for at købe en separat kværn, og det er netop kværnen, der afgør mest for smagen.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have alt i én maskine', 'Cappuccino og latte' ],
 			'less'    => [ 'Dig, der vil have den hurtigste kop om morgenen uden at lære noget' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt espressomaskine, der øger trykket gradvist i starten af brygningen – som de store maskiner.',
 			'why'     => <<<'HTML'
-<p>Sage Bambino Plus er enkel og kompakt. Butikken forklarer, at maskinen øger vandtrykket gradvist i starten af brygningen, ligesom de bedste kommercielle espressomaskiner, så kaffen trækkes jævnt.</p>
-<p>Den har ingen indbygget kværn, så du skal købe formalet kaffe eller en separat kværn. Til gengæld fylder den lidt og er nem at komme i gang med. Valget er vores vurdering.</p>
+<p>Sage Bambino Plus er enkel og kompakt. Maskinen øger vandtrykket gradvist i starten af brygningen, ligesom de bedste kommercielle espressomaskiner, så kaffen trækkes jævnt.</p>
+<p>Den har ingen indbygget kværn, så du skal købe formalet kaffe eller en separat kværn. Til gengæld fylder den lidt og er nem at komme i gang med.</p>
 HTML,
 			'good'    => [ 'Begyndere', 'Små køkkener' ],
 			'less'    => [ 'Dig, der ikke har en kaffekværn' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Moderniseret udgave af klassikeren fra Gaggia med en 25 % større kedel i messing.',
 			'why'     => <<<'HTML'
-<p>Gaggia Classic har været en favorit blandt kaffeentusiaster i årtier. Butikken oplyser, at E24 er en moderniseret version med en 25 % større kedel i messing og forbedret kapacitet til både brygning og dampning.</p>
-<p>Det er en enkel maskine uden mange knapper, men den er bygget til at holde, og mange bruger den som udgangspunkt for at lære espresso. Valget er vores vurdering.</p>
+<p>Gaggia Classic har været en favorit blandt kaffeentusiaster i årtier. E24 er en moderniseret version med en 25 % større kedel i messing og forbedret kapacitet til både brygning og dampning.</p>
+<p>Det er en enkel maskine uden mange knapper, men den er bygget til at holde, og mange bruger den som udgangspunkt for at lære espresso.</p>
 HTML,
 			'good'    => [ 'Dig, der vil lære espresso fra bunden', 'Holdbarhed' ],
 			'less'    => [ 'Dig, der vil have kværn og automatik' ],
@@ -64,8 +64,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Espressomaskine med indbygget kværn og otte indstillinger, så du kan tilpasse den til dine bønner.',
 			'why'     => <<<'HTML'
-<p>La Specialista Arte er De'Longhis bud på en espressomaskine med kværn til en lavere pris. Butikken oplyser, at du kan tilpasse maskinen til din yndlingsblanding af kaffebønner med otte indstillinger.</p>
-<p>Den er et godt alternativ til Sage Barista Pro, hvis du vil have kværnen indbygget og holde prisen nede. Valget er vores vurdering.</p>
+<p>La Specialista Arte er De'Longhis bud på en espressomaskine med kværn til en lavere pris. Du kan tilpasse maskinen til din yndlingsblanding af kaffebønner med otte indstillinger.</p>
+<p>Den er et godt alternativ til Sage Barista Pro, hvis du vil have kværnen indbygget og holde prisen nede.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have kværn uden at give 7.000 kr.' ],
 			'less'    => [ 'Dig, der vil finjustere alt' ],
@@ -78,8 +78,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Italiensk espressomaskine for den, der vil gå hele vejen – her i guld-finish.',
 			'why'     => <<<'HTML'
-<p>Lelit er en italiensk producent af espressomaskiner til både hjem og professionelle. MaraX beskrives af butikken som mere end blot en espressomaskine og er rettet mod dig, der vil gøre kaffen til en fast og stor del af hverdagen.</p>
-<p>Det er en maskine til dig, der allerede brygger espresso og vil et skridt videre. Du skal bruge en god separat kværn til. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Lelit er en italiensk producent af espressomaskiner til både hjem og professionelle. MaraX er mere end blot en espressomaskine og er rettet mod dig, der vil gøre kaffen til en fast og stor del af hverdagen.</p>
+<p>Det er en maskine til dig, der allerede brygger espresso og vil et skridt videre. Du skal bruge en god separat kværn til.</p>
 HTML,
 			'good'    => [ 'Entusiaster', 'Mange mælkedrikke i træk' ],
 			'less'    => [ 'Begyndere' ],

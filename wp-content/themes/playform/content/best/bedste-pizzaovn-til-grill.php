@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Pizzastål i stedet for sten – mindre risiko for, at det knækker, og det kan bruges på grillen og i ovnen.',
 			'why'     => <<<'HTML'
-<p>Norrland er Gourmetståls premium-model. Butikken forklarer, at et pizzastål fungerer som en klassisk pizzasten, bare i stål – og at der derfor er mindre risiko for, at det flækker.</p>
-<p>Stål leder varmen hurtigere end sten, så bunden bliver hurtigt sprød. Pladen kan bruges både på grillen og i køkkenets ovn, så den bliver ikke kun brugt om sommeren. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Norrland er Gourmetståls premium-model. Et pizzastål fungerer som en klassisk pizzasten, bare i stål –, og der derfor er mindre risiko for, at det flækker.</p>
+<p>Stål leder varmen hurtigere end sten, så bunden bliver hurtigt sprød. Pladen kan bruges både på grillen og i køkkenets ovn, så den bliver ikke kun brugt om sommeren.</p>
 HTML,
 			'good'    => [ 'Gas- og kulgrill', 'Dig, der også vil bage pizza i ovnen' ],
 			'less'    => [ 'Dig, der vil have en komplet pizzaovn' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Pizzaovn og grillspyd i ét sæt, der sættes direkte på grillen.',
 			'why'     => <<<'HTML'
-<p>Kamado Sumos sæt gør grillen til både pizzaovn og rotisserie. Butikken oplyser, at du kan grille spyd og bage pizza direkte på grillen, at rotisseriet roterer ved lav hastighed for et saftigt resultat, og at spyddet har justerbare gafler.</p>
-<p>Det er lavet til kamado-grills, så tjek, at størrelsen passer til din grill, før du køber. Valget er vores vurdering.</p>
+<p>Kamado Sumos sæt gør grillen til både pizzaovn og rotisserie. Du kan grille spyd og bage pizza direkte på grillen, at rotisseriet roterer ved lav hastighed for et saftigt resultat, og spyddet har justerbare gafler.</p>
+<p>Det er lavet til kamado-grills, så tjek, at størrelsen passer til din grill, før du køber.</p>
 HTML,
 			'good'    => [ 'Kamado-grills', 'Dig, der også vil lave grillspyd og hel kylling' ],
 			'less'    => [ 'Almindelige gasgrills' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Pizzasten til Webers Crafted-system, der sættes i grillen i stedet for den ene grillrist.',
 			'why'     => <<<'HTML'
-<p>Weber Crafted er et system af tilbehør, der passer ind i grillristen på Webers nyere grills. Butikken forklarer, at du udskifter den højre grillrist med tilbehøret – her en pizzasten.</p>
-<p>Har du en Weber-grill med Crafted-ramme, er det den nemmeste løsning, fordi stenen sidder fast og plant. Tjek, at din grill passer til Crafted, før du køber. Valget er vores vurdering.</p>
+<p>Weber Crafted er et system af tilbehør, der passer ind i grillristen på Webers nyere grills. Du udskifter den højre grillrist med tilbehøret – her en pizzasten.</p>
+<p>Har du en Weber-grill med Crafted-ramme, er det den nemmeste løsning, fordi stenen sidder fast og plant. Tjek, at din grill passer til Crafted, før du køber.</p>
 HTML,
 			'good'    => [ 'Weber-grills med Crafted-system' ],
 			'less'    => [ 'Andre grillmærker' ],

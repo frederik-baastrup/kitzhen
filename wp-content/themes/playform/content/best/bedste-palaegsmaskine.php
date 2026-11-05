@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Robust pålægsmaskine fra tyske Graef til serrano, hamburgerryg, rullepølse, ost og brød.',
 			'why'     => <<<'HTML'
-<p>Graef er en tysk producent, der er specialiseret i skæremaskiner. Butikken beskriver Master M90 som en robust pålægsmaskine til friskskåret serrano, hamburgerryg, rullepølse og meget mere – og den kan også bruges til ost, grøntsager og brød. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Graef er en tysk producent, der er specialiseret i skæremaskiner. Master M90 er en robust pålægsmaskine til friskskåret serrano, hamburgerryg, rullepølse og meget mere – og den kan også bruges til ost, grøntsager og brød.</p>
 HTML,
 			'good'    => [ 'Julefrokost og hjemmelavet pålæg', 'Dig, der vil have en maskine, der holder' ],
 			'less'    => [ 'Små køkkener' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Sammenklappelig skæremaskine fra Graef, der kan ligge i en køkkenskuffe.',
 			'why'     => <<<'HTML'
-<p>Graef Mytiny kan klappes sammen. Butikken beskriver den som en kompakt og praktisk skæremaskine, der nemt kan opbevares i en køkkenskuffe, når den ikke er i brug. Valget er vores vurdering.</p>
+<p>Graef Mytiny kan klappes sammen. Den er en kompakt og praktisk skæremaskine, der nemt kan opbevares i en køkkenskuffe, når den ikke er i brug.</p>
 HTML,
 			'good'    => [ 'Små køkkener', 'Dig, der ikke vil have maskinen fremme' ],
 			'less'    => [ 'Store mængder' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kraftig pålægsmaskine med multi-knivblad og tykkelse fra 1 til 15 mm.',
 			'why'     => <<<'HTML'
-<p>Wilfas pålægsmaskine skærer ifølge butikken nemt kød, ost og brød. Der følger et solidt multi-knivblad i rustfrit stål med, tykkelsen kan justeres mellem 1 og 15 mm, og maskinen kan nemt skilles ad til rengøring. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Wilfas pålægsmaskine skærer nemt kød, ost og brød. Der følger et solidt multi-knivblad i rustfrit stål med, tykkelsen kan justeres mellem 1 og 15 mm, og maskinen kan nemt skilles ad til rengøring.</p>
 HTML,
 			'good'    => [ 'Lavt budget', 'Kød, ost og brød' ],
 			'less'    => [ 'Meget tynde skiver serrano' ],

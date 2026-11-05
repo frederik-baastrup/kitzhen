@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Gasdrevet pizzaovn fra Ooni med et bageareal på 39,5 cm – plads til store pizzaer.',
 			'why'     => <<<'HTML'
-<p>Ooni er det mærke, der gjorde pizzaovne til haven populære, og Koda 2 er deres gasdrevne model. Butikken beskriver den som kraftfuld og fleksibel og oplyser, at bagearealet på 39,5 cm giver plads til store pizzaer, og at den også kan bruges til andre retter.</p>
-<p>Gas er den nemmeste vej til pizza: du tænder, venter på, at stenen er varm, og så er du i gang – ingen træ, ingen aske. Valget er vores vurdering ud fra butikkens oplysninger og mærkets udbredelse.</p>
+<p>Ooni er det mærke, der gjorde pizzaovne til haven populære, og Koda 2 er deres gasdrevne model. Den er kraftfuld og fleksibel, bagearealet på 39,5 cm giver plads til store pizzaer, og den kan også bruges til andre retter.</p>
+<p>Gas er den nemmeste vej til pizza: du tænder, venter på, at stenen er varm, og så er du i gang – ingen træ, ingen aske.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have det nemt', 'Store pizzaer' ],
 			'less'    => [ 'Dig, der drømmer om træfyret smag' ],
@@ -34,10 +34,10 @@ HTML,
 			'name'    => 'Ooni Karu 2',
 			'role'    => 'Bedst med træ',
 			'reviews' => [],
-			'verdict' => 'Kompakt og robust pizzaovn fra Ooni, der ifølge butikken bager en pizza på 60 sekunder.',
+			'verdict' => 'Kompakt og robust pizzaovn fra Ooni, der bager en pizza på 60 sekunder.',
 			'why'     => <<<'HTML'
-<p>Ooni Karu 2 er ifølge butikken resultatet af ti års erfaring med pizzaovne. Butikken fremhæver den kompakte størrelse og robuste konstruktion og skriver, at du kan lave autentiske pizzaer på bare 60 sekunder.</p>
-<p>Karu-serien er Oonis ovne til fast brændsel som træ, der giver den klassiske røgsmag, men kræver, at du holder ilden ved lige. Tjek hos butikken, hvilket brændsel netop denne model kan bruge. Valget er vores vurdering.</p>
+<p>Ooni Karu 2 er resultatet af ti års erfaring med pizzaovne. Den er kompakt og robust, og du kan lave autentiske pizzaer på bare 60 sekunder.</p>
+<p>Karu-serien er Oonis ovne til fast brændsel som træ, der giver den klassiske røgsmag, men kræver, at du holder ilden ved lige. Tjek hos butikken, hvilket brændsel netop denne model kan bruge.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have smagen fra træ', 'Sommerhus og camping' ],
 			'less'    => [ 'Dig, der vil have det helt nemt' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Dansk-designet pizzaovn med roterende sten og en opvarmningstid på 15 minutter.',
 			'why'     => <<<'HTML'
-<p>Witt er et dansk mærke, og Piccolo Rotante har en roterende sten. Butikken beskriver den som en kompakt og effektiv løsning til haven eller terrassen med en opvarmningstid på kun 15 minutter, hvorefter du kan bage sprøde napolitanske pizzaer.</p>
-<p>Den roterende sten betyder, at du ikke selv skal dreje pizzaen for at få den jævnt bagt – det er den sværeste del for begyndere. Valget er vores vurdering.</p>
+<p>Witt er et dansk mærke, og Piccolo Rotante har en roterende sten. Den er en kompakt og effektiv løsning til haven eller terrassen med en opvarmningstid på kun 15 minutter, hvorefter du kan bage sprøde napolitanske pizzaer.</p>
+<p>Den roterende sten betyder, at du ikke selv skal dreje pizzaen for at få den jævnt bagt – det er den sværeste del for begyndere.</p>
 HTML,
 			'good'    => [ 'Begyndere', 'Jævnt bagte pizzaer uden at dreje' ],
 			'less'    => [ 'Dig, der vil holde prisen nede' ],
@@ -64,8 +64,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Elektrisk udendørs pizzaovn op til 370 °C – uden brænde, aske eller røg.',
 			'why'     => <<<'HTML'
-<p>Ninja Artisan kører på strøm. Butikken beskriver den som en elektrisk udendørsovn med præcis temperaturkontrol op til 370 °C, der giver sprøde pizzaer helt uden brænde, aske eller røg på terrassen – og den kan også bruges som airfryer.</p>
-<p>370 °C er ikke helt så varmt som de gasdrevne ovne, men nok til en rigtig god pizza, og du slipper for gasflasken. Valget er vores vurdering.</p>
+<p>Ninja Artisan kører på strøm. Den er en elektrisk udendørsovn med præcis temperaturkontrol op til 370 °C, der giver sprøde pizzaer helt uden brænde, aske eller røg på terrassen – og den kan også bruges som airfryer.</p>
+<p>370 °C er ikke helt så varmt som de gasdrevne ovne, men nok til en rigtig god pizza, og du slipper for gasflasken.</p>
 HTML,
 			'good'    => [ 'Altaner, hvor gas ikke er tilladt', 'Dig, der også vil bruge den til andet end pizza' ],
 			'less'    => [ 'Dig, der vil have de højeste temperaturer' ],
@@ -78,8 +78,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Elektrisk pizzaovn til køkkenbordet, der bringer stenovnens høje temperatur indendørs.',
 			'why'     => <<<'HTML'
-<p>Sage Pizzaiolo er lavet til at stå i køkkenet. Butikken forklarer, at den klassiske napolitanske pizza bages i stenovn ved temperaturer, der ikke er mulige i en almindelig ovn – og Pizzaiolo er Sages bud på at bringe den varme indendørs.</p>
-<p>Den er dyr, men den eneste af vores valg, du kan bruge hele året i køkkenet. Valget er vores vurdering.</p>
+<p>Sage Pizzaiolo er lavet til at stå i køkkenet. Den klassiske napolitanske pizza bages i stenovn ved temperaturer, der ikke er mulige i en almindelig ovn – og Pizzaiolo er Sages bud på at bringe den varme indendørs.</p>
+<p>Den er dyr, men den eneste af vores valg, du kan bruge hele året i køkkenet.</p>
 HTML,
 			'good'    => [ 'Lejligheder uden have', 'Pizza hele året' ],
 			'less'    => [ 'Små køkkener og små budgetter' ],

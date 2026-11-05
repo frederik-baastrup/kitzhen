@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Populær mini-foodprocessor på 0,83 liter med one-touch betjening og to hastigheder.',
 			'why'     => <<<'HTML'
-<p>KitchenAids mini-foodprocessor er en af de mest kendte på markedet. Butikken beskriver den som den perfekte størrelse til hverdagsbrug til at hakke frugt og grøntsager og lave dressing og sovs, og fremhæver one-touch betjeningen og de to hastigheder.</p>
-<p>Med 0,83 liter er skålen stor nok til en portion pesto eller hakkede løg til en gryderet. Den findes i flere farver, så den kan matche en KitchenAid-røremaskine. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>KitchenAids mini-foodprocessor er en af de mest kendte på markedet. Den har den perfekte størrelse til hverdagen: hak frugt og grøntsager, eller lav dressing og sovs med one-touch betjening og to hastigheder.</p>
+<p>Med 0,83 liter er skålen stor nok til en portion pesto eller hakkede løg til en gryderet. Den findes i flere farver, så den kan matche en KitchenAid-røremaskine.</p>
 HTML,
 			'good'    => [ 'Pesto, dressing og hakkede grøntsager', 'Dig, der har andre KitchenAid-maskiner' ],
 			'less'    => [ 'Store mængder dej' ],
@@ -34,10 +34,9 @@ HTML,
 			'name'    => 'Magimix Minihakker 0,83 liter',
 			'role'    => 'Bedst til stille køkkener',
 			'reviews' => [],
-			'verdict' => 'Mini-foodprocessor fra franske Magimix – kraftfuld og støjsvag ifølge butikken.',
+			'verdict' => 'Mini-foodprocessor fra franske Magimix – kraftfuld og støjsvag.',
 			'why'     => <<<'HTML'
-<p>Magimix er kendt for deres store foodprocessorer, og minihakkeren har samme størrelse skål som KitchenAid. Butikken beskriver den som både kraftfuld og støjsvag og fremhæver det minimalistiske design, der ikke optager unødig plads på køkkenbordet.</p>
-<p>Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Magimix er kendt for deres store foodprocessorer, og minihakkeren har samme størrelse skål som KitchenAid. Den er både kraftfuld og støjsvag, og det minimalistiske design tager ikke unødig plads på køkkenbordet.</p>
 HTML,
 			'good'    => [ 'Dig, der lægger vægt på design og lav støj' ],
 			'less'    => [ 'Dig, der vil holde prisen nede' ],
@@ -50,8 +49,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt minihakker, der hakker, mixer og purerer – til en lav pris.',
 			'why'     => <<<'HTML'
-<p>Ninja Express Chop er den billigste af vores tre valg. Butikken beskriver den som en løsning til køkkener med begrænset bordplads, hvor du kan hakke, mixe og purere ingredienserne til aftensmaden uden at finde den store foodprocessor frem.</p>
-<p>Til prisen er den et godt sted at starte, hvis du ikke har haft en minihakker før. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Ninja Express Chop er den billigste af vores tre valg. Den er en løsning til køkkener med begrænset bordplads, hvor du kan hakke, mixe og purere ingredienserne til aftensmaden uden at finde den store foodprocessor frem.</p>
+<p>Til prisen er den et godt sted at starte, hvis du ikke har haft en minihakker før.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve en minihakker', 'Små køkkener' ],
 			'less'    => [ 'Daglig brug til store mængder' ],

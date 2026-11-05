@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fuldautomatisk bagemaskine, der ælter, hæver og bager – med udtagelig nonstick-bageform.',
 			'why'     => <<<'HTML'
-<p>OBH Nordicas bagemaskine er ifølge butikken fuldautomatisk: den ælter, hæver og bager brødet, mens du laver noget andet, og den har en udtagelig nonstick-bageform med håndtag, der er nem at rengøre. Valget er vores vurdering ud fra butikkens oplysninger og prisen.</p>
+<p>OBH Nordicas bagemaskine er fuldautomatisk: den ælter, hæver og bager brødet, mens du laver noget andet, og den har en udtagelig nonstick-bageform med håndtag, der er nem at rengøre.</p>
 HTML,
 			'good'    => [ 'Morgenbrød med timer', 'Nem rengøring' ],
 			'less'    => [ 'Store brød' ],
@@ -33,9 +33,9 @@ HTML,
 			'name'    => 'Gastroback Design brødmaskine Advanced',
 			'role'    => 'Flest muligheder',
 			'reviews' => [],
-			'verdict' => 'Bagemaskine fra Gastroback, der ifølge butikken kan mere end en almindelig bagemaskine.',
+			'verdict' => 'Bagemaskine fra Gastroback, der kan mere end en almindelig bagemaskine.',
 			'why'     => <<<'HTML'
-<p>Gastrobacks Design Advanced beskrives af butikken som mere end bare en almindelig bagemaskine, der gør det nemt at bage frisk brød derhjemme. Valget er vores vurdering.</p>
+<p>Gastrobacks Design Advanced er mere end bare en almindelig bagemaskine, der gør det nemt at bage frisk brød derhjemme.</p>
 HTML,
 			'good'    => [ 'Dig, der vil eksperimentere', 'Design' ],
 			'less'    => [ 'Lavt budget' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Bagemaskine, der laver brød, kager og marmelade.',
 			'why'     => <<<'HTML'
-<p>Steba BM3 kan ifølge butikken lave brød, kager, marmelade og mere – du tilføjer ingredienserne, og maskinen klarer arbejdet. Valget er vores vurdering.</p>
+<p>Steba BM3 kan lave brød, kager, marmelade og mere – du tilføjer ingredienserne, og maskinen klarer arbejdet.</p>
 HTML,
 			'good'    => [ 'Brød og marmelade' ],
 			'less'    => [ 'Dig, der vil forme brødet selv' ],

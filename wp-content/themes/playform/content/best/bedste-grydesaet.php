@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Grydesæt i rustfrit stål med tre gryder, en suppegryde og en kasserolle – med låg.',
 			'why'     => <<<'HTML'
-<p>Zwilling Pure er et klassisk grydesæt i rustfrit stål. Butikken oplyser, at sættet består af tre gryder med låg, en rummelig suppegryde med låg og en mindre kasserolle, og at det giver gode muligheder for både daglig madlavning og mere krævende retter. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Zwilling Pure er et klassisk grydesæt i rustfrit stål. Sættet består af tre gryder med låg, en rummelig suppegryde med låg og en mindre kasserolle, og det giver gode muligheder for både daglig madlavning og mere krævende retter.</p>
 HTML,
 			'good'    => [ 'Komplet sæt til familien', 'Rustfrit stål, der holder' ],
 			'less'    => [ 'Små budgetter' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kasserolle og to gryder med låg i rustfrit stål med aluminiumsbund for jævn varme.',
 			'why'     => <<<'HTML'
-<p>KitchenAids sæt består af en kasserolle og to gryder med låg. Butikken oplyser, at gryderne er lavet af rustfrit stål med en aluminiumsbund, der giver en hurtig og jævn varmefordeling. Tre dele er nok til de fleste små husstande. Valget er vores vurdering.</p>
+<p>KitchenAids sæt består af en kasserolle og to gryder med låg. Gryderne er lavet af rustfrit stål med en aluminiumsbund, der giver en hurtig og jævn varmefordeling. Tre dele er nok til de fleste små husstande.</p>
 HTML,
 			'good'    => [ 'Små husstande', 'Hverdagsmad' ],
 			'less'    => [ 'Store familier' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Grydesæt med slidstærk keramisk belægning og glaslåg – gryder på 2,1 og 3,8 liter og kasserolle på 1,3 liter.',
 			'why'     => <<<'HTML'
-<p>Pillivuyt Travo indeholder ifølge butikken to gryder med glaslåg på 2,1 og 3,8 liter og en kasserolle med glaslåg på 1,3 liter. Serien har en slidstærk keramisk belægning, som butikken beskriver som meget robust og langtidsholdbar. Glaslågene gør det nemt at holde øje med maden. Valget er vores vurdering.</p>
+<p>Pillivuyt Travo indeholder to gryder med glaslåg på 2,1 og 3,8 liter og en kasserolle med glaslåg på 1,3 liter. Serien har en slidstærk keramisk belægning, som er meget robust og holder længe. Glaslågene gør det nemt at holde øje med maden.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have let rengøring', 'Ris, sovs og grød' ],
 			'less'    => [ 'Meget høj varme og metalredskaber' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Grydesæt med aftageligt håndtag – fra komfur til ovn og bord, og kan stables i skabet.',
 			'why'     => <<<'HTML'
-<p>Tefal Ingenio har et patenteret, aftageligt håndtag. Butikken forklarer, at et let klik gør det muligt at tage håndtaget af og flytte gryderne direkte fra komfuret ind i ovnen eller stille dem på bordet. Uden håndtag kan de stables og fylder mindre i skabet. Valget er vores vurdering.</p>
+<p>Tefal Ingenio har et patenteret, aftageligt håndtag. Et let klik gør det muligt at tage håndtaget af og flytte gryderne direkte fra komfuret ind i ovnen eller stille dem på bordet. Uden håndtag kan de stables og fylder mindre i skabet.</p>
 HTML,
 			'good'    => [ 'Små køkkener', 'Fra komfur til ovn og bord' ],
 			'less'    => [ 'Dig, der ikke vil have et løst håndtag' ],

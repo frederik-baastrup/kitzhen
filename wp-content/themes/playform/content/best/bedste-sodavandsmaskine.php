@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Sodavandsmaskine, der kan tilsætte kulsyre til alle drikke – ikke kun vand.',
 			'why'     => <<<'HTML'
-<p>Sage InFizz Fusion kan ifølge butikken tilsætte kulsyre til alle drikkevarer, ikke kun vand. Med FusionCap-teknologien styrer du, hvor hurtigt kulsyren tilsættes, så juice og vin ikke skummer over. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Sage InFizz Fusion kan tilsætte kulsyre til alle drikkevarer, ikke kun vand. Med FusionCap-teknologien styrer du, hvor hurtigt kulsyren tilsættes, så juice og vin ikke skummer over.</p>
 HTML,
 			'good'    => [ 'Juice, saft og cocktails med bobler', 'Design' ],
 			'less'    => [ 'Dig, der kun drikker danskvand' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Sodavandsmaskine i rustfrit stål inspireret af skandinavisk minimalisme.',
 			'why'     => <<<'HTML'
-<p>Bubliq kombinerer ifølge butikken tidløst design, holdbarhed og brugervenlighed. Den er i rustfrit stål og inspireret af skandinavisk minimalisme. Valget er vores vurdering.</p>
+<p>Bubliq kombinerer tidløst design, holdbarhed og brugervenlighed. Den er i rustfrit stål og inspireret af skandinavisk minimalisme.</p>
 HTML,
 			'good'    => [ 'Køkkener, hvor den skal stå fremme', 'Holdbarhed' ],
 			'less'    => [ 'Lavt budget' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Manuel sodavandsmaskine fra SodaStream, der ikke skal bruge strøm.',
 			'why'     => <<<'HTML'
-<p>SodaStream Fresh er ifølge butikken designet til at fylde minimalt på køkkenbordet. Den er manuel, så den ikke skal have strøm og kan stå, hvor du vil. SodaStream-cylindere kan byttes i mange butikker. Valget er vores vurdering ud fra pris.</p>
+<p>SodaStream Fresh er designet til at fylde minimalt på køkkenbordet. Den er manuel, så den ikke skal have strøm og kan stå, hvor du vil. SodaStream-cylindere kan byttes i mange butikker.</p>
 HTML,
 			'good'    => [ 'Danskvand hver dag', 'Lavt budget' ],
 			'less'    => [ 'Kulsyre i juice og vin' ],

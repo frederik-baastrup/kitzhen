@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Æbleskivepande i støbejern med håndtag i bøgetræ, der isolerer mod varmen.',
 			'why'     => <<<'HTML'
-<p>Carl Victors æbleskivepande er specialfremstillet i støbejern. Butikken oplyser, at støbejernet opbygger en naturlig slip-let-overflade, når det bruges med det fedtstof, du ellers bruger til madlavning, og at håndtaget er lavet af bøgetræ, der isolerer mod varmen.</p>
-<p>Et håndtag, der ikke bliver varmt, er en reel fordel, når panden står længe på kogepladen under en stor æbleskivebagning. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Carl Victors æbleskivepande er specialfremstillet i støbejern. Støbejernet opbygger en naturlig slip-let-overflade, når det bruges med det fedtstof, du ellers bruger til madlavning, og håndtaget er lavet af bøgetræ, der isolerer mod varmen.</p>
+<p>Et håndtag, der ikke bliver varmt, er en reel fordel, når panden står længe på kogepladen under en stor æbleskivebagning.</p>
 HTML,
 			'good'    => [ 'Induktion, gas og el', 'Dig, der bager mange æbleskiver' ],
 			'less'    => [ 'Opvaskemaskinen' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Æbleskivepande i støbejern til gyldne æbleskiver – billigere end Carl Victors klassiske model.',
 			'why'     => <<<'HTML'
-<p>Carl Victor Gold er også i støbejern. Butikken beskriver æbleskiverne som gyldne i kanten og bløde i midten og fremhæver støbejernet som et materiale, der egner sig særligt godt til netop æbleskiver.</p>
-<p>Den er billigere end den klassiske model og et godt valg, hvis du kun bager æbleskiver i december. Valget er vores vurdering.</p>
+<p>Carl Victor Gold er også i støbejern. Den giver æbleskiver, der er gyldne i kanten og bløde i midten – støbejern er netop det materiale, der egner sig bedst til æbleskiver.</p>
+<p>Den er billigere end den klassiske model og et godt valg, hvis du kun bager æbleskiver i december.</p>
 HTML,
 			'good'    => [ 'Julens æbleskiver', 'Induktion' ],
 			'less'    => [ 'Opvaskemaskinen' ],

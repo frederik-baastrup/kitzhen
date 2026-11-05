@@ -25,7 +25,7 @@ HTML,
 			],
 			'verdict' => 'Tre brændere og en Sear Zone med ekstra kraft – nok grill til de fleste familier uden at fylde som en stor grillstation.',
 			'why'     => <<<'HTML'
-<p>Weber Spirit E-325 er den gasgrill, vi ville pege på, hvis du bare vil have en god grill, der kan det hele. Ifølge butikken har den tre brændere og en Sear Zone, hvor to Boost-brændere giver 40 % mere effekt, så du kan få flotte grillstriber på kød, fisk og grøntsager. Brænderne tændes hver for sig, så du kan grille direkte over flammen i den ene side og indirekte i den anden.</p>
+<p>Weber Spirit E-325 er den gasgrill, vi ville pege på, hvis du bare vil have en god grill, der kan det hele. Har den tre brændere og en Sear Zone, hvor to Boost-brændere giver 40 % mere effekt, så du kan få flotte grillstriber på kød, fisk og grøntsager. Brænderne tændes hver for sig, så du kan grille direkte over flammen i den ene side og indirekte i den anden.</p>
 <p>Smoked BBQ Source har anmeldt netop Spirit E-325 og grillet bøffer, burgere, koteletter og kyllingevinger på den. Anmelderen fremhæver den meget varme Sear Zone, tændingen, der tænder hurtigt og jævnt, en jævn varmefordeling over risten, den udtagelige fedtbakke og det lukkede skab under grillen. Minusserne var hjul i plast, der føles billige – og at Sear Zone er så varm, at du skal holde øje med tiden, så bøfferne ikke bliver stegt for meget. Weber sendte grillen gratis til anmeldelsen, hvilket siden selv oplyser.</p>
 <p>Griller du ofte for mange, så se på Genesis nedenfor.</p>
 HTML,
@@ -40,8 +40,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Webers større gasgrill med tre kraftige brændere og en rummelig grillflade – til familiemiddage og grillfester.',
 			'why'     => <<<'HTML'
-<p>Genesis er trinnet over Spirit i Webers sortiment. Butikken beskriver Genesis E-315 som en grill med tre kraftfulde brændere og en rummelig grilloverflade, der er lavet til alt fra familiemiddage til større grillfester.</p>
-<p>Prisen er markant højere end Spirit, så den giver mest mening, hvis du jævnligt griller for mange, eller hvis grillen skal bruges hele sæsonen igennem. Vi har ikke fundet en uafhængig anmeldelse af netop 2025-udgaven, så valget er vores vurdering ud fra butikkens oplysninger og Webers placering af modellen.</p>
+<p>Genesis er trinnet over Spirit i Webers sortiment. Genesis E-315 er en grill med tre kraftfulde brændere og en rummelig grilloverflade, der er lavet til alt fra familiemiddage til større grillfester.</p>
+<p>Prisen er markant højere end Spirit, så den giver mest mening, hvis du jævnligt griller for mange, eller hvis grillen skal bruges hele sæsonen igennem.</p>
 HTML,
 			'good'    => [ 'Store familier og dig, der ofte har gæster', 'Dig, der vil have plads til mad i flere zoner på én gang' ],
 			'less'    => [ 'Små terrasser og altaner', 'Dig, der griller et par gange om måneden' ],
@@ -54,8 +54,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fire brændere i støbejern, 14 kW og en grillflade, der er halvt rist og halvt plade – meget grill for pengene.',
 			'why'     => <<<'HTML'
-<p>Mustang Greenville 4 giver flere brændere for pengene end de to Weber-grills. Butikken oplyser, at den har fire brændere i støbejern med indbygget piezo-tænding, en samlet effekt på 14 kW og et grillareal på 77 x 41 cm. Halvdelen af grillfladen er en rist, og den anden halvdel er en plade – praktisk, hvis du også vil stege æg, bacon eller grøntsager, der ellers falder ned mellem stængerne.</p>
-<p>Mustang er et budgetmærke, så forvent ikke samme finish, garanti og reservedelsudvalg som hos Weber. Valget er vores vurdering; vi har ikke fundet uafhængige anmeldelser af modellen.</p>
+<p>Mustang Greenville 4 giver flere brændere for pengene end de to Weber-grills. Den har fire brændere i støbejern med indbygget piezo-tænding, en samlet effekt på 14 kW og et grillareal på 77 x 41 cm. Halvdelen af grillfladen er en rist, og den anden halvdel er en plade – praktisk, hvis du også vil stege æg, bacon eller grøntsager, der ellers falder ned mellem stængerne.</p>
+<p>Mustang er et budgetmærke, så forvent ikke samme finish, garanti og reservedelsudvalg som hos Weber.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en stor grillflade til en lav pris', 'Dig, der vil have både rist og stegeplade' ],
 			'less'    => [ 'Dig, der vil have en grill, der holder i mange år med reservedele' ],
@@ -72,7 +72,7 @@ HTML,
 			],
 			'verdict' => 'Bærbar gasgrill, der klapper sammen – til altanen, sommerhuset og campingturen.',
 			'why'     => <<<'HTML'
-<p>Weber Traveler er lavet til dig, der ikke har plads til en stor grill, eller som vil have grillen med. Butikken beskriver den som en bærbar og alsidig gasgrill, der er udviklet til et effektivt gasforbrug og nem transport – oplagt på udflugt, men også som grill på terrassen eller altanen.</p>
+<p>Weber Traveler er lavet til dig, der ikke har plads til en stor grill, eller som vil have grillen med. Den er en bærbar og alsidig gasgrill, der er udviklet til et effektivt gasforbrug og nem transport – oplagt på udflugt, men også som grill på terrassen eller altanen.</p>
 <p>Modellen er anmeldt af flere udenlandske testsider, blandt andet OutdoorGearLab, Livingetc og AmazingRibs, som du finder links til ovenfor. Bemærk, at udenlandske anmeldelser kan omtale en anden gasflaske og regulator end den, der bruges i Danmark – tjek hos butikken, hvad der følger med.</p>
 HTML,
 			'good'    => [ 'Altaner og små terrasser', 'Sommerhus, camping og udflugter' ],

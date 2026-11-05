@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Bordspiralizer med 4 indstillinger for spiralstørrelse – laver én lang spiral.',
 			'why'     => <<<'HTML'
-<p>Westmark Spiro plus står på bordet, og du drejer grøntsagen igennem med et håndsving. Butikken oplyser, at den har 4 indstillinger for spiralstørrelse, og at resultatet er én lang spiral.</p>
-<p>En bordmodel er hurtigere og mere stabil end en håndholdt, når du laver til flere personer. Valget er vores vurdering.</p>
+<p>Westmark Spiro plus står på bordet, og du drejer grøntsagen igennem med et håndsving. Den har 4 indstillinger for spiralstørrelse, og resultatet er én lang spiral.</p>
+<p>En bordmodel er hurtigere og mere stabil end en håndholdt, når du laver til flere personer.</p>
 HTML,
 			'good'    => [ 'Familier', 'Squash, gulerødder og kartofler' ],
 			'less'    => [ 'Meget små køkkener' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Håndholdt spiralizer med tre udskiftelige blade til spaghetti, fettuccine og bånd.',
 			'why'     => <<<'HTML'
-<p>OXOs håndholdte spiralizer har ifølge butikken tre blade, der kan udskiftes, så du kan lave grøntsagspasta, fettuccine eller bred båndspaghetti – fx fettuccine af søde kartofler eller æblechips med knivbladet.</p>
-<p>Den fylder næsten ingenting i skuffen og er et godt valg, hvis du laver små portioner. Valget er vores vurdering.</p>
+<p>OXOs håndholdte spiralizer har tre blade, der kan udskiftes, så du kan lave grøntsagspasta, fettuccine eller bred båndspaghetti – fx fettuccine af søde kartofler eller æblechips med knivbladet.</p>
+<p>Den fylder næsten ingenting i skuffen og er et godt valg, hvis du laver små portioner.</p>
 HTML,
 			'good'    => [ 'Små portioner', 'Små køkkener' ],
 			'less'    => [ 'Store mængder' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Spiralizer til KitchenAid-røremaskinen – skræller, udkerner og snitter håndfrit.',
 			'why'     => <<<'HTML'
-<p>Har du en KitchenAid-røremaskine, kan du sætte denne spiralizer på. Butikken oplyser, at den kan skrælle, udkerne og snitte håndfrit, at hoveddelen er helt i metal, og at den skal rengøres med en blød klud, da den ikke tåler opvaskemaskine.</p>
-<p>Den er den hurtigste løsning til store mængder – og den kan også skrælle og udkerne æbler. Valget er vores vurdering.</p>
+<p>Har du en KitchenAid-røremaskine, kan du sætte denne spiralizer på. Den kan skrælle, udkerne og snitte håndfrit, at hoveddelen er helt i metal, og den skal rengøres med en blød klud, da den ikke tåler opvaskemaskine.</p>
+<p>Den er den hurtigste løsning til store mængder – og den kan også skrælle og udkerne æbler.</p>
 HTML,
 			'good'    => [ 'Dig med en KitchenAid-røremaskine', 'Store mængder' ],
 			'less'    => [ 'Dig uden KitchenAid' ],
@@ -64,8 +64,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Spiralizer-tilbehør til Kenwood-køkkenmaskiner, der monteres nemt og hurtigt.',
 			'why'     => <<<'HTML'
-<p>Kenwood KAX700PL er tilbehør til Kenwoods køkkenmaskiner. Butikken oplyser, at den monteres nemt og hurtigt på maskinen og gør det let at skifte pastaen ud med grøntsager i hverdagen.</p>
-<p>Tjek, at den passer til din Kenwood-model, før du køber. Valget er vores vurdering.</p>
+<p>Kenwood KAX700PL er tilbehør til Kenwoods køkkenmaskiner. Den monteres nemt og hurtigt på maskinen og gør det let at skifte pastaen ud med grøntsager i hverdagen.</p>
+<p>Tjek, at den passer til din Kenwood-model, før du køber.</p>
 HTML,
 			'good'    => [ 'Dig med en Kenwood-køkkenmaskine' ],
 			'less'    => [ 'Dig uden Kenwood' ],

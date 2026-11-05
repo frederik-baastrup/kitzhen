@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kraftig højhastighedsblender med forudindstillede programmer – fra smoothies til de hårdeste ingredienser.',
 			'why'     => <<<'HTML'
-<p>Blendtec er kendt for meget kraftige blendere. Butikken fortæller, at blenderen blev et hit på YouTube, fordi den kunne kværne alt fra hele kokosnødder til en iPhone, men fremhæver også, at den laver smoothies lige så bløde som på en café og kan blende på egen hånd med forudindstillede programmer. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Blendtec er kendt for meget kraftige blendere. Blenderen blev et hit på YouTube, fordi den kunne kværne alt fra hele kokosnødder til en iPhone, og den laver smoothies lige så bløde som på en café og kan blende på egen hånd med forudindstillede programmer.</p>
 HTML,
 			'good'    => [ 'Smoothies hver dag', 'Nøddesmør og hårde ingredienser' ],
 			'less'    => [ 'Små budgetter' ],
@@ -33,9 +33,9 @@ HTML,
 			'name'    => 'KitchenAid Artisan K400',
 			'role'    => 'Mest solid',
 			'reviews' => [],
-			'verdict' => 'Blender i formstøbt metal med 5 års garanti, der ifølge butikken blender selv de hårdeste ingredienser.',
+			'verdict' => 'Blender i formstøbt metal med 5 års garanti, der blender selv de hårdeste ingredienser.',
 			'why'     => <<<'HTML'
-<p>KitchenAid Artisan K400 er bygget i formstøbt metal. Butikken oplyser, at den blender selv de hårdeste ingredienser med et ensartet resultat, og at den kommer med 5 års garanti. Den passer i stil til KitchenAid-røremaskinen. Valget er vores vurdering.</p>
+<p>KitchenAid Artisan K400 er bygget i formstøbt metal. Den blender selv de hårdeste ingredienser med et ensartet resultat, og den kommer med 5 års garanti. Den passer i stil til KitchenAid-røremaskinen.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en blender, der holder', 'Design' ],
 			'less'    => [ 'Små køkkener' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Højhastighedsblender, der knuser is, nødder og frø – til smoothies, supper og babymad.',
 			'why'     => <<<'HTML'
-<p>Wilfa PowerFuel er en kraftig højhastighedsblender. Butikken fremhæver, at den let knuser is, laver smoothies, blender supper og saucer og hjemmelavet babymad, og at den nemt knuser nødder og frø. Den er et godt valg, hvis du vil have en højhastighedsblender til en mere overkommelig pris. Valget er vores vurdering.</p>
+<p>Wilfa PowerFuel er en kraftig højhastighedsblender. Den knuser let is, laver smoothies, blender supper og saucer og hjemmelavet babymad, og den knuser nemt nødder og frø. Den er et godt valg, hvis du vil have en højhastighedsblender til en mere overkommelig pris.</p>
 HTML,
 			'good'    => [ 'Smoothies og supper', 'Is og nødder' ],
 			'less'    => [ 'Dig, der vil have programmer' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt personlig blender på 900 W til hurtige smoothies direkte i flasken.',
 			'why'     => <<<'HTML'
-<p>Nutribullet er en af de mest kendte personlige blendere. Butikken oplyser, at denne model har en motor på 900 W, der er kraftig nok til krævende ingredienser, og ekstraktionsblade lavet til smoothies. Du blender direkte i bægeret og tager det med. Valget er vores vurdering.</p>
+<p>Nutribullet er en af de mest kendte personlige blendere. Denne model har en motor på 900 W, der er kraftig nok til krævende ingredienser, og ekstraktionsblade lavet til smoothies. Du blender direkte i bægeret og tager det med.</p>
 HTML,
 			'good'    => [ 'Morgensmoothies', 'Små køkkener' ],
 			'less'    => [ 'Supper og store portioner' ],

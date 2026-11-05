@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fuldautomatisk espressomaskine med integreret kværn og berøringspanel – klar med ét tryk.',
 			'why'     => <<<'HTML'
-<p>Siemens EQ-serien er blandt de mest solgte fuldautomatiske maskiner. Butikken beskriver EQ500 iAroma som en maskine med integreret kværn og et intuitivt berøringspanel, der giver hurtig tilpasning og nem rengøring.</p>
-<p>Den er et godt midtpunkt: mange kaffedrikke, nem betjening og en pris, der ikke løber løbsk. Valget er vores vurdering ud fra butikkens oplysninger og modellens udbredelse.</p>
+<p>Siemens EQ-serien er blandt de mest solgte fuldautomatiske maskiner. EQ500 iAroma er en maskine med integreret kværn og et intuitivt berøringspanel, der giver hurtig tilpasning og nem rengøring.</p>
+<p>Den er et godt midtpunkt: mange kaffedrikke, nem betjening og en pris, der ikke løber løbsk.</p>
 HTML,
 			'good'    => [ 'Familier og kontorer', 'Dig, der vil have det nemt' ],
 			'less'    => [ 'Dig, der vil finjustere alt selv' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fuldautomatisk maskine med fem kaffedrikke på et tryk – et godt sted at starte.',
 			'why'     => <<<'HTML'
-<p>De'Longhi Magnifica er en af de mest kendte fuldautomatiske maskiner. Butikken oplyser, at du med Magnifica Evo hurtigt og nemt kan vælge mellem fem forskellige kaffedrikke.</p>
-<p>Den er billigere end de fleste og et godt valg, hvis du især drikker espresso og almindelig kaffe. Valget er vores vurdering.</p>
+<p>De'Longhi Magnifica er en af de mest kendte fuldautomatiske maskiner. Du med Magnifica Evo hurtigt og nemt kan vælge mellem fem forskellige kaffedrikke.</p>
+<p>Den er billigere end de fleste og et godt valg, hvis du især drikker espresso og almindelig kaffe.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve en fuldautomatisk maskine', 'Espresso og sort kaffe' ],
 			'less'    => [ 'Dig, der vil have mange mælkedrikke' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fuldautomatisk maskine i luksusklassen, hvor du kan tilpasse dine kaffedrikke.',
 			'why'     => <<<'HTML'
-<p>Nivona er et tysk mærke med fokus på fuldautomatiske espressomaskiner. Butikken beskriver CafeRomatica 779 som en maskine i luksusklassen med fokus på at lade dig personliggøre din kaffe, og nævner espresso, cappuccino og americano blandt de mange kaffedrikke.</p>
-<p>Den er et godt valg, hvis flere i husstanden drikker kaffe på hver sin måde. Valget er vores vurdering.</p>
+<p>Nivona er et tysk mærke med fokus på fuldautomatiske espressomaskiner. CafeRomatica 779 er en maskine i luksusklassen, hvor du selv bestemmer, hvordan kaffen skal smage – fra espresso og cappuccino til americano.</p>
+<p>Den er et godt valg, hvis flere i husstanden drikker kaffe på hver sin måde.</p>
 HTML,
 			'good'    => [ 'Husstande med forskellige kaffevaner', 'Mælkedrikke' ],
 			'less'    => [ 'Dig, der bare vil have én slags kaffe' ],
@@ -64,8 +64,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fuldautomatisk maskine i Smegs design, der maler bønnerne og brygger med ét tryk – med mælkesystem.',
 			'why'     => <<<'HTML'
-<p>Smeg BCC13 maler friske kaffebønner og brygger kaffen med et enkelt tryk på en knap, oplyser butikken, og maskinen har et mælkesystem til cappuccino med blødt skum. Her i farven Storm Blue.</p>
-<p>Den er et oplagt valg, hvis maskinen også skal passe til andre Smeg-apparater i køkkenet. Valget er vores vurdering.</p>
+<p>Smeg BCC13 maler friske kaffebønner og brygger kaffen med et enkelt tryk på en knap, og maskinen har et mælkesystem til cappuccino med blødt skum. Her i farven Storm Blue.</p>
+<p>Den er et oplagt valg, hvis maskinen også skal passe til andre Smeg-apparater i køkkenet.</p>
 HTML,
 			'good'    => [ 'Dig, der lægger vægt på design', 'Cappuccino' ],
 			'less'    => [ 'Dig, der vil have mest maskine for pengene' ],

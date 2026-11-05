@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den klassiske tyske kokkekniv – alsidig, robust og med ergonomisk design.',
 			'why'     => <<<'HTML'
-<p>Wüsthof Classic er en af de mest kendte kokkeknive i verden. Butikken beskriver den som en alsidig kniv i rustfrit stål af højeste kvalitet med et ergonomisk design.</p>
-<p>Som de fleste tyske knive har den et lidt tykkere og tungere blad end japanske knive. Det gør den robust og god til alt fra grøntsager til at skære gennem kyllingeben. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Wüsthof Classic er en af de mest kendte kokkeknive i verden. Den er en alsidig kniv i rustfrit stål af højeste kvalitet med et ergonomisk design.</p>
+<p>Som de fleste tyske knive har den et lidt tykkere og tungere blad end japanske knive. Det gør den robust og god til alt fra grøntsager til at skære gennem kyllingeben.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have én kniv til alt', 'Dig, der bruger kniven hårdt' ],
 			'less'    => [ 'Dig, der vil have en meget let kniv' ],
@@ -34,10 +34,10 @@ HTML,
 			'name'    => 'MAC Chef universalkniv 21 cm',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Japansk kokkekniv fra Sakai, der ifølge butikken holder godt på skarpheden – til en fornuftig pris.',
+			'verdict' => 'Japansk kokkekniv fra Sakai, der holder godt på skarpheden – til en fornuftig pris.',
 			'why'     => <<<'HTML'
-<p>MAC er et japansk knivmærke, og Chef-serien er deres prisvenlige serie. Butikken oplyser, at kniven smedes i byen Sakai, holder godt på sin skarphed og har et behageligt skaft i lamineret birk. Bladlængden gør den god til stort set alle opgaver i køkkenet.</p>
-<p>En japansk kniv er typisk tyndere og skarpere end en europæisk. Det gør den præcis, men du skal passe lidt mere på æggen. Valget er vores vurdering.</p>
+<p>MAC er et japansk knivmærke, og Chef-serien er deres prisvenlige serie. Kniven smedes i byen Sakai, holder godt på sin skarphed og har et behageligt skaft i lamineret birk. Bladlængden gør den god til stort set alle opgaver i køkkenet.</p>
+<p>En japansk kniv er typisk tyndere og skarpere end en europæisk. Det gør den præcis, men du skal passe lidt mere på æggen.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve en japansk kniv', 'Præcist arbejde med grøntsager' ],
 			'less'    => [ 'Hårdt arbejde som at hugge gennem ben' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Global-kniv i ét stykke stål med granton-skær, så råvarerne slipper bladet.',
 			'why'     => <<<'HTML'
-<p>Global er kendt for knive i ét stykke stål med det prikkede skaft. Butikken oplyser, at NI-kokkekniven er i orientalsk stil og har et granton-skær – små fordybninger i bladet, der gør, at råvarerne nemt slipper bladet – og at den som alle Global-knive er lavet af Cromova-stål.</p>
-<p>Kniven er let og nem at holde ren, fordi der ikke er nogen samling mellem blad og skaft. Valget er vores vurdering.</p>
+<p>Global er kendt for knive i ét stykke stål med det prikkede skaft. NI-kokkekniven er i orientalsk stil og har et granton-skær – små fordybninger i bladet, der gør, at råvarerne nemt slipper bladet –, og den som alle Global-knive er lavet af Cromova-stål.</p>
+<p>Kniven er let og nem at holde ren, fordi der ikke er nogen samling mellem blad og skaft.</p>
 HTML,
 			'good'    => [ 'Kartofler og andet, der klæber til bladet', 'Dig, der kan lide en let kniv' ],
 			'less'    => [ 'Dig, der foretrækker et skaft i træ' ],
@@ -64,8 +64,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Japansk luksuskniv fra Kai, til dig der vil have en kniv, der også er smuk.',
 			'why'     => <<<'HTML'
-<p>Kai Shun er japanske knive i den dyre ende. Butikken oplyser, at kokkekniven fås i to størrelser, og at den store på 20 cm er velegnet til de fleste opgaver i køkkenet, mens den mindre på 15,5 cm passer til mindre grøntsager.</p>
-<p>Shun Premier er kendt for det hamrede blad og skaftet i træ. Den er en kniv, du køber for at have i mange år. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Kai Shun er japanske knive i den dyre ende. Kokkekniven fås i to størrelser, og den store på 20 cm er velegnet til de fleste opgaver i køkkenet, mens den mindre på 15,5 cm passer til mindre grøntsager.</p>
+<p>Shun Premier er kendt for det hamrede blad og skaftet i træ. Den er en kniv, du køber for at have i mange år.</p>
 HTML,
 			'good'    => [ 'Gaver', 'Dig, der vil have en kniv for livet' ],
 			'less'    => [ 'Dig, der vil smide kniven i opvaskemaskinen' ],
@@ -78,8 +78,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kokkekniv fra Victorinox med ekstra bredt blad – sikker at hakke med og til både kød og grøntsager.',
 			'why'     => <<<'HTML'
-<p>Victorinox er mest kendt for lommeknive, men laver også køkkenknive, der bruges i mange professionelle køkkener. Butikken oplyser, at Swiss Modern-kokkekniven har et ekstra bredt blad på 20 cm, der er velegnet til både kød og grøntsager, og som gør, at du roligt og sikkert kan hakke.</p>
-<p>Den er et godt valg til en hverdagskniv, der ikke skal behandles som et klenodie. Valget er vores vurdering.</p>
+<p>Victorinox er mest kendt for lommeknive, men laver også køkkenknive, der bruges i mange professionelle køkkener. Swiss Modern-kokkekniven har et ekstra bredt blad på 20 cm, der er velegnet til både kød og grøntsager, og som gør, at du roligt og sikkert kan hakke.</p>
+<p>Den er et godt valg til en hverdagskniv, der ikke skal behandles som et klenodie.</p>
 HTML,
 			'good'    => [ 'Hverdagsbrug', 'Begyndere' ],
 			'less'    => [ 'Dig, der vil have en luksuskniv' ],

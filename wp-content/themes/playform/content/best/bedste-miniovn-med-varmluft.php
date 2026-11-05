@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Miniovn med 10 funktioner, inklusive airfryer, styret af Sages Element iQ-system.',
 			'why'     => <<<'HTML'
-<p>Sage The Smart Oven Air Fry (SOV860) er den mest avancerede miniovn i vores udvalg. Butikken oplyser, at den har 10 madlavningsfunktioner, heriblandt en airfryer-funktion, der styres af Sages Element iQ-system, så du kan lave sprøde nuggets og pommes frites i ovnen.</p>
-<p>En airfryer-funktion virker ved at blæse varm luft kraftigt rundt om maden – det er varmluft skruet helt op. Så får du både en miniovn og en airfryer i ét apparat. Prisen er høj, men den erstatter to maskiner på køkkenbordet. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Sage The Smart Oven Air Fry (SOV860) er den mest avancerede miniovn i vores udvalg. Den har 10 madlavningsfunktioner, heriblandt en airfryer-funktion, der styres af Sages Element iQ-system, så du kan lave sprøde nuggets og pommes frites i ovnen.</p>
+<p>En airfryer-funktion virker ved at blæse varm luft kraftigt rundt om maden – det er varmluft skruet helt op. Så får du både en miniovn og en airfryer i ét apparat. Prisen er høj, men den erstatter to maskiner på køkkenbordet.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have både miniovn og airfryer', 'Små køkkener, hvor der kun er plads til ét apparat' ],
 			'less'    => [ 'Dig, der skal bage store fade og hele kyllinger' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stor miniovn på 60 liter med varmluft, over-/undervarme og roterende grillspyd.',
 			'why'     => <<<'HTML'
-<p>Severins 60-liters miniovn er næsten en rigtig ovn i størrelse. Butikken oplyser, at den har varmluft, over- og undervarme og roterende spyd, at temperaturen kan stilles mellem 100 og 230 °C, og at timeren går op til 120 minutter.</p>
-<p>Med 60 liter er der plads til store fade, og det grillspyd gør den til et godt valg til en hel kylling. Den fylder til gengæld meget på køkkenbordet, så mål pladsen først. Valget er vores vurdering.</p>
+<p>Severins 60-liters miniovn er næsten en rigtig ovn i størrelse. Den har varmluft, over- og undervarme og roterende spyd, at temperaturen kan stilles mellem 100 og 230 °C, og timeren går op til 120 minutter.</p>
+<p>Med 60 liter er der plads til store fade, og det grillspyd gør den til et godt valg til en hel kylling. Den fylder til gengæld meget på køkkenbordet, så mål pladsen først.</p>
 HTML,
 			'good'    => [ 'Sommerhuset og som ekstra ovn', 'Store familier og hele kyllinger' ],
 			'less'    => [ 'Små køkkener med lidt bordplads' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'XXL-bordovn på 46 liter med varmluft og roterende grillspyd til en fornuftig pris.',
 			'why'     => <<<'HTML'
-<p>Severin Bordovn 46 liter er et godt kompromis mellem størrelse og pris. Butikken beskriver den som et pladsbesparende alternativ til en traditionel ovn med et ovnrum på 46 liter, varmluft og roterende grillspyd.</p>
-<p>Den er stor nok til en almindelig hverdagsret og en pizza, men tager mindre plads end 60-liters modellen. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Severin Bordovn 46 liter er et godt kompromis mellem størrelse og pris. Den er et pladsbesparende alternativ til en traditionel ovn med et ovnrum på 46 liter, varmluft og roterende grillspyd.</p>
+<p>Den er stor nok til en almindelig hverdagsret og en pizza, men tager mindre plads end 60-liters modellen.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en stor miniovn uden at give meget', 'Hverdagsretter og pizza' ],
 			'less'    => [ 'Dig, der vil have airfryer-funktion' ],

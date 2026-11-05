@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den store, klassiske pastatallerken i hvidt – 30 cm til spaghetti, fettuccine og risotto.',
 			'why'     => <<<'HTML'
-<p>Villeroy &amp; Boch Royal er den mest klassiske af vores valg. Butikken oplyser, at tallerkenen er 30 cm i diameter og ideel til retter som spaghetti carbonara og fettuccine alfredo. Med den størrelse får du den brede kant, der kendetegner en rigtig italiensk pastatallerken.</p>
-<p>Hvid porcelæn passer til alt andet service, og det er nemt at købe flere senere. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Villeroy &amp; Boch Royal er den mest klassiske af vores valg. Tallerkenen er 30 cm i diameter og ideel til retter som spaghetti carbonara og fettuccine alfredo. Med den størrelse får du den brede kant, der kendetegner en rigtig italiensk pastatallerken.</p>
+<p>Hvid porcelæn passer til alt andet service, og det er nemt at købe flere senere.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have den klassiske restaurantstil', 'Store portioner' ],
 			'less'    => [ 'Små skabe og opvaskemaskiner med lidt plads' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fransk porcelæn med rillet kant og en dyb form, der også egner sig til supper og salater.',
 			'why'     => <<<'HTML'
-<p>Pillivuyt Plissé er fransk porcelæn med de karakteristiske riller i kanten. Butikken skriver, at tallerkenen takket være den dybe form også er ideel til supper og salater, og at designet er traditionelt, enkelt og elegant.</p>
-<p>Plissé-serien er stor, så du kan supplere med flade tallerkener, skåle og fade i samme stil. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Pillivuyt Plissé er fransk porcelæn med de karakteristiske riller i kanten. Tallerkenen takket være den dybe form også er ideel til supper og salater, og designet er traditionelt, enkelt og elegant.</p>
+<p>Plissé-serien er stor, så du kan supplere med flade tallerkener, skåle og fade i samme stil.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have én dyb tallerken til pasta, suppe og salat', 'Klassisk borddækning' ],
 			'less'    => [ 'Dig, der vil have farver' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Håndlavet keramik fra engelske Denby med en glasur, hvor hver tallerken ser lidt forskellig ud.',
 			'why'     => <<<'HTML'
-<p>Vil du have noget mere rustikt end hvid porcelæn, er Denby Halo Speckle et godt bud. Butikken oplyser, at tallerkenen er håndlavet keramik fra engelske Denby af lokalt ler, og at glasuren giver spændende detaljer.</p>
-<p>Med 22 cm er den mindre end en klassisk italiensk pastatallerken og mere en dyb pastaskål. Det gør den god til hverdagsportioner og nemmere at have i skabet. Valget er vores vurdering.</p>
+<p>Vil du have noget mere rustikt end hvid porcelæn, er Denby Halo Speckle et godt bud. Tallerkenen er håndlavet keramik fra engelske Denby af lokalt ler, og glasuren giver spændende detaljer.</p>
+<p>Med 22 cm er den mindre end en klassisk italiensk pastatallerken og mere en dyb pastaskål. Det gør den god til hverdagsportioner og nemmere at have i skabet.</p>
 HTML,
 			'good'    => [ 'Dig, der kan lide stentøj og glasur med liv', 'Hverdagsportioner' ],
 			'less'    => [ 'Dig, der vil have den brede italienske kant' ],
@@ -64,8 +64,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Billig pastatallerken med farve – her i olivengrøn – fra danske Aida.',
 			'why'     => <<<'HTML'
-<p>Aida Confetti er det billige valg med farve. Butikken beskriver den olivengrønne pastatallerken som en afdæmpet nuance, der passer til både rustikke retter og hverdagens enkle måltider. Serien findes i flere farver.</p>
-<p>Til prisen er det let at købe et helt sæt – eller at blande farverne. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Aida Confetti er det billige valg med farve. Den olivengrønne pastatallerken er en afdæmpet nuance, der passer til både rustikke retter og hverdagens enkle måltider. Serien findes i flere farver.</p>
+<p>Til prisen er det let at købe et helt sæt – eller at blande farverne.</p>
 HTML,
 			'good'    => [ 'Dig, der skal bruge mange tallerkener', 'Farverig borddækning' ],
 			'less'    => [ 'Dig, der vil have en stor tallerken med bred kant' ],

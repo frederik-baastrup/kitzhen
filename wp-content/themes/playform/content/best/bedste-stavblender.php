@@ -20,9 +20,9 @@ HTML,
 			'name'    => 'Braun MQ9195XLI',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Braun-stavblender med ActiveBlade-teknologi, der ifølge butikken giver op til 60 % hurtigere ydeevne.',
+			'verdict' => 'Braun-stavblender med ActiveBlade-teknologi, der giver op til 60 % hurtigere ydeevne.',
 			'why'     => <<<'HTML'
-<p>Braun er et af de største mærker inden for stavblendere. Butikken oplyser, at MQ9195XLI har ActiveBlade-teknologi, der giver op til 60 % hurtigere ydeevne og et finere resultat, og at du kan vælge mellem forskellige hastigheder. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Braun er et af de største mærker inden for stavblendere. MQ9195XLI har ActiveBlade-teknologi, der giver op til 60 % hurtigere ydeevne og et finere resultat, og du kan vælge mellem forskellige hastigheder.</p>
 HTML,
 			'good'    => [ 'Suppe, smoothies og mos', 'Dig, der bruger stavblenderen hver dag' ],
 			'less'    => [ 'Små budgetter' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den schweiziske klassiker med AC-motor – til alt fra suppe til luftig flødeskum.',
 			'why'     => <<<'HTML'
-<p>Bamix er en schweizisk klassiker, der bruges i mange professionelle køkkener. Butikken beskriver Classic som en pålidelig og kraftfuld stavblender med en 140 W AC-motor, der klarer alt fra supper til luftig flødeskum. Watt-tallet ser lavt ud, men Bamix er kendt for at holde i mange år. Valget er vores vurdering.</p>
+<p>Bamix er en schweizisk klassiker, der bruges i mange professionelle køkkener. Classic er en pålidelig og kraftfuld stavblender med en 140 W AC-motor, der klarer alt fra supper til luftig flødeskum. Watt-tallet ser lavt ud, men Bamix er kendt for at holde i mange år.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en stavblender for livet', 'Flødeskum og saucer' ],
 			'less'    => [ 'Dig, der vil have mange tilbehørsdele' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Trådløs stavblender med kraftig og støjsvag BLDC-motor – uden ledning i vejen.',
 			'why'     => <<<'HTML'
-<p>Zwilling XTEND kører på batteri. Butikken oplyser, at den kraftige BLDC-motor giver høj ydeevne med jævn hastighed og støjsvag drift, og at den er ideel til smoothies, supper og puréer. Uden ledning kan du blende ved komfuret uden at lede efter en stikkontakt. Batteriet sælges i en startpakke – tjek, hvad der følger med. Valget er vores vurdering.</p>
+<p>Zwilling XTEND kører på batteri. Den kraftige BLDC-motor giver høj ydeevne med jævn hastighed og støjsvag drift, og den er ideel til smoothies, supper og puréer. Uden ledning kan du blende ved komfuret uden at lede efter en stikkontakt. Batteriet sælges i en startpakke – tjek, hvad der følger med.</p>
 HTML,
 			'good'    => [ 'Køkkener med få stikkontakter', 'Dig, der har andre XTEND-produkter' ],
 			'less'    => [ 'Lange opgaver som store mængder mos' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stavblender på 1000 W med to hastigheder og turbofunktion.',
 			'why'     => <<<'HTML'
-<p>Braun MQ55 har ifølge butikken en motor på 1000 watt og to hastighedsindstillinger, herunder en turbofunktion, og klarer alt fra bløde puréer til hårdere ingredienser. Den er et godt valg til en hverdagsstavblender til en lav pris. Valget er vores vurdering.</p>
+<p>Braun MQ55 har en motor på 1000 watt og to hastighedsindstillinger, herunder en turbofunktion, og klarer alt fra bløde puréer til hårdere ingredienser. Den er et godt valg til en hverdagsstavblender til en lav pris.</p>
 HTML,
 			'good'    => [ 'Suppe og mos', 'Lavt budget' ],
 			'less'    => [ 'Dig, der vil have mange hastigheder' ],

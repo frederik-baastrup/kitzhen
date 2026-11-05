@@ -11,7 +11,7 @@ return [
 	'excerpt'  => 'En kedel til induktion skal have en magnetisk bund, der passer til kogezonen. Her er vores bud på de 3 bedste fra danske butikker – og hvad du skal tjekke, før du køber.',
 	'more_cat' => 'kedel',
 	'intro'    => <<<'HTML'
-<p>Har du induktionskomfur, kan du koge vand i en almindelig kedel på komfuret – men kun hvis bunden er magnetisk. Induktion virker ved at sætte gang i et magnetfelt, der varmer selve bunden op, så en kedel i ren aluminium, glas eller kobber bliver aldrig varm. Det første, du skal tjekke, er derfor ikke designet, men om producenten skriver, at kedlen kan bruges på induktion.</p>
+<p>Har du induktionskomfur, kan du koge vand i en almindelig kedel på komfuret – men kun hvis bunden er magnetisk. Induktion virker ved at sætte gang i et magnetfelt, der varmer selve bunden op, så en kedel i ren aluminium, glas eller kobber bliver aldrig varm. Det første, du skal tjekke, er derfor ikke designet, men om Kedlen kan bruges på induktion.</p>
 <p>Herunder er vores bud på de 3 bedste kedler til induktion hos danske butikker lige nu: en designklassiker, en retro-kedel med stor kapacitet og et billigt, enkelt valg. Nederst finder du en købsguide til bund, størrelse, fløjte og håndtag.</p>
 HTML,
 	'picks'    => [
@@ -25,8 +25,8 @@ HTML,
 			],
 			'verdict' => 'Designklassikeren med fuglefløjten – i rustfrit stål med magnetisk bund, så den virker på induktion.',
 			'why'     => <<<'HTML'
-<p>Alessis kedel med den lille fugl på tuden er tegnet af Michael Graves og har været en bestseller i årtier. Ifølge butikken er den lavet i blankpoleret rustfrit stål og har en magnetisk bund, så den kan bruges på alle typer komfurer, også induktion.</p>
-<p>The Telegraph har haft netop denne model med i en sammenligning af kedler. Her blev den roset for at være solid og holdbar, men de testede den på gas, og der tog det lang tid at få en fuld kedel i kog – over ti minutter. Det er værd at vide: du køber den for designet og holdbarheden, ikke fordi den er den hurtigste. På induktion er opvarmningen typisk hurtigere end på gas, men vi har ikke fundet en anmeldelse, der har målt det på netop denne kedel.</p>
+<p>Alessis kedel med den lille fugl på tuden er tegnet af Michael Graves og har været en bestseller i årtier. Er den lavet i blankpoleret rustfrit stål og har en magnetisk bund, så den kan bruges på alle typer komfurer, også induktion.</p>
+<p>The Telegraph har haft netop denne model med i en sammenligning af kedler. Her blev den roset for at være solid og holdbar, men de testede den på gas, og der tog det lang tid at få en fuld kedel i kog – over ti minutter. Det er værd at vide: du køber den for designet og holdbarheden, ikke fordi den er den hurtigste.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en kedel, der også er pynt på komfuret', 'Dig, der vil have en kedel, der holder i mange år', 'Gaver' ],
 			'less'    => [ 'Dig, der vil have vand i kog så hurtigt som muligt', 'Dig med et lille budget' ],
@@ -39,8 +39,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Retro-kedel på 2,3 liter med fløjte – Smeg skriver selv, at den passer til alle typer kogeplader, også induktion.',
 			'why'     => <<<'HTML'
-<p>Smegs fløjtekedel har det 50'er-inspirerede design, mange kender fra mærkets køleskabe og elkedler. Butikken beskriver den som robust og funktionel, og med 2,3 liter er den den største af vores tre valg – nok til en hel kande te eller kaffe til flere personer.</p>
-<p>Smeg oplyser på sin egen side, at kedlen er i rustfrit stål og kan bruges på alle typer kogeplader: induktion, gas, keramisk og elektrisk. Vi har ikke fundet en uafhængig anmeldelse af netop denne model, så valget er vores vurdering ud fra producentens oplysninger og prisen.</p>
+<p>Smegs fløjtekedel har det 50'er-inspirerede design, mange kender fra mærkets køleskabe og elkedler. Den er robust og funktionel, og med 2,3 liter er den den største af vores tre valg – nok til en hel kande te eller kaffe til flere personer.</p>
+<p>Smeg oplyser på sin egen side, at kedlen er i rustfrit stål og kan bruges på alle typer kogeplader: induktion, gas, keramisk og elektrisk.</p>
 HTML,
 			'good'    => [ 'Familier og dig, der laver te til flere ad gangen', 'Dig, der har andre Smeg-ting i køkkenet' ],
 			'less'    => [ 'Dig, der kun skal bruge vand til en enkelt kop' ],
@@ -53,8 +53,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Enkel 2-liters kedel i rustfrit stål med fløjte til en brøkdel af prisen på designkedlerne.',
 			'why'     => <<<'HTML'
-<p>Mareld er det billige og enkle valg. Kedlen tager 2 liter, er lavet af rustfrit stål og har fløjte, så du kan høre, når vandet koger. Butikken skriver, at den kan bruges på induktion – og at vand på induktion ofte koger hurtigere end i en elkedel – men også på andre varmekilder som halogen og gas.</p>
-<p>Til prisen skal du ikke forvente samme finish eller tykkelse i stålet som hos Alessi og Smeg. Men skal du bare have en kedel, der virker på din nye induktionsplade, er det svært at finde et billigere sted at starte. Valget er vores vurdering; vi har ikke fundet uafhængige anmeldelser.</p>
+<p>Mareld er det billige og enkle valg. Kedlen tager 2 liter, er lavet af rustfrit stål og har fløjte, så du kan høre, når vandet koger. Den kan bruges på induktion –, og vand på induktion ofte koger hurtigere end i en elkedel – men også på andre varmekilder som halogen og gas.</p>
+<p>Til prisen skal du ikke forvente samme finish eller tykkelse i stålet som hos Alessi og Smeg. Men skal du bare have en kedel, der virker på din nye induktionsplade, er det svært at finde et billigere sted at starte.</p>
 HTML,
 			'good'    => [ 'Dig, der lige har fået induktion og skal bruge en kedel, der virker', 'Sommerhuset eller som ekstra kedel' ],
 			'less'    => [ 'Dig, der vil have en kedel, der også er et designobjekt' ],

@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kraftfuld slow juicer i stilfuldt design fra tyske Caso.',
 			'why'     => <<<'HTML'
-<p>Caso SJW 600 XL beskrives af butikken som en kraftfuld slow juicer, der er designet til at levere førsteklasses juice til enhver lejlighed, i et stilfuldt og moderne design. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Caso SJW 600 XL er en kraftfuld slow juicer, der er designet til at levere førsteklasses juice til enhver lejlighed, i et stilfuldt og moderne design.</p>
 HTML,
 			'good'    => [ 'Grøn juice', 'Juice hver dag' ],
 			'less'    => [ 'Små budgetter' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Slow juicer-tilbehør til KitchenAid-røremaskinen – til æbler, citrus og gulerødder.',
 			'why'     => <<<'HTML'
-<p>Med SM1JA kan du lave slow juice på din KitchenAid-røremaskine. Butikken nævner æbler, citrusfrugter og gulerødder og skriver, at kun fantasien sætter grænser. Har du maskinen, sparer du plads på køkkenbordet. Valget er vores vurdering.</p>
+<p>Med SM1JA kan du lave slow juice på din KitchenAid-røremaskine. Æbler, citrusfrugter og gulerødder – kun fantasien sætter grænser. Har du maskinen, sparer du plads på køkkenbordet.</p>
 HTML,
 			'good'    => [ 'Dig med en KitchenAid-røremaskine' ],
 			'less'    => [ 'Dig uden KitchenAid' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Slow juicer i rustfrit stål og slankt design til en lav pris.',
 			'why'     => <<<'HTML'
-<p>Severins slow juicer er ifølge butikken i rustfrit stål og har et slankt design kombineret med flere funktioner. Den er et godt sted at starte, hvis du vil prøve koldpresset juice. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Severins slow juicer er i rustfrit stål og har et slankt design kombineret med flere funktioner. Den er et godt sted at starte, hvis du vil prøve koldpresset juice.</p>
 HTML,
 			'good'    => [ 'Begyndere', 'Små køkkener' ],
 			'less'    => [ 'Store mængder' ],

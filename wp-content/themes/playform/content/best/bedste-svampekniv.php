@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den klassiske franske foldekniv som svampekniv med børste og hylster.',
 			'why'     => <<<'HTML'
-<p>Opinel er en klassisk fransk foldekniv. Butikken oplyser, at svampekniven har en børste på enden af skaftet, så du kan rense svampene med det samme, og et skarpt og holdbart blad. Den leveres med hylster til bæltet. Valget er vores vurdering.</p>
+<p>Opinel er en klassisk fransk foldekniv. Svampekniven har en børste på enden af skaftet, så du kan rense svampene med det samme, og et skarpt og holdbart blad. Den leveres med hylster til bæltet.</p>
 HTML,
 			'good'    => [ 'Svampejægere', 'Gaver' ],
 			'less'    => [ 'Børn – bladet er spidst' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Svampekniv uden spids med børste af ægte hestehår og klinge af genbrugt stål.',
 			'why'     => <<<'HTML'
-<p>Moraknivs Karl-Johan-kniv har ifølge butikken en speciel form uden spids og en børste af ægte hestehår, så du kan plukke, skære og rense svampene på stedet. Den er lille nok til lommen. Uden spids er den mere sikker at have med. Valget er vores vurdering.</p>
+<p>Moraknivs Karl-Johan-kniv har en speciel form uden spids og en børste af ægte hestehår, så du kan plukke, skære og rense svampene på stedet. Den er lille nok til lommen. Uden spids er den mere sikker at have med.</p>
 HTML,
 			'good'    => [ 'Familieture i skoven', 'Lommen' ],
 			'less'    => [ 'Andet arbejde end svampe' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Foldbar svampekniv fra finske Muurikka med træskaft og børste.',
 			'why'     => <<<'HTML'
-<p>Muurikkas svampekniv er ifølge butikken foldbar, har en børste af svinebørster til at rense svampene, et blad i rustfrit stål og et greb i træ, og den leveres med etui. Valget er vores vurdering ud fra pris.</p>
+<p>Muurikkas svampekniv er foldbar, har en børste af svinebørster til at rense svampene, et blad i rustfrit stål og et greb i træ, og den leveres med etui.</p>
 HTML,
 			'good'    => [ 'Lavt budget', 'Ekstra kniv i kurven' ],
 			'less'    => [ 'Dig, der vil have et kendt mærke' ],

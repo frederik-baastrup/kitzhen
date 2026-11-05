@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stort og tykt skærebræt i bambus på 50 x 38 x 3,8 cm med saftrille på den ene side.',
 			'why'     => <<<'HTML'
-<p>Satakes skærebræt er stort og kraftigt. Butikken oplyser, at det måler 50 x 38 x 3,8 cm og kan bruges på begge sider – den ene side har en saftrille, der samler saft fra kød og andre råvarer.</p>
-<p>Størrelsen giver plads til at skære en hel kylling eller en steg ud, og tykkelsen gør, at brættet ligger stabilt. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Satakes skærebræt er stort og kraftigt. Det måler 50 x 38 x 3,8 cm og kan bruges på begge sider – den ene side har en saftrille, der samler saft fra kød og andre råvarer.</p>
+<p>Størrelsen giver plads til at skære en hel kylling eller en steg ud, og tykkelsen gør, at brættet ligger stabilt.</p>
 HTML,
 			'good'    => [ 'Kød og store mængder grøntsager', 'Dig, der har god plads' ],
 			'less'    => [ 'Små køkkener og opvaskemaskinen' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Skridsikkert skærebræt i bambus med silikonekant, silikonefødder og saftrille.',
 			'why'     => <<<'HTML'
-<p>Eva Solos skærebræt fra Green Tool-serien er lavet til, at det ikke glider. Butikken oplyser, at det har en silikonekant og små silikonefødder under, så det står stabilt, og en praktisk saftrille.</p>
-<p>Et bræt, der ikke glider, er både mere sikkert og mere behageligt at skære på. Valget er vores vurdering.</p>
+<p>Eva Solos skærebræt fra Green Tool-serien er lavet til, at det ikke glider. Det har en silikonekant og små silikonefødder under, så det står stabilt, og en praktisk saftrille.</p>
+<p>Et bræt, der ikke glider, er både mere sikkert og mere behageligt at skære på.</p>
 HTML,
 			'good'    => [ 'Dig, der er træt af brætter, der glider', 'Hverdagsbrug' ],
 			'less'    => [ 'Servering' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Bambusbræt med vinklet skæreflade, der samler saft og krummer.',
 			'why'     => <<<'HTML'
-<p>Joseph Joseph Cut &amp; Carve er lavet i slidstærkt bambus. Butikken fremhæver den vinklede skæreflade, der hjælper med at samle væske og brødkrummer, så de ikke ender på køkkenbordet.</p>
-<p>Det gør brættet særligt godt til at skære steg og kylling ud. Valget er vores vurdering.</p>
+<p>Joseph Joseph Cut &amp; Carve er lavet i slidstærkt bambus. Den vinklede skæreflade samler væske og brødkrummer, så de ikke ender på køkkenbordet.</p>
+<p>Det gør brættet særligt godt til at skære steg og kylling ud.</p>
 HTML,
 			'good'    => [ 'Steg og kylling', 'Brød' ],
 			'less'    => [ 'Dig, der vil bruge begge sider' ],
@@ -64,8 +64,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Skærebræt i 100 % bambus med skakternet mønster – også pænt til ost og tapas.',
 			'why'     => <<<'HTML'
-<p>Dorre Kombo har et skakternet mønster, der gør brættet egnet til både madlavning og servering. Butikken oplyser, at det er lavet af 100 % bambus, og nævner ost, charcuteri, snacks og tapas som oplagte ting at servere på det.</p>
-<p>Valget er vores vurdering ud fra butikkens oplysninger og prisen.</p>
+<p>Dorre Kombo har et skakternet mønster, der gør brættet egnet til både madlavning og servering. Det er lavet af 100 % bambus og oplagt til ost, charcuteri, snacks og tapas.</p>
 HTML,
 			'good'    => [ 'Ost, tapas og charcuteri', 'Gaver' ],
 			'less'    => [ 'Meget saftigt kød' ],

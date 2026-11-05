@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Komplet osteknivsæt i 18/10 rustfrit stål med 25 års garanti fra Robert Welch.',
 			'why'     => <<<'HTML'
-<p>Robert Welch er et britisk designmærke kendt for bestik. Butikken oplyser, at Radford-sættet indeholder alt, hvad du skal bruge til et ostebord, at knivene er i 18/10 rustfrit stål, og at Robert Welch giver 25 års garanti på bestikket.</p>
-<p>Fem dele dækker alle typer ost, og garantien siger noget om, hvor længe sættet er bygget til at holde. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Robert Welch er et britisk designmærke kendt for bestik. Radford-sættet indeholder alt, hvad du skal bruge til et ostebord, at knivene er i 18/10 rustfrit stål, og robert Welch giver 25 års garanti på bestikket.</p>
+<p>Fem dele dækker alle typer ost, og garantien siger noget om, hvor længe sættet er bygget til at holde.</p>
 HTML,
 			'good'    => [ 'Gaver', 'Dig, der ofte har ostebord' ],
 			'less'    => [ 'Små budgetter' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Tre osteknive i Laguiole-stil til hårde, bløde og smørbare oste – leveres i gaveæske.',
 			'why'     => <<<'HTML'
-<p>Hâws' ostesæt i Laguiole-stil indeholder ifølge butikken tre forskellige osteknive, der dækker både hårde, bløde og smørbare oste, og leveres i gaveæske – perfekt til oste- eller tapasbordet.</p>
-<p>Til prisen er det et godt sæt at give væk eller have i skuffen til julefrokosten. Valget er vores vurdering.</p>
+<p>Hâws' ostesæt i Laguiole-stil indeholder tre forskellige osteknive, der dækker både hårde, bløde og smørbare oste, og leveres i gaveæske – perfekt til oste- eller tapasbordet.</p>
+<p>Til prisen er det et godt sæt at give væk eller have i skuffen til julefrokosten.</p>
 HTML,
 			'good'    => [ 'Gaver', 'Tapas og ostebord' ],
 			'less'    => [ 'Dig, der vil have et sæt til mange år' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Ostesæt med perforeret kniv og ostekniv med delt spids, designet af Per Finne.',
 			'why'     => <<<'HTML'
-<p>Hardanger Bestikk er en norsk producent. Butikken oplyser, at sættet består af en perforeret kniv og en glat ostekniv med bøjet og delt spids, og at det er designet af Per Finne.</p>
-<p>To knive er nok til de fleste oste: den perforerede til bløde oste og den med delt spids, der også kan bruges til at tage osten op med. Valget er vores vurdering.</p>
+<p>Hardanger Bestikk er en norsk producent. Sættet består af en perforeret kniv og en glat ostekniv med bøjet og delt spids, og det er designet af Per Finne.</p>
+<p>To knive er nok til de fleste oste: den perforerede til bløde oste og den med delt spids, der også kan bruges til at tage osten op med.</p>
 HTML,
 			'good'    => [ 'Skandinavisk borddækning', 'Dig, der vil have få, gode knive' ],
 			'less'    => [ 'Smøreoste' ],

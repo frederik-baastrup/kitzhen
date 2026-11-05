@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Wok med keramisk titanium-belægning, der passer til alle varmekilder og tåler 260 °C i ovnen.',
 			'why'     => <<<'HTML'
-<p>Scanpan CTX-wokken har ifølge butikken en diameter på 32 cm, passer til alle varmekilder og tåler op til 260 °C i ovnen. Overfladen er en robust keramisk titanium-belægning med non-stick, der tåler alle slags køkkenredskaber. Valget er vores vurdering.</p>
+<p>Scanpan CTX-wokken har en diameter på 32 cm, passer til alle varmekilder og tåler op til 260 °C i ovnen. Overfladen er en robust keramisk titanium-belægning med non-stick, der tåler alle slags køkkenredskaber.</p>
 HTML,
 			'good'    => [ 'Induktion', 'Dig, der vil have slip-let' ],
 			'less'    => [ 'Meget høj varme på gas' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Wok i støbejern, der holder varmen længe og kan bruges på alle varmekilder.',
 			'why'     => <<<'HTML'
-<p>Satakes wok er i støbejern. Butikken fremhæver, at den holder den varme temperatur i lang tid, giver en jævn varmefordeling, kan bruges på alle varmekilder og har lang levetid. Den er tung, men varmen falder ikke, når du kommer koldt kød i. Valget er vores vurdering.</p>
+<p>Satakes wok er i støbejern. Den holder den varme temperatur i lang tid, giver en jævn varmefordeling, kan bruges på alle varmekilder og har lang levetid. Den er tung, men varmen falder ikke, når du kommer koldt kød i.</p>
 HTML,
 			'good'    => [ 'Høj varme og stegeskorpe', 'Induktion' ],
 			'less'    => [ 'Dig, der vil ryste panden' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Wok i rustfrit stål med klassisk form og store, dybe sider.',
 			'why'     => <<<'HTML'
-<p>Eva Trio-wokken har ifølge butikken en klassisk form med stor overflade og dybe, buede sider, der gør den ideel til lynstegning af grøntsager og kød, og formen hjælper med at fordele varmen hurtigt og jævnt. Valget er vores vurdering.</p>
+<p>Eva Trio-wokken har en klassisk form med stor overflade og dybe, buede sider, der gør den ideel til lynstegning af grøntsager og kød, og formen hjælper med at fordele varmen hurtigt og jævnt.</p>
 HTML,
 			'good'    => [ 'Familier', 'Dig, der vil have en wok uden belægning' ],
 			'less'    => [ 'Æg og ris, der klistrer' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Wokpande med non-stick-belægning fra GreenPan.',
 			'why'     => <<<'HTML'
-<p>GreenPan Barcelona-wokpanden har ifølge butikken en non-stick-belægning, der gør det nemt at tilberede dine yndlingsretter. Den er et godt valg til hverdagens wokretter. Valget er vores vurdering ud fra pris.</p>
+<p>GreenPan Barcelona-wokpanden har en non-stick-belægning, der gør det nemt at tilberede dine yndlingsretter. Den er et godt valg til hverdagens wokretter.</p>
 HTML,
 			'good'    => [ 'Hverdagsmad', 'Lavt budget' ],
 			'less'    => [ 'Meget høj varme' ],

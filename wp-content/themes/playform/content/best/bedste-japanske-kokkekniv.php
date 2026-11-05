@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Klassisk Shun-kniv med blad i 32 lag rustfrit stål og en hård kerne af VG-MAX.',
 			'why'     => <<<'HTML'
-<p>Kai Shun Classic er en af de mest kendte japanske knivserier. Butikken oplyser, at bladet er fremstillet i 32 lag rustfrit stål med en hård stålkerne af VG-MAX, en videreudvikling af VG-10. Med 15 cm er den kort og let at styre. Valget er vores vurdering ud fra butikkens oplysninger og seriens ry.</p>
+<p>Kai Shun Classic er en af de mest kendte japanske knivserier. Bladet er fremstillet i 32 lag rustfrit stål med en hård stålkerne af VG-MAX, en videreudvikling af VG-10. Med 15 cm er den kort og let at styre.</p>
 HTML,
 			'good'    => [ 'Præcist arbejde med grønt og fisk', 'Mindre hænder' ],
 			'less'    => [ 'Store stykker kød og store grøntsager' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Lang gyuto fra Miyabi med enorm hårdhed og skarphed.',
 			'why'     => <<<'HTML'
-<p>Miyabi laver japanske knive i Seki. Butikken fremhæver, at 6000 MCT Gyutoh har en enorm hårdhed og skarphed, og at du mærker forskellen, når du skærer, hakker eller fileterer. Med 24 cm er den god til store grøntsager og kød. Valget er vores vurdering.</p>
+<p>Miyabi laver japanske knive i Seki. 6000 MCT Gyutoh har en enorm hårdhed og skarphed, og du mærker forskellen, når du skærer, hakker eller fileterer. Med 24 cm er den god til store grøntsager og kød.</p>
 HTML,
 			'good'    => [ 'Store grøntsager og kød', 'Erfarne brugere' ],
 			'less'    => [ 'Begyndere og små skærebrætter' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Gyuto fra Satakes Ame-serie med blad inspireret af regn.',
 			'why'     => <<<'HTML'
-<p>Ame betyder regn på japansk, og knivene i Satakes Ame-kollektion er dekoreret med inspiration fra kraftigt regnvejr, fortæller butikken. Gyutoen på 21 cm er en klassisk japansk kokkekniv i en god allround-længde. Valget er vores vurdering.</p>
+<p>Ame betyder regn på japansk, og knivene i Satakes Ame-kollektion er dekoreret med inspiration fra kraftigt regnvejr. Gyutoen på 21 cm er en klassisk japansk kokkekniv i en god allround-længde.</p>
 HTML,
 			'good'    => [ 'Allround-brug', 'Gaver' ],
 			'less'    => [ 'Dig, der vil have det mest kendte mærke' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Japansk kniv i højkulstofstål med et ultratyndt blad på 2 mm og hårdhed 58–59 HRC.',
 			'why'     => <<<'HTML'
-<p>MAC Black Fluorine er en japansk stålkniv i højkulstofstål med krom, molybdæn og vanadium. Butikken oplyser en hårdhed på 58–59 HRC, et ultratyndt blad på 2 mm, håndtag i pakkatræ og en fluorbelægning, der modvirker misfarvning. Til prisen er det en meget skarp kniv. Valget er vores vurdering.</p>
+<p>MAC Black Fluorine er en japansk stålkniv i højkulstofstål med krom, molybdæn og vanadium. Bladet har en hårdhed på 58–59 HRC og er kun 2 mm tyndt, håndtaget er i pakkatræ, og en fluorbelægning modvirker misfarvning. Til prisen er det en meget skarp kniv.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve en japansk kniv', 'Præcisionsskæring' ],
 			'less'    => [ 'Hårdt arbejde med ben og frosne varer' ],

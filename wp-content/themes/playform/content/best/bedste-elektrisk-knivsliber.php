@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Elektrisk knivsliber fra knivproducenten Wüsthof med tre trin: shape, sharpen og refine.',
 			'why'     => <<<'HTML'
-<p>Wüsthof er en af de store tyske knivproducenter, og Easyedge er deres elektriske knivsliber. Butikken oplyser, at den har tre forprogrammerede trin: shape til en beskadiget æg, sharpen, der gør kniven skarpere, og refine, der giver den sidste finish.</p>
-<p>Tre trin betyder, at du både kan redde en meget sløv kniv og holde en god kniv skarp. Den er dyr, men et godt valg, hvis du har gode knive, du vil passe på. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Wüsthof er en af de store tyske knivproducenter, og Easyedge er deres elektriske knivsliber. Den har tre forprogrammerede trin: shape til en beskadiget æg, sharpen, der gør kniven skarpere, og refine, der giver den sidste finish.</p>
+<p>Tre trin betyder, at du både kan redde en meget sløv kniv og holde en god kniv skarp. Den er dyr, men et godt valg, hvis du har gode knive, du vil passe på.</p>
 HTML,
 			'good'    => [ 'Dig med gode europæiske knive', 'Meget sløve eller beskadigede knive' ],
 			'less'    => [ 'Dig, der kun sliber en billig kniv en gang imellem' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Elektrisk knivsliber i tre trin til europæiske knive – til under det halve af Wüsthof.',
 			'why'     => <<<'HTML'
-<p>NODs elektriske knivsliber er lavet til europæiske knive. Butikken skriver, at du kan give en gammel, slidt kniv et nyt skær på få minutter, og at slibningen sker i tre trin, så du slipper for at gøre hele arbejdet manuelt.</p>
-<p>Den er et godt mellemvalg: tre trin som de dyre modeller, men til en lavere pris. Bemærk, at den er til europæiske knive – til japanske knive med en spidsere vinkel skal du vælge en anden løsning. Valget er vores vurdering.</p>
+<p>NODs elektriske knivsliber er lavet til europæiske knive. Du kan give en gammel, slidt kniv et nyt skær på få minutter, og slibningen sker i tre trin, så du slipper for at gøre hele arbejdet manuelt.</p>
+<p>Den er et godt mellemvalg: tre trin som de dyre modeller, men til en lavere pris. Bemærk, at den er til europæiske knive – til japanske knive med en spidsere vinkel skal du vælge en anden løsning.</p>
 HTML,
 			'good'    => [ 'Almindelige køkkenknive', 'Dig, der vil have tre trin uden at give meget' ],
 			'less'    => [ 'Japanske knive' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Enkel elektrisk knivsliber fra tyske Steba – til dig, der bare vil have skarpe hverdagsknive.',
 			'why'     => <<<'HTML'
-<p>Steba KS 1 er den enkle og billige løsning. Butikken beskriver den som en elektrisk knivsliber fra tyske Steba, der gør det nemt at få skarpe knive til grøntsager og kød.</p>
-<p>Den er god til hverdagsknive, hvor det vigtigste er, at de skærer. Har du dyre knive, vil vi hellere pege på en af de to andre. Valget er vores vurdering ud fra prisen.</p>
+<p>Steba KS 1 er den enkle og billige løsning. Den er en elektrisk knivsliber fra tyske Steba, der gør det nemt at få skarpe knive til grøntsager og kød.</p>
+<p>Den er god til hverdagsknive, hvor det vigtigste er, at de skærer. Har du dyre knive, vil vi hellere pege på en af de to andre.</p>
 HTML,
 			'good'    => [ 'Billige hverdagsknive', 'Dig, der vil prøve en elektrisk knivsliber' ],
 			'less'    => [ 'Dyre og japanske knive' ],

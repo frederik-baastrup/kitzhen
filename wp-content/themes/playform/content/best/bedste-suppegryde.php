@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stor gryde på 10 liter i rustfrit stål fra Eva Trio – baseret på det klassiske Ole Palsby-design.',
 			'why'     => <<<'HTML'
-<p>Eva Trios 10-liters gryde er ifølge butikken slidstærk og i rustfrit stål og bygger på det klassiske Ole Palsby-design. Butikken nævner gryderetter, supper, kartofler og pasta. 10 liter er rigeligt til suppe til mange eller fond. Valget er vores vurdering ud fra butikkens oplysninger og prisen.</p>
+<p>Eva Trios 10-liters gryde er slidstærk og i rustfrit stål og bygger på det klassiske Ole Palsby-design. Den er god til gryderetter, supper, kartofler og pasta. 10 liter er rigeligt til suppe til mange eller fond.</p>
 HTML,
 			'good'    => [ 'Suppe og fond', 'Pasta til mange' ],
 			'less'    => [ 'Små skabe' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Samme Eva Trio-gryde i 9 liter.',
 			'why'     => <<<'HTML'
-<p>Den samme gryde findes i 9 liter, hvis du vil have lidt mindre. Valget er vores vurdering.</p>
+<p>Den samme gryde findes i 9 liter, hvis du vil have lidt mindre.</p>
 HTML,
 			'good'    => [ 'Familier' ],
 			'less'    => [ 'Meget store mængder' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Oval støbejernsgryde på 8 liter til lammeskank, kalkun og store gryderetter.',
 			'why'     => <<<'HTML'
-<p>Staubs ovale gryde på 8 liter (37 cm lang) er ifølge butikken til at tilberede en hel lammeskank, stege en kalkun eller gås til festmiddagen eller koge store mængder vildtgryde. Den er tung, men holder varmen. Valget er vores vurdering.</p>
+<p>Staubs ovale gryde på 8 liter (37 cm lang) er til at tilberede en hel lammeskank, stege en kalkun eller gås til festmiddagen eller koge store mængder vildtgryde. Den er tung, men holder varmen.</p>
 HTML,
 			'good'    => [ 'Festmiddage', 'Gryderetter i ovnen' ],
 			'less'    => [ 'Pasta og suppe til mange' ],

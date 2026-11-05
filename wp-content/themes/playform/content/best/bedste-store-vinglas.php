@@ -22,8 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Bourgogneglas på 75 cl med generøs kuppel og konisk top, der samler aromaerne.',
 			'why'     => <<<'HTML'
-<p>Zwiesel er en tysk producent af krystalglas til både restauranter og hjem. Butikken beskriver Enoteca Burgundy som det perfekte glas til røde bourgognevine af høj kvalitet: den generøse kuppel giver vinen masser af luft, mens den koniske top fremhæver aromaerne.</p>
-<p>Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Zwiesel er en tysk producent af krystalglas til både restauranter og hjem. Enoteca Burgundy er det perfekte glas til røde bourgognevine af høj kvalitet: den generøse kuppel giver vinen masser af luft, mens den koniske top fremhæver aromaerne.</p>
 HTML,
 			'good'    => [ 'Bourgogne og pinot noir', 'Særlige flasker' ],
 			'less'    => [ 'Store selskaber – kun 2 glas pr. pakke' ],
@@ -36,8 +35,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Seks magnumglas på 90 cl fra danske Eva Trio til en meget lav pris pr. glas.',
 			'why'     => <<<'HTML'
-<p>Eva Trio Legio Nova Magnum er store glas på 90 cl. Butikken fremhæver glassenes glans og klang og et design, der fremhæver vinens visuelle karakter.</p>
-<p>Seks glas til denne pris gør det muligt at dække op til en hel middag med store glas uden at være bange for at tabe et. Valget er vores vurdering.</p>
+<p>Eva Trio Legio Nova Magnum er store glas på 90 cl. Glassene har glans og klang og et design, der fremhæver vinens farve.</p>
+<p>Seks glas til denne pris gør det muligt at dække op til en hel middag med store glas uden at være bange for at tabe et.</p>
 HTML,
 			'good'    => [ 'Middage og fester', 'Dig, der vil have store glas uden at give meget' ],
 			'less'    => [ 'Dig, der vil have tynd krystal' ],
@@ -50,8 +49,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Rødvinsglas på 65 cl, der giver kraftige rødvine plads til at folde sig ud.',
 			'why'     => <<<'HTML'
-<p>Chef &amp; Sommelier Mylla har en skål på 65 cl. Butikken forklarer, at en kraftfuld rødvin kræver god plads til iltning, og at den store glasskål giver vinen stor kontaktflade til luften, så stramme tanniner blødes op, og buketten træder frem.</p>
-<p>Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Chef &amp; Sommelier Mylla har en skål på 65 cl. En kraftfuld rødvin kræver god plads til iltning, og den store glasskål giver vinen stor kontaktflade til luften, så stramme tanniner blødes op, og buketten træder frem.</p>
 HTML,
 			'good'    => [ 'Kraftige rødvine', 'Hverdag og fest' ],
 			'less'    => [ 'Hvidvin' ],
@@ -64,8 +62,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Håndlavet krystalglas fra Riedel på 105 cl – til de helt store bourgogner.',
 			'why'     => <<<'HTML'
-<p>Riedel Sommelier er glasproducentens klassiske topserie. Butikken oplyser, at glassene er håndlavet i krystal, så hvert glas er unikt, og at den store skål lader bourgognevinen udvikle sin smag fuldt ud.</p>
-<p>Prisen er pr. glas, så det er et glas til de særlige flasker – eller en gave til en vinelsker. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Riedel Sommelier er glasproducentens klassiske topserie. Glassene er håndlavet i krystal, så hvert glas er unikt, og den store skål lader bourgognevinen udvikle sin smag fuldt ud.</p>
+<p>Prisen er pr. glas, så det er et glas til de særlige flasker – eller en gave til en vinelsker.</p>
 HTML,
 			'good'    => [ 'Gaver til vinelskere', 'De helt store vine' ],
 			'less'    => [ 'Hverdag og opvaskemaskinen' ],

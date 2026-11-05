@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Ismaskine fra Cuisinart til hjemmelavede desserter på professionelt niveau.',
 			'why'     => <<<'HTML'
-<p>Cuisinart er et af de store mærker inden for ismaskiner. Butikken beskriver FreezeEase Pro som en maskine, der gør det nemt at skabe hjemmelavede desserter, der både imponerer og smager som hos en professionel. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Cuisinart er et af de store mærker inden for ismaskiner. FreezeEase Pro er en maskine, der gør det nemt at skabe hjemmelavede desserter, der både imponerer og smager som hos en professionel.</p>
 HTML,
 			'good'    => [ 'Dig, der laver is ofte', 'Forskellige frosne desserter' ],
 			'less'    => [ 'Små budgetter' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Isskål til KitchenAid-røremaskinen – til dig, der allerede har maskinen.',
 			'why'     => <<<'HTML'
-<p>KitchenAid 5KSMICM er tilbehør til KitchenAid-røremaskinen. Butikken beskriver den som et førsteklasses tilbehør til både isveteraner og nybegyndere. Skålen fryses på forhånd, og røremaskinen rører isen. Har du allerede maskinen, sparer du både plads og penge. Valget er vores vurdering.</p>
+<p>KitchenAid 5KSMICM er tilbehør til KitchenAid-røremaskinen. Den er et førsteklasses tilbehør til både isveteraner og nybegyndere. Skålen fryses på forhånd, og røremaskinen rører isen. Har du allerede maskinen, sparer du både plads og penge.</p>
 HTML,
 			'good'    => [ 'Dig med en KitchenAid-røremaskine' ],
 			'less'    => [ 'Dig uden KitchenAid' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Ismaskine på 1,5 liter til is med forskellige smage og konsistenser.',
 			'why'     => <<<'HTML'
-<p>NODs ismaskine har ifølge butikken en generøs kapacitet på 1,5 liter, så du kan lave is til hele familien, og den gør det nemt og hurtigt at lave is med forskellige smage og konsistenser. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>NODs ismaskine har en generøs kapacitet på 1,5 liter, så du kan lave is til hele familien, og den gør det nemt og hurtigt at lave is med forskellige smage og konsistenser.</p>
 HTML,
 			'good'    => [ 'Familier', 'Is om sommeren' ],
 			'less'    => [ 'Is mange gange i træk' ],

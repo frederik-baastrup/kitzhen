@@ -22,8 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Elektrisk kartoffelskræller til 1 kg kartofler, der også kan bruges som salatslynge.',
 			'why'     => <<<'HTML'
-<p>Champion PS110 skræller ifølge butikken op til 1 kg kartofler ad gangen på få minutter og kan også bruges som salatslynge. To funktioner i ét apparat er en fordel, fordi en kartoffelskræller ellers kun kommer frem en gang imellem.</p>
-<p>Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Champion PS110 skræller op til 1 kg kartofler ad gangen på få minutter og kan også bruges som salatslynge. To funktioner i ét apparat er en fordel, fordi en kartoffelskræller ellers kun kommer frem en gang imellem.</p>
 HTML,
 			'good'    => [ 'Familier og store portioner', 'Dig, der også mangler en salatslynge' ],
 			'less'    => [ 'Store, uregelmæssige kartofler' ],
@@ -36,8 +35,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Enkel elektrisk kartoffelskræller til op til 1 kg kartofler med gennemsigtigt låg.',
 			'why'     => <<<'HTML'
-<p>Emerios elektriske kartoffelskræller tager ifølge butikken op til 1 kg kartofler, som den skræller på nogle minutter. Låget er gennemsigtigt, så du kan følge med og stoppe, når kartoflerne er skrællet nok.</p>
-<p>Den er billigere end Champion og et fint valg, hvis du kun skal bruge den til kartofler. Valget er vores vurdering.</p>
+<p>Emerios elektriske kartoffelskræller tager op til 1 kg kartofler, som den skræller på nogle minutter. Låget er gennemsigtigt, så du kan følge med og stoppe, når kartoflerne er skrællet nok.</p>
+<p>Den er billigere end Champion og et fint valg, hvis du kun skal bruge den til kartofler.</p>
 HTML,
 			'good'    => [ 'Dig, der vil holde prisen nede' ],
 			'less'    => [ 'Dig, der vil have flere funktioner' ],

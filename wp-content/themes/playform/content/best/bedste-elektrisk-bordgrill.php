@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kraftig kontaktgrill på 2100 W med to grilltilstande – griller fra begge sider eller åben.',
 			'why'     => <<<'HTML'
-<p>OptiGrill er en af de mest kendte kontaktgrills. Butikken oplyser, at 2in1-modellen har en effekt på 2100 W og to grilltilstande: lukket, hvor varmen kommer fra begge sider, og åben som en flad grill.</p>
-<p>Med låget lukket er en bøf eller et kyllingebryst færdigt på få minutter, og du får grillstriber på begge sider. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>OptiGrill er en af de mest kendte kontaktgrills. 2in1-modellen har en effekt på 2100 W og to grilltilstande: lukket, hvor varmen kommer fra begge sider, og åben som en flad grill.</p>
+<p>Med låget lukket er en bøf eller et kyllingebryst færdigt på få minutter, og du får grillstriber på begge sider.</p>
 HTML,
 			'good'    => [ 'Bøffer, kylling og paninis', 'Hurtig hverdagsmad' ],
 			'less'    => [ 'Grill midt på bordet til mange' ],
@@ -34,10 +34,10 @@ HTML,
 			'name'    => 'Weber Lumin elgrill med stativ',
 			'role'    => 'Bedst til altanen',
 			'reviews' => [],
-			'verdict' => 'Elgrill fra Weber, der ifølge butikken når over 315 °C – med stativ til altan og terrasse.',
+			'verdict' => 'Elgrill fra Weber, der når over 315 °C – med stativ til altan og terrasse.',
 			'why'     => <<<'HTML'
-<p>Weber Lumin er lavet til dig, der bor i lejlighed med altan. Butikken oplyser, at den er en multifunktionel elgrill, der kan nå temperaturer på over 315 °C, og at den leveres med et praktisk stativ.</p>
-<p>Den er ikke en bordgrill i klassisk forstand, men en rigtig grill med låg, der kører på strøm. Den er dyrere end de andre, men tættest på en almindelig grill. Valget er vores vurdering.</p>
+<p>Weber Lumin er lavet til dig, der bor i lejlighed med altan. Den er en multifunktionel elgrill, der kan nå temperaturer på over 315 °C, og den leveres med et praktisk stativ.</p>
+<p>Den er ikke en bordgrill i klassisk forstand, men en rigtig grill med låg, der kører på strøm. Den er dyrere end de andre, men tættest på en almindelig grill.</p>
 HTML,
 			'good'    => [ 'Altaner, hvor gas og kul ikke er tilladt', 'Rigtig grillmad' ],
 			'less'    => [ 'Indendørs brug' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Bordgrill i rustfrit stål til kød, grøntsager og panini – en ekstra stegeflade, når komfuret er fyldt.',
 			'why'     => <<<'HTML'
-<p>Steba FG 120 er en bordgrill i rustfrit stål. Butikken beskriver den som en fornuftig tilføjelse, når du mangler plads på komfuret, og skriver, at den kan stege kød, grøntsager, panini og meget mere ligesom en almindelig pande.</p>
-<p>Den er god til hygge med grill midt på bordet, hvor alle selv griller. Valget er vores vurdering.</p>
+<p>Steba FG 120 er en bordgrill i rustfrit stål. Den er en fornuftig tilføjelse, når du mangler plads på komfuret, og den kan stege kød, grøntsager, panini og meget mere ligesom en almindelig pande.</p>
+<p>Den er god til hygge med grill midt på bordet, hvor alle selv griller.</p>
 HTML,
 			'good'    => [ 'Hyggelig bordgrill med familie og venner', 'Ekstra stegeflade' ],
 			'less'    => [ 'Grillstriber som på en rigtig grill' ],
@@ -64,8 +64,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Bordgrill på 2000 W med justerbar termostat – til brød, kød og andet grillmad.',
 			'why'     => <<<'HTML'
-<p>Wilfas bordgrill har ifølge butikken en effekt på 2000 watt og justerbar termostat, så du kan grille brød, kød og meget andet. Butikken nævner også, at den passer til de lyse sommeraftener – den kan bruges både ude og inde.</p>
-<p>Til prisen er det en enkel og effektiv bordgrill. Valget er vores vurdering.</p>
+<p>Wilfas bordgrill har en effekt på 2000 watt og justerbar termostat, så du kan grille brød, kød og meget andet. Den passer til de lyse sommeraftener – den kan bruges både ude og inde.</p>
+<p>Til prisen er det en enkel og effektiv bordgrill.</p>
 HTML,
 			'good'    => [ 'Dig, der vil holde prisen nede', 'Ude og inde' ],
 			'less'    => [ 'Kontaktgrill med låg' ],

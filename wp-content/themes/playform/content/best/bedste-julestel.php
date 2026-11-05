@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Komplet juleservice til fire med Spodes ikoniske juletræsmotiv.',
 			'why'     => <<<'HTML'
-<p>Spode Christmas Tree er et af de mest kendte julestel i verden. Butikken oplyser, at sættet består af 12 dele – 4 skåle, 4 middagstallerkener og 4 desserttallerkener – alle med juletræsmotivet fra Spodes klassiske juleserie.</p>
-<p>Et sæt til fire er en god måde at komme i gang på, og serien har mange dele som saucekande, fade og kopper, så stellet kan bygges op år efter år. Valget er vores vurdering.</p>
+<p>Spode Christmas Tree er et af de mest kendte julestel i verden. Sættet består af 12 dele – 4 skåle, 4 middagstallerkener og 4 desserttallerkener – alle med juletræsmotivet fra Spodes klassiske juleserie.</p>
+<p>Et sæt til fire er en god måde at komme i gang på, og serien har mange dele som saucekande, fade og kopper, så stellet kan bygges op år efter år.</p>
 HTML,
 			'good'    => [ 'Et komplet julestel fra start', 'Klassisk, engelsk julestemning' ],
 			'less'    => [ 'Dig, der vil have et enkelt, skandinavisk udtryk' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Hvid porcelænstallerken fra danske Kähler med julemotiver af trompeter og trommer.',
 			'why'     => <<<'HTML'
-<p>Kähler Hammershøi er en af de mest populære danske serier, og juleudgaven bygger videre på den. Butikken beskriver tallerkenen som hvidt porcelæn dekoreret med julemotiver af trompeter og trommer, der hænger fra en løkke.</p>
-<p>Fordi den er hvid, passer den også sammen med almindeligt hvidt service – du kan blande den med det, du har. Valget er vores vurdering.</p>
+<p>Kähler Hammershøi er en af de mest populære danske serier, og juleudgaven bygger videre på den. Tallerkenen er hvidt porcelæn dekoreret med julemotiver af trompeter og trommer, der hænger fra en løkke.</p>
+<p>Fordi den er hvid, passer den også sammen med almindeligt hvidt service – du kan blande den med det, du har.</p>
 HTML,
 			'good'    => [ 'Julefrokosten', 'Dig, der vil bygge stellet op over tid' ],
 			'less'    => [ 'Dig, der vil have et helt sæt på én gang' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Juletallerken, der kombinerer Spodes Blue Italian-kant med juletræet i midten.',
 			'why'     => <<<'HTML'
-<p>Denne tallerken kombinerer ifølge butikken den ikoniske blå kantdekoration fra Spodes Blue Italian-serie med det velkendte Christmas Tree-motiv i midten.</p>
-<p>Den er et godt valg, hvis du har blåt stel i forvejen, eller hvis du vil have et julestel, der er lidt mindre rødt og grønt. Valget er vores vurdering.</p>
+<p>Denne tallerken kombinerer den ikoniske blå kantdekoration fra Spodes Blue Italian-serie med det velkendte Christmas Tree-motiv i midten.</p>
+<p>Den er et godt valg, hvis du har blåt stel i forvejen, eller hvis du vil have et julestel, der er lidt mindre rødt og grønt.</p>
 HTML,
 			'good'    => [ 'Dig med blåt service', 'Et mere afdæmpet julebord' ],
 			'less'    => [ 'Dig, der vil have det klassiske røde og grønne' ],

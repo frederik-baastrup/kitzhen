@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den klassiske italienske pastamaskine med håndsving – fuld kontrol over dejen.',
 			'why'     => <<<'HTML'
-<p>Marcato Atlas er den mest kendte pastamaskine i verden og laves i Italien. Butikken beskriver Atlas 150+ som en klassisk, manuel pastamaskine, hvor du selv drejer på håndsvinget og har fuld kontrol over dejen fra første udrulning til færdig pasta. Valget er vores vurdering ud fra butikkens oplysninger og maskinens ry.</p>
+<p>Marcato Atlas er den mest kendte pastamaskine i verden og laves i Italien. Atlas 150+ er en klassisk, manuel pastamaskine, hvor du selv drejer på håndsvinget og har fuld kontrol over dejen fra første udrulning til færdig pasta.</p>
 HTML,
 			'good'    => [ 'Tagliatelle, lasagne og ravioli', 'Dig, der vil have den klassiske' ],
 			'less'    => [ 'Store mængder alene – det er rart at have en hjælper' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Atlas-pastamaskinen med indbygget motor, så du har begge hænder fri.',
 			'why'     => <<<'HTML'
-<p>Atlasmotor+ er den samme klassiske Atlas – bare med indbygget motor. Butikken fremhæver, at du slipper for at dreje på håndsvinget og får begge hænder fri, så det er lettere at føre dejen ind og tage pastaen imod. Det gør det meget nemmere at lave pasta alene. Valget er vores vurdering.</p>
+<p>Atlasmotor+ er den samme klassiske Atlas – bare med indbygget motor. Du slipper for at dreje på håndsvinget og får begge hænder fri, så det er lettere at føre dejen ind og tage pastaen imod. Det gør det meget nemmere at lave pasta alene.</p>
 HTML,
 			'good'    => [ 'Dig, der laver pasta alene', 'Store portioner' ],
 			'less'    => [ 'Dig, der vil holde prisen nede' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Elektrisk pastamaskine med 10 indstillinger og 9 tykkelser.',
 			'why'     => <<<'HTML'
-<p>Ariete er et italiensk mærke. Butikken oplyser, at pastamaskinen har 10 indstillinger, så du kan vælge mellem 9 forskellige tykkelser, og at den gør det nemt for alle at lave frisk pasta. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Ariete er et italiensk mærke. Pastamaskinen har 10 indstillinger, så du kan vælge mellem 9 forskellige tykkelser, og den gør det nemt for alle at lave frisk pasta.</p>
 HTML,
 			'good'    => [ 'Begyndere', 'Dig, der vil have det nemt' ],
 			'less'    => [ 'Dig, der vil have den klassiske Atlas' ],

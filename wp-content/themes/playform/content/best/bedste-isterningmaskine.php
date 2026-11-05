@@ -20,9 +20,9 @@ HTML,
 			'name'    => 'Wilfa ICM1-600 Glacier',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Kompakt isterningmaskine i matsort, der ifølge butikken laver 12 kg is på 24 timer.',
+			'verdict' => 'Kompakt isterningmaskine i matsort, der laver 12 kg is på 24 timer.',
 			'why'     => <<<'HTML'
-<p>Wilfa Glacier kan ifølge butikken lave hele 12 kg is på 24 timer og måler kun 20,6 × 26,8 × 28,2 cm, så den kan stå diskret på køkkenbordet. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Wilfa Glacier kan lave hele 12 kg is på 24 timer og måler kun 20,6 × 26,8 × 28,2 cm, så den kan stå diskret på køkkenbordet.</p>
 HTML,
 			'good'    => [ 'Køkkenbordet', 'Design' ],
 			'less'    => [ 'Store fester alene' ],
@@ -33,9 +33,9 @@ HTML,
 			'name'    => 'Caso IceMaster PRO',
 			'role'    => 'Hurtigst',
 			'reviews' => [],
-			'verdict' => 'Isterningmaskine, der ifølge butikken laver 500 g isterninger i timen – nye på 6–13 minutter.',
+			'verdict' => 'Isterningmaskine, der laver 500 g isterninger i timen – nye på 6–13 minutter.',
 			'why'     => <<<'HTML'
-<p>Caso IceMaster PRO laver ifølge butikken 500 gram isterninger i timen, og løber du tør, tager det kun 6–13 minutter at lave flere. Valget er vores vurdering.</p>
+<p>Caso IceMaster PRO laver 500 gram isterninger i timen, og løber du tør, tager det kun 6–13 minutter at lave flere.</p>
 HTML,
 			'good'    => [ 'Fester og sommer' ],
 			'less'    => [ 'Små køkkener' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt isterningmaskine: op til 12 kg is på 24 timer og 8 isterninger på 6–8 minutter.',
 			'why'     => <<<'HTML'
-<p>NODs isterningmaskine producerer ifølge butikken op til 12 kg is på 24 timer, og du har 8 isterninger klar på 6–8 minutter. Den er kompakt nok til at tage med i sommerhuset eller campingvognen. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>NODs isterningmaskine producerer op til 12 kg is på 24 timer, og du har 8 isterninger klar på 6–8 minutter. Den er kompakt nok til at tage med i sommerhuset eller campingvognen.</p>
 HTML,
 			'good'    => [ 'Sommerhus og camping', 'Lavt budget' ],
 			'less'    => [ 'Dig, der vil have et særligt design' ],

@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Slow cooker med LCD-display og forudindstillede programmer – til gryderetter og pulled pork.',
 			'why'     => <<<'HTML'
-<p>GreenPan Elite er en ren slow cooker. Butikken beskriver den som perfekt til alt fra gryderetter og pulled pork til gennemstegt kød og kylling, og fremhæver det fleksible LCD-display med forudindstillede programmer. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>GreenPan Elite er en ren slow cooker. Den klarer alt fra gryderetter og pulled pork til mørt kød og kylling, og det fleksible LCD-display har forudindstillede programmer.</p>
 HTML,
 			'good'    => [ 'Gryderetter og pulled pork', 'Dig, der vil have en enkel slow cooker' ],
 			'less'    => [ 'Trykkogning' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Multicooker på 7,5 liter med 14 funktioner i én – også slow cooking.',
 			'why'     => <<<'HTML'
-<p>Ninja Foodi OL750EU er en 14-i-1 multicooker. Butikken fremhæver den generøse kapacitet på 7,5 liter, der passer til store familier, eller hvis du vil lave mad i forvejen. Den kan langt mere end slow cooking. Valget er vores vurdering.</p>
+<p>Ninja Foodi OL750EU er en 14-i-1 multicooker. Med 7,5 liter er der plads til store familier og til at lave mad i forvejen. Den kan langt mere end slow cooking.</p>
 HTML,
 			'good'    => [ 'Store familier', 'Dig, der vil have mange funktioner' ],
 			'less'    => [ 'Små køkkener' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Den kendte Instant Pot – multicooker på 5,7 liter, der også kan slow cooke.',
 			'why'     => <<<'HTML'
-<p>Instant Pot er den multicooker, der gjorde trykkogere populære igen. Denne udgave rummer 5,7 liter. En trykkoger gør gryderetter møre på en brøkdel af tiden, og slow cook-funktionen er der, når du har god tid. Valget er vores vurdering ud fra modellens udbredelse.</p>
+<p>Instant Pot er den multicooker, der gjorde trykkogere populære igen. Denne udgave rummer 5,7 liter. En trykkoger gør gryderetter møre på en brøkdel af tiden, og slow cook-funktionen er der, når du har god tid.</p>
 HTML,
 			'good'    => [ 'Hurtige gryderetter', 'Dig, der både vil trykkoge og slow cooke' ],
 			'less'    => [ 'Dig, der kun vil slow cooke' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stor slow cooker på 7 liter fra Instant til en lav pris.',
 			'why'     => <<<'HTML'
-<p>Instant Superior er en slow cooker på 7 liter – stor nok til en hel familie og til at fryse portioner ned. Den er et godt valg, hvis du bare vil have en slow cooker uden at betale for funktioner, du ikke bruger. Valget er vores vurdering ud fra pris og størrelse.</p>
+<p>Instant Superior er en slow cooker på 7 liter – stor nok til en hel familie og til at fryse portioner ned. Den er et godt valg, hvis du bare vil have en slow cooker uden at betale for funktioner, du ikke bruger.</p>
 HTML,
 			'good'    => [ 'Store portioner', 'Lavt budget' ],
 			'less'    => [ 'Mange programmer' ],

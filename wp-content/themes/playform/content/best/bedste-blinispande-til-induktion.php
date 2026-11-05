@@ -20,10 +20,10 @@ HTML,
 			'name'    => 'De Buyer Lyonnaise blinispande, kulstål',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Professionel blinispande i kulstål med en ekstra tyk plade på 2 mm – butikken skriver, at den tåler induktion.',
+			'verdict' => 'Professionel blinispande i kulstål med en ekstra tyk plade på 2 mm – den tåler induktion.',
 			'why'     => <<<'HTML'
-<p>De Buyer er en fransk producent, der laver pander til professionelle køkkener. Butikken beskriver denne blinispande som topmodellen, fordi den har en ekstra tyk plade på 2 mm med god varmefordeling, og skriver, at den kan tåle induktion. Panden har tre felter på 10 cm, så du kan stege tre blinis ad gangen.</p>
-<p>Kulstål skal "indbrændes" og plejes med lidt olie, men til gengæld bliver det mere og mere slip-let med tiden og holder i mange år. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>De Buyer er en fransk producent, der laver pander til professionelle køkkener. Denne blinispande er topmodellen, fordi den har en ekstra tyk plade på 2 mm med god varmefordeling, og den kan tåle induktion. Panden har tre felter på 10 cm, så du kan stege tre blinis ad gangen.</p>
+<p>Kulstål skal "indbrændes" og plejes med lidt olie, men til gengæld bliver det mere og mere slip-let med tiden og holder i mange år.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en pande, der holder i mange år', 'Induktion' ],
 			'less'    => [ 'Dig, der vil have en pande, der kan i opvaskemaskinen' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Blinispande i støbejern med fire runde felter – til ensartede blinis og små pandekager.',
 			'why'     => <<<'HTML'
-<p>Carl Victor Gold er en blinispande i støbejern. Butikken oplyser, at de fire runde stegefelter sikrer, at hver blini eller lille pandekage får samme størrelse og en flot gylden stegeflade, og at den er ideel til blinis og små amerikanske pandekager.</p>
-<p>Støbejern holder godt på varmen, så de sidste blinis bliver lige så pæne som de første. Det er tungt, og det skal plejes med olie, men det er magnetisk og virker derfor på induktion. Valget er vores vurdering.</p>
+<p>Carl Victor Gold er en blinispande i støbejern. De fire runde stegefelter sikrer, at hver blini eller lille pandekage får samme størrelse og en flot gylden stegeflade, og den er ideel til blinis og små amerikanske pandekager.</p>
+<p>Støbejern holder godt på varmen, så de sidste blinis bliver lige så pæne som de første. Det er tungt, og det skal plejes med olie, men det er magnetisk og virker derfor på induktion.</p>
 HTML,
 			'good'    => [ 'Mange blinis på én gang', 'Jævn og stabil varme' ],
 			'less'    => [ 'Dig, der vil have en let pande' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Blinispande i kulstål fra Kockums Jernverk med lav kant og let vinklet inderside, så blinis er nemme at vende.',
 			'why'     => <<<'HTML'
-<p>Kockums Jernverk laver pander i Anderstorp i Sverige. Butikken oplyser, at blinispanden har et praktisk og holdbart design med en lav kant og en let vinklet inderside, så du nemt kan vende dine blinis.</p>
-<p>Som De Buyer-panden er den lavet af kulstål, der er magnetisk og bliver mere slip-let, jo mere du bruger den. Valget er vores vurdering.</p>
+<p>Kockums Jernverk laver pander i Anderstorp i Sverige. Blinispanden har et praktisk og holdbart design med en lav kant og en let vinklet inderside, så du nemt kan vende dine blinis.</p>
+<p>Som De Buyer-panden er den lavet af kulstål, der er magnetisk og bliver mere slip-let, jo mere du bruger den.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en enkel og robust pande', 'Induktion, gas og el' ],
 			'less'    => [ 'Opvaskemaskinen' ],

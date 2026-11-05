@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Alsidigt vinglas fra tyske Spiegelau – 12 glas, der passer til både rødvin og fyldig hvidvin.',
 			'why'     => <<<'HTML'
-<p>Spiegelau er en af de store tyske glasproducenter. Butikken beskriver Authentis som et alsidigt vinglas til både rødvin, hvidvin og fyldige vine – fra en kraftig Chianti til en fadlagret Chardonnay.</p>
-<p>Med 12 glas i pakken er det nemt at dække op til en middag, og et alsidigt glas betyder, at du ikke behøver forskellige glas til hver vin. Valget er vores vurdering ud fra butikkens oplysninger og prisen pr. glas.</p>
+<p>Spiegelau er en af de store tyske glasproducenter. Authentis er et alsidigt vinglas til både rødvin, hvidvin og fyldige vine – fra en kraftig Chianti til en fadlagret Chardonnay.</p>
+<p>Med 12 glas i pakken er det nemt at dække op til en middag, og et alsidigt glas betyder, at du ikke behøver forskellige glas til hver vin. glas.</p>
 HTML,
 			'good'    => [ 'Middage og fester', 'Både rødvin og hvidvin' ],
 			'less'    => [ 'De helt store bourgognevine' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Rødvinsglas med en kuppel på 55 cl og tynd kant – til en lav pris pr. glas.',
 			'why'     => <<<'HTML'
-<p>Chef &amp; Sommelier laver glas til restauranter. Butikken forklarer, at en kuppel på 55 cl giver vinen tilstrækkelig overflade til iltning, så aromaerne træder frem og tanninerne blødes op, og at den tynde kant leder vinen naturligt ind i munden.</p>
-<p>Til prisen er det svært at få mere glas for pengene. Valget er vores vurdering.</p>
+<p>Chef &amp; Sommelier laver glas til restauranter. En kuppel på 55 cl giver vinen tilstrækkelig overflade til iltning, så aromaerne træder frem og tanninerne blødes op, og den tynde kant leder vinen naturligt ind i munden.</p>
+<p>Til prisen er det svært at få mere glas for pengene.</p>
 HTML,
 			'good'    => [ 'Hverdag og store selskaber', 'Dig, der ikke vil være bange for at tabe et glas' ],
 			'less'    => [ 'Dig, der vil have mundblæst krystal' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Rødvinsglas i blyfri krystal med høj brudstyrke fra danske Aida.',
 			'why'     => <<<'HTML'
-<p>Aida er et dansk mærke. Butikken oplyser, at Connoisseur-glassene er produceret i blyfri krystal, der giver dem en høj brudstyrke, og at den klassiske form med tynd stilk passer til enhver borddækning.</p>
-<p>Med 64,5 cl er skålen stor nok til kraftige rødvine. Valget er vores vurdering.</p>
+<p>Aida er et dansk mærke. Connoisseur-glassene er produceret i blyfri krystal, der giver dem en høj brudstyrke, og den klassiske form med tynd stilk passer til enhver borddækning.</p>
+<p>Med 64,5 cl er skålen stor nok til kraftige rødvine.</p>
 HTML,
 			'good'    => [ 'Kraftige rødvine', 'Dig, der vil have krystal til hverdag' ],
 			'less'    => [ 'Små skabe' ],
@@ -62,10 +62,10 @@ HTML,
 			'name'    => 'Spiegelau Definition Bourgogne, 6 stk.',
 			'role'    => 'Bedst luksus',
 			'reviews' => [],
-			'verdict' => 'Lette bourgogneglas i krystal – ifølge butikken vejer de kun 130 gram.',
+			'verdict' => 'Lette bourgogneglas i krystal – vejer de kun 130 gram.',
 			'why'     => <<<'HTML'
-<p>Definition er Spiegelaus lette serie. Butikken oplyser, at bourgogneglasset vejer kun 130 gram og føles nærmest vægtløst, og at serien forener lethed og elegance.</p>
-<p>Et bourgogneglas har en bred skål, der passer til elegante, aromatiske rødvine som pinot noir. Valget er vores vurdering.</p>
+<p>Definition er Spiegelaus lette serie. Bourgogneglasset vejer kun 130 gram og føles nærmest vægtløst, og serien forener lethed og elegance.</p>
+<p>Et bourgogneglas har en bred skål, der passer til elegante, aromatiske rødvine som pinot noir.</p>
 HTML,
 			'good'    => [ 'Pinot noir og bourgogne', 'Dig, der vil have et let, fint glas' ],
 			'less'    => [ 'Opvaskemaskinen hver dag' ],

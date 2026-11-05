@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Solid grillpande i støbejern fra Staub – til bøffer, fisk, halloumi og grøntsager.',
 			'why'     => <<<'HTML'
-<p>Staub er kendt for deres støbejernsgryder, og Pure-grillpanden er lavet i samme materiale. Butikken skriver, at en solid grillpande i støbejern giver den jævne, høje varme, der skal til for saftige bøffer, fiskespyd, halloumi og grøntsager med en sprød, let ristet overflade.</p>
-<p>Støbejern bliver langsomt varmt, men holder varmen, også når du lægger koldt kød på. Det er tungt, men det er netop vægten, der giver de flotte striber. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Staub er kendt for deres støbejernsgryder, og Pure-grillpanden er lavet i samme materiale. En solid grillpande i støbejern giver den jævne, høje varme, der skal til for saftige bøffer, fiskespyd, halloumi og grøntsager med en sprød, let ristet overflade.</p>
+<p>Støbejern bliver langsomt varmt, men holder varmen, også når du lægger koldt kød på. Det er tungt, men det er netop vægten, der giver de flotte striber.</p>
 HTML,
 			'good'    => [ 'Bøffer og koteletter', 'Dig, der vil have en pande til mange år' ],
 			'less'    => [ 'Dig, der vil have en let pande' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Grillpande i støbejern fra Fiskars Norden-serien – lavet til meget høj varme og flotte grillmærker.',
 			'why'     => <<<'HTML'
-<p>Fiskars Norden grillpanden er i støbejern. Butikken beskriver den som perfekt til retter, der kræver meget høj varme, og til når du vil have grillmærker på maden, og fremhæver, at den er en del af Norden-serien.</p>
-<p>Serien har et nordisk design, og panden passer godt sammen med seriens gryder, hvis du har dem i forvejen. Valget er vores vurdering.</p>
+<p>Fiskars Norden grillpanden er i støbejern. Den er perfekt til retter, der kræver meget høj varme, og til når du vil have grillmærker på maden, og den er en del af Norden-serien.</p>
+<p>Serien har et nordisk design, og panden passer godt sammen med seriens gryder, hvis du har dem i forvejen.</p>
 HTML,
 			'good'    => [ 'Dig, der har andre Norden-produkter', 'Høj varme og grillmærker' ],
 			'less'    => [ 'Små budgetter' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Grillpande i kulstål fra De Buyer – lettere end støbejern og bliver bedre, jo mere den bruges.',
 			'why'     => <<<'HTML'
-<p>De Buyer Mineral B er lavet af kulstål. Butikken skriver, at du får de lækre stegeriller, du kender fra en grill, at panden har en jævn varmefordeling, og at materialet bliver bedre med tiden.</p>
-<p>Kulstål er lettere end støbejern og bliver hurtigere varmt. Det skal indbrændes og plejes med olie, men så bliver det naturligt slip-let. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>De Buyer Mineral B er lavet af kulstål. Du får de lækre stegeriller, du kender fra en grill, at panden har en jævn varmefordeling, og materialet bliver bedre med tiden.</p>
+<p>Kulstål er lettere end støbejern og bliver hurtigere varmt. Det skal indbrændes og plejes med olie, men så bliver det naturligt slip-let.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have en lettere pande', 'God grillpande til prisen' ],
 			'less'    => [ 'Opvaskemaskinen' ],

@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Steakknive fra svenske Morakniv, der gør det nemt at skære mundrette stykker.',
 			'why'     => <<<'HTML'
-<p>Morakniv er en svensk knivproducent med mange års erfaring. Butikken beskriver Classic-steakkniven som en kniv, der gør det nemt at skære mundrette stykker af kødet. Sættet har fire knive. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Morakniv er en svensk knivproducent med mange års erfaring. Classic-steakkniven er en kniv, der gør det nemt at skære mundrette stykker af kødet. Sættet har fire knive.</p>
 HTML,
 			'good'    => [ 'Bøffer og grillmad', 'Skandinavisk borddækning' ],
 			'less'    => [ 'Store selskaber – kun 4 knive' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Rustikt grillbestik fra Gense med skaft i micarta.',
 			'why'     => <<<'HTML'
-<p>Old Farmer er en serie grillbestik fra Gense, der ifølge butikken giver et autentisk og rustikt look til bordet. XL-steakknivene har skaft i micarta og passer godt til grillaftener og store bøffer. Valget er vores vurdering.</p>
+<p>Old Farmer er en serie grillbestik fra Gense, der giver et autentisk og rustikt look til bordet. XL-steakknivene har skaft i micarta og passer godt til grillaftener og store bøffer.</p>
 HTML,
 			'good'    => [ 'Grillaftener', 'Store bøffer' ],
 			'less'    => [ 'En klassisk, fin borddækning' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Steakknive i rustfrit stål fra tyske Zwilling til en lav pris.',
 			'why'     => <<<'HTML'
-<p>Zwilling er en af verdens kendte knivproducenter. Butikken oplyser, at Twin-steakknivene er fremstillet af rustfrit stål og er til dig, der ikke vil gå ned på kvalitet. Til prisen er det et godt sæt til hverdag. Valget er vores vurdering.</p>
+<p>Zwilling er en af verdens kendte knivproducenter. Twin-steakknivene er fremstillet af rustfrit stål og er til dig, der ikke vil gå ned på kvalitet. Til prisen er det et godt sæt til hverdag.</p>
 HTML,
 			'good'    => [ 'Hverdag', 'Lavt budget' ],
 			'less'    => [ 'Dig, der vil have et særligt design' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Steakknive med varmebehandlet blad og polywood-skaft til en meget lav pris.',
 			'why'     => <<<'HTML'
-<p>Tramontina er et brasiliansk mærke. Butikken oplyser, at knivbladet er ekstra holdbart takket være varmebehandling, og at skafterne er polywood-behandlede. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Tramontina er et brasiliansk mærke. Knivbladet er ekstra holdbart takket være varmebehandling, og skafterne er polywood-behandlede.</p>
 HTML,
 			'good'    => [ 'Steakhouse-stemning', 'Mange knive til lav pris' ],
 			'less'    => [ 'Fin borddækning' ],

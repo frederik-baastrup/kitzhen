@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stor juicer fra Sage med Nutri-disk – til juice af både frugt og grønt.',
 			'why'     => <<<'HTML'
-<p>Sage Nutri Juicer Cold XL er Sages store juicemaskine. Butikken fremhæver Nutri-disken og beskriver den som en smart juicer til at starte morgenen rigtigt. Den er lavet til store mængder og hele frugter. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Sage Nutri Juicer Cold XL er Sages store juicemaskine. Nutri-disken gør den til en smart juicer, der sætter gang i morgenen. Den er lavet til store mængder og hele frugter.</p>
 HTML,
 			'good'    => [ 'Juice hver dag', 'Store portioner' ],
 			'less'    => [ 'Små køkkener' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Koldpressende juicemaskine fra Ninja til næringsrige drikke fra bunden.',
 			'why'     => <<<'HTML'
-<p>Ninjas juicemaskine presser saften koldt ud. Butikken beskriver den som en maskine til at lave velsmagende og næringsrige drikke fra bunden, så du selv bestemmer, hvad der kommer i glasset. Koldpressede juicere giver typisk mere saft af bladgrønt end en centrifuge. Valget er vores vurdering.</p>
+<p>Ninjas juicemaskine presser saften koldt ud. Den er en maskine til at lave velsmagende og næringsrige drikke fra bunden, så du selv bestemmer, hvad der kommer i glasset. Koldpressede juicere giver typisk mere saft af bladgrønt end en centrifuge.</p>
 HTML,
 			'good'    => [ 'Grønne juicer', 'Dig, der vil prøve koldpresset juice' ],
 			'less'    => [ 'Dig, der vil have juice på få sekunder' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Råsaftcentrifuge fra Philips – hurtig juice med minimalt besvær.',
 			'why'     => <<<'HTML'
-<p>Philips HR1856 er en råsaftcentrifuge. Butikken lover maksimalt med juice og minimalt besvær og fremhæver en række praktiske funktioner. En centrifuge er hurtig og god til hårde frugter og grøntsager som æbler og gulerødder. Valget er vores vurdering.</p>
+<p>Philips HR1856 er en råsaftcentrifuge. Den er bygget til at give meget juice med minimalt besvær og har en række praktiske funktioner. En centrifuge er hurtig og god til hårde frugter og grøntsager som æbler og gulerødder.</p>
 HTML,
 			'good'    => [ 'Æbler og gulerødder', 'Hurtig morgenjuice' ],
 			'less'    => [ 'Bladgrønt som spinat og grønkål' ],
@@ -61,7 +61,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Elektrisk citruspresser i Smeg-design, der starter og stopper automatisk.',
 			'why'     => <<<'HTML'
-<p>Smegs citruspresser er lavet til frisk appelsinjuice. Butikken oplyser, at den har automatisk tænd og sluk, når du trykker frugten ned. Den er nem at bruge og gøre ren og passer til andre Smeg-apparater. Valget er vores vurdering.</p>
+<p>Smegs citruspresser er lavet til frisk appelsinjuice. Den har automatisk tænd og sluk, når du trykker frugten ned. Den er nem at bruge og gøre ren og passer til andre Smeg-apparater.</p>
 HTML,
 			'good'    => [ 'Appelsin, citron og grapefrugt', 'Design' ],
 			'less'    => [ 'Andre frugter og grønt' ],

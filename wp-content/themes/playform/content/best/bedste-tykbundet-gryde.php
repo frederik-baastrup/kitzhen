@@ -23,8 +23,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Luksusgryde i 18/10-stål fra Demeyere, hvor bunden er hele pointen – til komfur og ovn.',
 			'why'     => <<<'HTML'
-<p>Demeyere er belgisk og kendt for gryder med en særligt kraftig bund, og Atlantis er mærkets luksusserie. Butikken oplyser, at gryden er lavet i 18/10-stål af høj kvalitet, der er hygiejnisk og let at gøre rent, at den kan bruges på alle varmeoverflader og også i ovnen – og fremhæver bunden som noget ganske særligt.</p>
-<p>Med 22 cm og 4 liter er det en god hverdagsstørrelse til en familie: sovs, kartofler, ris og mindre gryderetter. Den er dyr for en gryde i den størrelse, men stål holder i årtier, hvis du passer på den. Vi har ikke fundet en uafhængig anmeldelse af netop denne model, så valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Demeyere er belgisk og kendt for gryder med en særligt kraftig bund, og Atlantis er mærkets luksusserie. Gryden er lavet i 18/10-stål af høj kvalitet, der er hygiejnisk og let at gøre rent. Den kan bruges på alle varmeoverflader og i ovnen – og bunden er noget ganske særligt.</p>
+<p>Med 22 cm og 4 liter er det en god hverdagsstørrelse til en familie: sovs, kartofler, ris og mindre gryderetter. Den er dyr for en gryde i den størrelse, men stål holder i årtier, hvis du passer på den.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have én gryde, der holder resten af livet', 'Sovs, ris og retter, der let brænder på', 'Induktion' ],
 			'less'    => [ 'Store gryderetter til mange', 'Dig med et stramt budget' ],
@@ -37,8 +37,8 @@ HTML,
 			'reviews' => [], // Consumer Reports' test kan ikke åbnes fra Danmark (blokeret + betalingsmur), så den bruges ikke.
 			'verdict' => 'Klassisk støbejernsgryde til simreretter og grydebrød – bedst i ovnen og ved lav varme.',
 			'why'     => <<<'HTML'
-<p>Staub La Cocotte er en af de mest kendte støbejernsgryder. Butikken beskriver den 26 cm runde gryde på 5,2 liter som en allrounder til kraftige simreretter som boeuf bourguignon, kødgryder, fyldige supper og grydebrød med sprød skorpe.</p>
-<p>Støbejern er langsomt om at blive varmt, men holder varmen længe, når det først er varmt. Derfor er gryden stærkest i ovnen og til lange retter ved lav varme, hvor støbejernet kan nå at blive varmt hele vejen igennem. På kogepladen skal du give den tid til at varme op og holde varmen moderat, så maden ikke brænder på i bunden. Valget er vores vurdering ud fra butikkens oplysninger; vi har ikke fundet en uafhængig test, du kan læse fra Danmark.</p>
+<p>Staub La Cocotte er en af de mest kendte støbejernsgryder. Den 26 cm runde gryde på 5,2 liter er en allrounder til kraftige simreretter som boeuf bourguignon, kødgryder, fyldige supper og grydebrød med sprød skorpe.</p>
+<p>Støbejern er langsomt om at blive varmt, men holder varmen længe, når det først er varmt. Derfor er gryden stærkest i ovnen og til lange retter ved lav varme, hvor støbejernet kan nå at blive varmt hele vejen igennem. På kogepladen skal du give den tid til at varme op og holde varmen moderat, så maden ikke brænder på i bunden.</p>
 HTML,
 			'good'    => [ 'Grydebrød', 'Gryderetter, der skal stå længe i ovnen', 'Dig, der vil have en gryde, der også kan stå på bordet' ],
 			'less'    => [ 'Sovs og retter, der skal røres i på kogepladen ved høj varme', 'Dig, der vil have en let gryde' ],
@@ -51,8 +51,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stor gryde fra danske Eva Trio med 3 lag hele vejen op i siderne – til gryderetter og suppe til hele familien.',
 			'why'     => <<<'HTML'
-<p>Eva Trio Multi er vores bud, hvis du vil have en stor tykbundet gryde uden at betale Demeyere-priser. Butikken oplyser, at gryden er 24 cm i diameter og rummer 6,5 liter, og at både bund og sider er opbygget af tre lag: rustfrit stål med en kerne af aluminium. Den kombination giver ifølge butikken en rigtig god varmefordeling.</p>
-<p>At lagene går hele vejen op i siderne – og ikke kun sidder som en plade i bunden – er en fordel, fordi varmen så også fordeles op ad gryden. Det er især rart til store mængder suppe, gryderetter og pasta. Valget er vores vurdering; vi har ikke fundet uafhængige anmeldelser af modellen.</p>
+<p>Eva Trio Multi er vores bud, hvis du vil have en stor tykbundet gryde uden at betale Demeyere-priser. Gryden er 24 cm i diameter og rummer 6,5 liter, og både bund og sider er opbygget af tre lag: rustfrit stål med en kerne af aluminium. Den kombination giver en rigtig god varmefordeling.</p>
+<p>At lagene går hele vejen op i siderne – og ikke kun sidder som en plade i bunden – er en fordel, fordi varmen så også fordeles op ad gryden. Det er især rart til store mængder suppe, gryderetter og pasta.</p>
 HTML,
 			'good'    => [ 'Familier og dig, der laver mad til flere dage', 'Suppe, gryderetter og pasta', 'Dig, der vil have stål i stedet for tungt støbejern' ],
 			'less'    => [ 'Små køkkener og små portioner' ],
@@ -65,8 +65,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Emaljeret støbejernsgryde af genanvendt materiale, lavet så let som muligt – til alle varmekilder, også induktion.',
 			'why'     => <<<'HTML'
-<p>Combekk er et hollandsk mærke, og gryden er et billigere alternativ til de klassiske franske støbejernsgryder. Butikken oplyser, at den er lavet af 100 % genanvendt materiale fra produktionsrester, at den er lavet til at være så let som muligt, og at den passer til alle slags varmekilder, også induktion.</p>
-<p>Lav vægt er en reel fordel ved støbejern, som ellers hurtigt bliver tungt at løfte, når gryden er fuld. Vi har ikke fundet en uafhængig test af netop denne gryde, så valget er vores vurdering ud fra butikkens oplysninger og prisen.</p>
+<p>Combekk er et hollandsk mærke, og gryden er et billigere alternativ til de klassiske franske støbejernsgryder. Den er lavet af 100 % genanvendt materiale fra produktionsrester, at den er lavet til at være så let som muligt, og den passer til alle slags varmekilder, også induktion.</p>
+<p>Lav vægt er en reel fordel ved støbejern, som ellers hurtigt bliver tungt at løfte, når gryden er fuld.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve støbejern uden at betale for et af de dyreste mærker', 'Dig, der synes, støbejernsgryder er for tunge' ],
 			'less'    => [ 'Dig, der vil have gryden testet af andre, før du køber' ],

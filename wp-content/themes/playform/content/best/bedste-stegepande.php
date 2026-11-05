@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Dansk stegepande med slip-let, buede sider og ovnfast konstruktion.',
 			'why'     => <<<'HTML'
-<p>Scanpan er et dansk mærke kendt for pander med slip-let. Butikken beskriver CTX som en af de bedste på markedet, fremhæver de buede sider, der gør det nemt at komme til med køkkenredskaberne, og oplyser, at panden er ovnfast.</p>
-<p>Slip-let gør panden nem at stege æg, fisk og pandekager på, og den er nem at gøre ren. Valget er vores vurdering ud fra butikkens oplysninger og mærkets ry.</p>
+<p>Scanpan er et dansk mærke kendt for pander med slip-let. CTX er en af de bedste på markedet, fremhæver de buede sider, der gør det nemt at komme til med køkkenredskaberne, og panden er ovnfast.</p>
+<p>Slip-let gør panden nem at stege æg, fisk og pandekager på, og den er nem at gøre ren.</p>
 HTML,
 			'good'    => [ 'Æg, fisk og pandekager', 'Hverdagsbrug' ],
 			'less'    => [ 'Meget høj varme til bøffer' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stegepande i rustfrit stål med en 3,5 mm tyk bund af 5 lag, der spreder varmen.',
 			'why'     => <<<'HTML'
-<p>Culimat MD er en del af Mathias Dahlgren Edition. Butikken oplyser, at den 3,5 mm tykke 5-lagsbund spreder varmen ud langs hele panden, så maden ikke brænder fast.</p>
-<p>En stålpande kræver lidt teknik – den skal være varm, før maden kommer på – men den giver en flot stegeskorpe og tåler høj varme og metalredskaber. Valget er vores vurdering.</p>
+<p>Culimat MD er en del af Mathias Dahlgren Edition. Den 3,5 mm tykke 5-lagsbund spreder varmen ud langs hele panden, så maden ikke brænder fast.</p>
+<p>En stålpande kræver lidt teknik – den skal være varm, før maden kommer på – men den giver en flot stegeskorpe og tåler høj varme og metalredskaber.</p>
 HTML,
 			'good'    => [ 'Kød og sovs på fonden', 'Dig, der vil have en pande for livet' ],
 			'less'    => [ 'Æg uden fedtstof' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fransk restaurantpande i kulstål uden belægning – bliver bedre, jo mere den bruges.',
 			'why'     => <<<'HTML'
-<p>De Buyer Carbone Plus er en fransk pande i kulstål. Butikken beskriver den som en ægte restaurationspande, der ikke er behandlet med en overfladebelægning, og som er udviklet til professionelle.</p>
-<p>Kulstål skal indbrændes og plejes med olie, men så bliver det naturligt slip-let, tåler meget høj varme og holder i mange år. Til prisen er det en af de bedste pander, du kan købe. Valget er vores vurdering.</p>
+<p>De Buyer Carbone Plus er en fransk pande i kulstål. Den er en ægte restaurationspande, der ikke er behandlet med en overfladebelægning, og som er udviklet til professionelle.</p>
+<p>Kulstål skal indbrændes og plejes med olie, men så bliver det naturligt slip-let, tåler meget høj varme og holder i mange år. Til prisen er det en af de bedste pander, du kan købe.</p>
 HTML,
 			'good'    => [ 'Bøffer og høj varme', 'Induktion' ],
 			'less'    => [ 'Opvaskemaskinen og syrlige sovse' ],
@@ -64,8 +64,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stegepande med Rapid Heat Control-bund, der bliver hurtigt varm – lavet til det perfekte stykke kød.',
 			'why'     => <<<'HTML'
-<p>WMF Steak Profi er lavet til kød. Butikken oplyser, at panden har bundteknologien Rapid Heat Control, så den bliver ekstremt hurtigt varm, og at varmen fordeles jævnt.</p>
-<p>Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>WMF Steak Profi er lavet til kød. Panden har bundteknologien Rapid Heat Control, så den bliver ekstremt hurtigt varm, og varmen fordeles jævnt.</p>
 HTML,
 			'good'    => [ 'Bøffer og koteletter', 'Dig, der vil have stegeskorpe' ],
 			'less'    => [ 'Æg og fisk' ],
@@ -78,8 +77,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stegepande uden fast håndtag, så den kan stables i skabet og gå i ovnen.',
 			'why'     => <<<'HTML'
-<p>Tefal Ingenio er designet uden fast håndtag. Butikken forklarer, at flere dele derfor kan stables i hinanden i køkkenskabet – praktisk, hvis du har lidt plads.</p>
-<p>Uden håndtag kan panden også gå direkte i ovnen og bruges til servering. Valget er vores vurdering.</p>
+<p>Tefal Ingenio er designet uden fast håndtag. Flere dele derfor kan stables i hinanden i køkkenskabet – praktisk, hvis du har lidt plads.</p>
+<p>Uden håndtag kan panden også gå direkte i ovnen og bruges til servering.</p>
 HTML,
 			'good'    => [ 'Små køkkener', 'Ovn og servering' ],
 			'less'    => [ 'Dig, der ikke vil have et løst håndtag' ],

@@ -22,8 +22,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Stor airfryer med to uafhængige zoner – lav hele måltidet til op til otte personer på én gang.',
 			'why'     => <<<'HTML'
-<p>Ninja Foodi Max Dual Zone er en af de mest populære airfryere med to kurve. Butikken oplyser, at du kan lave et komplet måltid til op til otte personer på én gang, og at de to uafhængige zoner betyder, at du kan lave to forskellige ting samtidig.</p>
-<p>To kurve er den største fordel ved en airfryer til en familie: kartofler i den ene og kylling i den anden, og begge bliver færdige på samme tid. Valget er vores vurdering ud fra butikkens oplysninger og modellens udbredelse.</p>
+<p>Ninja Foodi Max Dual Zone er en af de mest populære airfryere med to kurve. Du kan lave et komplet måltid til op til otte personer på én gang, og de to uafhængige zoner betyder, at du kan lave to forskellige ting samtidig.</p>
+<p>To kurve er den største fordel ved en airfryer til en familie: kartofler i den ene og kylling i den anden, og begge bliver færdige på samme tid.</p>
 HTML,
 			'good'    => [ 'Familier', 'Hele måltider på én gang' ],
 			'less'    => [ 'Små køkkener – den fylder i bredden' ],
@@ -36,8 +36,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Philips’ airfryer på 6,2 liter – fra det mærke, der gjorde airfryeren kendt.',
 			'why'     => <<<'HTML'
-<p>Philips var et af de første mærker med en airfryer til hjemmet. Butikken beskriver 3000-serien som en airfryer, der kombinerer avanceret teknologi med høj brugervenlighed, til både hobbykokke og familier, der har brug for hurtige løsninger.</p>
-<p>6,2 liter i én kurv er en god størrelse til to–fire personer, og en stor kurv er bedre end to små, hvis du laver hele kyllinger eller store stykker kød. Valget er vores vurdering.</p>
+<p>Philips var et af de første mærker med en airfryer til hjemmet. 3000-serien er en airfryer, der kombinerer avanceret teknologi med høj brugervenlighed, til både hobbykokke og familier, der har brug for hurtige løsninger.</p>
+<p>6,2 liter i én kurv er en god størrelse til to–fire personer, og en stor kurv er bedre end to små, hvis du laver hele kyllinger eller store stykker kød.</p>
 HTML,
 			'good'    => [ 'To–fire personer', 'Store stykker kød' ],
 			'less'    => [ 'Dig, der vil lave to ting på én gang' ],
@@ -50,8 +50,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Airfryer med ClearCook-vindue, så du kan se maden uden at åbne skuffen.',
 			'why'     => <<<'HTML'
-<p>Instant Vortex Plus ClearCook har et vindue i skuffen, så du kan følge med i maden uden at trække den ud og lukke varmen ud. Butikken beskriver den som pladsbesparende og effektiv til sprød og smagfuld mad med et minimum af olie.</p>
-<p>Vinduet lyder som en detalje, men det gør det meget nemmere at ramme det rigtige tidspunkt. Valget er vores vurdering.</p>
+<p>Instant Vortex Plus ClearCook har et vindue i skuffen, så du kan følge med i maden uden at trække den ud og lukke varmen ud. Den er pladsbesparende og effektiv til sprød og smagfuld mad med et minimum af olie.</p>
+<p>Vinduet lyder som en detalje, men det gør det meget nemmere at ramme det rigtige tidspunkt.</p>
 HTML,
 			'good'    => [ 'Dig, der vil kunne se maden', 'To–tre personer' ],
 			'less'    => [ 'Store familier' ],
@@ -64,8 +64,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'To kurve stablet oven på hinanden – stor kapacitet uden at fylde i bredden.',
 			'why'     => <<<'HTML'
-<p>Ninja Double Stack XL løser det største problem ved airfryere med to kurve: de fylder meget i bredden. Her er de to kurve stablet lodret. Butikken fremhæver, at du kan lave flere retter på én gang i en rummelig, men pladsbesparende airfryer.</p>
-<p>Den er dyrere end Dual Zone, men et godt valg, hvis du har lidt bordplads og stadig vil lave mad til hele familien. Valget er vores vurdering.</p>
+<p>Ninja Double Stack XL løser det største problem ved airfryere med to kurve: de fylder meget i bredden. Her er de to kurve stablet lodret. Du kan lave flere retter på én gang i en rummelig, men pladsbesparende airfryer.</p>
+<p>Den er dyrere end Dual Zone, men et godt valg, hvis du har lidt bordplads og stadig vil lave mad til hele familien.</p>
 HTML,
 			'good'    => [ 'Smalle køkkenborde', 'Familier' ],
 			'less'    => [ 'Dig med lavt hængende overskabe – tjek højden' ],
@@ -78,8 +78,8 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Airfryer på 6 liter med varmelegeme både foroven og forneden – så du ikke behøver vende maden så ofte.',
 			'why'     => <<<'HTML'
-<p>Wilfa Dual Heating har to varmelegemer. Butikken oplyser, at den har en samlet effekt på 1600 watt plus 500 watt i det nederste element, og forklarer, at du derfor ikke behøver vende maden så ofte.</p>
-<p>Til under 1.000 kr. får du en stor kurv og varme fra to sider. Det er et godt sted at starte, hvis du ikke har haft en airfryer før. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Wilfa Dual Heating har to varmelegemer. Den har en samlet effekt på 1600 watt plus 500 watt i det nederste element, og du derfor ikke behøver vende maden så ofte.</p>
+<p>Til under 1.000 kr. får du en stor kurv og varme fra to sider. Det er et godt sted at starte, hvis du ikke har haft en airfryer før.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve en airfryer uden at give meget', 'To–fire personer' ],
 			'less'    => [ 'Dig, der vil lave to ting på én gang' ],

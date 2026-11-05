@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt riskoger og damper på 5 liter med 8 tilberedningsfunktioner.',
 			'why'     => <<<'HTML'
-<p>Instant er kendt for Instant Pot. Butikken oplyser, at riskogeren har hele 8 tilberedningsfunktioner, og at den er kompakt og kraftfuld. Med en dampindsats kan du lave ris og dampede grøntsager på samme tid. Valget er vores vurdering ud fra butikkens oplysninger.</p>
+<p>Instant er kendt for Instant Pot. Riskogeren har hele 8 tilberedningsfunktioner, og den er kompakt og kraftfuld. Med en dampindsats kan du lave ris og dampede grøntsager på samme tid.</p>
 HTML,
 			'good'    => [ 'Familier', 'Ris, quinoa og dampet mad' ],
 			'less'    => [ 'Én person' ],
@@ -35,7 +35,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Riskoger fra Sage, der laver risotto uden at du skal stå og røre.',
 			'why'     => <<<'HTML'
-<p>Sage Risotto Plus er lavet til risotto. Butikken forklarer, at den gør det nemt at lave risotto helt uden at røre i den – normalt det mest tidskrævende ved retten. Den kan også bruges som almindelig riskoger. Valget er vores vurdering.</p>
+<p>Sage Risotto Plus er lavet til risotto. Den gør det nemt at lave risotto helt uden at røre i den – normalt det mest tidskrævende ved retten. Den kan også bruges som almindelig riskoger.</p>
 HTML,
 			'good'    => [ 'Risotto', 'Dig, der vil have flere funktioner' ],
 			'less'    => [ 'Dig, der kun laver almindelige ris' ],
@@ -48,7 +48,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Enkel riskoger fra norske Wilfa med plads til 1,8 liter færdige ris og non-stick-belægning.',
 			'why'     => <<<'HTML'
-<p>Wilfas riskoger har ifølge butikken plads til 1,8 liter færdige ris og en non-stick-belægning. Butikken skriver, at der vist ikke findes en nemmere måde at lave ris på. Valget er vores vurdering ud fra pris og butikkens oplysninger.</p>
+<p>Wilfas riskoger har plads til 1,8 liter færdige ris og en non-stick-belægning. Der vist ikke findes en nemmere måde at lave ris på.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have det enkelt', 'Lavt budget' ],
 			'less'    => [ 'Mange funktioner' ],
