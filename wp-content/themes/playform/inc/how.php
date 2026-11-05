@@ -3,7 +3,8 @@
  * Siden "Sådan fungerer {navn}" (/saadan-fungerer-det/): hvor produkterne kommer fra (butikkernes egne feeds via
  * Partner-ads), hvordan vi tjener penge, og hvad loven siger om at vise mærkevarer. Ejerens ønske 5. nov. 2026:
  * en side, han kan sende til butikker og leverandører, der spørger, om vi må vise produkterne.
- * Teksten ligger her i koden (ikke i databasen), så den er ens på alle sites og kan rettes ét sted.
+ * Teksten ligger her i koden (ikke i databasen). Den er bevidst formuleret forskelligt på hvert site (samme fakta),
+ * så søgemaskiner ikke ser dublet-indhold på tværs af domænerne. Ret fakta på alle sites, men kopiér ikke teksten.
  */
 
 defined( 'ABSPATH' ) || exit;

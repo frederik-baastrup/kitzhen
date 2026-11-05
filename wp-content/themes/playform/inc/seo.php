@@ -10,10 +10,45 @@ function playform_has_seo_plugin(): bool {
 	return defined( 'RANK_MATH_VERSION' ) || defined( 'WPSEO_VERSION' );
 }
 
+/** Faste sider, der ikke skal i Google (slugs, se playform_setup_site() og inc/legal.php). */
+function playform_noindex_pages(): array {
+	return [ 'privatlivspolitik', 'cookies' ];
+}
+
+// Sider med noindex hører heller ikke hjemme i WordPress' sitemap.
+add_filter(
+	'wp_sitemaps_posts_query_args',
+	static function ( array $args, string $post_type ): array {
+		if ( 'page' !== $post_type ) {
+			return $args;
+		}
+		$ids = [];
+		foreach ( playform_noindex_pages() as $slug ) {
+			$page = get_page_by_path( $slug );
+			if ( $page ) {
+				$ids[] = (int) $page->ID;
+			}
+		}
+		if ( $ids ) {
+			$args['post__not_in'] = array_merge( (array) ( $args['post__not_in'] ?? [] ), $ids );
+		}
+		return $args;
+	},
+	10,
+	2
+);
+
 /** Filtre, sortering og fritekst skaber uendeligt mange URL'er – de skal ikke i Google. */
 add_filter(
 	'wp_robots',
 	static function ( array $robots ): array {
+		// Privatlivs- og cookiepolitik er standardtekster, der står næsten ens på alle vores sites – ikke i Google.
+		if ( is_page( playform_noindex_pages() ) ) {
+			$robots['noindex'] = true;
+			$robots['follow']  = true;
+			unset( $robots['max-image-preview'] );
+			return $robots;
+		}
 		if ( ! playform_is_catalog() ) {
 			return $robots;
 		}
