@@ -141,6 +141,11 @@ function playform_menu_spec(): array {
 	];
 }
 
+/** Ikoner foran hovedmenuens punkter (desktop), slug => ikon i playform_icon(). */
+function playform_menu_icons(): array {
+	return [ 'kaffe-drikke' => 'cup', 'ovne-apparater' => 'oven', 'koekkenmaskiner' => 'mixer', 'gryder-pander' => 'pot', 'knive-redskaber' => 'knife', 'grill' => 'grill', 'pizza-bagning' => 'pizza', 'servering' => 'plate' ];
+}
+
 /** Visningsnavne fra menuen (fx "Romaskiner" for kategorien "Romaskine"), slug => navn. */
 function playform_menu_labels(): array {
 	// Kategorierne hedder ental (som folk søger), men i menu, faner og "Tilbud på …" læser flertal bedst.
