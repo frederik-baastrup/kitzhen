@@ -49,14 +49,6 @@ function playform_icon( string $name, int $size = 20, float $stroke = 1.6 ): str
 		'clock'       => '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
 		'calendar'    => '<rect x="4" y="5.5" width="16" height="14" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/>',
 		'product'     => '<rect x="4" y="15" width="15" height="3" rx="1.5"/><path d="M15 15l2-8h3"/><path d="M16 11h3"/>',
-		'cup'         => '<path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M16 10.5h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M9 3.5c0 1.2-1 1.6-1 2.8M12.5 3.5c0 1.2-1 1.6-1 2.8"/>',
-		'grill'       => '<path d="M4 9h16a8 8 0 0 1-16 0z"/><path d="M8 15.5L6 21M16 15.5l2 5.5M12 17v4"/><path d="M9 5.5c0-1 .8-1.3.8-2.3M13 5.5c0-1 .8-1.3.8-2.3"/>',
-		'knife'       => '<path d="M20 4L9.5 14.5 7 12C11 8 15.5 5 20 4z"/><path d="M8.2 13.3l-4.2 4.2a1.6 1.6 0 0 0 2.3 2.3l4.2-4.2"/>',
-		'mixer'       => '<path d="M6 20h12"/><path d="M8 20v-3h8v3"/><path d="M7 13h10l-1 4H8z"/><path d="M8 4h7a3 3 0 0 1 3 3v1H8z"/><path d="M12 8v5"/>',
-		'oven'        => '<rect x="3.5" y="4" width="17" height="16" rx="2"/><path d="M3.5 8.5h17"/><rect x="7" y="11.5" width="10" height="5.5" rx="1"/><path d="M7 6.3h.01M10 6.3h.01"/>',
-		'pizza'       => '<path d="M12 21L3.5 6.5a17 17 0 0 1 17 0z"/><path d="M4.8 8.8a14 14 0 0 1 14.4 0"/><circle cx="10" cy="11.5" r="1"/><circle cx="13.5" cy="14" r="1"/>',
-		'plate'       => '<circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="3.5"/><path d="M2.5 4v5M2.5 9v11M21.5 4c-1.5 1-1.5 5 0 6v10"/>',
-		'pot'         => '<path d="M5 10h14v5.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 5 15.5z"/><path d="M3 10h18M9.5 7c0-1.2 1-1.6 1-2.8M13.5 7c0-1.2 1-1.6 1-2.8"/>',
 	];
 	return sprintf(
 		'<svg width="%1$d" height="%1$d" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="%2$s" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">%3$s</svg>',
