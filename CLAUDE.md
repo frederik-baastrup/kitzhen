@@ -93,3 +93,5 @@ Som Fitbase: hvid baggrund, sort tekst, BDO Grotesk, afrundede hjørner, tynde l
   - Top-valg bygger på rigtige anmeldelser af præcis samme model (links i 'reviews'); ellers markeret "vores vurdering". Aldrig påstand om egen test.
   - Et artikelfoto pr. guide fra Pexels i `assets/img/articles/<slug>.jpg` (1800 px). Aldrig produktbilleder.
 - Udrulning kører til det midlertidige domæne (frederikb10.sg-host.com). Når kitzhen.dk flyttes, skal SITE_DIR/SITE_URL i deploy.yml rettes.
+
+**SEO i købsguides (ejerens ønske 5. nov. 2026):** folk søger "bedste <søgeord>" og "<søgeord> test". `playform_guide_keyword()` (`keyword` i artikelfilen, ellers titlen før kolon) giver titlen "Bedste <søgeord>: …", sidetitlen "Bedste <søgeord> <år> → Se vores top N", "bedste <søgeord>" i kort-fortalt og sammenligningen, og nederst afsnittet "<Søgeord> test – er det her en test?" (`playform_guide_test_note()`), der ærligt siger, at det ikke er en test. Kun dér må ordet "test" stå; aldrig "testvinder", "bedst i test" som påstand eller lignende.
