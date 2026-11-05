@@ -36,6 +36,10 @@ final class Classifier {
 		if ( $found && in_array( $found, Config::machine_categories(), true ) && self::m( Config::accessory_pattern(), $name ) ) {
 			$found = Config::accessory_target();
 		}
+		// Mærker, der kun laver udstyr til nichen (fx Ooni til pizza): tilbehør uden kategoriord i navnet.
+		if ( ! $found && $brand !== '' && method_exists( Config::class, 'brand_categories' ) ) {
+			$found = Config::brand_categories()[ $brand ] ?? null;
+		}
 		return $found ?: Config::uncategorized_slug();
 	}
 
@@ -44,7 +48,7 @@ final class Classifier {
 			return null;
 		}
 		foreach ( Config::categories() as $slug => $def ) {
-			if ( self::m( $def['match'], $text ) ) {
+			if ( self::m( $def['match'], $text ) && ( empty( $def['not'] ) || ! self::m( $def['not'], $text ) ) ) {
 				return $slug;
 			}
 		}
