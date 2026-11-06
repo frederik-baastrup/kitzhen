@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Eva Trio gryde 10 liter, rustfrit stål',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Stor gryde på 10 liter i rustfrit stål fra Eva Trio – baseret på det klassiske Ole Palsby-design.',
+			'verdict' => 'Rummelig 10-liters gryde i rustfrit stål med sandwichbund, der virker på alle kogeplader og tåler opvaskemaskine.',
 			'why'     => <<<'HTML'
-<p>Eva Trios 10-liters gryde er slidstærk og i rustfrit stål og bygger på det klassiske Ole Palsby-design. Den er god til gryderetter, supper, kartofler og pasta. 10 liter er rigeligt til suppe til mange eller fond.</p>
+<p>Eva Trio-gryden på 10 liter er til dig, der koger suppe, fond og pasta til mange. Den bygger på Ole Palsbys klassiske design fra 1977 og passer derfor til de Eva Trio-låg, du måske allerede har i skuffen.</p>
+<p>Gryden er lavet af 90 % genanvendt rustfrit stål og har en indkapslet sandwichbund i aluminium, der fordeler varmen jævnt – så suppen ikke brænder på i bunden. Den virker på alle varmekilder inklusive induktion, tåler ovn, og håndtagene forbliver kolde, mens du laver mad.</p>
+<p>Efter maden kommer den bare i opvaskemaskinen. Gryden fås også i mange andre størrelser, fra 2,2 til 15 liter.</p>
 HTML,
-			'good'    => [ 'Suppe og fond', 'Pasta til mange' ],
-			'less'    => [ 'Små skabe' ],
+			'good'    => [ 'Suppe og fond i store portioner', 'Pasta og kartofler til mange', 'Alle komfurer – også induktion' ],
+			'less'    => [ 'Låg medfølger ikke', 'Små skabe' ],
 		],
 		[
 			'ean'     => '5706631257831',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'Eva Trio gryde 9 liter, rustfrit stål',
 			'role'    => 'Lidt mindre',
 			'reviews' => [],
-			'verdict' => 'Samme Eva Trio-gryde i 9 liter.',
+			'verdict' => 'Eva Trio-gryde på 9 liter i genanvendt rustfrit stål – stor nok til familien, nem at gøre ren.',
 			'why'     => <<<'HTML'
-<p>Den samme gryde findes i 9 liter, hvis du vil have lidt mindre.</p>
+<p>Synes du, 10 liter er i overkanten, er Eva Trio på 9 liter et godt bud. Der er stadig plads til en stor gryde suppe, kartofler eller pasta til hele familien. Formen følger Ole Palsbys klassiske Eva Trio-design fra 1977, så låg fra serien passer.</p>
+<p>Stålet er 90 % genanvendt, og bunden er en indkapslet sandwichbund i aluminium. Den giver jævn varme over hele bunden, så du undgår, at maden sætter sig fast ét sted. Gryden kan bruges på alle typer kogeplader, også induktion.</p>
+<p>Når I har spist, sætter du den i opvaskemaskinen.</p>
 HTML,
-			'good'    => [ 'Familier' ],
-			'less'    => [ 'Meget store mængder' ],
+			'good'    => [ 'Familier', 'Supper og gryderetter til flere dage', 'Induktionskomfur' ],
+			'less'    => [ 'Låg medfølger ikke' ],
 		],
 		[
 			'ean'     => '3272341037251',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Staub La Cocotte oval 8 liter',
 			'role'    => 'Bedst til ovnen',
 			'reviews' => [],
-			'verdict' => 'Oval støbejernsgryde på 8 liter til lammeskank, kalkun og store gryderetter.',
+			'verdict' => 'Oval støbejernsgryde på 8 liter fra Staub, hvor Aroma Rain-låget holder maden saftig under lang tids kogning.',
 			'why'     => <<<'HTML'
-<p>Staubs ovale gryde på 8 liter (37 cm lang) er til at tilberede en hel lammeskank, stege en kalkun eller gås til festmiddagen eller koge store mængder vildtgryde. Den er tung, men holder varmen.</p>
+<p>Staub La Cocotte oval på 8 liter er gryden til festmiddagen og de store gryderetter. Den ovale form er 37 cm lang, så du kan lægge lammeskank, en hel kalkun eller gås i uden at dele dem først – og der er plads til en stor vildtgryde til familien.</p>
+<p>Gryden er i emaljeret støbejern fra Alsace i Frankrig. Den holder godt på varmen og fordeler den jævnt, så kødet bliver mørt. Under låget sidder Staubs Aroma Rain-knopper, der hele tiden drypper fugt tilbage på maden. Den matsorte emalje indvendig er slidstærk og giver en god stegeskorpe.</p>
+<p>Den kan bruges på alle kogeplader, også induktion, og i ovnen. Med messingknappen er den flot nok til at stå på bordet, hvor den holder maden varm. Vask den i hånden.</p>
 HTML,
-			'good'    => [ 'Festmiddage', 'Gryderetter i ovnen' ],
-			'less'    => [ 'Pasta og suppe til mange' ],
+			'good'    => [ 'Festmiddage med hel fugl eller lammeskank', 'Gryderetter i ovnen', 'Dig, der vil servere direkte fra gryden' ],
+			'less'    => [ 'Pasta og suppe til mange', 'Tung at løfte – den vejer 8,5 kg' ],
 		],
 	],
 	'guide'    => <<<'HTML'

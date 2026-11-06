@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Graef Master M90',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Robust pålægsmaskine fra tyske Graef til serrano, hamburgerryg, rullepølse, ost og brød.',
+			'verdict' => 'Solid metalmaskine med glat 170 mm klinge og skiver fra helt tynde op til 20 mm.',
 			'why'     => <<<'HTML'
-<p>Graef er en tysk producent, der er specialiseret i skæremaskiner. Master M90 er en robust pålægsmaskine til friskskåret serrano, hamburgerryg, rullepølse og meget mere – og den kan også bruges til ost, grøntsager og brød.</p>
+<p>Graef Master M90 er pålægsmaskinen til dig, der vil have friskskåret serrano, hamburgerryg og rullepølse på frokostbordet. Den klarer også ost, grøntsager og brød, så den bliver brugt langt oftere end til jul.</p>
+<p>Maskinen er bygget i metal og står på en robust glasplade, så den står stille, mens du skærer. Den glatte klinge på 170 mm i solidt stål giver rene skiver, og med drejeknappen stiller du tykkelsen fra 0 til 20 mm. Den hælder 30°, så selv de tyndeste skiver glider let af klingen.</p>
+<p>I kassen følger en madholder, et kombinationsværktøj, en knivsliber og et gennemsigtigt plastfad. Den måler 43 × 36,5 × 34,5 cm og vejer 10 kg, så den fortjener en fast plads på bordet.</p>
 HTML,
-			'good'    => [ 'Julefrokost og hjemmelavet pålæg', 'Dig, der vil have en maskine, der holder' ],
-			'less'    => [ 'Små køkkener' ],
+			'good'    => [ 'Julefrokost og hjemmelavet pålæg', 'Helt tynde skiver serrano', 'Dig, der vil have en maskine i metal' ],
+			'less'    => [ 'Små køkkener – den vejer 10 kg' ],
 		],
 		[
 			'ean'     => '4001627038816',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'Graef Mytiny foldbar',
 			'role'    => 'Bedst til små køkkener',
 			'reviews' => [],
-			'verdict' => 'Sammenklappelig skæremaskine fra Graef, der kan ligge i en køkkenskuffe.',
+			'verdict' => 'Klappes sammen og lægges i skuffen – og skærer stille og roligt skiver fra 0 til 15 mm.',
 			'why'     => <<<'HTML'
-<p>Graef Mytiny kan klappes sammen. Den er en kompakt og praktisk skæremaskine, der nemt kan opbevares i en køkkenskuffe, når den ikke er i brug.</p>
+<p>Graef Mytiny er løsningen, hvis du drømmer om friskskåret pålæg, men ikke har plads til en stor maskine. Den klapper sammen, så den kan ligge i en køkkenskuffe, og når den er slået ud, er den så pæn, at den gerne må blive stående fremme.</p>
+<p>Knivene er i rustfrit stål, og skivetykkelsen stiller du fra 0 til 15 mm. Med drejeknappen vælger du mellem et hurtigt skær og kontinuerlig drift, alt efter om du skal bruge et par skiver ost eller et helt fad pålæg. Motoren kører normalt på 45 W og kan give op til 170 W, og den er støjsvag.</p>
+<p>Den måler 23,4 × 18,2 × 34,5 cm og vejer 3,51 kg, så den er let at flytte rundt i køkkenet. Der er 24 måneders garanti.</p>
 HTML,
-			'good'    => [ 'Små køkkener', 'Dig, der ikke vil have maskinen fremme' ],
-			'less'    => [ 'Store mængder' ],
+			'good'    => [ 'Små køkkener', 'Dig, der ikke vil have maskinen fremme', 'Et stille køkken' ],
+			'less'    => [ 'Skiver tykkere end 15 mm' ],
 		],
 		[
 			'ean'     => '7044876020284',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Wilfa FS-200W',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Kraftig pålægsmaskine med multi-knivblad og tykkelse fra 1 til 15 mm.',
+			'verdict' => 'Kraftig 200 W-maskine med 19 cm multiklinge, der skærer kød, ost og brød lige godt.',
 			'why'     => <<<'HTML'
-<p>Wilfas pålægsmaskine skærer nemt kød, ost og brød. Der følger et solidt multi-knivblad i rustfrit stål med, tykkelsen kan justeres mellem 1 og 15 mm, og maskinen kan nemt skilles ad til rengøring.</p>
+<p>Wilfa FS-200W er den nemme vej til friskskåret pålæg uden at bruge en formue. Den skærer kød, ost og brød, så du kan skære rugbrødet, rullepølsen og osten på samme maskine.</p>
+<p>Motoren på 200 W giver kræfter nok til både faste pølser og et groft brød. Klingen er et solidt multiblad i rustfrit stål med en diameter på 19 cm, og du stiller selv tykkelsen mellem 1 og 15 mm – fra tynde skiver skinke til tykke skiver brød.</p>
+<p>Når du er færdig, skiller du maskinen ad, så det er nemt at komme til alle hjørner og gøre den ren. Den vejer 5 kg og står derfor stabilt på bordet.</p>
 HTML,
-			'good'    => [ 'Lavt budget', 'Kød, ost og brød' ],
-			'less'    => [ 'Meget tynde skiver serrano' ],
+			'good'    => [ 'Lavt budget', 'Kød, ost og brød', 'Nem rengøring' ],
+			'less'    => [ 'Meget tynde skiver serrano – den går ned til 1 mm' ],
 		],
 	],
 	'guide'    => <<<'HTML'

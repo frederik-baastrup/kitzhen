@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Caso SJW 600 XL',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Kraftfuld slow juicer i stilfuldt design fra tyske Caso.',
+			'verdict' => 'Stor 130 mm åbning til hele frugter og kun 40 omdrejninger i minuttet for mere saft.',
 			'why'     => <<<'HTML'
-<p>Caso SJW 600 XL er en kraftfuld slow juicer, der er designet til at levere førsteklasses juice til enhver lejlighed, i et stilfuldt og moderne design.</p>
+<p>Caso SJW 600 XL er slow juiceren til dig, der vil have frisk juice hver dag uden en masse forarbejde. Påfyldningsåbningen er hele 130 mm, så du kan komme hele æbler og store grøntsager i uden at hakke dem først. Det sparer tid hver eneste morgen.</p>
+<p>Sneglen drejer kun 40 gange i minuttet. Den rolige presning giver op til 30 % mere saft end en traditionel saftpresser, og næringsstofferne bevares bedre. Den støjsvage motor på 250 W klarer både bløde bær og hårde rødbeder, og to beholdere på hver 1 liter – én til juice og én til frugtkød – gør det let at lave til hele familien.</p>
+<p>Den har få dele, så den er hurtig at samle og skille ad, og der følger en rengøringsbørste med. Skridsikre fødder og et automatisk stop, når låget åbnes, giver ekstra sikkerhed. Der er 24 måneders garanti.</p>
 HTML,
-			'good'    => [ 'Grøn juice', 'Juice hver dag' ],
-			'less'    => [ 'Små budgetter' ],
+			'good'    => [ 'Juice hver dag', 'Dig, der ikke vil hakke frugten først', 'Store portioner' ],
+			'less'    => [ 'Små køkkener – den er 44 cm høj' ],
 		],
 		[
 			'ean'     => '5413184000745',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'KitchenAid SM1JA Slow Juicer',
 			'role'    => 'Bedst til KitchenAid',
 			'reviews' => [],
-			'verdict' => 'Slow juicer-tilbehør til KitchenAid-røremaskinen – til æbler, citrus og gulerødder.',
+			'verdict' => 'Gør din KitchenAid-røremaskine til en slow juicer – med tre sier fra klar juice til sauce.',
 			'why'     => <<<'HTML'
-<p>Med SM1JA kan du lave slow juice på din KitchenAid-røremaskine. Æbler, citrusfrugter og gulerødder – kun fantasien sætter grænser. Har du maskinen, sparer du plads på køkkenbordet.</p>
+<p>Har du allerede en KitchenAid-røremaskine, er SM1JA den smarte vej til frisk juice. Du sætter tilbehøret på maskinen og bruger dens kraftige motor, så du slipper for endnu et apparat på køkkenbordet. Den klarer æbler, citrusfrugter, gulerødder og meget mere.</p>
+<p>Råvarerne skæres først af en roterende snitteplade, hvorefter sneglen presser saften ud. Det ekstra brede påfyldningsrør tager store stykker og hele frugter. Med tre forskellige sier bestemmer du selv, hvor meget frugtkød der skal med – fra klar juice til tyk sauce og marmelade – og røremaskinens hastighedsknap styrer tempoet.</p>
+<p>I kassen er tre sier, to kander, en opbevaringskasse og en rengøringsbørste. Alle dele undtagen drivenheden kan komme i opvaskemaskinen.</p>
 HTML,
-			'good'    => [ 'Dig med en KitchenAid-røremaskine' ],
-			'less'    => [ 'Dig uden KitchenAid' ],
+			'good'    => [ 'Dig med en KitchenAid-røremaskine', 'Juice, sauce og marmelade', 'Dig, der vil spare plads' ],
+			'less'    => [ 'Dig uden KitchenAid – den kræver røremaskinen' ],
 		],
 		[
 			'ean'     => '4008146026034',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Severin 3571 Slowjuicer',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Slow juicer i rustfrit stål og slankt design til en lav pris.',
+			'verdict' => 'Slank slow juicer med stille motor, 45 omdrejninger i minuttet og dele, der tåler opvaskemaskine.',
 			'why'     => <<<'HTML'
-<p>Severins slow juicer er i rustfrit stål og har et slankt design kombineret med flere funktioner. Den er et godt sted at starte, hvis du vil prøve koldpresset juice.</p>
+<p>Severin 3571 er en nem og billig vej ind i koldpresset juice. Den er slank – kun 14 cm bred – så den finder plads selv i et lille køkken, og den stille motor gør, at du kan lave morgenjuice uden at vække hele huset.</p>
+<p>Sneglen drejer med 45 omdrejninger i minuttet og presser saften ud af frugt og grønt, så vitaminer, mineraler og enzymer bevares. Den kan mere end juice: Lav sorbet af frosne bær, syltetøj eller din egen pizzasauce. Juicebeholderen rummer 1 liter og beholderen til frugtkød 1,3 liter.</p>
+<p>Alle aftagelige dele tåler opvaskemaskine, så oprydningen går hurtigt. Skridsikre gummifødder holder den på plads på bordet.</p>
 HTML,
-			'good'    => [ 'Begyndere', 'Små køkkener' ],
-			'less'    => [ 'Store mængder' ],
+			'good'    => [ 'Begyndere', 'Små køkkener', 'Sorbet og syltetøj' ],
+			'less'    => [ 'Store mængder ad gangen' ],
 		],
 	],
 	'guide'    => <<<'HTML'

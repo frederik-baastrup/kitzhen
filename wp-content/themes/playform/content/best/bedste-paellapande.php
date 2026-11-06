@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Staub paellapande 34 cm',
 			'role'    => 'Bedst til komfuret',
 			'reviews' => [],
-			'verdict' => 'Paellapande fra Staubs Pan Series på 34 cm – en god størrelse til komfuret.',
+			'verdict' => 'Paellapande i solidt støbejern fra Staub – virker på induktion, tåler ovn og går direkte på bordet.',
 			'why'     => <<<'HTML'
-<p>Staubs paellapande er 34 cm i diameter – stor nok til en paella til fire, men lille nok til komfuret. Den er en pande til den klassiske spanske risret med kylling eller skaldyr. Tjek materiale og induktion hos butikken.</p>
+<p>Staubs paellapande på 34 cm er til dig, der vil lave paella på komfuret derhjemme – også på induktion. Den er i støbejern, der fordeler varmen jævnt og roligt ud i både bund og kanter og kan blive rigtig varm. Det er netop, hvad risene skal bruge for at blive gode.</p>
+<p>Den høje varme giver også en flot stegeskorpe på bøffer og kylling, så panden bliver brugt til meget mere end paella. Med to håndtag er den nem at flytte fra komfuret ind i ovnen og videre til middagsbordet, hvor støbejernet holder maden varm.</p>
+<p>Panden vejer 4,6 kg og fås i sort, rød og grå. Håndvask anbefales.</p>
 HTML,
-			'good'    => [ 'Paella på komfuret', 'Fire personer' ],
-			'less'    => [ 'Store selskaber' ],
+			'good'    => [ 'Paella på komfuret – også induktion', 'Dig, der vil servere direkte fra panden', 'Bøffer og kylling med stegeskorpe' ],
+			'less'    => [ 'Store selskaber', 'Dig, der vil have en let pande' ],
 		],
 		[
 			'ean'     => '8412595100409',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'Garcima paellapande 40 cm',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Klassisk spansk paellapande fra Garcima i 40 cm.',
+			'verdict' => 'Klassisk spansk paellapande i poleret kulstofstål – 40 cm, nok til paella til 9 personer.',
 			'why'     => <<<'HTML'
-<p>Garcima er en spansk producent af paellapander. Kød, kylling, skaldyr og snegle er de klassiske ingredienser. Med 40 cm er der plads til 6–8 personer. Den traditionelle stålpande skal tørres og smøres med olie efter brug.</p>
+<p>Garcima er den klassiske spanske paellapande, og 40 cm-udgaven er stor nok til paella til 9 personer. Den er til dig, der vil lave paella til familien eller vennerne uden at bruge mange penge på panden.</p>
+<p>Panden er i poleret kulstofstål, der er holdbart og slidstærkt og giver et råt, flot udtryk. Du kan bruge den på grillen eller over åben ild, og den er god til meget andet end paella – fx pandekager. Fyld den med kylling, skaldyr, grøntsager og de krydderier, du kan lide.</p>
+<p>Den vejer kun 1,3 kg, så den er let at tage med i sommerhuset eller ud til bålet. Har du brug for mere plads, findes den også i 50, 60 og 90 cm.</p>
 HTML,
-			'good'    => [ 'Den klassiske spanske pande', 'Lavt budget' ],
-			'less'    => [ 'Almindelige kogeplader' ],
+			'good'    => [ 'Den klassiske spanske pande', 'Grill og bål', 'Lavt budget' ],
+			'less'    => [ 'Induktionskomfur – den virker ikke på induktion' ],
 		],
 		[
 			'ean'     => '6416571001607',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Muurikka paellapande 60 cm',
 			'role'    => 'Bedst til store selskaber',
 			'reviews' => [],
-			'verdict' => 'Stor paellapande i koldvalset stål til åben ild eller gasblus.',
+			'verdict' => 'Stor paellapande på 60 cm i koldvalset stål til åben ild og gasblus – bliver bedre med tiden.',
 			'why'     => <<<'HTML'
-<p>Muurikkas 60 cm paellapande er lavet til åben ild eller gasblus. Den er i koldvalset stål, der ikke er rustfrit, så den skal vedligeholdes. Med 60 cm er der paella til en hel havefest.</p>
+<p>Muurikkas paellapande på 60 cm er til dig, der laver mad til mange – i haven, i sommerhuset eller over bålet. Den er lavet til åben ild og gasblus, og den kan også bruges til risotto, grøntsager og kød. Når maden er klar, serverer du direkte fra panden.</p>
+<p>Panden er i koldvalset stål, og stegeegenskaberne bliver bedre, jo mere du bruger den. De ergonomiske greb gør den nem at håndtere, men da de er malet med epoxy, må de ikke komme direkte i flammerne.</p>
+<p>Stålet er ikke rustfrit, så vask panden af lige efter brug, og pas godt på den. Så holder den i mange år. Den vejer omkring 4,2 kg og findes også i 45 og 50 cm.</p>
 HTML,
-			'good'    => [ 'Havefester', 'Gasbrænder og bål' ],
-			'less'    => [ 'Køkkenet' ],
+			'good'    => [ 'Havefester og store selskaber', 'Gasbrænder og bål', 'Risotto og grøntsager til mange' ],
+			'less'    => [ 'Køkkenet – den er for stor til komfuret', 'Dig, der ikke vil passe en stålpande' ],
 		],
 		[
 			'ean'     => '7350101113530',
@@ -59,13 +65,14 @@ HTML,
 			'name'    => 'Mareld paellapande 40 cm, rustfrit stål',
 			'role'    => 'Nemmest at passe',
 			'reviews' => [],
-			'verdict' => 'Paellapande på 40 cm i rustfrit stål – ruster ikke.',
-			'why'
-=> <<<'HTML'
-<p>Marelds paellapande er i rustfrit stål og 40 cm i diameter. Rustfrit stål kræver ikke den samme pleje som klassiske stålpander.</p>
+			'verdict' => 'Paellapande på 40 cm i rustfrit stål, der ikke påvirker smagen og er nem at holde pæn.',
+			'why'     => <<<'HTML'
+<p>Mareld paellapande er til dig, der vil lave paella uden at skulle passe på en pande, der kan ruste. Den måler 40 cm og er god på gasblus, hvor retter med meget væske som paella lykkes bedre end på en almindelig kogeplade.</p>
+<p>Fordi den er i rustfrit stål, reagerer den ikke med syre fra fx tomater og citron. Så smager maden af det, den skal, hvilket kan være et problem med kulstofstål og støbejern.</p>
+<p>Rengøringen er enkel: Vask den med opvaskemiddel og varmt vand, eller sæt den i opvaskemaskinen. Sidder der brændte rester fast, får lidt ståluld den skinnende igen. Den vejer kun 1 kg.</p>
 HTML,
-			'good'    => [ 'Dig, der ikke vil passe en stålpande' ],
-			'less'    => [ 'Den helt traditionelle socarrat' ],
+			'good'    => [ 'Dig, der ikke vil passe en stålpande', 'Gasblus', 'Retter med tomat og citrus' ],
+			'less'    => [ 'Den helt traditionelle spanske kulstofstålpande' ],
 		],
 	],
 	'guide'    => <<<'HTML'

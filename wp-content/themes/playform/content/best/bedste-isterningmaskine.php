@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Wilfa ICM1-600 Glacier',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Kompakt isterningmaskine i matsort, der laver 12 kg is på 24 timer.',
+			'verdict' => 'Kompakt isterningmaskine i matsort, der laver 12 kg is på 24 timer – med rensefunktion og 5 års garanti.',
 			'why'     => <<<'HTML'
-<p>Wilfa Glacier kan lave hele 12 kg is på 24 timer og måler kun 20,6 × 26,8 × 28,2 cm, så den kan stå diskret på køkkenbordet.</p>
+<p>Wilfa ICM1-600 Glacier giver dig frisk is lige ved hånden hver dag – til drinks, juice eller et glas iskoldt vand. Den måler kun 20,6 × 26,8 × 28,2 cm, så den kan stå fremme på køkkenbordet eller gemmes i et skab, og det matsorte design er diskret.</p>
+<p>Den laver op til 12 kg is på et døgn, og på panelet vælger du store eller små isterninger: 56 store eller 48 små i timen. Maskinen siger til, når isbeholderen er fuld, eller vandtanken skal fyldes, og gennem det gennemsigtige låg kan du følge med uden at åbne.</p>
+<p>Isbeholderen kan tages ud, vandtanken er let at tømme og fylde, og den indbyggede rensefunktion starter du fra panelet. Der er 5 års garanti.</p>
 HTML,
-			'good'    => [ 'Køkkenbordet', 'Design' ],
-			'less'    => [ 'Store fester alene' ],
+			'good'    => [ 'Drinks og isvand hver dag', 'Køkkenbordet – den fylder lidt', 'Dig, der vil have nem rengøring' ],
+			'less'    => [ 'Store fester, hvor den skal klare isen alene' ],
 		],
 		[
 			'ean'     => '4038437033014',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'Caso IceMaster PRO',
 			'role'    => 'Hurtigst',
 			'reviews' => [],
-			'verdict' => 'Isterningmaskine, der laver 500 g isterninger i timen – nye på 6–13 minutter.',
+			'verdict' => 'Isterningmaskine i rustfrit stål med 2,2 liter vandtank – nye isterninger på 6–13 minutter.',
 			'why'     => <<<'HTML'
-<p>Caso IceMaster PRO laver 500 gram isterninger i timen, og løber du tør, tager det kun 6–13 minutter at lave flere.</p>
+<p>Caso IceMaster PRO er til dig, der ofte har gæster og ikke vil løbe tør for is. Den laver 500 gram isterninger i timen, og en ny portion er klar på 6–13 minutter. Vandtanken rummer 2,2 liter, så du ikke skal fylde efter hele tiden.</p>
+<p>Du vælger mellem to størrelser isterninger på touch-panelet. Kabinettet er i rustfrit stål, og det sorte låg har et vindue, så du kan se, hvor langt den er. Når kurven er fuld, eller tanken er tom, slukker den selv.</p>
+<p>Isterningkurven kan tages ud, så du kan bære isen direkte hen til gæsterne. Den bruger kun 90 W.</p>
 HTML,
-			'good'    => [ 'Fester og sommer' ],
-			'less'    => [ 'Små køkkener' ],
+			'good'    => [ 'Fester og sommer', 'Dig, der vil have isterninger hurtigt', 'Køkkener i rustfrit stål' ],
+			'less'    => [ 'Små køkkener – den er knap 36 cm dyb og vejer 9,4 kg' ],
 		],
 		[
 			'ean'     => '7350101118047',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'NOD isterningmaskine',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Kompakt isterningmaskine: op til 12 kg is på 24 timer og 8 isterninger på 6–8 minutter.',
+			'verdict' => 'Kompakt isterningmaskine med op til 12 kg is i døgnet og 8 isterninger på 6–8 minutter – også til campingvognen.',
 			'why'     => <<<'HTML'
-<p>NODs isterningmaskine producerer op til 12 kg is på 24 timer, og du har 8 isterninger klar på 6–8 minutter. Den er kompakt nok til at tage med i sommerhuset eller campingvognen.</p>
+<p>NOD isterningmaskine er til dig, der vil have is til drinks uden at bruge mange penge – derhjemme, i sommerhuset, i campingvognen eller på båden. Den måler 27,5 × 20,6 × 26,6 cm, så den finder plads, også hvor der er trangt.</p>
+<p>Den laver op til 12 kg is på et døgn, og de første 8 isterninger er klar på 6–8 minutter. På panelet vælger du små eller store kugleformede isterninger, og maskinen siger til, når isen skal tages ud, eller vandtanken skal fyldes. Det gennemsigtige låg lader dig følge med.</p>
+<p>Til rengøring kører du rensefunktionen med vand og eddike, og afløbshullet i bunden gør det hurtigt at tømme den.</p>
 HTML,
-			'good'    => [ 'Sommerhus og camping', 'Lavt budget' ],
-			'less'    => [ 'Dig, der vil have et særligt design' ],
+			'good'    => [ 'Sommerhus, campingvogn og båd', 'Lavt budget', 'Spontane fester' ],
+			'less'    => [ 'Dig, der vil have et kabinet i stål' ],
 		],
 	],
 	'guide'    => <<<'HTML'

@@ -20,11 +20,12 @@ HTML,
 			'name'    => 'Blendtec BLB-575',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Kraftig højhastighedsblender med forudindstillede programmer – fra smoothies til de hårdeste ingredienser.',
+			'verdict' => 'Kraftig højhastighedsblender med forudindstillede programmer, der klarer alt fra smoothies til de hårdeste ingredienser.',
 			'why'     => <<<'HTML'
-<p>Blendtec er kendt for meget kraftige blendere. Blenderen blev et hit på YouTube, fordi den kunne kværne alt fra hele kokosnødder til en iPhone, og den laver smoothies lige så bløde som på en café og kan blende på egen hånd med forudindstillede programmer.</p>
+<p>Blendtec BLB-575 er til dig, der bruger blenderen hver dag og vil have kræfter nok til det hele. Det er en kraftig højhastighedsblender, der laver bløde, cremede smoothies og ikke giver op over for nødder, frø og andre hårde ingredienser.</p>
+<p>De forudindstillede programmer gør arbejdet for dig: Du vælger programmet, trykker start, og blenderen kører færdig af sig selv. Så kan du skære frugt eller lave kaffe imens.</p>
 HTML,
-			'good'    => [ 'Smoothies hver dag', 'Nøddesmør og hårde ingredienser' ],
+			'good'    => [ 'Smoothies hver dag', 'Nøddesmør og hårde ingredienser', 'Dig, der vil have faste programmer' ],
 			'less'    => [ 'Små budgetter' ],
 		],
 		[
@@ -33,12 +34,14 @@ HTML,
 			'name'    => 'KitchenAid Artisan K400',
 			'role'    => 'Mest solid',
 			'reviews' => [],
-			'verdict' => 'Blender i formstøbt metal med 5 års garanti, der blender selv de hårdeste ingredienser.',
+			'verdict' => 'Solid blender i formstøbt metal med 1,4 liter glaskande, smarte programmer og 5 års garanti.',
 			'why'     => <<<'HTML'
-<p>KitchenAid Artisan K400 er bygget i formstøbt metal. Den blender selv de hårdeste ingredienser med et ensartet resultat, og den kommer med 5 års garanti. Den passer i stil til KitchenAid-røremaskinen.</p>
+<p>KitchenAid Artisan K400 er bygget til at blive brugt hver dag i mange år. Foden er i formstøbt metal, og der følger 5 års garanti med. Den er til dig, der vil have en blender, der både klarer hårde ingredienser og ser godt ud på køkkenbordet – den fås i en lang række farver.</p>
+<p>Motoren på 1,5 hk registrerer, hvad der er i kanden, og holder selv den rette hastighed. De asymmetriske knive i rustfrit stål giver en jævn konsistens. Du vælger mellem 5 hastigheder eller programmerne til knust is, isdrikke og smoothies – lige fra drejeknappen.</p>
+<p>Kanden er i glas og rummer 1,4 liter, så der er plads til suppe og drinks til hele familien. Bagefter klarer selvrensningen det meste af opvasken.</p>
 HTML,
-			'good'    => [ 'Dig, der vil have en blender, der holder', 'Design' ],
-			'less'    => [ 'Små køkkener' ],
+			'good'    => [ 'Dig, der vil have en blender, der holder', 'Smoothies, supper og drinks til familien', 'Design i mange farver' ],
+			'less'    => [ 'Små køkkener – den vejer 4 kg og er knap 39 cm høj' ],
 		],
 		[
 			'ean'     => '7044876099235',
@@ -46,12 +49,14 @@ HTML,
 			'name'    => 'Wilfa PowerFuel PB2B-1200',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Højhastighedsblender, der knuser is, nødder og frø – til smoothies, supper og babymad.',
+			'verdict' => '1200 W højhastighedsblender, der kan køre 10 minutter på fuld kraft og varme suppe op – med 10 års motorgaranti.',
 			'why'     => <<<'HTML'
-<p>Wilfa PowerFuel er en kraftig højhastighedsblender. Den knuser let is, laver smoothies, blender supper og saucer og hjemmelavet babymad, og den knuser nemt nødder og frø. Den er et godt valg, hvis du vil have en højhastighedsblender til en mere overkommelig pris.</p>
+<p>Wilfa PowerFuel PB2B-1200 er en kraftig højhastighedsblender til dig, der vil lave mere end smoothies. Den knuser is, nødder, frø og bønner, så du også kan lave nøddesmør og nøddemælk, supper, saucer og hjemmelavet babymad.</p>
+<p>Motoren på 1200 W driver fire knive i rustfrit stål op til 22.000 omdrejninger i minuttet. Den kan køre i 10 minutter ved højeste hastighed, og friktionen varmer indholdet op – på cirka 7–8 minutter når det 100 °C. Den medfølgende stamper har et indbygget termometer, så du kan holde øje med temperaturen. Tre programmer klarer varm suppe, iskold smoothie og grøntsagsdrik.</p>
+<p>Kanden er i tritan og meget lettere end glas, og gummihåndtaget giver et godt greb. M3 gav den fem ud af fem point i 2021, og der er 10 års garanti på motoren.</p>
 HTML,
-			'good'    => [ 'Smoothies og supper', 'Is og nødder' ],
-			'less'    => [ 'Dig, der vil have programmer' ],
+			'good'    => [ 'Smoothies, nøddemælk og varm suppe', 'Babymad med styr på temperaturen', 'Dig, der vil have meget kraft for pengene' ],
+			'less'    => [ 'Den fylder og vejer en del på bordet' ],
 		],
 		[
 			'ean'     => '8006447003002',
@@ -59,12 +64,14 @@ HTML,
 			'name'    => 'Nutribullet Personal Blender 900 W',
 			'role'    => 'Bedst personlig blender',
 			'reviews' => [],
-			'verdict' => 'Kompakt personlig blender på 900 W til hurtige smoothies direkte i flasken.',
+			'verdict' => 'Kompakt personlig blender med 900 W motor – de fleste smoothies er klar på under et minut.',
 			'why'     => <<<'HTML'
-<p>Nutribullet er en af de mest kendte personlige blendere. Denne model har en motor på 900 W, der er kraftig nok til krævende ingredienser, og ekstraktionsblade lavet til smoothies. Du blender direkte i bægeret og tager det med.</p>
+<p>Nutribullet Personal Blender er til dig, der vil have en sund smoothie hurtigt om morgenen uden at slæbe en stor blender frem. Du fylder bægeret, blender og drikker direkte fra det – læberingen gør det behageligt.</p>
+<p>Motoren på 900 W er kraftig nok til krævende ingredienser, og ekstraktionsbladene får det meste ud af frugt og grønt. Bægeret rummer 900 ml, så der er plads til en ordentlig portion, og de fleste smoothies er klar på under 60 sekunder. Bægeret er i BPA-fri tritan.</p>
+<p>Rengøringen tager et øjeblik: Skru knivdelen af og skyl den, og sæt bægrene på øverste hylde i opvaskemaskinen. Den fylder lidt og fås i flere farver.</p>
 HTML,
-			'good'    => [ 'Morgensmoothies', 'Små køkkener' ],
-			'less'    => [ 'Supper og store portioner' ],
+			'good'    => [ 'Morgensmoothies på farten', 'Små køkkener', 'Dig, der vil have nem rengøring' ],
+			'less'    => [ 'Supper og store portioner til hele familien' ],
 		],
 	],
 	'guide'    => <<<'HTML'

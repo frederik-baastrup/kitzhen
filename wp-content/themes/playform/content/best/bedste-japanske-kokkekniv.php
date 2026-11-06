@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Kai Shun Classic kokkekniv 15 cm',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Klassisk Shun-kniv med blad i 32 lag rustfrit stål og en hård kerne af VG-MAX.',
+			'verdict' => 'Kort og adræt kokkekniv med 32 lag rustfrit stål omkring en hård kerne af VG-MAX.',
 			'why'     => <<<'HTML'
-<p>Kai Shun Classic er en af de mest kendte japanske knivserier. Bladet er fremstillet i 32 lag rustfrit stål med en hård stålkerne af VG-MAX, en videreudvikling af VG-10. Med 15 cm er den kort og let at styre.</p>
+<p>Kai Shun Classic 15 cm er den lille kokkekniv til dig, der vil have japansk skarphed i en størrelse, der er let at styre. Den er lavet til de mindre og mere præcise opgaver: fint hakkede krydderurter, tynde skiver løg og hvidløg og små stykker fisk.</p>
+<p>Bladet er bygget op af 32 lag rustfrit stål omkring en hård kerne af VG-MAX, som er en videreudvikling af det velkendte VG-10-stål. Den hårde kerne giver en æg, der kan slibes meget skarp, mens lagene udenpå beskytter og gør bladet robust.</p>
+<p>Skæftet er i sortbejdset birketræ og giver et behageligt og sikkert greb, også når du står længe ved skærebrættet. Vask den i hånden og tør den af med det samme, så har du glæde af den i mange år.</p>
 HTML,
-			'good'    => [ 'Præcist arbejde med grønt og fisk', 'Mindre hænder' ],
-			'less'    => [ 'Store stykker kød og store grøntsager' ],
+			'good'    => [ 'Præcist arbejde med grønt, urter og fisk', 'Mindre hænder', 'Dig, der vil have et kendt japansk mærke' ],
+			'less'    => [ 'Store stykker kød og store grøntsager som kål og græskar' ],
 		],
 		[
 			'ean'     => '4009839308048',
@@ -33,11 +35,13 @@ HTML,
 			'name'    => 'Miyabi 6000 MCT Gyutoh 24 cm',
 			'role'    => 'Bedst lang kniv',
 			'reviews' => [],
-			'verdict' => 'Lang gyuto fra Miyabi med enorm hårdhed og skarphed.',
+			'verdict' => 'Is-hærdet MC63-stål med 63 HRC og Honbazuke-slibning giver en ekstremt skarp og hård gyuto.',
 			'why'     => <<<'HTML'
-<p>Miyabi laver japanske knive i Seki. 6000 MCT Gyutoh har en enorm hårdhed og skarphed, og du mærker forskellen, når du skærer, hakker eller fileterer. Med 24 cm er den god til store grøntsager og kød.</p>
+<p>Miyabi 6000 MCT Gyutoh er kniven til dig, der vil mærke, hvor let en rigtig skarp kniv glider gennem råvarerne. Med et blad på 24 cm klarer den store opgaver som hele kålhoveder, græskar, steg og filetering af større stykker kød.</p>
+<p>Bladet er i MC63-stål, der er is-hærdet ved -196 °C og når en hårdhed på 63 HRC. Det betyder, at æggen holder sin skarphed meget længe. Honbazuke-slibningen giver en meget skarp æg, og den hamrede Tsuchime-overflade gør bladet smukt at se på.</p>
+<p>Skæftet er i pakkatræ og har en buet form, der ligger naturligt i hånden, så du kan arbejde længe uden at blive træt – uanset om du hakker, skærer eller trækker snittet. Vask den i hånden for at passe på den hårde æg.</p>
 HTML,
-			'good'    => [ 'Store grøntsager og kød', 'Erfarne brugere' ],
+			'good'    => [ 'Store grøntsager, steg og fisk', 'Erfarne hobbykokke', 'Dig, der vil have en æg, der holder længe' ],
 			'less'    => [ 'Begyndere og små skærebrætter' ],
 		],
 		[
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Satake Ame Gyuto 21 cm',
 			'role'    => 'Smukkest',
 			'reviews' => [],
-			'verdict' => 'Gyuto fra Satakes Ame-serie med blad inspireret af regn.',
+			'verdict' => 'Gyuto i 5 lag AUS10-stål med 60–61 HRC og et unikt, håndlavet skæfte af lærketræ.',
 			'why'     => <<<'HTML'
-<p>Ame betyder regn på japansk, og knivene i Satakes Ame-kollektion er dekoreret med inspiration fra kraftigt regnvejr. Gyutoen på 21 cm er en klassisk japansk kokkekniv i en god allround-længde.</p>
+<p>Satake Ame Gyuto er en kniv, du både får lyst til at bruge og til at vise frem. Ame betyder regn på japansk, og bladet er dekoreret med et mønster inspireret af kraftigt regnvejr. Med 21 cm er det en alsidig længde, der klarer det meste fra løg og gulerødder til kød og fisk.</p>
+<p>Bladet er i 5 lag AUS10-stål med en hårdhed på 60–61 HRC, så det er skarpt og holder æggen godt. Skæftet er håndlavet af japansk lærketræ – af de knudrede udvækster, hvor årerne løber i alle retninger. Derfor ser intet skæfte ens ud, og din kniv bliver helt din egen.</p>
+<p>Vask den kun i hånden, og giv den en tur på slibestenen jævnligt, så bevarer den skarpheden.</p>
 HTML,
-			'good'    => [ 'Allround-brug', 'Gaver' ],
-			'less'    => [ 'Dig, der vil have det mest kendte mærke' ],
+			'good'    => [ 'Allround-brug i køkkenet', 'Gaver til madglade', 'Dig, der vil have en kniv med personlighed' ],
+			'less'    => [ 'Dig, der ikke vil slibe og vaske i hånden' ],
 		],
 		[
 			'ean'     => '4950673107697',
@@ -59,11 +65,13 @@ HTML,
 			'name'    => 'MAC Black Fluorine kokkekniv 18 cm',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Japansk kniv i højkulstofstål med et ultratyndt blad på 2 mm og hårdhed 58–59 HRC.',
+			'verdict' => 'Ultratyndt blad på 2 mm i højkulstofstål og en fluorbelægning, der er let at holde ren.',
 			'why'     => <<<'HTML'
-<p>MAC Black Fluorine er en japansk stålkniv i højkulstofstål med krom, molybdæn og vanadium. Bladet har en hårdhed på 58–59 HRC og er kun 2 mm tyndt, håndtaget er i pakkatræ, og en fluorbelægning modvirker misfarvning. Til prisen er det en meget skarp kniv.</p>
+<p>MAC Black Fluorine 18 cm er en oplagt første japanske kniv. Det kun 2 mm tynde blad glider let gennem tomater, løg, kød, fisk og frugt, så du får rene, præcise snit uden at mase råvarerne.</p>
+<p>Stålet er højkulstofstål med krom, molybdæn og vanadium og har en hårdhed på 58–59 HRC. Det giver en skarp æg, der stadig er til at vedligeholde. Bladet har en sort fluorbelægning, der modvirker misfarvning og gør det let at tørre rent. Håndtaget i pakkatræ giver en god balance og et sikkert greb.</p>
+<p>Vask den i hånden, tør den af med det samme, og opbevar den på en knivliste, så æggen ikke tager skade i skuffen.</p>
 HTML,
-			'good'    => [ 'Dig, der vil prøve en japansk kniv', 'Præcisionsskæring' ],
+			'good'    => [ 'Dig, der vil prøve en japansk kniv', 'Præcise snit i grønt, kød og fisk', 'Nem rengøring' ],
 			'less'    => [ 'Hårdt arbejde med ben og frosne varer' ],
 		],
 	],
