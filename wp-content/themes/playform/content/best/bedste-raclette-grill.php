@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Tefal Gourmet Nordic Spirit raclette 8 personer',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Raclette til otte personer – et naturligt samlingspunkt for familie og venner.',
+			'verdict' => 'Raclette, grill og plancha i én – med Thermo-Spot, der viser, når pladen er varm nok.',
 			'why'     => <<<'HTML'
-<p>Tefal Gourmet Nordic Spirit har kapacitet til otte personer og skaber rammerne for hyggelige stunder, hvor alle tilbereder deres egen mad i eget tempo.</p>
+<p>Tefal Gourmet Nordic Spirit er tre apparater i ét: raclette, grill og plancha. Mens osten smelter i de ekstra dybe pander, griller I kød, fisk og grøntsager på pladen ovenpå. Med otte pander har alle ved bordet deres egen, og ingen skal vente på tur.</p>
+<p>Tefals Thermo-Spot viser, når stegefladen har den rette temperatur, så de første stykker bliver lige så gode som de sidste. Den titanforstærkede non-stick-belægning gør, at maden slipper let, og de 1350 W varmer hurtigt op og holder varmen hele aftenen.</p>
+<p>Oprydningen er også tænkt ind: Ledningen kan tages af, og de løse dele tåler opvaskemaskine. Træbenene giver et nordisk look, der passer fint på middagsbordet.</p>
 HTML,
-			'good'    => [ 'Store familier og gæster' ],
-			'less'    => [ 'To personer' ],
+			'good'    => [ 'Familier og gæster op til 8 personer', 'Dig, der også vil grille og bruge plancha', 'Nem oprydning' ],
+			'less'    => [ 'Mindre husstande, der sjældent er mere end to' ],
 		],
 		[
 			'ean'     => '4211129116497',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'WMF Lono Raclette',
 			'role'    => 'Nemmest at gøre ren',
 			'reviews' => [],
-			'verdict' => 'Raclette med aftagelig, ridsefast non-stick grillplade, der tåler opvaskemaskine.',
+			'verdict' => 'Raclette i rustfrit Cromargan-stål med justerbar varme og dele, der kan komme i opvaskemaskinen.',
 			'why'     => <<<'HTML'
-<p>WMF Lono har en aftagelig grillplade med non-stick-belægning, der både er ridsefast og tåler opvaskemaskine. Det er en stor fordel efter en lang raclette-aften.</p>
+<p>WMF Lono er racletten til dig, der vil have kvalitet, der holder. Kabinettet er i WMF's rustfrie Cromargan-stål, og den aftagelige grillplade har en ridsefast non-stick-belægning. Pladen kan bruges til alt fra saftige bøffer til pandekager.</p>
+<p>Du styrer selv varmen med flere temperaturindstillinger, så du kan skrue ned, når snakken går, og op, når der skal grilles. De 1500 W giver kræfter nok til en hel aftens raclette.</p>
+<p>Med følger 8 non-stick-pander og 8 spatler. De tåler opvaskemaskine ligesom grillpladen, så oprydningen efter festen tager få minutter.</p>
 HTML,
-			'good'    => [ 'Nem oprydning', 'Hele året' ],
-			'less'    => [ 'Meget store selskaber' ],
+			'good'    => [ 'Nem oprydning', 'Dig, der vil styre varmen', 'Raclette hele året' ],
+			'less'    => [ 'Dig, der vil have den letteste model (6,5 kg)' ],
 		],
 		[
 			'ean'     => '8711658519906',
@@ -48,9 +52,11 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Fem funktioner i ét: raclette, grill, ostefondue, chokoladefondue og oliefondue.',
 			'why'     => <<<'HTML'
-<p>Princess Raclette &amp; Fondue kombinerer fem funktioner: raclette, grill, ostefondue, chokoladefondue og oliefondue. Den er perfekt, hvis du både vil have raclette og fondue uden to apparater.</p>
+<p>Princess Raclette &amp; Fondue er det oplagte valg, hvis I vil have både raclette og fondue uden at fylde skabet med to apparater. Den klarer raclette, grill, ostefondue, chokoladefondue og oliefondue, så én aften kan starte med grillmad og slutte med frugt dyppet i chokolade.</p>
+<p>Grillpladen på 31 × 31 cm har en ridsefast keramisk belægning, der fordeler varmen jævnt og er nem at gøre ren. Den dobbelte termostat lader dig styre raclette og fondue hver for sig, og de 1800 W giver masser af kraft.</p>
+<p>Alt er med i kassen: fonduegryde på 1,3 liter, 8 raclettepander, 8 spatler og 8 fonduegafler. De skridsikre fødder og ledningen på 2 meter gør den nem at placere midt på bordet.</p>
 HTML,
-			'good'    => [ 'Fondue og raclette', 'Hyggeaftener' ],
+			'good'    => [ 'Fondue og raclette i ét', 'Op til 8 personer', 'Dig, der vil have mest for pengene' ],
 			'less'    => [ 'Dig, der kun vil have raclette' ],
 		],
 	],
