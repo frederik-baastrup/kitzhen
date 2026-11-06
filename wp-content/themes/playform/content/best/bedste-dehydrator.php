@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Steba ED6',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Dehydrator med 6 indsatse i rustfrit stål og justerbar temperatur.',
+			'verdict' => 'Seks stålriste, 35–90 °C og timer op til 24 timer – så du kan tørre alt fra urter til kød.',
 			'why'     => <<<'HTML'
-<p>Steba ED6 er lavet med 6 indsatse i rustfrit stål, hvor du kan lægge frugt, grøntsager og krydderurter, og temperaturen kan indstilles. Riste i stål er nemmere at holde rene end plast.</p>
+<p>Steba ED6 er dehydratoren til dig, der vil tørre meget og tørre det rigtigt. Den har seks indsatse i rustfrit stål, hver med en tørreflade på 37 × 30 cm, så der er god plads til æbleskiver, tomater, svampe og krydderurter på én gang.</p>
+<p>Temperaturen stiller du elektronisk mellem 35 og 90 °C. Det giver et bredt spænd: lav varme til skrøbelige urter og høj varme, når du laver jerky. Timeren går fra 1 til 24 timer, så du kan sætte den i gang om aftenen og lade den slukke af sig selv. De 800 W sørger for, at den kan holde varmen stabil.</p>
+<p>Ristene i stål er nemme at vaske og slipper for plast. Den måler 36,5 × 29 × 47,5 cm og vejer 7,2 kg, så den skal have en fast plads i køkkenet.</p>
 HTML,
-			'good'    => [ 'Frugt, grønt og urter', 'Dig, der vil undgå plast' ],
-			'less'    => [ 'Meget store mængder' ],
+			'good'    => [ 'Dig, der tørrer store portioner', 'Både urter, frugt og kød', 'Dig, der vil undgå plastriste' ],
+			'less'    => [ 'Små køkkener – den er 47,5 cm dyb og vejer 7,2 kg' ],
 		],
 		[
 			'ean'     => '12315684',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'NOD dehydrator med nonstick-net',
 			'role'    => 'Bedst til frugtlæder',
 			'reviews' => [],
-			'verdict' => 'Kompakt dehydrator med fem etager og nonstick-net og -ark til små bær og frugtlæder.',
+			'verdict' => 'Kompakt med fem etager, digital skærm og hele seks nonstick-dele til bær, urter og frugtlæder.',
 			'why'     => <<<'HTML'
-<p>NODs dehydrator er kraftfuld og kompakt med fem etager og to nonstick-tilbehør: et net til små bær og et ark til frugtlæder.</p>
+<p>NOD dehydratoren er til dig, der vil lave frugtlæder, tørre bær og små urter uden at noget falder gennem ristene. Den er kompakt, så den passer ind i de fleste køkkener, og den har fem etager, som kan udvides til syv, når høsten er stor.</p>
+<p>I kassen ligger et nonstick-net til små bær, et nonstick-ark til frugtlæder og yderligere fire nonstick-net. Det betyder, at selv svampeskiver og blade har noget at ligge på, og at intet hænger fast. Temperatur og tid stiller du på den digitale skærm, og motoren på 500 W sørger for en jævn luftcirkulation.</p>
+<p>Et godt råd: Byt rundt på etagerne undervejs, især når den er fyldt helt op. Så bliver alt lige tørt.</p>
 HTML,
-			'good'    => [ 'Frugtlæder og bær', 'Små køkkener' ],
-			'less'    => [ 'Kød i store mængder' ],
+			'good'    => [ 'Frugtlæder, bær og urter', 'Små køkkener', 'Dig, der vil kunne udvide til syv etager' ],
+			'less'    => [ 'Etagerne skal byttes rundt for et jævnt resultat' ],
 		],
 		[
 			'ean'     => '8712836318861',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Princess dehydrator',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Enkel tørreovn til frugt, grøntsager og urter til en lav pris.',
+			'verdict' => 'Let og enkel tørreovn med seks niveauer og 40–70 °C – en nem start på at tørre selv.',
 			'why'     => <<<'HTML'
-<p>Princess' tørreovn er en praktisk boks til at tørre frugt, grøntsager og urter hurtigt og effektivt. Den er et godt sted at starte.</p>
+<p>Princess' dehydrator er det nemme første skridt, hvis du vil prøve at tørre frugt, grøntsager og krydderurter selv. Den bevarer smagen i råvarerne, så æbler, tomater og urter fra haven kan holde langt ind i vinteren.</p>
+<p>Med seks niveauer er der plads til en god portion ad gangen, og temperaturen justerer du mellem 40 og 70 °C – det spænd, de fleste frugter, grøntsager og urter skal tørres ved. De 350 W holder strømforbruget nede, selv når den kører mange timer.</p>
+<p>Den måler 36,5 × 21,5 × 36,5 cm og vejer kun 2,88 kg, så den er let at flytte frem og stille i skabet igen, når den ikke er i brug.</p>
 HTML,
-			'good'    => [ 'Begyndere', 'Lavt budget' ],
-			'less'    => [ 'Store mængder' ],
+			'good'    => [ 'Begyndere', 'Frugt, grønt og urter', 'Dig, der vil kunne gemme den væk' ],
+			'less'    => [ 'Dig, der vil have mere end 70 °C', 'Meget store mængder ad gangen' ],
 		],
 	],
 	'guide'    => <<<'HTML'

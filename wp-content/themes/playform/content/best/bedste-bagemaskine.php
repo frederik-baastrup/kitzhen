@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'OBH Nordica bagemaskine, stål',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Fuldautomatisk bagemaskine, der ælter, hæver og bager – med udtagelig nonstick-bageform.',
+			'verdict' => '12 programmer, timer på op til 13 timer og hold varm i en time – friskbagt brød, når det passer dig.',
 			'why'     => <<<'HTML'
-<p>OBH Nordicas bagemaskine er fuldautomatisk: den ælter, hæver og bager brødet, mens du laver noget andet, og den har en udtagelig nonstick-bageform med håndtag, der er nem at rengøre.</p>
+<p>OBH Nordicas bagemaskine i stål gør hjemmebagt brød til en hverdagsting. Du hælder ingredienserne i, og maskinen ælter, hæver og bager helt af sig selv. Den passer til dig, der gerne vil vågne op til duften af nybagt brød uden at stå tidligt op.</p>
+<p>Du vælger mellem 12 programmer, blandt andet fuldkorn og hurtigbagning, og to brødstørrelser på 750 og 900 g. Skorpen kan bages lys eller mørk efter smag. Med timeren på op til 13 timer sætter du den i gang om aftenen, og bagefter holder den brødet lunt i op til 60 minutter. Gennem vinduet i låget kan du følge med undervejs.</p>
+<p>Bageformen med nonstick tages ud i håndtaget og er nem at gøre ren. Målebæger og opskrifter følger med – også en opskrift på glutenfrit brød.</p>
 HTML,
-			'good'    => [ 'Morgenbrød med timer', 'Nem rengøring' ],
-			'less'    => [ 'Store brød' ],
+			'good'    => [ 'Morgenbrød klar, når du står op', 'Familier, der spiser 750–900 g brød ad gangen', 'Nem rengøring' ],
+			'less'    => [ 'Dig, der vil bage brød større end 900 g' ],
 		],
 		[
 			'ean'     => '4016432428233',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'Gastroback Design brødmaskine Advanced',
 			'role'    => 'Flest muligheder',
 			'reviews' => [],
-			'verdict' => 'Bagemaskine fra Gastroback, der kan mere end en almindelig bagemaskine.',
+			'verdict' => '18 programmer, automatisk ingrediensbeholder og tre brødstørrelser – fra 500 g til et helt kilo.',
 			'why'     => <<<'HTML'
-<p>Gastrobacks Design Advanced er mere end bare en almindelig bagemaskine, der gør det nemt at bage frisk brød derhjemme.</p>
+<p>Gastroback Design Advanced er til dig, der vil have mere end brød ud af din bagemaskine. Med 18 faste programmer bager den fuldkornsbrød, franskbrød, søde brød, glutenfrit brød og risbrød – og den laver også kage, marmelade og yoghurt. Køber du den særlige isbeholder til, kan den endda lave is.</p>
+<p>Den automatiske ingrediensbeholder drysser nødder, kerner, tørret frugt eller chokolade i på det rigtige tidspunkt, så det fordeler sig jævnt i dejen. Du vælger brødstørrelse på 500, 750 eller 1000 g og tre grader af skorpe. Timeren sørger for, at brødet er færdigt, når du vil have det, og bagefter holdes det varmt i op til 60 minutter.</p>
+<p>Bageform og æltekrog har nonstick, så rengøringen er hurtigt klaret. Kabinettet er i rustfrit stål.</p>
 HTML,
-			'good'    => [ 'Dig, der vil eksperimentere', 'Design' ],
-			'less'    => [ 'Lavt budget' ],
+			'good'    => [ 'Dig, der vil eksperimentere med brød, kage og marmelade', 'Store familier – brød op til 1 kg', 'Brød med nødder og kerner' ],
+			'less'    => [ 'Lavt budget', 'Is kræver en isbeholder, der købes ekstra' ],
 		],
 		[
 			'ean'     => '4011833001283',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Steba BM3',
 			'role'    => 'Godt alternativ',
 			'reviews' => [],
-			'verdict' => 'Bagemaskine, der laver brød, kager og marmelade.',
+			'verdict' => 'Kompakt bagemaskine med touch-display, 12 programmer og forskudt start på op til 13 timer.',
 			'why'     => <<<'HTML'
-<p>Steba BM3 kan lave brød, kager, marmelade og mere – du tilføjer ingredienserne, og maskinen klarer arbejdet.</p>
+<p>Steba BM3 er en kompakt bagemaskine til den mindre husstand. Du kommer ingredienserne i, og den klarer resten – brød, kage og marmelade. Den bager brød på 500 eller 750 g, så du får friskt brød uden at have rester, der bliver tørre.</p>
+<p>Du betjener den via et touch-display og vælger mellem 12 programmer og tre skorpefarver: lys, mellem og mørk. Med forskudt start på op til 13 timer kan brødet stå klar, når du kommer hjem fra arbejde, og det holdes varmt i op til en time efter bagning. Gennem det lille vindue i låget kan du holde øje med brødet.</p>
+<p>Med 24 cm i bredden og en vægt på 4,65 kg tager den ikke meget plads på bordet. Bageskålen har nonstick, og målebæger, måleske og opskrifter følger med.</p>
 HTML,
-			'good'    => [ 'Brød og marmelade' ],
-			'less'    => [ 'Dig, der vil forme brødet selv' ],
+			'good'    => [ 'Singler og par', 'Små køkkener med begrænset plads', 'Friskt brød, når du kommer hjem' ],
+			'less'    => [ 'Store familier – største brød er 750 g' ],
 		],
 	],
 	'guide'    => <<<'HTML'

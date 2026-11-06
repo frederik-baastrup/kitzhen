@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Gourmetstål Classic pizzastål',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Pizzastål, der ikke knækker ved store temperaturudsving – og som vejer 9 kg.',
+			'verdict' => 'Et solidt 1 cm tykt stål på 33 × 37 cm, der giver sprød bund i både ovn og grill – med 20 års funktionsgaranti.',
 			'why'     => <<<'HTML'
-<p>Gourmetstål Classic fungerer som en pizzasten, bare af stål. Stålet knækker ikke ved store temperaturudsving, og pladen vejer 9 kg. Vægten er en fordel: jo mere stål, jo mere varme til bunden.</p>
+<p>Gourmetstål Classic er det oplagte valg, hvis du vil bage pizza som i en rigtig pizzeria hjemme i din egen ovn. Pladen gør det samme som en pizzasten, men er lavet af varmvalset stål, så den tåler store temperaturudsving uden at knække. Du kan bruge den både i ovnen og på grillen.</p>
+<p>Med en tykkelse på 1 cm og en vægt på 9 kg rummer stålet masser af varme. Det betyder, at bunden bliver sprød, og at du kan bage den ene pizza efter den anden uden lang ventetid. Fladen på 33 × 37 cm giver plads til en god familiepizza eller et stort brød.</p>
+<p>I kassen ligger et opskriftshæfte og en plejevejledning, så du kommer godt fra start. Stålet skal vaskes i hånden, og Gourmetstål giver 20 års funktionsgaranti.</p>
 HTML,
-			'good'    => [ 'Pizza og brød i ovnen', 'Grill' ],
-			'less'    => [ 'Dig, der skal løfte den ofte' ],
+			'good'    => [ 'Dig, der bager mange pizzaer i træk', 'Pizza og brød i ovnen og på grillen', 'Dig, der vil have noget, der holder' ],
+			'less'    => [ 'Dig, der skal løfte den ofte (9 kg)', 'Skal vaskes i hånden' ],
 		],
 		[
 			'ean'     => '7350101311721',
@@ -33,11 +35,13 @@ HTML,
 			'name'    => 'Kockums Jernverk bage-/pizzastål 35 cm',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Bagestål i 6 mm kulstofstål fra SSAB, fremstillet i Sverige.',
+			'verdict' => 'Svensk bagestål i 6 mm kulstofstål, der kan bruges i ovnen, på induktion, på grillen og over bål.',
 			'why'     => <<<'HTML'
-<p>Kockums Jernverks bagestål fremstilles i Sverige af 6 mm kulstofstål fra SSAB, og stålet holder optimalt på varmen, så både pizza og brød får skorpe og krumme.</p>
+<p>Kockums Jernverk bage-/pizzastål er til dig, der vil have sprøde pizzaer og brød med en flot skorpe og en luftig krumme. Det runde stål måler 35 cm i diameter og er lavet i Sverige af 6 mm kulstofstål fra SSAB.</p>
+<p>Kulstofstålet holder godt på varmen, og det er netop den varme, der giver bunden sprødhed. Samtidig er det meget alsidigt: Du kan lægge det i ovnen, sætte det på induktionskomfuret, på grillen eller over åben ild. Brug det til pizza den ene dag og til burgerbøffer den næste.</p>
+<p>Med 4,71 kg er det til at løfte ind og ud af ovnen. Det skal vaskes i hånden, og der følger 10 års garanti med.</p>
 HTML,
-			'good'    => [ 'Brød med skorpe', 'Lavt budget' ],
+			'good'    => [ 'Dig, der vil bruge stålet til mere end pizza', 'Brød med skorpe og luftig krumme', 'Lavere budget' ],
 			'less'    => [ 'Store pizzaer over 35 cm' ],
 		],
 		[
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Gourmetstål rundt pizzastål 30 cm',
 			'role'    => 'Bedst til grill og små ovne',
 			'reviews' => [],
-			'verdict' => 'Rundt pizzastål på 30 cm, der passer i mindre ovne og på grillen.',
+			'verdict' => 'Kompakt rundt pizzastål på 30 cm i varmvalset stål – med stofpose og 20 års funktionsgaranti.',
 			'why'     => <<<'HTML'
-<p>Gourmetståls runde pizzastål er inspireret af den klassiske pizzasten, og du skal ikke være nervøs for, at det knækker. Den runde form passer godt på grillen og i mindre ovne.</p>
+<p>Gourmetståls runde pizzastål giver dig pizzaovnsfølelsen i et kompakt format. Det er tænkt som en klassisk pizzasten, men i robust stål, så du ikke skal være nervøs for, at det knækker. Med 30 cm i diameter passer det godt til mindre ovne og runde pizzaer til en eller to personer.</p>
+<p>Stålet er varmvalset og 6 mm tykt, så det tager varmen godt og giver bunden et sprødt resultat. Har du brug for mere plads, findes samme model også i 39 cm.</p>
+<p>Med i kassen er et opskriftshæfte, en plejevejledning og en stofpose, som stålet kan ligge i, når det ikke er i brug. Det skal vaskes i hånden, og Gourmetstål giver 20 års funktionsgaranti.</p>
 HTML,
-			'good'    => [ 'Grill og kamado', 'Små ovne' ],
-			'less'    => [ 'Brød og store pizzaer' ],
+			'good'    => [ 'Små ovne og runde pizzaer', 'Dig, der vil have et stål, der er nemt at gemme væk' ],
+			'less'    => [ 'Brød og store familiepizzaer' ],
 		],
 	],
 	'guide'    => <<<'HTML'

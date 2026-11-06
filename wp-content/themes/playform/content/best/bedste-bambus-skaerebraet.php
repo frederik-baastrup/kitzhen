@@ -20,13 +20,14 @@ HTML,
 			'name'    => 'Satake skærebræt i bambus 50 x 38 cm',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Stort og tykt skærebræt i bambus på 50 x 38 x 3,8 cm med saftrille på den ene side.',
+			'verdict' => 'Stort, tungt bambusbræt på 50 x 38 x 3,8 cm med to brugssider og saftrille til kød.',
 			'why'     => <<<'HTML'
-<p>Satakes skærebræt er stort og kraftigt. Det måler 50 x 38 x 3,8 cm og kan bruges på begge sider – den ene side har en saftrille, der samler saft fra kød og andre råvarer.</p>
-<p>Størrelsen giver plads til at skære en hel kylling eller en steg ud, og tykkelsen gør, at brættet ligger stabilt.</p>
+<p>Satakes bambusbræt er til dig, der laver meget mad og vil have god plads at arbejde på. Med 50 x 38 cm har du plads til en hel kylling, en steg eller en stor portion grøntsager på én gang, og de 3,8 cm i tykkelse giver et solidt bræt, der ikke danser rundt på bordet.</p>
+<p>Brættet har to brugssider. Den ene har en saftrille, der fanger kødsaft og væde fra råvarerne, så køkkenbordet forbliver tørt. Den anden er glat og klar til brød, urter og grønt. Bambussen er skånsom mod knivene, og brættet leveres med en beskyttende oliefinish, så du kan gå i gang med det samme.</p>
+<p>Vask det i hånden med lunkent vand og lidt sæbe, tør det godt af, og giv det en tår brætolie eller bivoks, når træet ser tørt ud. Det kan ikke komme i opvaskemaskinen.</p>
 HTML,
-			'good'    => [ 'Kød og store mængder grøntsager', 'Dig, der har god plads' ],
-			'less'    => [ 'Små køkkener og opvaskemaskinen' ],
+			'good'    => [ 'Dig, der skærer kød ud', 'Store portioner og familiemad', 'To sider til forskellige råvarer' ],
+			'less'    => [ 'Små køkkener – det fylder og vejer 4,65 kg', 'Opvaskemaskinen' ],
 		],
 		[
 			'ean'     => '5706631214667',
@@ -34,13 +35,14 @@ HTML,
 			'name'    => 'Eva Solo Green Tool skærebræt med saftrille',
 			'role'    => 'Mest stabilt',
 			'reviews' => [],
-			'verdict' => 'Skridsikkert skærebræt i bambus med silikonekant, silikonefødder og saftrille.',
+			'verdict' => 'Bambusbræt med silikonekant og silikonefødder, der holder det helt på plads, og saftrille langs kanten.',
 			'why'     => <<<'HTML'
-<p>Eva Solos skærebræt fra Green Tool-serien er lavet til, at det ikke glider. Det har en silikonekant og små silikonefødder under, så det står stabilt, og en praktisk saftrille.</p>
-<p>Et bræt, der ikke glider, er både mere sikkert og mere behageligt at skære på.</p>
+<p>Eva Solos bræt fra Green Tool-serien er til dig, der er træt af skærebrætter, der glider, når du hakker løs. Silikonekanten og de små silikonefødder under brættet holder det fast på bordet, så du kan arbejde hurtigt og sikkert.</p>
+<p>Med 39 x 28 cm er det en handy hverdagsstørrelse, der ikke fylder hele bordet. Saftrillen langs kanten samler væde fra frugt, grønt og kød, så det ikke løber ud over bordpladen. Bambussen er hård og holdbar, så brættet kan tåle daglig brug i mange år.</p>
+<p>Det stilrene udtryk gør, at du også kan sætte det på bordet som serveringsfad til brød, ost, tapas og pålæg. Vask det i hånden med varmt vand og opvaskemiddel, og olier det jævnligt.</p>
 HTML,
-			'good'    => [ 'Dig, der er træt af brætter, der glider', 'Hverdagsbrug' ],
-			'less'    => [ 'Servering' ],
+			'good'    => [ 'Dig, der vil have et bræt, der ikke glider', 'Hverdagsmadlavning', 'Servering af ost og tapas' ],
+			'less'    => [ 'Store stege – fladen er lidt mindre' ],
 		],
 		[
 			'ean'     => '5028420601428',
@@ -48,13 +50,14 @@ HTML,
 			'name'    => 'Joseph Joseph Cut & Carve 40 x 30 cm',
 			'role'    => 'Bedst til kød',
 			'reviews' => [],
-			'verdict' => 'Bambusbræt med vinklet skæreflade, der samler saft og krummer.',
+			'verdict' => 'Vinklet skæreflade, der samler saft og krummer, og en ru midte, der holder steg og brød på plads.',
 			'why'     => <<<'HTML'
-<p>Joseph Joseph Cut &amp; Carve er lavet i slidstærkt bambus. Den vinklede skæreflade samler væske og brødkrummer, så de ikke ender på køkkenbordet.</p>
-<p>Det gør brættet særligt godt til at skære steg og kylling ud.</p>
+<p>Joseph Joseph Cut &amp; Carve er skærebrættet til dig, der ofte skærer steg, kylling eller friskbagt brød ud. Skærefladen hælder svagt, så saft og krummer løber mod kanten i stedet for ud på bordet.</p>
+<p>Midt på brættet er overfladen struktureret, så kødet og brødet ligger stille, mens du skærer. Det giver pænere skiver og færre glid med kniven. Hjørnerne er formet, så du nemt kan hælde den opsamlede saft direkte over i saucen eller af i vasken.</p>
+<p>Brættet måler 40 x 30 cm og er lavet af slidstærkt bambus, der kan tåle både vand og knive. Joseph Joseph giver 2 års garanti.</p>
 HTML,
-			'good'    => [ 'Steg og kylling', 'Brød' ],
-			'less'    => [ 'Dig, der vil bruge begge sider' ],
+			'good'    => [ 'Steg, kylling og søndagsmad', 'Friskbagt brød', 'Dig, der vil hælde saften fra' ],
+			'less'    => [ 'Dig, der vil have en helt flad side at hakke på' ],
 		],
 		[
 			'ean'     => '7392753512699',
@@ -62,11 +65,13 @@ HTML,
 			'name'    => 'Dorre Kombo skærebræt 40 x 30 cm',
 			'role'    => 'Bedst til servering',
 			'reviews' => [],
-			'verdict' => 'Skærebræt i 100 % bambus med skakternet mønster – også pænt til ost og tapas.',
+			'verdict' => 'Skærebræt i 100 % bambus med skakternet mønster, der er lige så flot på bordet som i køkkenet.',
 			'why'     => <<<'HTML'
-<p>Dorre Kombo har et skakternet mønster, der gør brættet egnet til både madlavning og servering. Det er lavet af 100 % bambus og oplagt til ost, charcuteri, snacks og tapas.</p>
+<p>Dorre Kombo er brættet til dig, der vil have noget pænt at se på – både mens du laver mad, og når du serverer. Det skakternede mønster giver brættet et særpræg, som gør det oplagt at sætte direkte på bordet med ost, pølser, snacks eller tapas.</p>
+<p>Brættet er lavet af 100 % bambus, der er hårdt og holdbart og kan tage imod hverdagens hakken og skæren. Med 40 x 30 cm og 3 cm i tykkelse har du en god arbejdsflade, der ligger solidt på bordet.</p>
+<p>Det flotte udtryk gør det også til en god gave til en, der holder af at have gæster. Vask det i hånden, og giv det lidt olie en gang imellem.</p>
 HTML,
-			'good'    => [ 'Ost, tapas og charcuteri', 'Gaver' ],
+			'good'    => [ 'Ost, tapas og pålæg', 'Gaver', 'Dig, der vil have et bræt med særpræg' ],
 			'less'    => [ 'Meget saftigt kød' ],
 		],
 	],
