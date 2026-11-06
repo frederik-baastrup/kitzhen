@@ -33,12 +33,14 @@ HTML,
 			'name'    => 'Sage The Risotto Plus',
 			'role'    => 'Bedst til risotto',
 			'reviews' => [],
-			'verdict' => 'Riskoger fra Sage, der laver risotto uden at du skal stå og røre.',
+			'verdict' => 'Laver cremet risotto helt uden omrøring – og kan også sautere, dampe ris og slow cooke i 3,7 liter.',
 			'why'     => <<<'HTML'
-<p>Sage Risotto Plus er lavet til risotto. Den gør det nemt at lave risotto helt uden at røre i den – normalt det mest tidskrævende ved retten. Den kan også bruges som almindelig riskoger.</p>
+<p>Sage The Risotto Plus er til dig, der elsker risotto, men ikke gider stå ved komfuret og røre i en halv time. Maskinen klarer omrøringen selv, så du kan dække bord, lave salat eller hælde et glas vin op imens.</p>
+<p>Den har fem faste programmer: risotto, sauté, dampede ris samt slow cook på lav og høj varme. Du kan altså svitse løg og ris i samme gryde, før risottoen går i gang, eller brune kød og lade en gryderet simre i timevis. Med 3,7 liter er der plads til familiemiddagen, og hold varm-funktionen sørger for, at maden er klar, når alle sidder ved bordet.</p>
+<p>I kassen følger et rismål, en serveringsske og en kogesi i rustfrit stål til dampning. Gryden kan tages op og skylles under hanen. Sage giver 2 års garanti.</p>
 HTML,
-			'good'    => [ 'Risotto', 'Dig, der vil have flere funktioner' ],
-			'less'    => [ 'Dig, der kun laver almindelige ris' ],
+			'good'    => [ 'Risotto uden at stå og røre', 'Gryderetter og slow cooking', 'Familier' ],
+			'less'    => [ 'Dig, der kun laver almindelige ris', 'Dig, der vil have udskudt start' ],
 		],
 		[
 			'ean'     => '7044876021694',
@@ -46,12 +48,14 @@ HTML,
 			'name'    => 'Wilfa RC-10CD 1,8 liter',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Enkel riskoger fra norske Wilfa med plads til 1,8 liter færdige ris og non-stick-belægning.',
+			'verdict' => 'Enkel og billig riskoger på 700 W med plads til 1,8 liter færdige ris og non-stick i bunden.',
 			'why'     => <<<'HTML'
-<p>Wilfas riskoger har plads til 1,8 liter færdige ris og en non-stick-belægning. Der vist ikke findes en nemmere måde at lave ris på.</p>
+<p>Wilfa RC-10CD er til dig, der bare vil have løse, velkogte ris uden at holde øje med gryden. Du hælder ris og vand i, tænder, og riskogeren klarer arbejdet, mens du laver resten af aftensmaden.</p>
+<p>Der er plads til 1,8 liter færdige ris, så du kan lave nok til hele familien eller have rester til madpakken dagen efter. Non-stick-belægningen i bunden gør, at risene ikke brænder fast, og de 700 W giver kræfter nok til hverdagens portioner.</p>
+<p>Den enkle betjening gør den nem at bruge for alle i husstanden. Riskogeren fylder 28 x 28 cm og vejer 2,9 kg, så den er let at stille væk i skabet efter brug. Bemærk, at den ikke har en hold varm-funktion.</p>
 HTML,
-			'good'    => [ 'Dig, der vil have det enkelt', 'Lavt budget' ],
-			'less'    => [ 'Mange funktioner' ],
+			'good'    => [ 'Dig, der vil have det enkelt', 'Lavt budget', 'Ris til hele familien' ],
+			'less'    => [ 'Dig, der vil holde risene varme længe', 'Flere programmer' ],
 		],
 	],
 	'guide'    => <<<'HTML'

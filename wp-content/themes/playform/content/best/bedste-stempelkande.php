@@ -33,12 +33,14 @@ HTML,
 			'name'    => 'Stelton Emma 1 liter',
 			'role'    => 'Bedst design',
 			'reviews' => [],
-			'verdict' => 'Stempelkande på 1 liter i lakeret rustfrit stål, designet af HolmbäckNordentoft.',
+			'verdict' => 'Elegant stempelkande på 1 liter i lakeret stål med håndtag i bøgetræ – en del af Steltons Emma-serie.',
 			'why'     => <<<'HTML'
-<p>Stelton Emma er designet af HolmbäckNordentoft og rummer 1 liter, så den er velegnet til både hverdag og gæster. Den er lavet af lakeret rustfrit stål og passer til resten af Emma-serien.</p>
+<p>Stelton Emma er stempelkanden til dig, der vil have en kaffekande, som er lige så pæn på bordet som i køkkenet. Den er tegnet af HolmbäckNordentoft og er lavet af lakeret rustfrit stål, mens håndtaget i bøgetræ giver et varmt, nordisk modspil til det blanke stål.</p>
+<p>Med 1 liter brygger du kaffe til flere kopper på én gang – nok til morgenmaden, søndagsbesøget eller kaffen efter middagen. Du bestemmer selv styrken ved at justere mængden af kaffe og bryggetiden, og du slipper for filtre og kapsler. Har du andre dele fra Emma-serien, passer kanden fint ind i samlingen.</p>
+<p>Kanden vejer kun 0,63 kg. Vask den i hånden med varmt vand og lidt sæbe, brug en flaskebørste indvendigt, og tør den af med en blød klud. Den tåler ikke opvaskemaskine.</p>
 HTML,
-			'good'    => [ 'Skandinavisk design', 'Kaffe til flere' ],
-			'less'    => [ 'Dig, der vil se kaffen' ],
+			'good'    => [ 'Dig, der går op i nordisk design', 'Kaffe til flere', 'Dig med andre dele fra Emma-serien' ],
+			'less'    => [ 'Dig, der vil kunne se kaffen under brygningen', 'Opvaskemaskinen' ],
 		],
 		[
 			'ean'     => '4037571312238',
@@ -46,11 +48,13 @@ HTML,
 			'name'    => 'AdHoc French Press 1000 ml',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Stempelkande på 1 liter til flere kopper ad gangen.',
+			'verdict' => 'Stempelkande på 1 liter i glas, stål og silikone med filter, der kan skilles ad til rengøring.',
 			'why'     => <<<'HTML'
-<p>AdHocs french press er udviklet til dig, der vil brygge flere kopper kaffe ad gangen uden at gå på kompromis.</p>
+<p>AdHoc French Press er til dig, der vil have masser af god kaffe uden at bruge mange penge. Kanden rummer 1 liter, så der er nok til hele morgenbordet, gæsterne eller de lange kaffepauser på hjemmekontoret.</p>
+<p>French press-metoden lader kaffen trække i vandet, så den får en fyldig og aromatisk smag. Stemplet presser grumset effektivt ned i bunden, og den gennemsigtige glaskande gør det nemt at følge med i brygningen, så du rammer lige præcis den styrke, du kan lide. Kombinationen af glas, rustfrit stål og silikone i en rolig grå farve giver et moderne look.</p>
+<p>Filteret kan skilles ad, så du nemt kan få alt grums ud. Vask kanden i hånden. Med 0,49 kg er den let at håndtere, også når den er fuld.</p>
 HTML,
-			'good'    => [ 'Lavt budget', 'Kaffe til flere' ],
+			'good'    => [ 'Lavt budget', 'Kaffe til flere', 'Dig, der vil se kaffen trække' ],
 			'less'    => [ 'Dig, der vil holde kaffen varm længe' ],
 		],
 	],

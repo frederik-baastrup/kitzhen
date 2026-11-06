@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Mustang Gourmet 57',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Kuglegrill i emaljeret stål med grillrist på 54 cm og plads til tilbehør i midten af risten.',
+			'verdict' => 'Kuglegrill i porcelænsemaljeret stål med rustfri grillrist på 54 cm, låg-termometer og to store hjul.',
 			'why'     => <<<'HTML'
-<p>Mustang Gourmet 57 er en kulgrill i emaljeret stål med porcelænsemaljeret låg og grillskål. Den har en rustfri multi-grillrist på 54 cm, hvor midten kan udskiftes med tilbehør.</p>
+<p>Mustang Gourmet 57 er den klassiske kuglegrill til dig, der vil grille for hele familien i haven. Grillristen har en diameter på 54 cm, så der er plads til pølser, bøffer og grøntsager på én gang. Både låg og grillskål er porcelænsemaljeret, og det løfter den op i den bedre ende af kuglegrillene.</p>
+<p>Risten er i rustfrit stål og er en multi-grillrist: Midten kan tages ud, så du kan sætte tilbehør fra Mustangs multi-grillserie i og udvide grillen efter behov. Termometeret i låget viser temperaturen, og med ventilerne i låg og skål styrer du, hvor meget luft kullene får.</p>
+<p>Asken falder ned i en aftagelig askeopsamler, som du bare tømmer. Et kraftigt håndtag og to store hjul gør det nemt at trille grillen på plads, og lågets håndtag er varmebeskyttet.</p>
 HTML,
-			'good'    => [ 'Familier', 'Direkte og indirekte grill' ],
-			'less'    => [ 'Lang rygning' ],
+			'good'    => [ 'Familier og havegrill', 'Dig, der vil styre varmen med ventiler', 'Udvidelse med multi-grilltilbehør' ],
+			'less'    => [ 'Dig, der vil have sidebord til fade og redskaber' ],
 		],
 		[
 			'ean'     => '0062703114705',
@@ -46,12 +48,14 @@ HTML,
 			'name'    => 'HAY Outdoor Market transportabel kulgrill',
 			'role'    => 'Bedst til tur',
 			'reviews' => [],
-			'verdict' => 'Kompakt kulgrill i rustfrit stål designet af Jasper Morrison – til picnic og stranden.',
+			'verdict' => 'Kompakt kulgrill i rustfrit stål på kun 1,95 kg, designet af Jasper Morrison – nem at tage med på stranden.',
 			'why'     => <<<'HTML'
-<p>HAYs transportable kulgrill er designet af Jasper Morrison, lavet af slidstærkt rustfrit stål og har praktiske sidehåndtag, så den er oplagt til spontane ture.</p>
+<p>HAYs Outdoor Market-grill er til dig, der vil kunne pakke grillen og tage aftensmaden med til stranden, parken eller sommerhuset. Den er designet af Jasper Morrison og har et enkelt, stilrent udtryk, der ser godt ud på picnictæppet.</p>
+<p>Grillen måler 40 x 34 cm og er 25,5 cm høj, og med kun 1,95 kg er den let at bære. Sidehåndtagene gør det nemt at løfte den fra bilen til tæppet. Den er lavet af slidstærkt rustfrit stål, der kan tåle at blive flyttet frem og tilbage mellem haven og picnicpladsen igen og igen.</p>
+<p>Tøm grillen og gør den grundigt ren efter hver tur, så holder stålet sin flotte finish i mange sæsoner.</p>
 HTML,
-			'good'    => [ 'Picnic og strand', 'Design' ],
-			'less'    => [ 'Store familier' ],
+			'good'    => [ 'Picnic, strand og sommerhus', 'Dig, der vil have en flot grill', 'Små altaner og terrasser' ],
+			'less'    => [ 'Store familier og mange gæster' ],
 		],
 	],
 	'guide'    => <<<'HTML'

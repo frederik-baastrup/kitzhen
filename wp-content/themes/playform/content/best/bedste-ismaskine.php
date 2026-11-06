@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Cuisinart FreezeEase Pro',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Ismaskine fra Cuisinart til hjemmelavede desserter på professionelt niveau.',
+			'verdict' => 'Kompressor-ismaskine uden forfrysning: is, gelato eller sorbet på cirka 40 minutter – og flere omgange i træk.',
 			'why'     => <<<'HTML'
-<p>Cuisinart er et af de store mærker inden for ismaskiner. FreezeEase Pro er en maskine, der gør det nemt at skabe hjemmelavede desserter, der både imponerer og smager som hos en professionel.</p>
+<p>Cuisinart FreezeEase Pro er til dig, der vil kunne lave is, når lysten melder sig. Den indbyggede kompressor køler selv, så der er ingen skål, der skal i fryseren dagen før. Du hælder ingredienserne i, trykker på knappen, og efter cirka 40 minutter er desserten klar.</p>
+<p>I kassen ligger to røreblade: ét, der pisker luft ind og giver en let og cremet is, og ét, der arbejder langsommere og giver den tætte, fyldige konsistens, du kender fra gelato. Under omrøringen kan du drysse nødder, chokoladestykker eller frugtpuré i, og fordi kompressoren holder kulden stabil, kan du køre den ene portion efter den anden til festen.</p>
+<p>De løse dele tåler opvaskemaskine, og Cuisinart giver 3 års garanti. Maskinen vejer 11 kg, så giv den en fast plads på køkkenbordet.</p>
 HTML,
-			'good'    => [ 'Dig, der laver is ofte', 'Forskellige frosne desserter' ],
-			'less'    => [ 'Små budgetter' ],
+			'good'    => [ 'Dig, der laver is ofte', 'Både is, gelato og sorbet', 'Fester med flere portioner i træk' ],
+			'less'    => [ 'Små køkkener – den vejer 11 kg og fylder på bordet' ],
 		],
 		[
 			'ean'     => '5413184909314',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'KitchenAid 5KSMICM ismaskine',
 			'role'    => 'Bedst til KitchenAid',
 			'reviews' => [],
-			'verdict' => 'Isskål til KitchenAid-røremaskinen – til dig, der allerede har maskinen.',
+			'verdict' => 'Isskål på 1,9 liter, der gør din KitchenAid-røremaskine til en ismaskine – cremet is på under 30 minutter.',
 			'why'     => <<<'HTML'
-<p>KitchenAid 5KSMICM er tilbehør til KitchenAid-røremaskinen. Den er et førsteklasses tilbehør til både isveteraner og nybegyndere. Skålen fryses på forhånd, og røremaskinen rører isen. Har du allerede maskinen, sparer du både plads og penge.</p>
+<p>Har du allerede en KitchenAid-røremaskine, er 5KSMICM den nemmeste vej til hjemmelavet is. Isskålen sættes på maskinen, og røreredskabet drejer rundt og skraber siderne, så isen fryser jævnt og bliver tyk og cremet. På under 30 minutter har du is eller sorbet klar.</p>
+<p>Skålen rummer 1,9 liter, så der er nok til hele familien eller børnefødselsdagen. Prøv klassikere som vanilje, chokolade og jordbær, eller gå på opdagelse med lakrids, basilikum eller safran. Den nyeste udgave har nye håndtag og en ny samling, så skålen er hurtigere at sætte på.</p>
+<p>Husk at lægge skålen i fryseren 16 timer før brug. Tilbehøret fylder kun lidt i skabet, og KitchenAid giver 2 års garanti.</p>
 HTML,
-			'good'    => [ 'Dig med en KitchenAid-røremaskine' ],
-			'less'    => [ 'Dig uden KitchenAid' ],
+			'good'    => [ 'Dig med en KitchenAid-røremaskine', 'Store portioner på 1,9 liter', 'Dig med lidt plads i skabene' ],
+			'less'    => [ 'Dig uden KitchenAid-røremaskine', 'Spontan is – skålen skal fryses 16 timer' ],
 		],
 		[
 			'ean'     => '7350101117743',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'NOD ismaskine 1,5 liter',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Ismaskine på 1,5 liter til is med forskellige smage og konsistenser.',
+			'verdict' => 'Selvkølende ismaskine med kompressor, 1,5 liter skål i rustfrit stål og Keep-Cool, der holder isen kold.',
 			'why'     => <<<'HTML'
-<p>NODs ismaskine har en generøs kapacitet på 1,5 liter, så du kan lave is til hele familien, og den gør det nemt og hurtigt at lave is med forskellige smage og konsistenser.</p>
+<p>NODs ismaskine er til dig, der vil have en ismaskine med egen kompressor uden at gå helt til tops i pris. Maskinen køler selv, så du kan lave is, når du har lyst. Med 1,5 liter er der flere portioner ad gangen – nok til en familie efter aftensmaden.</p>
+<p>Når isen er færdig, og kniven ikke kan røre mere, slår Keep-Cool-funktionen til og holder isen kold. Så kan du spise den med det samme, lade den stå lidt i maskinen eller sætte den i fryseren for en fastere is. Vil du lave flere slags efter hinanden, kan du købe en ekstra indsats.</p>
+<p>Indsatsen i rustfrit stål kan tages ud og tåler opvaskemaskine. Kniven vaskes i hånden, og låget tørres af med en fugtig klud. NOD giver 3 års garanti.</p>
 HTML,
-			'good'    => [ 'Familier', 'Is om sommeren' ],
-			'less'    => [ 'Is mange gange i træk' ],
+			'good'    => [ 'Familier', 'Dig, der vil have kompressor til en lavere pris', 'Is uden forfrysning' ],
+			'less'    => [ 'Små køkkener – den vejer 9,9 kg' ],
 		],
 	],
 	'guide'    => <<<'HTML'
