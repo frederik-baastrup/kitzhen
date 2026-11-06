@@ -35,13 +35,14 @@ HTML,
 			'name'    => 'Weber Summit Kamado E6',
 			'role'    => 'Bedst luksus',
 			'reviews' => [],
-			'verdict' => 'Kamado fra Webers Summit-serie med Webers hidtil største indbyggede termometer.',
+			'verdict' => 'Kamado med 61 cm grillrist, Webers største indbyggede termometer og en kulbeholder, du drejer af og tømmer på et øjeblik.',
 			'why'     => <<<'HTML'
-<p>Weber Summit Kamado E6 er Webers kamado-kulgrill fra topserien Summit – til dig, der vil have en kamado fra et mærke, du kender.</p>
-<p>Det indbyggede termometer er det største, Weber har lavet til dato. Det har markeringer for de forskellige måder at tilberede på, så du hurtigt kan se, om grillen har den rette temperatur, før maden kommer på. Det gør det nemmere at ramme varmen, uanset om du skal grille bøffer eller ryge langsomt.</p>
+<p>Weber Summit Kamado E6 er til dig, der vil kunne det hele med kul: grille bøffer, ryge langsomt i mange timer og bage. Grillristen er 61 cm i diameter, så der er plads til mad til hele selskabet på én gang.</p>
+<p>Termometeret er det største, Weber nogensinde har bygget ind i en grill. Det har markeringer for rygning, grill og bagning, så du med et blik kan se, om du har ramt den rigtige varme, før maden kommer på. Grillen passer til Webers Gourmet BBQ System, så du kan bygge videre med Webers udvalg af tilbehør til systemet.</p>
+<p>Oprydningen er klaret på et øjeblik med One-Touch-systemet: Du drejer kulbeholderen af, tømmer kul og aske ud og sætter den på igen. Grillen vejer omkring 66 kg, men står på et stativ med hjul. Weber giver op til 10 års garanti gennem sit garantiprogram.</p>
 HTML,
-			'good'    => [ 'Grillentusiaster', 'Dig, der vil have Weber-kvalitet' ],
-			'less'    => [ 'Små budgetter' ],
+			'good'    => [ 'Rygning, grill og bagning med kul', 'Store selskaber', 'Dig, der vil udbygge med Weber-tilbehør' ],
+			'less'    => [ 'Ingen sideborde', 'Små terrasser – den er 100 cm bred' ],
 		],
 		[
 			'ean'     => '7350097264285',

@@ -20,13 +20,14 @@ HTML,
 			'name'    => 'Scanpan CTX wok 32 cm',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Slip-let-wok på 32 cm med keramisk titanium, der tåler alle redskaber og 260 °C i ovnen.',
+			'verdict' => 'Dansk CTX-wok på 32 cm, der tåler metalredskaber, induktion og 260 °C i ovnen – med 5 års garanti.',
 			'why'     => <<<'HTML'
-<p>Scanpan CTX-wokken er til dig, der vil have en wok, hvor maden slipper let, og som du ikke behøver at pakke ind i vat. Med 32 cm i diameter er der god plads til wokretter til hele familien.</p>
-<p>Overfladen er en robust keramisk titanium-belægning med non-stick, som tåler alle slags køkkenredskaber – også dem i metal. Bunden virker på alle varmekilder, så den passer til både gas, keramisk kogeplade og induktion. Du kan endda sætte wokken i ovnen op til 260 °C, hvis en ret skal gøres færdig derinde.</p>
+<p>Scanpan CTX-wokken er til dig, der vil wokke, uden at maden sætter sig fast – og uden at skulle passe på belægningen hele tiden. Med 32 cm i diameter er der god plads til nudler, grøntsager og kød til hele familien.</p>
+<p>CTX står for Ceramic Titanium Extreme: en robust slip-let-overflade af keramisk titanium kombineret med rustfrit stål. Den tåler køkkenredskaber i metal, og varmen fordeles jævnt, så grøntsagerne steger ensartet. Wokken virker på alle kogeplader, også induktion, og kan gå med i ovnen op til 260 °C, hvis retten skal gøres færdig derinde.</p>
+<p>Scanpan producerer sine gryder og pander uden for Aarhus. Wokken tåler opvaskemaskine, men har bedst af en tur i hånden. Du får 5 års garanti mod fabrikationsfejl ved normal brug og pleje.</p>
 HTML,
-			'good'    => [ 'Induktion', 'Dig, der vil have slip-let', 'Fra kogeplade til ovn' ],
-			'less'    => [ 'Meget høj varme på gas' ],
+			'good'    => [ 'Induktion', 'Dig, der bruger metalredskaber', 'Retter, der skal i ovnen bagefter' ],
+			'less'    => [ 'Håndopvask anbefales frem for maskine' ],
 		],
 		[
 			'ean'     => '6970629990171',

@@ -35,12 +35,14 @@ HTML,
 			'name'    => 'Broil King KEG 5000',
 			'role'    => 'Bedst til rygning',
 			'reviews' => [],
-			'verdict' => 'Isoleret kulgrill på 47 cm med Accu-Temp termometer og sideborde.',
+			'verdict' => 'Dobbeltvægget kulgrill på 47 cm, der holder varmen længe – med askeskuffe, sidehylder og 10 års garanti på kammeret.',
 			'why'     => <<<'HTML'
-<p>Broil King KEG 5000 har blandt andet et Deluxe Accu-Temp termometer og flytbare sidehylder. KEG-grillen er isoleret, så den holder varmen godt og egner sig til både grill og lang rygning.</p>
+<p>Broil King KEG 5000 er kulgrillen til dig, der gerne vil ryge og langtidsstege – men også bare grille en hurtig aftensmad. Kammeret er dobbeltvægget og isoleret, så varmen bliver inde, og temperaturen holder sig stabil, også når maden skal have mange timer.</p>
+<p>Med Deluxe Accu-Temp-termometeret holder du øje med varmen, og ristens højde kan justeres, så du kan grille hårdt tæt på gløderne eller lade maden passe sig selv længere oppe. Du fyrer op med briketter eller trækul. Ovnrummet er porcelænsbelagt og modstår rust, og der er 10 års garanti på det (2 år på øvrige dele og lak).</p>
+<p>De flytbare sidehylder har kroge til grillværktøjet, og der sidder en oplukker på kabinettet. Asken samles i en skuffe, der tages af og tømmes. Grillen vejer 60 kg, men står på hjul, så du kan flytte den rundt på terrassen.</p>
 HTML,
-			'good'    => [ 'Rygning og lang tilberedning', 'Grill hele året' ],
-			'less'    => [ 'Lavt budget' ],
+			'good'    => [ 'Rygning og langtidsstegning', 'Dig, der vil styre varmen præcist', 'Grill med plads til værktøjet' ],
+			'less'    => [ 'Tung at flytte langt (60 kg)', 'Lavt budget' ],
 		],
 		[
 			'ean'     => '5710441424598',

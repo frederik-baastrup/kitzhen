@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Espro P7 0,9 liter',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Dobbeltvægget stempelkande i rustfrit stål, bygget som en tank – med Espros filter mod grums.',
+			'verdict' => 'Vakuumisoleret stempelkande i børstet stål med Espros dobbelte mikrofilter – ren kaffe uden grums, der holder sig varm.',
 			'why'     => <<<'HTML'
-<p>Espro P7 er Espros bud på den ultimative måde at brygge kaffe og te på. I modsætning til de traditionelle stempelkander i glas er P7 bygget i rustfrit stål, der er vakuumisoleret, så kaffen holder sig varm. Espro er kendt for et dobbelt filter, der giver kaffe uden grums.</p>
+<p>Espro P7 er stempelkanden til dig, der er træt af grums i bunden af koppen og af glaskander, der går i stykker. Den brygger 0,9 liter kaffe eller te og er bygget i børstet rustfrit stål i stedet for glas, så den kan holde til at blive brugt hver dag.</p>
+<p>Under låget sidder Espros patenterede dobbelte mikrofilter. Det holder både grums og de fine partikler tilbage, så kaffen bliver ren og klar i smagen. Væggene er dobbelte og vakuumisolerede, så kaffen holder sig varm længe – og kop nummer to smager lige så godt som den første.</p>
+<p>Bruger du den til te, får du samme fordel: Bladene bliver i kanden og ikke i koppen. Kanden vejer 1,5 kg og ser flot ud på morgenbordet.</p>
 HTML,
-			'good'    => [ 'Kaffe uden grums', 'Kaffe, der skal holde sig varm' ],
-			'less'    => [ 'Små budgetter' ],
+			'good'    => [ 'Kaffe uden grums', 'Dig, der drikker mere end én kop', 'Te og kaffe i samme kande' ],
+			'less'    => [ 'Små budgetter', 'Du kan ikke se kaffen, mens den trækker' ],
 		],
 		[
 			'ean'     => '5709846034570',

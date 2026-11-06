@@ -20,13 +20,14 @@ HTML,
 			'name'    => 'Blendtec BLB-575',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Kraftig højhastighedsblender med forudindstillede programmer, der klarer alt fra smoothies til de hårdeste ingredienser.',
+			'verdict' => 'Højhastighedsblender på 1560 W med firkantet kande på 2,66 liter og programmer, der kører færdig af sig selv.',
 			'why'     => <<<'HTML'
-<p>Blendtec BLB-575 er til dig, der bruger blenderen hver dag og vil have kræfter nok til det hele. Det er en kraftig højhastighedsblender, der laver bløde, cremede smoothies og ikke giver op over for nødder, frø og andre hårde ingredienser.</p>
-<p>De forudindstillede programmer gør arbejdet for dig: Du vælger programmet, trykker start, og blenderen kører færdig af sig selv. Så kan du skære frugt eller lave kaffe imens.</p>
+<p>Blendtec BLB-575 er blenderen til dig, der bruger den hver dag – til morgenens smoothie, til suppe og til hummus. Motoren på 1560 W (3 hestekræfter) får knivene til at rotere så hurtigt, at ingredienserne bliver pulveriseret i stedet for bare hakket. Resultatet er en glat og cremet konsistens helt uden klumper.</p>
+<p>Kanden på 2,66 liter er firkantet, så indholdet hvirvler rundt og trækkes ned mod knivene af sig selv – du skal ikke stå og skubbe med en ske. Vælg smoothieprogrammet eller et interval på 60 eller 90 sekunder, og gør resten af morgenmaden klar imens. Displayet tæller ned, så du kan se, hvornår den er færdig. Vil du styre selv, har du 5 hastigheder og puls.</p>
+<p>Knivene er ekstra tykke og slet ikke skarpe, så du ikke skærer dig, når du gør dem rene. Et rengøringsprogram klarer det meste, og touchpanelet tørres af med en klud. Kanden er i BPA-fri plast.</p>
 HTML,
-			'good'    => [ 'Smoothies hver dag', 'Nøddesmør og hårde ingredienser', 'Dig, der vil have faste programmer' ],
-			'less'    => [ 'Små budgetter' ],
+			'good'    => [ 'Smoothies og suppe hver dag', 'Hummus og cremede dips', 'Dig, der vil starte den og gå fra den' ],
+			'less'    => [ 'Små budgetter', 'Nøddesmør – her anbefaler Blendtec en særlig kande' ],
 		],
 		[
 			'ean'     => '5413184906979',

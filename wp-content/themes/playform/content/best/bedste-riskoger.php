@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Instant 12 Cup riskoger og steamer',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Kompakt riskoger og damper på 5 liter med 8 tilberedningsfunktioner.',
+			'verdict' => 'Riskoger på 5 liter med 8 programmer, dampkurv og CarbReduce, der kan skære op til 40 % af kulhydraterne fra.',
 			'why'     => <<<'HTML'
-<p>Instant er kendt for Instant Pot. Riskogeren har hele 8 tilberedningsfunktioner, og den er kompakt og kraftfuld. Med en dampindsats kan du lave ris og dampede grøntsager på samme tid.</p>
+<p>Instant 12 Cup er riskogeren til familien, der spiser ris, quinoa og grøntsager flere gange om ugen. Den rummer 5 liter, så der er nok til en almindelig hverdagsmiddag – og til gæsterne, når I er flere om bordet.</p>
+<p>Du får 8 programmer, blandt andet til hvid ris, brune ris, quinoa og blandede kornsorter. Den kan også dampe, stege og langtidskoge, så den klarer mere end bare tilbehøret. Med CarbReduce-indstillingen kan du skære op til 40 % af kulhydraterne i risene fra, uden at de mister smag eller konsistens.</p>
+<p>I kassen ligger en dampkurv, et målebæger og en risske. Det hele tåler opvaskemaskine, så oprydningen går hurtigt.</p>
 HTML,
-			'good'    => [ 'Familier', 'Ris, quinoa og dampet mad' ],
-			'less'    => [ 'Én person' ],
+			'good'    => [ 'Familier, der spiser meget ris', 'Quinoa, brune ris og korn', 'Dig, der vil spare på kulhydraterne' ],
+			'less'    => [ 'Singler med lidt plads i køkkenet' ],
 		],
 		[
 			'ean'     => '9312432029957',

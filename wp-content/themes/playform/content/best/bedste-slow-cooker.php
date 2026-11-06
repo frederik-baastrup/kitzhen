@@ -35,13 +35,14 @@ HTML,
 			'name'    => 'Ninja Foodi OL750EU',
 			'role'    => 'Bedst multicooker',
 			'reviews' => [],
-			'verdict' => 'Multicooker på 7,5 liter med 14 funktioner i én – også slow cooking.',
+			'verdict' => 'Multicooker på 7,5 liter med 14 funktioner under ét låg – trykkog kødet mørt, og giv det sprød skorpe bagefter.',
 			'why'     => <<<'HTML'
-<p>Ninja Foodi OL750EU er til dig, der vil have ét apparat til meget mere end slow cooking. Den er en 14-i-1 multicooker, så den kan erstatte flere apparater på køkkenbordet.</p>
-<p>Med 7,5 liter er der plads til en stor familie eller til at lave mad til flere dage og fryse resten ned.</p>
+<p>Ninja Foodi OL750EU er til dig, der vil have slow cooker, trykkoger og varmluft i ét apparat. Den har 14 funktioner – fra slow cooking og dampning til bagning og yoghurt – og med 7,5 liter er der plads til en stor familie eller til mad til flere dage.</p>
+<p>Med SmartLid skifter du mellem trykkogning, slow cooking, dampning og varmluftsstegning med det samme låg. TenderCrisp lader dig først trykkoge fx en kylling, så den bliver mør, og derefter give den en sprød overflade. Det indbyggede digitale termometer holder øje med temperaturen, så maden bliver færdig, som du vil have den.</p>
+<p>Effekten er 1750 W, gryden har non-stick, og tilbehøret tåler opvaskemaskine. Mål pladsen op først: Den er 43 cm høj og vejer 15 kg.</p>
 HTML,
-			'good'    => [ 'Store familier', 'Dig, der vil have mange funktioner i ét apparat' ],
-			'less'    => [ 'Små køkkener' ],
+			'good'    => [ 'Store familier', 'Dig, der vil erstatte flere apparater', 'Sprød mad uden friture' ],
+			'less'    => [ 'Små køkkener – den fylder og vejer 15 kg' ],
 		],
 		[
 			'ean'     => '0810102266538',
@@ -49,13 +50,14 @@ HTML,
 			'name'    => 'Instant Pot multicooker 5,7 liter',
 			'role'    => 'Bedst til trykkogning',
 			'reviews' => [],
-			'verdict' => 'Instant Pot på 5,7 liter, der både trykkoger og slow cooker.',
+			'verdict' => 'Trykkoger og slow cooker i én: 5,7 liter til seks portioner og fire pladser til dine egne favoritindstillinger.',
 			'why'     => <<<'HTML'
-<p>Instant Pot er en multicooker til dig, der både vil have hurtige og langsomme gryderetter. Når tiden er knap, trykkoger du, så kødet bliver mørt på en brøkdel af tiden. Når du har god tid, slår du over på slow cook.</p>
-<p>Gryden rummer 5,7 liter, hvilket passer til de fleste familier.</p>
+<p>Instant Pot på 5,7 liter er til familien, der vil have både hurtig og langsom mad fra samme gryde. En travl hverdag trykkoger du gryderetten på kort tid, og i weekenden slår du over på slow cooking og lader den simre. Den kan også sautere og dampe – i alt 7 funktioner – og rummer op til 6 portioner.</p>
+<p>Har du en ret, du laver tit, gemmer du den som en af 4 egne forindstillinger og starter den med ét tryk. Statusindikatoren viser, hvor langt den er, så du ikke behøver at stå ved siden af. Låget kan låses, og dampen lukkes nemt og sikkert ud.</p>
+<p>Indergryden og låget er i rustfrit stål og tåler opvaskemaskine. Effekten er 1000 W, og den vejer 5 kg.</p>
 HTML,
-			'good'    => [ 'Hurtige gryderetter', 'Dig, der både vil trykkoge og slow cooke' ],
-			'less'    => [ 'Dig, der kun vil slow cooke' ],
+			'good'    => [ 'Familier op til 6 personer', 'Hurtige gryderetter på hverdage', 'Dig, der laver de samme retter tit' ],
+			'less'    => [ 'Store selskaber' ],
 		],
 		[
 			'ean'     => '0810102265463',
@@ -63,13 +65,14 @@ HTML,
 			'name'    => 'Instant Superior Slow Cooker 7 liter',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Stor slow cooker på 7 liter fra Instant – enkel og til en lav pris.',
+			'verdict' => 'Slow cooker på 7,1 liter til omkring 10 portioner – brun kødet i samme gryde, og bær den direkte ud på bordet.',
 			'why'     => <<<'HTML'
-<p>Instant Superior er til dig, der bare vil have en god slow cooker uden at betale for funktioner, du ikke bruger. Du fylder gryden om morgenen, og når du kommer hjem, er aftensmaden klar.</p>
-<p>Med 7 liter er den stor nok til en hel familie og til at lave dobbelt portion, så der er rester til fryseren.</p>
+<p>Instant Superior er slow cookeren til dig, der vil lave store portioner uden besvær. Gryden rummer 7,1 liter, hvilket svarer til cirka 10 portioner. Det er nok til en stor familie, til gæster eller til at fylde fryseren op med mørt oksekød, pulled pork, krydrede gryderetter eller vegetarretter.</p>
+<p>Du kan brune ingredienserne direkte i gryden, før den langsomme tilberedning går i gang. Det giver mere smag og sparer dig for en ekstra pande i opvasken. Når maden er færdig, holder den automatisk retten varm, så aftensmaden står klar, selv om I bliver forsinkede.</p>
+<p>Indergryden er let og har EasyGrab-håndtag, så du nemt kan sætte den på bordet. Den tåler opvaskemaskine, og hele apparatet vejer kun 3,5 kg.</p>
 HTML,
-			'good'    => [ 'Store portioner', 'Lavt budget' ],
-			'less'    => [ 'Dig, der vil have mange programmer' ],
+			'good'    => [ 'Store familier og gæster', 'Mad til fryseren', 'Dig, der vil have det enkelt' ],
+			'less'    => [ 'Dig, der også vil kunne trykkoge' ],
 		],
 	],
 	'guide'    => <<<'HTML'
