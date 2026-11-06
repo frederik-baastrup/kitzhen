@@ -20,11 +20,13 @@ HTML,
 			'name'    => 'Sage InFizz Fusion',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Sodavandsmaskine, der kan tilsætte kulsyre til alle drikke – ikke kun vand.',
+			'verdict' => 'Bobler i vin, juice og cocktails – FusionCap slipper trykket langsomt ud, så intet skummer over.',
 			'why'     => <<<'HTML'
-<p>Sage InFizz Fusion kan tilsætte kulsyre til alle drikkevarer, ikke kun vand. Med FusionCap-teknologien styrer du, hvor hurtigt kulsyren tilsættes, så juice og vin ikke skummer over.</p>
+<p>Sage InFizz Fusion er til dig, der vil mere end danskvand. Den kan tilsætte kulsyre til alle drikke – vin, juice, sodavand og cocktails – så du kan eksperimentere med bobler i alt, hvad der står i køleskabet.</p>
+<p>Hjertet er FusionCap med trykaflastning i to trin. Med den røde kontakt slipper du trykket langsomt ud, så drikken ikke bruser over. Kulsyrepatronen sættes i med et enkelt drej-og-lås-greb, og til almindeligt vand er der en hurtig funktion.</p>
+<p>Designet er stilrent og tager ikke meget plads på bordet. Håndtaget er solidt, og den magnetiske drypbakke i rustfrit stål er nem at tage af og tørre af. Den fås i flere farver, så den kan matche dit køkken.</p>
 HTML,
-			'good'    => [ 'Juice, saft og cocktails med bobler', 'Design' ],
+			'good'    => [ 'Juice, vin og cocktails med bobler', 'Dig, der vil eksperimentere', 'Design i flere farver' ],
 			'less'    => [ 'Dig, der kun drikker danskvand' ],
 		],
 		[
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'Bubliq sodavandsmaskine, rustfrit stål',
 			'role'    => 'Bedst design',
 			'reviews' => [],
-			'verdict' => 'Sodavandsmaskine i rustfrit stål inspireret af skandinavisk minimalisme.',
+			'verdict' => 'Rustfrit stål og glasflaske, der tåler opvaskemaskine – en sodavandsmaskine, der må stå fremme.',
 			'why'     => <<<'HTML'
-<p>Bubliq kombinerer tidløst design, holdbarhed og brugervenlighed. Den er i rustfrit stål og inspireret af skandinavisk minimalisme.</p>
+<p>Bubliq i rustfrit stål er til dig, der vil have en sodavandsmaskine, der pynter på køkkenbordet i stedet for at gemme sig i skabet. Designet er enkelt og skandinavisk, og den robuste konstruktion i stål er bygget til mange års brug.</p>
+<p>Du får en glasflaske på 1 liter med plads til 650 ml vand op til stregen. Flasken tåler opvaskemaskine, så den er nem at holde ren i hverdagen. Med Turnlock-mekanismen sætter du flasken i med én hånd og drejer en kvart omgang – så er du klar.</p>
+<p>Et par tryk, og postevandet er blevet til danskvand. Maskinen passer til alle kulsyrepatroner på 425–450 g med skruegevind, så du ikke er låst til ét mærke.</p>
 HTML,
-			'good'    => [ 'Køkkener, hvor den skal stå fremme', 'Holdbarhed' ],
-			'less'    => [ 'Lavt budget' ],
+			'good'    => [ 'Køkkener, hvor den skal stå fremme', 'Dig, der foretrækker glasflaske', 'Frit valg af kulsyrepatron' ],
+			'less'    => [ 'Kun 650 ml vand pr. flaske' ],
 		],
 		[
 			'ean'     => '7290119793778',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'SodaStream Fresh',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Manuel sodavandsmaskine fra SodaStream, der ikke skal bruge strøm.',
+			'verdict' => 'Ingen strøm, klik-flaske og Quick Connect – den nemmeste vej til danskvand hver dag.',
 			'why'     => <<<'HTML'
-<p>SodaStream Fresh er designet til at fylde minimalt på køkkenbordet. Den er manuel, så den ikke skal have strøm og kan stå, hvor du vil. SodaStream-cylindere kan byttes i mange butikker.</p>
+<p>SodaStream Fresh er til dig, der bare vil have frisk danskvand uden besvær og uden at slæbe flasker hjem. Den er manuel og skal ikke have strøm, så du kan stille den lige dér, hvor den er mest praktisk. Du bestemmer selv, om der skal lette bobler eller masser af kulsyre.</p>
+<p>Flasken klikkes på plads uden at skrue, og med Quick Connect skifter du cylinder på et øjeblik. Den medfølgende flaske på 1 liter tåler opvaskemaskine.</p>
+<p>Maskinen vejer kun ca. 1,5 kg og fylder lidt på bordet. Bemærk, at kulsyrecylinderen ikke følger med i sættet.</p>
 HTML,
-			'good'    => [ 'Danskvand hver dag', 'Lavt budget' ],
-			'less'    => [ 'Kulsyre i juice og vin' ],
+			'good'    => [ 'Danskvand hver dag', 'Lavt budget', 'Steder uden stikkontakt' ],
+			'less'    => [ 'Kulsyre i juice og vin', 'Kulsyrecylinder medfølger ikke' ],
 		],
 	],
 	'guide'    => <<<'HTML'

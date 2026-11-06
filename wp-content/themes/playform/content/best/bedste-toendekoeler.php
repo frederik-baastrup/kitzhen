@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'NOD Party Cooler 50 liter',
 			'role'    => 'Bedst til fest',
 			'reviews' => [],
-			'verdict' => 'Stor og støjsvag party cooler på 50 liter (43 dB).',
+			'verdict' => '50 liter kølet fra 0 til 16 °C på hjul – og så støjsvag (43 dB), at den kan stå i stuen.',
 			'why'     => <<<'HTML'
-<p>NOD Party Cooler 50 liter er praktisk, stilren og støjsvag med 43 dB, og den holder drikkevarer og andre varer kolde lige der, hvor du har brug for det. 50 liter er nok til en rigtig fest.</p>
+<p>NOD Party Cooler 50 liter er til dig, der holder fest, og som er træt af at løbe frem og tilbage til et overfyldt køleskab. Stil den i stuen, udestuen eller hobbyrummet, så har gæsterne de kolde drikke lige ved hånden hele aftenen. Med 43 dB er den så stille, at den ikke forstyrrer samtalen.</p>
+<p>Du indstiller selv temperaturen fra 0 til 16 °C – koldt til øl og sodavand, lidt mildere til vinen. Den kan også holde salat og frugtsalat kølige. Trådkurvene gør det let at holde orden i indholdet.</p>
+<p>Hjulene gør, at du let kan rulle den derhen, hvor festen er. Lad den stå oprejst i 4 timer, før du sætter stikket i, og brug den indendørs.</p>
 HTML,
-			'good'    => [ 'Fester og terrassen', 'Øl og sodavand i dåser' ],
-			'less'    => [ 'Langtidsopbevaring af vin' ],
+			'good'    => [ 'Fester og store familiesammenkomster', 'Øl, sodavand og vin', 'Stuen og udestuen' ],
+			'less'    => [ 'Må ikke stå ude i regn og blæst', 'Vejer 21,8 kg' ],
 		],
 		[
 			'ean'     => '7350101118085',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'NOD Party Cooler 30 liter',
 			'role'    => 'Bedst kompakt',
 			'reviews' => [],
-			'verdict' => 'Kompakt party cooler på 30 liter – lige så støjsvag.',
+			'verdict' => 'Kompakt 30 liters køler på hjul med 0–16 °C, 43 dB og 3 års garanti.',
 			'why'     => <<<'HTML'
-<p>NOD Party Cooler 30 liter er en kompakt, støjsvag (43 dB) og stilren køler til drikkevarer og lettere madvarer. Den passer bedre i stuen og på mindre altaner.</p>
+<p>NOD Party Cooler 30 liter er til dig, der vil have kolde drikke tæt på uden at fylde stuen op. Den er kun 62 cm høj, men 30 liter rummer mere, end man tror – nok til filmaftenen, middagen eller festen i kælderen. Med 43 dB summer den stille i baggrunden.</p>
+<p>Temperaturen justeres fra 0 til 16 °C, så den kan køle sodavand, øl og vin og holde salater friske til middagsgæsterne. Med de medfølgende trådkurve er det nemt at holde styr på, hvad der ligger hvor.</p>
+<p>Hjulene gør den let at flytte fra stue til udestue, og du får 3 års garanti. Lad den stå oprejst i mindst 4 timer, før den tilsluttes, og hold den væk fra regn og fugt.</p>
 HTML,
-			'good'    => [ 'Stuen og små altaner' ],
-			'less'    => [ 'Store fester' ],
+			'good'    => [ 'Stuen og udestuen', 'Mindre fester og hyggeaftener', 'Dig, der vil have garanti' ],
+			'less'    => [ 'Store fester', 'Må ikke stå ude i regn og fugt' ],
 		],
 	],
 	'guide'    => <<<'HTML'

@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Sage The Nutri Juicer Cold XL',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Stor juicer fra Sage med Nutri-disk – til juice af både frugt og grønt.',
+			'verdict' => '88 mm åbning til hele frugter, 1500 W og en kande på 2 liter – juice til hele familien på få minutter.',
 			'why'     => <<<'HTML'
-<p>Sage Nutri Juicer Cold XL er Sages store juicemaskine. Nutri-disken gør den til en smart juicer, der sætter gang i morgenen. Den er lavet til store mængder og hele frugter.</p>
+<p>Sage The Nutri Juicer Cold XL er til dig, der drikker juice hver dag og gerne laver til flere ad gangen. Påfyldningsåbningen er 88 mm bred, så hele æbler og gulerødder kan ryge direkte i uden at blive skåret ud først. Det sparer tid hver eneste morgen.</p>
+<p>Sages Nutri-disc bevarer op til 20 % mere næring fra frugt og grønt, og Cold Spin-filteret holder juicen køligere. Motoren på 1500 W har kræfter nok til hårde rødder, og vil du ikke vække resten af huset, kan du sætte den i en stille tilstand, der skærer 40 % af lyden.</p>
+<p>Juicen løber ned i en kande på 2 liter med låg. Tuden i silikone kan vendes opad, så det stopper med at dryppe, når du tager glasset væk. Kabinettet er i rustfrit stål, og der er 2 års garanti.</p>
 HTML,
-			'good'    => [ 'Juice hver dag', 'Store portioner' ],
-			'less'    => [ 'Små køkkener' ],
+			'good'    => [ 'Juice hver dag', 'Familier og store portioner', 'Hele frugter uden forarbejde' ],
+			'less'    => [ 'Små køkkener – den er 54 cm høj og vejer 8,6 kg' ],
 		],
 		[
 			'ean'     => '0622356308694',
@@ -33,11 +35,13 @@ HTML,
 			'name'    => 'Ninja koldpresset juicemaskine',
 			'role'    => 'Bedst koldpresser til prisen',
 			'reviews' => [],
-			'verdict' => 'Koldpressende juicemaskine fra Ninja til næringsrige drikke fra bunden.',
+			'verdict' => 'Koldpresser med to filtre, så du selv vælger klar juice eller juice med frugtkød.',
 			'why'     => <<<'HTML'
-<p>Ninjas juicemaskine presser saften koldt ud. Den er en maskine til at lave velsmagende og næringsrige drikke fra bunden, så du selv bestemmer, hvad der kommer i glasset. Koldpressede juicere giver typisk mere saft af bladgrønt end en centrifuge.</p>
+<p>Ninjas koldpressede juicemaskine er til dig, der vil lave ingefærshots og grønne juicer fra bunden og selv bestemme, hvad der kommer i glasset. I stedet for hurtige knive presser en snegl med ni spiralformede sektioner saften langsomt ud. Det giver klarere farver, langt mindre skum og mere saft pr. glas end en centrifuge.</p>
+<p>Med to filtre styrer du selv konsistensen: Det sorte giver helt klar og glat juice, det orange en fyldigere juice med mere frugtkød. Et system mod blokering og en baglænsfunktion løsner skræl og seje fibre, hvis de sætter sig fast.</p>
+<p>Frugtkødet samles i en beholder på 1,1 liter. De aftagelige dele tåler opvaskemaskine, og motordelen tørres bare af med en fugtig klud. Med en bredde på 18,2 cm tager den ikke meget bordplads.</p>
 HTML,
-			'good'    => [ 'Grønne juicer', 'Dig, der vil prøve koldpresset juice' ],
+			'good'    => [ 'Grønne juicer og ingefærshots', 'Dig, der vil vælge konsistensen', 'Små køkkener' ],
 			'less'    => [ 'Dig, der vil have juice på få sekunder' ],
 		],
 		[
@@ -46,11 +50,13 @@ HTML,
 			'name'    => 'Philips Viva Collection HR1856',
 			'role'    => 'Bedst centrifuge',
 			'reviews' => [],
-			'verdict' => 'Råsaftcentrifuge fra Philips – hurtig juice med minimalt besvær.',
+			'verdict' => 'Hurtig centrifuge med 7,5 cm påfyldningsrør, drypstop og rengøring på under et minut.',
 			'why'     => <<<'HTML'
-<p>Philips HR1856 er en råsaftcentrifuge. Den er bygget til at give meget juice med minimalt besvær og har en række praktiske funktioner. En centrifuge er hurtig og god til hårde frugter og grøntsager som æbler og gulerødder.</p>
+<p>Philips Viva Collection HR1856 er til dig, der vil have frisk juice hver morgen uden at bruge tid på det. Påfyldningsrøret er 7,5 cm bredt, så æbler, gulerødder og rødbeder kan komme i hele. Motoren på 800 W klarer både hårde frugter og grøntsager.</p>
+<p>Du kan lave op til 2 liter juice i træk, før den indbyggede frugtkødsbeholder skal tømmes. Med drypstoppet kan du presse direkte ned i glasset og flytte det uden at spilde, og den medfølgende kande rummer 800 ml.</p>
+<p>Rengøringen er tænkt godt igennem: De glatte QuickClean-overflader tørres af med en almindelig svamp på under et minut, og de aftagelige dele tåler opvaskemaskine. Det kompakte design og ledningsopruller gør den nem at stille væk.</p>
 HTML,
-			'good'    => [ 'Æbler og gulerødder', 'Hurtig morgenjuice' ],
+			'good'    => [ 'Æbler, gulerødder og rødbeder', 'Hurtig morgenjuice', 'Dig, der hader opvask' ],
 			'less'    => [ 'Bladgrønt som spinat og grønkål' ],
 		],
 		[
@@ -59,11 +65,13 @@ HTML,
 			'name'    => 'Smeg citruspresser CJF01',
 			'role'    => 'Bedst til appelsinjuice',
 			'reviews' => [],
-			'verdict' => 'Elektrisk citruspresser i Smeg-design, der starter og stopper automatisk.',
+			'verdict' => 'Smegs 50’er-design i aluminium – starter selv, når du presser, og drypper ikke.',
 			'why'     => <<<'HTML'
-<p>Smegs citruspresser er lavet til frisk appelsinjuice. Den har automatisk tænd og sluk, når du trykker frugten ned. Den er nem at bruge og gøre ren og passer til andre Smeg-apparater.</p>
+<p>Smeg CJF01 er til dig, der vil starte dagen med friskpresset appelsinjuice og have et apparat, der pynter på køkkenbordet. Designet er inspireret af 1950’erne, og kabinettet er i støbt aluminium med en flot, skinnende overflade.</p>
+<p>Den er nem at bruge: Den starter automatisk, når du trykker frugten ned på keglen, og stopper igen, når du løfter. Keglen og den drypfri tud er i rustfrit stål, der ikke afgiver smag, og låg og kande er i Tritan.</p>
+<p>Gummifødderne holder den fast på bordet, så den ikke flytter sig, mens du presser. Ledningen rulles op i den indbyggede ledningsopruller, og med en grundflade på 16,6 × 16,6 cm fylder den ikke meget.</p>
 HTML,
-			'good'    => [ 'Appelsin, citron og grapefrugt', 'Design' ],
+			'good'    => [ 'Appelsin, citron og grapefrugt', 'Dig, der går op i design', 'Hurtig morgenjuice' ],
 			'less'    => [ 'Andre frugter og grønt' ],
 		],
 	],

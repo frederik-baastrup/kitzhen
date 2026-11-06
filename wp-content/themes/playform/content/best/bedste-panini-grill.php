@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Hâws Møn Proff bord-/paninigrill',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Kraftig panini- og bordgrill på 2000 W i rustfrit stål med sort finish.',
+			'verdict' => 'Solid proffgrill på 2000 W i rustfrit stål med justerbar termostat og jævn varme.',
 			'why'     => <<<'HTML'
-<p>Hâws Møn Proff er en kraftfuld bord- og paninigrill med en effekt på 2000 watt og et robust design i rustfrit stål. Den kan bruges både til paninier og som bordgrill.</p>
+<p>Hâws Møn Proff er til dig, der vil have en panini grill, der er bygget til at holde og kan klare mere end frokostbrød. Den er lavet til både hjemmet og cafébrug, og med 2000 W bliver den hurtigt varm og har kræfter til sprøde paninier, saftige kødstykker og friske grøntsager.</p>
+<p>Pladerne fordeler varmen jævnt, så sandwichen bliver ensartet gylden fra kant til kant. Med den justerbare termostat vælger du selv, om der skal skarp stegeskorpe eller blid opvarmning til.</p>
+<p>Non-stick-belægningen gør, at maden slipper let, og rengøringen klares hurtigt efter hver brug. Kabinettet i rustfrit stål med sort finish er robust og ser godt ud på køkkenbordet.</p>
 HTML,
-			'good'    => [ 'Paninier og grillmad', 'Familier' ],
-			'less'    => [ 'Små køkkener' ],
+			'good'    => [ 'Paninier og grillmad', 'Familier og flittig brug', 'Dig, der vil styre temperaturen' ],
+			'less'    => [ 'Små køkkener – den er solid og tung' ],
 		],
 		[
 			'ean'     => '7391091867577',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'Champion Paninigrill Pro 2-i-1',
 			'role'    => 'Bedst 2-i-1',
 			'reviews' => [],
-			'verdict' => 'Paninigrill og bordgrill i ét med non-stick plader – fra panini til burgere.',
+			'verdict' => 'Fleksible hængsler, termostat fra ca. 160 til 205 °C og kan foldes ud til bordgrill.',
 			'why'     => <<<'HTML'
-<p>Champion Paninigrill Pro kombinerer to funktioner i ét apparat, så du kan grille alt fra sprøde paninier til saftige burgere, og grillpladerne har non-stick.</p>
+<p>Champion Paninigrill Pro 2-i-1 er til dig, der vil kunne lave alt fra sprøde paninier til saftige burgere. De fleksible hængsler tilpasser låget til madens tykkelse, så både en tynd sandwich og et tykt stykke kød får kontakt med pladerne. Med 2000 W bliver den hurtigt varm, og de rillede plader på 29 × 23 cm giver flotte grillstriber.</p>
+<p>Termostaten går fra cirka 160 til 205 °C, og lamper viser, når grillen er klar. Har du gæster, foldes den helt ud til 180 grader, så I får en bordgrill med to grillflader.</p>
+<p>Non-stick-pladerne gør opvasken hurtig, og overskydende fedt løber ned i en beholder, der er nem at tømme. Håndtaget har Cool Touch, så du kan tage sikkert fat, og ledningen på 83 cm rulles op i bunden.</p>
 HTML,
-			'good'    => [ 'Burgere og paninier', 'Nem rengøring' ],
-			'less'    => [ 'Meget tykke sandwich' ],
+			'good'    => [ 'Burgere og paninier', 'Grill på bordet med gæster', 'Nem rengøring' ],
+			'less'    => [ 'Dig, der vil have meget høj varme over 205 °C' ],
 		],
 		[
 			'ean'     => '7350101117835',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'NOD panini- og sandwichgrill',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Enkel panini- og sandwichgrill til perfekt grillede sandwich.',
+			'verdict' => 'Aftagelige plader, op til 230 °C og kan foldes ud til bordgrill – meget grill for pengene.',
 			'why'     => <<<'HTML'
-<p>NODs panini- og sandwichgrill er det perfekte værktøj til nemt at lave grillede sandwich. Den er et godt valg, hvis du mest skal bruge den til frokost.</p>
+<p>NODs panini- og sandwichgrill er til dig, der elsker en god sandwich – tuna melt, grilled cheese, reuben eller din egen opfindelse. Hver plade har en grillflade på 29 × 23 cm med non-stick, og med 2000 W er den hurtigt klar.</p>
+<p>Varmen styres med én knap fra 60–90 °C i bund til 230 °C i top, så du kan gå fra blid opvarmning til sprød skorpe. Grillen kan også åbnes 180 grader og lægges fladt på bordet, så gæsterne selv kan grille kød og grøntsager.</p>
+<p>Rengøringen er nem, fordi grillpladerne kan tages af. Fedtet samles i en aftagelig bakke bagpå, som du bare tager af og vasker.</p>
 HTML,
-			'good'    => [ 'Frokost', 'Lavt budget' ],
-			'less'    => [ 'Grillmad til aftensmad' ],
+			'good'    => [ 'Frokost og sandwich', 'Lavt budget', 'Grill på bordet' ],
+			'less'    => [ 'Pladerne tåler ikke opvaskemaskine', 'Kort ledning på 70 cm' ],
 		],
 	],
 	'guide'    => <<<'HTML'
