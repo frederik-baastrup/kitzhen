@@ -34,7 +34,7 @@ $posts = get_posts( [ 'post_type' => 'post', 'author' => $a['id'], 'posts_per_pa
 	<div class="section__head"><h2>Sådan arbejder vi</h2><span class="section__line"></span></div>
 	<div class="author-method__grid">
 		<div><b>Data direkte fra butikkerne</b><p>Priser, lagerstatus og specifikationer hentes fra de danske butikkers produktdata to gange i døgnet.</p></div>
-		<div><b>Ingen opdigtede fakta</b><p>Guiderne bygger på producenternes oplysninger og generel købsrådgivning. Står en oplysning ikke i dataene, skriver vi den ikke.</p></div>
+		<div><b>Ingen opdigtede fakta</b><p>Guiderne bygger på producenternes oplysninger og generel købsrådgivning. Står en oplysning ikke i dataene, skriver vi den ikke. <a href="<?php echo esc_url( playform_method_url() ); ?>">Sådan vælger vi produkter</a>.</p></div>
 		<div><b>Ærlige tilbud</b><p>Vi viser kun butikkernes egne tilbud i højst 14 dage, og det står altid, hvor en førpris kommer fra.</p></div>
 		<div><b>Annoncer</b><p>Siden indeholder affiliate-links, og vi får provision ved køb. <a href="<?php echo esc_url( home_url( '/saadan-tjener-vi-penge/' ) ); ?>">Sådan tjener vi penge</a>.</p></div>
 	</div>
