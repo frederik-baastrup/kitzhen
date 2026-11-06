@@ -1,0 +1,16 @@
+name: Hent butikssider
+on:
+  push:
+    branches: [shop-pages]
+    paths: [urls.txt, fetch.py]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 fetch.py
+      - run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add pages.json && git commit -qm "Butikssider hentet [skip ci]" && git push -q
