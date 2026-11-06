@@ -20,11 +20,13 @@ HTML,
 			'name'    => 'Morakniv Classic steakkniv 4 stk.',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Steakknive fra svenske Morakniv, der gør det nemt at skære mundrette stykker.',
+			'verdict' => 'Meget skarpe steakknive i koldvalset rustfrit stål med det klassiske tøndeformede skaft i rødt birketræ.',
 			'why'     => <<<'HTML'
-<p>Morakniv er en svensk knivproducent med mange års erfaring. Classic-steakkniven er en kniv, der gør det nemt at skære mundrette stykker af kødet. Sættet har fire knive.</p>
+<p>Morakniv Classic er steakkniven til dig, der vil have en god bøf og et bord, der ser indbydende ud. Knivene er meget skarpe, så du skærer mundrette stykker uden at flå i kødet, og det røde skaft i birketræ giver et varmt, klassisk præg på borddækningen.</p>
+<p>Bladet er i koldvalset rustfrit stål og varmebehandlet, så det er slidstærkt og holder skarpheden. Det er 10 cm langt og 2 mm tykt, og hele kniven måler 20,5 cm. Det tøndeformede skaft er ergonomisk og ligger godt i hånden.</p>
+<p>De fire knive leveres i en flot gaveæske, så sættet også er en oplagt gave til en, der elsker kød.</p>
 HTML,
-			'good'    => [ 'Bøffer og grillmad', 'Skandinavisk borddækning' ],
+			'good'    => [ 'Bøffer og grillmad', 'Skandinavisk borddækning', 'Gave til madelskeren' ],
 			'less'    => [ 'Store selskaber – kun 4 knive' ],
 		],
 		[
@@ -33,9 +35,11 @@ HTML,
 			'name'    => 'Gense Old Farmer Micarta steakkniv XL 4 dele',
 			'role'    => 'Bedst til grillmad',
 			'reviews' => [],
-			'verdict' => 'Rustikt grillbestik fra Gense med skaft i micarta.',
+			'verdict' => 'Rustikke XL-steakknive i rustfrit stål og micarta, designet af danske Bent Severin.',
 			'why'     => <<<'HTML'
-<p>Old Farmer er en serie grillbestik fra Gense, der giver et autentisk og rustikt look til bordet. XL-steakknivene har skaft i micarta og passer godt til grillaftener og store bøffer.</p>
+<p>Gense Old Farmer er grillbestikket til dig, der vil give bordet et rustikt og robust udtryk, når der står grillmad på menuen. XL-knivene er store og solide og passer godt til tykke bøffer, koteletter og spareribs.</p>
+<p>Knivene er lavet af rustfrit stål med skaft i micarta, og de er 23,5 cm lange. Serien er tegnet af den danske arkitekt og designer Bent Severin, som var kendt for at stille store krav til materialerne – her mødes det flotte og det praktiske.</p>
+<p>Bag knivene står svenske Gense, der blev grundlagt i Eskilstuna i 1856 og har været kongelig hofleverandør til det svenske hof siden 1982.</p>
 HTML,
 			'good'    => [ 'Grillaftener', 'Store bøffer' ],
 			'less'    => [ 'En klassisk, fin borddækning' ],
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Zwilling Twin steakknive 4 stk.',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Steakknive i rustfrit stål fra tyske Zwilling til en lav pris.',
+			'verdict' => 'Fire Zwilling-steakknive med 12 cm glat blad i hårdt rustfrit stål – kvalitet til en lav pris.',
 			'why'     => <<<'HTML'
-<p>Zwilling er en af verdens kendte knivproducenter. Twin-steakknivene er fremstillet af rustfrit stål og er til dig, der ikke vil gå ned på kvalitet. Til prisen er det et godt sæt til hverdag.</p>
+<p>Zwilling Twin er til dig, der vil have steakknive fra et kendt knivmærke uden at bruge mange penge. Sættet har fire knive, så der er til hele familien ved aftensmaden.</p>
+<p>Bladene er af rustfrit stål med en høj hårdhed, så de holder længe. De er 12 cm lange og har en glat æg, der skærer rent gennem kødet i stedet for at rive i det. Det ergonomiske skaft er slidstærkt og ligger godt i hånden.</p>
+<p>Vask knivene i hånden, så holder de sig skarpe og pæne længst.</p>
 HTML,
-			'good'    => [ 'Hverdag', 'Lavt budget' ],
-			'less'    => [ 'Dig, der vil have et særligt design' ],
+			'good'    => [ 'Hverdag', 'Lavere budget', 'Dig, der vil have et kendt knivmærke' ],
+			'less'    => [ 'Dig, der vil have et særligt design', 'Bør vaskes i hånden' ],
 		],
 		[
 			'ean'     => '7891112325760',
@@ -59,11 +65,13 @@ HTML,
 			'name'    => 'Tramontina steakkniv 4-pak',
 			'role'    => 'Billigst',
 			'reviews' => [],
-			'verdict' => 'Steakknive med varmebehandlet blad og polywood-skaft til en meget lav pris.',
+			'verdict' => 'Fire robuste steakknive med varmebehandlet blad og polywood-skaft, der kan komme i opvaskemaskinen.',
 			'why'     => <<<'HTML'
-<p>Tramontina er et brasiliansk mærke. Knivbladet er ekstra holdbart takket være varmebehandling, og skafterne er polywood-behandlede.</p>
+<p>Tramontina steakknive er det nemme valg til dig, der vil have fire solide knive til bøf og grillmad uden at tænke over plejen. Det brune træskaft giver en hyggelig steakhouse-stemning på bordet.</p>
+<p>Knivbladene er i rustfrit stål og varmebehandlet, hvilket gør dem ekstra holdbare. Skafterne er behandlet med polywood, så de tåler både stød og høje temperaturer.</p>
+<p>Netop derfor kan knivene komme i opvaskemaskinen – en stor fordel, når der skal ryddes op efter en grillaften med mange gæster.</p>
 HTML,
-			'good'    => [ 'Steakhouse-stemning', 'Mange knive til lav pris' ],
+			'good'    => [ 'Steakhouse-stemning', 'Dig, der vil kunne bruge opvaskemaskinen', 'Lavt budget' ],
 			'less'    => [ 'Fin borddækning' ],
 		],
 	],

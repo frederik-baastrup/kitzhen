@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Smeg SCB92MX8 gaskomfur 90 cm',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => '90 cm gaskomfur i rustfrit stål fra italienske Smeg med to elektriske ovne.',
+			'verdict' => 'Fem gasblus og to elektriske ovne på 70 og 35 liter – laver du steg og kage samtidig.',
 			'why'     => <<<'HTML'
-<p>Smeg SCB92MX8 er et stort gaskomfur med to elektriske ovne. Der er eco-tilstand, rotisserie, grill og luftcirkulation. To ovne gør det muligt at lave steg og kage samtidig.</p>
+<p>Smeg SCB92MX8 er gaskomfuret til dig, der laver meget mad og ofte har gæster. På toppen er fem gasblus fra 1 til 3,5 kW, og to af dem varmer ekstra hurtigt op. Flammen tænder automatisk, og gryderne står trygt på kraftige riste af støbejern.</p>
+<p>Under blussene sidder to elektriske ovne. Den store på 70 liter har varmluft, grill, rotisserie, eco-tilstand og optøning og når op på 260 grader. Den lille på 35 liter har over- og undervarme og klarer kagen, mens stegen passer sig selv ved siden af. Timeren giver lyd, når maden er klar.</p>
+<p>Rengøringen er gjort let: Vapor Clean løsner fedt og fastbrændte rester, så du blot tørrer efter med en klud. Ovnlågen har tre lag glas, og de to inderste kan tages af og vaskes. Komfuret fås til flaskegas, bygas og naturgas.</p>
 HTML,
-			'good'    => [ 'Store familier og madentusiaster', 'Køkkener med plads til 90 cm' ],
-			'less'    => [ 'Små køkkener' ],
+			'good'    => [ 'Store familier og madentusiaster', 'Dig, der bager og steger på samme tid', 'Køkkener med plads til 90 cm' ],
+			'less'    => [ 'Små køkkener', 'Den lille ovn har ikke varmluft' ],
 		],
 		[
 			'ean'     => '8056772401431',
@@ -33,11 +35,13 @@ HTML,
 			'name'    => 'La Germania Prima RIS95C61BX',
 			'role'    => 'Godt alternativ',
 			'reviews' => [],
-			'verdict' => '90 cm gaskomfur i rustfrit stål med multifunktionsovn, 5 brændere og støbejernsriste.',
+			'verdict' => 'Fem brændere med wokblus og én stor ovn på 85 liter med varmluft – plads til flere retter ad gangen.',
 			'why'     => <<<'HTML'
-<p>La Germania er et italiensk mærke. Prima er et 90 cm gaskomfur i rustfrit stål med multifunktionsovn og 5 brændere, og det har en solid gaskogeplade med robuste støbejernsriste.</p>
+<p>La Germania Prima er et 90 cm gaskomfur i rustfrit stål til dig, der vil have masser af plads både på toppen og i ovnen. De fem brændere står under solide riste af støbejern, og wokbrænderen har to trin, så du kan give den fuld skrue til stegning og skrue ned til simring.</p>
+<p>Multifunktionsovnen rummer 85 liter. Med varmluft kan du lave flere retter på én gang, uden at de smager af hinanden – godt, når der er mange til middag. De sorte knapper på stålfronten er nemme at aflæse.</p>
+<p>Sikkerheden er i orden: Alle brændere har en sikkerhedsventil mod gasudslip og tænder elektrisk med ét tryk. Komfuret er sat op til flaskegas (G30), og dyser til G110 og G20 følger med.</p>
 HTML,
-			'good'    => [ 'Mange gryder på én gang', 'Wok' ],
+			'good'    => [ 'Mange gryder på én gang', 'Wok ved høj varme', 'Store retter i én stor ovn' ],
 			'less'    => [ 'Dig, der vil have to ovne' ],
 		],
 		[
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Mustang gasblus med 2 kogeplader',
 			'role'    => 'Bedst til sommerhus',
 			'reviews' => [],
-			'verdict' => 'Gasblus i rustfrit stål med to brændere på 3,4 og 4,3 kW og piezo-tænding.',
+			'verdict' => 'To kraftige brændere på 3,4 og 4,3 kW, der kan bruges både inde og ude.',
 			'why'     => <<<'HTML'
-<p>Mustangs gasblus er egnet til både indendørs og udendørs brug. Det har to kogeplader med integreret piezo-tænding og en effekt på 3,4 kW og 4,3 kW. Det er et godt valg til sommerhuset, campingvognen eller som ekstra blus.</p>
+<p>Mustangs gasblus er den enkle løsning, når du har brug for gas uden et helt komfur. Det kan bruges både indendørs og udendørs, så det passer til sommerhuset, campingturen, terrassen eller som ekstra blus, når pladsen på komfuret slipper op.</p>
+<p>De to brændere er på 3,4 og 4,3 kW – kraft nok til en stor gryde eller en wok, der skal være rigtig varm. Begge tænder med indbygget piezo-tænding, så du ikke skal lede efter tændstikker, og en flammeafbryder giver ekstra tryghed.</p>
+<p>Stellet er i rustfrit stål, der tåler at blive brugt udenfor. Med 5,65 kg og en højde på 10,5 cm er blusset let at flytte og gemme væk. Der er 2 års garanti. Husk, at regulatoren skal købes for sig.</p>
 HTML,
-			'good'    => [ 'Sommerhus og camping', 'Ekstra blus til wok og paella' ],
-			'less'    => [ 'Dig, der vil have en ovn' ],
+			'good'    => [ 'Sommerhus og camping', 'Ekstra blus til wok og paella', 'Let at flytte og gemme væk' ],
+			'less'    => [ 'Dig, der vil have en ovn', 'Regulator følger ikke med' ],
 		],
 	],
 	'guide'    => <<<'HTML'

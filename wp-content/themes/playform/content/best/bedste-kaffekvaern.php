@@ -20,13 +20,14 @@ HTML,
 			'name'    => 'Smeg CGF02 kaffekværn',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Elektrisk kaffekværn i Smeg-design med præcise indstillinger.',
-			'why'
-=> <<<'HTML'
-<p>Smegs kaffekværn kombinerer stilrent design med avanceret funktionalitet og præcise indstillinger, så du kan få det bedste ud af dine bønner. Den passer til andre Smeg-apparater.</p>
+			'verdict' => 'Smegs elegante kværn med præcis formaling fra espresso til filterkaffe – og to års garanti.',
+			'why'     => <<<'HTML'
+<p>Smeg CGF02 er kaffekværnen til dig, der vil have friskmalet kaffe og et apparat, der pynter på køkkenbordet. Det stilrene design i sølv passer fint sammen med Smegs øvrige køkkenmaskiner, og betjeningen er så enkel, at både nybegyndere og erfarne hjemmebaristaer hurtigt er med.</p>
+<p>Med de præcise indstillinger for formaling finder du nemt den rette grovhed, uanset om du laver espresso eller filterkaffe. Når bønnerne males lige før bryggning, får du mere aroma og en fyldigere kop.</p>
+<p>Kværnen er bygget solidt i stål og Tritan og vejer 4,3 kg, så den står stabilt. Den måler 15 cm i bredden og 34,5 cm i højden, og der er to års garanti.</p>
 HTML,
-			'good'    => [ 'Filterkaffe og stempelkande', 'Design' ],
-			'less'    => [ 'Dig, der kun brygger espresso på højt niveau' ],
+			'good'    => [ 'Dig, der skifter mellem espresso og filterkaffe', 'Køkkener med andre Smeg-apparater', 'Nem betjening' ],
+			'less'    => [ 'Dig, der vil have en lille og let kværn' ],
 		],
 		[
 			'ean'     => '4260113437490',
@@ -34,12 +35,14 @@ HTML,
 			'name'    => 'Comandante MK4',
 			'role'    => 'Bedst manuel',
 			'reviews' => [],
-			'verdict' => 'Robust håndkværn med kegleformet kværnhjul – en favorit blandt kaffenørder.',
+			'verdict' => 'Robust håndkværn med præcist kværnhjul, der maler til alle bryggemetoder – kompakt og smuk i træ.',
 			'why'     => <<<'HTML'
-<p>Comandante er en tysk håndkværn. MK4 er en robust, hånddrevet kaffekværn med høj præstationsevne og et kværnhjul med avanceret design. En god håndkværn kan male lige så ensartet som en dyr elektrisk kværn og kan tages med på tur.</p>
+<p>Comandante MK4 er håndkværnen til dig, der nyder ritualet omkring en god kop kaffe. Du drejer selv bønnerne igennem, og det giver dig fuld kontrol over resultatet – helt uden motorstøj.</p>
+<p>Hjertet er et kværnhjul med et gennemtænkt design, der knuser bønnerne med stor præcision. Derfor kan du bruge den til alle bryggemetoder, fra fin espresso til grov stempelkande. Kværnen er robust bygget og laver kaffe af høj kvalitet dag efter dag.</p>
+<p>Med 15 cm i højden og 6 cm i diameter fylder den næsten ingenting og kan sagtens komme med i sommerhuset eller på tur. Denne udgave er i Virginia Walnut, og den fås også i American Cherry og Liquid Amber.</p>
 HTML,
-			'good'    => [ 'Filterkaffe og pour over', 'Rejser og camping' ],
-			'less'    => [ 'Store mængder kaffe hver morgen' ],
+			'good'    => [ 'Filterkaffe og pour over', 'Rejser, sommerhus og camping', 'Dig, der vil have en stille kværn' ],
+			'less'    => [ 'Store mængder kaffe hver morgen – den drejes med hånden' ],
 		],
 		[
 			'ean'     => '4008146045370',
@@ -47,12 +50,14 @@ HTML,
 			'name'    => 'Severin KM 3880 Deluxe',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Stilren og brugervenlig kaffekværn med fuld kontrol over kværningen.',
+			'verdict' => '30 indstillinger, kværnskiver i stål og automatisk dosering til 2–12 kopper – meget kværn for pengene.',
 			'why'     => <<<'HTML'
-<p>Severin KM 3880 er en stilren og brugervenlig kaffekværn til kaffeentusiaster, der ønsker fuld kontrol over kværningen – uanset om der brygges én kop eller en hel kande.</p>
+<p>Severin KM 3880 Deluxe er et oplagt valg, hvis du vil i gang med friskmalet kaffe uden at bruge en formue. Den klarer både morgenkoppen og kaffen til gæsterne, og du får fuld kontrol over, hvordan bønnerne males.</p>
+<p>Kværnskiverne er i rustfrit stål, og med 30 indstillinger kan du gå fra fint espressopulver til groft til stempelkanden. Doseringen gør hverdagen let: Du vælger 2, 4, 6, 8, 10 eller 12 kopper, og kværnen maler netop den mængde. Så spilder du ikke dyre bønner. Motoren på 140 W arbejder effektivt og forholdsvis stille.</p>
+<p>Bønnebeholderen rummer 240 g og kan tages af, og pulverbeholderen på 130 g har låg, så intet drysser ud. Begge er gennemsigtige, så du kan se, hvad der er i. Kværnen er kompakt, nem at gøre ren og har 2 års garanti.</p>
 HTML,
-			'good'    => [ 'Lavt budget', 'Filterkaffe' ],
-			'less'    => [ 'Espresso' ],
+			'good'    => [ 'Lavt budget', 'Kaffe til hele familien eller gæster', 'Dig, der vil undgå spild af bønner' ],
+			'less'    => [ 'Dig, der vil have en kværn helt i metal – den er delvist i plast' ],
 		],
 	],
 	'guide'    => <<<'HTML'

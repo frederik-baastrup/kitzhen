@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Kamado Sumo Signature Midi',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Robust kamado i mellemstørrelse – til at grille, ryge og bage.',
+			'verdict' => 'Komplet kamado-station med 47 cm rist, sideborde og hjul – plads til grillmad for 8–10 personer.',
 			'why'     => <<<'HTML'
-<p>Kamado Sumo er et svensk mærke med fokus på kamado-grills. Signature Midi er en robust og gennemtænkt kulgrill, der tager grillningen til næste niveau. Midi-størrelsen er god til en almindelig familie.</p>
+<p>Kamado Sumo Signature Midi giver dig topmodellernes funktioner i en størrelse, der passer til familien og vennerne. Den runde rist på 47 cm har plads til mad til 8–10 personer, og du kan grille, ryge, bage pizza og brune kød ved høj varme i den samme grill.</p>
+<p>Ristens højde kan justeres i flere niveauer, og med de to halvmåneformede varmefordelere skifter du nemt mellem direkte og indirekte grill. Termometeret i låget viser temperaturen, og gennem kontrollemmen kan du drysse røgflis i med det medfølgende værktøj uden at åbne låget og miste varmen.</p>
+<p>Stativ, sideborde, håndtag, kulkurv og topventil er i rustfrit stål, og sidebordene har kroge til grillredskaberne. Asken samles i en skuffe, du kan tage ud, og der følger en askeskraber med. Grillen vejer 95 kg, men de store hjul gør den til at flytte på terrassen.</p>
 HTML,
-			'good'    => [ 'Familier', 'Rygning og langtidsgrill' ],
-			'less'    => [ 'Altaner – den er tung' ],
+			'good'    => [ 'Familier og selskaber på 8–10 personer', 'Rygning og langtidsgrill', 'Dig, der vil have sideborde og hjul med' ],
+			'less'    => [ 'Altaner og små terrasser – den er 116 cm bred med sideborde og vejer 95 kg' ],
 		],
 		[
 			'ean'     => '0077924159152',
@@ -33,9 +35,10 @@ HTML,
 			'name'    => 'Weber Summit Kamado E6',
 			'role'    => 'Bedst luksus',
 			'reviews' => [],
-			'verdict' => 'Webers kamado med Webers hidtil største integrerede termometer.',
+			'verdict' => 'Kamado fra Webers Summit-serie med Webers hidtil største indbyggede termometer.',
 			'why'     => <<<'HTML'
-<p>Weber Summit Kamado er Webers bud på en kamado. Det store, integrerede termometer – Webers hidtil største – gør det let at holde øje med temperaturen. Den er dyr, men en komplet grillstation.</p>
+<p>Weber Summit Kamado E6 er Webers kamado-kulgrill fra topserien Summit – til dig, der vil have en kamado fra et mærke, du kender.</p>
+<p>Det indbyggede termometer er det største, Weber har lavet til dato. Det har markeringer for de forskellige måder at tilberede på, så du hurtigt kan se, om grillen har den rette temperatur, før maden kommer på. Det gør det nemmere at ramme varmen, uanset om du skal grille bøffer eller ryge langsomt.</p>
 HTML,
 			'good'    => [ 'Grillentusiaster', 'Dig, der vil have Weber-kvalitet' ],
 			'less'    => [ 'Små budgetter' ],
@@ -46,11 +49,13 @@ HTML,
 			'name'    => 'Kamado Sumo Icon Junior 34 cm',
 			'role'    => 'Bedst til få personer',
 			'reviews' => [],
-			'verdict' => 'Mindre kamado med kraftfuld funktionalitet i et smart format.',
+			'verdict' => 'Kompakt keramisk kamado med 34 cm rist, støbejernsventil og teakdetaljer – kun 63 cm høj.',
 			'why'     => <<<'HTML'
-<p>Icon Junior er en mindre kamado, der kombinerer kraftfuld funktionalitet med et smart format, og et fremragende valg til mindre selskaber.</p>
+<p>Kamado Sumo Icon Junior er til dig, der har en lille terrasse eller altan, eller som vil have grillen med i sommerhuset. Risten på 34 cm i diameter har plads til det meste, og du kan både grille hurtigt over direkte varme og lave mad, der skal have tid.</p>
+<p>Den tykke keramiske skal isolerer godt og holder temperaturen jævn i lang tid – ideelt til røg og indirekte varme. Med topventilen i støbejern og bundventilen med gnistbeskytter styrer du luften præcist, og termometeret i låget viser, hvor varmen er. Gennem inspektionslemmen tilsætter du røgspåner med det medfølgende værktøj uden at åbne låget. Hængslet med dobbelte fjedre gør det tunge låg let at løfte.</p>
+<p>Grillristen er i rustfrit stål og nem at rengøre, og en askerive følger med. Grillen er 63 cm høj og 57 cm bred med håndtaget.</p>
 HTML,
-			'good'    => [ 'Par og små familier', 'Små terrasser' ],
+			'good'    => [ 'Par og små familier', 'Altaner og små terrasser', 'Sommerhuset' ],
 			'less'    => [ 'Store selskaber' ],
 		],
 		[
@@ -59,12 +64,14 @@ HTML,
 			'name'    => 'Kamado Sumo Signature Junior',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Kompakt kamado til at grille, ryge og bage – maksimal smag på minimal plads.',
+			'verdict' => 'Kompakt kamado på 31 kg med 33 cm rist og stativ i rustfrit stål – grill, røg og bag.',
 			'why'     => <<<'HTML'
-<p>Signature Junior er lavet til dig, der vil have maksimal smag på minimal plads, og den kan både grille, ryge og bage. Den er den billigste vej ind i kamado-verdenen.</p>
+<p>Kamado Sumo Signature Junior giver dig ægte kamado-mad på meget lidt plads. Du kan grille, ryge og bage i den, og med 31 kg kan den følge med fra haven til sommerhuset eller på tur. Risten på 33 cm er god til mindre selskaber.</p>
+<p>Selvom den er lille, har den de funktioner, du kender fra de store kamadoer: grillrist i rustfrit stål, en varmefordeler til jævn, indirekte varme, topventil i rustfrit stål med regnbeskyttelse, bundventil og termometer i låget. Gennem kontrollemmen tilsætter du røgflis med det medfølgende værktøj under tilberedningen.</p>
+<p>Grillen står stabilt i et stativ i rustfrit stål med solide håndtag. Rengøringen går hurtigt med den medfølgende askeskraber.</p>
 HTML,
-			'good'    => [ 'Begyndere', 'Lavt budget' ],
-			'less'    => [ 'Store stege' ],
+			'good'    => [ 'Begyndere i kamado-grill', 'Lavere budget', 'Sommerhus og små terrasser' ],
+			'less'    => [ 'Store stege og mange gæster' ],
 		],
 	],
 	'guide'    => <<<'HTML'

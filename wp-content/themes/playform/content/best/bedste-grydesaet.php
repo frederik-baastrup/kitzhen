@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Zwilling Pure grydesæt 5 dele',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Grydesæt i rustfrit stål med tre gryder, en suppegryde og en kasserolle – med låg.',
+			'verdict' => 'Fem dele i 18/10 rustfrit stål fra 1,5 til 6 liter – klar til induktion, ovn og opvaskemaskine.',
 			'why'     => <<<'HTML'
-<p>Zwilling Pure er et klassisk grydesæt i rustfrit stål. Sættet består af tre gryder med låg, en rummelig suppegryde med låg og en mindre kasserolle, og det giver gode muligheder for både daglig madlavning og mere krævende retter.</p>
+<p>Zwilling Pure er sættet, der dækker hele køkkenet på én gang. Du får gryder på 2, 3 og 3,5 liter med låg, en stor suppegryde på 6 liter med låg og en lille kasserolle på 1,5 liter. Det er nok til alt fra hverdagens kartofler og ris til en stor portion suppe eller pasta til hele familien.</p>
+<p>Alle dele er lavet af slidstærkt 18/10 rustfrit stål med en tredelt bund, der fordeler varmen hurtigt og jævnt på alle kogeplader – også induktion. Stållågene holder godt på varmen, og håndtagene bliver ved med at være kølige at tage fat i.</p>
+<p>Når maden er lavet, kan alle dele komme i opvaskemaskinen. Gryderne tåler også ovnen op til 180 °C, så du kan holde maden varm eller gøre en ret færdig derinde.</p>
 HTML,
-			'good'    => [ 'Komplet sæt til familien', 'Rustfrit stål, der holder' ],
-			'less'    => [ 'Små budgetter' ],
+			'good'    => [ 'Første køkken eller en komplet udskiftning', 'Familier, der laver store portioner', 'Dig, der vil have rustfrit stål, der holder' ],
+			'less'    => [ 'Ingen låg til den lille kasserolle', 'Mindre budgetter' ],
 		],
 		[
 			'ean'     => '4895156672043',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'KitchenAid grydesæt 3 dele, rustfrit stål',
 			'role'    => 'Bedst mindre sæt',
 			'reviews' => [],
-			'verdict' => 'Kasserolle og to gryder med låg i rustfrit stål med aluminiumsbund for jævn varme.',
+			'verdict' => 'Tre gryder i rustfrit stål med aluminiumsbund og glaslåg – tåler ovnen op til 220 °C.',
 			'why'     => <<<'HTML'
-<p>KitchenAids sæt består af en kasserolle og to gryder med låg. Gryderne er lavet af rustfrit stål med en aluminiumsbund, der giver en hurtig og jævn varmefordeling. Tre dele er nok til de fleste små husstande.</p>
+<p>KitchenAids grydesæt er til dig, der vil have de tre gryder, du bruger mest, i god kvalitet. Du får en kasserolle på 16 cm og gryder med låg på 20 og 24 cm – nok til alt fra sovs og risotto til supper, gryderetter og pasta.</p>
+<p>Gryderne er i rustfrit stål med en aluminiumsbund, der varmer hurtigt og jævnt op, og de virker på induktion. Den børstede overflade gør det sværere for madrester at sætte sig fast. De tætsluttende låg i hærdet glas lader dig følge med i maden uden at slippe varme og damp ud, og silikonegrebene på håndtagene giver et sikkert og køligt greb.</p>
+<p>Gryderne tåler ovnen op til 220 °C og kan komme i opvaskemaskinen, men vasker du dem i hånden, holder de længere.</p>
 HTML,
-			'good'    => [ 'Små husstande', 'Hverdagsmad' ],
-			'less'    => [ 'Store familier' ],
+			'good'    => [ 'Små husstande', 'Dig, der vil kunne se maden gennem låget', 'Fra komfur til ovn' ],
+			'less'    => [ 'Store familier, der har brug for flere dele' ],
 		],
 		[
 			'ean'     => '5722000306122',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Pillivuyt Travo grydesæt 6 dele',
 			'role'    => 'Bedst med keramisk belægning',
 			'reviews' => [],
-			'verdict' => 'Grydesæt med slidstærk keramisk belægning og glaslåg – gryder på 2,1 og 3,8 liter og kasserolle på 1,3 liter.',
+			'verdict' => 'Keramisk belægning, der tåler metalredskaber, og gryder i 98 % genbrugsaluminium med glaslåg.',
 			'why'     => <<<'HTML'
-<p>Pillivuyt Travo indeholder to gryder med glaslåg på 2,1 og 3,8 liter og en kasserolle med glaslåg på 1,3 liter. Serien har en slidstærk keramisk belægning, som er meget robust og holder længe. Glaslågene gør det nemt at holde øje med maden.</p>
+<p>Pillivuyt Travo er til dig, der vil have gryder, hvor maden slipper let, uden at du skal passe på med redskaberne. Sættet består af to gryder på 2,1 og 3,8 liter og en kasserolle på 1,3 liter – alle med glaslåg, så du kan holde øje med maden.</p>
+<p>Den keramiske belægning er slidstærk og kan bruges med redskaber i både plastik, silikone, træ og metal. Kroppen er lavet af 98 % genbrugsaluminium, mens håndtag og bund er i rustfrit stål. Bunden er 3,3 mm tyk og varmer hurtigt og jævnt op på alle varmekilder, også induktion. Det matsorte ydre ser stilrent ud på komfuret.</p>
+<p>Gryderne tåler ovnen op til 240 °C, men det gør lågene ikke. Vask dem i hånden, så holder belægningen længst. Pillivuyt giver 2 års garanti.</p>
 HTML,
-			'good'    => [ 'Dig, der vil have let rengøring', 'Ris, sovs og grød' ],
-			'less'    => [ 'Meget høj varme og metalredskaber' ],
+			'good'    => [ 'Dig, der vil have let rengøring', 'Ris, sovs og grød, der ikke må brænde på', 'Dig, der bruger metalredskaber' ],
+			'less'    => [ 'Skal vaskes i hånden', 'Lågene tåler ikke ovnen' ],
 		],
 		[
 			'ean'     => '3168430383456',
@@ -59,12 +65,14 @@ HTML,
 			'name'    => 'Tefal Ingenio Excellence Ceramic 4 dele',
 			'role'    => 'Bedst til små køkkener',
 			'reviews' => [],
-			'verdict' => 'Grydesæt med aftageligt håndtag – fra komfur til ovn og bord, og kan stables i skabet.',
+			'verdict' => 'Aftageligt håndtag, så kasserollerne går fra komfur til ovn og bord – og fylder op til 50 % mindre i skabet.',
 			'why'     => <<<'HTML'
-<p>Tefal Ingenio har et patenteret, aftageligt håndtag. Et let klik gør det muligt at tage håndtaget af og flytte gryderne direkte fra komfuret ind i ovnen eller stille dem på bordet. Uden håndtag kan de stables og fylder mindre i skabet.</p>
+<p>Tefal Ingenio Excellence er løsningen, hvis skabspladsen er trang. Med et klik tager du håndtaget af, og så kan kasserollerne på 16, 18 og 20 cm stables i hinanden. Det giver op til 50 % mere plads end almindelige kasseroller. Uden håndtag kan de også gå direkte fra komfuret ind i ovnen eller på bordet som serveringsfade.</p>
+<p>Håndtaget sidder fast med et stabilt trepunktssystem, kan bære op til 10 kilo og har 10 års garanti. Thermo-Signal viser, når gryden er varm nok til ingredienserne, og Thermo-Fusion Plus-bunden fordeler varmen hurtigt og jævnt – også på induktion.</p>
+<p>Den keramiske belægning er uden tilsat PFAS, og den glatte overflade gør, at maden ikke brænder fast. Kasserollerne tåler ovnen op til 250 °C uden håndtag. Vask dem helst i hånden, så holder belægningen længst.</p>
 HTML,
-			'good'    => [ 'Små køkkener', 'Fra komfur til ovn og bord' ],
-			'less'    => [ 'Dig, der ikke vil have et løst håndtag' ],
+			'good'    => [ 'Små køkkener med lidt skabsplads', 'Fra komfur til ovn og bord', 'Dig, der vil undgå tilsat PFAS' ],
+			'less'    => [ 'Dig, der ikke vil have et løst håndtag', 'Bør vaskes i hånden' ],
 		],
 	],
 	'guide'    => <<<'HTML'

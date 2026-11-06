@@ -20,12 +20,14 @@ HTML,
 			'name'    => 'Microplane Gourmet medium rivejern',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Barberbladsskarpt rivejern i rustfrit stål, der river begge veje.',
+			'verdict' => 'Barberbladsskarpe tænder i rustfrit stål, der giver let og luftig parmesan på få sekunder.',
 			'why'     => <<<'HTML'
-<p>Microplane er kendt for rivejern med fotoætsede skær. Gourmet-rivejernet har tovejsskær, så du kan rive begge veje, og de barberbladsskarpe skær i rustfrit stål skærer råvarerne frem for at flå dem.</p>
+<p>Microplane Gourmet med medium ribbe er rivejernet til dig, der vil have friskrevet parmesan over pastaen hver gang – uden at kæmpe med osten. Det er lavet til køkkenet, hvor du river direkte ned over gryden eller tallerkenen.</p>
+<p>Tænderne i rustfrit stål er barberbladsskarpe, så de glider gennem selv hård ost med et let tryk. Den mellemgrove ribbe gør det alsidigt: Du kan også bruge det til grøntsager og krydderurter.</p>
+<p>Rivejernet er slidstærkt, ligger godt i hånden og er nemt at gøre rent. Det sorte greb giver et stilrent udtryk i skuffen.</p>
 HTML,
-			'good'    => [ 'Parmesan, pecorino og chokolade', 'Hurtig rivning i køkkenet' ],
-			'less'    => [ 'Rivning ved bordet' ],
+			'good'    => [ 'Parmesan og andre hårde oste', 'Grøntsager og krydderurter', 'Hurtig rivning i køkkenet' ],
+			'less'    => [ 'Rivning ved bordet, hvor en kværn er mere praktisk' ],
 		],
 		[
 			'ean'     => '4004293166845',
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'Rösle parmesankværn',
 			'role'    => 'Bedst ved bordet',
 			'reviews' => [],
-			'verdict' => 'Parmesankværn i 18/10 rustfrit stål til ost ved bordet og chokolade over desserten.',
+			'verdict' => 'Holdbar kværn i 18/10 rustfrit stål, hvor du selv vælger fin eller grov – og den tåler opvaskemaskine.',
 			'why'     => <<<'HTML'
-<p>Rösles parmesankværn er lavet af 18/10 rustfrit stål og klarer forskellige madvarer, fra parmesan over pastaen til chokolade over isdesserten. En kværn er rar ved bordet, fordi du ikke rører osten med fingrene.</p>
+<p>Rösles parmesankværn hører hjemme på middagsbordet. Hver gæst river selv sin parmesan over pastaen, og ingen skal røre osten med fingrene. Den er heller ikke bange for andet end ost: Chokolade over isdesserten klarer den lige så fint.</p>
+<p>Du bestemmer selv, om du vil have helt fine strimler eller lidt tykkere, så du kan tilpasse osten til retten. Kværnen er lavet af 18/10 rustfrit stål, der holder i mange år, med dele i polypropylen.</p>
+<p>Efter middagen kommer den bare i opvaskemaskinen. Med 15,5 × 11,5 × 6,1 cm fylder den ikke meget i skuffen.</p>
 HTML,
-			'good'    => [ 'Pastaaften med gæster', 'Rustfrit stål, der holder' ],
-			'less'    => [ 'Store mængder ost' ],
+			'good'    => [ 'Pastaaften med gæster', 'Ost og chokolade', 'Rustfrit stål, der holder' ],
+			'less'    => [ 'Store mængder ost til madlavning' ],
 		],
 		[
 			'ean'     => '5011268812286',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Zyliss Classic Beluga ostekværn',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Klassisk ostekværn fra Zyliss, der gør rivning af ost nem.',
+			'verdict' => 'Robust og kompakt ostekværn, der hurtigt river hård ost i fine flager – til en lille pris.',
 			'why'     => <<<'HTML'
-<p>Zyliss Beluga er en klassisk ostekværn. Den er designet til at gøre rivning af ost nem og effektiv, og den er i solid kvalitet.</p>
+<p>Zyliss Classic Beluga er den enkle vej til friskrevet ost ved hvert måltid. Kværnsystemet river hårde oste som parmesan og pecorino i fine flager, så smagen fordeler sig jævnt over retten.</p>
+<p>Brug den over pasta, risotto, pizza, gratin, salat og ovnbagte grøntsager – nyrevet ost smelter fint og giver retten et ekstra løft. Kværnen er robust bygget og behagelig at dreje, også når der skal ost på til hele familien.</p>
+<p>Med 18 × 12,7 × 8 cm er den kompakt og nem at finde plads til i skuffen. Den mørkegrå farve er diskret på bordet. Vask den i hånden efter brug.</p>
 HTML,
-			'good'    => [ 'Lavt budget', 'Rivning ved bordet' ],
-			'less'    => [ 'Meget fin ost' ],
+			'good'    => [ 'Lavt budget', 'Rivning ved bordet', 'Pasta, risotto og pizza' ],
+			'less'    => [ 'Tåler ikke opvaskemaskine' ],
 		],
 	],
 	'guide'    => <<<'HTML'

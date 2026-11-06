@@ -7,7 +7,7 @@ defined( 'ABSPATH' ) || exit;
 return [
 	'slug'     => 'bedste-pastamaskine',
 	'title'    => 'Pastamaskine: Vores bud på de 3 bedste',
-	'excerpt'  => 'Med en pastamaskine laver du frisk pasta som i Italien. Her er vores bud på de 3 bedste pastamaskiner fra danske butikker – manuel, med motor og elektrisk.',
+	'excerpt'  => 'Med en pastamaskine laver du frisk pasta som i Italien. Her er vores bud på de 3 bedste pastamaskiner fra danske butikker – med håndsving og med motor.',
 	'more_cat' => 'pastamaskine',
 	'intro'    => <<<'HTML'
 <p>Frisk pasta smager anderledes end tørret – blødere, mere æggende og med en dejlig bid. Med en pastamaskine ruller du dejen tynd og skærer den i tagliatelle, spaghetti eller plader til lasagne og ravioli. Dejen er bare mel, æg og lidt salt.</p>
@@ -20,11 +20,13 @@ HTML,
 			'name'    => 'Marcato Atlas 150+',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Den klassiske italienske pastamaskine med håndsving – fuld kontrol over dejen.',
+			'verdict' => 'Klassisk italiensk pastamaskine med håndsving og 10 tykkelser – kan bygges ud med flere pastatyper.',
 			'why'     => <<<'HTML'
-<p>Marcato Atlas er den mest kendte pastamaskine i verden og laves i Italien. Atlas 150+ er en klassisk, manuel pastamaskine, hvor du selv drejer på håndsvinget og har fuld kontrol over dejen fra første udrulning til færdig pasta.</p>
+<p>Marcato Atlas 150+ er den klassiske, manuelle pastamaskine, der passer både til dig, der skal lave frisk pasta for første gang, og til dig, der gerne nørder med dejen. Du drejer selv på håndsvinget og har fuld kontrol hele vejen fra den første udrulning til de færdige pastastrimler.</p>
+<p>Med 10 indstillinger ruller du dejen præcis så tynd, som opskriften kræver. Derefter laver du lasagneplader og to slags pasta direkte i maskinen, og pastaen holder formen, når den koger. Vil du prøve flere slags pasta, kan maskinen bygges ud med tilbehør, så den vokser med dine ambitioner.</p>
+<p>Den er lavet i Italien i stål og aluminium, vejer 2,6 kg og sidder fast på bordet med den medfølgende bordklemme. Den skal ikke i opvaskemaskinen.</p>
 HTML,
-			'good'    => [ 'Tagliatelle, lasagne og ravioli', 'Dig, der vil have den klassiske' ],
+			'good'    => [ 'Lasagneplader og frisk pasta fra bunden', 'Både nybegyndere og erfarne', 'Dig, der vil kunne udbygge med tilbehør' ],
 			'less'    => [ 'Store mængder alene – det er rart at have en hjælper' ],
 		],
 		[
@@ -33,24 +35,28 @@ HTML,
 			'name'    => 'Marcato Atlasmotor+',
 			'role'    => 'Bedst med motor',
 			'reviews' => [],
-			'verdict' => 'Atlas-pastamaskinen med indbygget motor, så du har begge hænder fri.',
+			'verdict' => 'Atlas med indbygget motor: begge hænder fri, 10 tykkelser og lasagne, fettuccine og tagliolini.',
 			'why'     => <<<'HTML'
-<p>Atlasmotor+ er den samme klassiske Atlas – bare med indbygget motor. Du slipper for at dreje på håndsvinget og får begge hænder fri, så det er lettere at føre dejen ind og tage pastaen imod. Det gør det meget nemmere at lave pasta alene.</p>
+<p>Marcato Atlasmotor+ er den klassiske Atlas med en indbygget motor. Du skal ikke dreje på et håndsving, så du har begge hænder fri til at føre dejen ind og tage imod pastapladerne. Det gør det langt nemmere at lave pasta alene – og hurtigere, når der skal laves flere portioner.</p>
+<p>Med 10 tykkelser ruller du alt fra kraftige plader til helt tynde, og motoren giver et jævnt flow og et ensartet resultat hver gang. Valserne er op til 150 mm brede, og du kan lave lasagneplader, fettuccine og tagliolini direkte. Med tilbehør kan du lave endnu flere slags pasta.</p>
+<p>Maskinen står på enhver plan flade uden bordklemme, men kan også bruges med klemme og håndsving, hvis du vil. Den er lavet i Italien og må ikke i opvaskemaskinen.</p>
 HTML,
-			'good'    => [ 'Dig, der laver pasta alene', 'Store portioner' ],
+			'good'    => [ 'Dig, der laver pasta alene', 'Store portioner', 'Dig, der vil have mindre arbejde med armen' ],
 			'less'    => [ 'Dig, der vil holde prisen nede' ],
 		],
 		[
 			'ean'     => '8003705116085',
 			'price'   => 705,
 			'name'    => 'Ariete Pasta maker',
-			'role'    => 'Elektrisk alternativ',
+			'role'    => 'Nem at komme i gang med',
 			'reviews' => [],
-			'verdict' => 'Elektrisk pastamaskine med 10 indstillinger og 9 tykkelser.',
+			'verdict' => 'Enkel pastamaskine med 10 indstillinger og 9 tykkelser – nem at gå til, også første gang.',
 			'why'     => <<<'HTML'
-<p>Ariete er et italiensk mærke. Pastamaskinen har 10 indstillinger, så du kan vælge mellem 9 forskellige tykkelser, og den gør det nemt for alle at lave frisk pasta.</p>
+<p>Ariete Pasta maker er til dig, der vil i gang med frisk pasta uden at skulle lære en masse først. Maskinen er nem at betjene, så alle i familien kan være med til at lave pasta, som var den hentet i Italien.</p>
+<p>Den har 10 indstillinger, der giver dig 9 forskellige tykkelser. Det betyder, at du kan skifte mellem tynde og lidt kraftigere plader og lave forskellige slags pasta efter, hvad du har lyst til den dag.</p>
+<p>Maskinen er 23,5 cm lang og 16,5 cm bred, så den tager ikke meget plads på køkkenbordet eller i skabet.</p>
 HTML,
-			'good'    => [ 'Begyndere', 'Dig, der vil have det nemt' ],
+			'good'    => [ 'Begyndere', 'Dig, der vil have det nemt', 'Familier, der vil lave pasta sammen' ],
 			'less'    => [ 'Dig, der vil have den klassiske Atlas' ],
 		],
 	],

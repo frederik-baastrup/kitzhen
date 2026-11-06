@@ -20,11 +20,13 @@ HTML,
 			'name'    => 'OBH Nordica Complete Seal',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Vakuumpakker, der kan få maden til at holde op til fem gange så længe.',
+			'verdict' => 'Får maden til at holde op til fem gange så længe – med pulsfunktion til de skrøbelige råvarer.',
 			'why'     => <<<'HTML'
-<p>OBH Nordica Complete Seal er et godt valg, hvis du vil spare tid og penge og undgå madspild, og vakuumpakket mad kan holde op til fem gange så længe.</p>
+<p>OBH Nordica Complete Seal er til dig, der vil spare penge og smide mindre mad ud. Vakuumpakket mad kan holde op til fem gange så længe, og smag, næring og konsistens bliver bevaret. Så kan du købe stort ind, når der er tilbud, lave store portioner til fryseren eller gemme svampe og bær fra skoven og haven.</p>
+<p>Den er nem at bruge med en fleksibel sidelås, og pulsfunktionen lader dig styre suget, så bløde og skrøbelige råvarer ikke bliver mast. Poserne tåler mikroovn og kan bruges til sous vide.</p>
+<p>Du kommer hurtigt i gang med startsættet på 5 poser og 1 rulle. Kabinettet i rustfrit stål er så pænt, at maskinen godt kan stå fremme på bordet, og der er 2 års garanti.</p>
 HTML,
-			'good'    => [ 'Fryseren og madspild', 'Sous vide' ],
+			'good'    => [ 'Fryseren og madspild', 'Sous vide', 'Skrøbelige råvarer som bær og fisk' ],
 			'less'    => [ 'Væsker og supper' ],
 		],
 		[
@@ -33,12 +35,14 @@ HTML,
 			'name'    => 'Caso VacuChef 50',
 			'role'    => 'Bedst kammermaskine',
 			'reviews' => [],
-			'verdict' => 'Kammervakuummaskine fra tyske Caso – kan også pakke væsker.',
+			'verdict' => 'Kammermaskine med pumpe på 70 liter i minuttet, dobbelt svejsning og 30 poser med i kassen.',
 			'why'     => <<<'HTML'
-<p>Caso VacuChef 50 er en kammervakuummaskine af høj kvalitet. I en kammermaskine ligger hele posen inde i maskinen, så du kan vakuumpakke supper, saucer og marinader. Den er dyr, men til dig, der pakker meget.</p>
+<p>Caso VacuChef 50 er kammermaskinen til dig, der vakuumpakker meget – fx efter storindkøb, jagt eller til sous vide. Hele posen ligger inde i kammeret, og modellen er dybere end de andre i serien, så der er plads til større stykker. Kammeret måler 31 × 9 × 22 cm indvendigt.</p>
+<p>Pumpen på 70 liter i minuttet og et vakuumtryk på 0,95 bar pakker en pose på få sekunder. Du kan selv indstille vakuumtiden fra 5 til 60 sekunder og svejsningen fra 3 til 9 sekunder. Dobbelte svejsetråde på 2 mm lukker poser op til 30 cm brede. Med slangen kan du også vakuumpakke beholdere og glas.</p>
+<p>Du styrer den på et touchpanel, der viser vakuummet i kammeret. Den er bygget i rustfrit stål med et låg af hærdet glas, der lukker blødt. Forseglingslisten kan tages af, så rengøringen er let. Der følger 30 poser på 28 × 25 cm med.</p>
 HTML,
-			'good'    => [ 'Væsker og marinader', 'Jægere og storindkøb' ],
-			'less'    => [ 'Små køkkener' ],
+			'good'    => [ 'Væsker og marinader', 'Jægere og storindkøb', 'Beholdere og glas' ],
+			'less'    => [ 'Små køkkener – den vejer 10 kg' ],
 		],
 		[
 			'ean'     => '4038437013801',
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Caso VC100',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Vakuumpakker med elektronisk temperaturkontrol, der holder maden frisk og beskytter mod frostskader.',
+			'verdict' => 'Prisvenlig vakuumpakker, der beskytter mod frostskader og svejser poser op til 30 cm brede.',
 			'why'     => <<<'HTML'
-<p>Caso VC100 holder maden frisk længere og beskytter mod frostskader, og den elektroniske temperaturkontrol sikrer, at maden ikke tager skade under svejsningen.</p>
+<p>Caso VC100 er en enkel og prisvenlig vakuumpakker til dig, der vil have mere ud af dine madvarer. Den holder maden frisk længere og beskytter den mod frostskader i fryseren. Den er også god til marinering: I den lufttætte pose trækker kødet mere smag til sig.</p>
+<p>Pumpen suger 12 liter i minuttet, og svejsesømmen er op til 30 cm bred, uanset hvor lang posen er. Den elektroniske temperaturkontrol sørger for, at maden ikke tager skade, når posen lukkes.</p>
+<p>Med 9 cm i højden og 2,4 kg er den let at stille væk i et skab. I kassen følger 10 poser og en slange, så du også kan vakuumpakke i eksterne beholdere.</p>
 HTML,
-			'good'    => [ 'Lavt budget', 'Fryseren' ],
-			'less'    => [ 'Mange poser i træk' ],
+			'good'    => [ 'Lavt budget', 'Fryseren', 'Marinering af kød' ],
+			'less'    => [ 'Dig, der pakker meget hver uge – en kammermaskine er stærkere' ],
 		],
 	],
 	'guide'    => <<<'HTML'

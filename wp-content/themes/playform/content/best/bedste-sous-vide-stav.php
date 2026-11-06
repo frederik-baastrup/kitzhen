@@ -20,11 +20,13 @@ HTML,
 			'name'    => 'Steba SV120',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Vandtæt sous vide-stav (IPX7), der cirkulerer 7,5 liter vand i minuttet.',
+			'verdict' => '2000 W og helt vandtæt (IPX7) – varmer 30 liter vand op og holder temperaturen inden for 0,1 °C.',
 			'why'     => <<<'HTML'
-<p>Steba er et tysk mærke med mange sous vide-produkter. SV120 er IPX7-godkendt og dermed helt vandtæt, og den cirkulerer 7,5 liter vand i minuttet, så temperaturen er jævn i hele vandbadet.</p>
+<p>Steba SV120 er sous vide-staven til dig, der laver mad til mange eller vil have kræfter i reserve. Med 2000 W varmer den 30 liter vand op til 56 °C på cirka 45 minutter, så der er plads til en hel steg eller mange bøffer i samme vandbad.</p>
+<p>Temperaturen holdes præcist med en afvigelse på højst 0,1 °C, og du kan stille den helt op til 90 °C. Staven pumper 7,5 liter vand rundt i minuttet, så varmen er jævn overalt. Det oplyste LCD-display viser både temperatur og tid, og timeren går op til 99 timer – nok til selv de groveste udskæringer.</p>
+<p>Den er IPX7-godkendt og dermed helt vandtæt, så damp og stænk ikke skader elektronikken. Du kan sætte den i enhver beholder med mindst 15 cm vand, og det kompakte format er nemt at gøre rent og gemme væk.</p>
 HTML,
-			'good'    => [ 'Bøffer, fisk og kylling', 'Dig, der vil have en robust stav' ],
+			'good'    => [ 'Store vandbade og mange gæster', 'Lange tilberedninger op til 99 timer', 'Dig, der vil have en robust stav' ],
 			'less'    => [ 'Dig, der også mangler en vakuumpakker' ],
 		],
 		[
@@ -33,11 +35,13 @@ HTML,
 			'name'    => 'Steba sous vide-sæt med vakuumpakker',
 			'role'    => 'Bedst startsæt',
 			'reviews' => [],
-			'verdict' => 'Sæt med sous vide-cirkulator og vakuumpakker – alt, hvad du skal bruge for at komme i gang.',
+			'verdict' => 'Stebas SV60-stav, Caso VC10-vakuumpakker og 10 poser i én kasse – du kan gå i gang samme dag.',
 			'why'     => <<<'HTML'
-<p>Dette sæt indeholder alt, hvad du skal bruge for at mestre sous vide derhjemme: en cirkulator og en vakuumpakker. Metoden sikrer en jævn tilberedning, der bevarer saft og smag.</p>
+<p>Dette sæt er den nemme vej ind i sous vide. Du får både en Steba SV60-cirkulator og en Caso VC10-vakuumpakker, så du ikke skal finde ud af, hvad der passer sammen. Det er oplagt til dig, der er ny i sous vide, men også erfarne madglade får et solidt udstyr.</p>
+<p>Cirkulatoren viser med farvet lys, hvor langt du er: blåt, mens vandet varmes op, grønt, mens maden tilberedes, og rødt, når den er klar. Den sættes nemt fast på en gryde eller pande og fordeler varmen jævnt, så kødet bliver ens hele vejen igennem.</p>
+<p>Vakuumpakkeren suger luften ud af posen, så smagen bliver i maden under den lange tilberedning – og madvarer i vakuum holder sig længere i køleskabet. Der følger 10 vakuumposer på 20 × 30 cm med. Delene tåler ikke opvaskemaskine.</p>
 HTML,
-			'good'    => [ 'Begyndere', 'Dig uden vakuumpakker' ],
+			'good'    => [ 'Begyndere', 'Dig uden vakuumpakker', 'Dig, der vil se status med et blik' ],
 			'less'    => [ 'Dig, der allerede har en vakuumpakker' ],
 		],
 		[
@@ -46,12 +50,14 @@ HTML,
 			'name'    => 'Steba SV 75',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Vandtæt sous vide-stav fra Steba til mørt og smagfuldt kød.',
+			'verdict' => 'Vandtæt (IPX7) og let stav, der pumper 12 liter i minuttet og rammer temperaturen inden for 0,1 °C.',
 			'why'     => <<<'HTML'
-<p>Steba SV 75 er vandtæt og lavet til mørt og smagfuldt kød. Sous vide bevarer råvarernes smag.</p>
+<p>Steba SV 75 er en slank og overkommelig sous vide-stav til dig, der vil have mørt og saftigt kød, fisk og grøntsager i hverdagen. Du sætter den fast på kanten af gryden, indstiller tid og temperatur – og så passer maden sig selv, mens du laver noget andet.</p>
+<p>Staven varmer 20 liter vand op til 56 °C på cirka 45 minutter og holder temperaturen med en afvigelse på højst 0,1 °C, op til 90 °C. Den pumper 12 liter vand rundt i minuttet, så varmen fordeles jævnt. LCD-displayet viser temperatur og tid, og timeren kan stilles op til 99 timer.</p>
+<p>Den er IPX7-vandtæt og passer i enhver gryde med en dybde på mindst 15 cm. Med 7,5 cm i bredden og 1,6 kg fylder den næsten intet i skuffen.</p>
 HTML,
-			'good'    => [ 'Lavt budget' ],
-			'less'    => [ 'Store vandbade' ],
+			'good'    => [ 'Lavt budget', 'Små køkkener med lidt plads', 'Hverdagsmad til familien' ],
+			'less'    => [ 'Meget store vandbade – den er lavet til omkring 20 liter' ],
 		],
 	],
 	'guide'    => <<<'HTML'
