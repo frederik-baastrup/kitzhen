@@ -4,6 +4,7 @@ import html
 UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36',
       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'da-DK,da;q=0.9,en;q=0.5'}
 eans = {l.strip() for l in open('eans.txt') if l.strip()}
+norm = {e.lstrip('0'): e for e in eans}
 found = {}
 for f in [l.strip() for l in open('feeds.txt') if l.strip()]:
     try:
@@ -11,7 +12,8 @@ for f in [l.strip() for l in open('feeds.txt') if l.strip()]:
         for ev, el in ET.iterparse(__import__('io').BytesIO(data)):
             if el.tag == 'produkt':
                 e = (el.findtext('ean') or '').strip()
-                if e in eans:
+                e = norm.get(e.lstrip('0'), '')
+                if e:
                     u = el.findtext('vareurl') or ''
                     m = re.search(r'htmlurl=(.*)$', u); u = urllib.parse.unquote(m.group(1)) if m else u
                     found.setdefault(e, []).append({'shop': el.findtext('forhandler'), 'url': u, 'desc': (el.findtext('beskrivelse') or '').strip(), 'name': el.findtext('produktnavn')})
@@ -41,4 +43,4 @@ for e, offers in found.items():
             pages[u] = {'error': str(ex)}
         print(u[:80], 'ERR' if 'error' in pages[u] else 'ok', flush=True)
         time.sleep(1.5)
-json.dump({'found': found, 'pages': pages}, open('pages2.json', 'w'), ensure_ascii=False, indent=1)
+json.dump({'found': found, 'pages': pages}, open('pages3.json', 'w'), ensure_ascii=False, indent=1)
