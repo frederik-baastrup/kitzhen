@@ -600,7 +600,8 @@ function playform_guide_test_note( array $a ): string {
 	foreach ( (array) ( $a['picks'] ?? [] ) as $pk ) {
 		$rev = $rev || ! empty( $pk['reviews'] );
 	}
-	$h  = '<h2>' . esc_html( mb_strtoupper( mb_substr( playform_guide_keyword( $a ), 0, 1 ) ) . mb_substr( playform_guide_keyword( $a ), 1 ) ) . " test – er det her en test?</h2>\n";
+	// Overskriften uden ordet "test" (Google viser ofte overskrifter i søgeresultatet – jf. Forbrugerombudsmandens sag mod Obsidian Media).
+	$h  = '<h2>Har vi selv afprøvet produkterne?</h2>\n';
 	$h .= '<p>Mange søger efter en <b>' . $kw . ' test</b> eller "bedste ' . $kw . ' i test", når de skal vælge. Det her er ikke en ' . $kw . ' test – vi har ikke selv testet produkterne. '
 		. 'Til gengæld har vi gjort forarbejdet for dig: Vores bud på bedste ' . $kw . ' bygger på butikkernes produktdata, priser og lagerstatus'
 		. ( $rev ? ' og på uafhængige anmeldelser og tests fra andre medier af præcis de samme modeller' : '' ) . ".</p>\n";
