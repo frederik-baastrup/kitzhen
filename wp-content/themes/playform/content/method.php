@@ -29,6 +29,9 @@ return [
 <h2>Anmeldelser</h2>
 <p>Findes der en uafhængig anmeldelse af præcis samme model fra et andet medie, linker vi til den, og den vejer tungt. Finder vi ingen, står der "Vores vurdering" ved produktet, så du kan se, at valget bygger på produktdata og ikke på en test.</p>
 
+<h2>Sådan bruger vi AI</h2>
+<p>Vi bruger AI (kunstig intelligens) til det tunge arbejde: at gennemgå butikkernes produktdata, finde anmeldelser af præcis samme model og skrive udkast til guiderne og produktteksterne. AI'en må kun bruge oplysninger fra butikkerne og fra anmeldelserne – den må ikke finde på egenskaber, og alle tal i en tekst tjekkes automatisk mod butikkens data, før den går live. Frederik Baastrup er ansvarlig redaktør og retter fejl, når vi bliver gjort opmærksom på dem.</p>
+
 <h2>Det bruger vi ikke</h2>
 <p>Provisionen, hvilken butik der sælger produktet, og betaling for placering spiller ingen rolle. Ingen kan købe sig ind i en guide. Du kan læse, <a href="/saadan-tjener-vi-penge/">hvordan vi tjener penge</a>.</p>
 
