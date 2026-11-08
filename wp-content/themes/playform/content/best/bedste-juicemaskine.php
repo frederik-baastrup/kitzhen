@@ -7,11 +7,11 @@ defined( 'ABSPATH' ) || exit;
 return [
 	'slug'     => 'bedste-juicemaskine',
 	'title'    => 'Juicemaskine: Vores bud på de 4 bedste',
-	'excerpt'  => 'En juicemaskine presser frisk juice af frugt og grønt. Her er vores bud på de 4 bedste juicemaskiner fra danske butikker – centrifuge, koldpresser og citruspresser.',
+	'excerpt'  => 'En juicemaskine presser frisk juice af frugt og grønt. Her er vores bud på de 4 bedste juicemaskiner – koldpressere og saftcentrifuger.',
 	'more_cat' => 'juicemaskine',
 	'intro'    => <<<'HTML'
-<p>Der findes tre typer juicemaskiner: en råsaftcentrifuge, der river frugten og slynger saften ud med høj hastighed, en slow juicer, der presser saften langsomt ud, og en citruspresser til appelsiner og citroner. Centrifugen er hurtigst, slow juiceren giver mest saft af grønt, og citruspresseren er nemmest til morgenens appelsinjuice.</p>
-<p>Herunder er vores bud på de 4 bedste juicemaskiner hos danske butikker lige nu. Leder du specifikt efter en slow juicer, så se vores guide til <a href="/bedste-slow-juicer/">slow juicere</a>.</p>
+<p>Der findes to typer juicemaskiner: en råsaftcentrifuge, der river frugten og slynger saften ud med høj hastighed, og en slow juicer (koldpresser), der presser saften langsomt ud. Centrifugen er hurtigst og billigst, mens slow juiceren giver mest saft af grønt og bevarer mere af smagen.</p>
+<p>Herunder er vores bud på de 4 bedste juicemaskiner fra de danske webshops, vi samarbejder med. Leder du specifikt efter en slow juicer, så se vores guide til <a href="/bedste-slow-juicer/">slow juicere</a>.</p>
 HTML,
 	'picks'    => [
 		[
@@ -60,25 +60,25 @@ HTML,
 			'less'    => [ 'Bladgrønt som spinat og grønkål' ],
 		],
 		[
-			'ean'     => '8017709318871',
-			'price'   => 1025,
-			'name'    => 'Smeg citruspresser CJF01',
-			'role'    => 'Bedst til appelsinjuice',
+			'ean'     => '4242002770062',
+			'price'   => 1399,
+			'name'    => 'Bosch MES4010 saftcentrifuge',
+			'role'    => 'Bedst til hårde grøntsager',
 			'reviews' => [],
-			'verdict' => 'Smegs 50’er-design i aluminium – starter selv, når du presser, og drypper ikke.',
+			'verdict' => 'Saftcentrifuge med 1200 W, tre hastigheder og XL-påfyldningsrør på 84 mm – hurtig juice af gulerødder og æbler.',
 			'why'     => <<<'HTML'
-<p>Smeg CJF01 er til dig, der vil starte dagen med friskpresset appelsinjuice og have et apparat, der pynter på køkkenbordet. Designet er inspireret af 1950’erne, og kabinettet er i støbt aluminium med en flot, skinnende overflade.</p>
-<p>Den er nem at bruge: Den starter automatisk, når du trykker frugten ned på keglen, og stopper igen, når du løfter. Keglen og den drypfri tud er i rustfrit stål, der ikke afgiver smag, og låg og kande er i Tritan.</p>
-<p>Gummifødderne holder den fast på bordet, så den ikke flytter sig, mens du presser. Ledningen rulles op i den indbyggede ledningsopruller, og med en grundflade på 16,6 × 16,6 cm fylder den ikke meget.</p>
+<p>Bosch MES4010 er saftcentrifugen til dig, der vil have juice hurtigt – også af hårde frugter og grøntsager som gulerødder, rødbeder og æbler. Motoren på 1200 W og de tre hastigheder gør arbejdet let, og påfyldningsrøret på 84 mm tager hele æbler, så du skal skære mindre ud på forhånd.</p>
+<p>Kniven er keramisk, og sien er i højglanspoleret rustfrit stål. Saften løber ned i en kande på 1,5 liter, og tuden har drypstop, så der ikke løber saft ud på bordet, når du tager kanden væk. Beholderen til frugtkød rummer 3 liter.</p>
+<p>Sikkerheden er tænkt ind: Maskinen starter først, når alle dele sidder korrekt, og stopper, hvis den åbnes under brug. Delene tåler opvaskemaskine.</p>
 HTML,
-			'good'    => [ 'Appelsin, citron og grapefrugt', 'Dig, der går op i design', 'Hurtig morgenjuice' ],
-			'less'    => [ 'Andre frugter og grønt' ],
+			'good'    => [ 'Gulerødder, rødbeder og æbler', 'Hurtig juice til hele familien', 'Nem rengøring' ],
+			'less'    => [ 'Bladgrønt som spinat og grønkål' ],
 		],
 	],
 	'guide'    => <<<'HTML'
 <h2>Sådan vælger du en juicemaskine</h2>
-<h3>Centrifuge, slow juicer eller citruspresser?</h3>
-<p>En centrifuge er hurtig og billig, men larmer og giver mindre saft af bladgrønt. En slow juicer presser langsomt, larmer mindre og giver mere saft – særligt af grønt. En citruspresser er kun til citrusfrugter.</p>
+<h3>Centrifuge eller slow juicer?</h3>
+<p>En centrifuge er hurtig og billig, men larmer og giver mindre saft af bladgrønt. En slow juicer presser langsomt, larmer mindre og giver mere saft – særligt af grønt. Vil du kun lave appelsinjuice, er en citruspresser nok – det er ikke en juicemaskine.</p>
 <h3>Påfyldningsåbning</h3>
 <p>En stor åbning betyder, at du kan komme hele æbler i uden at skære dem ud først.</p>
 <h3>Rengøring</h3>

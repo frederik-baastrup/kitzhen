@@ -29,18 +29,19 @@ HTML,
 			'less'    => [ 'Grill midt på bordet til mange' ],
 		],
 		[
-			'ean'     => '0077924190797',
-			'price'   => 4790,
-			'name'    => 'Weber Lumin elgrill med stativ',
-			'role'    => 'Bedst til altanen',
+			'ean'     => '4008146039942',
+			'price'   => 1089,
+			'name'    => 'Severin plancha-bordgrill 2300 W',
+			'role'    => 'Bedst til plancha',
 			'reviews' => [],
-			'verdict' => 'Elgrill fra Weber, der når over 315 °C – med stativ til altan og terrasse.',
+			'verdict' => 'Plancha-bordgrill med en riflet og en glat stegeflade, 2300 W og op til 230 °C.',
 			'why'     => <<<'HTML'
-<p>Weber Lumin er lavet til dig, der bor i lejlighed med altan. Den er en multifunktionel elgrill, der kan nå temperaturer på over 315 °C, og den leveres med et praktisk stativ.</p>
-<p>Den er ikke en bordgrill i klassisk forstand, men en rigtig grill med låg, der kører på strøm. Den er dyrere end de andre, men tættest på en almindelig grill.</p>
+<p>Severins plancha-bordgrill er til dig, der vil grille midt på bordet – eller ude på altanen – uden kul og gas. Du sætter bare stikket i, og efter få minutter er den klar til at grille ved op til 230 °C.</p>
+<p>Den har to stegeflader: en riflet til bøffer, pølser og grøntsager med grillstriber og en glat til æg, fisk, rejer og alt det små, der ellers falder ned mellem ristene. Termostaten kan justeres, så du styrer varmen efter maden, og de 2300 W giver hurtig opvarmning.</p>
+<p>Grillen måler 40 × 61 cm og er kun 8 cm høj, så den er nem at stille på bordet og gemme væk igen. Severin giver 2 års garanti.</p>
 HTML,
-			'good'    => [ 'Altaner, hvor gas og kul ikke er tilladt', 'Rigtig grillmad' ],
-			'less'    => [ 'Indendørs brug' ],
+			'good'    => [ 'Grill midt på bordet', 'Fisk, æg og grøntsager på plancha', 'Altanen' ],
+			'less'    => [ 'Dig, der vil have låg og kontaktgrill' ],
 		],
 		[
 			'ean'     => '4011833100597',

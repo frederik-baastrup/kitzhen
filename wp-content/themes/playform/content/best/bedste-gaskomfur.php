@@ -7,11 +7,11 @@ defined( 'ABSPATH' ) || exit;
 return [
 	'slug'     => 'bedste-gaskomfur',
 	'title'    => 'Gaskomfur: Vores bud på de 3 bedste',
-	'excerpt'  => 'Et gaskomfur giver direkte flamme og fuld kontrol over varmen. Her er vores bud på de 3 bedste gaskomfurer og gasblus fra danske butikker.',
+	'excerpt'  => 'Et gaskomfur giver direkte flamme og fuld kontrol over varmen. Her er vores bud på de 3 bedste gaskomfurer fra de danske webshops, vi samarbejder med.',
 	'more_cat' => 'gaskomfur',
 	'intro'    => <<<'HTML'
 <p>Mange kokke foretrækker gas, fordi flammen reagerer med det samme, når du skruer op og ned, og fordi den varmer hele vejen op ad wokken og panden. Et gaskomfur kræver en gasinstallation eller en gasflaske, og installationen skal udføres af en autoriseret gasmester.</p>
-<p>Herunder er vores bud på de 3 bedste gaskomfurer og gasblus hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 3 bedste gaskomfurer fra de danske webshops, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -45,19 +45,18 @@ HTML,
 			'less'    => [ 'Dig, der vil have to ovne' ],
 		],
 		[
-			'ean'     => '6410412639974',
-			'price'   => 698,
-			'name'    => 'Mustang gasblus med 2 kogeplader',
-			'role'    => 'Bedst til sommerhus',
+			'ean'     => '5709708234469',
+			'price'   => 4795,
+			'name'    => 'Gram GK5610-90 gaskomfur med elektrisk ovn',
+			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'To kraftige brændere på 3,4 og 4,3 kW, der kan bruges både inde og ude.',
+			'verdict' => 'Gaskomfur fra Gram med gasblus på toppen og elektrisk ovn på 65 liter i energiklasse A.',
 			'why'     => <<<'HTML'
-<p>Mustangs gasblus er den enkle løsning, når du har brug for gas uden et helt komfur. Det kan bruges både indendørs og udendørs, så det passer til sommerhuset, campingturen, terrassen eller som ekstra blus, når pladsen på komfuret slipper op.</p>
-<p>De to brændere er på 3,4 og 4,3 kW – kraft nok til en stor gryde eller en wok, der skal være rigtig varm. Begge tænder med indbygget piezo-tænding, så du ikke skal lede efter tændstikker, og en flammeafbryder giver ekstra tryghed.</p>
-<p>Stellet er i rustfrit stål, der tåler at blive brugt udenfor. Med 5,65 kg og en højde på 10,5 cm er blusset let at flytte og gemme væk. Der er 2 års garanti. Husk, at regulatoren skal købes for sig.</p>
+<p>Gram GK5610-90 giver dig det bedste fra to verdener til en pris, der er til at have med at gøre: gasblus på toppen, hvor du styrer flammen præcist, og en elektrisk ovn nedenunder, som holder en jævn temperatur til steg, gratin og kage.</p>
+<p>Ovnen rummer 65 liter og er i energiklasse A, så den er både rummelig og økonomisk i drift. Komfuret er 90 cm bredt og hvidt.</p>
 HTML,
-			'good'    => [ 'Sommerhus og camping', 'Ekstra blus til wok og paella', 'Let at flytte og gemme væk' ],
-			'less'    => [ 'Dig, der vil have en ovn', 'Regulator følger ikke med' ],
+			'good'    => [ 'Dig, der vil have gas til en fornuftig pris', 'Bagning i elektrisk ovn' ],
+			'less'    => [ 'Dig, der vil have to ovne' ],
 		],
 	],
 	'guide'    => <<<'HTML'

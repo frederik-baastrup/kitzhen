@@ -7,54 +7,56 @@ defined( 'ABSPATH' ) || exit;
 return [
 	'slug'     => 'bedste-koeleskab-til-drikkevarer',
 	'title'    => 'Køleskab til drikkevarer: Vores bud på de 3 bedste',
-	'excerpt'  => 'Et køleskab til drikkevarer frigør plads i det store køleskab og holder vin, øl og sodavand klar. Her er vores bud på de 3 bedste fra danske butikker – fra vinkøleskab til party cooler.',
+	'excerpt'  => 'Et køleskab til drikkevarer holder øl, sodavand og vand iskolde og frigør plads i det store køleskab. Her er vores bud på de 3 bedste fra de danske webshops, vi samarbejder med.',
 	'more_cat' => 'vinkoeleskab',
 	'intro'    => <<<'HTML'
-<p>Et køleskab til drikkevarer giver plads i det almindelige køleskab og holder vin, øl, sodavand og vand klar – i køkkenet, stuen, kælderen eller udestuen. Der er to hovedtyper: vinkøleskabe med glaslåge, præcis temperatur og hylder til flasker, og mobile "party coolers", der kan stå, hvor festen er.</p>
-<p>Lige nu har de danske butikker vi samarbejder med flest vinkøleskabe, så to af vores tre bud er vinkøleskabe – de kan sagtens også rumme øl og sodavand. Nederst finder du en købsguide til størrelse, temperatur, støj og placering.</p>
+<p>Et køleskab til drikkevarer er et ekstra køleskab, kun til det, du drikker: øl, sodavand, vand og hvidvin. Det giver plads i det almindelige køleskab, og fordi det kan gå helt ned til få grader, er dåserne iskolde, når gæsterne kommer. Glasdøren og lyset indeni gør det nemt at se, hvad der er tilbage.</p>
+<p>Herunder er vores bud på de 3 bedste køleskabe til drikkevarer – et stort til hobbyrummet, et med lås og et lille til bordet eller kontoret. Nederst finder du en guide til størrelse, temperatur og placering.</p>
 HTML,
 	'picks'    => [
 		[
-			'ean'     => '7330066136614',
-			'price'   => 5699,
-			'name'    => 'mQuvée WineExpert 24',
+			'ean'     => '7330066164570',
+			'price'   => 2992,
+			'name'    => 'Cavin Northern Collection 83 ølkøleskab',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Fritstående vinkøleskab til 24 flasker med træhylder – stilrent nok til at stå i køkkenet.',
+			'verdict' => 'Fritstående ølkøleskab på 83 liter med plads til 118 dåser, LED-lys og temperatur ned til 0 °C.',
 			'why'     => <<<'HTML'
-<p>mQuvée WineExpert 24 er et fritstående vinkøleskab med plads til 24 flasker. Flaskerne ligger på elegante træhylder, og det stilrene design passer ind i ethvert køkken.</p>
-<p>24 flasker er en god størrelse, hvis du vil have vin, øl og sodavand klar til hverdag og fest uden at skabet fylder for meget.</p>
+<p>Cavin Northern Collection 83 er bygget til netop drikkevarer. Der er plads til op til 118 dåser på 33 cl fordelt på tre glashylder, som du selv indretter til flasker og dåser. Det er nok til både en almindelig uge og den store fest.</p>
+<p>På det digitale touchpanel stiller du temperaturen mellem 0 og 20 °C, så øllet kan blive rigtig koldt, mens andre drikkevarer kan stå lidt varmere. Hele skabet er én zone med jævn køling, og den hvide LED-belysning bag glasdøren giver overblik uden at lyse hele rummet op.</p>
+<p>Det helsorte design passer ind i garagen, udestuen eller hjemmebiografen, og automatisk afrimning betyder, at du slipper for at hakke is. Skabet er 84 cm højt og 47,4 cm bredt.</p>
 HTML,
-			'good'    => [ 'Dig, der vil have vin og drikkevarer klar i køkkenet', 'Dig, der vil have et skab, der også ser pænt ud' ],
-			'less'    => [ 'Dig, der skal have mange dåser og kasser øl' ],
+			'good'    => [ 'Hobbyrummet og hjemmebiografen', 'Øl, der skal være helt kolde', 'Mange dåser på én gang' ],
+			'less'    => [ 'Dig, der vil kunne låse skabet' ],
 		],
 		[
-			'ean'     => '4038437006292',
-			'price'   => 4603,
-			'name'    => 'Caso WineSafe 18',
-			'role'    => 'Bedst til indbygning',
+			'ean'     => '4008146040009',
+			'price'   => 3539,
+			'name'    => 'Severin køleskab med glasdør 118 liter',
+			'role'    => 'Mest plads – med lås',
 			'reviews' => [],
-			'verdict' => 'Smalt 1-zones vinkøleskab til 18 flasker, der kan bygges ind – med temperatur fra 5 til 20 °C.',
+			'verdict' => 'Køleskab med glasdør på 118 liter, lås og kun 42 dB(A) – plads til 42 flasker eller 56 dåser.',
 			'why'     => <<<'HTML'
-<p>Caso WineSafe 18 er et indbygningsvinkøleskab med plads til op til 18 flasker. Det har én zone, og temperaturen kan justeres mellem 5 og 20 °C på et touch-display.</p>
-<p>Det lave temperaturområde gør det også brugbart til hvidvin, bobler, øl og sodavand. Skal skabet bygges ind i køkkenet, så tjek målene og ventilationskravene hos butikken.</p>
+<p>Severins køleskab med glasdør er til dig, der har brug for plads. Med 118 liter er der plads til 42 flasker på en halv liter eller 56 dåser, og to af de tre gitterhylder kan flyttes, så høje flasker også kan stå.</p>
+<p>Temperaturen stilles mellem 1 og 10 °C på termostaten, og LED-lyset bag glasdøren gør det nemt at se, hvad der er på hylderne. Skabet har indbygget lås med nøgle – praktisk, hvis det står i et fællesrum, eller hvis der er børn i huset.</p>
+<p>Det er støjsvagt med 42 dB(A) og har energiklasse C. Bemærk, at håndtaget sidder i venstre side og ikke kan flyttes.</p>
 HTML,
-			'good'    => [ 'Køkkener, hvor skabet skal bygges ind', 'Hvidvin, bobler og kolde drikke' ],
-			'less'    => [ 'Dig, der skal have rødvin og hvidvin ved forskellig temperatur samtidig' ],
+			'good'    => [ 'Mange flasker og dåser', 'Fællesrum og familier med børn', 'Stille rum' ],
+			'less'    => [ 'Dig, der skal have døren hængt om' ],
 		],
 		[
-			'ean'     => '7350101118276',
-			'price'   => 2690,
-			'name'    => 'NOD Party Cooler 50 liter',
-			'role'    => 'Bedst til fest',
+			'ean'     => '5704704018884',
+			'price'   => 1999,
+			'name'    => 'Scandomestic minibar MB 32 BE',
+			'role'    => 'Bedst lille',
 			'reviews' => [],
-			'verdict' => 'Mobil og støjsvag køler på 50 liter, der holder drikkevarerne kolde lige der, hvor du er.',
+			'verdict' => 'Lille køleskab på 32 liter med automatisk afrimning og vendbar dør – til kontoret, soveværelset eller sommerhuset.',
 			'why'     => <<<'HTML'
-<p>NOD Party Cooler er ikke et klassisk køleskab, men en køler, du kan stille i stuen, udestuen eller hobbyrummet. Den er praktisk, stilren og støjsvag (43 dB), og du slipper for at gå frem og tilbage til køleskabet.</p>
-<p>Med 50 liter er der god plads til øl, sodavand og vin til en fest.</p>
+<p>Scandomestic MB 32 BE er den lille løsning, når du bare vil have kolde drikkevarer inden for rækkevidde. Med 32 liter fylder den ikke meget, så den passer på kontoret, i soveværelset, i sommerhuset eller under et bord.</p>
+<p>Automatisk afrimning betyder, at du ikke skal tømme den for at fjerne is, og døren kan vendes, så den åbner til den side, der passer bedst, hvor den står.</p>
 HTML,
-			'good'    => [ 'Fester, terrassen og udestuen', 'Øl og sodavand i dåser' ],
-			'less'    => [ 'Langtidsopbevaring af vin' ],
+			'good'    => [ 'Kontoret og sommerhuset', 'Lidt plads' ],
+			'less'    => [ 'Mange drikkevarer til fest' ],
 		],
 	],
 	'guide'    => <<<'HTML'
