@@ -88,6 +88,7 @@ final class Config {
 	public static function subcategories(): array {
 		return [
 			'pizza-bagning' => [
+				'pizzaovn-til-grill' => [ 'name' => 'Pizzaovn til grill', 'match' => 'pizzaovn til grill|pizza ?ovn til (gas|kul)?grill|rotisseri(e)? (&|og) pizzaovn', 'not' => 'kamadogrill|kulgrill|signature|icon|midi \\+|maxi kul|grill \\+' ],
 				'pizzaovn'    => [ 'name' => 'Pizzaovn', 'match' => 'pizzaovn|pizza ?ovn|pizza oven' ],
 				'pizzasten'   => [ 'name' => 'Pizzasten og bagestål', 'match' => 'pizzasten|pizza ?sten|bagesten|bagest[åa]l|pizzastål' ],
 				'broedmaskine'=> [ 'name' => 'Brødmaskine', 'match' => 'brødmaskine|bagemaskine' ],

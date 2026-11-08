@@ -6,71 +6,62 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-pizzaovn-til-grill',
-	'title'    => 'Pizzaovn til grill: Vores bud på de 3 bedste',
-	'excerpt'  => 'Med en pizzaovn, pizzasten eller pizzastål til grillen kan du bage sprøde pizzaer på den grill, du allerede har. Her er vores bud på de 3 bedste fra danske butikker.',
-	'more_cat' => 'pizzasten',
+	'title'    => 'Pizzaovn til grill: Vores bud på de 2 bedste',
+	'excerpt'  => 'En pizzaovn til grill er en ovnhætte eller et ovnsæt, der sættes oven på grillen, så den bager som en pizzaovn. Her er vores bud på de 2 bedste fra de danske webshops, vi samarbejder med.',
+	'more_cat' => 'pizzaovn-til-grill',
 	'intro'    => <<<'HTML'
-<p>Du behøver ikke købe en separat pizzaovn for at bage gode pizzaer udenfor. Grillen kan blive meget varmere end en almindelig ovn, og med en pizzasten, et pizzastål eller en pizzaovnsindsats bliver bunden sprød, mens fyldet bliver bagt fra oven under låget.</p>
-<p>Herunder er vores bud på de 3 bedste måder at gøre grillen til pizzaovn med udstyr fra danske butikker. Nederst finder du en guide til sten, stål og varme.</p>
+<p>En pizzaovn til grill er ikke bare en pizzasten. Det er en ovnhætte eller et ovnsæt, der sættes direkte på din gas-, kul- eller kamadogrill og lukker varmen inde omkring pizzaen. Grillen leverer kraften nedefra, ovnen holder på varmen ovenfra – og så får du en sprød bund og et færdigbagt fyld på få minutter, uden at købe en separat pizzaovn.</p>
+<p>Herunder er vores bud på de 2 bedste pizzaovne til grill fra de danske webshops, vi samarbejder med: én, der passer til de fleste gas- og kulgrill, og én til kamado.</p>
 HTML,
 	'picks'    => [
 		[
-			'ean'     => '7350100570037',
+			'slug'    => 'heatus-pizzaovn-til-grill',
 			'price'   => 699,
-			'name'    => 'Gourmetstål Norrland pizzastål',
-			'role'    => 'Bedst samlet',
+			'name'    => 'Heatus Pizzaovn til grill',
+			'role'    => 'Bedst til gas- og kulgrill',
 			'reviews' => [],
-			'verdict' => 'Pizzastål i stedet for sten – mindre risiko for, at det knækker, og det kan bruges på grillen og i ovnen.',
+			'verdict' => 'Ovnhætte i rustfrit stål med termometer, pizzasten og grillrist – passer til både gas- og kulgrill.',
 			'why'     => <<<'HTML'
-<p>Norrland er Gourmetståls premium-model. Et pizzastål fungerer som en klassisk pizzasten, bare i stål –, og der derfor er mindre risiko for, at det flækker.</p>
-<p>Stål leder varmen hurtigere end sten, så bunden bliver hurtigt sprød. Pladen kan bruges både på grillen og i køkkenets ovn, så den bliver ikke kun brugt om sommeren.</p>
+<p>Heatus Pizzaovn til grill gør din eksisterende grill til en pizzaovn. Du stiller ovnen på grillen, og hætten i rustfrit stål lukker varmen inde om pizzaen, så toppen bager med, mens bunden bliver sprød. Den kan bruges på både gasgrill og almindelig kulgrill med en flade på 40 × 35 cm.</p>
+<p>Alt er med i kassen: en kvadratisk keramisk pizzasten på 30,5 × 30,5 cm og en grillrist på 34,5 × 33 cm. Det indbyggede termometer i hætten viser, hvornår ovnen er varm, og den er klar til brug inden for 10 minutter. Håndtagene i rustfrit stål på siderne gør den nem at løfte af og på.</p>
+<p>Ovnen vejer 5,5 kg og er nem at gøre ren – en oplagt løsning, hvis du vil have rigtig pizzaovnsfornemmelse uden at bruge plads og penge på en ovn mere.</p>
 HTML,
-			'good'    => [ 'Gas- og kulgrill', 'Dig, der også vil bage pizza i ovnen' ],
-			'less'    => [ 'Dig, der vil have en komplet pizzaovn' ],
+			'good'    => [ 'Gas- og kulgrill', 'Dig, der vil i gang for under 1.000 kr.', 'Termometer, så du kan ramme varmen' ],
+			'less'    => [ 'Grill med en flade mindre end 40 × 35 cm' ],
 		],
 		[
 			'ean'     => '7350097262861',
-			'price'   => 1790,
+			'price'   => 2190,
 			'name'    => 'Kamado Sumo Rotisserie & Pizzaovn Midi',
 			'role'    => 'Bedst til kamado',
 			'reviews' => [],
-			'verdict' => 'Pizzaovn og grillspyd i ét sæt, der sættes direkte på grillen.',
+			'verdict' => 'Pizzaovn og rotisserie i ét til kamadogrill – pizza ved over 400 °C og saftige spyd.',
 			'why'     => <<<'HTML'
-<p>Kamado Sumos sæt gør grillen til både pizzaovn og rotisserie. Du kan grille spyd og bage pizza direkte på grillen, at rotisseriet roterer ved lav hastighed for et saftigt resultat, og spyddet har justerbare gafler.</p>
-<p>Det er lavet til kamado-grills, så tjek, at størrelsen passer til din grill, før du køber.</p>
+<p>Har du en kamado, er det her pizzaovnen, der udnytter den høje varme. Sættet forvandler din Kamado Sumo-grill til en pizzaovn: Du skubber pizzaen ind gennem lågen, holder temperaturen over 400 °C og får sprøde, friskbagte pizzaer direkte fra grillen. Ovnens åbning er 38 cm bred og 8 cm høj.</p>
+<p>Samme sæt er også rotisseri. Motoren drejer spyddet langsomt og jævnt, og de justerbare gafler holder kødet i balance, så det bliver saftigt og tilberedt hele vejen rundt.</p>
+<p>Sættet passer til Kamado Sumo Midi og lignende modeller med en grillrist på 47 cm i bredden. Det vejer 10 kg og er lavet i metal.</p>
 HTML,
-			'good'    => [ 'Kamado-grills', 'Dig, der også vil lave grillspyd og hel kylling' ],
-			'less'    => [ 'Almindelige gasgrills' ],
-		],
-		[
-			'ean'     => '10077924174381',
-			'price'   => 799,
-			'name'    => 'Weber Crafted pizzasten',
-			'role'    => 'Bedst til Weber',
-			'reviews' => [],
-			'verdict' => 'Pizzasten til Webers Crafted-system, der sættes i grillen i stedet for den ene grillrist.',
-			'why'     => <<<'HTML'
-<p>Weber Crafted er et system af tilbehør, der passer ind i grillristen på Webers nyere grills. Du udskifter den højre grillrist med tilbehøret – her en pizzasten.</p>
-<p>Har du en Weber-grill med Crafted-ramme, er det den nemmeste løsning, fordi stenen sidder fast og plant. Tjek, at din grill passer til Crafted, før du køber.</p>
-HTML,
-			'good'    => [ 'Weber-grills med Crafted-system' ],
-			'less'    => [ 'Andre grillmærker' ],
+			'good'    => [ 'Kamado med 47 cm grillrist', 'Dig, der vil have pizza ved over 400 °C', 'Grillspyd og hel kylling' ],
+			'less'    => [ 'Almindelige gas- og kulgrill' ],
 		],
 	],
 	'guide'    => <<<'HTML'
 <h2>Sådan bager du pizza på grillen</h2>
-<h3>Pizzasten, pizzastål eller pizzaovnsindsats?</h3>
-<p>En pizzasten suger fugt fra dejen og giver en sprød bund, men den kan flække, hvis den bliver varmet for hurtigt op eller får koldt vand på. Et pizzastål leder varmen hurtigere og kan ikke knække. En pizzaovnsindsats lukker varmen inde omkring pizzaen, så toppen bliver bagt hurtigere – tættere på en rigtig pizzaovn.</p>
+<h3>Pizzaovn til grill eller bare en pizzasten?</h3>
+<p>En pizzasten eller et pizzastål på grillristen giver en sprød bund, men varmen forsvinder op under låget, så toppen bager langsommere. En pizzaovn til grill lukker varmen inde omkring pizzaen, så fyld og ost bager med – det er langt tættere på en rigtig pizzaovn. Vil du bare prøve det af, er en sten den billige start; vil du have pizzaovnsresultatet, er en ovn til grillen vejen.</p>
+<h3>Tjek, at den passer til din grill</h3>
+<p>Mål fladen på din grill, før du køber. En ovnhætte skal kunne stå stabilt på ristene, og låget på grillen behøver ikke kunne lukkes over den. Kamado-sæt er lavet til bestemte ristestørrelser.</p>
 <h3>Varm grillen godt op</h3>
-<p>Læg stenen eller stålet på grillen, mens den varmer op, så det får samme temperatur som grillen. Sæt aldrig en kold sten på en meget varm grill.</p>
+<p>Sæt ovnen på grillen, mens den varmer op, så stenen får samme temperatur som grillen. Sæt aldrig en kold sten på en meget varm grill – den kan flække.</p>
 <h3>Indirekte varme</h3>
 <p>På en gasgrill kan du skrue ned for brænderen lige under stenen, så bunden ikke brænder, mens toppen bages. På en kulgrill eller kamado skal du bruge en varmeplade eller convEGGtor under stenen.</p>
 <h3>Tynde pizzaer bages bedst</h3>
 <p>Tynd dej og ikke for meget fyld giver det bedste resultat på grillen. Brug en pizzaspade, så pizzaen glider nemt på og af.</p>
-<p>Vil du have en rigtig pizzaovn, så se vores guide til den <a href="/bedste-pizzaovn/">bedste pizzaovn</a> – eller se alle <a href="/pizza-bagning/pizzasten/">pizzasten og pizzastål</a>.</p>
+<p>Vil du hellere have en selvstændig pizzaovn, så se vores guide til den <a href="/bedste-pizzaovn/">bedste pizzaovn</a>. Vil du bare starte med en sten på grillen, så se alle <a href="/pizza-bagning/pizzasten/">pizzasten og pizzastål</a>.</p>
 HTML,
 	'faq'      => [
-		[ 'Kan man bage pizza på en gasgrill?', 'Ja. Med en pizzasten eller et pizzastål og låget lukket kan en gasgrill blive varm nok til en sprød pizza.' ],
+		[ 'Hvad er en pizzaovn til grill?', 'Det er en ovnhætte eller et ovnsæt, der sættes på en gas-, kul- eller kamadogrill. Grillen giver varmen nedefra, og ovnen holder varmen inde omkring pizzaen, så den bager som i en pizzaovn.' ],
+		[ 'Kan man bage pizza på en gasgrill?', 'Ja. Med en pizzaovn til grill – eller en pizzasten og låget lukket – kan en gasgrill blive varm nok til en sprød pizza.' ],
 		[ 'Hvad er bedst: pizzasten eller pizzastål?', 'Pizzastål kan ikke knække og bliver hurtigt varmt. Pizzasten suger fugt fra dejen. Begge giver en sprød bund.' ],
 		[ 'Hvor varm skal grillen være til pizza?', 'Så varm som muligt – gerne over 300 °C. Tjek producentens anvisning for den maksimale temperatur for sten og grill.' ],
 	],

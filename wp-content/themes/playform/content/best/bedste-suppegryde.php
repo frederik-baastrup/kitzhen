@@ -45,19 +45,19 @@ HTML,
 			'less'    => [ 'Låg medfølger ikke' ],
 		],
 		[
-			'ean'     => '3272341037251',
-			'price'   => 3549,
-			'name'    => 'Staub La Cocotte oval 8 liter',
-			'role'    => 'Bedst til ovnen',
+			'ean'     => '083421715043',
+			'price'   => 799,
+			'name'    => 'Scanpan Impact suppegryde 7,2 liter',
+			'role'    => 'Bedst til mindre husstande',
 			'reviews' => [],
-			'verdict' => 'Oval støbejernsgryde på 8 liter fra Staub, hvor Aroma Rain-låget holder maden saftig under lang tids kogning.',
+			'verdict' => 'Høj suppegryde på 7,2 liter i rustfrit stål med glaslåg, målestreger og 5 års garanti.',
 			'why'     => <<<'HTML'
-<p>Staub La Cocotte oval på 8 liter er gryden til festmiddagen og de store gryderetter. Den ovale form er 37 cm lang, så du kan lægge lammeskank, en hel kalkun eller gås i uden at dele dem først – og der er plads til en stor vildtgryde til familien.</p>
-<p>Gryden er i emaljeret støbejern fra Alsace i Frankrig. Den holder godt på varmen og fordeler den jævnt, så kødet bliver mørt. Under låget sidder Staubs Aroma Rain-knopper, der hele tiden drypper fugt tilbage på maden. Den matsorte emalje indvendig er slidstærk og giver en god stegeskorpe.</p>
-<p>Den kan bruges på alle kogeplader, også induktion, og i ovnen. Med messingknappen er den flot nok til at stå på bordet, hvor den holder maden varm. Vask den i hånden.</p>
+<p>Scanpan Impact er en rigtig suppegryde: høj og smal, så der er plads til store mængder suppe, fond, kartofler eller pasta, uden at gryden fylder hele komfuret. Med 7,2 liter passer den til den almindelige familie, og der følger glaslåg med, så du kan holde øje med maden.</p>
+<p>Den er lavet i 18/10 rustfrit stål med en tyk bund af aluminium indkapslet i stål. Det giver hurtig og jævn varme, og gryden virker på alle komfurtyper, også induktion. Indvendig er der målestreger, og kanten er formet, så den ikke drypper, når du hælder suppen op.</p>
+<p>Grebene i rustfrit stål holder sig kølige under madlavningen, og gryden tåler både opvaskemaskine og ovn op til 260 °C. Scanpan giver 5 års garanti.</p>
 HTML,
-			'good'    => [ 'Festmiddage med hel fugl eller lammeskank', 'Gryderetter i ovnen', 'Dig, der vil servere direkte fra gryden' ],
-			'less'    => [ 'Pasta og suppe til mange', 'Tung at løfte – den vejer 8,5 kg' ],
+			'good'    => [ 'Familien til hverdag', 'Induktionskomfur', 'Dig, der vil have låg med' ],
+			'less'    => [ 'Store portioner til mange gæster' ],
 		],
 	],
 	'guide'    => <<<'HTML'
