@@ -53,7 +53,7 @@ HTML,
 			'verdict' => 'Gaskomfur fra Gram med gasblus på toppen og elektrisk ovn på 65 liter i energiklasse A.',
 			'why'     => <<<'HTML'
 <p>Gram GK5610-90 giver dig det bedste fra to verdener til en pris, der er til at have med at gøre: gasblus på toppen, hvor du styrer flammen præcist, og en elektrisk ovn nedenunder, som holder en jævn temperatur til steg, gratin og kage.</p>
-<p>Ovnen rummer 65 liter og er i energiklasse A, så den er både rummelig og økonomisk i drift. Komfuret er 90 cm bredt og hvidt.</p>
+<p>Ovnen rummer 65 liter og er i energiklasse A, så den er både rummelig og økonomisk i drift. Komfuret er hvidt.</p>
 HTML,
 			'good'    => [ 'Dig, der vil have gas til en fornuftig pris', 'Bagning i elektrisk ovn' ],
 			'less'    => [ 'Dig, der vil have to ovne' ],
