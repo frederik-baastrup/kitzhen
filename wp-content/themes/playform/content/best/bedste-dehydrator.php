@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-dehydrator',
-	'title'    => 'Dehydrator: Vores bud på de 3 bedste',
-	'excerpt'  => 'En dehydrator tørrer frugt, grøntsager, krydderurter og kød ved lav varme. Her er vores bud på de 3 bedste dehydratorer fra danske butikker.',
+	'title'    => 'Dehydrator: Vores bud på de 5 bedste',
+	'excerpt'  => 'En dehydrator tørrer frugt, grøntsager, krydderurter og kød ved lav varme. Her er vores bud på de 5 bedste dehydratorer fra de butikker, vi samarbejder med.',
 	'more_cat' => 'dehydrator',
 	'intro'    => <<<'HTML'
 <p>En dehydrator – eller tørreovn – tørrer mad ved lav varme over mange timer. Du kan lave frugtchips, tørrede tomater, krydderurter, frugtlæder, beef jerky og mad til turen, og du kan udnytte høsten fra haven, så intet går til spilde.</p>
-<p>Herunder er vores bud på de 3 bedste dehydratorer hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste dehydratorer fra de butikker, vi samarbejder med, lige nu.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,35 @@ HTML,
 HTML,
 			'good'    => [ 'Begyndere', 'Frugt, grønt og urter', 'Dig, der vil kunne gemme den væk' ],
 			'less'    => [ 'Dig, der vil have mere end 70 °C', 'Meget store mængder ad gangen' ],
+		],
+		[
+			'ean'     => '10029743000501',
+			'price'   => 2699,
+			'name'    => 'Excalibur Select Digital dehydrator, 6 bakker',
+			'role'    => 'Premiumvalg i stål',
+			'reviews' => [],
+			'verdict' => 'Rummelig digital dehydrator i rustfrit stål med 6 bakker, Hyperwave-teknologi og timer på op til 60 timer.',
+			'why'     => <<<'HTML'
+<p>Excalibur Select Digital er til dig, der tager tørring af mad alvorligt og vil have en rummelig maskine, der kan arbejde i lang tid ad gangen. Med 6 bakker er der plads til en stor portion frugt, grønt, urter eller kød, så du kan konservere hele høsten fra haven på én gang.</p>
+<p>Kabinettet er i rustfrit stål, og betjeningen er digital, så du nemt indstiller temperatur og tid. Excaliburs Hyperwave-teknologi styrer varmen under tørringen, og timeren går helt op til 60 timer. Det giver dig ro til de lange tørringer, hvor maskinen bare skal passe sig selv.</p>
+HTML,
+			'good'    => [ 'Store portioner og lange tørringer', 'Dig, der vil have et kabinet i stål', 'Hele høsten fra haven' ],
+			'less'    => [ 'Dig, der kun tørrer lidt en gang imellem' ],
+		],
+		[
+			'ean'     => '4016432466044',
+			'price'   => 1099,
+			'name'    => 'Gastroback Design Mini Professional dehydrator',
+			'role'    => 'Bedst til lille køkken',
+			'reviews' => [],
+			'verdict' => 'Kompakt dehydrator i rustfrit stål med fem stålriste, glaslåge med lys og 20–90 °C i trin på 5 grader.',
+			'why'     => <<<'HTML'
+<p>Gastroback Design Mini Professional er til dig, der vil tørre mindre portioner og ikke har meget plads på køkkenbordet. Den måler 28,2 × 34,7 × 20,6 cm og vejer 4,7 kg, men giver dig alligevel styr på både frugt, grønt, urter, svampe og hjemmelavede energibarer.</p>
+<p>Fem riste i rustfrit stål på 25,8 × 20,5 cm lader dig tørre forskellige råvarer på én gang, hver for sig. Ventilator og varmelegeme sidder bagerst, så varmen fordeles jævnt, og du skal ikke bytte rundt på ristene. Temperaturen stiller du fra 20 til 90 °C i trin på 5 °C, og timeren går op til 24 timer og slukker selv.</p>
+<p>Glaslågen med LED-lys gør, at du kan følge med uden at åbne. Med følger en form til seks müslibarer, og alt tilbehør tåler opvaskemaskine.</p>
+HTML,
+			'good'    => [ 'Små køkkener og små portioner', 'Dig, der vil se maden tørre', 'Hjemmelavede müslibarer' ],
+			'less'    => [ 'Store mængder ad gangen – ristene er mindre end i de store modeller' ],
 		],
 	],
 	'guide'    => <<<'HTML'

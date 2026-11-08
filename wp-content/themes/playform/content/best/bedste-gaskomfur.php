@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-gaskomfur',
-	'title'    => 'Gaskomfur: Vores bud på de 3 bedste',
-	'excerpt'  => 'Et gaskomfur giver direkte flamme og fuld kontrol over varmen. Her er vores bud på de 3 bedste gaskomfurer fra de danske webshops, vi samarbejder med.',
+	'title'    => 'Gaskomfur: Vores bud på de 4 bedste',
+	'excerpt'  => 'Et gaskomfur giver direkte flamme og fuld kontrol over varmen. Her er vores bud på de 4 bedste gaskomfurer fra de butikker, vi samarbejder med.',
 	'more_cat' => 'gaskomfur',
 	'intro'    => <<<'HTML'
 <p>Mange kokke foretrækker gas, fordi flammen reagerer med det samme, når du skruer op og ned, og fordi den varmer hele vejen op ad wokken og panden. Et gaskomfur kræver en gasinstallation eller en gasflaske, og installationen skal udføres af en autoriseret gasmester.</p>
-<p>Herunder er vores bud på de 3 bedste gaskomfurer fra de danske webshops, vi samarbejder med.</p>
+<p>Herunder er vores bud på de 4 bedste gaskomfurer fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -57,6 +57,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil have gas til en fornuftig pris', 'Bagning i elektrisk ovn' ],
 			'less'    => [ 'Dig, der vil have to ovne' ],
+		],
+		[
+			'ean'     => '5709708231109',
+			'price'   => 6495,
+			'name'    => 'Gram GK20642-90X gaskomfur',
+			'role'    => 'Stor ovn med selvrens',
+			'reviews' => [],
+			'verdict' => 'Gaskomfur i 60 cm bredde med elektrisk ovn på hele 77 liter, TouchTimer og selvrens på bagvæggen.',
+			'why'     => <<<'HTML'
+<p>Gram GK20642-90X er til dig, der vil have gasblus på toppen, men kun har plads til et komfur i 60 cm bredde. Den elektriske ovn er alligevel stor: 77 liter giver god plads til den store steg, flere bageplader eller julemiddagens tilbehør.</p>
+<p>Grams BakingPro-system er tænkt til bagning, og med TouchTimer holder du styr på tiden uden et ekstra æggeur. Bagvæggen i ovnen er selvrensende, så der er mindre at skrubbe, når stegen har sprøjtet.</p>
+<p>Ovnen er i energiklasse A, og komfuret måler 90 × 60 × 60,5 cm (h × b × d). Mål din plads, før du bestiller.</p>
+HTML,
+			'good'    => [ 'Køkkener med plads til 60 cm', 'Dig, der bager og steger meget', 'Mindre rengøring af ovnen' ],
+			'less'    => [ 'Dig, der vil have et bredt 90 cm komfur', 'Dig, der vil have to ovne' ],
 		],
 	],
 	'guide'    => <<<'HTML'

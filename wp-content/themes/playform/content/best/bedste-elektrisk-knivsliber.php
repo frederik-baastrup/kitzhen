@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-elektrisk-knivsliber',
-	'title'    => 'Elektrisk knivsliber: Vores bud på de 3 bedste',
-	'excerpt'  => 'En elektrisk knivsliber gør sløve knive skarpe på få minutter. Her er vores bud på de 3 bedste fra danske butikker – og hvornår du hellere skal vælge en slibesten.',
+	'title'    => 'Elektrisk knivsliber: Vores bud på de 5 bedste',
+	'excerpt'  => 'En elektrisk knivsliber gør sløve knive skarpe på få minutter. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med – og hvornår du hellere skal vælge en slibesten.',
 	'more_cat' => 'knivsliber',
 	'intro'    => <<<'HTML'
 <p>En sløv kniv er både irriterende og farlig, fordi den glider i stedet for at skære. En elektrisk knivsliber løser problemet på få minutter: du trækker kniven igennem et par slibeskiver i den rigtige vinkel, og maskinen klarer resten. Den er især god, hvis du aldrig har lært at bruge en slibesten.</p>
-<p>Herunder er vores bud på de 3 bedste elektriske knivslibere hos danske butikker lige nu. Nederst finder du en købsguide til vinkler, trin og japanske knive.</p>
+<p>Herunder er vores bud på de 5 bedste elektriske knivslibere fra de butikker, vi samarbejder med, lige nu. Nederst finder du en købsguide til vinkler, trin og japanske knive.</p>
 HTML,
 	'picks'    => [
 		[
@@ -55,6 +55,36 @@ HTML,
 HTML,
 			'good'    => [ 'Billige hverdagsknive', 'Dig, der vil prøve en elektrisk knivsliber' ],
 			'less'    => [ 'Dyre og japanske knive' ],
+		],
+		[
+			'ean'     => '7350101118207',
+			'price'   => 549,
+			'name'    => 'NOD Elektrisk knivsliber japansk 15°',
+			'role'    => 'Bedst til japanske knive',
+			'reviews' => [],
+			'verdict' => 'Elektrisk knivsliber med 15° slibevinkel til japanske knive og tre trin fra grov diamant til polering.',
+			'why'     => <<<'HTML'
+<p>Har du japanske knive, er det her søstermodellen til NODs europæiske knivsliber. Den sliber i den smallere vinkel på 15°, som japanske køkkenknive er lavet til, så du bevarer præcisionen og den lette skærefornemmelse – uden at skulle lære at bruge en slibesten.</p>
+<p>Slibningen sker i tre trin: grov diamant (240#) til meget sløve eller beskadigede klinger, fin diamant (600#) til løbende vedligeholdelse og en polering (1000#), der gør æggen jævn. Du trækker kniven langsomt fra hæl til spids med et let tryk, og ét træk tager omkring 4–10 sekunder.</p>
+<p>En magnet under sliberen samler metalstøvet, så det er let at holde rent. Der følger 3 års garanti med.</p>
+HTML,
+			'good'    => [ 'Japanske knive', 'Dig, der vil undgå slibesten', 'Både sløve og næsten skarpe knive' ],
+			'less'    => [ 'Europæiske knive med større slibevinkel' ],
+		],
+		[
+			'ean'     => '0087877001507',
+			'price'   => 1466,
+			'name'    => 'Chef\'s Choice #1520 elektrisk knivsliber',
+			'role'    => 'Bedst til blandede knivsæt',
+			'reviews' => [],
+			'verdict' => 'Solid elektrisk knivsliber i børstet stål med slidser til både vestlige og asiatiske knive – og til polering af brødknive.',
+			'why'     => <<<'HTML'
+<p>Chef's Choice #1520 er knivsliberen til dig, der har en blandet knivblok med både vestlige og asiatiske knive. Den er bygget til hjemmet, men også til små professionelle køkkener, så den kan klare at blive brugt flittigt.</p>
+<p>Sliberen har tre sæt slidser. To af dem er til henholdsvis vestlige og asiatiske knive, så hver type får sin egen vinkel. Det sidste sæt bruges til at polere begge typer og kan også bruges til brødknive.</p>
+<p>Kabinettet er i børstet stål, og med 2,3 kg står den solidt på bordet, mens du sliber.</p>
+HTML,
+			'good'    => [ 'Dig med både vestlige og japanske knive', 'Flittig brug', 'Brødknive' ],
+			'less'    => [ 'Dig, der kun sliber en kniv en gang imellem' ],
 		],
 	],
 	'guide'    => <<<'HTML'

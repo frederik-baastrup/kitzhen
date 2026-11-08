@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-gasbraender-til-madlavning',
-	'title'    => 'Gasbrænder til madlavning: Vores bud på de 4 bedste',
-	'excerpt'  => 'En gasbrænder til madlavning karamelliserer crème brûlée, smelter ost og giver sprød stegeskorpe. Her er vores bud på de 4 bedste køkkenbrændere.',
+	'title'    => 'Gasbrænder til madlavning: Vores bud på de 5 bedste',
+	'excerpt'  => 'En gasbrænder til madlavning karamelliserer crème brûlée, smelter ost og giver sprød stegeskorpe. Her er vores bud på de 5 bedste køkkenbrændere.',
 	'more_cat' => 'gasbraender',
 	'intro'    => <<<'HTML'
 <p>En gasbrænder til madlavning er en lille håndbrænder, der giver det sidste finish: karamel på crème brûlée, smeltet ost, sprød skorpe på sous vide-kød og flamberede desserter. Den passer i hånden, kører på butangas og er klar på et sekund.</p>
-<p>Herunder er vores bud på de 4 bedste gasbrændere til køkkenet fra de danske webshops, vi samarbejder med.</p>
+<p>Herunder er vores bud på de 5 bedste gasbrændere til køkkenet fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Crème brûlée og desserter', 'Hjem med børn', 'Dig, der vil styre flammen' ],
 			'less'    => [ 'Paella og wok udendørs' ],
+		],
+		[
+			'ean'     => '7340039200150',
+			'price'   => 509,
+			'name'    => 'Culimat gasbrænder i rustfrit stål',
+			'role'    => 'Mest elegante brænder',
+			'reviews' => [],
+			'verdict' => 'Tung og stilfuld køkkenbrænder i rustfrit stål fra Culimats Mathias Dahlgren Edition – til crème brûlée, fisk og grønt.',
+			'why'     => <<<'HTML'
+<p>Culimats gasbrænder er til dig, der vil have en brænder, der er pæn nok til at stå fremme i køkkenet. Den er en del af Mathias Dahlgren Edition, opkaldt efter den svenske kok, der har vundet Bocuse d'Or. Basen er kegleformet i rustfrit stål med et lasergraveret logo, og med 566 gram har den en solid tyngde i hånden.</p>
+<p>Brug den til at karamellisere råsukker på crème brûlée, brænde marengs af eller give rejer, laks, tun og grønne asparges en hurtig, brændt overflade, så kernen forbliver frisk.</p>
+<p>Du fylder den med butangas og tænder med et tryk på knappen. Flammen justeres med et drej, og omkring 2 cm giver den mest stabile flamme.</p>
+HTML,
+			'good'    => [ 'Dig, der vil have en brænder med design', 'Crème brûlée og marengs', 'Fisk og skaldyr med brændt overflade' ],
+			'less'    => [ 'Dig, der bare vil have en enkel brænder til skuffen' ],
 		],
 	],
 	'guide'    => <<<'HTML'

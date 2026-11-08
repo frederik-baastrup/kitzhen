@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-blinispande-til-induktion',
-	'title'    => 'Blinispande til induktion: Vores bud på de 3 bedste',
-	'excerpt'  => 'En blinispande giver små, runde og ensartede blinis og pandekager. Her er vores bud på de 3 bedste blinispander til induktion fra danske butikker.',
+	'title'    => 'Blinispande til induktion: Vores bud på de 4 bedste',
+	'excerpt'  => 'En blinispande giver små, runde og ensartede blinis og pandekager. Her er vores bud på de 4 bedste blinispander til induktion fra de butikker, vi samarbejder med.',
 	'more_cat' => 'blinispande',
 	'intro'    => <<<'HTML'
 <p>Blinis er små, tykke pandekager, der traditionelt serveres med creme fraiche, rødløg og stenbiderrogn eller laks – og de er blevet et fast indslag på mange nytårs- og julefrokostborde. Med en blinispande bliver de runde og lige store, og mange bruger også panden til små amerikanske pandekager, æg og spejlæg.</p>
-<p>Har du induktion, skal panden være magnetisk. Kulstål og støbejern er begge magnetiske og virker derfor på induktion. Herunder er vores bud på de 3 bedste blinispander hos danske butikker lige nu.</p>
+<p>Har du induktion, skal panden være magnetisk. Kulstål og støbejern er begge magnetiske og virker derfor på induktion. Herunder er vores bud på de 4 bedste blinispander fra de butikker, vi samarbejder med, lige nu.</p>
 HTML,
 	'picks'    => [
 		[
@@ -55,6 +55,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil have en enkel og robust pande', 'Induktion, gas og el' ],
 			'less'    => [ 'Opvaskemaskinen' ],
+		],
+		[
+			'ean'     => '8595028485196',
+			'price'   => 699,
+			'name'    => 'Blinis- og spejlægspande med aftageligt håndtag',
+			'role'    => 'Med aftageligt håndtag',
+			'reviews' => [],
+			'verdict' => 'Blinispande i støbt aluminium med non-stick til alle varmekilder – håndtaget klikkes af, så panden kan gå i ovnen.',
+			'why'     => <<<'HTML'
+<p>Denne blinispande er til dig, der vil have det nemt: Den er i støbt aluminium med non-stick-belægning, så blinis og spejlæg slipper uden indbrænding og pleje med olie. Panden passer til alle varmekilder, også induktion.</p>
+<p>Det smarte er det aftagelige håndtag. Steg en omgang blinis, klik håndtaget af og sæt panden i ovnen, så de holdes varme, mens du laver resten. Håndtaget bliver ikke varmt, og panden fylder ikke mere, end at der er plads til andet ved siden af.</p>
+<p>Uden håndtag fylder panden også mindre i skabet eller skuffen. Har du små børn, kan du tage håndtaget af, mens panden står på komfuret, så det ikke stikker ud over kanten. Panden fik German Design Award i 2017.</p>
+HTML,
+			'good'    => [ 'Dig, der vil undgå indbrænding og olie-pleje', 'Blinis, der skal holdes varme i ovnen', 'Børnefamilier' ],
+			'less'    => [ 'Dig, der vil have en pande, der bliver bedre med årene som kulstål og støbejern' ],
 		],
 	],
 	'guide'    => <<<'HTML'

@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-bambus-skaerebraet',
-	'title'    => 'Skærebræt i bambus: Vores bud på de 4 bedste',
-	'excerpt'  => 'Bambus er hårdt, let og holdbart og et populært materiale til skærebrætter. Her er vores bud på de 4 bedste skærebrætter i bambus fra danske butikker.',
+	'title'    => 'Skærebræt i bambus: Vores bud på de 5 bedste',
+	'excerpt'  => 'Bambus er hårdt, let og holdbart og et populært materiale til skærebrætter. Her er vores bud på de 5 bedste skærebrætter i bambus fra de butikker, vi samarbejder med.',
 	'more_cat' => 'skaerebraet',
 	'intro'    => <<<'HTML'
 <p>Bambus er et af de mest populære materialer til skærebrætter. Det er hårdt og slidstærkt, det suger ikke så meget vand som mange andre træsorter, og det er let at holde rent. Bambus vokser hurtigt, så det er også et godt valg for miljøet. Den eneste ulempe er, at det hårde materiale slider en smule mere på knivene end blødere træ.</p>
-<p>Herunder er vores bud på de 4 bedste skærebrætter i bambus hos danske butikker lige nu – fra et stort bræt til kød til et pænt bræt, du også kan servere på.</p>
+<p>Herunder er vores bud på de 5 bedste skærebrætter i bambus fra de butikker, vi samarbejder med, lige nu – fra et stort bræt til kød til et pænt bræt, du også kan servere på.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Ost, tapas og pålæg', 'Gaver', 'Dig, der vil have et bræt med særpræg' ],
 			'less'    => [ 'Meget saftigt kød' ],
+		],
+		[
+			'ean'     => '4009839195679',
+			'price'   => 298,
+			'name'    => 'Zwilling skærebræt i bambus 36 x 25 cm',
+			'role'    => 'Kompakt hverdagsbræt',
+			'reviews' => [],
+			'verdict' => 'Solidt Zwilling-bræt på 36 x 25 x 3 cm med fordybning til kødsaft og to brugbare sider.',
+			'why'     => <<<'HTML'
+<p>Zwillings bambusbræt er til dig, der vil have et solidt bræt i en størrelse, der passer til hverdagens madlavning – også i et mindre køkken. Det er oplagt til at skære kød og hakke grøntsager, men du kan bruge det til alle slags råvarer.</p>
+<p>Den ene side har en fordybning, der holder kødsaften på brættet i stedet for ude på køkkenbordet. Den anden side kan du også bruge, så du kan holde fx kød og grønt adskilt. Med 3 cm i tykkelse og 1,8 kg ligger det stabilt, men er stadig let at flytte og stille væk.</p>
+<p>Vask det i hånden i varmt vand med et mildt opvaskemiddel, og lad det tørre stående.</p>
+HTML,
+			'good'    => [ 'Mindre køkkener', 'Daglig hakning af kød og grønt', 'Dig, der vil have et bræt fra et kendt knivmærke' ],
+			'less'    => [ 'Store stege – det er det mindste bræt i guiden', 'Opvaskemaskinen' ],
 		],
 	],
 	'guide'    => <<<'HTML'

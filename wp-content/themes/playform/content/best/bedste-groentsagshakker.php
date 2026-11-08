@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-groentsagshakker',
-	'title'    => 'Grøntsagshakker: Vores bud på de 3 bedste',
-	'excerpt'  => 'En grøntsagshakker skærer løg, gulerødder og kartofler i ens tern på få sekunder. Her er vores bud på de 3 bedste fra danske butikker – og hvad du skal tjekke, før du køber.',
+	'title'    => 'Grøntsagshakker: Vores bud på de 5 bedste',
+	'excerpt'  => 'En grøntsagshakker skærer løg, gulerødder og kartofler i ens tern på få sekunder. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med – og hvad du skal tjekke, før du køber.',
 	'more_cat' => 'groentsagshakker',
 	'intro'    => <<<'HTML'
 <p>En grøntsagshakker sparer dig for det kedelige arbejde med at hakke løg, gulerødder, peberfrugt og kartofler i tern. De fleste virker på samme måde: du lægger grøntsagen på et gitter af knive, trykker låget ned, og ternene falder ned i en beholder. Andre er små "trækkere" eller "trykkere", hvor du hakker ved at trække i en snor eller trykke på en knap. Fælles for dem er, at du får ens stykker hurtigt – og slipper for at græde over løgene.</p>
-<p>Herunder er vores bud på de 3 bedste grøntsagshakkere hos danske butikker lige nu. Nederst finder du en købsguide til størrelser, rengøring og sikkerhed.</p>
+<p>Herunder er vores bud på de 5 bedste grøntsagshakkere fra de butikker, vi samarbejder med, lige nu. Nederst finder du en købsguide til størrelser, rengøring og sikkerhed.</p>
 HTML,
 	'picks'    => [
 		[
@@ -56,11 +56,40 @@ HTML,
 			'good'    => [ 'Dig, der vil prøve en hakker uden at give meget', 'Dips og salsa' ],
 			'less'    => [ 'Dig, der vil have helt ensartede tern' ],
 		],
+		[
+			'ean'     => '0719812042275',
+			'price'   => 299,
+			'name'    => 'OXO Good Grips grøntsagshakker',
+			'role'    => 'Bedst til salat og frugt',
+			'reviews' => [],
+			'verdict' => 'Hakker frugt og grønt i én let bevægelse – og du hælder det hakkede ud uden at tage låget af.',
+			'why'     => <<<'HTML'
+<p>OXO Good Grips grøntsagshakker er til dig, der hurtigt vil have hakket frugt og grønt til salater, salsa og andre retter. Én let bevægelse er nok, og så er råvarerne hakket – sikkert og uden besvær.</p>
+<p>Knivene i rustfrit stål sidder i et mønster, der skærer effektivt, og det sænkede skæreområde holder frugt og grøntsager på plads, mens du hakker. Når du er færdig, hælder du det hakkede direkte ud uden at fjerne låget, så der ikke spildes noget, og du ikke skal røre ved knivene. Med 462 gram er den let at tage frem og gemme væk igen.</p>
+HTML,
+			'good'    => [ 'Salater og frugtsalat', 'Dig, der vil hælde ud uden at åbne', 'Hurtig hakning i hverdagen' ],
+			'less'    => [ 'Dig, der vil have tern i flere faste størrelser' ],
+		],
+		[
+			'ean'     => '8710755145445',
+			'price'   => 219,
+			'name'    => 'Brabantia Tasty+ manuel hakker',
+			'role'    => 'Hakker og pisker',
+			'reviews' => [],
+			'verdict' => 'Trækhakker uden strøm med tre stålknive, 0,6 liter beholder og medfølgende pisker til flødeskum og dressing.',
+			'why'     => <<<'HTML'
+<p>Brabantia Tasty+ er til dig, der laver mad fra bunden og vil hakke løg, hvidløg og friske urter på et øjeblik – uden strøm og næsten uden en lyd. Du trækker i håndtaget, og tre skarpe knive i rustfrit stål roterer. Jo flere træk, jo finere bliver det, så du selv bestemmer, om det skal være groft eller næsten glat.</p>
+<p>Beholderen på 0,6 liter passer til en hjemmelavet salsa, en pesto eller grundlaget til en gryderet. Med den medfølgende pisker kan du også lave flødeskum, æggemasse og cremede dressinger.</p>
+<p>Bagefter kan både beholder og knive komme i opvaskemaskinen. Den fås her i en lysegrøn farve.</p>
+HTML,
+			'good'    => [ 'Løg, hvidløg og krydderurter', 'Pesto, salsa og dressing', 'Dig, der også vil piske fløde' ],
+			'less'    => [ 'Dig, der vil have helt ensartede tern', 'Store mængder ad gangen' ],
+		],
 	],
 	'guide'    => <<<'HTML'
 <h2>Sådan vælger du den rigtige grøntsagshakker</h2>
 <h3>Gitterhakker, trykhakker eller trækhakker?</h3>
-<p>En gitterhakker (som Alligator) presser grøntsagen gennem et gitter af knive og giver ens tern. Den er bedst til løg, kartofler og rodfrugter, men du skal skære grøntsagen i skiver først. En trykhakker eller trækhakker (som Zick-Zick og Tefal) hakker med roterende knive og er hurtigere til små mængder, men stykkerne bliver ikke lige store.</p>
+<p>En gitterhakker (som Alligator) presser grøntsagen gennem et gitter af knive og giver ens tern. Den er bedst til løg, kartofler og rodfrugter, men du skal skære grøntsagen i skiver først. En trykhakker eller trækhakker (som Zick-Zick, Tefal og Brabantia Tasty+) hakker med roterende knive og er hurtigere til små mængder, men stykkerne bliver ikke lige store.</p>
 <h3>Størrelsen på ternene</h3>
 <p>Tænk over, hvad du laver mest. Fine tern er gode til sovs, kødsovs og salsa. Store tern er til kartofler, gryderetter og ovnbagte grøntsager. Nogle hakkere har udskiftelige gitre, så du kan skifte størrelse.</p>
 <h3>Rengøring</h3>

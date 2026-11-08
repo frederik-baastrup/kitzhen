@@ -7,12 +7,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-gasgrill',
-	'title'    => 'Gasgrill: Vores bud på de 4 bedste',
-	'excerpt'  => 'En gasgrill er hurtig at tænde og nem at styre. Her er vores bud på de 4 bedste gasgrills fra danske butikker – fra altangrill til familiegrill – og hvad du skal kigge efter.',
+	'title'    => 'Gasgrill: Vores bud på de 5 bedste',
+	'excerpt'  => 'En gasgrill er hurtig at tænde og nem at styre. Her er vores bud på de 5 bedste gasgrills fra de butikker, vi samarbejder med – fra altangrill til familiegrill – og hvad du skal kigge efter.',
 	'more_cat' => 'gasgrill',
 	'intro'    => <<<'HTML'
 <p>En gasgrill er den nemme vej til grillmad på en hverdag: den er varm på få minutter, du skruer op og ned for varmen med knapperne, og der er ingen kul at slukke bagefter. Til gengæld er der stor forskel på, hvor mange brændere, hvor stor en grillflade og hvor kraftig en sear-zone du får for pengene.</p>
-<p>Herunder er vores bud på de 4 bedste gasgrills hos danske butikker lige nu – en allround-grill, en stor familiegrill, et billigere valg med fire brændere og en bærbar grill til altan og tur. Nederst finder du en købsguide til brændere, grillflade, rist og placering.</p>
+<p>Herunder er vores bud på de 5 bedste gasgrills fra de butikker, vi samarbejder med, lige nu – en allround-grill, en stor familiegrill, et billigere valg med fire brændere, en bærbar grill til altan og tur og en stor grill med sidebrænder og rotisseri. Nederst finder du en købsguide til brændere, grillflade, rist og placering.</p>
 HTML,
 	'picks'    => [
 		[
@@ -77,6 +77,21 @@ HTML,
 HTML,
 			'good'    => [ 'Altaner og små terrasser', 'Sommerhus, camping og udflugter' ],
 			'less'    => [ 'Dig, der griller for mange på én gang' ],
+		],
+		[
+			'ean'     => '0062703123561',
+			'price'   => 6592,
+			'name'    => 'Broil King Crown 480 Shadow',
+			'role'    => 'Bedst til rotisseri',
+			'reviews' => [],
+			'verdict' => 'Fire brændere på i alt 11,4 kW, sidebrænder, rotisseribrænder og medfølgende rotisserisæt – en komplet grillstation.',
+			'why'     => <<<'HTML'
+<p>Broil King Crown 480 Shadow er til dig, der vil have hele grillstationen på én gang. Fire brændere i rustfrit stål giver tilsammen 11,4 kW, og grillfladen på 64 x 44 cm har plads til en hel grillfest. Ved siden af sidder en sidebrænder på 2,7 kW til sauce og tilbehør, og bagest en rotisseribrænder på 4,4 kW.</p>
+<p>Rotisserisættet følger med, så du kan dreje hele kyllinger og stege langsomt og jævnt over varmen. De vendbare riste i støbejern og Broil Kings Flav-R-Wave-system under risten fordeler varmen og giver grillsmag.</p>
+<p>Låget er emaljeret, grillboksen er i støbt aluminium, og sidebordene er pulverlakerede. Grillen vejer 65,7 kg og er sort. Broil King giver 25 års garanti.</p>
+HTML,
+			'good'    => [ 'Hele kyllinger og stege på rotisseri', 'Dig, der vil lave sauce og tilbehør ved grillen', 'Grillfester med mange gæster' ],
+			'less'    => [ 'Små terrasser og altaner', 'Dig, der skal flytte grillen tit' ],
 		],
 	],
 	'guide'    => <<<'HTML'

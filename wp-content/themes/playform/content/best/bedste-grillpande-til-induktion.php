@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-grillpande-til-induktion',
-	'title'    => 'Grillpande til induktion: Vores bud på de 3 bedste',
-	'excerpt'  => 'En grillpande giver grillstriber og grillsmag på komfuret hele året. Her er vores bud på de 3 bedste grillpander til induktion fra danske butikker.',
+	'title'    => 'Grillpande til induktion: Vores bud på de 5 bedste',
+	'excerpt'  => 'En grillpande giver grillstriber og grillsmag på komfuret hele året. Her er vores bud på de 5 bedste grillpander til induktion fra de butikker, vi samarbejder med.',
 	'more_cat' => 'grillpande',
 	'intro'    => <<<'HTML'
 <p>En grillpande har høje riller i bunden, så kød, fisk og grøntsager får grillstriber og en sprød overflade – uden at du skal tænde grillen. Fedtet løber ned mellem rillerne, så maden ikke koger i sin egen saft. Det er en af de pander, der gør mest forskel på en vinteraften.</p>
-<p>På induktion skal grillpanden være magnetisk. Støbejern og kulstål er begge magnetiske og bliver meget varme, og det er netop det, en grillpande skal kunne. Herunder er vores bud på de 3 bedste grillpander hos danske butikker lige nu.</p>
+<p>På induktion skal grillpanden være magnetisk. Støbejern og kulstål er begge magnetiske og bliver meget varme, og det er netop det, en grillpande skal kunne. Herunder er vores bud på de 5 bedste grillpander fra de butikker, vi samarbejder med, lige nu.</p>
 HTML,
 	'picks'    => [
 		[
@@ -55,6 +55,35 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil have en lettere pande', 'God grillpande til prisen' ],
 			'less'    => [ 'Opvaskemaskinen' ],
+		],
+		[
+			'ean'     => '0075536335506',
+			'price'   => 699,
+			'name'    => 'Lodge kvadratisk grillpande 26 cm, støbejern',
+			'role'    => 'Klar til brug fra start',
+			'reviews' => [],
+			'verdict' => 'Firkantet grillpande i støbejern på 26 x 26,5 cm, der er indbrændt fra fabrikken og virker på induktion.',
+			'why'     => <<<'HTML'
+<p>Den firkantede grillpande fra Lodge Cast Iron er til dig, der vil i gang med det samme. Panden er indbrændt fra start, så du slipper for selv at gøre det, før du kan bruge den. Den virker på alle kogeplader, også induktion.</p>
+<p>Rillerne giver kød, fisk og grøntsager flotte grillstriber, mens fedtet løber ned mellem dem, så maden ikke koger i sit eget fedt. Den firkantede form på 26 x 26,5 cm giver god plads til bøffer og grøntsager side om side. Med 3,3 kg ligger den tungt og stabilt på kogepladen. Vask den i hånden.</p>
+HTML,
+			'good'    => [ 'Dig, der vil bruge panden med det samme', 'Bøffer og grøntsager side om side', 'Alle kogeplader' ],
+			'less'    => [ 'Dig, der vil have en let pande', 'Opvaskemaskinen' ],
+		],
+		[
+			'ean'     => '7350011670673',
+			'price'   => 449,
+			'name'    => 'Carl Victor Gold grillpande 28 cm, støbejern',
+			'role'    => 'Flot nok til bordet',
+			'reviews' => [],
+			'verdict' => 'Rund grillpande i støbejern på 28 cm med guldfarvede detaljer – fra komfuret direkte til bordet.',
+			'why'     => <<<'HTML'
+<p>Carl Victor Gold er grillpanden til dig, der vil kunne bære maden direkte fra komfuret til bordet. Gold-serien kombinerer klassisk støbejern med guldfarvede detaljer, så panden er pæn nok til at stå midt på middagsbordet.</p>
+<p>Den rillede stegeflade løfter maden lidt fra bunden, så fedt og stegesaft samler sig mellem rillerne. Støbejernet holder godt på varmen, når panden først er varm, og det giver en flot skorpe på bøffer, kylling, fisk og halloumi og grillstriber på squash, peberfrugt og aubergine. Støbejern er magnetisk og virker derfor på induktion.</p>
+<p>Panden måler 28 cm i diameter, kan gå i ovnen op til 150 °C og skal vaskes i hånden og tørres straks.</p>
+HTML,
+			'good'    => [ 'Servering direkte fra panden', 'Halloumi og grillede grøntsager', 'Dig, der vil have støbejern med et eksklusivt udtryk' ],
+			'less'    => [ 'Ovnretter ved høj varme – ovnen højst 150 °C' ],
 		],
 	],
 	'guide'    => <<<'HTML'

@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-blender',
-	'title'    => 'Blender: Vores bud på de 4 bedste',
-	'excerpt'  => 'En god blender laver smoothies, supper og saucer og knuser is og nødder. Her er vores bud på de 4 bedste blendere fra danske butikker – fra personlig blender til kraftig højhastighedsblender.',
+	'title'    => 'Blender: Vores bud på de 5 bedste',
+	'excerpt'  => 'En god blender laver smoothies, supper og saucer og knuser is og nødder. Her er vores bud på de 5 bedste blendere fra de butikker, vi samarbejder med – fra personlig blender til kraftig højhastighedsblender.',
 	'more_cat' => 'blender',
 	'intro'    => <<<'HTML'
 <p>En blender bruges til smoothies, milkshakes, supper, saucer, pesto, nøddesmør og knust is. Der er stor forskel på en lille personlig blender, hvor du blender direkte i drikkeflasken, og en kraftig højhastighedsblender, der kan lave alt fra varm suppe til mandelmel.</p>
-<p>Herunder er vores bud på de 4 bedste blendere hos danske butikker lige nu. Nederst finder du en købsguide til effekt, kande og typer.</p>
+<p>Herunder er vores bud på de 5 bedste blendere fra de butikker, vi samarbejder med, lige nu. Nederst finder du en købsguide til effekt, kande og typer.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Morgensmoothies på farten', 'Små køkkener', 'Dig, der vil have nem rengøring' ],
 			'less'    => [ 'Supper og store portioner til hele familien' ],
+		],
+		[
+			'ean'     => '8720389001475',
+			'price'   => 489,
+			'name'    => 'Philips HR2291/01 3000 Series blender',
+			'role'    => 'Budgetvalg med glaskande',
+			'reviews' => [],
+			'verdict' => 'Kandeblender på 600 W med glaskande, knive i rustfrit stål, der knuser is, og sugekopper under fødderne.',
+			'why'     => <<<'HTML'
+<p>Philips HR2291/01 er til dig, der vil have en rigtig kandeblender med glaskande uden at gå efter de dyre højhastighedsmodeller. Den klarer smoothies, kolde drinks, frosne desserter og knust is, og den kan også male urter, krydderier og kaffebønner.</p>
+<p>Motoren på 600 W arbejder sammen med Philips' ProBlend-system: Knivene i rustfrit stål er formet til at ramme mest muligt, og riller i kanden sender ingredienserne tilbage mod knivene. Du har to hastigheder og puls, og en sensor beskytter motoren mod overbelastning. Sugekopper under fødderne holder blenderen på plads.</p>
+<p>Glaskanden rummer 2 liter, hvoraf 1,25 liter er til selve blendningen, og den kan komme i opvaskemaskinen. Der er 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Dig, der foretrækker glas frem for plast', 'Smoothies og knust is i hverdagen', 'Mindre budgetter' ],
+			'less'    => [ 'Nøddesmør og varm suppe – her skal der mere kraft til' ],
 		],
 	],
 	'guide'    => <<<'HTML'

@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-grydesaet',
-	'title'    => 'Grydesæt: Vores bud på de 4 bedste',
-	'excerpt'  => 'Et grydesæt giver dig de gryder, du bruger mest, til en lavere pris end enkeltvis. Her er vores bud på de 4 bedste grydesæt fra danske butikker.',
+	'title'    => 'Grydesæt: Vores bud på de 5 bedste',
+	'excerpt'  => 'Et grydesæt giver dig de gryder, du bruger mest, til en lavere pris end enkeltvis. Her er vores bud på de 5 bedste grydesæt fra de butikker, vi samarbejder med.',
 	'more_cat' => 'grydesaet',
 	'intro'    => <<<'HTML'
 <p>Et grydesæt er den nemme måde at få et komplet sæt gryder på – til ny bolig, ny induktionsplade eller som afløser for gamle gryder. Du får typisk en kasserolle, et par gryder i forskellige størrelser og låg, ofte til en lavere pris end hvis du købte dem enkeltvis.</p>
-<p>Herunder er vores bud på de 4 bedste grydesæt hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste grydesæt fra de butikker, vi samarbejder med, lige nu.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Små køkkener med lidt skabsplads', 'Fra komfur til ovn og bord', 'Dig, der vil undgå tilsat PFAS' ],
 			'less'    => [ 'Dig, der ikke vil have et løst håndtag', 'Bør vaskes i hånden' ],
+		],
+		[
+			'ean'     => '3168430323121',
+			'price'   => 919,
+			'name'    => 'Jamie Oliver by Tefal Quick & Easy grydesæt 6 dele',
+			'role'    => 'Bedst til første bolig',
+			'reviews' => [],
+			'verdict' => 'Tre gryder fra 1,5 til 5,2 liter med låg, titanforstærket non-stick og Thermo-Signal – klar til induktion.',
+			'why'     => <<<'HTML'
+<p>Jamie Olivers Quick &amp; Easy-sæt fra Tefal er oplagt, hvis du lige er flyttet hjemmefra eller trænger til nye gryder uden at skulle tænke for meget over det. Du får en kasserolle på 1,5 liter (16 cm), en gryde på 3 liter (20 cm) og en gryde på 5,2 liter (24 cm) – og et låg til hver.</p>
+<p>Gryderne er i hårdanodiseret aluminium med bund i rustfrit stål, så de fordeler varmen godt og virker på alle komfurer, også induktion. Non-stick-belægningen er forstærket med titanpartikler, så den er ridsefast, og maden slipper let. Thermo-Signal viser dig, når gryden har den rette temperatur.</p>
+<p>Håndtagene er i silikone, og alle dele tåler ovnen op til 175 °C med låg. De kan komme i opvaskemaskinen, men håndvask anbefales.</p>
+HTML,
+			'good'    => [ 'Første bolig og nye køkkener', 'Dig, der vil have non-stick i gryderne', 'Induktion' ],
+			'less'    => [ 'Dig, der vil have rustfrit stål hele vejen igennem' ],
 		],
 	],
 	'guide'    => <<<'HTML'

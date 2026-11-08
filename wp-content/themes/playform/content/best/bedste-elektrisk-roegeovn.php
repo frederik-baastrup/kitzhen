@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-elektrisk-roegeovn',
-	'title'    => 'Elektrisk røgeovn: Vores bud på de 3 bedste',
-	'excerpt'  => 'En elektrisk røgeovn gør det nemt at røge fisk, kød og ost uden kul og gas. Her er vores bud på de 3 bedste fra danske butikker – og hvad du skal kigge efter.',
+	'title'    => 'Elektrisk røgeovn: Vores bud på de 4 bedste',
+	'excerpt'  => 'En elektrisk røgeovn gør det nemt at røge fisk, kød og ost uden kul og gas. Her er vores bud på de 4 bedste fra de butikker, vi samarbejder med – og hvad du skal kigge efter.',
 	'more_cat' => 'roegeovn',
 	'intro'    => <<<'HTML'
 <p>En elektrisk røgeovn er den nemmeste måde at komme i gang med at røge mad på. Et varmelegeme varmer en bakke med træspåner op, så de ulmer og giver røg, mens maden ligger på ristene ovenover. Du skal ikke holde øje med kul eller gas – du sætter strømmen til, og ovnen holder varmen.</p>
-<p>Herunder er vores bud på de 3 bedste elektriske røgeovne hos danske butikker lige nu – fra en kompakt model til køkkenet til et stort røgeskab til haven. Nederst finder du en købsguide til størrelse, effekt og varm- og koldrøgning.</p>
+<p>Herunder er vores bud på de 4 bedste elektriske røgeovne fra de butikker, vi samarbejder med, lige nu – fra en kompakt model til køkkenet til et stort røgeskab til haven. Nederst finder du en købsguide til størrelse, effekt og varm- og koldrøgning.</p>
 HTML,
 	'picks'    => [
 		[
@@ -22,7 +22,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kraftig elektrisk røgeovn på 1650 W – nem at gå til for både nybegyndere og øvede.',
 			'why'     => <<<'HTML'
-<p>Mareld Elrøg er den kraftigste af vores tre valg. Den har en effekt på 1650 W, og du hverken skal bruge en masse kul eller flere timers forberedelse for at få røget mad.</p>
+<p>Mareld Elrøg er den kraftigste af vores fire valg. Den har en effekt på 1650 W, og du hverken skal bruge en masse kul eller flere timers forberedelse for at få røget mad.</p>
 <p>Mareld sælger også reservedele som varmeelement, termostat, termometer, riste og bakker til ovnen, så den kan holdes kørende i mange år.</p>
 HTML,
 			'good'    => [ 'Dig, der vil røge ofte og meget', 'Dig, der vil kunne skifte reservedele' ],
@@ -55,6 +55,21 @@ HTML,
 HTML,
 			'good'    => [ 'Begyndere', 'Fisk og mindre portioner' ],
 			'less'    => [ 'Store mængder ad gangen' ],
+		],
+		[
+			'ean'     => '6410416537917',
+			'price'   => 468,
+			'name'    => 'Mustang elektrisk røgeovn 1100 W',
+			'role'    => 'Mest kompakt',
+			'reviews' => [],
+			'verdict' => 'Kompakt røgeovn i rustfrit stål på 1100 W til køkkenet eller udendørs – med rist på 39 × 23 cm og fedtbakke.',
+			'why'     => <<<'HTML'
+<p>Mustangs lille elektriske røgeovn er til dig, der vil prøve kræfter med røget laks, kød, grøntsager og ost uden at investere i et stort røgeskab. Den kan bruges både hjemme i køkkenet og udendørs, så du kan røge året rundt.</p>
+<p>Ovnen er i rustfrit stål af typen 201 og har en effekt på 1100 W, der giver en stabil varme. Den måler 27 cm i diameter og 45 cm i længden og passer til små og mellemstore portioner. Risten på 39 × 23 cm giver plads til flere råvarer på én gang, og bakken nedenunder samler fedt og røgflis.</p>
+<p>Bakken gør rengøringen lettere, og med IPX4 tåler ovnen vandstænk. Der er 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Begyndere', 'Små portioner fisk, kød og ost', 'Dig, der vil røge i køkkenet' ],
+			'less'    => [ 'Store mængder ad gangen – der er én rist' ],
 		],
 	],
 	'guide'    => <<<'HTML'

@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-bagestaal',
-	'title'    => 'Bagestål: Vores bud på de 3 bedste',
-	'excerpt'  => 'Et bagestål giver sprøde pizzaer og brød med skorpe i en almindelig ovn – og knækker ikke som en pizzasten. Her er vores bud på de 3 bedste.',
+	'title'    => 'Bagestål: Vores bud på de 5 bedste',
+	'excerpt'  => 'Et bagestål giver sprøde pizzaer og brød med skorpe i en almindelig ovn – og knækker ikke som en pizzasten. Her er vores bud på de 5 bedste.',
 	'more_cat' => 'pizzasten',
 	'intro'    => <<<'HTML'
 <p>Et bagestål – eller pizzastål – er en tyk stålplade, du lægger i ovnen. Stål leder varmen hurtigere end sten, så pizzabunden bliver sprød, og brødet får en flot skorpe, selvom en almindelig ovn ikke bliver lige så varm som en pizzaovn. Og i modsætning til en pizzasten kan stålet ikke knække.</p>
-<p>Herunder er vores bud på de 3 bedste bagestål hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste bagestål fra de butikker, vi samarbejder med, lige nu.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Små ovne og runde pizzaer', 'Dig, der vil have et stål, der er nemt at gemme væk' ],
 			'less'    => [ 'Brød og store familiepizzaer' ],
+		],
+		[
+			'ean'     => '5700437334246',
+			'price'   => 579,
+			'name'    => 'Bagestålet 6 mm',
+			'role'    => 'Dansk kvalitetsstål',
+			'reviews' => [],
+			'verdict' => 'Dansk bagestål i 6 mm højkonduktivt stål fra SSAB – til pizza, brød og boller, med 10 års brudgaranti.',
+			'why'     => <<<'HTML'
+<p>Bagestålet er det danske bud på et bagestål, og det er lavet til dig, der vil have mere ud af din almindelige ovn. Pizza, brød, boller og baguettes får en sprødere bund og en flottere skorpe, fordi stålet sender varmen hurtigt op i dejen.</p>
+<p>Pladen er 6 mm tyk og lavet af højkonduktivt kvalitetsstål fra svenske SSAB. Stålet er fødevaregodkendt, og selvom det er designet til ovnen, kan du også tage det med ud på grillen.</p>
+<p>Bagestålet fås i flere størrelser, så mål det flade område på din bagerist, før du vælger. Du får 10 års brudgaranti, og stålet bliver mørkere med årene, efterhånden som det bliver brugt.</p>
+HTML,
+			'good'    => [ 'Dig, der bager meget brød og mange boller', 'Dig, der vil have et dansk produkt', 'Ovn og grill' ],
+			'less'    => [ 'Dig, der vil have et tykkere stål end 6 mm' ],
+		],
+		[
+			'ean'     => '7350101114728',
+			'price'   => 199,
+			'name'    => 'Mareld pizzastål 37 x 33 cm',
+			'role'    => 'Til pizza og smashburgers',
+			'reviews' => [],
+			'verdict' => 'Kraftig valset stålplade på 6 mm og 37 × 33 cm til ovn og grill – også til sprøde smashburgers.',
+			'why'     => <<<'HTML'
+<p>Mareld pizzastål er en enkel vej til pizza med sprød bund og luftig kant derhjemme. Den kraftige valsede plade er 6 mm tyk og giver en jævn, høj varme, uanset om du lægger den i ovnen eller på grillen.</p>
+<p>Fladen på 37 × 33 cm giver plads til en god pizza, og med 5,5 kg er den til at håndtere. Stålet er ikke kun til pizza: Det er også oplagt til smashburgers med en sprød stegeskorpe. Til dem skal stålet være 250–290 °C, når kødbollen rammer pladen.</p>
+<p>Varm stålet op på maks. i 40–60 minutter, før du bager. Vil du kende temperaturen præcist, kan du måle den med et IR-termometer. Der følger 3 års garanti med.</p>
+HTML,
+			'good'    => [ 'Dig, der også vil lave smashburgers', 'Ovn og grill', 'Dig, der vil i gang uden at bruge mange penge' ],
+			'less'    => [ 'Dig, der vil have det tykkeste stål til mange pizzaer i træk' ],
 		],
 	],
 	'guide'    => <<<'HTML'

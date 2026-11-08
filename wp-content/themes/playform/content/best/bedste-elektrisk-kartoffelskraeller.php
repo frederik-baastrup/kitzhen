@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-elektrisk-kartoffelskraeller',
-	'title'    => 'Elektrisk kartoffelskræller: Vores bud på de 2 bedste',
-	'excerpt'  => 'En elektrisk kartoffelskræller skræller op til et kilo kartofler på få minutter. Her er de 2 elektriske kartoffelskrællere, vi kan anbefale fra danske butikker lige nu.',
+	'title'    => 'Elektrisk kartoffelskræller: Vores bud på de 3 bedste',
+	'excerpt'  => 'En elektrisk kartoffelskræller skræller op til et kilo kartofler på få minutter. Her er de 3 elektriske kartoffelskrællere, vi kan anbefale fra de butikker, vi samarbejder med, lige nu.',
 	'more_cat' => '',
 	'intro'    => <<<'HTML'
 <p>Skal du skrælle mange kartofler – til julemiddagen, til en stor familie eller hver dag – kan en elektrisk kartoffelskræller spare dig for meget tid. Kartoflerne kommes i en beholder med en ru bund, der roterer, så kartoflerne gnubber mod siderne, og skrællen bliver slebet af. Vand skyller skrællen væk.</p>
-<p>Der findes ikke mange elektriske kartoffelskrællere i danske webshops. Herunder er de to, vi kan anbefale lige nu, og en guide til, hvad du kan forvente.</p>
+<p>Der findes ikke mange elektriske kartoffelskrællere hos de butikker, vi samarbejder med. Herunder er de tre, vi kan anbefale lige nu, og en guide til, hvad du kan forvente.</p>
 HTML,
 	'picks'    => [
 		[
@@ -40,6 +40,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil holde prisen nede' ],
 			'less'    => [ 'Dig, der vil have flere funktioner' ],
+		],
+		[
+			'ean'     => '7350101118191',
+			'price'   => 299,
+			'name'    => 'Essentials elektrisk kartoffelskræller',
+			'role'    => 'Med dobbelt sikkerhed',
+			'reviews' => [],
+			'verdict' => 'Skræller op til 1 kg kartofler med knive i rustfrit stål – med gennemsigtigt låg, gummifødder og dobbelt sikkerhed.',
+			'why'     => <<<'HTML'
+<p>Essentials elektriske kartoffelskræller er til dig, der vil slippe for at stå med skrællekniven, når der skal kartofler på bordet til hele familien. Den tager op til 1 kg ad gangen, og motoren og knivene i rustfrit stål fjerner skrællen hurtigt. Den gør det bedst med nye kartofler – ældre kartofler tager lidt længere tid.</p>
+<p>Gennem det gennemsigtige låg kan du hele tiden se, hvor langt den er, og stoppe i tide. En dobbelt sikkerhedsfunktion gør den tryg at bruge, og gummifødderne holder den stabil, mens den kører. Tænd/sluk-knappen lyser, og ledningen har sin egen opbevaring.</p>
+<p>Delene kan tages af, så den er nem at gøre ren. Vask dem i hånden.</p>
+HTML,
+			'good'    => [ 'Nye kartofler i store portioner', 'Dig, der vil følge med undervejs', 'Børnefamilier, der sætter pris på sikkerhed' ],
+			'less'    => [ 'Ældre kartofler tager længere tid', 'Opvaskemaskinen' ],
 		],
 	],
 	'guide'    => <<<'HTML'

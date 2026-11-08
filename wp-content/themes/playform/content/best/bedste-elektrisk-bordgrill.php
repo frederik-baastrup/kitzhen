@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-elektrisk-bordgrill',
-	'title'    => 'Elektrisk bordgrill: Vores bud på de 4 bedste',
-	'excerpt'  => 'En elektrisk bordgrill giver grillmad hele året – i køkkenet, på altanen eller midt på bordet. Her er vores bud på de 4 bedste fra danske butikker.',
+	'title'    => 'Elektrisk bordgrill: Vores bud på de 5 bedste',
+	'excerpt'  => 'En elektrisk bordgrill giver grillmad hele året – i køkkenet, på altanen eller midt på bordet. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'bordgrill',
 	'intro'    => <<<'HTML'
 <p>En elektrisk bordgrill kræver hverken kul eller gas – kun en stikkontakt. Det gør den oplagt til lejligheder, altaner, hvor åben ild ikke er tilladt, og til grillmad om vinteren. Nogle er kontaktgrills med låg, der griller fra begge sider, andre er flade grillplader, der kan stå midt på bordet.</p>
-<p>Herunder er vores bud på de 4 bedste elektriske bordgrills hos danske butikker lige nu. Nederst finder du en købsguide til typer, effekt og rengøring.</p>
+<p>Herunder er vores bud på de 5 bedste elektriske bordgrills fra de butikker, vi samarbejder med, lige nu. Nederst finder du en købsguide til typer, effekt og rengøring.</p>
 HTML,
 	'picks'    => [
 		[
@@ -70,6 +70,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil holde prisen nede', 'Ude og inde' ],
 			'less'    => [ 'Kontaktgrill med låg' ],
+		],
+		[
+			'ean'     => '4894871033313',
+			'price'   => 2300,
+			'name'    => 'GreenPan Elite XL Less Smoke bordgrill',
+			'role'    => 'Bedst til teppanyaki',
+			'reviews' => [],
+			'verdict' => 'Teppanyaki-bordgrill på 1800 W med udskiftelige keramiske non-stick-plader og en funktion, der mindsker røgen indendørs.',
+			'why'     => <<<'HTML'
+<p>GreenPan Elite XL er bordgrillen til dig, der vil grille indendørs uden at fylde køkkenet med røg. Den kaldes også en teppanyaki, og Less Smoke-funktionen holder røgen nede, så du kan grille større stykker kød inde.</p>
+<p>Pladerne er keramiske med non-stick og kan tages af og skiftes ud. Du vælger selv mellem en glat stegeplade, en ribbet grillflade eller en kombination af de to, alt efter hvad der skal på. Faste programmer til okse, fjerkræ, fisk og svin hjælper dig med at ramme temperaturen. De 1800 W giver kræfter nok til en hel middag.</p>
+<p>Grillen måler 45 × 40 cm, og pladerne tåler opvaskemaskine, så oprydningen går hurtigt.</p>
+HTML,
+			'good'    => [ 'Grillmad indendørs med mindre røg', 'Dig, der vil skifte mellem plancha og grillriller', 'Nem oprydning' ],
+			'less'    => [ 'Dig, der vil have en kontaktgrill med låg' ],
 		],
 	],
 	'guide'    => <<<'HTML'

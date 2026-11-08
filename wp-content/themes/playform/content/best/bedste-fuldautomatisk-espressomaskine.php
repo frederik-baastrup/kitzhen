@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-fuldautomatisk-espressomaskine',
-	'title'    => 'Fuldautomatisk espressomaskine: Vores bud på de 4 bedste',
-	'excerpt'  => 'En fuldautomatisk espressomaskine maler bønnerne og brygger espresso og cappuccino med ét tryk. Her er vores bud på de 4 bedste fra danske butikker.',
+	'title'    => 'Fuldautomatisk espressomaskine: Vores bud på de 5 bedste',
+	'excerpt'  => 'En fuldautomatisk espressomaskine maler bønnerne og brygger espresso og cappuccino med ét tryk. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'espressomaskine',
 	'intro'    => <<<'HTML'
 <p>En fuldautomatisk espressomaskine – også kaldet en helautomatisk espressomaskine – maler bønnerne, doserer, brygger og ofte også skummer mælken med et enkelt tryk. Du får friskmalet kaffe hver gang uden at skulle lære at bruge et portafilter, og der er ingen kapsler, der skal købes og smides ud.</p>
-<p>Herunder er vores bud på de 4 bedste fuldautomatiske espressomaskiner hos danske butikker lige nu. Nederst finder du en købsguide til mælkesystem, kaffedrikke og rengøring.</p>
+<p>Herunder er vores bud på de 5 bedste fuldautomatiske espressomaskiner fra de butikker, vi samarbejder med, lige nu. Nederst finder du en købsguide til mælkesystem, kaffedrikke og rengøring.</p>
 HTML,
 	'picks'    => [
 		[
@@ -69,6 +69,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der lægger vægt på design', 'Cappuccino' ],
 			'less'    => [ 'Dig, der vil have mest maskine for pengene' ],
+		],
+		[
+			'ean'     => '8710103894735',
+			'price'   => 2105,
+			'name'    => 'Philips EP2224/10 fuldautomatisk espressomaskine',
+			'role'    => 'Enkel med damprør',
+			'reviews' => [],
+			'verdict' => 'Fuldautomatisk maskine med keramisk kværn i 12 trin, klassisk mælkeskummer og filter, der holder kalken væk i op til 5.000 kopper.',
+			'why'     => <<<'HTML'
+<p>Philips EP2224/10 er til dig, der vil have friskmalet kaffe med ét tryk og selv skumme mælken til cappuccino. Den klassiske mælkeskummer giver et blødt skum og består kun af to dele, så den er hurtig at gøre ren.</p>
+<p>Den keramiske kværn maler i 12 trin fra fint til groft og har en aromaforsegling, der holder bønnerne friske og dæmper lyden. På touchskærmen vælger du drik, og i menuen My Coffee Choice justerer du styrke og mængde. Vandtanken rummer 1,8 liter.</p>
+<p>Bryggeenheden tages ud og skylles under hanen, og drypbakke, mælkesystem og kaffegrumsbeholder tåler opvaskemaskine. Skifter du filteret, når maskinen siger til, slipper du for at afkalke i op til 5.000 kopper.</p>
+HTML,
+			'good'    => [ 'Dig, der vil i gang med bønner uden at give meget', 'Espresso og cappuccino', 'Nem rengøring' ],
+			'less'    => [ 'Dig, der vil have mælkeskum med ét tryk' ],
 		],
 	],
 	'guide'    => <<<'HTML'
