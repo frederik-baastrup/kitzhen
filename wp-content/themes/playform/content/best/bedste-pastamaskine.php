@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-pastamaskine',
+	'date'     => '2023-06-20 07:57:40',
 	'title'    => 'Pastamaskine: Vores bud på de 5 bedste',
 	'excerpt'  => 'Med en pastamaskine laver du frisk pasta som i Italien. Her er vores bud på de 5 bedste pastamaskiner fra de butikker, vi samarbejder med – med håndsving og med motor.',
 	'more_cat' => 'pastamaskine',

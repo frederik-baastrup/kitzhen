@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-stavblender',
+	'date'     => '2023-06-20 08:57:26',
 	'title'    => 'Stavblender: Vores bud på de 5 bedste',
 	'excerpt'  => 'En stavblender blender suppe direkte i gryden og laver mayonnaise, pesto og smoothies. Her er vores bud på de 5 bedste stavblendere fra de butikker, vi samarbejder med.',
 	'more_cat' => 'stavblender',

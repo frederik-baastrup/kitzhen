@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-stegepande',
+	'date'     => '2023-09-04 08:43:42',
 	'title'    => 'Stegepande: Vores bud på de 5 bedste',
 	'excerpt'  => 'Den rigtige stegepande afhænger af, hvad du steger. Her er vores bud på de 5 bedste stegepander fra danske butikker – med slip-let, i stål, kulstål og støbejern.',
 	'more_cat' => 'stegepande',

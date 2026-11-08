@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-sous-vide-stav',
+	'date'     => '2023-09-06 08:50:53',
 	'title'    => 'Sous vide-stav: Vores bud på de 5 bedste',
 	'excerpt'  => 'Med en sous vide-stav tilbereder du kød og fisk præcist i vandbad – perfekt hver gang. Her er vores bud på de 5 bedste sous vide-stave fra de butikker, vi samarbejder med.',
 	'more_cat' => 'sous-vide',

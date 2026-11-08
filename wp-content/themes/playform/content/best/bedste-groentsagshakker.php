@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-groentsagshakker',
+	'date'     => '2023-07-18 07:54:00',
 	'title'    => 'Grøntsagshakker: Vores bud på de 5 bedste',
 	'excerpt'  => 'En grøntsagshakker skærer løg, gulerødder og kartofler i ens tern på få sekunder. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med – og hvad du skal tjekke, før du køber.',
 	'more_cat' => 'groentsagshakker',

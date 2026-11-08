@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-grydesaet',
+	'date'     => '2023-07-19 10:39:11',
 	'title'    => 'Grydesæt: Vores bud på de 5 bedste',
 	'excerpt'  => 'Et grydesæt giver dig de gryder, du bruger mest, til en lavere pris end enkeltvis. Her er vores bud på de 5 bedste grydesæt fra de butikker, vi samarbejder med.',
 	'more_cat' => 'grydesaet',

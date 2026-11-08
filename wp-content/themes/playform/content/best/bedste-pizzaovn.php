@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-pizzaovn',
+	'date'     => '2023-06-26 07:44:40',
 	'title'    => 'Pizzaovn: Vores bud på de 5 bedste',
 	'excerpt'  => 'En pizzaovn bliver langt varmere end en almindelig ovn og bager en pizza på få minutter. Her er vores bud på de 5 bedste pizzaovne fra danske butikker – til gas, træ og strøm.',
 	'more_cat' => 'pizzaovn',

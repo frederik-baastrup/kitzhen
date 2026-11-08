@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-kulgrill',
+	'date'     => '2023-08-23 10:01:54',
 	'title'    => 'Kulgrill: Vores bud på de 5 bedste',
 	'excerpt'  => 'En kulgrill giver den klassiske grillsmag. Her er vores bud på de 5 bedste kulgrills fra de butikker, vi samarbejder med – fra kuglegrill til transportabel grill.',
 	'more_cat' => 'kulgrill',

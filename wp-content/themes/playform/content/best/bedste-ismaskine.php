@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-ismaskine',
+	'date'     => '2023-06-21 12:52:51',
 	'title'    => 'Ismaskine: Vores bud på de 5 bedste',
 	'excerpt'  => 'Med en ismaskine laver du hjemmelavet is, sorbet og frozen yoghurt. Her er vores bud på de 5 bedste ismaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'ismaskine',

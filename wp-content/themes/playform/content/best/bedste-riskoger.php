@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-riskoger',
+	'date'     => '2023-06-22 09:40:32',
 	'title'    => 'Riskoger: Vores bud på de 5 bedste',
 	'excerpt'  => 'En riskoger giver perfekte ris hver gang – uden at koge over eller brænde på. Her er vores bud på de 5 bedste riskogere fra de butikker, vi samarbejder med.',
 	'more_cat' => 'riskoger',

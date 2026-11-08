@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-sodavandsmaskine',
+	'date'     => '2023-09-13 09:36:37',
 	'title'    => 'Sodavandsmaskine: Vores bud på de 5 bedste',
 	'excerpt'  => 'En sodavandsmaskine giver danskvand fra hanen – uden at slæbe flasker. Her er vores bud på de 5 bedste sodavandsmaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'sodavandsmaskine',

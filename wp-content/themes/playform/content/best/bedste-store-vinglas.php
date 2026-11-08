@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-store-vinglas',
+	'date'     => '2023-06-27 13:03:01',
 	'title'    => 'Store vinglas: Vores bud på de 5 bedste',
 	'excerpt'  => 'Store vinglas giver vinen plads til at ånde og ser imponerende ud på bordet. Her er vores bud på de 5 bedste store vinglas fra de butikker, vi samarbejder med – fra 65 cl til over en liter.',
 	'more_cat' => 'vinglas',

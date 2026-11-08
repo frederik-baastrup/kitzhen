@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-elektrisk-bordgrill',
+	'date'     => '2023-07-03 09:34:07',
 	'title'    => 'Elektrisk bordgrill: Vores bud på de 5 bedste',
 	'excerpt'  => 'En elektrisk bordgrill giver grillmad hele året – i køkkenet, på altanen eller midt på bordet. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'bordgrill',

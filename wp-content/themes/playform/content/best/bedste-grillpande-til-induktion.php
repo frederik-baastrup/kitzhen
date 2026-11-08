@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-grillpande-til-induktion',
+	'date'     => '2023-08-24 11:34:35',
 	'title'    => 'Grillpande til induktion: Vores bud på de 5 bedste',
 	'excerpt'  => 'En grillpande giver grillstriber og grillsmag på komfuret hele året. Her er vores bud på de 5 bedste grillpander til induktion fra de butikker, vi samarbejder med.',
 	'more_cat' => 'grillpande',

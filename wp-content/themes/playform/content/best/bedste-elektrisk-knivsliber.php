@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-elektrisk-knivsliber',
+	'date'     => '2023-09-08 07:41:23',
 	'title'    => 'Elektrisk knivsliber: Vores bud på de 5 bedste',
 	'excerpt'  => 'En elektrisk knivsliber gør sløve knive skarpe på få minutter. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med – og hvornår du hellere skal vælge en slibesten.',
 	'more_cat' => 'knivsliber',

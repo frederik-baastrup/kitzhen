@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-kaffekvaern',
+	'date'     => '2023-07-27 07:54:26',
 	'title'    => 'Kaffekværn: Vores bud på de 5 bedste',
 	'excerpt'  => 'Friskmalede bønner er det største løft, du kan give din kaffe. Her er vores bud på de 5 bedste kaffekværne fra de butikker, vi samarbejder med – elektriske og manuelle.',
 	'more_cat' => 'kaffekvaern',

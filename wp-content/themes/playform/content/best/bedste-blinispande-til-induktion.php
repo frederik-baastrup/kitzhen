@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-blinispande-til-induktion',
+	'date'     => '2023-08-21 13:13:12',
 	'title'    => 'Blinispande til induktion: Vores bud på de 4 bedste',
 	'excerpt'  => 'En blinispande giver små, runde og ensartede blinis og pandekager. Her er vores bud på de 4 bedste blinispander til induktion fra de butikker, vi samarbejder med.',
 	'more_cat' => 'blinispande',

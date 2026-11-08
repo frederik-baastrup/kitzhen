@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-mokkakande',
+	'date'     => '2023-07-24 06:47:13',
 	'title'    => 'Mokkakande: Vores bud på de 5 bedste',
 	'excerpt'  => 'En mokkakande brygger stærk, italiensk kaffe på komfuret uden strøm og kapsler. Her er vores bud på de 5 bedste mokkakander fra de butikker, vi samarbejder med – og hvordan du bruger dem.',
 	'more_cat' => 'mokkakande',

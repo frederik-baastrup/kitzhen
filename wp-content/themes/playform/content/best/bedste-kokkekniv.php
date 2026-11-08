@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-kokkekniv',
+	'date'     => '2023-09-07 12:41:13',
 	'title'    => 'Kokkekniv: Vores bud på de 5 bedste',
 	'excerpt'  => 'En god kokkekniv er det vigtigste redskab i køkkenet. Her er vores bud på de 5 bedste kokkeknive fra danske butikker – europæiske og japanske, fra budget til luksus.',
 	'more_cat' => 'kokkekniv',

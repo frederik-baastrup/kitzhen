@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-raclette-grill',
+	'date'     => '2023-08-24 12:10:11',
 	'title'    => 'Raclette grill: Vores bud på de 5 bedste',
 	'excerpt'  => 'En raclette grill står midt på bordet, så alle kan smelte ost og grille kød og grøntsager selv. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'bordgrill',

@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-italiensk-pastatallerken',
+	'date'     => '2023-07-07 05:56:41',
 	'title'    => 'Italiensk pastatallerken: Vores bud på de 5 bedste',
 	'excerpt'  => 'En italiensk pastatallerken er dyb i midten og har en bred kant. Her er vores bud på de 5 bedste pastatallerkener fra de butikker, vi samarbejder med – fra klassisk hvid porcelæn til håndlavet stentøj.',
 	'more_cat' => 'tallerkener',

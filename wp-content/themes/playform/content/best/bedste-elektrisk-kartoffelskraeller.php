@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-elektrisk-kartoffelskraeller',
+	'date'     => '2023-08-30 09:50:59',
 	'title'    => 'Elektrisk kartoffelskræller: Vores bud på de 3 bedste',
 	'excerpt'  => 'En elektrisk kartoffelskræller skræller op til et kilo kartofler på få minutter. Her er de 3 elektriske kartoffelskrællere, vi kan anbefale fra de butikker, vi samarbejder med, lige nu.',
 	'more_cat' => '',

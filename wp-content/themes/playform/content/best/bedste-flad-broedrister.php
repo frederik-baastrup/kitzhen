@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-flad-broedrister',
+	'date'     => '2023-07-26 11:29:44',
 	'title'    => 'Flad brødrister: Vores bud på de 4 bedste',
 	'excerpt'  => 'En flad brødrister rister boller, rugbrød og croissanter, der ikke passer i en almindelig toaster. Her er de 4 flade brødristere, vi kan anbefale fra de butikker, vi samarbejder med, lige nu.',
 	'more_cat' => 'broedrister',

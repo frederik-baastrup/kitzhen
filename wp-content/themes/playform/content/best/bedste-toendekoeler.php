@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-toendekoeler',
+	'date'     => '2024-04-22 07:20:00',
 	'title'    => 'Tøndekøler: Vores bud på de 3 bedste',
 	'excerpt'  => 'En tøndekøler eller party cooler holder øl og sodavand kolde lige der, hvor festen er. Her er de 3 tøndekølere, vi kan anbefale fra de butikker, vi samarbejder med.',
 	'more_cat' => 'toendekoeler',

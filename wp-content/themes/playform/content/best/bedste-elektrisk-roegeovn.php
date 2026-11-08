@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-elektrisk-roegeovn',
+	'date'     => '2023-06-29 06:40:52',
 	'title'    => 'Elektrisk røgeovn: Vores bud på de 4 bedste',
 	'excerpt'  => 'En elektrisk røgeovn gør det nemt at røge fisk, kød og ost uden kul og gas. Her er vores bud på de 4 bedste fra de butikker, vi samarbejder med – og hvad du skal kigge efter.',
 	'more_cat' => 'roegeovn',

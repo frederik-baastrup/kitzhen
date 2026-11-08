@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-spiralizer',
+	'date'     => '2023-07-26 08:01:15',
 	'title'    => 'Spiralizer: Vores bud på de 5 bedste',
 	'excerpt'  => 'En spiralizer laver squash, gulerødder og kartofler til spaghetti og bånd. Her er vores bud på de 5 bedste spiralizere fra de butikker, vi samarbejder med – håndholdte og til køkkenmaskinen.',
 	'more_cat' => 'spiralizer',

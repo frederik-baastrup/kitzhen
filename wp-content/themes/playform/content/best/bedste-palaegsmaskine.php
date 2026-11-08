@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-palaegsmaskine',
+	'date'     => '2023-07-28 11:14:23',
 	'title'    => 'Pålægsmaskine: Vores bud på de 4 bedste',
 	'excerpt'  => 'En pålægsmaskine skærer pålæg, ost og brød i tynde, ensartede skiver. Her er vores bud på de 4 bedste pålægsmaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'palaegsmaskine',

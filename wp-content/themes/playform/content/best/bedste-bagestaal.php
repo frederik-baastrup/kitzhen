@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-bagestaal',
+	'date'     => '2023-09-07 11:06:36',
 	'title'    => 'Bagestål: Vores bud på de 5 bedste',
 	'excerpt'  => 'Et bagestål giver sprøde pizzaer og brød med skorpe i en almindelig ovn – og knækker ikke som en pizzasten. Her er vores bud på de 5 bedste.',
 	'more_cat' => 'pizzasten',

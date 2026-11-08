@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-airfryer',
+	'date'     => '2023-08-28 07:08:22',
 	'title'    => 'Airfryer: Vores bud på de 5 bedste',
 	'excerpt'  => 'En airfryer giver sprøde pommes frites, kylling og grøntsager med lidt eller ingen olie. Her er vores bud på de 5 bedste airfryere fra danske butikker – også med dobbelt kurv.',
 	'more_cat' => 'airfryer',

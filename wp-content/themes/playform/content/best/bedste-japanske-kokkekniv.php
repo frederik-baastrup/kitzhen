@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-japanske-kokkekniv',
+	'date'     => '2023-06-28 06:08:57',
 	'title'    => 'Japansk kokkekniv: Vores bud på de 5 bedste',
 	'excerpt'  => 'En japansk kokkekniv er tynd, hård og meget skarp. Her er vores bud på de 5 bedste japanske kokkeknive fra de butikker, vi samarbejder med – fra MAC og Global til Miyabi og Kai Shun.',
 	'more_cat' => 'kokkekniv',

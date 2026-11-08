@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-steakknive',
+	'date'     => '2023-07-06 11:30:38',
 	'title'    => 'Steakknive: Vores bud på de 5 bedste',
 	'excerpt'  => 'Gode steakknive skærer bøffen rent uden at flænse kødet. Her er vores bud på de 5 bedste steakknive fra de butikker, vi samarbejder med – fra Morakniv til Global.',
 	'more_cat' => 'steakknive',

@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-kamado-grill',
+	'date'     => '2023-09-04 13:15:31',
 	'title'    => 'Kamado grill: Vores bud på de 5 bedste',
 	'excerpt'  => 'En kamado grill kan grille, ryge og bage og holder varmen i mange timer. Her er vores bud på de 5 bedste kamado grills fra de butikker, vi samarbejder med.',
 	'more_cat' => 'kamado-grill',

@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-juicemaskine',
+	'date'     => '2023-06-27 19:32:08',
 	'title'    => 'Juicemaskine: Vores bud på de 5 bedste',
 	'excerpt'  => 'En juicemaskine presser frisk juice af frugt og grønt. Her er vores bud på de 5 bedste juicemaskiner – koldpressere og saftcentrifuger.',
 	'more_cat' => 'juicemaskine',

@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-isterningmaskine',
+	'date'     => '2023-07-24 12:05:56',
 	'title'    => 'Isterningmaskine: Vores bud på de 5 bedste',
 	'excerpt'  => 'En isterningmaskine laver isterninger på få minutter – uden plads i fryseren. Her er vores bud på de 5 bedste isterningmaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'isterningmaskine',

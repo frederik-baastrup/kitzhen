@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-bagemaskine',
+	'date'     => '2023-08-21 07:45:18',
 	'title'    => 'Bagemaskine: Vores bud på de 3 bedste',
 	'excerpt'  => 'En bagemaskine ælter, hæver og bager brødet for dig – du vågner op til friskbagt brød. Her er vores bud på de 3 bedste bagemaskiner fra danske butikker.',
 	'more_cat' => 'broedmaskine',

@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-koeleskab-til-drikkevarer',
+	'date'     => '2023-06-28 09:57:38',
 	'title'    => 'Køleskab til drikkevarer: Vores bud på de 5 bedste',
 	'excerpt'  => 'Et køleskab til drikkevarer holder øl, sodavand og vand iskolde og frigør plads i det store køleskab. Her er vores bud på de 5 bedste – også displaykøleskabe med glaslåge – fra de butikker, vi samarbejder med.',
 	'more_cat' => 'vinkoeleskab',

@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-miniovn-med-varmluft',
+	'date'     => '2023-06-27 07:47:44',
 	'title'    => 'Miniovn med varmluft: Vores bud på de 4 bedste',
 	'excerpt'  => 'En miniovn med varmluft er et godt alternativ til en stor ovn i det lille køkken, sommerhuset eller som ekstra ovn. Her er vores bud på de 4 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'miniovn',

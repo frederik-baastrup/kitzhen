@@ -7,6 +7,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-gasgrill',
+	'date'     => '2023-06-26 11:22:21',
 	'title'    => 'Gasgrill: Vores bud på de 5 bedste',
 	'excerpt'  => 'En gasgrill er hurtig at tænde og nem at styre. Her er vores bud på de 5 bedste gasgrills fra de butikker, vi samarbejder med – fra altangrill til familiegrill – og hvad du skal kigge efter.',
 	'more_cat' => 'gasgrill',

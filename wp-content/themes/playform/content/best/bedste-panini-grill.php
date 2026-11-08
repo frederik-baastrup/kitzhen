@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-panini-grill',
+	'date'     => '2023-09-08 06:36:46',
 	'title'    => 'Panini grill: Vores bud på de 4 bedste',
 	'excerpt'  => 'En panini grill giver sprøde, varme sandwich med grillstriber på få minutter. Her er vores bud på de 4 bedste panini grills fra de butikker, vi samarbejder med.',
 	'more_cat' => 'paninigrill',

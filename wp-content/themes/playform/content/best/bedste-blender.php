@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-blender',
+	'date'     => '2023-06-19 12:38:28',
 	'title'    => 'Blender: Vores bud på de 5 bedste',
 	'excerpt'  => 'En god blender laver smoothies, supper og saucer og knuser is og nødder. Her er vores bud på de 5 bedste blendere fra de butikker, vi samarbejder med – fra personlig blender til kraftig højhastighedsblender.',
 	'more_cat' => 'blender',

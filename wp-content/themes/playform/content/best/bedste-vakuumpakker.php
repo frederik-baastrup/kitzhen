@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-vakuumpakker',
+	'date'     => '2023-08-21 11:49:51',
 	'title'    => 'Vakuumpakker: Vores bud på de 5 bedste',
 	'excerpt'  => 'En vakuumpakker får maden til at holde længere og beskytter mod frostskader – og er nødvendig til sous vide. Her er vores bud på de 5 bedste.',
 	'more_cat' => 'vakuumpakker',

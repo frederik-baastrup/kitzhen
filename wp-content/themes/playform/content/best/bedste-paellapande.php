@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-paellapande',
+	'date'     => '2023-08-23 12:40:59',
 	'title'    => 'Paellapande: Vores bud på de 5 bedste',
 	'excerpt'  => 'En paellapande er bred og lav, så risene ligger i et tyndt lag og får den sprøde bund. Her er vores bud på de 5 bedste paellapander fra de butikker, vi samarbejder med.',
 	'more_cat' => 'paellapande',

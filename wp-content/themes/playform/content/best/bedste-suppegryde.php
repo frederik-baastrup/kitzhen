@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-suppegryde',
+	'date'     => '2023-09-12 09:35:30',
 	'title'    => 'Suppegryde: Vores bud på de 5 bedste',
 	'excerpt'  => 'En stor suppegryde er til suppe, fond, pasta og gryderetter til mange. Her er vores bud på de 5 bedste suppegryder fra de butikker, vi samarbejder med.',
 	'more_cat' => 'gryde',

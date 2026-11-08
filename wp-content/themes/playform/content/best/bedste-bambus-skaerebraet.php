@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-bambus-skaerebraet',
+	'date'     => '2023-07-25 05:56:56',
 	'title'    => 'Skærebræt i bambus: Vores bud på de 5 bedste',
 	'excerpt'  => 'Bambus er hårdt, let og holdbart og et populært materiale til skærebrætter. Her er vores bud på de 5 bedste skærebrætter i bambus fra de butikker, vi samarbejder med.',
 	'more_cat' => 'skaerebraet',

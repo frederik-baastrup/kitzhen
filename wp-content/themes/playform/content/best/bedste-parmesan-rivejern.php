@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-parmesan-rivejern',
+	'date'     => '2023-09-06 11:40:03',
 	'title'    => 'Parmesan rivejern: Vores bud på de 5 bedste',
 	'excerpt'  => 'Et godt parmesan rivejern giver fin, luftig ost over pastaen. Her er vores bud på de 5 bedste rivejern og ostekværne til parmesan fra de butikker, vi samarbejder med.',
 	'more_cat' => 'rivejern',

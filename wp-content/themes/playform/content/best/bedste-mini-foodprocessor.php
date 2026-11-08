@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-mini-foodprocessor',
+	'date'     => '2023-09-01 09:24:29',
 	'title'    => 'Mini-foodprocessor: Vores bud på de 5 bedste',
 	'excerpt'  => 'En mini-foodprocessor hakker løg, krydderurter og nødder og laver pesto og dressing – uden at du skal finde den store maskine frem. Her er vores bud på de 5 bedste.',
 	'more_cat' => 'foodprocessor',

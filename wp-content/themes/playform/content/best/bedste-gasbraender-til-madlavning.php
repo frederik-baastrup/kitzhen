@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-gasbraender-til-madlavning',
+	'date'     => '2023-09-06 12:33:55',
 	'title'    => 'Gasbrænder til madlavning: Vores bud på de 5 bedste',
 	'excerpt'  => 'En gasbrænder til madlavning karamelliserer crème brûlée, smelter ost og giver sprød stegeskorpe. Her er vores bud på de 5 bedste køkkenbrændere.',
 	'more_cat' => 'gasbraender',

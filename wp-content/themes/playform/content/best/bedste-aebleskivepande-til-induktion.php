@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-aebleskivepande-til-induktion',
+	'date'     => '2023-09-27 07:54:06',
 	'title'    => 'Æbleskivepande til induktion: Vores bud på de 2 bedste',
 	'excerpt'  => 'En æbleskivepande i støbejern virker på induktion og giver sprøde, gyldne æbleskiver. Her er de 2 æbleskivepander til induktion, vi kan anbefale fra danske butikker lige nu.',
 	'more_cat' => 'aebleskivepande',

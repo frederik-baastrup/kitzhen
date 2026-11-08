@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-gaskomfur',
+	'date'     => '2023-08-24 09:14:09',
 	'title'    => 'Gaskomfur: Vores bud på de 4 bedste',
 	'excerpt'  => 'Et gaskomfur giver direkte flamme og fuld kontrol over varmen. Her er vores bud på de 4 bedste gaskomfurer fra de butikker, vi samarbejder med.',
 	'more_cat' => 'gaskomfur',

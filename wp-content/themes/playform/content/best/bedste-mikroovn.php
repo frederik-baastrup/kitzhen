@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-mikroovn',
+	'date'     => '2023-09-25 09:46:00',
 	'title'    => 'Mikroovn: Vores bud på de 5 bedste',
 	'excerpt'  => 'En mikroovn varmer rester, optør og laver hurtig mad. Her er vores bud på de 5 bedste mikroovne fra danske butikker – fra enkle modeller til mikroovne med airfryer og varmluft.',
 	'more_cat' => 'mikroovn',

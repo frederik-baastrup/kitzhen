@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-ostesaet',
+	'date'     => '2023-07-25 08:19:30',
 	'title'    => 'Ostesæt: Vores bud på de 5 bedste',
 	'excerpt'  => 'Et ostesæt med knive til hårde, bløde og smørbare oste gør ostebordet både pænere og nemmere. Her er vores bud på de 5 bedste ostesæt fra de butikker, vi samarbejder med.',
 	'more_cat' => 'ostesaet',

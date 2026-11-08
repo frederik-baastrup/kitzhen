@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-svampekniv',
+	'date'     => '2023-09-12 07:55:26',
 	'title'    => 'Svampekniv: Vores bud på de 4 bedste',
 	'excerpt'  => 'En svampekniv med børste gør det nemt at plukke, skære og rense svampe på stedet. Her er vores bud på de 4 bedste svampeknive fra de butikker, vi samarbejder med.',
 	'more_cat' => '',

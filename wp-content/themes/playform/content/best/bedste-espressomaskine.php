@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-espressomaskine',
+	'date'     => '2023-07-06 08:00:11',
 	'title'    => 'Espressomaskine: Vores bud på de 5 bedste',
 	'excerpt'  => 'En espressomaskine med portafilter giver dig kaffe på caféniveau derhjemme. Her er vores bud på de 5 bedste espressomaskiner fra danske butikker – fra begynder til entusiast.',
 	'more_cat' => 'espressomaskine',

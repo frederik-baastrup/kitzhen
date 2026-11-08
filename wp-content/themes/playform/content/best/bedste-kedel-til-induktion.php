@@ -7,6 +7,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-kedel-til-induktion',
+	'date'     => '2023-08-21 10:16:32',
 	'title'    => 'Kedel til induktion: Vores bud på de 3 bedste',
 	'excerpt'  => 'En kedel til induktion skal have en magnetisk bund, der passer til kogezonen. Her er vores bud på de 3 bedste fra danske butikker – og hvad du skal tjekke, før du køber.',
 	'more_cat' => 'kedel',

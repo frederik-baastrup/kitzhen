@@ -7,6 +7,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-tykbundet-gryde',
+	'date'     => '2023-07-27 12:11:47',
 	'title'    => 'Tykbundet gryde: Vores bud på de 5 bedste',
 	'excerpt'  => 'En tykbundet gryde fordeler varmen jævnt, så sovs og gryderetter ikke brænder på. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med – i stål og støbejern.',
 	'more_cat' => 'gryde',

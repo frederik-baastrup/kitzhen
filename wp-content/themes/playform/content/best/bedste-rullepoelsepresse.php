@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-rullepoelsepresse',
+	'date'     => '2023-07-24 09:27:53',
 	'title'    => 'Rullepølsepresse: Vores bud og guide til hjemmelavet rullepølse',
 	'excerpt'  => 'Med en rullepølsepresse kan du lave din egen rullepølse til julefrokosten. Her er vores bud på en rullepølsepresse fra danske butikker – og sådan bruger du den.',
 	'more_cat' => 'rullepoelsepresse',

@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-roedvinsglas',
+	'date'     => '2023-06-20 11:54:37',
 	'title'    => 'Rødvinsglas: Vores bud på de 5 bedste',
 	'excerpt'  => 'Et godt rødvinsglas giver vinen plads til at åbne sig og gør den mere aromatisk. Her er vores bud på de 5 bedste rødvinsglas fra de butikker, vi samarbejder med – fra hverdag til fest.',
 	'more_cat' => 'vinglas',

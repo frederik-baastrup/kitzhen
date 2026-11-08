@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-pizzaovn-til-grill',
+	'date'     => '2023-09-07 12:13:33',
 	'title'    => 'Pizzaovn til grill: Vores bud på de 2 bedste',
 	'excerpt'  => 'En pizzaovn til grill er en ovnhætte eller et ovnsæt, der sættes oven på grillen, så den bager som en pizzaovn. Her er vores bud på de 2 bedste fra de danske webshops, vi samarbejder med.',
 	'more_cat' => 'pizzaovn-til-grill',

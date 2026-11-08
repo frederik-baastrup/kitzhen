@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-julestel',
+	'date'     => '2023-07-27 07:35:09',
 	'title'    => 'Julestel: Vores bud på de 5 bedste',
 	'excerpt'  => 'Et julestel gør julebordet festligt. Her er vores bud på de 5 bedste julestel og juletallerkener fra de butikker, vi samarbejder med – fra Spodes klassiske juletræ til Bjørn Wiinblad og Mumitroldene.',
 	'more_cat' => 'tallerkener',

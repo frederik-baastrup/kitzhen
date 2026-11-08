@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-wokpande',
+	'date'     => '2023-09-04 11:47:12',
 	'title'    => 'Wokpande: Vores bud på de 5 bedste',
 	'excerpt'  => 'En wokpande er dyb med buede sider – perfekt til lynstegning ved høj varme. Her er vores bud på de 5 bedste wokpander fra de butikker, vi samarbejder med.',
 	'more_cat' => 'wokpande',

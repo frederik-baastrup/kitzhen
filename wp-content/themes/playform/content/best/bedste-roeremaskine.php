@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-roeremaskine',
+	'date'     => '2022-06-18 00:39:00',
 	'title'    => 'Røremaskine: Vores bud på de 5 bedste',
 	'excerpt'  => 'En røremaskine ælter dej, pisker flødeskum og rører kagedej, mens du laver noget andet. Her er vores bud på de 5 bedste røremaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'roeremaskine',

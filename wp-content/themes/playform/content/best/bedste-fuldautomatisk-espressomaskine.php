@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-fuldautomatisk-espressomaskine',
+	'date'     => '2024-01-21 20:56:02',
 	'title'    => 'Fuldautomatisk espressomaskine: Vores bud på de 5 bedste',
 	'excerpt'  => 'En fuldautomatisk espressomaskine maler bønnerne og brygger espresso og cappuccino med ét tryk. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'espressomaskine',

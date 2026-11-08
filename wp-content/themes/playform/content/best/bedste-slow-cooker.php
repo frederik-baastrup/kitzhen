@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-slow-cooker',
+	'date'     => '2023-07-19 07:43:58',
 	'title'    => 'Slow cooker: Vores bud på de 4 bedste',
 	'excerpt'  => 'En slow cooker simrer gryderetter, pulled pork og supper mørt i løbet af dagen. Her er vores bud på de 4 bedste slow cookere og multicookere fra danske butikker.',
 	'more_cat' => 'slow-cooker',
