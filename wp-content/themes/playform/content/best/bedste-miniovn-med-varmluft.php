@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-miniovn-med-varmluft',
-	'title'    => 'Miniovn med varmluft: Vores bud på de 3 bedste',
-	'excerpt'  => 'En miniovn med varmluft er et godt alternativ til en stor ovn i det lille køkken, sommerhuset eller som ekstra ovn. Her er vores bud på de 3 bedste fra danske butikker.',
+	'title'    => 'Miniovn med varmluft: Vores bud på de 4 bedste',
+	'excerpt'  => 'En miniovn med varmluft er et godt alternativ til en stor ovn i det lille køkken, sommerhuset eller som ekstra ovn. Her er vores bud på de 4 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'miniovn',
 	'intro'    => <<<'HTML'
 <p>En miniovn – også kaldet bordovn – står på køkkenbordet og kan det meste af det, en almindelig ovn kan: bage, stege, gratinere og lune. Med varmluft blæser en ventilator den varme luft rundt i ovnen, så maden bliver jævnt tilberedt, og du kan bage på flere niveauer. Den er hurtigere varm end en stor ovn og et oplagt valg i et lille køkken, i sommerhuset eller som ekstra ovn til jul.</p>
-<p>Herunder er vores bud på de 3 bedste miniovne med varmluft hos danske butikker lige nu. Nederst finder du en købsguide til størrelse, funktioner og placering.</p>
+<p>Herunder er vores bud på de 4 bedste miniovne med varmluft fra de butikker, vi samarbejder med. Nederst finder du en købsguide til størrelse, funktioner og placering.</p>
 HTML,
 	'picks'    => [
 		[
@@ -55,6 +55,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil have en stor miniovn uden at give meget', 'Hverdagsretter og pizza' ],
 			'less'    => [ 'Dig, der vil have airfryer-funktion' ],
+		],
+		[
+			'ean'     => '8711658520360',
+			'price'   => 899,
+			'name'    => 'Tristar konvektionsovn OV-3660 38 liter',
+			'role'    => 'Billigst med varmluft',
+			'reviews' => [],
+			'verdict' => 'Kompakt varmluftsovn på 38 liter med 1800 W, 6 varmeindstillinger og 90 minutters timer.',
+			'why'     => <<<'HTML'
+<p>Tristar OV-3660 er den billige vej til en miniovn med varmluft. Konvektion betyder, at en blæser sender den varme luft rundt, så maden bliver jævnt tilberedt. Den er kompakt og et godt valg til små familier, studerende eller som ekstra ovn i sommerhuset.</p>
+<p>Med 38 liter ligger den mellem de små og de store modeller i guiden. Der er plads til hverdagsretter og små fade. De 1800 W giver kræfter, og du stiller temperaturen mellem 90 og 230 grader. Du vælger mellem 6 varmeindstillinger, og timeren går op til 90 minutter.</p>
+<p>Grillrist og bageplade følger med, så du kan gå i gang med det samme.</p>
+HTML,
+			'good'    => [ 'Små familier og studerende', 'Lavt budget', 'Ekstra ovn i sommerhuset' ],
+			'less'    => [ 'Dig, der vil have airfryer-funktion eller grillspyd' ],
 		],
 	],
 	'guide'    => <<<'HTML'

@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-mini-foodprocessor',
-	'title'    => 'Mini-foodprocessor: Vores bud på de 3 bedste',
-	'excerpt'  => 'En mini-foodprocessor hakker løg, krydderurter og nødder og laver pesto og dressing – uden at du skal finde den store maskine frem. Her er vores bud på de 3 bedste.',
+	'title'    => 'Mini-foodprocessor: Vores bud på de 5 bedste',
+	'excerpt'  => 'En mini-foodprocessor hakker løg, krydderurter og nødder og laver pesto og dressing – uden at du skal finde den store maskine frem. Her er vores bud på de 5 bedste.',
 	'more_cat' => 'foodprocessor',
 	'intro'    => <<<'HTML'
 <p>En mini-foodprocessor – eller minihakker – er en lille elektrisk hakker med en skål på typisk under en liter. Den er perfekt til de små opgaver, hvor en stor foodprocessor er for meget: et løg, et bundt krydderurter, en håndfuld nødder, pesto, dressing, hummus eller babymad. Den fylder lidt, er hurtig at tage frem og nem at gøre ren.</p>
-<p>Herunder er vores bud på de 3 bedste mini-foodprocessorer hos danske butikker lige nu. Nederst finder du en købsguide til størrelse, effekt og rengøring.</p>
+<p>Herunder er vores bud på de 5 bedste mini-foodprocessorer fra de butikker, vi samarbejder med. Nederst finder du en købsguide til størrelse, effekt og rengøring.</p>
 HTML,
 	'picks'    => [
 		[
@@ -49,11 +49,41 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Kompakt minihakker, der hakker, mixer og purerer – til en lav pris.',
 			'why'     => <<<'HTML'
-<p>Ninja Express Chop er den billigste af vores tre valg. Den er en løsning til køkkener med begrænset bordplads, hvor du kan hakke, mixe og purere ingredienserne til aftensmaden uden at finde den store foodprocessor frem.</p>
+<p>Ninja Express Chop er et af de billigste valg i guiden. Den er en løsning til køkkener med begrænset bordplads, hvor du kan hakke, mixe og purere ingredienserne til aftensmaden uden at finde den store foodprocessor frem.</p>
 <p>Til prisen er den et godt sted at starte, hvis du ikke har haft en minihakker før.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve en minihakker', 'Små køkkener' ],
 			'less'    => [ 'Daglig brug til store mængder' ],
+		],
+		[
+			'ean'     => '8003437622151',
+			'price'   => 1199,
+			'name'    => 'KitchenAid 5KFCB519 ledningsfri mini foodprocessor',
+			'role'    => 'Bedst ledningsfri',
+			'reviews' => [],
+			'verdict' => 'Ledningsfri minihakker med 12V-batteri, 1,18 liter skål, to hastigheder og puls – plus piskeredskab.',
+			'why'     => <<<'HTML'
+<p>KitchenAid 5KFCB519 er til dig, der er træt af at lede efter en stikkontakt. Den kører på et genopladeligt 12V lithium-ion-batteri, så du kan bruge den ved spisebordet, på terrassen eller der, hvor der er plads på bordet. Batteriet holder op til 2 timer.</p>
+<p>Skålen i BPA-fri plast rummer 1,18 liter, så der er plads til lidt større portioner. To hastigheder og en pulsfunktion giver dig styr på, om nødder, krydderurter og grøntsager skal være grove eller fint hakkede. Den skarpe kniv i rustfrit stål klarer også dressinger og pureer, og med piskeredskabet kan du piske fløde.</p>
+<p>De aftagelige dele tåler opvaskemaskine, en oplader følger med, og KitchenAid giver 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Dig, der vil være fri for ledningen', 'Lidt større portioner', 'Hakke, piske og purere' ],
+			'less'    => [ 'Dig, der vil holde prisen nede' ],
+		],
+		[
+			'ean'     => '4211129130967',
+			'price'   => 299,
+			'name'    => 'WMF Kitchen Minis minihakker 0,4 liter',
+			'role'    => 'Mest kompakt',
+			'reviews' => [],
+			'verdict' => 'Lille minihakker i Cromargan-stål med 0,4 liter tritan-skål, to-bladet kniv og sikkerhedslås.',
+			'why'     => <<<'HTML'
+<p>WMF Kitchen Minis er den lille hjælper til hurtige opgaver: et løg, et bundt krydderurter, en håndfuld nødder eller lidt chokolade til kagen. Den fylder næsten intet og kan stå fremme på bordet, så den er klar, når du skal bruge den.</p>
+<p>Skålen i BPA-fri tritan rummer 0,4 liter – nok til hverdagens små portioner. Den to-bladede kniv i rustfrit stål med WMF perfect cut hakker jævnt, og motoren på 65 watt er rigeligt til opgaverne. En sikkerhedslås sørger for, at kniven kun kører, når alt sidder rigtigt.</p>
+<p>Kabinettet er i WMF's Cromargan-stål, kniven kan tages ud, og alle aftagelige dele tåler opvaskemaskine.</p>
+HTML,
+			'good'    => [ 'Små køkkener og små portioner', 'Urter, løg og nødder', 'Lavt budget' ],
+			'less'    => [ 'Pesto og dressing til mange' ],
 		],
 	],
 	'guide'    => <<<'HTML'

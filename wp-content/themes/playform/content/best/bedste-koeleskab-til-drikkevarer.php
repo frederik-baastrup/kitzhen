@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-koeleskab-til-drikkevarer',
-	'title'    => 'Køleskab til drikkevarer: Vores bud på de 3 bedste',
-	'excerpt'  => 'Et køleskab til drikkevarer holder øl, sodavand og vand iskolde og frigør plads i det store køleskab. Her er vores bud på de 3 bedste fra de danske webshops, vi samarbejder med.',
+	'title'    => 'Køleskab til drikkevarer: Vores bud på de 5 bedste',
+	'excerpt'  => 'Et køleskab til drikkevarer holder øl, sodavand og vand iskolde og frigør plads i det store køleskab. Her er vores bud på de 5 bedste – også displaykøleskabe med glaslåge – fra de butikker, vi samarbejder med.',
 	'more_cat' => 'vinkoeleskab',
 	'intro'    => <<<'HTML'
 <p>Et køleskab til drikkevarer er et ekstra køleskab, kun til det, du drikker: øl, sodavand, vand og hvidvin. Det giver plads i det almindelige køleskab, og fordi det kan gå helt ned til få grader, er dåserne iskolde, når gæsterne kommer. Glasdøren og lyset indeni gør det nemt at se, hvad der er tilbage.</p>
-<p>Herunder er vores bud på de 3 bedste køleskabe til drikkevarer – et stort til hobbyrummet, et med lås og et lille til bordet eller kontoret. Nederst finder du en guide til størrelse, temperatur og placering.</p>
+<p>Herunder er vores bud på de 5 bedste køleskabe til drikkevarer – et stort til hobbyrummet, et med lås, et lille til bordet eller kontoret, et displaykøleskab med glaslåge og et barkøleskab til hjemmebaren. Nederst finder du en guide til størrelse, temperatur og placering.</p>
 HTML,
 	'picks'    => [
 		[
@@ -33,7 +33,7 @@ HTML,
 			'ean'     => '4008146040009',
 			'price'   => 3539,
 			'name'    => 'Severin køleskab med glasdør 118 liter',
-			'role'    => 'Mest plads – med lås',
+			'role'    => 'Bedst med lås',
 			'reviews' => [],
 			'verdict' => 'Køleskab med glasdør på 118 liter, lås og kun 42 dB(A) – plads til 42 flasker eller 56 dåser.',
 			'why'     => <<<'HTML'
@@ -58,6 +58,34 @@ HTML,
 			'good'    => [ 'Kontoret og sommerhuset', 'Lidt plads' ],
 			'less'    => [ 'Mange drikkevarer til fest' ],
 		],
+		[
+			'ean'     => '5704704013254',
+			'price'   => 4199,
+			'name'    => 'Scandomestic SD 217 BE displaykøleskab',
+			'role'    => 'Bedst displaykøleskab',
+			'reviews' => [],
+			'verdict' => 'Displaykøleskab med klar glaslåge, lodret LED-lys i fronten og oplyst top – drikkevarerne står udstillet.',
+			'why'     => <<<'HTML'
+<p>Scandomestic SD 217 BE er til dig, der vil vise drikkevarerne frem. Det er et displaykøleskab med en stor, klar glaslåge, som du kender det fra caféen eller kiosken. Alle kan se, hvad der står klar, uden at åbne døren.</p>
+<p>Lodret LED-lys i fronten og en oplyst top får flasker og dåser til at stå flot frem, også når rummet er dæmpet. Skabet er bygget til barer, caféer og butikker, så det er et oplagt valg til hjemmebaren, festlokalet eller klubhuset, hvor der skal være kolde drikke til mange.</p>
+HTML,
+			'good'    => [ 'Hjemmebaren og festlokalet', 'Dig, der vil udstille drikkevarerne', 'Klubhuse og foreninger' ],
+			'less'    => [ 'Soveværelset og kontoret – det er bygget til barer og caféer' ],
+		],
+		[
+			'ean'     => '5704704012974',
+			'price'   => 4795,
+			'name'    => 'Scandomestic SC 211 HDE barkøleskab',
+			'role'    => 'Bedst under bardisken',
+			'reviews' => [],
+			'verdict' => 'Robust barkøleskab (back bar) med 158 liter nettovolumen – lavet til at stå under bardisken.',
+			'why'     => <<<'HTML'
+<p>Scandomestic SC 211 HDE er et barkøleskab, også kaldet en back bar. Det er lavet til at stå bag eller under bardisken, så de kolde drikke er lige ved hånden, når du skænker. Skabet er udviklet til barer, restauranter og caféer, men passer lige så godt i en stilren hjemmebar.</p>
+<p>Med en nettovolumen på 158 liter (198 liter brutto) er der god plads til øl, sodavand, vand og hvidvin, og du har overblik over, hvad der står klar. Konstruktionen er robust og bygget til at blive brugt meget – også når der er fest hver weekend.</p>
+HTML,
+			'good'    => [ 'Hjemmebaren med bardisk', 'Mange drikkevarer', 'Dig, der vil have et robust skab' ],
+			'less'    => [ 'Små rum og små budgetter' ],
+		],
 	],
 	'guide'    => <<<'HTML'
 <h2>Sådan vælger du et køleskab til drikkevarer</h2>
@@ -65,6 +93,8 @@ HTML,
 <p>Et vinkøleskab holder en stabil temperatur og har hylder, hvor flaskerne kan ligge ned. Et drikkevarekøleskab kan typisk gå lavere i temperatur og har hylder til dåser og flasker, der står op. Mange vinkøleskabe kan godt bruges til øl og sodavand, men tjek den laveste temperatur, hvis drikkene skal være iskolde.</p>
 <h3>Størrelse</h3>
 <p>Kapaciteten angives i antal standardvinflasker. Regn med, at øl og sodavand fylder anderledes, og at store flasker som champagne kan kræve, at du fjerner en hylde.</p>
+<h3>Displaykøleskab og barkøleskab</h3>
+<p>Et displaykøleskab har en stor glaslåge og lys, så drikkevarerne står udstillet – som i en kiosk eller café. Et barkøleskab (back bar) er lavt og bredt og passer ind under en bardisk. Begge er bygget til barer og caféer, men gør sig også godt i en hjemmebar eller et stort festlokale.</p>
 <h3>Én eller to zoner</h3>
 <p>Med to zoner kan du have rødvin og hvidvin ved hver sin temperatur. Med én zone er hele skabet samme temperatur – fint, hvis du mest har drikkevarer, der skal være kolde.</p>
 <h3>Støj og placering</h3>

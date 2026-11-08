@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-italiensk-pastatallerken',
-	'title'    => 'Italiensk pastatallerken: Vores bud på de 4 bedste',
-	'excerpt'  => 'En italiensk pastatallerken er dyb i midten og har en bred kant. Her er vores bud på de 4 bedste pastatallerkener fra danske butikker – fra klassisk hvid porcelæn til håndlavet stentøj.',
+	'title'    => 'Italiensk pastatallerken: Vores bud på de 5 bedste',
+	'excerpt'  => 'En italiensk pastatallerken er dyb i midten og har en bred kant. Her er vores bud på de 5 bedste pastatallerkener fra de butikker, vi samarbejder med – fra klassisk hvid porcelæn til håndlavet stentøj.',
 	'more_cat' => 'tallerkener',
 	'intro'    => <<<'HTML'
 <p>Den klassiske italienske pastatallerken er dyb i midten og har en bred, flad kant. Den dybe midte holder på sovsen og gør det nemt at sno spaghettien om gaflen, og den brede kant giver plads til parmesan, brød – eller bare et pænt udtryk på bordet. De fleste bruger den lige så meget til risotto, suppe, salat og gryderetter.</p>
-<p>Herunder er vores bud på de 4 bedste pastatallerkener hos danske butikker lige nu. Nederst finder du en købsguide til størrelse, materiale og pleje.</p>
+<p>Herunder er vores bud på de 5 bedste pastatallerkener fra de butikker, vi samarbejder med. Nederst finder du en købsguide til størrelse, materiale og pleje.</p>
 HTML,
 	'picks'    => [
 		[
@@ -69,6 +69,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der skal bruge mange tallerkener', 'Farverig borddækning' ],
 			'less'    => [ 'Dig, der vil have en stor tallerken med bred kant' ],
+		],
+		[
+			'ean'     => '5709513203254',
+			'price'   => 109,
+			'name'    => 'Rosendahl Grand Cru pastatallerken 25 cm',
+			'role'    => 'Klassisk dansk design',
+			'reviews' => [],
+			'verdict' => 'Hvid porcelæn med bred kant og dyb bund – og 10 års brudgaranti fra Rosendahl.',
+			'why'     => <<<'HTML'
+<p>Rosendahl Grand Cru giver dig den italienske pastatallerken i et enkelt, dansk design. Den hvide porcelæn, den brede kant og den dybe bund lader maden stå i centrum, så selv en hurtig hverdagspasta ser indbydende ud.</p>
+<p>Med 25 cm i diameter ligger den mellem de store restauranttallerkener og de små pastaskåle i guiden. Den er stor nok til en god portion spaghetti, men passer lettere i skab og opvaskemaskine. Brug den også til suppe og små salater. Det tidløse udseende gør den nem at kombinere med det stel, du allerede har.</p>
+<p>Den tåler både mikroovn og opvaskemaskine, og Rosendahl giver 10 års brudgaranti på porcelænet – en tryghed, når tallerkenerne bruges hver dag.</p>
+HTML,
+			'good'    => [ 'Hverdagsbrug – tåler opvask og mikroovn', 'Dig, der vil supplere dit eget stel', 'Pasta, suppe og salat' ],
+			'less'    => [ 'Dig, der vil have den helt store restaurantstørrelse' ],
 		],
 	],
 	'guide'    => <<<'HTML'

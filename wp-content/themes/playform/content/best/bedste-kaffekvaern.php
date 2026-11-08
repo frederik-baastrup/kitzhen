@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-kaffekvaern',
-	'title'    => 'Kaffekværn: Vores bud på de 3 bedste',
-	'excerpt'  => 'Friskmalede bønner er det største løft, du kan give din kaffe. Her er vores bud på de 3 bedste kaffekværne fra danske butikker – elektriske og manuelle.',
+	'title'    => 'Kaffekværn: Vores bud på de 5 bedste',
+	'excerpt'  => 'Friskmalede bønner er det største løft, du kan give din kaffe. Her er vores bud på de 5 bedste kaffekværne fra de butikker, vi samarbejder med – elektriske og manuelle.',
 	'more_cat' => 'kaffekvaern',
 	'intro'    => <<<'HTML'
 <p>Kaffe mister aroma meget hurtigt, når den er malet. Derfor er en kaffekværn den bedste investering, du kan gøre for din kaffe – uanset om du brygger filterkaffe, stempelkande, mokkakande eller espresso. Det vigtigste er, at kværnen maler ensartet, og at du kan indstille formalingen til din bryggemetode.</p>
-<p>Herunder er vores bud på de 3 bedste kaffekværne hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste kaffekværne fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Lavt budget', 'Kaffe til hele familien eller gæster', 'Dig, der vil undgå spild af bønner' ],
 			'less'    => [ 'Dig, der vil have en kværn helt i metal – den er delvist i plast' ],
+		],
+		[
+			'ean'     => '9312432029797',
+			'price'   => 1979,
+			'name'    => 'Sage Smart Grinder Pro BCG820',
+			'role'    => 'Bedst med display',
+			'reviews' => [],
+			'verdict' => 'Konisk stålkværn med 25 indstillinger, display og IQ-teknologi, der hjælper dig med at ramme den rette dosis.',
+			'why'     => <<<'HTML'
+<p>Sage Smart Grinder Pro er til dig, der vil have styr på detaljerne. Displayet viser dig overskueligt, hvad kværnen er i gang med, og Sages IQ-teknologi sørger for, at doseringen rammer rigtigt hver gang. Så bliver kaffen ens fra kop til kop.</p>
+<p>Den koniske kværn i stål giver dig 25 forskellige indstillinger, så du kan gå fra fin espresso til grovere filterkaffe. Bønnebeholderen rummer 450 gram, så du skal ikke fylde på hver morgen, og der følger en beholder med til den malede filterkaffe.</p>
+<p>Kabinettet er i stål, motoren yder 165 watt, og kværnen slukker selv, når den er færdig.</p>
+HTML,
+			'good'    => [ 'Espresso og filterkaffe', 'Dig, der vil have præcis dosering', 'Store bønnebeholdere' ],
+			'less'    => [ 'Dig, der vil have en lille kværn' ],
+		],
+		[
+			'ean'     => '8712072495111',
+			'price'   => 2499,
+			'name'    => 'Moccamaster KM5 Burr kaffekværn',
+			'role'    => 'Bedst design',
+			'reviews' => [],
+			'verdict' => 'Håndlavet kværn med 50 mm flade stålskiver og trinløs justering – 60 gram kaffe på under 30 sekunder.',
+			'why'     => <<<'HTML'
+<p>Moccamaster KM5 er kværnen til dig, der allerede har en Moccamaster på bordet – eller bare vil have en kværn, der ser lige så godt ud. Den er håndlavet i Holland af europæiske materialer og har det samme markante design som Moccamasters kaffemaskiner.</p>
+<p>De flade stålskiver på 50 mm maler bønnerne til en ensartet størrelse, og du justerer formalingen trinløst. Derfor passer den til mange bryggemetoder. Den kraftige motor arbejder lydsvagt og maler 60 gram kaffe på under 30 sekunder. Tuden er formet, så den mindsker spild og statisk elektricitet i den malede kaffe.</p>
+<p>Kværnen er godkendt af European Coffee Brewing Centre, og Moccamaster giver 5 års garanti. Her er den i matsort.</p>
+HTML,
+			'good'    => [ 'Moccamaster-ejere', 'Filterkaffe og andre bryggemetoder', 'Dig, der vil have lang garanti' ],
+			'less'    => [ 'Små køkkener – den vejer 5 kg' ],
 		],
 	],
 	'guide'    => <<<'HTML'

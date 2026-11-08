@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-isterningmaskine',
-	'title'    => 'Isterningmaskine: Vores bud på de 3 bedste',
-	'excerpt'  => 'En isterningmaskine laver isterninger på få minutter – uden plads i fryseren. Her er vores bud på de 3 bedste isterningmaskiner fra danske butikker.',
+	'title'    => 'Isterningmaskine: Vores bud på de 5 bedste',
+	'excerpt'  => 'En isterningmaskine laver isterninger på få minutter – uden plads i fryseren. Her er vores bud på de 5 bedste isterningmaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'isterningmaskine',
 	'intro'    => <<<'HTML'
 <p>En isterningmaskine laver isterninger på få minutter, så du aldrig løber tør til fest, sommerdag eller cocktails. Den skal ikke kobles til vand – du fylder bare tanken op – og den fylder ikke i fryseren.</p>
-<p>Herunder er vores bud på de 3 bedste isterningmaskiner hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste isterningmaskiner fra de butikker, vi samarbejder med – fra klassiske isterninger til klar is og bløde nugget-is.</p>
 HTML,
 	'picks'    => [
 		[
@@ -59,11 +59,43 @@ HTML,
 			'good'    => [ 'Sommerhus, campingvogn og båd', 'Lavt budget', 'Spontane fester' ],
 			'less'    => [ 'Dig, der vil have et kabinet i stål' ],
 		],
+		[
+			'ean'     => '4038437034035',
+			'price'   => 1299,
+			'name'    => 'Caso Clear Ice Advanced',
+			'role'    => 'Klare isterninger',
+			'reviews' => [],
+			'verdict' => 'Vælg mellem klare og matte isterninger – ny portion på 8–12 minutter og op til 8,8 kg is i døgnet.',
+			'why'     => <<<'HTML'
+<p>Caso Clear Ice Advanced er til dig, der vil have is, der ser lige så godt ud, som den smager. Du vælger selv mellem klare og klassiske matte isterninger. Den klare is smelter langsommere og påvirker smagen i glasset mindre – oplagt til drinks og gode spiritusser. Den matte is køler hurtigt og er god til hverdagens sodavand.</p>
+<p>En ny portion er klar på cirka 8–12 minutter, og maskinen laver op til 8,8 kg is i døgnet. Kompressoren arbejder støjsvagt, så den ikke larmer, når gæsterne er kommet, og den kompakte størrelse gør den nem at give plads.</p>
+<p>Vandtanken rummer 1,5 liter, og den indbyggede selvrensning gør vedligeholdelsen nem.</p>
+HTML,
+			'good'    => [ 'Cocktails og drinks', 'Dig, der vil vælge mellem klar og mat is', 'Støjsvag drift' ],
+			'less'    => [ 'Dig, der skal bruge mest is – den laver 8,8 kg i døgnet' ],
+		],
+		[
+			'ean'     => '7044876033703',
+			'price'   => 2799,
+			'name'    => 'Wilfa Frost Nugget ICM2B-N500',
+			'role'    => 'Bløde nugget-is',
+			'reviews' => [],
+			'verdict' => 'Laver bløde, porøse nugget-is i stedet for isterninger – første is på cirka 8 minutter og op til 12 kg i døgnet.',
+			'why'     => <<<'HTML'
+<p>Wilfa Frost Nugget laver ikke almindelige isterninger. Den laver nugget-is: små, bløde og luftige stykker på cirka 5–7 mm i diameter og 11 mm i længden. Den porøse is køler drikken effektivt, smelter jævnt og er rar at tygge på. Den er oplagt til iskaffe, smoothies, cocktails og et koldt glas vand.</p>
+<p>De første is er klar efter cirka 8 minutter. Derefter laver den omkring 500 g i timen og op til 12 kg i døgnet. Du starter den med én knap, lamper viser, når der skal fyldes vand på, eller beholderen skal tømmes, og gennem det gennemsigtige låg kan du følge med.</p>
+<p>Kabinettet er i børstet rustfrit stål og måler 23 × 31 × 31 cm. Selvrensningen klares med et tryk, vandtanken på 1,5 liter tømmes via en aftapningsprop, og en isske følger med.</p>
+HTML,
+			'good'    => [ 'Dig, der elsker blød nugget-is', 'Iskaffe, smoothies og cocktails', 'Hjemmebaren' ],
+			'less'    => [ 'Dig, der vil have klassiske, faste isterninger' ],
+		],
 	],
 	'guide'    => <<<'HTML'
 <h2>Sådan vælger du en isterningmaskine</h2>
 <h3>Kapacitet og hastighed</h3>
 <p>Se på, hvor mange kilo is maskinen laver på et døgn, og hvor hurtigt den første portion er klar. 10–12 kg pr. døgn er rigeligt til de fleste.</p>
+<h3>Istype</h3>
+<p>De fleste maskiner laver klassiske, matte isterninger. Nogle kan også lave klar is, der smelter langsommere. Nugget-is er noget helt andet: små, bløde og porøse stykker, der er rare at tygge på og passer godt til iskaffe, smoothies og cocktails.</p>
 <h3>Isen smelter igen</h3>
 <p>De fleste isterningmaskiner fryser ikke isen, de laver den. Isen i kurven smelter langsomt og bliver til vand, der bruges igen. Kom isen i fryseren, hvis du vil gemme den.</p>
 <h3>Rengøring</h3>

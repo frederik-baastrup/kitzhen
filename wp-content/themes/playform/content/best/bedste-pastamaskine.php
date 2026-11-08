@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-pastamaskine',
-	'title'    => 'Pastamaskine: Vores bud på de 3 bedste',
-	'excerpt'  => 'Med en pastamaskine laver du frisk pasta som i Italien. Her er vores bud på de 3 bedste pastamaskiner fra danske butikker – med håndsving og med motor.',
+	'title'    => 'Pastamaskine: Vores bud på de 5 bedste',
+	'excerpt'  => 'Med en pastamaskine laver du frisk pasta som i Italien. Her er vores bud på de 5 bedste pastamaskiner fra de butikker, vi samarbejder med – med håndsving og med motor.',
 	'more_cat' => 'pastamaskine',
 	'intro'    => <<<'HTML'
 <p>Frisk pasta smager anderledes end tørret – blødere, mere æggende og med en dejlig bid. Med en pastamaskine ruller du dejen tynd og skærer den i tagliatelle, spaghetti eller plader til lasagne og ravioli. Dejen er bare mel, æg og lidt salt.</p>
-<p>Herunder er vores bud på de 3 bedste pastamaskiner hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste pastamaskiner fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Begyndere', 'Dig, der vil have det nemt', 'Familier, der vil lave pasta sammen' ],
 			'less'    => [ 'Dig, der vil have den klassiske Atlas' ],
+		],
+		[
+			'ean'     => '4006664284004',
+			'price'   => 399,
+			'name'    => 'Gefu Perfetta pastamaskine',
+			'role'    => 'Bedst til prisen',
+			'reviews' => [],
+			'verdict' => 'Manuel pastamaskine i stål til lasagne, tagliatelle og tagliolini – med skridsikker base og 5 års garanti.',
+			'why'     => <<<'HTML'
+<p>Gefu Perfetta er den oplagte pastamaskine, hvis du vil prøve kræfter med frisk pasta uden at bruge mange penge. Den ruller plader til lasagne og skærer tagliatelle og de tynde tagliolini, så du har de vigtigste italienske klassikere dækket.</p>
+<p>Maskinen er i stål, har et moderne udseende og er nem at gå til. Den skridsikre base holder den stabilt på bordet, mens du drejer, så du har styr på dejen. Her er den i stål, men den findes også i flere farver.</p>
+<p>Den skal ikke i opvaskemaskinen – børst dejrester af, når de er tørre. Gefu giver 5 års garanti.</p>
+HTML,
+			'good'    => [ 'Dig, der vil prøve at lave pasta', 'Lasagne, tagliatelle og tagliolini', 'Lavt budget' ],
+			'less'    => [ 'Opvaskemaskine – den skal rengøres tørt' ],
+		],
+		[
+			'ean'     => '8000011002200',
+			'price'   => 899,
+			'name'    => 'Marcato Atlas 180 Original',
+			'role'    => 'Bredeste pastaplader',
+			'reviews' => [],
+			'verdict' => 'Italiensk Atlas med 180 mm valser til bredere plader – med bordbeslag og mulighed for motor.',
+			'why'     => <<<'HTML'
+<p>Marcato Atlas 180 er den store udgave af den klassiske Atlas. Valserne er 180 mm brede, så du får bredere pastaplader end med Atlas 150+ – oplagt til lasagne og store ravioli. Med maskinen kan du også lave spaghetti og fettuccine.</p>
+<p>Du indstiller selv tykkelsen, så dejen kan blive lige så tynd, som retten kræver. Bordbeslaget følger med og holder maskinen fast, så den ikke flytter sig, mens du drejer. Vil du have begge hænder fri, kan du købe en Atlas-motor til den.</p>
+<p>Maskinen er produceret i Italien i aluminium og vejer 3,5 kg.</p>
+HTML,
+			'good'    => [ 'Lasagne og brede plader', 'Dig, der vil kunne bygge på med motor', 'Erfarne pastamagere' ],
+			'less'    => [ 'Dig, der vil holde prisen nede' ],
 		],
 	],
 	'guide'    => <<<'HTML'

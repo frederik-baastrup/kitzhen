@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-panini-grill',
-	'title'    => 'Panini grill: Vores bud på de 3 bedste',
-	'excerpt'  => 'En panini grill giver sprøde, varme sandwich med grillstriber på få minutter. Her er vores bud på de 3 bedste panini grills fra danske butikker.',
+	'title'    => 'Panini grill: Vores bud på de 4 bedste',
+	'excerpt'  => 'En panini grill giver sprøde, varme sandwich med grillstriber på få minutter. Her er vores bud på de 4 bedste panini grills fra de butikker, vi samarbejder med.',
 	'more_cat' => 'paninigrill',
 	'intro'    => <<<'HTML'
 <p>En panini grill – eller kontaktgrill – griller fra begge sider, så paninien bliver sprød udenpå og varm indeni på få minutter. Mange kan foldes helt ud og bruges som bordgrill til kød, fisk og grøntsager.</p>
-<p>Herunder er vores bud på de 3 bedste panini grills hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 4 bedste panini grills fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,21 @@ HTML,
 HTML,
 			'good'    => [ 'Frokost og sandwich', 'Lavt budget', 'Grill på bordet' ],
 			'less'    => [ 'Pladerne tåler ikke opvaskemaskine', 'Kort ledning på 70 cm' ],
+		],
+		[
+			'ean'     => '5708642068895',
+			'price'   => 240,
+			'name'    => 'OBH Nordica Onyx panini- og sandwichgrill',
+			'role'    => 'Billigst',
+			'reviews' => [],
+			'verdict' => 'Enkel paninigrill med flydende non-stick-plader, drypbakke og lås, så den kan stå lodret i skabet.',
+			'why'     => <<<'HTML'
+<p>OBH Nordica Onyx er til dig, der bare vil have en sprød, varm sandwich eller panini uden at bruge mange penge. Fyld brødet med det, du har lyst til, luk låget, og lad grillen gøre resten.</p>
+<p>Grillpladerne er flydende, så de lægger sig ned over brødet – uanset om det er en tynd toast eller en tyk ciabatta. Non-stick-belægningen gør, at osten ikke hænger fast, og drypbakken samler fedtet og mindsker røg og lugt.</p>
+<p>Når du er færdig, låser du grillen og stiller den lodret i skabet, så den fylder minimalt. Den måler 23,9 × 28,8 cm, og OBH Nordica giver 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Lavt budget', 'Små køkkener – den kan stå lodret', 'Hurtige sandwich og paninier' ],
+			'less'    => [ 'Dig, der vil have en grill med mange funktioner' ],
 		],
 	],
 	'guide'    => <<<'HTML'

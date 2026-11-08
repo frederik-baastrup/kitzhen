@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-japanske-kokkekniv',
-	'title'    => 'Japansk kokkekniv: Vores bud på de 4 bedste',
-	'excerpt'  => 'En japansk kokkekniv er tynd, hård og meget skarp. Her er vores bud på de 4 bedste japanske kokkeknive fra danske butikker – fra MAC til Miyabi og Kai Shun.',
+	'title'    => 'Japansk kokkekniv: Vores bud på de 5 bedste',
+	'excerpt'  => 'En japansk kokkekniv er tynd, hård og meget skarp. Her er vores bud på de 5 bedste japanske kokkeknive fra de butikker, vi samarbejder med – fra MAC og Global til Miyabi og Kai Shun.',
 	'more_cat' => 'kokkekniv',
 	'intro'    => <<<'HTML'
 <p>Japanske knive er lavet af hårdere stål end europæiske og slibes i en spidsere vinkel. Det gør dem ekstremt skarpe og præcise – perfekte til tynde skiver grønt, fisk og kød. Den klassiske japanske kokkekniv hedder gyuto; santoku og bunka er kortere alternativer med et bredere blad.</p>
-<p>Herunder er vores bud på de 4 bedste japanske kokkeknive hos danske butikker lige nu. Leder du efter en mere robust europæisk kniv, så se vores guide til den <a href="/bedste-kokkekniv/">bedste kokkekniv</a>.</p>
+<p>Herunder er vores bud på de 5 bedste japanske kokkeknive fra de butikker, vi samarbejder med. Leder du efter en mere robust europæisk kniv, så se vores guide til den <a href="/bedste-kokkekniv/">bedste kokkekniv</a>.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil prøve en japansk kniv', 'Præcise snit i grønt, kød og fisk', 'Nem rengøring' ],
 			'less'    => [ 'Hårdt arbejde med ben og frosne varer' ],
+		],
+		[
+			'ean'     => '4943691802484',
+			'price'   => 699,
+			'name'    => 'Global G-2 kokkekniv 20 cm',
+			'role'    => 'Klassiker i helstål',
+			'reviews' => [],
+			'verdict' => 'Den kendte Global i stål fra spids til skaft: 20 cm højt blad, skarp hæl og kun 0,3 kg.',
+			'why'     => <<<'HTML'
+<p>Global G-2 er et oplagt sted at starte din knivsamling. Kniven er i stål hele vejen, fra bladet til det karakteristiske skaft, og vejer kun 0,3 kg. Det giver en let kniv, der er nem at styre, og et rent udtryk på knivmagneten.</p>
+<p>Bladet er 20 cm langt og højt, så der er god plads til knoerne, når du støtter mod siden. Det giver dig kontrol, når du hakker og skærer. Den skarpe hæl er praktisk til små opgaver som at skære stilken ud af en tomat uden at mase den.</p>
+<p>Bladet er tyndt, så tø frosne varer op først, og brug en kødøkse til ben. Vask den i hånden, og opbevar den på en magnetskinne, i en knivblok eller en knivtaske. Global-knive slibes i en vinkel på 15 grader.</p>
+HTML,
+			'good'    => [ 'Din første japanske kniv', 'Dig, der vil have en let kniv', 'Moderne køkkener' ],
+			'less'    => [ 'Dig, der foretrækker et skaft i træ', 'Ben og frosne varer' ],
 		],
 	],
 	'guide'    => <<<'HTML'

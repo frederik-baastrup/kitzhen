@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-ostesaet',
-	'title'    => 'Ostesæt: Vores bud på de 3 bedste',
-	'excerpt'  => 'Et ostesæt med knive til hårde, bløde og smørbare oste gør ostebordet både pænere og nemmere. Her er vores bud på de 3 bedste ostesæt fra danske butikker.',
+	'title'    => 'Ostesæt: Vores bud på de 5 bedste',
+	'excerpt'  => 'Et ostesæt med knive til hårde, bløde og smørbare oste gør ostebordet både pænere og nemmere. Her er vores bud på de 5 bedste ostesæt fra de butikker, vi samarbejder med.',
 	'more_cat' => 'ostesaet',
 	'intro'    => <<<'HTML'
 <p>Et godt ostebord kræver forskellige knive: en kniv med huller til bløde oste, der ellers klistrer, en spids eller gaffelformet kniv til hårde oste, og en lille spatel til smøreoste. Et ostesæt samler dem i ét sæt, der også er en populær gave.</p>
-<p>Herunder er vores bud på de 3 bedste ostesæt hos danske butikker lige nu. Nederst finder du en guide til, hvilken kniv der passer til hvilken ost.</p>
+<p>Herunder er vores bud på de 5 bedste ostesæt fra de butikker, vi samarbejder med. Nederst finder du en guide til, hvilken kniv der passer til hvilken ost.</p>
 HTML,
 	'picks'    => [
 		[
@@ -55,6 +55,36 @@ HTML,
 HTML,
 			'good'    => [ 'Skandinavisk borddækning', 'Dig, der vil have få, gode knive' ],
 			'less'    => [ 'Smøreoste' ],
+		],
+		[
+			'ean'     => '5722000300779',
+			'price'   => 319,
+			'name'    => 'Morsø Foresta ostesæt 3 dele',
+			'role'    => 'Bedst med egetræsskaft',
+			'reviews' => [],
+			'verdict' => 'Tre osteknive i rustfrit stål med skafter i olieret eg, der får patina og bliver smukkere med årene.',
+			'why'     => <<<'HTML'
+<p>Morsø Foresta er til dig, der vil have naturmaterialer på ostebordet. Sættet består af tre osteknive, så du har en kniv til flere slags ost og ikke blander smagene.</p>
+<p>Knivbladene er i rustfrit kvalitetsstål, og skafterne er i olieret eg. Træet udvikler patina, jo mere du bruger knivene, så sættet bliver smukkere med tiden – i stedet for at se slidt ud. Det varme træ passer fint til et ostebræt i træ og et nordisk dækket bord.</p>
+<p>Skafter i træ har det bedst med opvask i hånden.</p>
+HTML,
+			'good'    => [ 'Nordisk borddækning', 'Gaver', 'Dig, der kan lide træ med patina' ],
+			'less'    => [ 'Dig, der vil komme knivene i opvaskemaskinen' ],
+		],
+		[
+			'ean'     => '8032732821884',
+			'price'   => 149,
+			'name'    => 'Legnoart Lattevivo ostesæt 3 dele',
+			'role'    => 'Billigst',
+			'reviews' => [],
+			'verdict' => 'Tre osteknive i japansk stål med lyst pakkatræ – et pænt sæt til ostebordet til en lav pris.',
+			'why'     => <<<'HTML'
+<p>Legnoart Lattevivo er det billigste sæt i guiden, men du får stadig tre osteknive, der ser godt ud på serveringsbordet. Sættet er lavet til osteelskere og værter, der gerne vil have både funktion og et gennemført udtryk, når osten skal frem.</p>
+<p>Knivbladene er i japansk stål, og skafterne er i lyst pakkatræ, der giver et lyst og venligt look. Det passer til både hverdagens ostebord og den store anretning med flere slags ost.</p>
+<p>Til prisen er det også oplagt at købe ét sæt til dig selv og ét i værtindegave.</p>
+HTML,
+			'good'    => [ 'Lavt budget', 'Værtindegaver', 'Lyse borddækninger' ],
+			'less'    => [ 'Skafter i træ skal vaskes i hånden' ],
 		],
 	],
 	'guide'    => <<<'HTML'

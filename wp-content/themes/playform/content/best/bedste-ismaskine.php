@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-ismaskine',
-	'title'    => 'Ismaskine: Vores bud på de 3 bedste',
-	'excerpt'  => 'Med en ismaskine laver du hjemmelavet is, sorbet og frozen yoghurt. Her er vores bud på de 3 bedste ismaskiner fra danske butikker.',
+	'title'    => 'Ismaskine: Vores bud på de 5 bedste',
+	'excerpt'  => 'Med en ismaskine laver du hjemmelavet is, sorbet og frozen yoghurt. Her er vores bud på de 5 bedste ismaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'ismaskine',
 	'intro'    => <<<'HTML'
 <p>Hjemmelavet is er nemmere, end mange tror. En ismaskine rører isblandingen, mens den fryser, så den bliver cremet i stedet for at fryse til en isklump. Du bestemmer selv smagen, sødmen og ingredienserne – fra klassisk vaniljeis til sorbet og frozen yoghurt.</p>
-<p>Herunder er vores bud på de 3 bedste ismaskiner hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste ismaskiner fra de butikker, vi samarbejder med – med og uden kompressor.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Familier', 'Dig, der vil have kompressor til en lavere pris', 'Is uden forfrysning' ],
 			'less'    => [ 'Små køkkener – den vejer 9,9 kg' ],
+		],
+		[
+			'ean'     => '4008146031748',
+			'price'   => 2576,
+			'name'    => 'Severin ismaskine med kompressor og 2 isbeholdere',
+			'role'    => 'To beholdere',
+			'reviews' => [],
+			'verdict' => 'Indbygget kompressor og to beholdere på 2 liter hver – is på cirka 30 minutter uden at fryse noget på forhånd.',
+			'why'     => <<<'HTML'
+<p>Severins ismaskine er til dig, der vil lave to slags is samme dag. Den indbyggede kompressor køler selv, og der følger to isbeholdere med på 2 liter hver. Mens den ene portion står i fryseren, kan den næste røres færdig. Du skal ikke huske at fryse noget dagen før.</p>
+<p>På cirka 30 minutter har du cremet is med gelato-fornemmelse, men maskinen klarer også sorbet og frozen yoghurt. Den har desuden en funktion, der både varmer og køler, så du kan lave din egen yoghurt fra bunden.</p>
+<p>Kabinettet er i rustfrit stål og måler 29 × 43 cm og 22,5 cm i højden. Den vejer 13,31 kg, så den har det bedst med en fast plads på bordet. Severin giver 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Dig, der vil lave to slags is i træk', 'Is, sorbet, frozen yoghurt og yoghurt', 'Store portioner' ],
+			'less'    => [ 'Små køkkener – den vejer 13,31 kg' ],
+		],
+		[
+			'ean'     => '7391091858148',
+			'price'   => 399,
+			'name'    => 'Champion ismaskine 1,5 liter',
+			'role'    => 'Billig med fryseskål',
+			'reviews' => [],
+			'verdict' => 'Enkel ismaskine med aftagelig fryseskål på 1,5 liter – is eller sorbet på cirka 15–30 minutter.',
+			'why'     => <<<'HTML'
+<p>Champions ismaskine er den nemme og billige vej ind i hjemmelavet is. Den har ingen kompressor, men en aftagelig fryseskål, der skal stå i fryseren i mindst 8 timer. Når skålen er gennemfrossen, er isen klar på cirka 15–30 minutter, afhængigt af opskriften.</p>
+<p>Skålen rummer 1,5 liter, så der er nok til familien eller et par venner. Du bestemmer selv, om det skal være frisk sorbet, cremet yoghurtis eller klassisk flødeis med chokolade eller vanilje. Et opskriftshæfte følger med, så du har idéer at gå i gang med.</p>
+<p>Maskinen vejer kun 3 kg og er lille nok til at stå i skabet, når den ikke er i brug. Sammenlignet med kompressormodellerne i guiden kræver den lidt planlægning, men den fylder og koster langt mindre.</p>
+HTML,
+			'good'    => [ 'Dig, der laver is en gang imellem', 'Små køkkener', 'Opskriftshæfte med' ],
+			'less'    => [ 'Spontan is – skålen skal fryses mindst 8 timer', 'Én portion ad gangen' ],
 		],
 	],
 	'guide'    => <<<'HTML'

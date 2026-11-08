@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-mokkakande',
-	'title'    => 'Mokkakande: Vores bud på de 3 bedste',
-	'excerpt'  => 'En mokkakande brygger stærk, italiensk kaffe på komfuret uden strøm og kapsler. Her er vores bud på de 3 bedste mokkakander fra danske butikker – og hvordan du bruger dem.',
+	'title'    => 'Mokkakande: Vores bud på de 5 bedste',
+	'excerpt'  => 'En mokkakande brygger stærk, italiensk kaffe på komfuret uden strøm og kapsler. Her er vores bud på de 5 bedste mokkakander fra de butikker, vi samarbejder med – og hvordan du bruger dem.',
 	'more_cat' => 'mokkakande',
 	'intro'    => <<<'HTML'
 <p>Mokkakanden – eller moka-kanden – er den klassiske italienske kaffekande, der står på komfuret. Vandet i bunden koger, damptrykket presser vandet op gennem den malede kaffe, og den færdige kaffe samler sig i toppen. Resultatet er en stærk, fyldig kaffe, der minder om espresso og er god at drikke ren eller med varm mælk.</p>
-<p>Herunder er vores bud på de 3 bedste mokkakander hos danske butikker lige nu – fra den klassiske Bialetti til designkander fra Alessi. Nederst finder du en guide til størrelse, materiale og induktion.</p>
+<p>Herunder er vores bud på de 5 bedste mokkakander fra de butikker, vi samarbejder med – fra den klassiske Bialetti og en model til induktion til designkander fra Alessi. Nederst finder du en guide til størrelse, materiale og induktion.</p>
 HTML,
 	'picks'    => [
 		[
@@ -55,6 +55,36 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil kunne se kaffen', 'Pynt på komfuret' ],
 			'less'    => [ 'Dig, der vil have en kande, der kan tåle hårdhændet brug' ],
+		],
+		[
+			'ean'     => '8006363011624',
+			'price'   => 300,
+			'name'    => 'Bialetti Moka Express 3 kopper',
+			'role'    => 'Den klassiske original',
+			'reviews' => [],
+			'verdict' => 'Den ikoniske Moka Express i aluminium – stærk italiensk kaffe til 3 kopper på gas, el og keramisk.',
+			'why'     => <<<'HTML'
+<p>Bialetti Moka Express er kanden, som de fleste har set på et italiensk komfur. Den brygger med damp, tryk og varme, og det er hele hemmeligheden. Du fylder vand i bunden, sætter tragten i, kommer kaffen i og skruer de to dele godt sammen. Så skal den bare stå på komfuret ved middel varme.</p>
+<p>Når kaffen er færdig, tager du kanden af og skænker direkte fra den. Størrelsen til 3 kopper er god til én eller to personer, og kanden er let og nem at have med i sommerhuset.</p>
+<p>Den er i aluminium og virker på gas, el og keramiske kogeplader, men ikke på induktion. Skyl den i hånden – den tåler ikke opvaskemaskine.</p>
+HTML,
+			'good'    => [ 'Dig, der vil have originalen', 'Én–to personer', 'Gas, el og keramisk komfur' ],
+			'less'    => [ 'Induktion', 'Opvaskemaskine' ],
+		],
+		[
+			'ean'     => '8006363029087',
+			'price'   => 494,
+			'name'    => 'Bialetti mokkabrygger til induktion 4 kopper',
+			'role'    => 'Bedst til induktion',
+			'reviews' => [],
+			'verdict' => 'Mokkakande i to lag: rustfrit stål udenpå til induktion og aluminium indeni for jævn varme – til 4 kopper.',
+			'why'     => <<<'HTML'
+<p>Har du induktion, er denne Bialetti løsningen. Den er bygget i to lag: Det ydre lag af rustfrit stål gør, at kanden virker på induktionskogeplader, og det indre lag af aluminium fordeler varmen jævnt, så kaffen brygges ensartet.</p>
+<p>Den rummer op til 4 kopper espresso – lidt mere end de mindste kander i guiden – og giver den fyldige, aromatiske kaffe, du kender fra det italienske køkken. Her er den i sort og sølv, men den findes i flere farver, så du kan vælge en, der passer til dit køkken.</p>
+<p>Kanden er kun 18 cm høj og vejer 0,66 kg, så den er nem at gemme i skabet.</p>
+HTML,
+			'good'    => [ 'Induktionskogeplader', 'Kaffe til to–fire personer', 'Moderne køkkener' ],
+			'less'    => [ 'Dig uden induktion – Moka Express er billigere' ],
 		],
 	],
 	'guide'    => <<<'HTML'

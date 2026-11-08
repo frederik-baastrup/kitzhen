@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-kamado-grill',
-	'title'    => 'Kamado grill: Vores bud på de 4 bedste',
-	'excerpt'  => 'En kamado grill kan grille, ryge og bage og holder varmen i mange timer. Her er vores bud på de 4 bedste kamado grills fra danske butikker.',
+	'title'    => 'Kamado grill: Vores bud på de 5 bedste',
+	'excerpt'  => 'En kamado grill kan grille, ryge og bage og holder varmen i mange timer. Her er vores bud på de 5 bedste kamado grills fra de butikker, vi samarbejder med.',
 	'more_cat' => 'kamado-grill',
 	'intro'    => <<<'HTML'
 <p>En kamado er en kulgrill med tykke keramiske vægge, der holder på varmen. Med luftspjældene styrer du temperaturen præcist – fra lav varme til langtidsrøgning af pulled pork og brisket til meget høj varme til bøffer og pizza. Den bruger lidt kul og kan bruges hele året.</p>
-<p>Herunder er vores bud på de 4 bedste kamado grills hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste kamado grills fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Begyndere i kamado-grill', 'Lavere budget', 'Sommerhus og små terrasser' ],
 			'less'    => [ 'Store stege og mange gæster' ],
+		],
+		[
+			'ean'     => '0665719117632',
+			'price'   => 14990,
+			'name'    => 'Big Green Egg Large 46 cm',
+			'role'    => 'Mest kendte kamado',
+			'reviews' => [],
+			'verdict' => 'Den klassiske grønne kamado med 46 cm rist – plads til 10 kg kød eller 5 kyllinger ad gangen.',
+			'why'     => <<<'HTML'
+<p>Big Green Egg Large er kamadoen, mange tænker på, når de hører ordet. Æggeformen fordeler varmen jævnt i hele grillen, så du undgår de varme pletter, en almindelig kuglegrill har. Det giver jævn tilberedning og saftigt kød – uanset om du griller, ryger eller bruger den som ovn.</p>
+<p>Risten er 46 cm i diameter og har plads til omkring 10 kg kød eller 5 kyllinger. Den passer til selskaber på 10 personer og opefter. Large er også den størrelse, der findes mest tilbehør til, fx plate setter og pizzasten.</p>
+<p>Med følger en rustfri rist, et rustfrit luftspjæld i bunden og en regulering i støbejern på toppen. Termometeret i låget viser temperaturen, træhåndtaget lader dig åbne med én hånd, og en dobbelt glasur beskytter mod regn.</p>
+HTML,
+			'good'    => [ 'Store selskaber', 'Dig, der vil have mest tilbehør at vælge imellem', 'Rygning, grill og bagning' ],
+			'less'    => [ 'Stativ med hjul skal købes ekstra', 'Den vejer over 70 kg' ],
 		],
 	],
 	'guide'    => <<<'HTML'

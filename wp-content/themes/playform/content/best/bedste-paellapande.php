@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-paellapande',
-	'title'    => 'Paellapande: Vores bud på de 4 bedste',
-	'excerpt'  => 'En paellapande er bred og lav, så risene ligger i et tyndt lag og får den sprøde bund. Her er vores bud på de 4 bedste paellapander fra danske butikker.',
+	'title'    => 'Paellapande: Vores bud på de 5 bedste',
+	'excerpt'  => 'En paellapande er bred og lav, så risene ligger i et tyndt lag og får den sprøde bund. Her er vores bud på de 5 bedste paellapander fra de butikker, vi samarbejder med.',
 	'more_cat' => 'paellapande',
 	'intro'    => <<<'HTML'
 <p>Paella laves i en bred, lav pande, så risene ligger i et tyndt lag og koger jævnt. Det giver den sprøde, karamelliserede bund, spanierne kalder socarrat. Små paellapander kan bruges på komfuret; de store laves over gasbrænder, grill eller bål til mange gæster.</p>
-<p>Herunder er vores bud på de 4 bedste paellapander hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste paellapander fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der ikke vil passe en stålpande', 'Gasblus', 'Retter med tomat og citrus' ],
 			'less'    => [ 'Den helt traditionelle spanske kulstofstålpande' ],
+		],
+		[
+			'ean'     => '5055198051780',
+			'price'   => 560,
+			'name'    => 'Samuel Groves paellapande 30 cm, kulstål',
+			'role'    => 'Bedst til to-tre personer',
+			'reviews' => [],
+			'verdict' => 'Paellapande i kulstål på 30 cm, der virker på alle varmekilder – også induktion, ovn og åben ild.',
+			'why'     => <<<'HTML'
+<p>Samuel Groves paellapande er til dig, der laver paella til få og gerne på komfuret. Med 30 cm i diameter og en stor, flad bund passer den til to–tre personer, og den er lige så god til risotto, ovnbagte grøntsager og grillede skaldyr. Den ser også godt ud, når den kommer direkte på bordet.</p>
+<p>Kulstål leder varmen hurtigt og jævnt og er lettere end støbejern. Panden virker på alle varmekilder, også induktion, i ovnen og over åben ild, og håndtagene i rustfrit stål giver et sikkert greb.</p>
+<p>Den leveres olieret, men giv den gerne et ekstra lag olie før første brug. Med tiden får den en patina, der virker næsten som non-stick. Vask den med varmt vand og en børste, tør den godt, og smør den med lidt olie. Den tåler ikke opvaskemaskine.</p>
+HTML,
+			'good'    => [ 'Paella til to–tre personer', 'Induktion, ovn og åben ild', 'Dig, der vil have en pande til mange år' ],
+			'less'    => [ 'Dig, der ikke vil passe en stålpande', 'Store selskaber' ],
 		],
 	],
 	'guide'    => <<<'HTML'

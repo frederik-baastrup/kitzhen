@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-juicemaskine',
-	'title'    => 'Juicemaskine: Vores bud på de 4 bedste',
-	'excerpt'  => 'En juicemaskine presser frisk juice af frugt og grønt. Her er vores bud på de 4 bedste juicemaskiner – koldpressere og saftcentrifuger.',
+	'title'    => 'Juicemaskine: Vores bud på de 5 bedste',
+	'excerpt'  => 'En juicemaskine presser frisk juice af frugt og grønt. Her er vores bud på de 5 bedste juicemaskiner – koldpressere og saftcentrifuger.',
 	'more_cat' => 'juicemaskine',
 	'intro'    => <<<'HTML'
 <p>Der findes to typer juicemaskiner: en råsaftcentrifuge, der river frugten og slynger saften ud med høj hastighed, og en slow juicer (koldpresser), der presser saften langsomt ud. Centrifugen er hurtigst og billigst, mens slow juiceren giver mest saft af grønt og bevarer mere af smagen.</p>
-<p>Herunder er vores bud på de 4 bedste juicemaskiner fra de danske webshops, vi samarbejder med. Leder du specifikt efter en slow juicer, så se vores guide til <a href="/bedste-slow-juicer/">slow juicere</a>.</p>
+<p>Herunder er vores bud på de 5 bedste juicemaskiner fra de butikker, vi samarbejder med. Leder du specifikt efter en slow juicer, så se vores guide til <a href="/bedste-slow-juicer/">slow juicere</a>.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Gulerødder, rødbeder og æbler', 'Hurtig juice til hele familien', 'Nem rengøring' ],
 			'less'    => [ 'Bladgrønt som spinat og grønkål' ],
+		],
+		[
+			'ean'     => '8021098004499',
+			'price'   => 849,
+			'name'    => 'Braun SJ7000 MultiJuice 7 slowjuicer',
+			'role'    => 'Billigste slowjuicer',
+			'reviews' => [],
+			'verdict' => 'Støjsvag slowjuicer med plads til 2 liter, der klarer både bløde bær og hårde rodfrugter.',
+			'why'     => <<<'HTML'
+<p>Braun SJ7000 er til dig, der vil i gang med koldpresset juice uden at bruge mange penge. Den presser saften langsomt ud og klarer både bløde, sarte bær og faste rodfrugter. Start dagen med appelsinjuice, bland æble og bær, eller lav en grøn juice af bladgrønt og grøntsager.</p>
+<p>Den kraftige motor og udvindingssystemet er bygget til at få mest muligt saft ud af råvarerne, så der går mindre til spilde. Med en kapacitet på 2 liter kan du lave juice til flere på én gang. Motoren er støjsvag, så du kan lave morgenjuice uden at vække resten af huset.</p>
+<p>Bagefter skiller du den let ad, og de løse dele gør opvasken hurtig. Den måler 26 × 23,5 cm og er 40,2 cm høj og vejer 4 kg.</p>
+HTML,
+			'good'    => [ 'Dig, der vil prøve en slowjuicer', 'Tidlige morgener – den er støjsvag', 'Både frugt, bær og rodfrugter' ],
+			'less'    => [ 'Dig, der vil have juice på få sekunder' ],
 		],
 	],
 	'guide'    => <<<'HTML'

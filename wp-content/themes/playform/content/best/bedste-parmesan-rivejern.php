@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-parmesan-rivejern',
-	'title'    => 'Parmesan rivejern: Vores bud på de 3 bedste',
-	'excerpt'  => 'Et godt parmesan rivejern giver fin, luftig ost over pastaen. Her er vores bud på de 3 bedste rivejern og ostekværne til parmesan fra danske butikker.',
+	'title'    => 'Parmesan rivejern: Vores bud på de 5 bedste',
+	'excerpt'  => 'Et godt parmesan rivejern giver fin, luftig ost over pastaen. Her er vores bud på de 5 bedste rivejern og ostekværne til parmesan fra de butikker, vi samarbejder med.',
 	'more_cat' => 'rivejern',
 	'intro'    => <<<'HTML'
 <p>Parmesan og andre hårde oste smager bedst friskrevet lige over retten. Du kan bruge et fladt rivejern med barberbladsskarpe huller, der giver fin og luftig ost, eller en ostekværn, hvor du drejer osten igennem en tromle – praktisk ved bordet, hvor alle river selv.</p>
-<p>Herunder er vores bud på de 3 bedste parmesan rivejern hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste parmesan rivejern fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,35 @@ HTML,
 HTML,
 			'good'    => [ 'Lavt budget', 'Rivning ved bordet', 'Pasta, risotto og pizza' ],
 			'less'    => [ 'Tåler ikke opvaskemaskine' ],
+		],
+		[
+			'ean'     => '4019889122020',
+			'price'   => 189,
+			'name'    => 'Lurch RazorTech EDS parmesan rivejern',
+			'role'    => 'Bedst til hårde oste',
+			'reviews' => [],
+			'verdict' => 'Knivskarpt rivejern lavet til faste oste som parmesan, pecorino og grana padano – i køkkenet og ved bordet.',
+			'why'     => <<<'HTML'
+<p>Lurch RazorTech er til dig, der vil have et rivejern, der er lavet specielt til de hårde oste. Parmesan, pecorino og grana padano er faste og tørre, og her gør et knivskarpt rivejern hele forskellen: Osten glider over uden at du skal presse, og du får fine, luftige flager i stedet for klumper.</p>
+<p>Brug det i køkkenet, når risottoen eller pastasovsen skal have et lag ost, eller send det rundt ved spisebordet, så alle kan rive selv over tallerkenen. Det er et godt alternativ til en ostekværn, hvis du vil have et klassisk rivejern.</p>
+HTML,
+			'good'    => [ 'Parmesan, pecorino og grana padano', 'Pasta og risotto', 'Rivning ved bordet' ],
+			'less'    => [ 'Bløde oste' ],
+		],
+		[
+			'ean'     => '8595028484441',
+			'price'   => 134,
+			'name'    => 'Tescoma parmesan rivejern med opbevaringskammer',
+			'role'    => 'Med opbevaringskammer',
+			'reviews' => [],
+			'verdict' => 'Riv parmesan direkte ned på retten, og stil resten af osten i køleskabet i samme beholder.',
+			'why'     => <<<'HTML'
+<p>Tescomas parmesan rivejern er smart, fordi osten bor i rivejernet. Du lægger parmesan eller en anden tør ost i beholderen og river direkte ned på tallerkenen ved bordet – præcis den mængde, du skal bruge. Der er ikke noget spild, og ingen skal røre ved osten med fingrene.</p>
+<p>Det betyder også, at osten holder sig længere. Når I er færdige med at spise, stiller du bare hele rivejernet i køleskabet, så er det klar til næste pastaaften.</p>
+<p>Bladet er i rustfrit stål, de øvrige dele er i slagfast plast, og det hele tåler opvaskemaskine. Tescoma giver 3 års garanti.</p>
+HTML,
+			'good'    => [ 'Pastaaftener med familien', 'Dig, der vil gemme osten i rivejernet', 'Lavt budget' ],
+			'less'    => [ 'Store mængder ost til madlavning' ],
 		],
 	],
 	'guide'    => <<<'HTML'

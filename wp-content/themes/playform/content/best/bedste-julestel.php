@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-julestel',
-	'title'    => 'Julestel: Vores bud på de 3 bedste',
-	'excerpt'  => 'Et julestel gør julebordet festligt. Her er vores bud på de 3 bedste julestel og juletallerkener fra danske butikker – fra Spodes klassiske juletræ til danske Hammershøi.',
+	'title'    => 'Julestel: Vores bud på de 5 bedste',
+	'excerpt'  => 'Et julestel gør julebordet festligt. Her er vores bud på de 5 bedste julestel og juletallerkener fra de butikker, vi samarbejder med – fra Spodes klassiske juletræ til Bjørn Wiinblad og Mumitroldene.',
 	'more_cat' => 'tallerkener',
 	'intro'    => <<<'HTML'
 <p>Et julestel er det service, der kommer frem i december – til juleaften, julefrokosten og risalamanden. Mange køber et par dele hvert år og bygger stellet op over tid, og et julestel er derfor også en populær gave.</p>
-<p>Herunder er vores bud på de 3 bedste julestel hos danske butikker lige nu. Nederst finder du en guide til, hvordan du vælger og bygger et julestel op.</p>
+<p>Herunder er vores bud på de 5 bedste julestel fra de butikker, vi samarbejder med. Nederst finder du en guide til, hvordan du vælger og bygger et julestel op.</p>
 HTML,
 	'picks'    => [
 		[
@@ -55,6 +55,36 @@ HTML,
 HTML,
 			'good'    => [ 'Dig med blåt service', 'Et mere afdæmpet julebord' ],
 			'less'    => [ 'Dig, der vil have det klassiske røde og grønne' ],
+		],
+		[
+			'ean'     => '5709513530138',
+			'price'   => 199,
+			'name'    => 'Bjørn Wiinblad Guirlande juletallerken 28,5 cm',
+			'role'    => 'Mest farverige julemotiv',
+			'reviews' => [],
+			'verdict' => 'Stor juletallerken i porcelæn med håndlavede julemotiver i rød og guld fra Bjørn Wiinblads Guirlande-serie.',
+			'why'     => <<<'HTML'
+<p>Bjørn Wiinblad Guirlande er til dig, der vil have et julebord med masser af farve og fest. Tallerkenen er i porcelæn og dekoreret med julemotiver i rød og guld, der er lavet i hånden. Den passer lige godt til juleaftensmiddagen og julefrokosten, og hvert år, når den kommer frem, er julestemningen sat.</p>
+<p>Med 28,5 cm i diameter er den en rigtig middagstallerken med god plads til and, flæskesteg og alt tilbehøret. Guirlande er en hel serie, så du kan bygge julestellet op med flere dele over tid – en oplagt idé, hvis du vil give én del i gave hvert år.</p>
+<p>Vask den gerne i hånden, så de fine motiver holder sig flotte i mange år.</p>
+HTML,
+			'good'    => [ 'Et farverigt, festligt julebord', 'Dig, der vil bygge stellet op over tid', 'Gaver' ],
+			'less'    => [ 'Dig, der vil have et enkelt, afdæmpet udtryk' ],
+		],
+		[
+			'ean'     => '6411801010244',
+			'price'   => 380,
+			'name'    => 'Moomin Arabia tallerkensæt Tegnet & Jul',
+			'role'    => 'Til mumi-samleren',
+			'reviews' => [],
+			'verdict' => 'To Mumi-tallerkener i porcelæn med Tove Slottes klassiske tegninger – den ene med Mumidalens juletræ.',
+			'why'     => <<<'HTML'
+<p>Mumitroldene hører julen til i mange familier, og med dette sæt fra Arabia får du to tallerkener med Tove Slottes velkendte tegninger. Juletallerkenen har et motiv fra 2004, hvor de små har samlet sig udenfor om Mumidalens juletræ. Den anden har et motiv fra 1996, hvor Mymlans børn tegner på væggene.</p>
+<p>Tallerkenerne er 19 cm i diameter og passer til risalamande, julefrokostens småretter eller børnenes juletallerken. De er samlerobjekter, men også lavet til brug, og de er lette at kombinere med andre Mumi-dele.</p>
+<p>Porcelænet tåler opvaskemaskine, ovn og mikroovn, og der er 3 års garanti.</p>
+HTML,
+			'good'    => [ 'Mumi-samlere', 'Børnefamilier', 'Desserter og småretter' ],
+			'less'    => [ 'Kun den ene tallerken har julemotiv', 'Dig, der skal bruge store middagstallerkener' ],
 		],
 	],
 	'guide'    => <<<'HTML'

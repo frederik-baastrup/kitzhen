@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-kulgrill',
-	'title'    => 'Kulgrill: Vores bud på de 3 bedste',
-	'excerpt'  => 'En kulgrill giver den klassiske grillsmag. Her er vores bud på de 3 bedste kulgrills fra danske butikker – fra kuglegrill til transportabel grill.',
+	'title'    => 'Kulgrill: Vores bud på de 5 bedste',
+	'excerpt'  => 'En kulgrill giver den klassiske grillsmag. Her er vores bud på de 5 bedste kulgrills fra de butikker, vi samarbejder med – fra kuglegrill til transportabel grill.',
 	'more_cat' => 'kulgrill',
 	'intro'    => <<<'HTML'
 <p>Kul giver højere varme og mere røgsmag end gas, og for mange er det at tænde op en del af hyggen. En kulgrill med låg kan både grille direkte over gløderne og indirekte med låget lukket, så du kan lave alt fra bøffer til hel kylling.</p>
-<p>Herunder er vores bud på de 3 bedste kulgrills hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste kulgrills fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Picnic, strand og sommerhus', 'Dig, der vil have en flot grill', 'Små altaner og terrasser' ],
 			'less'    => [ 'Store familier og mange gæster' ],
+		],
+		[
+			'ean'     => '0077924922220',
+			'price'   => 2290,
+			'name'    => 'Weber Master-Touch GBS C-5755 57 cm',
+			'role'    => 'Klassisk Weber-kuglegrill',
+			'reviews' => [],
+			'verdict' => 'Webers klassiske 57 cm kuglegrill med GBS-rist, One-Touch askesystem, låg-termometer og 10 års begrænset garanti.',
+			'why'     => <<<'HTML'
+<p>Weber Master-Touch er kuglegrillen til dig, der vil have den klassiske Weber med alle de praktiske detaljer. Grillfladen på 57 cm giver plads til 6–8 personer, og kedel og låg er porcelænsemaljerede i røggrå, så de holder på varmen og modstår rust og ridser.</p>
+<p>Risten i rustfrit stål har to sider, du kan klappe op, så du nemt fylder kul på undervejs. Midten passer til Webers runde GBS-tilbehør, fx pizzasten og wok (sælges separat). Spjæld i låg og kedel styrer varmen, termometeret i låget viser temperaturen, og låget kan hænges på siden af kedlen, mens du griller.</p>
+<p>Efter grillningen fejer One-Touch-systemet asken ned i en lukket askebeholder. Aluminiumsbenene giver 5 cm ekstra arbejdshøjde, og hjulene gør den nem at flytte. Weber giver 10 års begrænset garanti.</p>
+HTML,
+			'good'    => [ 'Familier op til 6–8 personer', 'Dig, der vil udbygge med GBS-tilbehør', 'Nem tømning af aske' ],
+			'less'    => [ 'Dig, der vil have sidebord til fade og redskaber' ],
+		],
+		[
+			'ean'     => '0077924907449',
+			'price'   => 5799,
+			'name'    => 'Weber Performer Deluxe Smart 57 cm',
+			'role'    => 'Med temperaturstyring',
+			'reviews' => [],
+			'verdict' => 'Kulgrill med WiFi-styring og digital blæser, der holder temperaturen selv – plus gastænding og stort arbejdsbord.',
+			'why'     => <<<'HTML'
+<p>Weber Performer Deluxe Smart giver dig smagen fra kul med samme styr på varmen som på en gas- eller pillegrill. Du indstiller temperaturen på LCD-enheden, og en digital blæser styrer luften, så grillen holder varmen stabil. Det gør lange low and slow-sessioner og røgning natten over meget nemmere.</p>
+<p>Gastændingen og Rapidfire Assist får gang i briketterne uden optændingsskorsten. I Weber Connect-appen følger du grilltemperatur og madens kernetemperatur og får besked på mobilen.</p>
+<p>Grillen står på en vogn med stort arbejdsbord, to hylder, to hjul og to låsbare drejehjul. Risten på 57 cm er hængslet og passer til GBS-tilbehør, og One-Touch-systemet gør asken nem at tømme.</p>
+HTML,
+			'good'    => [ 'Rygning og lange grillforløb', 'Dig, der vil styre grillen fra mobilen', 'Dig, der vil have arbejdsplads ved grillen' ],
+			'less'    => [ 'Små terrasser – den er 121 cm bred', 'Dig, der vil holde det enkelt' ],
 		],
 	],
 	'guide'    => <<<'HTML'

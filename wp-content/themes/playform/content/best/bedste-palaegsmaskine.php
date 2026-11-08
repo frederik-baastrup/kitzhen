@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-palaegsmaskine',
-	'title'    => 'Pålægsmaskine: Vores bud på de 3 bedste',
-	'excerpt'  => 'En pålægsmaskine skærer pålæg, ost og brød i tynde, ensartede skiver. Her er vores bud på de 3 bedste pålægsmaskiner fra danske butikker.',
+	'title'    => 'Pålægsmaskine: Vores bud på de 4 bedste',
+	'excerpt'  => 'En pålægsmaskine skærer pålæg, ost og brød i tynde, ensartede skiver. Her er vores bud på de 4 bedste pålægsmaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'palaegsmaskine',
 	'intro'    => <<<'HTML'
 <p>En pålægsmaskine skærer rullepølse, skinke, serrano, ost og brød i tynde, ensartede skiver – præcis så tykke, som du vil have dem. Det er især rart op til julefrokosten, hvis du laver dit eget pålæg, eller hvis du køber store stykker og skærer selv.</p>
-<p>Herunder er vores bud på de 3 bedste pålægsmaskiner hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 4 bedste pålægsmaskiner fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,21 @@ HTML,
 HTML,
 			'good'    => [ 'Lavt budget', 'Kød, ost og brød', 'Nem rengøring' ],
 			'less'    => [ 'Meget tynde skiver serrano – den går ned til 1 mm' ],
+		],
+		[
+			'ean'     => '4004822501093',
+			'price'   => 550,
+			'name'    => 'Ritter Markant 01',
+			'role'    => 'Billigst',
+			'reviews' => [],
+			'verdict' => 'Kompakt, foldbar pålægsmaskine fra tyske Ritter med 17 cm klinge og skiver op til 14 mm.',
+			'why'     => <<<'HTML'
+<p>Ritter Markant 01 er den billige og pladsbesparende vej til hjemmeskåret pålæg. Den skærer skinke, ost og brød i helt tynde skiver eller tykkere skiver op til 14 mm, så du selv bestemmer, hvordan pålægget skal være.</p>
+<p>Klingen er takket og 17 cm i diameter, og motoren yder 65 watt. Maskinen er i hvid plast og vejer kun 1,93 kg, så den er let at tage frem og sætte væk igen.</p>
+<p>Det bedste er, at du kan klappe den sammen. Sammenklappet er den kun 10,5 cm bred og kan stå i et skab eller på en hylde. Den passer til dig, der skærer pålæg en gang imellem og ikke vil have en stor maskine stående fremme.</p>
+HTML,
+			'good'    => [ 'Lavt budget', 'Små køkkener – den kan klappes sammen', 'Pålæg, ost og brød en gang imellem' ],
+			'less'    => [ 'Dig, der vil have en maskine i metal', 'Skiver tykkere end 14 mm' ],
 		],
 	],
 	'guide'    => <<<'HTML'
