@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-roedvinsglas',
-	'title'    => 'Rødvinsglas: Vores bud på de 4 bedste',
-	'excerpt'  => 'Et godt rødvinsglas giver vinen plads til at åbne sig og gør den mere aromatisk. Her er vores bud på de 4 bedste rødvinsglas fra danske butikker – fra hverdag til fest.',
+	'title'    => 'Rødvinsglas: Vores bud på de 5 bedste',
+	'excerpt'  => 'Et godt rødvinsglas giver vinen plads til at åbne sig og gør den mere aromatisk. Her er vores bud på de 5 bedste rødvinsglas fra de butikker, vi samarbejder med – fra hverdag til fest.',
 	'more_cat' => 'vinglas',
 	'intro'    => <<<'HTML'
 <p>Glasset betyder mere for vinen, end mange tror. Et rødvinsglas har en stor skål, så vinen kan få luft og åbne sig, og en åbning, der samler duften, så du kan dufte vinen, før du smager. En tynd kant gør, at vinen glider naturligt ind i munden.</p>
-<p>Herunder er vores bud på de 4 bedste rødvinsglas hos danske butikker lige nu – fra et prisvenligt sæt til hverdag til krystalglas til de gode flasker. Nederst finder du en guide til størrelse, form og krystal.</p>
+<p>Herunder er vores bud på de 5 bedste rødvinsglas fra de butikker, vi samarbejder med – fra et prisvenligt sæt til hverdag til krystalglas til de gode flasker. Nederst finder du en guide til størrelse, form og krystal.</p>
 HTML,
 	'picks'    => [
 		[
@@ -69,6 +69,21 @@ HTML,
 HTML,
 			'good'    => [ 'Pinot noir og bourgogne', 'Dig, der vil have et let, fint glas' ],
 			'less'    => [ 'Opvaskemaskinen hver dag' ],
+		],
+		[
+			'ean'     => '4001836091473',
+			'price'   => 219,
+			'name'    => 'Zwiesel Vervino Bordeaux rødvinsglas 74 cl, 2 stk.',
+			'role'    => 'Bedst til kraftig rødvin',
+			'reviews' => [],
+			'verdict' => 'Stort bordeauxglas på 74 cl i Tritan-krystal, udviklet med sommelierer – og det tåler opvaskemaskine.',
+			'why'     => <<<'HTML'
+<p>Zwiesel Vervino Bordeaux er glasset til de kraftige rødvine, der skal have luft. Kuplen rummer 74 cl, så selv en stor cabernet sauvignon eller merlot har god plads til at åbne sig. Den tynde kuppel og den slanke stilk gør glasset let og elegant i hånden.</p>
+<p>Vervino-serien er udviklet sammen med erfarne sommelierer og har fået både Red Dot Award og iF Design Award 2020. Glassene er lavet af Zwiesels Tritan-krystal, der holder sig pæne i lang tid.</p>
+<p>Det er også et glas til hverdagen: Det kan komme i opvaskemaskinen på glasprogrammet ved højst 55 °C. Du får to glas i pakken – en oplagt gave eller en start på et sæt.</p>
+HTML,
+			'good'    => [ 'Cabernet sauvignon, merlot og andre kraftige vine', 'Dig, der vil kunne bruge opvaskemaskinen', 'Gave til vinelskeren' ],
+			'less'    => [ 'Kun to glas i pakken', 'Elegante bourgognevine, der trives bedre i en bredere skål' ],
 		],
 	],
 	'guide'    => <<<'HTML'

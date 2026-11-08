@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-svampekniv',
-	'title'    => 'Svampekniv: Vores bud på de 3 bedste',
-	'excerpt'  => 'En svampekniv med børste gør det nemt at plukke, skære og rense svampe på stedet. Her er vores bud på de 3 bedste svampeknive fra danske butikker.',
+	'title'    => 'Svampekniv: Vores bud på de 4 bedste',
+	'excerpt'  => 'En svampekniv med børste gør det nemt at plukke, skære og rense svampe på stedet. Her er vores bud på de 4 bedste svampeknive fra de butikker, vi samarbejder med.',
 	'more_cat' => '',
 	'intro'    => <<<'HTML'
 <p>En svampekniv har et kort, buet blad til at skære svampen af ved roden og en børste i den anden ende til at fjerne jord og nåle med det samme. Så kommer svampene rene hjem i kurven, og du slipper for at skylle dem – svampe suger vand.</p>
-<p>Herunder er vores bud på de 3 bedste svampeknive hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 4 bedste svampeknive fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,21 @@ HTML,
 HTML,
 			'good'    => [ 'Lavt budget', 'Ekstra kniv i kurven', 'Dig, der vil have en foldbar kniv' ],
 			'less'    => [ 'Dig, der vil have et kendt mærke' ],
+		],
+		[
+			'ean'     => '8050714890499',
+			'price'   => 324,
+			'name'    => 'Legnoart Porcino svampekniv',
+			'role'    => 'Bedst italiensk design',
+			'reviews' => [],
+			'verdict' => 'Italiensk svampekniv med blad formet som et fuglenæb, børste og træskaft – både blad og børste kan foldes ind.',
+			'why'     => <<<'HTML'
+<p>Legnoart Porcino er svampekniven til dig, der vil have et redskab med lidt ekstra stil – både i skoven og i køkkenet. Bladet er formet som et fuglenæb, så du kan skære præcist ved svampens rod, og i den anden ende sidder en lille børste, der fjerner jord og snavs fra de sarte hatte.</p>
+<p>Både blad og børste kan foldes sammen. Så er kniven kompakt i lommen eller kurven og nem at opbevare derhjemme. Skaftet er i træ og formet ergonomisk, så den ligger godt i hånden, når du renser en hel kurv.</p>
+<p>Kniven leveres i en æske, der er udformet som en bog med billeder – en oplagt gave til svampejægeren eller den madglade.</p>
+HTML,
+			'good'    => [ 'Gaver', 'Dig, der vil have en foldbar kniv', 'Rensning af svampe derhjemme' ],
+			'less'    => [ 'Dig, der bare vil have en billig ekstrakniv' ],
 		],
 	],
 	'guide'    => <<<'HTML'

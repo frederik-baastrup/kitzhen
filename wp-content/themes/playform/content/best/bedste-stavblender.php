@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-stavblender',
-	'title'    => 'Stavblender: Vores bud på de 4 bedste',
-	'excerpt'  => 'En stavblender blender suppe direkte i gryden og laver mayonnaise, pesto og smoothies. Her er vores bud på de 4 bedste stavblendere fra danske butikker.',
+	'title'    => 'Stavblender: Vores bud på de 5 bedste',
+	'excerpt'  => 'En stavblender blender suppe direkte i gryden og laver mayonnaise, pesto og smoothies. Her er vores bud på de 5 bedste stavblendere fra de butikker, vi samarbejder med.',
 	'more_cat' => 'stavblender',
 	'intro'    => <<<'HTML'
 <p>Stavblenderen er et af de mest alsidige apparater i køkkenet. Du blender suppen direkte i gryden, laver mayonnaise på et minut, pisker flødeskum og blender smoothies – og den fylder næsten intet i skuffen. Mange leveres med en hakkeskål og et piskeris, så den også kan erstatte en minihakker og en håndmixer.</p>
-<p>Herunder er vores bud på de 4 bedste stavblendere hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste stavblendere fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -65,6 +65,21 @@ HTML,
 HTML,
 			'good'    => [ 'Suppe og mos', 'Lavt budget' ],
 			'less'    => [ 'Dig, der vil have mange hastigheder' ],
+		],
+		[
+			'ean'     => '8003299446735',
+			'price'   => 559,
+			'name'    => 'Alessi Plissé MDL10 stavblender',
+			'role'    => 'Bedst design',
+			'reviews' => [],
+			'verdict' => 'Stavblender på 500 W med Michele De Lucchis plisserede design – fås i fire farver.',
+			'why'     => <<<'HTML'
+<p>Alessi Plissé er stavblenderen til dig, der vil have et apparat, der også ser godt ud. Den er tegnet af Michele De Lucchi, og den plisserede form blev hurtigt et hit. Den fås i fire farver, så du kan matche den med dit køkken.</p>
+<p>Under designet gemmer sig en motor på 500 W, som du kører ved normal eller høj hastighed. Det er nok til hverdagens suppe, mos, saucer og smoothies.</p>
+<p>Kabinettet er i termoplast og er let at gøre rent, og der er 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Dig, der går op i design', 'Hverdagens suppe og mos', 'Gave til den designglade' ],
+			'less'    => [ 'Dig, der vil have meget tilbehør', 'Dig, der vil have turboknap' ],
 		],
 	],
 	'guide'    => <<<'HTML'

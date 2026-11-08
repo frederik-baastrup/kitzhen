@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-stempelkande',
-	'title'    => 'Stempelkande: Vores bud på de 3 bedste',
-	'excerpt'  => 'En stempelkande brygger fyldig kaffe uden filter og strøm. Her er vores bud på de 3 bedste stempelkander fra danske butikker.',
+	'title'    => 'Stempelkande: Vores bud på de 5 bedste',
+	'excerpt'  => 'En stempelkande brygger fyldig kaffe uden filter og strøm. Her er vores bud på de 5 bedste stempelkander fra de butikker, vi samarbejder med.',
 	'more_cat' => 'stempelkande',
 	'intro'    => <<<'HTML'
 <p>Stempelkanden – eller french press – er den nemmeste måde at brygge god kaffe på. Groftmalet kaffe trækker i varmt vand i fire minutter, og så presser du stemplet ned. Kaffen bliver fyldig, fordi olierne fra bønnerne ikke bliver fanget i et papirfilter.</p>
-<p>Herunder er vores bud på de 3 bedste stempelkander hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste stempelkander fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Lavt budget', 'Kaffe til flere', 'Dig, der vil se kaffen trække' ],
 			'less'    => [ 'Dig, der vil holde kaffen varm længe' ],
+		],
+		[
+			'ean'     => '0699965608873',
+			'price'   => 320,
+			'name'    => 'Bodum Chambord 8 kopper',
+			'role'    => 'Den klassiske',
+			'reviews' => [],
+			'verdict' => 'Originalen blandt stempelkander: 1 liter til 8 kopper, tidløst design og den tåler opvaskemaskine.',
+			'why'     => <<<'HTML'
+<p>Bodum Chambord er stempelkanden, som mange tænker på, når de hører ordet french press. Den er elsket for sin enkelhed og rene smag, og designet har rødder helt tilbage til før krigen. Den klassiske Chambord, du kender i dag, kom til i 1991, da Bodum købte Melior-Martin.</p>
+<p>Kanden rummer 1 liter, hvilket giver 8 kopper kaffe – nok til hele morgenbordet eller kaffen efter middagen. Den er lavet af glas, rustfrit stål og plast, så du kan følge kaffen, mens den trækker. Ingen filtre, ingen kapsler og intet spild.</p>
+<p>Den tåler opvaskemaskine, og den fås i flere farver – her i gul og grøn, der giver lidt farve på bordet.</p>
+HTML,
+			'good'    => [ 'Dig, der vil have klassikeren', 'Kaffe til flere', 'Nem opvask' ],
+			'less'    => [ 'Dig, der vil holde kaffen varm længe', 'Glaskanden kan gå i stykker' ],
+		],
+		[
+			'ean'     => '5057982084028',
+			'price'   => 305.95,
+			'name'    => 'La Cafetière stempelkande 8 kopper, dobbeltvægget stål',
+			'role'    => 'Holder kaffen varm længst',
+			'reviews' => [],
+			'verdict' => 'Stempelkande til 8 kopper i dobbeltvægget rustfrit stål, der holder kaffen varm meget længere end glas.',
+			'why'     => <<<'HTML'
+<p>La Cafetière i dobbeltvægget stål er til dig, der brygger en hel kande og drikker den over lang tid. De dobbelte vægge i rustfrit stål holder den friskbryggede kaffe varm markant længere end en traditionel glaskande, så kop nummer tre er stadig varm.</p>
+<p>Med plads til 8 kopper rækker den til hele familien, gæsterne eller en lang formiddag på hjemmekontoret. Stålet giver et stilrent og elegant udtryk på bordet, og du slipper for bekymringen om en glaskande, der kan gå i stykker.</p>
+<p>Vil du have en kande, der holder på varmen, men ikke har brug for Espros dobbelte mikrofilter, er den et oplagt alternativ.</p>
+HTML,
+			'good'    => [ 'Dig, der drikker kaffen langsomt', 'Kaffe til flere', 'Dig, der vil undgå glas' ],
+			'less'    => [ 'Du kan ikke se kaffen, mens den trækker' ],
 		],
 	],
 	'guide'    => <<<'HTML'

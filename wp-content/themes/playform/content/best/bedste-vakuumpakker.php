@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-vakuumpakker',
-	'title'    => 'Vakuumpakker: Vores bud på de 3 bedste',
-	'excerpt'  => 'En vakuumpakker får maden til at holde længere og beskytter mod frostskader – og er nødvendig til sous vide. Her er vores bud på de 3 bedste.',
+	'title'    => 'Vakuumpakker: Vores bud på de 5 bedste',
+	'excerpt'  => 'En vakuumpakker får maden til at holde længere og beskytter mod frostskader – og er nødvendig til sous vide. Her er vores bud på de 5 bedste.',
 	'more_cat' => 'vakuumpakker',
 	'intro'    => <<<'HTML'
 <p>En vakuumpakker suger luften ud af posen og svejser den til. Uden luft holder maden længere i køleskabet og fryseren, og du undgår frostskader. Vakuumpakning er også nødvendig til sous vide og praktisk til at marinere kød.</p>
-<p>Herunder er vores bud på de 3 bedste vakuumpakkere hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste vakuumpakkere fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Lavt budget', 'Fryseren', 'Marinering af kød' ],
 			'less'    => [ 'Dig, der pakker meget hver uge – en kammermaskine er stærkere' ],
+		],
+		[
+			'ean'     => '0851607006489',
+			'price'   => 899,
+			'name'    => 'Anova Precision Pro vakuumpakker',
+			'role'    => 'Bedst til sous vide',
+			'reviews' => [],
+			'verdict' => 'Vakuumpakker med Wet &amp; Dry, manuel forsegling, dobbelt svejsning og indbygget poseskærer – betjenes med én hånd.',
+			'why'     => <<<'HTML'
+<p>Anova Precision Pro er til dig, der laver sous vide eller marinerer meget og vil have flere måder at forsegle på. Wet &amp; Dry-funktionen er forudindstillet og kan bruges hver gang. Har du saftige råvarer eller marinade i posen, giver den dobbelte forsegling en ekstra sikker svejsning, og med den manuelle funktion bestemmer du selv, hvornår posen lukkes.</p>
+<p>Låget åbnes og lukkes nemt med én hånd, så den anden er fri til at holde posen. Bruger du ruller, skærer du posen til i den rigtige længde med den indbyggede poseskærer.</p>
+<p>I kassen ligger en rulle på 28 cm × 5 m og en slange, så du også kan suge luften ud af vakuumbeholdere.</p>
+HTML,
+			'good'    => [ 'Sous vide og marinader', 'Dig, der bruger ruller', 'Vakuumbeholdere' ],
+			'less'    => [ 'Dig, der kun pakker lidt en gang imellem' ],
+		],
+		[
+			'ean'     => '7350101117521',
+			'price'   => 279,
+			'name'    => 'NOD vakuumpakker',
+			'role'    => 'Billigst',
+			'reviews' => [],
+			'verdict' => 'Kompakt vakuumpakker på under et halvt kilo, der suger og svejser med én knap – og passer i en skuffe.',
+			'why'     => <<<'HTML'
+<p>NOD vakuumpakker er til dig, der vil mindske madspild uden at give plads til en stor maskine. Den lufttætte pose beskytter maden mod bakterier, skimmel og frostskader, så den holder sig frisk længere i køleskab og fryser.</p>
+<p>Betjeningen er enkel: Én knap klarer både vakuum og svejsning. Du kan bruge både ruller og færdige poser. Pakker du mad med væske, så giv ekstra god afstand mellem råvaren og maskinen, og lad posen hænge ud over kanten. Til sous vide med kød på ben er dobbelt pose en god idé.</p>
+<p>Den er kun 6 × 6 × 38 cm og vejer 0,49 kg, så den passer i en køkkenskuffe. Der er 3 års garanti.</p>
+HTML,
+			'good'    => [ 'Lavt budget', 'Små køkkener', 'Fryseren og madspild' ],
+			'less'    => [ 'Væsker og supper', 'Dig, der pakker meget hver uge' ],
 		],
 	],
 	'guide'    => <<<'HTML'

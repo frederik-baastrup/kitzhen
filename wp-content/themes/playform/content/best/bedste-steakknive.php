@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-steakknive',
-	'title'    => 'Steakknive: Vores bud på de 4 bedste',
-	'excerpt'  => 'Gode steakknive skærer bøffen rent uden at flænse kødet. Her er vores bud på de 4 bedste steakknive fra danske butikker – fra Morakniv til Zwilling.',
+	'title'    => 'Steakknive: Vores bud på de 5 bedste',
+	'excerpt'  => 'Gode steakknive skærer bøffen rent uden at flænse kødet. Her er vores bud på de 5 bedste steakknive fra de butikker, vi samarbejder med – fra Morakniv til Global.',
 	'more_cat' => 'steakknive',
 	'intro'    => <<<'HTML'
 <p>En god steakkniv skærer igennem bøffen uden at rive kødet, så saften bliver i stedet for at løbe ud på tallerkenen. Steakknive findes med glat æg og med takker. Glatte knive skærer pænest, men skal slibes; takkede knive holder sig skarpe længere, men flænser kødet lidt mere.</p>
-<p>Herunder er vores bud på de 4 bedste sæt steakknive hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste sæt steakknive fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Steakhouse-stemning', 'Dig, der vil kunne bruge opvaskemaskinen', 'Lavt budget' ],
 			'less'    => [ 'Fin borddækning' ],
+		],
+		[
+			'ean'     => '4943691400192',
+			'price'   => 999,
+			'name'    => 'Global GTF-4001 steakknive 4 stk.',
+			'role'    => 'Bedst japansk design',
+			'reviews' => [],
+			'verdict' => 'Fire smedede steakknive helt i rustfrit stål med Globals karakteristiske prikker på skaftet.',
+			'why'     => <<<'HTML'
+<p>Global GTF-4001 er til dig, der vil have steakknive med et rent, moderne udtryk. De velkendte prikker på skaftet gør Global-knivene til at genkende med det samme. Designet er lyst og elegant og skiller sig ud fra de klassiske knive med træskaft i guiden.</p>
+<p>Knivene er smedede og lavet i holdbart rustfrit stål, så du skærer bøffen, koteletten eller stegen uden besvær. Med fire knive i sættet er der til en almindelig middag for familien.</p>
+<p>Fordi der ikke er træ i skaftet, skal du ikke tænke på at olie det eller passe på, at det tørrer ud.</p>
+HTML,
+			'good'    => [ 'Moderne borddækning', 'Dig, der kan lide Globals design', 'Gave til madelskeren' ],
+			'less'    => [ 'Dig, der foretrækker et varmt træskaft', 'Store selskaber – kun 4 knive' ],
 		],
 	],
 	'guide'    => <<<'HTML'

@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-riskoger',
-	'title'    => 'Riskoger: Vores bud på de 3 bedste',
-	'excerpt'  => 'En riskoger giver perfekte ris hver gang – uden at koge over eller brænde på. Her er vores bud på de 3 bedste riskogere fra danske butikker.',
+	'title'    => 'Riskoger: Vores bud på de 5 bedste',
+	'excerpt'  => 'En riskoger giver perfekte ris hver gang – uden at koge over eller brænde på. Her er vores bud på de 5 bedste riskogere fra de butikker, vi samarbejder med.',
 	'more_cat' => 'riskoger',
 	'intro'    => <<<'HTML'
 <p>En riskoger tager gætteriet ud af risene. Du kommer ris og vand i, trykker på knappen, og riskogeren slår selv over på varmhold, når risene er færdige. De koger ikke over, brænder ikke på og holder sig varme, til maden er klar. Mange kan også dampe grøntsager og fisk og lave grød, quinoa og bulgur.</p>
-<p>Herunder er vores bud på de 3 bedste riskogere hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste riskogere fra de butikker, vi samarbejder med – fra den lille til én eller to til den store til hele familien.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil have det enkelt', 'Lavt budget', 'Ris til hele familien' ],
 			'less'    => [ 'Dig, der vil holde risene varme længe', 'Flere programmer' ],
+		],
+		[
+			'ean'     => '4016432425188',
+			'price'   => 649,
+			'name'    => 'Gastroback Design Pro riskoger 5 liter',
+			'role'    => 'Bedst til store familier',
+			'reviews' => [],
+			'verdict' => 'Stor riskoger på 5 liter i rustfrit stål med non-stick-gryde, varmhold og automatisk slukning.',
+			'why'     => <<<'HTML'
+<p>Gastroback Design Pro er til familien, der vil have masser af ris uden besvær. Med 5 liter kan du lave en lille portion til hverdag eller en stor gryde, når der kommer gæster. Risene koger ikke over og brænder ikke på, så du kan passe resten af maden imens.</p>
+<p>De 700 W og non-stick-belægningen i gryden giver jævnt kogte ris, der slipper let. Når risene er færdige, slukker den selv og går over på varmhold, og en kontrollampe viser, hvad den er i gang med.</p>
+<p>Kabinettet er i rustfrit stål, så den ser pæn ud på køkkenbordet. Den måler 30,6 × 33 cm i grundflade, og der er 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Store familier og gæster', 'Dig, der vil have det enkelt', 'Pænt design i rustfrit stål' ],
+			'less'    => [ 'Dig, der vil have programmer til quinoa og brune ris', 'Små køkkener med lidt plads' ],
+		],
+		[
+			'ean'     => '7391091867089',
+			'price'   => 199,
+			'name'    => 'Champion RK400 Mini riskoger 0,6 liter',
+			'role'    => 'Bedst til små husstande',
+			'reviews' => [],
+			'verdict' => 'Kompakt riskoger på 0,6 liter med keramisk non-stick, glaslåg og varmhold – til 5–10 portioner.',
+			'why'     => <<<'HTML'
+<p>Champion RK400 Mini er riskogeren til singlen, parret eller det lille køkken. Den rummer 0,6 liter, hvilket rækker til mellem 5 og 10 portioner, og den fylder kun ca. 20 × 25 cm på bordet.</p>
+<p>Gryden har en keramisk non-stick-belægning, så risene ikke brænder fast, og opvasken går hurtigt. Når risene er klar, holder varmholdet dem varme, til du skal servere. Gennem glaslåget kan du følge med undervejs, og med 300 W er den en energibesparende løsning.</p>
+<p>Med følger et målebæger og en skraber i plast, så du rammer mængden af vand og ikke ridser gryden. Den tåler ikke opvaskemaskine, men non-stick gør den hurtig at skylle af i hånden. Der er 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Singler og par', 'Små køkkener', 'Dig, der vil have det billigt' ],
+			'less'    => [ 'Familier, der laver store portioner', 'Tåler ikke opvaskemaskine' ],
 		],
 	],
 	'guide'    => <<<'HTML'

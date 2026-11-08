@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-slow-juicer',
-	'title'    => 'Slow juicer: Vores bud på de 3 bedste',
-	'excerpt'  => 'En slow juicer presser saften langsomt ud og giver mere juice af grønt end en centrifuge. Her er vores bud på de 3 bedste slow juicere fra danske butikker.',
+	'title'    => 'Slow juicer: Vores bud på de 5 bedste',
+	'excerpt'  => 'En slow juicer presser saften langsomt ud og giver mere juice af grønt end en centrifuge. Her er vores bud på de 5 bedste slow juicere fra de butikker, vi samarbejder med.',
 	'more_cat' => 'slow-juicer',
 	'intro'    => <<<'HTML'
 <p>En slow juicer – også kaldet en koldpresser – presser frugt og grønt med en langsomt roterende snegl i stedet for at rive det i stykker ved høj hastighed. Det giver mere juice af bladgrønt som spinat og grønkål, mindre skum og mindre larm. Til gengæld tager det lidt længere tid.</p>
-<p>Herunder er vores bud på de 3 bedste slow juicere hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste slow juicere fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Begyndere', 'Små køkkener', 'Sorbet og syltetøj' ],
 			'less'    => [ 'Store mængder ad gangen' ],
+		],
+		[
+			'ean'     => '8021098004499',
+			'price'   => 849,
+			'name'    => 'Braun SJ7000 MultiJuice 7 slowjuicer',
+			'role'    => 'Bedst mellemklasse',
+			'reviews' => [],
+			'verdict' => 'Støjsvag slowjuicer på 2 liter, der klarer både sarte bær og hårde rodfrugter.',
+			'why'     => <<<'HTML'
+<p>Braun SJ7000 MultiJuice 7 er til dig, der vil gøre frisk juice til en fast del af hverdagen uden at betale for topmodellen. Den har en kapacitet på 2 liter og presser alt fra appelsiner og æbler til bær og grønne grøntsager.</p>
+<p>Den robuste motor og udvindingssystemet er bygget til at få mest muligt saft ud af råvarerne, så der går mindre til spilde. Både bløde bær og faste rodfrugter kan komme i, så du frit kan skifte mellem søde frugtjuicer og grøntsagsjuice. Motoren er støjsvag, så morgenjuicen ikke vækker resten af huset.</p>
+<p>Bagefter skilles den nemt ad, og de aftagelige dele gør opvasken hurtig. Den fylder 26 × 23,5 cm på bordet.</p>
+HTML,
+			'good'    => [ 'Juice hver morgen', 'Både frugt og grønt', 'Dig, der vil have en stille maskine' ],
+			'less'    => [ 'Dig, der vil komme hele frugter i uden at skære dem' ],
+		],
+		[
+			'ean'     => '8710103795629',
+			'price'   => 1599,
+			'name'    => 'Philips Viva Collection slowjuicer HR1889/70',
+			'role'    => 'Hurtigst at gøre ren',
+			'reviews' => [],
+			'verdict' => 'Bred 70 mm påfyldning til hele frugter og QuickClean, så maskinen er ren på cirka 90 sekunder.',
+			'why'     => <<<'HTML'
+<p>Philips Viva Collection er til dig, der vil have frisk juice uden lang forberedelse og lang oprydning. Påfyldningsrøret er 70 mm bredt, så de fleste frugter og store stykker grønt kan komme i hele. Den 150 W motor presser langsomt og under højt tryk, og den klarer alt fra bløde bær til rødbeder og grønkål. Udbyttet er op til 80 % af råvarernes indhold.</p>
+<p>Rengøringen er tænkt ind fra starten. Med QuickClean og en lille, glat si kan du skylle den ren på omkring 90 sekunder, og alle aftagelige dele tåler opvaskemaskine. Et indbygget drypstop holder bordet rent mellem glassene.</p>
+<p>Den er kun 13,65 cm bred, og beholderen til frugtkød kan stå inde i juicetragten, når den skal stilles væk. HomeID-appen giver idéer til nye opskrifter.</p>
+HTML,
+			'good'    => [ 'Dig, der hader opvask', 'Hele frugter uden at skære', 'Små køkkener' ],
+			'less'    => [ 'Dig, der vil holde prisen nede' ],
 		],
 	],
 	'guide'    => <<<'HTML'

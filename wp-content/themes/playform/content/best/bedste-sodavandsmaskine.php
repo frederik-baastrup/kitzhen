@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-sodavandsmaskine',
-	'title'    => 'Sodavandsmaskine: Vores bud på de 3 bedste',
-	'excerpt'  => 'En sodavandsmaskine giver danskvand fra hanen – uden at slæbe flasker. Her er vores bud på de 3 bedste sodavandsmaskiner fra danske butikker.',
+	'title'    => 'Sodavandsmaskine: Vores bud på de 5 bedste',
+	'excerpt'  => 'En sodavandsmaskine giver danskvand fra hanen – uden at slæbe flasker. Her er vores bud på de 5 bedste sodavandsmaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'sodavandsmaskine',
 	'intro'    => <<<'HTML'
 <p>En sodavandsmaskine tilsætter kulsyre til postevand, så du får danskvand på få sekunder. Du sparer penge, plastflasker og slæb fra supermarkedet. Kulsyren kommer fra en udskiftelig cylinder, der kan byttes, når den er tom.</p>
-<p>Herunder er vores bud på de 3 bedste sodavandsmaskiner hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste sodavandsmaskiner fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Danskvand hver dag', 'Lavt budget', 'Steder uden stikkontakt' ],
 			'less'    => [ 'Kulsyre i juice og vin', 'Kulsyrecylinder medfølger ikke' ],
+		],
+		[
+			'ean'     => '5709846033696',
+			'price'   => 999,
+			'name'    => 'Stelton Brus vægmonteret sodavandsmaskine',
+			'role'    => 'Bedst til væggen',
+			'reviews' => [],
+			'verdict' => 'Slank sodavandsmaskine, der hænger på væggen – kun 7 cm bred, designet af Søren Refsgaard.',
+			'why'     => <<<'HTML'
+<p>Stelton Brus er til dig, der vil have danskvand lige ved hånden uden at ofre plads på køkkenbordet. Maskinen hænger på væggen, så bordet forbliver frit til madlavningen. Den er kun 7 cm bred og 42 cm høj.</p>
+<p>Designet er af Søren Refsgaard og følger Steltons enkle stil: slanke, cylindriske former og en smal beholder til kulsyrepatronen. Brussen styrer du med et enkelt vred, så du får præcis den mængde bobler, du kan lide.</p>
+<p>Med følger en flaske, der matcher maskinen. Den fås i sort og er en oplagt løsning i køkkener, hvor hver centimeter bordplads tæller.</p>
+HTML,
+			'good'    => [ 'Små køkkener med lidt bordplads', 'Dig, der går op i dansk design', 'Danskvand hver dag' ],
+			'less'    => [ 'Dig, der ikke vil bore i væggen', 'Kun én flaske med' ],
+		],
+		[
+			'ean'     => '7350091792289',
+			'price'   => 2099,
+			'name'    => 'Aarke Carbonator Pro',
+			'role'    => 'Bedst premium',
+			'reviews' => [],
+			'verdict' => 'Sodavandsmaskine i rustfrit stål med glasflaske og Push-to-Lock, så du betjener den med én hånd.',
+			'why'     => <<<'HTML'
+<p>Aarke Carbonator Pro er sodavandsmaskinen til dig, der vil have noget solidt og smukt på køkkenbordet. Rammen er i rustfrit stål, og foden er beklædt med gummi, så den står fast uden at ridse bordet.</p>
+<p>Med Push-to-Lock klarer du det hele med én hånd: Sæt flasken i, sænk låget og tryk på knappen. Når vandet har fået bobler, glider låget op igen. Ét tryk giver lidt brus, flere tryk giver mere. Maskinen kører uden strøm og passer til gasflasker fra kendte mærker.</p>
+<p>Flasken er i glas og rummer 0,8 liter. Den tåler opvaskemaskine, men passer kun til Pro-modellen. Kulsyrepatronen skal købes separat, og der er 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Dig, der vil have glasflaske frem for plast', 'Køkkener, hvor maskinen skal stå fremme', 'Frit valg af gasflaske' ],
+			'less'    => [ 'Kulsyrepatron medfølger ikke', 'Glasflasken passer kun til Pro-modellen' ],
 		],
 	],
 	'guide'    => <<<'HTML'

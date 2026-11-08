@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-sous-vide-stav',
-	'title'    => 'Sous vide-stav: Vores bud på de 3 bedste',
-	'excerpt'  => 'Med en sous vide-stav tilbereder du kød og fisk præcist i vandbad – perfekt hver gang. Her er vores bud på de 3 bedste sous vide-stave fra danske butikker.',
+	'title'    => 'Sous vide-stav: Vores bud på de 5 bedste',
+	'excerpt'  => 'Med en sous vide-stav tilbereder du kød og fisk præcist i vandbad – perfekt hver gang. Her er vores bud på de 5 bedste sous vide-stave fra de butikker, vi samarbejder med.',
 	'more_cat' => 'sous-vide',
 	'intro'    => <<<'HTML'
 <p>Sous vide betyder "under vakuum". Maden vakuumpakkes og tilberedes i et vandbad ved præcis den temperatur, den skal have – fx 56 °C til en medium bøf. Den kan ikke blive overkogt, og bagefter giver du den en hurtig tur på panden for stegeskorpe. En sous vide-stav sættes i en gryde med vand og holder temperaturen.</p>
-<p>Herunder er vores bud på de 3 bedste sous vide-stave hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste sous vide-stave fra de butikker, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -58,6 +58,36 @@ HTML,
 HTML,
 			'good'    => [ 'Lavt budget', 'Små køkkener med lidt plads', 'Hverdagsmad til familien' ],
 			'less'    => [ 'Meget store vandbade – den er lavet til omkring 20 liter' ],
+		],
+		[
+			'ean'     => '0850043914068',
+			'price'   => 1149,
+			'name'    => 'Anova Precision Cooker 3.0',
+			'role'    => 'Bedst alternativ',
+			'reviews' => [],
+			'verdict' => 'Let sous vide-cirkulator på under 1 kg, der giver saftige stege og jævnt tilberedt fisk i din egen gryde.',
+			'why'     => <<<'HTML'
+<p>Anova Precision Cooker 3.0 er et godt alternativ til Steba-stavene, hvis du vil have et andet mærke på køkkenbordet. Du sætter cirkulatoren i din egen gryde med vand, indstiller den, og så tilberedes maden præcist og jævnt, mens du laver noget andet.</p>
+<p>Den er oplagt til de retter, hvor sous vide gør den store forskel: en saftig steg, der har samme stegegrad hele vejen igennem, eller fisk, der bliver jævnt tilberedt uden at tørre ud. Det er udstyret til middagen, hvor du vil imponere gæsterne.</p>
+<p>Cirkulatoren er lavet i plast og rustfrit stål og vejer kun 0,99 kg, så den er nem at tage frem og gemme væk i en skuffe.</p>
+HTML,
+			'good'    => [ 'Steg og fisk', 'Dig, der vil bruge din egen gryde', 'Let at gemme væk' ],
+			'less'    => [ 'Dig, der også mangler en vakuumpakker' ],
+		],
+		[
+			'ean'     => '7391091851347',
+			'price'   => 599,
+			'name'    => 'Champion Sous Vide Precision Circulator',
+			'role'    => 'Billigst',
+			'reviews' => [],
+			'verdict' => 'Den billige vej ind i sous vide: 800 W, timer, display og temperaturen holdt inden for 0,1 °C.',
+			'why'     => <<<'HTML'
+<p>Champion Sous Vide Precision Circulator er til dig, der vil prøve sous vide uden at bruge mange penge. Du sætter den i din egen gryde, lægger de vakuumpakkede råvarer i vandet og indstiller temperatur og tid. Resten klarer den selv.</p>
+<p>Vandet cirkulerer hele tiden, så temperaturen holdes inden for ±0,1 °C. Det betyder mørt kød med præcis den stegegrad, du har valgt. Den har 800 W, kan stilles fra 0 til 92 °C og klarer op til 15 liter vand. Displayet viser temperaturen, og timeren holder styr på tiden.</p>
+<p>Den er nem at gøre ren, og ledningen er 1,2 m lang. Giv bøffen 30 sekunder på hver side på en varm pande til sidst, så får du også stegeskorpen.</p>
+HTML,
+			'good'    => [ 'Begyndere og lavt budget', 'Hverdagsmad til familien', 'Bøffer med præcis stegegrad' ],
+			'less'    => [ 'Store vandbade over 15 liter' ],
 		],
 	],
 	'guide'    => <<<'HTML'

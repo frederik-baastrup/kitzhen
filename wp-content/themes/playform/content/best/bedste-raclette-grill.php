@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-raclette-grill',
-	'title'    => 'Raclette grill: Vores bud på de 3 bedste',
-	'excerpt'  => 'En raclette grill står midt på bordet, så alle kan smelte ost og grille kød og grøntsager selv. Her er vores bud på de 3 bedste fra danske butikker.',
+	'title'    => 'Raclette grill: Vores bud på de 5 bedste',
+	'excerpt'  => 'En raclette grill står midt på bordet, så alle kan smelte ost og grille kød og grøntsager selv. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'bordgrill',
 	'intro'    => <<<'HTML'
 <p>Raclette er en hyggelig middag, hvor grillen står midt på bordet. Øverst er en grillplade til kød og grøntsager, og nedenunder smelter hver gæst ost i sin egen lille pande og hælder den over kartofler, pølser og syltede grøntsager. Den er perfekt til nytårsaften, vinteraftener og børnefamilier.</p>
-<p>Herunder er vores bud på de 3 bedste raclette grills hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste raclette grills fra de butikker, vi samarbejder med – fra den billige model til otte til den store til tolv personer.</p>
 HTML,
 	'picks'    => [
 		[
@@ -59,11 +59,41 @@ HTML,
 			'good'    => [ 'Fondue og raclette i ét', 'Op til 8 personer', 'Dig, der vil have mest for pengene' ],
 			'less'    => [ 'Dig, der kun vil have raclette' ],
 		],
+		[
+			'ean'     => '7350101117910',
+			'price'   => 349,
+			'name'    => 'NOD Raclette til 8 personer',
+			'role'    => 'Billigst',
+			'reviews' => [],
+			'verdict' => 'Raclette til otte med delt grillflade – halvt natursten, halvt non-stick – og justerbar varme på 1400 W.',
+			'why'     => <<<'HTML'
+<p>NOD Raclette er det billige bud på en rigtig raclette-aften til otte. Hver gæst fylder sin egen lille pande, skubber den ind under grillen og laver sin mad, præcis som de vil have den.</p>
+<p>Grillfladen er delt i to: Den ene halvdel er natursten, den anden har non-stick-belægning. Så kan du stege kød på stenen og grøntsager eller æg på non-stick-siden samtidig. Med i kassen er otte minipander med non-stick, og de 1400 W kan justeres, så du styrer varmen efter, hvad der ligger på pladen.</p>
+<p>Den måler 40 × 25 cm og vejer 4,5 kg, så den er nem at stille frem og pakke væk igen. Der er 3 års garanti.</p>
+HTML,
+			'good'    => [ 'Dig, der vil i gang for få penge', 'Op til 8 personer', 'Både sten og non-stick på én plade' ],
+			'less'    => [ 'Dig, der også vil lave fondue' ],
+		],
+		[
+			'ean'     => '3523930089183',
+			'price'   => 589,
+			'name'    => 'Livoo Raclette til 12 personer',
+			'role'    => 'Til flest gæster',
+			'reviews' => [],
+			'verdict' => 'Plads til hele 12 personer om bordet – racletten til de store familiefester og vennemiddage.',
+			'why'     => <<<'HTML'
+<p>Livoo Raclette er til dig, der ofte har fuldt hus. Hvor de andre modeller i guiden er bygget til otte, har den her plads til 12 personer. Så kan hele familien eller vennegruppen sidde om den samme grill, og ingen skal vente på en ledig pande.</p>
+<p>Det er netop det, der gør raclette så hyggeligt: Alle laver deres egen mad ved bordet, i deres eget tempo og med det fyld, de selv kan lide. Med 12 pladser bliver racletten midtpunktet til nytår, fødselsdage og lange vinteraftener.</p>
+<p>Er I sjældent mere end fire, er en mindre model nemmere at have med at gøre. Men skal der være plads til mange, er det her det oplagte valg.</p>
+HTML,
+			'good'    => [ 'Store familier og fester', 'Op til 12 personer', 'Dig, der vil have plads til alle på én gang' ],
+			'less'    => [ 'Små husstande, der sjældent er mange om bordet' ],
+		],
 	],
 	'guide'    => <<<'HTML'
 <h2>Sådan vælger du en raclette grill</h2>
 <h3>Antal personer</h3>
-<p>Raclette angives efter antal pander. 6–8 pander passer til de fleste familier og vennegrupper.</p>
+<p>Raclette angives efter antal pander. 6–8 pander passer til de fleste familier og vennegrupper. Kommer I ofte mange, findes der også modeller til 12 personer.</p>
 <h3>Grillplade</h3>
 <p>En grillplade i sten giver en jævn varme og sprøde grøntsager. Non-stick er nemmest at gøre ren.</p>
 <h3>Ost til raclette</h3>

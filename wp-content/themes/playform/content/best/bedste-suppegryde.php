@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-suppegryde',
-	'title'    => 'Suppegryde: Vores bud på de 3 bedste',
-	'excerpt'  => 'En stor suppegryde er til suppe, fond, pasta og gryderetter til mange. Her er vores bud på de 3 bedste suppegryder fra danske butikker.',
+	'title'    => 'Suppegryde: Vores bud på de 5 bedste',
+	'excerpt'  => 'En stor suppegryde er til suppe, fond, pasta og gryderetter til mange. Her er vores bud på de 5 bedste suppegryder fra de butikker, vi samarbejder med.',
 	'more_cat' => 'gryde',
 	'intro'    => <<<'HTML'
 <p>En suppegryde er den store gryde i køkkenet – til suppe, fond, pasta, kartofler til mange og gryderetter, der skal række til flere dage. Den skal være stor nok, have en bund, der fordeler varmen, og håndtag, der er gode at løfte i, når gryden er fuld.</p>
-<p>Herunder er vores bud på de 3 bedste suppegryder hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste suppegryder fra de butikker, vi samarbejder med – fra 7,2 til 14,5 liter.</p>
 HTML,
 	'picks'    => [
 		[
@@ -57,6 +57,36 @@ HTML,
 <p>Grebene i rustfrit stål holder sig kølige under madlavningen, og gryden tåler både opvaskemaskine og ovn op til 260 °C. Scanpan giver 5 års garanti.</p>
 HTML,
 			'good'    => [ 'Familien til hverdag', 'Induktionskomfur', 'Dig, der vil have låg med' ],
+			'less'    => [ 'Store portioner til mange gæster' ],
+		],
+		[
+			'ean'     => '5722002098285',
+			'price'   => 399,
+			'name'    => 'Funktion suppegryde 14,5 liter',
+			'role'    => 'Bedst til store portioner',
+			'reviews' => [],
+			'verdict' => 'Den største gryde i guiden: 14,5 liter i rustfrit stål med låg, og den virker også på induktion.',
+			'why'     => <<<'HTML'
+<p>Funktion suppegryden på 14,5 liter er til de dage, hvor der skal laves mad til rigtig mange. En kraftig fond på marvben, der simrer natten over, gullaschsuppe til vejfesten, saftkogning sidst på sommeren eller krebsegildet i august – her er der plads til det hele.</p>
+<p>Gryden er i rustfrit stål og 21 cm høj. Der følger et låg med damphul med, så dampen kan slippe ud, mens det simrer. Den passer til alle komfurtyper, også induktion.</p>
+<p>Gør den ren med en blød børste, varmt vand og sæbe, så holder den sig pæn.</p>
+HTML,
+			'good'    => [ 'Fond, saftkogning og store fester', 'Dig, der vil have låg med', 'Induktionskomfur' ],
+			'less'    => [ 'Små skabe og små familier', 'Bør vaskes i hånden' ],
+		],
+		[
+			'ean'     => '0083421745040',
+			'price'   => 999,
+			'name'    => 'Scanpan Fusion 5 suppegryde 7,6 liter',
+			'role'    => 'Bedst premium-valg',
+			'reviews' => [],
+			'verdict' => 'Suppegryde på 7,6 liter i rustfrit stål fra Scanpan med låg, målestreger og plads i opvaskemaskinen.',
+			'why'     => <<<'HTML'
+<p>Scanpan Fusion 5 er suppegryden til familien, der vil have en solid gryde fra Scanpan. Med 7,6 liter er der plads til en stor portion suppe, kartofler eller pasta, så alle bliver mætte, og der er rester til næste dag.</p>
+<p>Både gryde og låg er i rustfrit stål, og gryden virker på alle varmekilder, også induktion. Indvendig er der målestreger, så du kan hælde vand og bouillon direkte i uden et målebæger.</p>
+<p>Når I har spist, kan den komme i opvaskemaskinen. Der er 2 års garanti.</p>
+HTML,
+			'good'    => [ 'Familier', 'Dig, der vil have låg og målestreger', 'Alle komfurer – også induktion' ],
 			'less'    => [ 'Store portioner til mange gæster' ],
 		],
 	],

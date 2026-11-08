@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-wokpande',
-	'title'    => 'Wokpande: Vores bud på de 4 bedste',
-	'excerpt'  => 'En wokpande er dyb med buede sider – perfekt til lynstegning ved høj varme. Her er vores bud på de 4 bedste wokpander fra danske butikker.',
+	'title'    => 'Wokpande: Vores bud på de 5 bedste',
+	'excerpt'  => 'En wokpande er dyb med buede sider – perfekt til lynstegning ved høj varme. Her er vores bud på de 5 bedste wokpander fra de butikker, vi samarbejder med.',
 	'more_cat' => 'wokpande',
 	'intro'    => <<<'HTML'
 <p>En wok er dyb med skrå, buede sider, så du kan stege ved meget høj varme og vende maden hurtigt uden at den ryger ud af panden. Grøntsagerne forbliver sprøde, og kødet får stegeskorpe på få minutter. Wokken kan også bruges til at sautere, dampe og fritere.</p>
-<p>Herunder er vores bud på de 4 bedste wokpander hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 5 bedste wokpander fra de butikker, vi samarbejder med – i slip-let, støbejern, rustfrit stål og kulstål.</p>
 HTML,
 	'picks'    => [
 		[
@@ -73,6 +73,21 @@ HTML,
 HTML,
 			'good'    => [ 'Hverdagsmad', 'Lavt budget', 'Mindre husstande' ],
 			'less'    => [ 'Meget høj varme' ],
+		],
+		[
+			'ean'     => '0048002220606',
+			'price'   => 579,
+			'name'    => 'Joyce Chen Professional wokpande 30 cm, kulstål',
+			'role'    => 'Bedst i kulstål',
+			'reviews' => [],
+			'verdict' => 'Traditionel wok i 1,8 mm kulstål på 30 cm, der bliver naturligt slip-let, jo mere du bruger den.',
+			'why'     => <<<'HTML'
+<p>Joyce Chen Professional er wokken til dig, der vil lave mad som i det kinesiske køkken. Joyce Chen var en pioner inden for asiatisk madlavning og gjorde Peking-wokken kendt blandt hjemmekokke. Med 30 cm i diameter passer den til de fleste husstande.</p>
+<p>Wokken er lavet af 1,8 mm kulstål, der bliver hurtigt varmt og fordeler varmen jævnt. Du har fuld kontrol over temperaturen og kan lynstege grøntsager, kød og skaldyr. Håndtagene i fenolplast tåler ovnen op til 175 °C, så du kan gøre retten færdig derinde.</p>
+<p>Før første brug vasker du vokslaget af og brænder wokken ind med neutral olie. Så får den en naturlig slip-let-overflade, der bliver bedre med tiden. Skyl den i varmt vand uden sæbe, tør den grundigt, og giv den lidt olie.</p>
+HTML,
+			'good'    => [ 'Ægte wokstegning ved høj varme', 'Dig, der vil have en wok uden belægning', 'Dig, der gider passe den' ],
+			'less'    => [ 'Skal brændes ind før brug', 'Tåler ikke opvaskemaskine' ],
 		],
 	],
 	'guide'    => <<<'HTML'

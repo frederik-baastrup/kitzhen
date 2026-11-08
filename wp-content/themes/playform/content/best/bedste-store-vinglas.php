@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-store-vinglas',
-	'title'    => 'Store vinglas: Vores bud på de 4 bedste',
-	'excerpt'  => 'Store vinglas giver vinen plads til at ånde og ser imponerende ud på bordet. Her er vores bud på de 4 bedste store vinglas fra danske butikker – fra 65 cl til over en liter.',
+	'title'    => 'Store vinglas: Vores bud på de 5 bedste',
+	'excerpt'  => 'Store vinglas giver vinen plads til at ånde og ser imponerende ud på bordet. Her er vores bud på de 5 bedste store vinglas fra de butikker, vi samarbejder med – fra 65 cl til over en liter.',
 	'more_cat' => 'vinglas',
 	'intro'    => <<<'HTML'
 <p>Store vinglas – også kaldet magnumglas eller ballonglas – har en skål på 65 cl eller mere. Den store overflade giver vinen masser af luft, så aromaerne træder frem, og tanninerne i kraftige rødvine bliver blødere. De passer især til bourgogne, pinot noir og fyldige, fadlagrede hvidvine – og så ser de flotte ud på bordet.</p>
-<p>Herunder er vores bud på de 4 bedste store vinglas hos danske butikker lige nu. Nederst finder du en guide til størrelse, skab og opvask.</p>
+<p>Herunder er vores bud på de 5 bedste store vinglas fra de butikker, vi samarbejder med. Nederst finder du en guide til størrelse, skab og opvask.</p>
 HTML,
 	'picks'    => [
 		[
@@ -67,6 +67,21 @@ HTML,
 HTML,
 			'good'    => [ 'Gaver til vinelskere', 'De helt store vine' ],
 			'less'    => [ 'Hverdag og opvaskemaskinen' ],
+		],
+		[
+			'ean'     => '5709554132506',
+			'price'   => 279,
+			'name'    => 'Aida Ultima Bourgogne 84 cl, 2 stk.',
+			'role'    => 'Bedst dansk design',
+			'reviews' => [],
+			'verdict' => 'Mundblæste bourgogneglas på 84 cl med let kantet form, designet af Karim Rashid for danske Aida.',
+			'why'     => <<<'HTML'
+<p>Aida Ultima Bourgogne er til dig, der vil have store glas med et udtryk, der skiller sig ud. Glassene er mundblæste, og den let kantede form gør dem til et blikfang på bordet – lidt anderledes end de klassiske, runde ballonglas.</p>
+<p>Med 84 cl er der masser af plads til, at bourgogne, pinot noir og andre aromatiske vine kan få luft og åbne sig. Serien er et samarbejde mellem det danske designhus Aida og den industrielle designer Karim Rashid.</p>
+<p>Ultima-serien har seks forskellige glas, så du kan bygge videre med flere typer, hvis du falder for designet. Du får to glas i pakken.</p>
+HTML,
+			'good'    => [ 'Bourgogne og pinot noir', 'Dig, der vil have et anderledes design', 'Gave til vinelskeren' ],
+			'less'    => [ 'Store selskaber – kun 2 glas pr. pakke' ],
 		],
 	],
 	'guide'    => <<<'HTML'

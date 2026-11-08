@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-toendekoeler',
-	'title'    => 'Tøndekøler: Vores bud på de 2 bedste',
-	'excerpt'  => 'En tøndekøler eller party cooler holder øl og sodavand kolde lige der, hvor festen er. Her er de 2 tøndekølere, vi kan anbefale fra danske butikker lige nu.',
+	'title'    => 'Tøndekøler: Vores bud på de 3 bedste',
+	'excerpt'  => 'En tøndekøler eller party cooler holder øl og sodavand kolde lige der, hvor festen er. Her er de 3 tøndekølere, vi kan anbefale fra de butikker, vi samarbejder med.',
 	'more_cat' => 'toendekoeler',
 	'intro'    => <<<'HTML'
 <p>En tøndekøler – eller party cooler – er et lille køleskab formet som en tønde eller kasse, der kan stå i stuen, udestuen, på terrassen eller i hobbyrummet. Du slipper for at gå frem og tilbage til køleskabet, og drikkene er kolde hele aftenen.</p>
-<p>Herunder er de to party coolers, vi kan anbefale hos danske butikker lige nu.</p>
+<p>Herunder er de tre tøndekølere, vi kan anbefale fra de butikker, vi samarbejder med: to party coolers til hjemmet og en rund tøndekøler til bar og events.</p>
 HTML,
 	'picks'    => [
 		[
@@ -44,11 +44,26 @@ HTML,
 			'good'    => [ 'Stuen og udestuen', 'Mindre fester og hyggeaftener', 'Dig, der vil have garanti' ],
 			'less'    => [ 'Store fester', 'Må ikke stå ude i regn og fugt' ],
 		],
+		[
+			'ean'     => '5704704010932',
+			'price'   => 4259,
+			'name'    => 'Scandomestic ST 66 tøndekøler 40 liter',
+			'role'    => 'Bedst til bar og events',
+			'reviews' => [],
+			'verdict' => 'Rund tøndekøler på 40 liter, der holder drikkene iskolde og fanger blikket til fester, events og i baren.',
+			'why'     => <<<'HTML'
+<p>Scandomestic ST 66 er tøndekøleren til dig, der vil have kolde drikke med stil. Den har den klassiske, runde tøndeform, så den bliver et blikfang, uanset om den står til festen, på eventet, i baren eller i loungen.</p>
+<p>Med 40 liter er der plads til masser af øl, sodavand og andre drikke, så gæsterne kan forsyne sig selv. Køleren er mobil og lavet til at servere iskolde drikke der, hvor folk er – i stedet for at nogen skal løbe frem og tilbage til køleskabet.</p>
+<p>Hvor NOD-kølerne er bygget til stuen og udestuen, er ST 66 et oplagt valg, hvis du har en hjemmebar, holder mange arrangementer eller vil have en køler, der også er en del af stemningen.</p>
+HTML,
+			'good'    => [ 'Hjemmebar og lounge', 'Fester og events', 'Dig, der vil have den klassiske tøndeform' ],
+			'less'    => [ 'Dig, der bare vil have en enkel køler til hyggeaftener' ],
+		],
 	],
 	'guide'    => <<<'HTML'
 <h2>Sådan vælger du en tøndekøler</h2>
 <h3>Størrelse</h3>
-<p>30 liter rækker til en hyggeaften, 50 liter til en fest.</p>
+<p>30 liter rækker til en hyggeaften, 40–50 liter til en fest.</p>
 <h3>Støj</h3>
 <p>Skal køleren stå i stuen, så kig efter støjniveauet i dB.</p>
 <h3>Ude og inde</h3>

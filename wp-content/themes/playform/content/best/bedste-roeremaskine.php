@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-roeremaskine',
-	'title'    => 'Røremaskine: Vores bud på de 4 bedste',
-	'excerpt'  => 'En røremaskine ælter dej, pisker flødeskum og rører kagedej, mens du laver noget andet. Her er vores bud på de 4 bedste røremaskiner fra danske butikker.',
+	'title'    => 'Røremaskine: Vores bud på de 5 bedste',
+	'excerpt'  => 'En røremaskine ælter dej, pisker flødeskum og rører kagedej, mens du laver noget andet. Her er vores bud på de 5 bedste røremaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'roeremaskine',
 	'intro'    => <<<'HTML'
 <p>En røremaskine – eller køkkenmaskine – er bagerens bedste ven. Den ælter brøddej, pisker æggehvider og flødeskum og rører kagedej, mens du har hænderne fri. Med tilbehør som kødhakker, pastavalser og grøntsagsrivejern kan den meget mere end at bage.</p>
-<p>Herunder er vores bud på de 4 bedste røremaskiner hos danske butikker lige nu. Nederst finder du en købsguide til skålstørrelse, effekt og type.</p>
+<p>Herunder er vores bud på de 5 bedste røremaskiner fra de butikker, vi samarbejder med. Nederst finder du en købsguide til skålstørrelse, effekt og type.</p>
 HTML,
 	'picks'    => [
 		[
@@ -65,6 +65,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig, der vil have en røremaskine uden at give meget' ],
 			'less'    => [ 'Meget store mængder dej' ],
+		],
+		[
+			'ean'     => '5011423002033',
+			'price'   => 3045,
+			'name'    => 'Kenwood KVL65.001WH med indbygget vægt',
+			'role'    => 'Bedst med indbygget vægt',
+			'reviews' => [],
+			'verdict' => 'Røremaskine med skål på 6,7 liter, 1200 W og indbygget vægt, så du vejer direkte i skålen.',
+			'why'     => <<<'HTML'
+<p>Kenwood KVL65 er til dig, der vil bage uden at fylde bordet med køkkenvægt og målebægre. Vægten er bygget ind i maskinen, så du hælder ingredienserne direkte i skålen og kan se, hvor mange gram der er kommet i. Færre skåle, mindre opvask og mere præcise opskrifter.</p>
+<p>Skålen rummer 6,7 liter, og de 1200 W klarer tunge deje som pizzadej og brøddej, men også kagedej og makroner. Med følger dejkrog, K-pisker, piskeris og stænkskærm, og hastigheden kan reguleres trinløst. Mangler du idéer, kan maskinen bruges sammen med Kenwoods app med opskrifter og tips.</p>
+<p>De aftagelige dele tåler opvaskemaskine, og Kenwood giver 10 års garanti på motoren.</p>
+HTML,
+			'good'    => [ 'Dig, der vil veje direkte i skålen', 'Store portioner brød og pizzadej', 'Lang garanti på motoren' ],
+			'less'    => [ 'Små køkkener – den vejer 12 kg', 'Dig, der vil have turboknap' ],
 		],
 	],
 	'guide'    => <<<'HTML'

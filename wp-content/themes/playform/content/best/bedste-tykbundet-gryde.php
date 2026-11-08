@@ -7,12 +7,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-tykbundet-gryde',
-	'title'    => 'Tykbundet gryde: Vores bud på de 4 bedste',
-	'excerpt'  => 'En tykbundet gryde fordeler varmen jævnt, så sovs og gryderetter ikke brænder på. Her er vores bud på de 4 bedste fra danske butikker – i stål og støbejern.',
+	'title'    => 'Tykbundet gryde: Vores bud på de 5 bedste',
+	'excerpt'  => 'En tykbundet gryde fordeler varmen jævnt, så sovs og gryderetter ikke brænder på. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med – i stål og støbejern.',
 	'more_cat' => 'gryde',
 	'intro'    => <<<'HTML'
 <p>En tykbundet gryde er den gryde, du griber efter til gryderetter, supper, risengrød og sovs – alt det, der skal simre længe uden at brænde på. Den tykke bund fordeler varmen ud over hele bunden og holder på den, så du undgår varme pletter midt på gryden og kan skrue ned uden at maden går helt i stå.</p>
-<p>Der er to hovedtyper: gryder i rustfrit stål med en bund af flere lag, ofte med en kerne af aluminium, og tunge gryder i emaljeret støbejern. Herunder er vores bud på de 4 bedste hos danske butikker lige nu – to af hver slags. Nederst finder du en købsguide til materialer, bund, størrelse og induktion.</p>
+<p>Der er to hovedtyper: gryder i rustfrit stål med en bund af flere lag, ofte med en kerne af aluminium, og tunge gryder i emaljeret støbejern. Herunder er vores bud på de 5 bedste fra de butikker, vi samarbejder med – tre i stål og to i støbejern. Nederst finder du en købsguide til materialer, bund, størrelse og induktion.</p>
 HTML,
 	'picks'    => [
 		[
@@ -69,7 +69,22 @@ HTML,
 <p>Lav vægt er en reel fordel ved støbejern, som ellers hurtigt bliver tungt at løfte, når gryden er fuld.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve støbejern uden at betale for et af de dyreste mærker', 'Dig, der synes, støbejernsgryder er for tunge' ],
-			'less'    => [ 'Dig, der vil have gryden testet af andre, før du køber' ],
+			'less'    => [ 'Dig, der foretrækker en gryde i rustfrit stål' ],
+		],
+		[
+			'ean'     => '6424002017158',
+			'price'   => 1285,
+			'name'    => 'Fiskars Norden gryde 5 liter',
+			'role'    => 'Bedst nordisk design',
+			'reviews' => [],
+			'verdict' => 'Finsk gryde i rustfrit stål med flerlagsbund og aluminiumskerne fra kant til kant – tåler ovn op til 270 °C.',
+			'why'     => <<<'HTML'
+<p>Fiskars Norden er til dig, der vil have en tykbundet stålgryde med et rent, nordisk udtryk. Den er lavet i Finland i rustfrit stål, og designet er inspireret af naturen. Med 5 liter er den en god størrelse til gryderetter, supper og kartofler til familien.</p>
+<p>Bunden er tyk og bygget af flere lag med en kerne af aluminium, der går helt ud til kanten. Det giver jævn varme over hele bunden, så sovs og gryderetter ikke brænder på midt i gryden. Indvendig er der målestreger, og gryden virker på alle kogeplader, også induktion.</p>
+<p>Håndtag og låg er udformet, så de leder mindst mulig varme, og gryden tåler ovnen op til 270 °C. Der er 3 års garanti.</p>
+HTML,
+			'good'    => [ 'Dig, der vil have nordisk design', 'Gryderetter og suppe til familien', 'Komfur og ovn – også induktion' ],
+			'less'    => [ 'Store portioner til mange gæster' ],
 		],
 	],
 	'guide'    => <<<'HTML'

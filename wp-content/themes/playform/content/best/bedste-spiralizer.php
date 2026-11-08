@@ -6,12 +6,12 @@ defined( 'ABSPATH' ) || exit;
 
 return [
 	'slug'     => 'bedste-spiralizer',
-	'title'    => 'Spiralizer: Vores bud på de 4 bedste',
-	'excerpt'  => 'En spiralizer laver squash, gulerødder og kartofler til spaghetti og bånd. Her er vores bud på de 4 bedste spiralizere fra danske butikker – håndholdte og til køkkenmaskinen.',
+	'title'    => 'Spiralizer: Vores bud på de 5 bedste',
+	'excerpt'  => 'En spiralizer laver squash, gulerødder og kartofler til spaghetti og bånd. Her er vores bud på de 5 bedste spiralizere fra de butikker, vi samarbejder med – håndholdte og til køkkenmaskinen.',
 	'more_cat' => 'spiralizer',
 	'intro'    => <<<'HTML'
 <p>En spiralizer skærer grøntsager i lange spiraler og bånd – squash til "zoodles", gulerødder og rødbeder til salater og søde kartofler til ovnbagte curly fries. Det er en nem måde at få flere grøntsager på tallerkenen og skifte pastaen ud med noget lettere.</p>
-<p>Herunder er vores bud på de 4 bedste spiralizere hos danske butikker lige nu – fra en lille håndholdt model til tilbehør til køkkenmaskinen. Nederst finder du en guide til typer og grøntsager.</p>
+<p>Herunder er vores bud på de 5 bedste spiralizere fra de butikker, vi samarbejder med – fra en lille håndholdt model til tilbehør til køkkenmaskinen. Nederst finder du en guide til typer og grøntsager.</p>
 HTML,
 	'picks'    => [
 		[
@@ -69,6 +69,21 @@ HTML,
 HTML,
 			'good'    => [ 'Dig med en Kenwood-køkkenmaskine' ],
 			'less'    => [ 'Dig uden Kenwood' ],
+		],
+		[
+			'ean'     => '4019889131312',
+			'price'   => 49,
+			'name'    => 'Lurch Tango håndholdt spiralizer',
+			'role'    => 'Billigst',
+			'reviews' => [],
+			'verdict' => 'Lille håndholdt spiralizer, der hurtigt gør friske grøntsager til flotte spiraler – den billigste vej i gang.',
+			'why'     => <<<'HTML'
+<p>Lurch Tango er til dig, der gerne vil prøve grøntsagsspiraler af uden at investere i en bordmodel eller tilbehør til køkkenmaskinen. Du holder den i hånden og drejer grøntsagen igennem, og på kort tid har du fine, dekorative spiraler.</p>
+<p>Den er oplagt til sprøde gulerodsspiraler i en frisk salat eller til at pynte en ret, så den ser lidt ekstra indbydende ud. Fordi den er håndholdt, fylder den næsten intet og kan ligge i skuffen sammen med de andre redskaber.</p>
+<p>Laver du store portioner til hele familien flere gange om ugen, er en bordmodel hurtigere. Men til små mængder og til at komme i gang er den et oplagt sted at starte.</p>
+HTML,
+			'good'    => [ 'Dig, der vil prøve spiralizer af', 'Salater og pynt', 'Små køkkener' ],
+			'less'    => [ 'Store portioner' ],
 		],
 	],
 	'guide'    => <<<'HTML'
