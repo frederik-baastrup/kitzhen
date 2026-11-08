@@ -28,7 +28,7 @@ if __name__ == "__main__":
             og = re.search(r'<meta[^>]+property="og:description"[^>]+content="([^"]*)"', b)
             t = Text(); t.feed(b); txt = re.sub(r'\n\s*\n+', '\n', html.unescape(''.join(t.out)))
             txt = '\n'.join(l.strip() for l in txt.split('\n') if len(l.strip()) > 2)
-            res[u] = {'ld': ld, 'og': html.unescape(og.group(1)) if og else '', 'text': txt[:15000]}
+            res[u] = {'ld': ld, 'og': html.unescape(og.group(1)) if og else '', 'text': txt[:60000]}
         except Exception as e:
             res[u] = {'error': str(e)}
         print(u, 'ERR' if 'error' in res[u] else len(res[u]['text']), flush=True)
