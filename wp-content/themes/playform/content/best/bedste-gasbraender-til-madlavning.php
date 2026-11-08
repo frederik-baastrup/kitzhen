@@ -7,11 +7,11 @@ defined( 'ABSPATH' ) || exit;
 return [
 	'slug'     => 'bedste-gasbraender-til-madlavning',
 	'title'    => 'Gasbrænder til madlavning: Vores bud på de 4 bedste',
-	'excerpt'  => 'En gasbrænder karamelliserer crème brûlée og giver sprød skorpe – og en stor gasbrænder laver paella og wok udendørs. Her er vores bud på de 4 bedste.',
+	'excerpt'  => 'En gasbrænder til madlavning karamelliserer crème brûlée, smelter ost og giver sprød stegeskorpe. Her er vores bud på de 4 bedste køkkenbrændere.',
 	'more_cat' => 'gasbraender',
 	'intro'    => <<<'HTML'
-<p>"Gasbrænder" dækker over to ting i køkkenet. En lille håndbrænder bruges til at karamellisere crème brûlée, smelte ost, give stegeskorpe på sous vide-kød og flambere. En stor gasbrænder med ringe står på jorden og bruges til paella, wok og store gryder udendørs.</p>
-<p>Herunder er vores bud på de 4 bedste gasbrændere hos danske butikker lige nu – tre håndbrændere og én til paella og wok.</p>
+<p>En gasbrænder til madlavning er en lille håndbrænder, der giver det sidste finish: karamel på crème brûlée, smeltet ost, sprød skorpe på sous vide-kød og flamberede desserter. Den passer i hånden, kører på butangas og er klar på et sekund.</p>
+<p>Herunder er vores bud på de 4 bedste gasbrændere til køkkenet fra de danske webshops, vi samarbejder med.</p>
 HTML,
 	'picks'    => [
 		[
@@ -60,32 +60,35 @@ HTML,
 			'less'    => [ 'Gas medfølger ikke' ],
 		],
 		[
-			'ean'     => '7350101113561',
-			'price'   => 949,
-			'name'    => 'Mareld gasbrænder med 3 ringe',
-			'role'    => 'Bedst til paella og wok',
+			'ean'     => '4004293128447',
+			'price'   => 399,
+			'name'    => 'Rösle gasbrænder 17 cm',
+			'role'    => 'Bedst til børnefamilien',
 			'reviews' => [],
-			'verdict' => 'Tre ringe med hver sin gasregulering og 17,1 kW – lavet til en paellapande på 78 cm.',
+			'verdict' => 'Håndbrænder fra Rösle med justerbar flamme op til 1300 °C, op til 60 minutters brug og børnesikring.',
 			'why'     => <<<'HTML'
-<p>Mareld gasbrænder med 3 ringe er til dig, der vil lave paella, wok og store gryderetter udendørs til mange. Brænderen er 60 cm i diameter og passer til en stegeplade på 78 cm. De tre ringe giver tilsammen 17,1 kW, så selv en fuld pande kommer hurtigt op i varme.</p>
-<p>Hver ring har sin egen gasregulering. Du kan altså skrue op i midten og ned i kanten og holde noget af maden varm, mens resten bliver færdig.</p>
-<p>Vindskærme og justerbare ben følger med. Benene kan trækkes ud til en arbejdshøjde på 80 cm, så du slipper for at stå bøjet over panden. Der er 3 års garanti. Stegeplade og gasregulator købes separat.</p>
+<p>Rösles gasbrænder er en klassisk køkkenbrænder til det fine finish: den sprøde karamel på crème brûlée, men også en hurtig stegeskorpe på kød og grøntsager. Den er 17 cm lang og holdt i stål og hvid, så den ser pæn ud i køkkenskuffen.</p>
+<p>Flammen kan justeres op til 1300 °C, så du kan gå forsigtigt til værks på en dessert og skrue op, når kødet skal have farve. Med en fuld tank kan den køre i op til 60 minutter.</p>
+<p>Brænderen har børnesikring, så den ikke tænder ved et uheld – rart, hvis der er små hænder i køkkenet.</p>
 HTML,
-			'good'    => [ 'Store paellapander', 'Udendørs madlavning til mange', 'Dig, der vil styre varmen i zoner' ],
-			'less'    => [ 'Regulator og pande medfølger ikke', 'Fylder og vejer 11,5 kg' ],
+			'good'    => [ 'Crème brûlée og desserter', 'Hjem med børn', 'Dig, der vil styre flammen' ],
+			'less'    => [ 'Paella og wok udendørs' ],
 		],
 	],
 	'guide'    => <<<'HTML'
 <h2>Sådan vælger du en gasbrænder</h2>
-<h3>Håndbrænder eller brænder med ringe?</h3>
-<p>Til crème brûlée, ost og stegeskorpe skal du bruge en håndbrænder. Til paella og wok udendørs skal du bruge en brænder med ringe, der tilsluttes en gasflaske.</p>
+<h3>Justerbar flamme</h3>
+<p>En flamme, du kan skrue op og ned, gør brænderen brugbar til både sart karamel og kraftig stegeskorpe. Til desserter vil du have en blød flamme, til kød en kraftig.</p>
+<h3>Påfyldning og brændetid</h3>
+<p>De fleste køkkenbrændere fyldes op med butangas fra en lille dåse. Se, hvor længe den kan køre på en fyldning, hvis du laver mange portioner ad gangen.</p>
+<p>Skal du lave paella eller wok udendørs, skal du bruge en stor brænder med ringe, der tilsluttes en gasflaske – det er et helt andet produkt.</p>
 <h3>Sikkerhed</h3>
-<p>Brug kun gasbrænderen med den gas, producenten anbefaler. Store brændere skal bruges udendørs, på et stabilt underlag og væk fra brændbare ting.</p>
-<p>Se alle <a href="/grill/gasbraender/">gasbrændere</a>, og find panden i guiderne til <a href="/bedste-paellapande/">paellapander</a> og <a href="/bedste-wokpande/">wokpander</a>.</p>
+<p>Brug kun den gas, producenten anbefaler, og vælg gerne en brænder med børnesikring. Hold flammen væk fra brændbare ting som køkkenruller og gardiner.</p>
+<p>Se alle <a href="/grill/gasbraender/">gasbrændere</a>. Laver du paella udendørs, så se guiden til <a href="/bedste-paellapande/">paellapander</a>.</p>
 HTML,
 	'faq'      => [
 		[ 'Hvad bruger man en gasbrænder til i køkkenet?', 'Til at karamellisere crème brûlée, smelte ost, give stegeskorpe på sous vide-kød og flambere.' ],
 		[ 'Hvilken gas skal man bruge?', 'Typisk butan eller en butan/propan-blanding. Følg producentens anvisning.' ],
-		[ 'Kan man lave paella på en gasbrænder?', 'Ja, en brænder med flere ringe er den bedste måde at varme en stor paellapande jævnt op.' ],
+		[ 'Hvor varm bliver en gasbrænder til madlavning?', 'Det afhænger af modellen. Mange kan justeres, og nogle når op over 1000 °C – tjek producentens oplysninger.' ],
 	],
 ];
