@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-rullepoelsepresse',
 	'date'     => '2023-07-24 09:27:53',
 	'title'    => 'Rullepølsepresse: Vores bud og guide til hjemmelavet rullepølse',
-	'excerpt'  => 'Med en rullepølsepresse kan du lave din egen rullepølse til julefrokosten. Her er vores bud på en rullepølsepresse fra danske butikker – og sådan bruger du den.',
+	'excerpt'  => 'Med en rullepølsepresse kan du lave din egen rullepølse til julefrokosten. Her er vores bud på en rullepølsepresse fra de butikker, vi samarbejder med – og sådan bruger du den.',
 	'more_cat' => 'rullepoelsepresse',
 	'intro'    => <<<'HTML'
 <p>Hjemmelavet rullepølse er en klassiker på det danske julebord og smørrebrødet – og det er lettere, end mange tror. Du skal bruge et stykke svinekød eller lammekød, krydderier, sejlgarn og en rullepølsepresse, der presser pølsen sammen, mens den køler af, så den får den faste form og kan skæres i tynde skiver.</p>
-<p>Der findes ikke mange rullepølsepresser i danske webshops. Herunder er den, vi kan anbefale lige nu, og en guide til, hvordan du laver rullepølsen.</p>
+<p>Der findes ikke mange rullepølsepresser hos de butikker, vi samarbejder med. Herunder er den, vi kan anbefale lige nu, og en guide til, hvordan du laver rullepølsen.</p>
 HTML,
 	'picks'    => [
 		[

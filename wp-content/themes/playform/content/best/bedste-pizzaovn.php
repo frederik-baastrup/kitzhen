@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-pizzaovn',
 	'date'     => '2023-06-26 07:44:40',
 	'title'    => 'Pizzaovn: Vores bud på de 5 bedste',
-	'excerpt'  => 'En pizzaovn bliver langt varmere end en almindelig ovn og bager en pizza på få minutter. Her er vores bud på de 5 bedste pizzaovne fra danske butikker – til gas, træ og strøm.',
+	'excerpt'  => 'En pizzaovn bliver langt varmere end en almindelig ovn og bager en pizza på få minutter. Her er vores bud på de 5 bedste pizzaovne fra de butikker, vi samarbejder med – til gas, træ og strøm.',
 	'more_cat' => 'pizzaovn',
 	'intro'    => <<<'HTML'
 <p>En rigtig napolitansk pizza bages ved 400–500 °C på et par minutter – langt varmere, end en almindelig ovn kan klare. En pizzaovn til haven eller køkkenet når de temperaturer, og resultatet er en sprød, luftig bund med sorte pletter i kanten, som du ikke kan få i en almindelig ovn.</p>
-<p>Herunder er vores bud på de 5 bedste pizzaovne hos danske butikker lige nu – på gas, træpiller og strøm, til udendørs og indendørs brug. Nederst finder du en købsguide til brændsel, størrelse og hvor du må have den.</p>
+<p>Herunder er vores bud på de 5 bedste pizzaovne hos de butikker, vi samarbejder med, lige nu – på gas, træpiller og strøm, til udendørs og indendørs brug. Nederst finder du en købsguide til brændsel, størrelse og hvor du må have den.</p>
 HTML,
 	'picks'    => [
 		[

@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-stegepande',
 	'date'     => '2023-09-04 08:43:42',
 	'title'    => 'Stegepande: Vores bud på de 5 bedste',
-	'excerpt'  => 'Den rigtige stegepande afhænger af, hvad du steger. Her er vores bud på de 5 bedste stegepander fra danske butikker – med slip-let, i stål, kulstål og støbejern.',
+	'excerpt'  => 'Den rigtige stegepande afhænger af, hvad du steger. Her er vores bud på de 5 bedste stegepander fra de butikker, vi samarbejder med – med slip-let, i stål, kulstål og støbejern.',
 	'more_cat' => 'stegepande',
 	'intro'    => <<<'HTML'
 <p>Stegepanden er den pande, de fleste bruger hver dag – til æg, frikadeller, bøffer, fisk og grøntsager. Der findes ikke én pande, der er bedst til alt. En pande med slip-let er nem til æg og fisk; en pande i stål, kulstål eller støbejern giver den bedste stegeskorpe på kød og holder i årtier.</p>
-<p>Herunder er vores bud på de 5 bedste stegepander hos danske butikker lige nu – én af hver slags. Nederst finder du en købsguide til materialer, størrelse og induktion.</p>
+<p>Herunder er vores bud på de 5 bedste stegepander hos de butikker, vi samarbejder med, lige nu – én af hver slags. Nederst finder du en købsguide til materialer, størrelse og induktion.</p>
 HTML,
 	'picks'    => [
 		[

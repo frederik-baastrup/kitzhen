@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-airfryer',
 	'date'     => '2023-08-28 07:08:22',
 	'title'    => 'Airfryer: Vores bud på de 5 bedste',
-	'excerpt'  => 'En airfryer giver sprøde pommes frites, kylling og grøntsager med lidt eller ingen olie. Her er vores bud på de 5 bedste airfryere fra danske butikker – også med dobbelt kurv.',
+	'excerpt'  => 'En airfryer giver sprøde pommes frites, kylling og grøntsager med lidt eller ingen olie. Her er vores bud på de 5 bedste airfryere fra de butikker, vi samarbejder med – også med dobbelt kurv.',
 	'more_cat' => 'airfryer',
 	'intro'    => <<<'HTML'
 <p>En airfryer er en lille varmluftsovn med en kraftig blæser, der blæser varm luft rundt om maden. Det giver en sprød overflade på pommes frites, kyllingevinger, grøntsager og frikadeller – med lidt eller ingen olie. Den er hurtigt varm og bruger ofte mindre strøm end ovnen til små portioner, og derfor er den blevet et af de mest populære køkkenapparater.</p>
-<p>Herunder er vores bud på de 5 bedste airfryere hos danske butikker lige nu – fra en billig model til en stor airfryer med to kurve. Nederst finder du en købsguide til størrelse, én eller to kurve, og hvad du skal kigge efter.</p>
+<p>Herunder er vores bud på de 5 bedste airfryere hos de butikker, vi samarbejder med, lige nu – fra en billig model til en stor airfryer med to kurve. Nederst finder du en købsguide til størrelse, én eller to kurve, og hvad du skal kigge efter.</p>
 HTML,
 	'picks'    => [
 		[

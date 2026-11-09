@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-mikroovn',
 	'date'     => '2023-09-25 09:46:00',
 	'title'    => 'Mikroovn: Vores bud på de 5 bedste',
-	'excerpt'  => 'En mikroovn varmer rester, optør og laver hurtig mad. Her er vores bud på de 5 bedste mikroovne fra danske butikker – fra enkle modeller til mikroovne med airfryer og varmluft.',
+	'excerpt'  => 'En mikroovn varmer rester, optør og laver hurtig mad. Her er vores bud på de 5 bedste mikroovne fra de butikker, vi samarbejder med – fra enkle modeller til mikroovne med airfryer og varmluft.',
 	'more_cat' => 'mikroovn',
 	'intro'    => <<<'HTML'
 <p>Mikroovnen er et af de mest brugte apparater i køkkenet – til at varme rester, optø, smelte smør og chokolade og lave popcorn. Mange mikroovne kan i dag også grille, bage med varmluft og airfrye, så de kan erstatte både en miniovn og en airfryer.</p>
-<p>Herunder er vores bud på de 5 bedste mikroovne hos danske butikker lige nu. Nederst finder du en købsguide til størrelse, funktioner og rengøring.</p>
+<p>Herunder er vores bud på de 5 bedste mikroovne hos de butikker, vi samarbejder med, lige nu. Nederst finder du en købsguide til størrelse, funktioner og rengøring.</p>
 HTML,
 	'picks'    => [
 		[

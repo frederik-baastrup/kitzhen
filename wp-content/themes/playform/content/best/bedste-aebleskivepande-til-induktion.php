@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-aebleskivepande-til-induktion',
 	'date'     => '2023-09-27 07:54:06',
 	'title'    => 'Æbleskivepande til induktion: Vores bud på de 2 bedste',
-	'excerpt'  => 'En æbleskivepande i støbejern virker på induktion og giver sprøde, gyldne æbleskiver. Her er de 2 æbleskivepander til induktion, vi kan anbefale fra danske butikker lige nu.',
+	'excerpt'  => 'En æbleskivepande i støbejern virker på induktion og giver sprøde, gyldne æbleskiver. Her er de 2 æbleskivepander til induktion, vi kan anbefale fra de butikker, vi samarbejder med, lige nu.',
 	'more_cat' => 'aebleskivepande',
 	'intro'    => <<<'HTML'
 <p>Æbleskiver hører julen til, og det er svært at slå hjemmelavede æbleskiver, der kommer direkte fra panden. Har du induktion, skal æbleskivepanden være magnetisk. Den klassiske æbleskivepande i støbejern er magnetisk, holder godt på varmen og giver den sprøde, gyldne skorpe.</p>
-<p>Herunder er de to æbleskivepander, vi kan anbefale til induktion hos danske butikker lige nu – begge i støbejern. Nederst finder du en guide til induktion, indbrænding og hvordan du vender æbleskiverne.</p>
+<p>Herunder er de to æbleskivepander, vi kan anbefale til induktion hos de butikker, vi samarbejder med, lige nu – begge i støbejern. Nederst finder du en guide til induktion, indbrænding og hvordan du vender æbleskiverne.</p>
 HTML,
 	'picks'    => [
 		[

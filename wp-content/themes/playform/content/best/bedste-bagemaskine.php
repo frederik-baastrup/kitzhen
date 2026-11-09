@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-bagemaskine',
 	'date'     => '2023-08-21 07:45:18',
 	'title'    => 'Bagemaskine: Vores bud på de 3 bedste',
-	'excerpt'  => 'En bagemaskine ælter, hæver og bager brødet for dig – du vågner op til friskbagt brød. Her er vores bud på de 3 bedste bagemaskiner fra danske butikker.',
+	'excerpt'  => 'En bagemaskine ælter, hæver og bager brødet for dig – du vågner op til friskbagt brød. Her er vores bud på de 3 bedste bagemaskiner fra de butikker, vi samarbejder med.',
 	'more_cat' => 'broedmaskine',
 	'intro'    => <<<'HTML'
 <p>En bagemaskine – eller brødmaskine – klarer hele arbejdet: du kommer ingredienserne i, vælger et program, og maskinen ælter, hæver og bager brødet. Med en timer kan du vågne op til friskbagt brød. Mange kan også lave dej til boller og pizza, kage og marmelade.</p>
-<p>Herunder er vores bud på de 3 bedste bagemaskiner hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 3 bedste bagemaskiner hos de butikker, vi samarbejder med, lige nu.</p>
 HTML,
 	'picks'    => [
 		[

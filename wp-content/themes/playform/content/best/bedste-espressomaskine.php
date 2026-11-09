@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-espressomaskine',
 	'date'     => '2023-07-06 08:00:11',
 	'title'    => 'Espressomaskine: Vores bud på de 5 bedste',
-	'excerpt'  => 'En espressomaskine med portafilter giver dig kaffe på caféniveau derhjemme. Her er vores bud på de 5 bedste espressomaskiner fra danske butikker – fra begynder til entusiast.',
+	'excerpt'  => 'En espressomaskine med portafilter giver dig kaffe på caféniveau derhjemme. Her er vores bud på de 5 bedste espressomaskiner fra de butikker, vi samarbejder med – fra begynder til entusiast.',
 	'more_cat' => 'espressomaskine',
 	'intro'    => <<<'HTML'
 <p>En espressomaskine med portafilter – også kaldet en manuel eller halvautomatisk espressomaskine – er den maskine, baristaer bruger. Du maler bønnerne, doserer og presser kaffen i filteret og brygger selv. Det kræver lidt øvelse, men giver dig fuld kontrol over smagen og de bedste muligheder for cappuccino og latte med silkeblødt mælkeskum.</p>
-<p>Herunder er vores bud på de 5 bedste espressomaskiner hos danske butikker lige nu – fra en kompakt begyndermaskine til en maskine for entusiasten. Leder du efter en maskine, der klarer det hele med ét tryk, så se vores guide til <a href="/bedste-fuldautomatisk-espressomaskine/">fuldautomatiske espressomaskiner</a>.</p>
+<p>Herunder er vores bud på de 5 bedste espressomaskiner hos de butikker, vi samarbejder med, lige nu – fra en kompakt begyndermaskine til en maskine for entusiasten. Leder du efter en maskine, der klarer det hele med ét tryk, så se vores guide til <a href="/bedste-fuldautomatisk-espressomaskine/">fuldautomatiske espressomaskiner</a>.</p>
 HTML,
 	'picks'    => [
 		[

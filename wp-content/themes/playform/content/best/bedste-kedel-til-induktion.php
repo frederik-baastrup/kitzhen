@@ -9,11 +9,11 @@ return [
 	'slug'     => 'bedste-kedel-til-induktion',
 	'date'     => '2023-08-21 10:16:32',
 	'title'    => 'Kedel til induktion: Vores bud på de 3 bedste',
-	'excerpt'  => 'En kedel til induktion skal have en magnetisk bund, der passer til kogezonen. Her er vores bud på de 3 bedste fra danske butikker – og hvad du skal tjekke, før du køber.',
+	'excerpt'  => 'En kedel til induktion skal have en magnetisk bund, der passer til kogezonen. Her er vores bud på de 3 bedste fra de butikker, vi samarbejder med – og hvad du skal tjekke, før du køber.',
 	'more_cat' => 'kedel',
 	'intro'    => <<<'HTML'
 <p>Har du induktionskomfur, kan du koge vand i en almindelig kedel på komfuret – men kun hvis bunden er magnetisk. Induktion virker ved at sætte gang i et magnetfelt, der varmer selve bunden op, så en kedel i ren aluminium, glas eller kobber bliver aldrig varm. Det første, du skal tjekke, er derfor ikke designet, men om Kedlen kan bruges på induktion.</p>
-<p>Herunder er vores bud på de 3 bedste kedler til induktion hos danske butikker lige nu: en designklassiker, en retro-kedel med stor kapacitet og et billigt, enkelt valg. Nederst finder du en købsguide til bund, størrelse, fløjte og håndtag.</p>
+<p>Herunder er vores bud på de 3 bedste kedler til induktion hos de butikker, vi samarbejder med, lige nu: en designklassiker, en retro-kedel med stor kapacitet og et billigt, enkelt valg. Nederst finder du en købsguide til bund, størrelse, fløjte og håndtag.</p>
 HTML,
 	'picks'    => [
 		[

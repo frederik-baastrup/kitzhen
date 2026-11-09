@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-pizzaovn-til-grill',
 	'date'     => '2023-09-07 12:13:33',
 	'title'    => 'Pizzaovn til grill: Vores bud på de 2 bedste',
-	'excerpt'  => 'En pizzaovn til grill er en ovnhætte eller et ovnsæt, der sættes oven på grillen, så den bager som en pizzaovn. Her er vores bud på de 2 bedste fra de danske webshops, vi samarbejder med.',
+	'excerpt'  => 'En pizzaovn til grill er en ovnhætte eller et ovnsæt, der sættes oven på grillen, så den bager som en pizzaovn. Her er vores bud på de 2 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'pizzaovn-til-grill',
 	'intro'    => <<<'HTML'
 <p>En pizzaovn til grill er ikke bare en pizzasten. Det er en ovnhætte eller et ovnsæt, der sættes direkte på din gas-, kul- eller kamadogrill og lukker varmen inde omkring pizzaen. Grillen leverer kraften nedefra, ovnen holder på varmen ovenfra – og så får du en sprød bund og et færdigbagt fyld på få minutter, uden at købe en separat pizzaovn.</p>
-<p>Herunder er vores bud på de 2 bedste pizzaovne til grill fra de danske webshops, vi samarbejder med: én, der passer til de fleste gas- og kulgrill, og én til kamado.</p>
+<p>Herunder er vores bud på de 2 bedste pizzaovne til grill fra de butikker, vi samarbejder med: én, der passer til de fleste gas- og kulgrill, og én til kamado.</p>
 HTML,
 	'picks'    => [
 		[

@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-kokkekniv',
 	'date'     => '2023-09-07 12:41:13',
 	'title'    => 'Kokkekniv: Vores bud på de 5 bedste',
-	'excerpt'  => 'En god kokkekniv er det vigtigste redskab i køkkenet. Her er vores bud på de 5 bedste kokkeknive fra danske butikker – europæiske og japanske, fra budget til luksus.',
+	'excerpt'  => 'En god kokkekniv er det vigtigste redskab i køkkenet. Her er vores bud på de 5 bedste kokkeknive fra de butikker, vi samarbejder med – europæiske og japanske, fra budget til luksus.',
 	'more_cat' => 'kokkekniv',
 	'intro'    => <<<'HTML'
 <p>Hvis du kun køber én god kniv, skal det være en kokkekniv. Den bruges til at hakke løg, snitte grøntsager, skære kød og hakke krydderurter – stort set alt i køkkenet. En god kokkekniv ligger godt i hånden, holder sig skarp og gør madlavningen både hurtigere og mere sikker.</p>
-<p>Herunder er vores bud på de 5 bedste kokkeknive hos danske butikker lige nu – europæiske og japanske knive i forskellige prisklasser. Leder du specifikt efter en japansk kniv, så se også vores guide til <a href="/bedste-japanske-kokkekniv/">japanske kokkeknive</a>.</p>
+<p>Herunder er vores bud på de 5 bedste kokkeknive hos de butikker, vi samarbejder med, lige nu – europæiske og japanske knive i forskellige prisklasser. Leder du specifikt efter en japansk kniv, så se også vores guide til <a href="/bedste-japanske-kokkekniv/">japanske kokkeknive</a>.</p>
 HTML,
 	'picks'    => [
 		[

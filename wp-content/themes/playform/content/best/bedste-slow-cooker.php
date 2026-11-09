@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-slow-cooker',
 	'date'     => '2023-07-19 07:43:58',
 	'title'    => 'Slow cooker: Vores bud på de 4 bedste',
-	'excerpt'  => 'En slow cooker simrer gryderetter, pulled pork og supper mørt i løbet af dagen. Her er vores bud på de 4 bedste slow cookere og multicookere fra danske butikker.',
+	'excerpt'  => 'En slow cooker simrer gryderetter, pulled pork og supper mørt i løbet af dagen. Her er vores bud på de 4 bedste slow cookere og multicookere fra de butikker, vi samarbejder med.',
 	'more_cat' => 'slow-cooker',
 	'intro'    => <<<'HTML'
 <p>En slow cooker tilbereder maden ved lav varme over mange timer. Du kommer ingredienserne i om morgenen, og når du kommer hjem, er gryderetten, chilien eller pulled pork mør og klar. Den bruger lidt strøm og kan stå uden opsyn. Mange multicookere kan også trykkoge, sautere og airfrye.</p>
-<p>Herunder er vores bud på de 4 bedste slow cookere og multicookere hos danske butikker lige nu.</p>
+<p>Herunder er vores bud på de 4 bedste slow cookere og multicookere hos de butikker, vi samarbejder med, lige nu.</p>
 HTML,
 	'picks'    => [
 		[
