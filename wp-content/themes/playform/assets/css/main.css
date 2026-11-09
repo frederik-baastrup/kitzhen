@@ -1515,3 +1515,10 @@ body { background: #F9FAF9; }
 	.offer .btn-out:hover, .offer--best .btn-out { background: var(--accent); border-color: var(--accent); color: var(--on-accent, #111); }
 	.offer--best .btn-out:hover { filter: brightness(.94); }
 }
+
+/* Kitzhen: neongrøn kant, glød og streg på det billigste tilbud blev for meget (ejeren 9. nov. 2026). Kortet får i stedet
+   en rolig sort kant uden farvet skygge; neongrønnen bruges kun i mærket og på knappen. */
+@media (min-width: 761px) {
+	.offer--best { border-color: var(--ink); box-shadow: 0 0 0 1px var(--ink), 0 10px 26px rgba(17, 17, 17, .07); }
+	.offer--best::before { display: none; }
+}
