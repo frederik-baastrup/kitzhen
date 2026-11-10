@@ -118,7 +118,7 @@ final class Config {
 			'gryder-pander'   => [ 'name' => 'Gryder & pander', 'match' => 'gryde(?!ske|skab|lap|underlag|skraber)|kasserolle|sauterpande|(?<!paella)pande\b|stegepande|wok\b|wokpande|grillpande|blinispande|æbleskivepande|støbejern|dutch ?oven|bradepande|ovnfast fad|låg til' ],
 			'grill'           => [ 'name' => 'Grill & udekøkken', 'match' => 'gasgrill|kulgrill|kamado|big green egg|grill|røgeovn|smoker|bordgrill|raclette|gasbrænder|paella|grillkul|briketter|plancha|bålpande|udekøkken' ],
 			'knive-redskaber' => [ 'name' => 'Knive & redskaber', 'match' => 'kniv|knive|santoku|gyuto|nakiri|petty|knivsliber|slibesten|vandsten|knivblok|knivmagnet|skærebræt|skærebrædt|rivejern|parmesan|grøntsagshakker|mandolin|skræller|hvidløgspresse|køkkensaks|piskeris|grydeske|paletkniv|stegevender|\bøse\b|dørslag|sigte\b|køkkenvægt|stegetermometer|køkkentermometer|æggeur|måleske|målebæger|køkkenredskab' ],
-			'servering'       => [ 'name' => 'Servering & borddækning', 'match' => 'vinglas|rødvinsglas|hvidvinsglas|champagneglas|ølglas|drikkeglas|\bglas\b|cocktailglas|espressokop|karaffel|dekanter|tallerken|\bskål\b|skåle|\bkop\b|kopper|krus|bestik|\bstel\b|julestel|spisestel|ostesæt|ostebræt|serveringsbakke|serveringsfad|\bfad\b|kande\b|bordskåner|dækkeserviet|tapasbræt' ],
+			'servering'       => [ 'name' => 'Servering & borddækning', 'match' => 'brødkasse|brødboks|brødkurv|vinglas|rødvinsglas|hvidvinsglas|champagneglas|ølglas|drikkeglas|\bglas\b|cocktailglas|espressokop|karaffel|dekanter|tallerken|\bskål\b|skåle|\bkop\b|kopper|krus|bestik|\bstel\b|julestel|spisestel|ostesæt|ostebræt|serveringsbakke|serveringsfad|\bfad\b|kande\b|bordskåner|dækkeserviet|tapasbræt' ],
 		];
 	}
 
@@ -274,6 +274,7 @@ final class Config {
 				'doerslag'        => [ 'name' => 'Dørslag', 'match' => 'dørslag', 'not' => self::acc( 'dørslag' ) ],
 			],
 			'servering' => [
+				'broedkasse'   => [ 'name' => 'Brødkasse', 'match' => 'brødkasse|brødboks', 'not' => 'pose|klæde|' . self::acc( 'brødkasse' ) ],
 				'vinglas'      => [ 'name' => 'Vinglas', 'match' => 'vinglas|rødvinsglas|hvidvinsglas|champagneglas|bordeauxglas|bourgogneglas|bordeaux ?(rød)?vinsglas|dessertvinsglas|portvinsglas', 'not' => 'holder|markør|charms|børste|rengøring|stativ|ophæng|drypring|' . self::acc( 'glas' ) ],
 				'roedvinsglas' => [ 'name' => 'Rødvinsglas', 'match' => 'rødvinsglas|bordeauxglas|bourgogneglas|bordeaux ?(rød)?vinsglas', 'not' => 'holder|markør|børste|rengøring|stativ|' . self::acc( 'glas' ) ],
 				'hvidvinsglas' => [ 'name' => 'Hvidvinsglas', 'match' => 'hvidvinsglas|(chardonnay|riesling|sauvignon)[^,]*glas', 'not' => 'holder|markør|børste|rengøring|stativ|' . self::acc( 'glas' ) ],
