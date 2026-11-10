@@ -111,7 +111,7 @@ $has_deals = count( $deals ) >= 4;
 ?>
 
 <section class="wrap hero-wrap">
-	<h1 class="screen-reader-text"><?php echo esc_html( playform_site( 'name' ) . ' – ' . playform_site( 'niche' ) . ' fra danske webshops samlet ét sted' ); ?></h1>
+	<h1 class="screen-reader-text"><?php echo esc_html( playform_site( 'name' ) . ' – ' . playform_site( 'niche' ) . ' fra de butikker, vi samarbejder med, samlet ét sted' ); ?></h1>
 	<div class="hero">
 		<?php foreach ( $hero as $i => $h ) : ?>
 			<?php if ( $i === 1 ) : ?><div class="hero__side"><?php endif; ?>
@@ -134,7 +134,7 @@ $has_deals = count( $deals ) >= 4;
 	</div>
 
 	<div class="usp">
-		<div class="usp__item"><span class="usp__icon"><?php echo playform_icon( 'grid', 22, 1.4 ); // phpcs:ignore ?></span><span><b>Alt udstyr ét sted</b><span>Produkter fra flere danske shops</span></span></div>
+		<div class="usp__item"><span class="usp__icon"><?php echo playform_icon( 'grid', 22, 1.4 ); // phpcs:ignore ?></span><span><b>Alt udstyr ét sted</b><span>Produkter fra de butikker, vi samarbejder med</span></span></div>
 		<div class="usp__item"><span class="usp__icon"><?php echo playform_icon( 'refresh', 22, 1.4 ); // phpcs:ignore ?></span><span><b>Opdateret 2× dagligt</b><span>Aktuelle priser og lagerstatus</span></span></div>
 		<div class="usp__item"><span class="usp__icon"><?php echo playform_icon( 'store', 22, 1.4 ); // phpcs:ignore ?></span><span><b>Køb direkte i butikken</b><span>Du handler hos shoppen som normalt</span></span></div>
 		<a class="usp__item" href="<?php echo esc_url( playform_tilbud_url() ); ?>"><span class="usp__icon"><?php echo playform_icon( 'tag', 22, 1.4 ); // phpcs:ignore ?></span><span><b>Butikkernes tilbud</b><span>Aktuelle tilbud samlet ét sted</span></span></a>
@@ -236,6 +236,6 @@ if ( $posts ) {
 
 <?php
 $front   = get_post( (int) get_option( 'page_on_front' ) );
-$seo     = $front && trim( $front->post_content ) ? apply_filters( 'the_content', $front->post_content ) : '<h2>Køkkenudstyr fra danske webshops – samlet ét sted</h2><p>' . esc_html( playform_site( 'name' ) ) . ' samler køkkenudstyr fra flere danske webshops ét sted. Vi henter priser og lagerstatus to gange i døgnet, så du hurtigt kan finde gryden, kokkekniven, kaffemaskinen eller grillen, der passer til dig. Når du har fundet det rigtige produkt, sender vi dig videre til shoppen, hvor du gennemfører købet som normalt.</p><h3>Find det rigtige køkkenudstyr</h3><p>Start med det, du laver mad i hver dag. Har du induktion, så tjek at gryder og pander er mærket til induktion. En god kokkekniv og et ordentligt skærebræt gør mere for madlavningen end mange specialredskaber, og en stavblender eller røremaskine dækker de fleste opgaver i et almindeligt køkken.</p><h3>Hvad skal du være opmærksom på?</h3><p>Se på materialer, garanti og hvordan udstyret skal rengøres – kan det tåle opvaskemaskine? På maskiner er effekt og kapacitet vigtige, mens tykkelsen på bunden betyder meget for, hvor jævnt en gryde eller pande fordeler varmen.</p>';
+$seo     = $front && trim( $front->post_content ) ? apply_filters( 'the_content', $front->post_content ) : '<h2>Køkkenudstyr fra de butikker, vi samarbejder med – samlet ét sted</h2><p>' . esc_html( playform_site( 'name' ) ) . ' samler køkkenudstyr fra de butikker, vi samarbejder med, ét sted. Vi henter priser og lagerstatus to gange i døgnet, så du hurtigt kan finde gryden, kokkekniven, kaffemaskinen eller grillen, der passer til dig. Når du har fundet det rigtige produkt, sender vi dig videre til shoppen, hvor du gennemfører købet som normalt.</p><h3>Find det rigtige køkkenudstyr</h3><p>Start med det, du laver mad i hver dag. Har du induktion, så tjek at gryder og pander er mærket til induktion. En god kokkekniv og et ordentligt skærebræt gør mere for madlavningen end mange specialredskaber, og en stavblender eller røremaskine dækker de fleste opgaver i et almindeligt køkken.</p><h3>Hvad skal du være opmærksom på?</h3><p>Se på materialer, garanti og hvordan udstyret skal rengøres – kan det tåle opvaskemaskine? På maskiner er effekt og kapacitet vigtige, mens tykkelsen på bunden betyder meget for, hvor jævnt en gryde eller pande fordeler varmen.</p>';
 get_template_part( 'template-parts/seo-text', null, [ 'html' => $seo, 'right' => true ] );
 get_footer();

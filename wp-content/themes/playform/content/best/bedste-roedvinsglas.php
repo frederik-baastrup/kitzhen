@@ -9,7 +9,7 @@ return [
 	'date'     => '2023-06-20 11:54:37',
 	'title'    => 'Rødvinsglas: Vores bud på de 5 bedste',
 	'excerpt'  => 'Et godt rødvinsglas giver vinen plads til at åbne sig og gør den mere aromatisk. Her er vores bud på de 5 bedste rødvinsglas fra de butikker, vi samarbejder med – fra hverdag til fest.',
-	'more_cat' => 'vinglas',
+	'more_cat' => 'roedvinsglas',
 	'intro'    => <<<'HTML'
 <p>Glasset betyder mere for vinen, end mange tror. Et rødvinsglas har en stor skål, så vinen kan få luft og åbne sig, og en åbning, der samler duften, så du kan dufte vinen, før du smager. En tynd kant gør, at vinen glider naturligt ind i munden.</p>
 <p>Herunder er vores bud på de 5 bedste rødvinsglas fra de butikker, vi samarbejder med – fra et prisvenligt sæt til hverdag til krystalglas til de gode flasker. Nederst finder du en guide til størrelse, form og krystal.</p>

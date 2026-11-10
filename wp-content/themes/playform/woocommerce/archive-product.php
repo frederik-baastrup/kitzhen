@@ -53,7 +53,7 @@ if ( $campaign ) {
 } elseif ( $is_cat ) {
 	$title = $term->name;
 	$intro = $term->description ?: sprintf(
-		'Se %s fra flere danske webshops samlet ét sted. Priser og lagerstatus opdateres to gange i døgnet, og du handler direkte hos butikken.',
+		'Se %s fra de butikker, vi samarbejder med, samlet ét sted. Priser og lagerstatus opdateres to gange i døgnet, og du handler direkte hos butikken.',
 		mb_strtolower( $label )
 	);
 } elseif ( $search !== '' ) {

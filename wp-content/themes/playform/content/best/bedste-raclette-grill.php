@@ -9,7 +9,7 @@ return [
 	'date'     => '2023-08-24 12:10:11',
 	'title'    => 'Raclette grill: Vores bud på de 5 bedste',
 	'excerpt'  => 'En raclette grill står midt på bordet, så alle kan smelte ost og grille kød og grøntsager selv. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med.',
-	'more_cat' => 'bordgrill',
+	'more_cat' => 'raclette-grill',
 	'intro'    => <<<'HTML'
 <p>Raclette er en hyggelig middag, hvor grillen står midt på bordet. Øverst er en grillplade til kød og grøntsager, og nedenunder smelter hver gæst ost i sin egen lille pande og hælder den over kartofler, pølser og syltede grøntsager. Den er perfekt til nytårsaften, vinteraftener og børnefamilier.</p>
 <p>Herunder er vores bud på de 5 bedste raclette grills fra de butikker, vi samarbejder med – fra den billige model til otte til den store til tolv personer.</p>
@@ -99,7 +99,7 @@ HTML,
 <p>En grillplade i sten giver en jævn varme og sprøde grøntsager. Non-stick er nemmest at gøre ren.</p>
 <h3>Ost til raclette</h3>
 <p>Brug en ost, der smelter godt – klassisk raclette-ost, men også gruyère og andre faste oste.</p>
-<p>Se alle <a href="/grill/bordgrill/">bordgrills og raclette</a>, eller se guiden til <a href="/bedste-elektrisk-bordgrill/">elektriske bordgrills</a>.</p>
+<p>Se alle <a href="/grill/raclette-grill/">raclettegrill</a> og <a href="/grill/bordgrill/">bordgrills</a>, eller se guiden til <a href="/bedste-elektrisk-bordgrill/">elektriske bordgrills</a>.</p>
 HTML,
 	'faq'      => [
 		[ 'Hvad spiser man til raclette?', 'Kogte kartofler, pølser, skinke, syltede agurker og løg og grøntsager – med smeltet ost over.' ],

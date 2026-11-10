@@ -5,7 +5,7 @@
 		<div class="foot">
 			<div class="foot__about">
 				<img src="<?php echo esc_url( playform_asset( 'logo-white.svg' ) ); ?>" alt="<?php echo esc_attr( playform_site( 'name' ) ); ?>" width="144" height="21">
-				<p>Vi samler <?php echo esc_html( playform_site( 'niche' ) ); ?> fra danske webshops ét sted, så du nemt kan finde rundt i hele udvalget.</p>
+				<p>Vi samler <?php echo esc_html( playform_site( 'niche' ) ); ?> fra de butikker, vi samarbejder med, ét sted, så du nemt kan finde rundt i hele udvalget.</p>
 				<span><?php echo esc_html( playform_site( 'email' ) ); ?></span>
 			</div>
 			<div class="foot__col">
