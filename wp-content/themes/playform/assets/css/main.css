@@ -1539,8 +1539,3 @@ body { background: #F9FAF9; }
 @media (min-width: 761px) { .pricebox { background: #fff; border-color: rgba(17, 17, 17, .08); box-shadow: 0 1px 2px rgba(17, 17, 17, .04), 0 8px 24px rgba(17, 17, 17, .05); } }
 
 @media (min-width: 901px) { .pricepills { display: none; } } /* prisknapperne kun på mobil – på computer står prisfilteret i sidepanelet (ejeren 10. nov. 2026) */
-
-/* Kitzhen: 🤑 i stedet for de grønne prikker i kampagnebaren, og lidt mindre tekst (ejeren 10. nov. 2026). */
-.campaign-bar__item { font-size: .9em; }
-.campaign-bar__item i { width: auto; height: auto; border-radius: 0; background: none; font-style: normal; font-size: 1.05em; line-height: 1; }
-.campaign-bar__item i::before { content: "🤑"; }
