@@ -1555,7 +1555,7 @@ body { background: #F9FAF9; }
 @media (max-width: 640px) { .ad-chip { font-size: 9.5px; padding: 2px 7px 1px; } }
 
 /* Kampagnesider (Black Friday m.fl.): mørkt baggrundsbillede, alt centreret (10. nov. 2026). */
-.camp-hero { --camp-eyebrow: #24FF00; --camp-btn: #24FF00; --camp-btn-ink: #0B0B0A; position: relative; color: #fff; background: #0E0D0C url("../img/campaign-hero.jpg") center / cover no-repeat; isolation: isolate; }
+.camp-hero { --camp-eyebrow: #24FF00; --camp-btn: #24FF00; --camp-btn-ink: #0B0B0A; position: relative; color: #fff; background: #0E0D0C var(--hero-img, url("../img/campaign-hero.jpg")) center / cover no-repeat; isolation: isolate; }
 .camp-hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(ellipse 70% 85% at 50% 50%, rgba(12,11,10,.6) 0%, rgba(12,11,10,.9) 100%); }
 .camp-hero__inner { max-width: 860px; margin: 0 auto; padding: 64px 24px 60px; min-height: 380px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
 .camp-hero .crumbs { justify-content: center; margin: 0 0 24px; color: rgba(255,255,255,.65); }
@@ -1580,3 +1580,9 @@ body { background: #F9FAF9; }
 	.camp-hero__btn { margin-top: 22px; }
 	.cat-top--camp { padding-top: 18px; }
 }
+
+/* Hovedkategorier med billedheader: roligere end kampagnen – lavere, almindelig overskrift, lettere skygge. */
+.camp-hero--cat::before { background: radial-gradient(ellipse 75% 90% at 50% 50%, rgba(12,11,10,.5) 0%, rgba(12,11,10,.82) 100%); }
+.camp-hero--cat .camp-hero__inner { min-height: 320px; padding: 56px 24px 52px; }
+.camp-hero--cat h1 { font-size: clamp(40px, 5.6vw, 80px); line-height: .98; font-weight: 700; letter-spacing: -.03em; }
+@media (max-width: 640px) { .camp-hero--cat .camp-hero__inner { min-height: 0; padding: 36px 18px 34px; } }

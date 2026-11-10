@@ -83,6 +83,23 @@ $updated = playform_last_update_label();
 $has_offer_tab = $top && in_array( $top->slug, playform_tilbud_slugs(), true );
 global $wp_query;
 ?>
+<?php
+// Hovedkategorier (ikke underkategorier, tilbud eller søgning): samme billedheader som kampagnerne, i en roligere udgave
+// med kategoriens eget foto (ejerens valg 10. nov. 2026). Underkategorier deler forælderens foto og beholder den lyse top.
+$cat_hero = '';
+if ( ! $campaign && $is_cat && ! $offers && ! $parent && 0 === (int) $term->parent && '' === $search && is_readable( get_template_directory() . '/assets/img/cat-' . $term->slug . '.jpg' ) ) {
+	$cat_hero = playform_asset( 'cat-' . $term->slug . '.jpg' );
+}
+if ( $cat_hero ) :
+	?>
+<section class="camp-hero camp-hero--cat" style="--hero-img: url('<?php echo esc_url( $cat_hero ); ?>')">
+	<div class="camp-hero__inner">
+		<?php playform_breadcrumbs( $crumb ); ?>
+		<h1><?php echo esc_html( $title ); ?></h1>
+		<?php if ( $intro ) : ?><p class="camp-hero__intro"><?php echo esc_html( wp_strip_all_tags( $intro ) ); ?></p><?php endif; ?>
+	</div>
+</section>
+<?php endif; ?>
 <?php if ( $campaign ) :
 	// Kampagnesiden: stort mørkt baggrundsbillede med navn, intro og knap centreret (ejerens valg 10. nov. 2026).
 	$cdef  = playform_campaign_defs()[ $campaign ];
@@ -107,8 +124,8 @@ global $wp_query;
 	</div>
 </section>
 <?php endif; ?>
-<section class="wrap cat-top<?php echo $campaign ? ' cat-top--camp' : ''; ?>">
-	<?php if ( ! $campaign ) : ?>
+<section class="wrap cat-top<?php echo ( $campaign || $cat_hero ) ? ' cat-top--camp' : ''; ?>">
+	<?php if ( ! $campaign && ! $cat_hero ) : ?>
 	<?php playform_breadcrumbs( $crumb ); ?>
 	<div class="cat-top__head">
 		<h1><?php echo esc_html( $title ); ?></h1>
