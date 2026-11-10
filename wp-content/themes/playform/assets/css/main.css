@@ -1624,3 +1624,13 @@ body { background: #F9FAF9; }
 	.camp-hero__intro { font-size: 15px; }
 	.cat-top--camp { padding-top: 16px; }
 }
+
+/* Hovedkategoriernes billedheader: større, og introen i samme størrelse som på de andre kategorisider. */
+.camp-hero--cat .camp-hero__inner { max-width: 820px; padding: 72px 24px 68px; }
+.camp-hero--cat .crumbs { margin-bottom: 20px; }
+.camp-hero--cat h1 { font-size: clamp(44px, 6vw, 84px); letter-spacing: -.035em; }
+.camp-hero--cat .camp-hero__intro { margin-top: 18px; max-width: 680px; font-size: 18px; line-height: 1.6; color: rgba(255,255,255,.85); }
+@media (max-width: 640px) {
+	.camp-hero--cat .camp-hero__inner { padding: 44px 18px 42px; }
+	.camp-hero--cat .camp-hero__intro { font-size: 16px; }
+}
