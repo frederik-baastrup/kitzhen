@@ -1634,3 +1634,18 @@ body { background: #F9FAF9; }
 	.camp-hero--cat .camp-hero__inner { padding: 44px 18px 42px; }
 	.camp-hero--cat .camp-hero__intro { font-size: 16px; }
 }
+
+/* Hovedkategoriernes billedheader v2 (10. nov. 2026): samme højde på alle kategorier, fast skriftstørrelse (ikke vw),
+   brødkrummerne ligger øverst uden for regnestykket, så der er lige langt fra headerens top til overskriften og fra
+   introens bund til headerens bund. */
+.camp-hero--cat .camp-hero__inner { position: relative; box-sizing: border-box; min-height: 340px; padding: 64px 24px; max-width: none; justify-content: center; }
+.camp-hero--cat .crumbs { position: absolute; top: 20px; left: 0; right: 0; margin: 0; }
+.camp-hero--cat h1 { font-size: 60px; line-height: 1; letter-spacing: -.03em; }
+.camp-hero--cat .camp-hero__intro { max-width: 660px; margin-top: 18px; font-size: 18px; }
+@media (max-width: 900px) { .camp-hero--cat .camp-hero__inner { min-height: 300px; } .camp-hero--cat h1 { font-size: 46px; } }
+@media (max-width: 640px) {
+	.camp-hero--cat .camp-hero__inner { min-height: 260px; padding: 52px 18px 44px; }
+	.camp-hero--cat .crumbs { top: 16px; }
+	.camp-hero--cat h1 { font-size: 36px; }
+	.camp-hero--cat .camp-hero__intro { font-size: 15.5px; margin-top: 12px; }
+}
