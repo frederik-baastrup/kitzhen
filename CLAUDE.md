@@ -49,6 +49,8 @@ Samme som Fitbase:
 
 KitchenOne.dk (~27.700 produkter), HvidevareShoppen.dk (~9.300), Barlife.dk (~7.500), Japanske kokkeknive, Køge Kafferisteri, Cibumic.dk, Bagestålet.dk. Moreland (mest havemøbler) kun med grill, grilltilbehør og pizzaovne via `category_map` (~21 produkter). Gourmetshoppen.com er godkendt, men feedet var tomt 4. nov. 2026. Shop ↔ feed-link er bekræftet ud fra `bannerid` i feedets `vareurl`.
 
+Tilføjet 10. nov. 2026: Kitcho (borddækning og redskaber; indretning, opvask, tekstiler og vaser bliver ukategoriseret/udelukket), Fornello DK (brødmaskine m.m.), SA-Service.dk (hvidevarer – som HvidevareShoppen kun køkkenapparater via de almindelige regler; brugte varer og festudlejning udelukkes), Skeen & Piskeriset (træredskaber, `category_map` + `refine`) og Happyhoola (kun bageudstyr via `category_map` + `refine`; muffinspapirforme, kagepynt, hobby og fest udelukkes). Millida (madkasser, drikkedunke, køletasker) er ikke med – passer ikke i Kitzhens kategorier.
+
 HvidevareShoppen, KitchenOne og Barlife sælger meget, der ikke er køkkenudstyr (hvidevarer til vask/frys, køkkenskabe, emhætter, spiritus, delikatesser, interiør). `Config::exclude()` holder det ude; tjek altid fordelingen efter en import (`wp playform stats`). Reglerne er testet på feedsne fra 4. nov. 2026: ca. 21.000 produkter i kategorierne.
 
 ## Kommandoer

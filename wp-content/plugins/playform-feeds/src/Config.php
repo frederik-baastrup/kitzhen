@@ -48,6 +48,48 @@ final class Config {
 			'riceknife'           => [ 'name' => 'Riceknife', 'url' => "$base&bannerid=104291&feedid=3171" ],
 			'sumisu'              => [ 'name' => 'Sumisu', 'url' => "$base&bannerid=112338&feedid=3823" ],
 			'ushi'                => [ 'name' => 'Ushi.dk', 'url' => "$base&bannerid=90749&feedid=2345" ],
+			// Tilføjet 10. nov. 2026 (godkendte programmer, testet mod feedsne samme dag).
+			// Kitcho, Fornello og SA-Service sorteres af de almindelige regler + exclude() (som HvidevareShoppen):
+			// Kitchos indretning, opvask, tekstiler og vaser og SA-Services hvidevarer, emhætter, støvsugere,
+			// brugte varer og festudlejning kommer ikke med.
+			'kitcho'              => [ 'name' => 'Kitcho', 'url' => "$base&bannerid=115199&feedid=4142" ],
+			'fornello'            => [ 'name' => 'Fornello DK', 'url' => "$base&bannerid=118451&feedid=4475" ],
+			'sa-service'          => [ 'name' => 'SA-Service.dk', 'url' => "$base&bannerid=80300&feedid=1903" ],
+			// Skeen & Piskeriset: træredskaber. Butikkens kategorier er sikre (oliventræ må ikke ramme
+			// fødevare-udelukkelsen); værtindegaver og "Diverse" (gaveindpakning, penholdere …) udelukkes.
+			'skeen-piskeriset'    => [
+				'name'         => 'Skeen & Piskeriset',
+				'url'          => "$base&bannerid=99636&feedid=2835",
+				'refine'       => true,
+				'category_map' => [
+					'grydeskeer i træ'       => 'knive-redskaber',
+					'grydeskesæt i træ'      => 'knive-redskaber',
+					'køkkenredskaber i træ'  => 'knive-redskaber',
+					'skærebrætter i træ'     => 'knive-redskaber',
+					'knivmagnet og knivblok' => 'knive-redskaber',
+					'skrælle- og urteknive'  => 'knive-redskaber',
+					'kageruller i træ'       => 'pizza-bagning',
+					'salatsæt i træ'         => 'servering',
+				],
+			],
+			// Happyhoola: mest hobby, fest og gaver. Kun bageudstyr (bageforme, udstikkere, dekorationsværktøj,
+			// kagefade). Muffinsforme (næsten kun papirforme = forbrugsvarer), kagelys, kagepynt, forklæder,
+			// slik/bolsjer og chokoladeforme udelukkes.
+			'happyhoola'          => [
+				'name'         => 'Happyhoola',
+				'url'          => "$base&bannerid=70120&feedid=1479",
+				'refine'       => true,
+				'category_map' => [
+					'bageudstyr // bageforme'                                        => 'pizza-bagning',
+					'bageudstyr // bageforme // bageforme til små figurkager.'       => 'pizza-bagning',
+					'bageudstyr // bageforme // bageforme til figurkager. standard størrelse' => 'pizza-bagning',
+					'bageudstyr // muffinsforme og popcakes // jumbo muffinsforme og kingsize 3d cupcakes' => 'pizza-bagning',
+					'bageudstyr // udstikkere og småkageforme'                       => 'pizza-bagning',
+					'bageudstyr // bagesæt til børn'                                 => 'pizza-bagning',
+					'bageudstyr // værktøj til kagedekoration.'                      => 'pizza-bagning',
+					'bageudstyr // kagefade, cupcake stativer'                       => 'servering',
+				],
+			],
 			// Moreland sælger mest havemøbler, pool og legetøj. Kun grill, grilltilbehør og pizzaovne kommer med
 			// (fast kategori-oversættelse; alle andre butikskategorier udelukkes).
 			'moreland'            => [
@@ -69,13 +111,14 @@ final class Config {
 	public static function categories(): array {
 		return [
 			'pizza-bagning'   => [ 'name' => 'Pizza & bagning', 'match' => 'pizza|bagest[åa]l|bagesten|brødmaskine|bagemaskine|pastamaskine|pasta ?maker|bageform|springform|kageform|muffinform|bageplade|dejskraber|kagerulle|udstikker|sprøjtepose|hævekurv|surdej' ],
-			'kaffe-drikke'    => [ 'name' => 'Kaffe & drikke', 'match' => 'espresso|kaffemaskine|kaffebrygger|kaffekværn|kaffe ?kværn|mokkakande|\bmoka\b|stempelkande|french ?press|filterkaffe|kaffefilter|mælkeskummer|mælkeskumm|elkedel|vandkoger|\bkedel\b|kedel til|tekande|sodavandsmaskine|sodastream|kulsyre|isterningmaskine|drikkevarekøleskab|køleskab til drikke|vinkøleskab|ølkøler|tøndekøler|party ?cooler|cocktail|shaker|barudstyr|isspand' ],
+			// Espressokopper og cocktailglas er servering; en "cocktail blender" er en blender.
+			'kaffe-drikke'    => [ 'name' => 'Kaffe & drikke', 'match' => 'espresso(?!kop)|kaffemaskine|kaffebrygger|kaffekværn|kaffe ?kværn|mokkakande|\bmoka\b|stempelkande|french ?press|filterkaffe|kaffefilter|mælkeskummer|mælkeskumm|elkedel|vandkoger|\bkedel\b|kedel til|tekande|sodavandsmaskine|sodastream|soda ?maker|danskvandsmaskine|kulsyre|isterninge?maskine|drikkevarekøleskab|køleskab til drikke|vinkøleskab|vinskab|ølkøler|tøndekøler|party ?cooler|cocktail(?!glas| ?blender)|shaker|barudstyr|isspand' ],
 			'ovne-apparater'  => [ 'name' => 'Ovne & apparater', 'match' => 'mikroovn|mikrobølge|miniovn|mini ?ovn|minikøkken|airfryer|air ?fryer|varmluftsfriture|friture|brødrister|toaster|paninigrill|panini|sandwichtoaster|sandwich ?maker|vaffeljern|riskoger|slow ?cooker|langtidskoger|multicooker|trykkoger|sous ?vide|dehydrator|frugttørrer|vakuumpakker|vakuumpakning|\bismaskine|softice|gaskomfur|komfur|kogeplade|induktionsplade|indbygningsovn|\bovn\b' ],
-			'koekkenmaskiner' => [ 'name' => 'Køkkenmaskiner', 'match' => 'stavblender|blender|smoothie ?maker|røremaskine|køkkenmaskine|foodprocessor|food ?processor|minihakker|hakkemaskine|kødhakker|slow ?juicer|juicer|juicemaskine|saftpresser|citruspresser|spiralizer|pålægsmaskine|rullepølsepresse|pølsemaskine|elektrisk kartoffelskræller|kartoffelskræller,? elektrisk|håndmixer|elpisker' ],
-			'gryder-pander'   => [ 'name' => 'Gryder & pander', 'match' => 'gryde(?!ske|skab|lap|underlag)|kasserolle|sauterpande|(?<!paella)pande\b|stegepande|wok\b|wokpande|grillpande|blinispande|æbleskivepande|støbejern|dutch ?oven|bradepande|ovnfast fad|låg til' ],
+			'koekkenmaskiner' => [ 'name' => 'Køkkenmaskiner', 'match' => 'stavblender|blender|smoothie ?maker|røremaskine|køkkenmaskine|foodprocessor|food ?processor|minihakker|hakkemaskine|kødhakker|slow ?juicer|juicer|juicemaskine|saftpresser|citruspresser|spiralizer|pålægsmaskine|rullepølsepresse|pølsemaskine|elektrisk kartoffelskræller|kartoffelskræller,? elektrisk|håndmixer|håndmikser|elpisker|juice ?centrifuge' ],
+			'gryder-pander'   => [ 'name' => 'Gryder & pander', 'match' => 'gryde(?!ske|skab|lap|underlag|skraber)|kasserolle|sauterpande|(?<!paella)pande\b|stegepande|wok\b|wokpande|grillpande|blinispande|æbleskivepande|støbejern|dutch ?oven|bradepande|ovnfast fad|låg til' ],
 			'grill'           => [ 'name' => 'Grill & udekøkken', 'match' => 'gasgrill|kulgrill|kamado|big green egg|grill|røgeovn|smoker|bordgrill|raclette|gasbrænder|paella|grillkul|briketter|plancha|bålpande|udekøkken' ],
 			'knive-redskaber' => [ 'name' => 'Knive & redskaber', 'match' => 'kniv|knive|santoku|gyuto|nakiri|petty|knivsliber|slibesten|vandsten|knivblok|knivmagnet|skærebræt|skærebrædt|rivejern|parmesan|grøntsagshakker|mandolin|skræller|hvidløgspresse|køkkensaks|piskeris|grydeske|paletkniv|stegevender|\bøse\b|dørslag|sigte\b|køkkenvægt|stegetermometer|køkkentermometer|æggeur|måleske|målebæger|køkkenredskab' ],
-			'servering'       => [ 'name' => 'Servering & borddækning', 'match' => 'vinglas|rødvinsglas|hvidvinsglas|champagneglas|ølglas|drikkeglas|\bglas\b|karaffel|dekanter|tallerken|\bskål\b|skåle|\bkop\b|kopper|krus|bestik|\bstel\b|julestel|spisestel|ostesæt|ostebræt|serveringsbakke|serveringsfad|\bfad\b|kande\b|bordskåner|dækkeserviet|tapasbræt' ],
+			'servering'       => [ 'name' => 'Servering & borddækning', 'match' => 'vinglas|rødvinsglas|hvidvinsglas|champagneglas|ølglas|drikkeglas|\bglas\b|cocktailglas|espressokop|karaffel|dekanter|tallerken|\bskål\b|skåle|\bkop\b|kopper|krus|bestik|\bstel\b|julestel|spisestel|ostesæt|ostebræt|serveringsbakke|serveringsfad|\bfad\b|kande\b|bordskåner|dækkeserviet|tapasbræt' ],
 		];
 	}
 
@@ -93,7 +136,7 @@ final class Config {
 	public static function subcategories(): array {
 		// Fælles udelukkelser.
 		$pan_not   = 'grill|blini|æbleskive|\bwok|stir ?fry|paella|bradepande|traktør|saut[eéè]r?pande|saut[eé]pande|satuerpande|sauteuse|pandekage|cr[eê]pe|plætte|bål|serverings|præsentations|ovnpande|langpande|fiskepande|snegle|snigel|teppanyaki|fajita|sizzl|braiser|chefpande|pastapande|universalpande|skovpande|el-pande|party|spisepande|æggepande|mini|organizer|spatel|lædergreb|beskytter|stativ|holder|nylonske|\bsæt\b|pandesæt|stegepandesæt|stegepander|\d-pak|\d+ ?dele|\d+ ?\+ ?\d+|gryde|kasserolle|glaslåg til|' . self::acc( 'pande' );
-		$pot_not   = 'grydesæt|gryde ?sæt|gryde-? ?(og|&)|gryde og pande|kasserollesæt|\bsæt\b|\d+ ?dele|stove set|stormkøkken|startsæt|stegepande|grydelåg|organizer|fondue|transporttaske|lågløfter|underlag|stentøj|' . self::acc( 'gryde|kasserolle|dutch' );
+		$pot_not   = 'grydeskraber|grydesæt|gryde ?sæt|gryde-? ?(og|&)|gryde og pande|kasserollesæt|\bsæt\b|\d+ ?dele|stove set|stormkøkken|startsæt|stegepande|grydelåg|organizer|fondue|transporttaske|lågløfter|underlag|stentøj|' . self::acc( 'gryde|kasserolle|dutch' );
 		$knife_not = 'knivblok|knivmagnet|knivtaske|knivskede|saya|knivbeskytter|bladbeskytter|slibesten|knivsliber|strygestål|reserveblad|blad til|startkit|slibe-kit|knivsæt|knivesæt|\bsæt\b|\d+ dele|\+';
 		$af_acc    = 'tilbehør|accessory|silikone|airfryerform|indsats|måtte|kurv til|rack|\brist|æggeform|æggeholder|forme?\b|skuffe|bagesæt|grillplade|\bkit\b|airfryersæt|\blåg\b|spyd|pølseholder';
 		$grill_acc = 'rengøring|termometer|understel|varmehylde|kontrolring|stegplade|grillrist|grillplade|drypbakke|drypbeskyttelse|træspåner|røgboks|adapterkit|rotisserisystem|rottiserisystem|vægstativ|teppanyaki-plade';
@@ -123,10 +166,10 @@ final class Config {
 				'stempelkande'         => [ 'name' => 'Stempelkande', 'match' => 'stempelkande|french ?press', 'not' => 'erstatningsglas|reserveglas|' . self::acc( 'stempelkande|french ?press' ) ],
 				'kedel'                => [ 'name' => 'Kedel', 'match' => 'elkedel|el-kedel|vandkoger|\bkedel\b|kedel til|fløjtekedel', 'not' => 'brødrister|kaffemaskine|pakke|\\+|' . self::acc( 'kedel' ) ],
 				'elkedel'              => [ 'name' => 'Elkedel', 'match' => 'elkedel|el-kedel|el kedel|vandkoger|vandelkedel', 'not' => 'brødrister|kaffemaskine|pakke|\\+|' . self::acc( 'kedel' ) ],
-				'sodavandsmaskine'     => [ 'name' => 'Sodavandsmaskine', 'match' => 'sodavandsmaskine|sodastream|kulsyremaskine|carbonat(o|e)r', 'not' => '^(?:(?!maskine).)*\b(glas)?flask|kulsyreflaske|^(?:(?!maskine).)*cylinder|' . self::acc( 'sodavandsmaskine|kulsyremaskine' ) ],
+				'sodavandsmaskine'     => [ 'name' => 'Sodavandsmaskine', 'match' => 'sodavandsmaskine|sodastream|kulsyremaskine|soda ?maker|danskvandsmaskine|carbonat(o|e)r', 'not' => '^(?:(?!maskine).)*\b(glas)?flask|kulsyreflaske|^(?:(?!maskine).)*cylinder|' . self::acc( 'sodavandsmaskine|kulsyremaskine' ) ],
 				'flaske-til-sodavandsmaskine' => [ 'name' => 'Flaske til sodavandsmaskine', 'match' => '(flask[ae]r?|flaska)[^,|]*(sodavand|kulsyre)|(sodastream|brus|infizz|bubliq|mysoda)[^,|]*\b(glas)?flask', 'not' => 'maskine[^,|]*flask' ],
-				'isterningmaskine'     => [ 'name' => 'Isterningmaskine', 'match' => 'isterningmaskine|ice ?maker' ],
-				'vinkoeleskab'         => [ 'name' => 'Vinkøleskab', 'match' => 'drikkevarekøleskab|køleskab til drikke|vinkøleskab|minikøleskab|barkøleskab' ],
+				'isterningmaskine'     => [ 'name' => 'Isterningmaskine', 'match' => 'isterninge?maskine|ice ?maker' ],
+				'vinkoeleskab'         => [ 'name' => 'Vinkøleskab', 'match' => 'drikkevarekøleskab|køleskab til drikke|vinkøleskab|vinskab|minikøleskab|barkøleskab' ],
 				'toendekoeler'         => [ 'name' => 'Tøndekøler', 'match' => 'tøndekøler|party ?cooler' ],
 			],
 			'ovne-apparater' => [
@@ -139,7 +182,7 @@ final class Config {
 				'paninigrill' => [ 'name' => 'Paninigrill', 'match' => 'paninigrill|panini|sandwichtoaster|kontaktgrill', 'not' => 'plader|snack collection|paninijern|ufo|' . self::acc( 'panini|sandwich' ) ],
 				'riskoger'    => [ 'name' => 'Riskoger', 'match' => 'riskoger|rice ?cooker', 'not' => 'indsats|' . self::acc( 'riskoger' ) ],
 				'slow-cooker' => [ 'name' => 'Slow cooker', 'match' => 'slow ?cooker|langtidskoger' ],
-				'multicooker' => [ 'name' => 'Multicooker', 'match' => 'multicooker|multi ?cooker|multikoger', 'not' => self::acc( 'multicooker|multi ?cooker' ) ],
+				'multicooker' => [ 'name' => 'Multicooker', 'match' => 'multicooker|multi ?cooker|multikoger', 'not' => '-?skål\b|' . self::acc( 'multicooker|multi ?cooker' ) ],
 				'trykkoger'   => [ 'name' => 'Trykkoger', 'match' => 'trykkoger|pressure ?cooker', 'not' => 'pakning|ventil|' . self::acc( 'trykkoger' ) ],
 				'sous-vide'   => [ 'name' => 'Sous vide', 'match' => 'sous ?vide', 'not' => '^sousvidetools®? (?!.*(stav|cirkulator))|kammarvac|isoleringskugler|termometer|opbevaringstaske|\bkar\b|vandbad|beholder|stålkantine|termokasse' ],
 				'dehydrator'  => [ 'name' => 'Dehydrator', 'match' => 'dehydrator|frugttørrer|madtørrer', 'not' => 'ekstra lag|tørreark|\d-pa(ck|k)|' . self::acc( 'dehydrator' ) ],
@@ -160,7 +203,7 @@ final class Config {
 				'foodprocessor'    => [ 'name' => 'Foodprocessor', 'match' => 'foodprocessor|food ?processor', 'not' => 'tilbehør|citruspresser|spiral|' . self::acc( 'foodprocessor' ) ],
 				'minihakker'       => [ 'name' => 'Minihakker', 'match' => 'minihakker|mini ?chopper|chopper|løghakker', 'not' => 'stavblender|' . self::acc( 'blender|minihakker' ) ],
 				'slow-juicer'      => [ 'name' => 'Slow juicer', 'match' => 'slow ?juicer|slowjuicer|koldpresset', 'not' => 'filterpose|klodser|nedstopper|' . self::acc( 'juicer' ) ],
-				'juicemaskine'     => [ 'name' => 'Juicemaskine', 'match' => 'juicer|juicemaskine|saftpresser', 'not' => 'slow|koldpresset|citrus|nedstopper|filterpose|klodser|moste|mustpresser|frugt - og saftpresser|ekstra saftpresser|' . self::acc( 'juicer|saftpresser' ) ],
+				'juicemaskine'     => [ 'name' => 'Juicemaskine', 'match' => 'juicer|juicemaskine|saftpresser|juice ?centrifuge', 'not' => 'slow|koldpresset|citrus|nedstopper|filterpose|klodser|moste|mustpresser|frugt - og saftpresser|ekstra saftpresser|' . self::acc( 'juicer|saftpresser' ) ],
 				'citruspresser'    => [ 'name' => 'Citruspresser', 'match' => 'citruspresser|citrussaftpresser|citrus ?juicer|citrus press', 'not' => 'assistent|\\+|tilbehør|' . self::acc( 'foodprocessor|køkkenmaskine' ) ],
 				'spiralizer'       => [ 'name' => 'Spiralizer', 'match' => 'spiralizer|spiralskærer' ],
 				'palaegsmaskine'   => [ 'name' => 'Pålægsmaskine', 'match' => 'pålægsmaskine|skæremaskine', 'not' => 'restholder|' . self::acc( 'skæremaskine|pålægsmaskine' ) ],
@@ -258,12 +301,14 @@ final class Config {
 	public static function exclude(): array {
 		return [
 			'gavekort',
+			// Brugte varer og udlejning (SA-Service: "Brugte hvidevarer", "Fest Udlejning … pr. dag")
+			'^brugte?\b|brugte (hvidevarer|komfurer)|udlejning|\bpr\.? dag\b',
 			'reservedel|spare ?part|replacement part|\bsn ?[<>]',
 			'\bguide\b|opskriftsbog|kogebog|\bbog\b|bøger',
 			// Hvidevarer, der ikke hører til i et køkken-sortiment for madlavning
 			'vaskemaskine|tørretumbler|vaskesøjle|opvaskemaskine|fryser|kummefryser|køle-?fryseskab|\bkøleskab\b(?!.*(drikke|vin|øl))|støvsuger|robotstøvsuger|affugter|aircondition|varmepumpe|\btv\b|fjernsyn',
 			// Fødevarer og forbrugsvarer (vi samler udstyr, ikke mad)
-			'kaffebønner|hele bønner|formalet kaffe|espressobønner|kapsler|kaffepuder|\bte\b \d|chokolade|slik|krydderi|olivenolie|eddike|sirup|marmelade|kulsyrepatron|rensetablet|afkalkning|filterposer',
+			'kaffebønner|hele bønner|formalet kaffe|espressobønner|surdejsstarter|kapsler|kaffepuder|\bte\b \d|chokolade|slik|krydderi|olivenolie|eddike|sirup|marmelade|kulsyrepatron|rensetablet|afkalkning|filterposer',
 			// Tøj og tekstiler
 			'forklæde|grydelapp|grydehandske|viskestykke|karklud|\bt-shirt\b',
 			// Køkkenindretning og bad (HvidevareShoppen sælger skabe, låger, emhætter og vaske)
@@ -271,9 +316,9 @@ final class Config {
 			// Forbrugsvarer og reservedele til maskinerne
 			'vakuumposer|vakuumruller|vakuumroller|poser til|papirforme|silikoneform|bagepapir|sugerør|ekstrakt|smagsekstrakt|filter til|kulfilter|røgpiller|røgchips|røgtræ|grillkul|briketter|optænding|cover til|overtræk|beholder til|mixerbehållare|dricklock',
 			// Fest, bolig og interiør
-			'festartikler|barspil|drikkespil|flag på|julekugle|julepynt|juletræ|lysestage|fyrfad|\bvase\b|lampe|pendel|\btæppe|plaid|opbevaringsboks',
+			'festartikler|barspil|drikkespil|flag på|julekugle|julepynt|juletræ|lysestage|fyrfad|\bvase\b|\btørrestativ(?![^|]*pasta)|lampe|pendel|\btæppe|plaid|opbevaringsboks',
 			// Mad og drikke (Barlife og KitchenOne har også delikatesser og spiritus)
-			'delikatesser|drikkevarer \||spiritus|whisky|likør|\bgin\b|\brom\b|rødvin(?!sglas)|hvidvin(?!sglas)|champagne(?!glas|køler|spand|sabel)|oliven|saucer og soja',
+			'delikatesser|drikkevarer \||spiritus|whisky|likør|\bgin\b|\brom\b|rødvin(?!sglas)|hvidvin(?!sglas)|champagne(?!glas|køler|spand|sabel|skål| guld)|oliven(?!ske|træ)|saucer og soja',
 		];
 	}
 
