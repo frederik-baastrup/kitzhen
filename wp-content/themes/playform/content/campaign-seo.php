@@ -8,7 +8,7 @@ defined( 'ABSPATH' ) || exit;
 return [
 	'black-friday' => <<<'HTML'
 <h2>Black Friday på køkkenudstyr – sådan finder du de gode tilbud</h2>
-<p>Black Friday er blevet til Black Month. Mange danske webshops sætter allerede i starten af november priserne ned på køkkenudstyr, og tilbuddene fortsætter hen over Black Friday, Black Weekend og Cyber Monday. Det gør det svært at følge med – især når de samme varer findes hos flere butikker til forskellige priser.</p>
+<p>Black Friday er blevet til Black Month. Mange butikker sætter allerede i starten af november priserne ned på køkkenudstyr, og tilbuddene fortsætter hen over Black Friday, Black Weekend og Cyber Monday. Det gør det svært at følge med – især når de samme varer findes hos flere butikker til forskellige priser.</p>
 <p>Derfor samler vi tilbuddene ét sted. Vi henter priser og lagerstatus fra de butikker, vi samarbejder med, to gange i døgnet, og her på siden ser du de varer, butikkerne selv har sat på tilbud. Du handler direkte hos butikken, når du har fundet det, du skal bruge.</p>
 
 <h3>Black Friday-tilbud på kaffemaskiner og alt til kaffen</h3>
