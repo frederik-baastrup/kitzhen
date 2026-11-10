@@ -44,3 +44,13 @@ function playform_price_bands(): array {
 		'10000-'     => [ 'Over 10.000 kr', 10000, PHP_INT_MAX ],
 	];
 }
+
+/**
+ * Hovedkategorier, hvis foto (assets/img/cat-<slug>.jpg) er tjekket og viser netop det, kategorien handler om.
+ * Kun de får billedheaderen; en kategori, der ikke står her, beholder den lyse top, så et foto aldrig ses på en
+ * kategori, det ikke passer til. Nyt foto: læg det i assets/img/cat-<slug>.jpg (1600×1100, Pexels) og tilføj slug'en.
+ * Ovne & apparater mangler et foto af en ovn (det nuværende viser en brødrister).
+ */
+function playform_category_hero_photos(): array {
+	return [ 'grill', 'gryder-pander', 'kaffe-drikke', 'knive-redskaber', 'koekkenmaskiner', 'pizza-bagning', 'servering' ];
+}
