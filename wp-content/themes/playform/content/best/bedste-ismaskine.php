@@ -16,19 +16,19 @@ return [
 HTML,
 	'picks'    => [
 		[
-			'ean'     => '3030050199468',
-			'price'   => 2655,
-			'name'    => 'Cuisinart FreezeEase Pro',
+			'ean'     => '9312432030076',
+			'price'   => 2499,
+			'name'    => 'Sage The Smart Scoop BCI600',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Kompressor-ismaskine uden forfrysning: is, gelato eller sorbet på cirka 40 minutter – og flere omgange i træk.',
+			'verdict' => 'Selvkølende ismaskine med 12 hårdhedsgrader – fra blød sorbet til fast is på omkring en time, uden at fryse noget på forhånd.',
 			'why'     => <<<'HTML'
-<p>Cuisinart FreezeEase Pro er til dig, der vil kunne lave is, når lysten melder sig. Den indbyggede kompressor køler selv, så der er ingen skål, der skal i fryseren dagen før. Du hælder ingredienserne i, trykker på knappen, og efter cirka 40 minutter er desserten klar.</p>
-<p>I kassen ligger to røreblade: ét, der pisker luft ind og giver en let og cremet is, og ét, der arbejder langsommere og giver den tætte, fyldige konsistens, du kender fra gelato. Under omrøringen kan du drysse nødder, chokoladestykker eller frugtpuré i, og fordi kompressoren holder kulden stabil, kan du køre den ene portion efter den anden til festen.</p>
-<p>De løse dele tåler opvaskemaskine, og Cuisinart giver 3 års garanti. Maskinen vejer 11 kg, så giv den en fast plads på køkkenbordet.</p>
+<p>Sage The Smart Scoop er til dig, der vil have styr på konsistensen. Du vælger mellem 12 hårdhedsgrader, så du rammer præcis den is, du har lyst til: let sorbet, frozen yoghurt, blød gelato eller klassisk fast flødeis. Maskinen køler selv, så der er ingen fryseskål at huske dagen før, og på omkring en time er desserten klar.</p>
+<p>Vil du ikke styre det hele selv, er der fire færdige programmer. Maskinen kan køle blandingen ned, før den går i gang, og den bipper, når det er tid til at komme chokolade, nødder eller frugt i. Er du ikke klar til at servere, holder den isen kold og rører i den i op til tre timer.</p>
+<p>Kabinettet er i rustfrit stål, og skål og røreblad kan tages ud, så rengøringen er nem.</p>
 HTML,
-			'good'    => [ 'Dig, der laver is ofte', 'Både is, gelato og sorbet', 'Fester med flere portioner i træk' ],
-			'less'    => [ 'Små køkkener – den vejer 11 kg og fylder på bordet' ],
+			'good'    => [ 'Dig, der vil vælge hårdheden selv', 'Is, gelato, sorbet og frozen yoghurt', 'Middage, hvor isen skal vente' ],
+			'less'    => [ 'Store portioner til mange gæster', 'Dig, der kun laver is et par gange om året' ],
 		],
 		[
 			'ean'     => '5413184909314',

@@ -17,19 +17,19 @@ return [
 HTML,
 	'picks'    => [
 		[
-			'ean'     => '4017166420142',
-			'price'   => 776,
-			'name'    => 'Cilio Giant morter i grøn granit 21 cm',
-			'role'    => 'Bedst til store portioner',
+			'ean'     => '5711973031407',
+			'price'   => 240,
+			'name'    => 'Muubs Valley morter 18 cm',
+			'role'    => 'Håndlavet i flodsten',
 			'reviews' => [],
-			'verdict' => 'Stor granitmorter på 21 cm med høje vægge og grov finish – lavet til pesto og krydderiblandinger.',
+			'verdict' => 'Rummelig morter på 18 cm, håndlavet i flodsten, med rå yderside og glat inderside – hver eneste er unik.',
 			'why'     => <<<'HTML'
-<p>Laver du pesto i store portioner eller blander krydderier til en hel uge ad gangen, er det her morteren, du vokser ind i. Med 21 cm i diameter er der plads til en god håndfuld basilikum, hvidløg og nødder på én gang.</p>
-<p>Granitten er hård og har en grov finish, så krydderierne får modstand og knuses hurtigt. De høje vægge holder på det hele, så peberkorn og frø ikke hopper ud på køkkenbordet, når du arbejder.</p>
-<p>Den grønne sten gør den også til et flot stykke køkkenudstyr, der gerne må blive stående fremme.</p>
+<p>Muubs Valley er morteren til dig, der vil have plads til at arbejde og samtidig noget smukt at se på. Med 18 cm i diameter er der god plads til pesto, karrypasta og krydderiblandinger, uden at det hele ender på køkkenbordet.</p>
+<p>Den er lavet i hånden af flodsten, så farve og form varierer en smule fra morter til morter. Ydersiden er rå og naturlig, mens indersiden er poleret – en flot kontrast, der gør den til et stykke køkkenudstyr, du gerne lader stå fremme.</p>
+<p>Den fås hos flere af de butikker, vi samarbejder med, så du kan vælge den forhandler, der passer dig bedst.</p>
 HTML,
-			'good'    => [ 'Pesto og store portioner', 'Dig, der laver egne krydderiblandinger' ],
-			'less'    => [ 'Små køkkener med lidt plads' ],
+			'good'    => [ 'Pesto og større portioner', 'Dig, der vil have en morter, der pynter i køkkenet' ],
+			'less'    => [ 'Dig, der vil have helt ensartet granit' ],
 		],
 		[
 			'ean'     => '4009839327742',

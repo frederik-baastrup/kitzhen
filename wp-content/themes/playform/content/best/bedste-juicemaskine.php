@@ -16,19 +16,19 @@ return [
 HTML,
 	'picks'    => [
 		[
-			'ean'     => '9312432030649',
-			'price'   => 3499,
-			'name'    => 'Sage The Nutri Juicer Cold XL',
+			'ean'     => '9312432032476',
+			'price'   => 2341,
+			'name'    => 'Sage The Nutri Juicer Cold Plus SJE530',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => '88 mm åbning til hele frugter, 1500 W og en kande på 2 liter – juice til hele familien på få minutter.',
+			'verdict' => 'Hurtig saftcentrifuge med 88 mm påfyldning, to hastigheder og en lukket kande på 2 liter – og den fylder mindre end de fleste.',
 			'why'     => <<<'HTML'
-<p>Sage The Nutri Juicer Cold XL er til dig, der drikker juice hver dag og gerne laver til flere ad gangen. Påfyldningsåbningen er 88 mm bred, så hele æbler og gulerødder kan ryge direkte i uden at blive skåret ud først. Det sparer tid hver eneste morgen.</p>
-<p>Sages Nutri-disc bevarer op til 20 % mere næring fra frugt og grønt, og Cold Spin-filteret holder juicen køligere. Motoren på 1500 W har kræfter nok til hårde rødder, og vil du ikke vække resten af huset, kan du sætte den i en stille tilstand, der skærer 40 % af lyden.</p>
-<p>Juicen løber ned i en kande på 2 liter med låg. Tuden i silikone kan vendes opad, så det stopper med at dryppe, når du tager glasset væk. Kabinettet er i rustfrit stål, og der er 2 års garanti.</p>
+<p>Sage The Nutri Juicer Cold Plus er til dig, der vil have frisk juice om morgenen uden at stå og skære frugt i små stykker. Påfyldningsrøret er hele 88 mm bredt, så æbler og gulerødder kan komme i, som de er. Med to hastigheder skifter du nemt mellem bløde frugter og hårde rødder.</p>
+<p>Sages Cold Spin-teknik er lavet til at holde juicen kølig, mens den presses. Saften løber ned i en lukket kande på 2 liter, så du kan lave til hele familien og stille resten i køleskabet. Vil du bare have ét glas, kan du sætte en ekstra tud på og presse direkte ned i glasset.</p>
+<p>Designet er kompakt, så den tager mindre plads på køkkenbordet end mange andre centrifuger i samme klasse.</p>
 HTML,
-			'good'    => [ 'Juice hver dag', 'Familier og store portioner', 'Hele frugter uden forarbejde' ],
-			'less'    => [ 'Små køkkener – den er 54 cm høj og vejer 8,6 kg' ],
+			'good'    => [ 'Juice hver dag', 'Hele frugter uden forarbejde', 'Juice til flere dage ad gangen' ],
+			'less'    => [ 'Dig, der mest laver juice af bladgrønt – her er en slow juicer bedre' ],
 		],
 		[
 			'ean'     => '0622356308694',

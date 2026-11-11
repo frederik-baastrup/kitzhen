@@ -17,17 +17,18 @@ return [
 HTML,
 	'picks'    => [
 		[
-			'ean'     => '5412191413227',
-			'slug'    => 'demeyere-atlantis-gryde-med-laag-22-cm-4-l',
-			'name'    => 'Demeyere Atlantis Gryde med låg 22 cm, 4 l',
+			'ean'     => '5412191973202',
+			'price'   => 1230,
+			'name'    => 'Demeyere Black 5 gryde 20 cm, 3 l',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Luksusgryde i 18/10-stål fra Demeyere, hvor bunden er hele pointen – til komfur og ovn.',
+			'verdict' => 'Gryde i fem lag fra Demeyere med ridsefast stål indeni og sort, varmebestandig yderside – til komfur, ovn og induktion.',
 			'why'     => <<<'HTML'
-<p>Demeyere er belgisk og kendt for gryder med en særligt kraftig bund, og Atlantis er mærkets luksusserie. Gryden er lavet i 18/10-stål af høj kvalitet, der er hygiejnisk og let at gøre rent. Den kan bruges på alle varmeoverflader og i ovnen – og bunden er noget ganske særligt.</p>
-<p>Med 22 cm og 4 liter er det en god hverdagsstørrelse til en familie: sovs, kartofler, ris og mindre gryderetter. Den er dyr for en gryde i den størrelse, men stål holder i årtier, hvis du passer på den.</p>
+<p>Demeyere er belgisk og kendt for gryder, hvor konstruktionen er hele pointen. Black 5 er bygget op i fem lag, så varmen fordeles jævnt, og sovs, ris og risengrød ikke så let brænder fast midt i gryden.</p>
+<p>Indeni er der ridsefast 18/10 rustfrit stål, mens ydersiden har en sort, keramisk belægning, der tåler høj varme. Det giver et markant udseende og en gryde, du kan bruge på alle kogeplader, også induktion, og sætte i ovnen. Låget følger med, og de store, nittede håndtag er nemme at tage fat i med ovnhandsker.</p>
+<p>Med 20 cm og 3 liter er den en god hverdagsgryde til sovs, kartofler og ris – og den tåler opvaskemaskine.</p>
 HTML,
-			'good'    => [ 'Dig, der vil have én gryde, der holder resten af livet', 'Sovs, ris og retter, der let brænder på', 'Induktion' ],
+			'good'    => [ 'Dig, der vil have én gryde til mange års brug', 'Sovs, ris og retter, der let brænder på', 'Induktion og ovn' ],
 			'less'    => [ 'Store gryderetter til mange', 'Dig med et stramt budget' ],
 		],
 		[
