@@ -7,12 +7,12 @@ defined( 'ABSPATH' ) || exit;
 return [
 	'slug'     => 'bedste-pizzaovn-til-grill',
 	'date'     => '2023-09-07 12:13:33',
-	'title'    => 'Pizzaovn til grill: Vores bud på de 2 bedste',
-	'excerpt'  => 'En pizzaovn til grill er en ovnhætte eller et ovnsæt, der sættes oven på grillen, så den bager som en pizzaovn. Her er vores bud på de 2 bedste fra de butikker, vi samarbejder med.',
+	'title'    => 'Pizzaovn til grill: Vores bud på de 3 bedste',
+	'excerpt'  => 'En pizzaovn til grill er en ovnhætte eller et ovnsæt, der sættes oven på grillen, så den bager som en pizzaovn. Her er vores bud på de 3 bedste fra de butikker, vi samarbejder med.',
 	'more_cat' => 'pizzaovn-til-grill',
 	'intro'    => <<<'HTML'
 <p>En pizzaovn til grill er ikke bare en pizzasten. Det er en ovnhætte eller et ovnsæt, der sættes direkte på din gas-, kul- eller kamadogrill og lukker varmen inde omkring pizzaen. Grillen leverer kraften nedefra, ovnen holder på varmen ovenfra – og så får du en sprød bund og et færdigbagt fyld på få minutter, uden at købe en separat pizzaovn.</p>
-<p>Herunder er vores bud på de 2 bedste pizzaovne til grill fra de butikker, vi samarbejder med: én, der passer til de fleste gas- og kulgrill, og én til kamado.</p>
+<p>Herunder er vores bud på de 3 bedste pizzaovne til grill fra de butikker, vi samarbejder med: én, der passer til de fleste gas- og kulgrill, én til kamado og én til Muurikkas stegepladesæt med gasbrænder.</p>
 HTML,
 	'picks'    => [
 		[
@@ -45,13 +45,28 @@ HTML,
 			'good'    => [ 'Kamado med 47 cm grillrist', 'Dig, der vil have pizza ved over 400 °C', 'Grillspyd og hel kylling' ],
 			'less'    => [ 'Almindelige gas- og kulgrill' ],
 		],
+		[
+			'ean'     => '6414676023272',
+			'price'   => 775,
+			'name'    => 'Muurikka Pizzaovn til stegepladesæt 58 cm',
+			'role'    => 'Bedst til Muurikka-stegepladen',
+			'reviews' => [],
+			'verdict' => 'Pizzasæt med ovndel, rist i rustfrit stål og 8 mm cordierit-sten, der gør dit Muurikka-stegepladesæt på 58 cm til en pizzaovn.',
+			'why'     => <<<'HTML'
+<p>Står der allerede et Muurikka-stegepladesæt på 58 cm i haven, er det her den nemme vej til hjemmebagt pizza. Du sætter ovndelen på i stedet for at købe en selvstændig pizzaovn, og så bruger du den varmekilde, du allerede har.</p>
+<p>Sættet er komplet: en ovndel, en rist i rustfrit stål og en 8 mm tyk pizzasten i cordierit. Stenen ligger på risten og giver den sprøde bund, og ovndelen giver dig fornemmelsen af en stenovn – lige ved siden af terrassebordet.</p>
+<p>Fordi sættet bygger videre på udstyr, du har i forvejen, fylder det ikke meget, når sæsonen er slut. Har du ikke en Muurikka, er en af de to andre i guiden det rigtige valg.</p>
+HTML,
+			'good'    => [ 'Dig, der har et Muurikka-stegepladesæt på 58 cm', 'Pizza i haven uden en ovn mere', 'Sprød bund på cordierit-sten' ],
+			'less'    => [ 'Almindelige gas-, kul- og kamadogrill' ],
+		],
 	],
 	'guide'    => <<<'HTML'
 <h2>Sådan bager du pizza på grillen</h2>
 <h3>Pizzaovn til grill eller bare en pizzasten?</h3>
 <p>En pizzasten eller et pizzastål på grillristen giver en sprød bund, men varmen forsvinder op under låget, så toppen bager langsommere. En pizzaovn til grill lukker varmen inde omkring pizzaen, så fyld og ost bager med – det er langt tættere på en rigtig pizzaovn. Vil du bare prøve det af, er en sten den billige start; vil du have pizzaovnsresultatet, er en ovn til grillen vejen.</p>
 <h3>Tjek, at den passer til din grill</h3>
-<p>Mål fladen på din grill, før du køber. En ovnhætte skal kunne stå stabilt på ristene, og låget på grillen behøver ikke kunne lukkes over den. Kamado-sæt er lavet til bestemte ristestørrelser.</p>
+<p>Mål fladen på din grill, før du køber. En ovnhætte skal kunne stå stabilt på ristene, og låget på grillen behøver ikke kunne lukkes over den. Kamado-sæt er lavet til bestemte ristestørrelser, og Muurikkas sæt passer kun til deres egne stegepladesæt.</p>
 <h3>Varm grillen godt op</h3>
 <p>Sæt ovnen på grillen, mens den varmer op, så stenen får samme temperatur som grillen. Sæt aldrig en kold sten på en meget varm grill – den kan flække.</p>
 <h3>Indirekte varme</h3>

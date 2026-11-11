@@ -31,19 +31,19 @@ HTML,
 			'less'    => [ 'Dig, der vil kunne låse skabet' ],
 		],
 		[
-			'ean'     => '4008146040009',
-			'price'   => 3539,
-			'name'    => 'Severin køleskab med glasdør 118 liter',
+			'ean'     => '5704704016187',
+			'price'   => 5509,
+			'name'    => 'Scandomestic SC 131 HE barkøleskab',
 			'role'    => 'Bedst med lås',
 			'reviews' => [],
-			'verdict' => 'Køleskab med glasdør på 118 liter, lås og kun 42 dB(A) – plads til 42 flasker eller 56 dåser.',
+			'verdict' => 'Barkøleskab i rustfrit stål med glasdør, nøglelås og LED-lys – 103 liter brutto til øl, sodavand og vand.',
 			'why'     => <<<'HTML'
-<p>Severins køleskab med glasdør er til dig, der har brug for plads. Med 118 liter er der plads til 42 flasker på en halv liter eller 56 dåser, og to af de tre gitterhylder kan flyttes, så høje flasker også kan stå.</p>
-<p>Temperaturen stilles mellem 1 og 10 °C på termostaten, og LED-lyset bag glasdøren gør det nemt at se, hvad der er på hylderne. Skabet har indbygget lås med nøgle – praktisk, hvis det står i et fællesrum, eller hvis der er børn i huset.</p>
-<p>Det er støjsvagt med 42 dB(A) og har energiklasse C. Bemærk, at håndtaget sidder i venstre side og ikke kan flyttes.</p>
+<p>Scandomestic SC 131 HE er til dig, der vil kunne låse drikkevarerne inde. Glasdøren har nøglelås, så skabet passer i et fællesrum, i klubhuset eller i et hjem med børn, hvor øl og sodavand ikke skal forsvinde af sig selv.</p>
+<p>Med 103 liter brutto (86 liter netto) er der god plads, og de to hylder kan flyttes, så høje flasker også kan stå. Temperaturen stilles mellem 0 og 10 °C, og LED-lyset indeni gør det let at se, hvad der står klar bag glasset.</p>
+<p>Skabet er bygget i rustfrit stål til barer og caféer, men passer lige så godt i hjemmebaren, på kontoret eller i hobbyrummet.</p>
 HTML,
-			'good'    => [ 'Mange flasker og dåser', 'Fællesrum og familier med børn', 'Stille rum' ],
-			'less'    => [ 'Dig, der skal have døren hængt om' ],
+			'good'    => [ 'Fællesrum og familier med børn', 'Hjemmebaren og kontoret', 'Dig, der vil se drikkevarerne gennem glasset' ],
+			'less'    => [ 'Stille rum – det er bygget til barer og caféer', 'Dig, der skal have døren hængt om' ],
 		],
 		[
 			'ean'     => '5704704018884',

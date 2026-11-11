@@ -76,16 +76,16 @@ HTML,
 			'less'    => [ 'Dig, der vil holde kaffen varm længe', 'Glaskanden kan gå i stykker' ],
 		],
 		[
-			'ean'     => '5057982084028',
-			'price'   => 305.95,
-			'name'    => 'La Cafetière stempelkande 8 kopper, dobbeltvægget stål',
+			'ean'     => '6410416130798',
+			'price'   => 395,
+			'name'    => 'Maku Gastro stempelkande 1 liter, rustfrit stål',
 			'role'    => 'Holder kaffen varm længst',
 			'reviews' => [],
-			'verdict' => 'Stempelkande til 8 kopper i dobbeltvægget rustfrit stål, der holder kaffen varm meget længere end glas.',
+			'verdict' => 'Stempelkande på 1 liter i dobbeltvægget rustfrit stål, der holder kaffen varm længere end en glaskande.',
 			'why'     => <<<'HTML'
-<p>La Cafetière i dobbeltvægget stål er til dig, der brygger en hel kande og drikker den over lang tid. De dobbelte vægge i rustfrit stål holder den friskbryggede kaffe varm markant længere end en traditionel glaskande, så kop nummer tre er stadig varm.</p>
-<p>Med plads til 8 kopper rækker den til hele familien, gæsterne eller en lang formiddag på hjemmekontoret. Stålet giver et stilrent og elegant udtryk på bordet, og du slipper for bekymringen om en glaskande, der kan gå i stykker.</p>
-<p>Vil du have en kande, der holder på varmen, men ikke har brug for Espros dobbelte mikrofilter, er den et oplagt alternativ.</p>
+<p>Maku Gastro er til dig, der brygger en hel kande og gerne tager den med til bordet eller skrivebordet. Kanden er lavet af dobbeltvægget rustfrit stål, så kaffen holder temperaturen længere end i en klassisk glaskande – også når du skænker kop nummer to og tre.</p>
+<p>Med plads til 1 liter rækker den til flere kopper på én gang, og stålet betyder, at du ikke skal være nervøs for at slå glasset i stykker i køkkenet eller på vej ud i haven.</p>
+<p>Fremgangsmåden er den samme som i enhver stempelkande: groftmalet kaffe, varmt vand, fire minutters ventetid og et roligt tryk på stemplet. Vil du have en kande, der holder på varmen, uden at betale for Espros dobbelte mikrofilter, er den et oplagt bud.</p>
 HTML,
 			'good'    => [ 'Dig, der drikker kaffen langsomt', 'Kaffe til flere', 'Dig, der vil undgå glas' ],
 			'less'    => [ 'Du kan ikke se kaffen, mens den trækker' ],

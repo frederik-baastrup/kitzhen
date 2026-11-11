@@ -58,18 +58,18 @@ HTML,
 			'less'    => [ 'Dig, der vil have en timer, der slukker selv' ],
 		],
 		[
-			'ean'     => '8711902088141',
-			'price'   => 299,
-			'name'    => 'Gastronoma flad brødrister',
-			'role'    => 'Med timer og autosluk',
+			'ean'     => '5708642026321',
+			'price'   => 279,
+			'name'    => 'OBH Nordica Classic flad brødrister',
+			'role'    => 'Med signal, når brødet er klar',
 			'reviews' => [],
-			'verdict' => 'Flad brødrister på 920 W med tre quartzrør, elektronisk timer og automatisk slukning, når brødet er ristet.',
+			'verdict' => 'Flad brødrister med en risteflade på 20 x 25 cm, trinløs ristegrad og et signal, når brødet er færdigt.',
 			'why'     => <<<'HTML'
-<p>Gastronomas flade brødrister er til dig, der vil kunne gå fra den et øjeblik, mens kaffen brygger. Du stiller den elektroniske timer, og når ristningen er færdig, slukker den af sig selv.</p>
-<p>Tre quartzrør fordeler varmen jævnt over brødet, og effekten er på 920 W. Den måler 22 × 35 cm og har et tidløst design, der passer ind i de fleste køkkener.</p>
-<p>Krummebakken kan tages ud, så det er nemt at holde den ren.</p>
+<p>OBH Nordica Classic er til dig, der vil have den store risteflade i et enkelt, klassisk design. Fladen måler 20 x 25 cm, så der er plads til flere boller, rundstykker eller skiver rugbrød på én gang – samme størrelse som Inox Horizon.</p>
+<p>Du stiller ristegraden trinløst, og når brødet er klar, giver brødristeren et signal. Så kan du hælde kaffe op eller dække bord imens uden at stå og holde øje med den.</p>
+<p>Effekten er 700 W, og krummebakken kan tages ud, så det er nemt at holde den ren efter morgenmaden.</p>
 HTML,
-			'good'    => [ 'Dig, der vil styre ristningen med timer', 'Travle morgener', 'Nem rengøring' ],
+			'good'    => [ 'Boller, rundstykker og rugbrød', 'Travle morgener', 'Nem rengøring' ],
 			'less'    => [ 'Dig, der ikke vil vende brødet undervejs' ],
 		],
 	],
