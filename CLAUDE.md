@@ -37,7 +37,7 @@ Samme som Fitbase:
 
 1. **Tilbud = butikkernes egne tilbud, højst 14 dage gamle** (`Sales::DAYS`). Kontrolleret førpris fra vores prishistorik, ellers butikkens førpris tydeligt mærket "Butikkens førpris".
 2. **AI må aldrig opfinde fakta.** Produkttekster kun ud fra feed-data; `AiWriter::check()` faktatjekker.
-3. **Affiliate-links** har `rel="sponsored nofollow"`, og siden oplyser tydeligt, at den indeholder annoncer. Alle klik går gennem `playform_aff_url()`.
+3. **Affiliate-links** har `rel="sponsored nofollow"`, og siden oplyser tydeligt, at den indeholder annoncer. Alle klik går gennem `playform_aff_url()`. Klikket går gennem `/go/` (`inc/go.php`, 12. nov. 2026): signeret adresse, lukket i robots.txt og noindex, robotter får 403, rigtige klik tælles i `wp_pf_clicks` (Værktøjer → Klik til butikker) og sendes med 302 videre til Partner-ads med samme uid/uid2.
 4. **Produkter uden billede vises ikke.** Udsolgte produkter slettes ikke.
 5. **Prissammenligning er en bonus.** "Sælges af [butik]" ved én butik, prisliste ved flere.
 6. **Ingen pixelerede billeder.**
