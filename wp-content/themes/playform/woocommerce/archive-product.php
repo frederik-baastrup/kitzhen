@@ -85,10 +85,10 @@ global $wp_query;
 ?>
 <?php
 // Hovedkategorier (ikke underkategorier, tilbud eller søgning): samme billedheader som kampagnerne, i en roligere udgave
-// med kategoriens eget foto (ejerens valg 10. nov. 2026). Underkategorier deler forælderens foto og beholder den lyse top.
+// med kategoriens eget foto (ejerens valg 10. nov. 2026). Fra 12. nov. 2026 også underkategorier (hovedkategoriens foto).
 $cat_hero = '';
-if ( ! $campaign && $is_cat && ! $offers && ! $parent && 0 === (int) $term->parent && '' === $search && in_array( $term->slug, playform_category_hero_photos(), true ) && is_readable( get_template_directory() . '/assets/img/cat-' . $term->slug . '.jpg' ) ) {
-	$cat_hero = playform_asset( 'cat-' . $term->slug . '.jpg' );
+if ( ! $campaign && $is_cat && ! $offers && '' === $search && function_exists( 'playform_category_hero_image' ) ) {
+	$cat_hero = playform_category_hero_image( $term ); // alle kategorier; underkategorier med hovedkategoriens foto (12. nov. 2026)
 }
 if ( $cat_hero ) :
 	?>

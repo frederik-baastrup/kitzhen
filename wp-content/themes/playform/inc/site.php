@@ -52,5 +52,31 @@ function playform_price_bands(): array {
  * Ovne & apparater mangler et foto af en ovn (det nuværende viser en brødrister).
  */
 function playform_category_hero_photos(): array {
-	return [ 'grill', 'gryder-pander', 'kaffe-drikke', 'knive-redskaber', 'koekkenmaskiner', 'pizza-bagning', 'servering' ];
+	return [ 'grill', 'gryder-pander', 'kaffe-drikke', 'knive-redskaber', 'koekkenmaskiner', 'ovne-apparater', 'pizza-bagning', 'servering' ];
+}
+
+/**
+ * Billedheaderens foto til en kategori (alle kategorier, ejerens ønske 12. nov. 2026): underkategorier bruger
+ * hovedkategoriens foto. hero-<slug>.jpg vinder over cat-<slug>.jpg (ovne-apparater: kategorikortets brødrister
+ * passer ikke som header). Tom streng = ingen billedheader.
+ */
+function playform_category_hero_image( WP_Term $term ): string {
+	$root = $term;
+	while ( $root->parent ) {
+		$up = get_term( $root->parent, 'product_cat' );
+		if ( ! $up instanceof WP_Term ) {
+			break;
+		}
+		$root = $up;
+	}
+	if ( ! in_array( $root->slug, playform_category_hero_photos(), true ) ) {
+		return '';
+	}
+	foreach ( [ 'hero-', 'cat-' ] as $prefix ) {
+		$file = get_template_directory() . '/assets/img/' . $prefix . $root->slug . '.jpg';
+		if ( is_readable( $file ) ) {
+			return playform_asset( $prefix . $root->slug . '.jpg' ) . '?v=' . filemtime( $file );
+		}
+	}
+	return '';
 }
