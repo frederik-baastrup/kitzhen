@@ -196,7 +196,7 @@ function playform_author_profile(): void {
 	foreach ( $users as $u ) {
 		$bio = trim( (string) get_user_meta( $u->ID, 'description', true ) );
 		if ( '' === $bio || playform_author_defaults()['bio'] === $bio ) {
-			update_user_meta( $u->ID, 'description', sprintf( 'Frederik Baastrup er stifter og redaktør af %1$s. Til daglig driver han Mondae, hvor han arbejder med webdesign og digitale løsninger. Med %1$s samler han %2$s fra de butikker, vi samarbejder med, ét sted og skriver købsguides, der gør det nemt at sammenligne priser, specifikationer og tilbud – med åbenhed om, hvordan produkterne er valgt, og hvordan siden tjener penge.', playform_site( 'name' ), playform_site( 'niche' ) ) );
+			update_user_meta( $u->ID, 'description', sprintf( 'Frederik Baastrup er stifter og redaktør af %1$s. Med %1$s samler han %2$s fra de butikker, vi samarbejder med, ét sted og skriver købsguides, der gør det nemt at sammenligne priser, specifikationer og tilbud – med åbenhed om, hvordan produkterne er valgt, og hvordan siden tjener penge.', playform_site( 'name' ), playform_site( 'niche' ) ) );
 		}
 		if ( '' === (string) get_user_meta( $u->ID, 'pf_photo', true ) ) {
 			update_user_meta( $u->ID, 'pf_photo', playform_asset( 'authors/frederik-baastrup-2.jpg' ) );
@@ -209,7 +209,7 @@ function playform_author_profile(): void {
 add_action(
 	'init',
 	static function (): void {
-		if ( get_option( 'playform_author_photo_v' ) === '3' ) {
+		if ( get_option( 'playform_author_photo_v' ) === '4' ) {
 			return;
 		}
 		foreach ( get_users( [ 'fields' => 'ID' ] ) as $id ) {
@@ -218,12 +218,16 @@ add_action(
 				update_user_meta( $id, 'pf_photo', playform_asset( 'authors/frederik-baastrup-2.jpg' ) );
 			}
 			// Den gamle standardtekst sagde "fra danske webshops" – vi viser kun butikker, vi samarbejder med.
+			// Mondae nævnes ikke i bioen (ejerens ønske 12. nov. 2026).
 			$bio = (string) get_user_meta( $id, 'description', true );
-			if ( str_contains( $bio, 'fra danske webshops' ) ) {
-				update_user_meta( $id, 'description', str_replace( 'fra danske webshops', 'fra de butikker, vi samarbejder med,', $bio ) );
+			$new = str_replace( 'fra danske webshops', 'fra de butikker, vi samarbejder med,', $bio );
+			$new = str_replace( ', som til daglig driver Mondae med webdesign og digitale løsninger.', '.', $new );
+			$new = trim( (string) preg_replace( '~\s*[^.]*\bMondae\b[^.]*\.~u', '', $new ) );
+			if ( $new !== $bio ) {
+				update_user_meta( $id, 'description', $new );
 			}
 		}
-		update_option( 'playform_author_photo_v', '3', false );
+		update_option( 'playform_author_photo_v', '4', false );
 		if ( function_exists( 'sg_cachepress_purge_cache' ) ) {
 			sg_cachepress_purge_cache(); // billedet står på alle artikler og guides
 		}
