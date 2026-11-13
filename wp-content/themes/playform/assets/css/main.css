@@ -1672,3 +1672,5 @@ body { background: #F9FAF9; }
 .offer__shop .badge + .badge { margin-left: 4px; }
 .offer__was { font-size: 12px; font-weight: 600; color: var(--sale, #B42318); white-space: nowrap; }
 .offer__was s { color: var(--muted-2, #8A8A84); font-weight: 400; }
+
+.prose .ai-note, .ai-note { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line, rgba(0,0,0,.1)); font-size: 12px; line-height: 1.5; color: var(--muted); }
