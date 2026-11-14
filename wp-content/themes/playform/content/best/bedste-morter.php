@@ -9,27 +9,26 @@ return [
 	'date'     => '2026-11-10 10:00:00',
 	'keyword'  => 'morter',
 	'title'    => 'Morter: Vores bud på de 5 bedste',
-	'excerpt'  => 'Friskknuste krydderier smager af mere. Her er vores bud på de 5 bedste mortere fra de butikker, vi samarbejder med – i granit, støbejern og som mexicansk molcajete.',
+	'excerpt'  => 'Friskknuste krydderier smager af mere. Her er vores bud på de 5 bedste mortere fra de butikker, vi samarbejder med – i marmor, granit, støbejern og som mexicansk molcajete.',
 	'more_cat' => 'knive-redskaber',
 	'intro'    => <<<'HTML'
 <p>Færdigmalede krydderier mister hurtigt duften. Knuser du dem selv lige før brug, får du langt mere smag ud af spidskommen, peber og koriander – og du kan blande dine egne krydderiblandinger, pesto og karrypasta. Det eneste, du skal bruge, er en god morter med en tung støder.</p>
-<p>Herunder er vores bud på de 5 bedste mortere fra de butikker, vi samarbejder med, lige nu. De fleste er i granit, som er det, flest søger efter, men vi har også taget en i støbejern og en mexicansk molcajete med. Nederst finder du en købsguide til materiale, størrelse og pleje.</p>
+<p>Herunder er vores bud på de 5 bedste mortere fra de butikker, vi samarbejder med, lige nu. De fleste er i granit, som er det, flest søger efter, men vi har også taget en i marmor, en i støbejern og en mexicansk molcajete med. Nederst finder du en købsguide til materiale, størrelse og pleje.</p>
 HTML,
 	'picks'    => [
 		[
-			'ean'     => '5711973031407',
-			'price'   => 240,
-			'name'    => 'Muubs Valley morter 18 cm',
-			'role'    => 'Håndlavet i flodsten',
+			'ean'     => '5713524050899',
+			'price'   => 301,
+			'name'    => 'Muubs Vita morter, marmor/seashell',
+			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Rummelig morter på 18 cm, håndlavet i flodsten, med rå yderside og glat inderside – hver eneste er unik.',
+			'verdict' => 'Tung og robust morter i marmor/seashell, der står stabilt på bordet, mens du knuser urter, krydderier og nødder.',
 			'why'     => <<<'HTML'
-<p>Muubs Valley er morteren til dig, der vil have plads til at arbejde og samtidig noget smukt at se på. Med 18 cm i diameter er der god plads til pesto, karrypasta og krydderiblandinger, uden at det hele ender på køkkenbordet.</p>
-<p>Den er lavet i hånden af flodsten, så farve og form varierer en smule fra morter til morter. Ydersiden er rå og naturlig, mens indersiden er poleret – en flot kontrast, der gør den til et stykke køkkenudstyr, du gerne lader stå fremme.</p>
-<p>Den fås hos flere af de butikker, vi samarbejder med, så du kan vælge den forhandler, der passer dig bedst.</p>
+<p>Muubs Vita er morteren til dig, der vil have en solid arbejdshest, som også er pæn at se på. Med en vægt på over tre kilo står den stabilt på køkkenbordet, så du kan koncentrere dig om at knuse i stedet for at holde fast i skålen.</p>
+<p>Den solide konstruktion giver god modstand, når du knuser friske krydderurter, hele krydderier eller ristede nødder. Det gør den til et sikkert valg til både daglig brug og de lidt større madlavningsprojekter.</p>
 HTML,
-			'good'    => [ 'Pesto og større portioner', 'Dig, der vil have en morter, der pynter i køkkenet' ],
-			'less'    => [ 'Dig, der vil have helt ensartet granit' ],
+			'good'    => [ 'Stabil arbejdsplads til krydderier og nødder', 'Friske krydderurter' ],
+			'less'    => [ 'Små skabe, hvor den tunge vægt fylder' ],
 		],
 		[
 			'ean'     => '4009839327742',

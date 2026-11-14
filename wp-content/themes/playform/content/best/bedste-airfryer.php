@@ -44,17 +44,17 @@ HTML,
 			'less'    => [ 'Dig, der vil lave to ting på én gang' ],
 		],
 		[
-			'ean'     => '0810028586383',
-			'price'   => 1699,
-			'name'    => 'Instant Vortex Plus ClearCook 5,7 liter',
+			'ean'     => '7350101117934',
+			'price'   => 649,
+			'name'    => 'Nod XL Slim Airfryer 5L med vindue',
 			'role'    => 'Bedst med vindue',
 			'reviews' => [],
-			'verdict' => 'Airfryer med ClearCook-vindue, så du kan se maden uden at åbne skuffen.',
+			'verdict' => 'Airfryer på 5 liter med vindue, så du kan følge maden uden at åbne skuffen.',
 			'why'     => <<<'HTML'
-<p>Instant Vortex Plus ClearCook har et vindue i skuffen, så du kan følge med i maden uden at trække den ud og lukke varmen ud. Den er pladsbesparende og effektiv til sprød og smagfuld mad med et minimum af olie.</p>
+<p>Nod XL Slim er en airfryer på 5 liter med vindue, så du kan følge med i maden uden at trække skuffen ud og lukke varmen ud. Den bruger varmluft med 360° cirkulation, så du får sprøde resultater uden olie.</p>
 <p>Vinduet lyder som en detalje, men det gør det meget nemmere at ramme det rigtige tidspunkt.</p>
 HTML,
-			'good'    => [ 'Dig, der vil kunne se maden', 'To–tre personer' ],
+			'good'    => [ 'Dig, der vil kunne se maden', 'Sprød mad uden olie' ],
 			'less'    => [ 'Store familier' ],
 		],
 		[

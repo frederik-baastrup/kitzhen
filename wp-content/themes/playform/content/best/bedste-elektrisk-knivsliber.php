@@ -7,27 +7,28 @@ defined( 'ABSPATH' ) || exit;
 return [
 	'slug'     => 'bedste-elektrisk-knivsliber',
 	'date'     => '2023-09-08 07:41:23',
-	'title'    => 'Elektrisk knivsliber: Vores bud på de 5 bedste',
-	'excerpt'  => 'En elektrisk knivsliber gør sløve knive skarpe på få minutter. Her er vores bud på de 5 bedste fra de butikker, vi samarbejder med – og hvornår du hellere skal vælge en slibesten.',
+	'title'    => 'Elektrisk knivsliber: Vores bud på de 4 bedste',
+	'excerpt'  => 'En elektrisk knivsliber gør sløve knive skarpe på få minutter. Her er vores bud på de 4 bedste fra de butikker, vi samarbejder med – og hvornår du hellere skal vælge en slibesten.',
 	'more_cat' => 'knivsliber',
 	'intro'    => <<<'HTML'
 <p>En sløv kniv er både irriterende og farlig, fordi den glider i stedet for at skære. En elektrisk knivsliber løser problemet på få minutter: du trækker kniven igennem et par slibeskiver i den rigtige vinkel, og maskinen klarer resten. Den er især god, hvis du aldrig har lært at bruge en slibesten.</p>
-<p>Herunder er vores bud på de 5 bedste elektriske knivslibere fra de butikker, vi samarbejder med, lige nu. Nederst finder du en købsguide til vinkler, trin og japanske knive.</p>
+<p>Herunder er vores bud på de 4 bedste elektriske knivslibere fra de butikker, vi samarbejder med, lige nu. Nederst finder du en købsguide til vinkler, trin og japanske knive.</p>
 HTML,
 	'picks'    => [
 		[
-			'ean'     => '4002293103617',
-			'price'   => 1999,
-			'name'    => 'Wüsthof Easyedge',
+			'ean'     => '0087877001507',
+			'price'   => 1466,
+			'name'    => 'Chef\'s Choice #1520 elektrisk knivsliber',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Elektrisk knivsliber fra knivproducenten Wüsthof med tre trin: shape, sharpen og refine.',
+			'verdict' => 'Solid elektrisk knivsliber i børstet stål med slidser til både vestlige og asiatiske knive – den mest alsidige af vores fire valg.',
 			'why'     => <<<'HTML'
-<p>Wüsthof er en af de store tyske knivproducenter, og Easyedge er deres elektriske knivsliber. Den har tre forprogrammerede trin: shape til en beskadiget æg, sharpen, der gør kniven skarpere, og refine, der giver den sidste finish.</p>
-<p>Tre trin betyder, at du både kan redde en meget sløv kniv og holde en god kniv skarp. Den er dyr, men et godt valg, hvis du har gode knive, du vil passe på.</p>
+<p>Chef's Choice #1520 er vores bedste samlede valg, fordi den kan bruges til næsten alle køkkenets knive: den passer til dig, der har en blandet knivblok med både vestlige og asiatiske knive. Den er bygget til hjemmet, men også til små professionelle køkkener, så den kan klare at blive brugt flittigt.</p>
+<p>Sliberen har tre sæt slidser. To af dem er til henholdsvis vestlige og asiatiske knive, så hver type får sin egen vinkel. Det sidste sæt bruges til at polere begge typer og kan også bruges til brødknive.</p>
+<p>Kabinettet er i børstet stål, og med 2,3 kg står den solidt på bordet, mens du sliber.</p>
 HTML,
-			'good'    => [ 'Dig med gode europæiske knive', 'Meget sløve eller beskadigede knive' ],
-			'less'    => [ 'Dig, der kun sliber en billig kniv en gang imellem' ],
+			'good'    => [ 'Dig med både vestlige og japanske knive', 'Flittig brug', 'Brødknive' ],
+			'less'    => [ 'Dig, der kun sliber en kniv en gang imellem' ],
 		],
 		[
 			'ean'     => '7350101117842',
@@ -35,10 +36,10 @@ HTML,
 			'name'    => 'NOD Elektrisk knivsliber europæisk',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Elektrisk knivsliber i tre trin til europæiske knive – til under det halve af Wüsthof.',
+			'verdict' => 'Elektrisk knivsliber i tre trin til europæiske knive – til en pris, der er til at overskue.',
 			'why'     => <<<'HTML'
 <p>NODs elektriske knivsliber er lavet til europæiske knive. Du kan give en gammel, slidt kniv et nyt skær på få minutter, og slibningen sker i tre trin, så du slipper for at gøre hele arbejdet manuelt.</p>
-<p>Den er et godt mellemvalg: tre trin som de dyre modeller, men til en lavere pris. Bemærk, at den er til europæiske knive – til japanske knive med en spidsere vinkel skal du vælge en anden løsning.</p>
+<p>Den er et godt mellemvalg: tre trin som de dyrere modeller, men til en lavere pris. Bemærk, at den er til europæiske knive – til japanske knive med en spidsere vinkel skal du vælge en anden løsning.</p>
 HTML,
 			'good'    => [ 'Almindelige køkkenknive', 'Dig, der vil have tre trin uden at give meget' ],
 			'less'    => [ 'Japanske knive' ],
@@ -52,7 +53,7 @@ HTML,
 			'verdict' => 'Enkel elektrisk knivsliber fra tyske Steba – til dig, der bare vil have skarpe hverdagsknive.',
 			'why'     => <<<'HTML'
 <p>Steba KS 1 er den enkle og billige løsning. Den er en elektrisk knivsliber fra tyske Steba, der gør det nemt at få skarpe knive til grøntsager og kød.</p>
-<p>Den er god til hverdagsknive, hvor det vigtigste er, at de skærer. Har du dyre knive, vil vi hellere pege på en af de to andre.</p>
+<p>Den er god til hverdagsknive, hvor det vigtigste er, at de skærer. Har du dyre knive, vil vi hellere pege på en af de andre.</p>
 HTML,
 			'good'    => [ 'Billige hverdagsknive', 'Dig, der vil prøve en elektrisk knivsliber' ],
 			'less'    => [ 'Dyre og japanske knive' ],
@@ -71,21 +72,6 @@ HTML,
 HTML,
 			'good'    => [ 'Japanske knive', 'Dig, der vil undgå slibesten', 'Både sløve og næsten skarpe knive' ],
 			'less'    => [ 'Europæiske knive med større slibevinkel' ],
-		],
-		[
-			'ean'     => '0087877001507',
-			'price'   => 1466,
-			'name'    => 'Chef\'s Choice #1520 elektrisk knivsliber',
-			'role'    => 'Bedst til blandede knivsæt',
-			'reviews' => [],
-			'verdict' => 'Solid elektrisk knivsliber i børstet stål med slidser til både vestlige og asiatiske knive – og til polering af brødknive.',
-			'why'     => <<<'HTML'
-<p>Chef's Choice #1520 er knivsliberen til dig, der har en blandet knivblok med både vestlige og asiatiske knive. Den er bygget til hjemmet, men også til små professionelle køkkener, så den kan klare at blive brugt flittigt.</p>
-<p>Sliberen har tre sæt slidser. To af dem er til henholdsvis vestlige og asiatiske knive, så hver type får sin egen vinkel. Det sidste sæt bruges til at polere begge typer og kan også bruges til brødknive.</p>
-<p>Kabinettet er i børstet stål, og med 2,3 kg står den solidt på bordet, mens du sliber.</p>
-HTML,
-			'good'    => [ 'Dig med både vestlige og japanske knive', 'Flittig brug', 'Brødknive' ],
-			'less'    => [ 'Dig, der kun sliber en kniv en gang imellem' ],
 		],
 	],
 	'guide'    => <<<'HTML'

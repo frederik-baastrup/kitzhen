@@ -61,18 +61,18 @@ HTML,
 			'less'    => [ 'Tåler ikke opvaskemaskine' ],
 		],
 		[
-			'ean'     => '4019889122020',
-			'price'   => 189,
-			'name'    => 'Lurch RazorTech EDS parmesan rivejern',
-			'role'    => 'Bedst til hårde oste',
+			'ean'     => '5706631273749',
+			'price'   => 169,
+			'name'    => 'Eva Solo Green Tools Mikro Rivejern',
+			'role'    => 'Bedst til fine rivninger',
 			'reviews' => [],
-			'verdict' => 'Knivskarpt rivejern lavet til faste oste som parmesan, pecorino og grana padano – i køkkenet og ved bordet.',
+			'verdict' => 'Mikro rivejern til finrivning af parmesan og andre hårde ingredienser, hvor præcision tæller.',
 			'why'     => <<<'HTML'
-<p>Lurch RazorTech er til dig, der vil have et rivejern, der er lavet specielt til de hårde oste. Parmesan, pecorino og grana padano er faste og tørre, og her gør et knivskarpt rivejern hele forskellen: Osten glider over uden at du skal presse, og du får fine, luftige flager i stedet for klumper.</p>
-<p>Brug det i køkkenet, når risottoen eller pastasovsen skal have et lag ost, eller send det rundt ved spisebordet, så alle kan rive selv over tallerkenen. Det er et godt alternativ til en ostekværn, hvis du vil have et klassisk rivejern.</p>
+<p>Eva Solo Green Tools Mikro Rivejern er til dig, der vil have helt fin rivning. Det er udviklet til mindre og hårdere ingredienser, hvor præcision er afgørende, og det giver et jævnt og fint resultat.</p>
+<p>Parmesan er lige til det, men rivejernet er ikke begrænset til ost. Det egner sig også til muskatnød, hvidløg, ingefær og citrusskal, så det kan hurtigt blive et af dem, du rækker ud efter i køkkenet.</p>
 HTML,
-			'good'    => [ 'Parmesan, pecorino og grana padano', 'Pasta og risotto', 'Rivning ved bordet' ],
-			'less'    => [ 'Bløde oste' ],
+			'good'    => [ 'Parmesan og andre hårde oste', 'Muskatnød, hvidløg, ingefær og citrusskal' ],
+			'less'    => [ 'Rivning ved bordet, hvor en kværn er mere praktisk' ],
 		],
 		[
 			'ean'     => '8595028484441',

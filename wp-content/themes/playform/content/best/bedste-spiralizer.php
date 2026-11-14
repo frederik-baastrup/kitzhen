@@ -72,18 +72,17 @@ HTML,
 			'less'    => [ 'Dig uden Kenwood' ],
 		],
 		[
-			'ean'     => '4019889131312',
-			'price'   => 49,
-			'name'    => 'Lurch Tango håndholdt spiralizer',
+			'ean'     => '8595028475586',
+			'price'   => 89,
+			'name'    => 'Julienne spiralizer fra Tescoma til tynde strimler',
 			'role'    => 'Billigst',
 			'reviews' => [],
-			'verdict' => 'Lille håndholdt spiralizer, der hurtigt gør friske grøntsager til flotte spiraler – den billigste vej i gang.',
+			'verdict' => 'Julienne spiralizer fra Tescoma, der laver tynde, dekorative strimler af gulerod, agurk og hvid radise – den billigste vej i gang.',
 			'why'     => <<<'HTML'
-<p>Lurch Tango er til dig, der gerne vil prøve grøntsagsspiraler af uden at investere i en bordmodel eller tilbehør til køkkenmaskinen. Du holder den i hånden og drejer grøntsagen igennem, og på kort tid har du fine, dekorative spiraler.</p>
-<p>Den er oplagt til sprøde gulerodsspiraler i en frisk salat eller til at pynte en ret, så den ser lidt ekstra indbydende ud. Fordi den er håndholdt, fylder den næsten intet og kan ligge i skuffen sammen med de andre redskaber.</p>
-<p>Laver du store portioner til hele familien flere gange om ugen, er en bordmodel hurtigere. Men til små mængder og til at komme i gang er den et oplagt sted at starte.</p>
+<p>Tescomas julienne spiralizer er til dig, der gerne vil prøve grøntsagsstrimler af uden at investere i en bordmodel eller tilbehør til køkkenmaskinen. Du får tynde, dekorative julienne-strimler af gulerod, agurk, hvid radise og andre spændende grøntsager.</p>
+<p>Miks forskellige farver, og salaten eller anretningen får et visuelt flot udtryk. Den er fremstillet i rustfrit stål og fylder ikke meget i skuffen. Laver du store portioner til hele familien ofte, er en bordmodel hurtigere – men til små mængder og til at komme i gang er den et oplagt sted at starte.</p>
 HTML,
-			'good'    => [ 'Dig, der vil prøve spiralizer af', 'Salater og pynt', 'Små køkkener' ],
+			'good'    => [ 'Dig, der vil prøve spiralizer af', 'Salater og pynt' ],
 			'less'    => [ 'Store portioner' ],
 		],
 	],

@@ -76,19 +76,18 @@ HTML,
 			'less'    => [ 'Dig, der vil have programmer til quinoa og brune ris', 'Små køkkener med lidt plads' ],
 		],
 		[
-			'ean'     => '7391091867089',
-			'price'   => 199,
-			'name'    => 'Champion RK400 Mini riskoger 0,6 liter',
+			'ean'     => '4011833303493',
+			'price'   => 285,
+			'name'    => 'Steba Riskoger med varmefunktion, 0,9 liter',
 			'role'    => 'Bedst til små husstande',
 			'reviews' => [],
-			'verdict' => 'Kompakt riskoger på 0,6 liter med keramisk non-stick, glaslåg og varmhold – til 5–10 portioner.',
+			'verdict' => 'Lille og kompakt riskoger fra Steba på 0,9 liter med varmefunktion, der kun vejer 1,1 kg.',
 			'why'     => <<<'HTML'
-<p>Champion RK400 Mini er riskogeren til singlen, parret eller det lille køkken. Den rummer 0,6 liter, hvilket rækker til mellem 5 og 10 portioner, og den fylder kun ca. 20 × 25 cm på bordet.</p>
-<p>Gryden har en keramisk non-stick-belægning, så risene ikke brænder fast, og opvasken går hurtigt. Når risene er klar, holder varmholdet dem varme, til du skal servere. Gennem glaslåget kan du følge med undervejs, og med 300 W er den en energibesparende løsning.</p>
-<p>Med følger et målebæger og en skraber i plast, så du rammer mængden af vand og ikke ridser gryden. Den tåler ikke opvaskemaskine, men non-stick gør den hurtig at skylle af i hånden. Der er 2 års garanti.</p>
+<p>Steba-riskogeren er til singlen, parret eller det lille køkken. Den kommer fra det tyske mærke Steba og er lille og kompakt, men rummer alligevel 0,9 liter, så der er plads til ris nok til en mindre husholdning.</p>
+<p>Med en vægt på kun 1,1 kg er den let at flytte rundt på og stille væk i skabet efter brug. Det gør den også oplagt at tage med på campingturen. Varmefunktionen holder risene varme, til du skal servere.</p>
 HTML,
-			'good'    => [ 'Singler og par', 'Små køkkener', 'Dig, der vil have det billigt' ],
-			'less'    => [ 'Familier, der laver store portioner', 'Tåler ikke opvaskemaskine' ],
+			'good'    => [ 'Singler og par', 'Små køkkener og camping' ],
+			'less'    => [ 'Familier, der laver store portioner' ],
 		],
 	],
 	'guide'    => <<<'HTML'

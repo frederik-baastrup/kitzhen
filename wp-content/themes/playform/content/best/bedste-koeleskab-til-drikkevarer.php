@@ -8,11 +8,11 @@ return [
 	'slug'     => 'bedste-koeleskab-til-drikkevarer',
 	'date'     => '2023-06-28 09:57:38',
 	'title'    => 'Køleskab til drikkevarer: Vores bud på de 5 bedste',
-	'excerpt'  => 'Et køleskab til drikkevarer holder øl, sodavand og vand iskolde og frigør plads i det store køleskab. Her er vores bud på de 5 bedste – også displaykøleskabe med glaslåge – fra de butikker, vi samarbejder med.',
+	'excerpt'  => 'Et køleskab til drikkevarer holder øl, sodavand og vand iskolde og frigør plads i det store køleskab. Her er vores bud på de 5 bedste – fra ølkøleskab til vinkøleskab – fra de butikker, vi samarbejder med.',
 	'more_cat' => 'vinkoeleskab',
 	'intro'    => <<<'HTML'
 <p>Et køleskab til drikkevarer er et ekstra køleskab, kun til det, du drikker: øl, sodavand, vand og hvidvin. Det giver plads i det almindelige køleskab, og fordi det kan gå helt ned til få grader, er dåserne iskolde, når gæsterne kommer. Glasdøren og lyset indeni gør det nemt at se, hvad der er tilbage.</p>
-<p>Herunder er vores bud på de 5 bedste køleskabe til drikkevarer – et stort til hobbyrummet, et med lås, et lille til bordet eller kontoret, et displaykøleskab med glaslåge og et barkøleskab til hjemmebaren. Nederst finder du en guide til størrelse, temperatur og placering.</p>
+<p>Herunder er vores bud på de 5 bedste køleskabe til drikkevarer – et ølkøleskab til hobbyrummet og fire vinkøleskabe: et fritstående, et lille, et til indbygning og et til prisen. Nederst finder du en guide til størrelse, temperatur og placering.</p>
 HTML,
 	'picks'    => [
 		[
@@ -31,61 +31,60 @@ HTML,
 			'less'    => [ 'Dig, der vil kunne låse skabet' ],
 		],
 		[
-			'ean'     => '5704704016187',
-			'price'   => 5509,
-			'name'    => 'Scandomestic SC 131 HE barkøleskab',
-			'role'    => 'Bedst med lås',
+			'ean'     => '7330066134337',
+			'price'   => 5400,
+			'name'    => 'Cavin Polar Collection PCS45B fritstående vinkøleskab, 45 flasker',
+			'role'    => 'Bedst fritstående',
 			'reviews' => [],
-			'verdict' => 'Barkøleskab i rustfrit stål med glasdør, nøglelås og LED-lys – 103 liter brutto til øl, sodavand og vand.',
+			'verdict' => 'Fritstående vinkøleskab med plads til 45 flasker, én temperaturzone, kompressorkøling og hylder i træ.',
 			'why'     => <<<'HTML'
-<p>Scandomestic SC 131 HE er til dig, der vil kunne låse drikkevarerne inde. Glasdøren har nøglelås, så skabet passer i et fællesrum, i klubhuset eller i et hjem med børn, hvor øl og sodavand ikke skal forsvinde af sig selv.</p>
-<p>Med 103 liter brutto (86 liter netto) er der god plads, og de to hylder kan flyttes, så høje flasker også kan stå. Temperaturen stilles mellem 0 og 10 °C, og LED-lyset indeni gør det let at se, hvad der står klar bag glasset.</p>
-<p>Skabet er bygget i rustfrit stål til barer og caféer, men passer lige så godt i hjemmebaren, på kontoret eller i hobbyrummet.</p>
+<p>Cavin Polar Collection PCS45B er til dig, der vil have et større skab, som kan stå frit i stuen, køkkenet eller hobbyrummet. Der er plads til op til 45 flasker, så både vinen og de flasker øl, du gerne vil have stående koldt, får en fast plads.</p>
+<p>Skabet har én temperaturzone og kompressorkøling, så hele skabet holder samme temperatur. Hylderne er lavet af træ, og skabet har energiklasse F.</p>
 HTML,
-			'good'    => [ 'Fællesrum og familier med børn', 'Hjemmebaren og kontoret', 'Dig, der vil se drikkevarerne gennem glasset' ],
-			'less'    => [ 'Stille rum – det er bygget til barer og caféer', 'Dig, der skal have døren hængt om' ],
+			'good'    => [ 'Dig, der vil have god plads til mange flasker', 'Fritstående placering uden indbygning' ],
+			'less'    => [ 'Dig, der vil have to temperaturzoner' ],
 		],
 		[
-			'ean'     => '5704704018884',
-			'price'   => 1999,
-			'name'    => 'Scandomestic minibar MB 32 BE',
+			'ean'     => '7330066154021',
+			'price'   => 3395,
+			'name'    => 'Cavin Polar Collection 17 fritstående vinkøleskab, 17 flasker, sort',
 			'role'    => 'Bedst lille',
 			'reviews' => [],
-			'verdict' => 'Lille køleskab på 32 liter med automatisk afrimning og vendbar dør – til kontoret, soveværelset eller sommerhuset.',
+			'verdict' => 'Sort, fritstående vinkøleskab til 17 flasker med digital temperaturstyring.',
 			'why'     => <<<'HTML'
-<p>Scandomestic MB 32 BE er den lille løsning, når du bare vil have kolde drikkevarer inden for rækkevidde. Med 32 liter fylder den ikke meget, så den passer på kontoret, i soveværelset, i sommerhuset eller under et bord.</p>
-<p>Automatisk afrimning betyder, at du ikke skal tømme den for at fjerne is, og døren kan vendes, så den åbner til den side, der passer bedst, hvor den står.</p>
+<p>Cavin Polar Collection 17 er den lille løsning, når du vil have en håndfuld flasker liggende på den rigtige temperatur. Det er et fritstående skab i sort, der er til 17 flasker, så det kan stå i et hjørne af køkkenet, på kontoret eller i spisestuen.</p>
+<p>Med den digitale temperaturstyring justerer du let temperaturen, så den passer til de flasker, du vil have stående klar.</p>
 HTML,
-			'good'    => [ 'Kontoret og sommerhuset', 'Lidt plads' ],
-			'less'    => [ 'Mange drikkevarer til fest' ],
+			'good'    => [ 'Mindre rum og mindre behov', 'Enkel digital betjening' ],
+			'less'    => [ 'Større samlinger og store fester' ],
 		],
 		[
-			'ean'     => '5704704013254',
-			'price'   => 4199,
-			'name'    => 'Scandomestic SD 217 BE displaykøleskab',
-			'role'    => 'Bedst displaykøleskab',
+			'ean'     => '7330066127896',
+			'price'   => 5795,
+			'name'    => 'Cavin Arctic Collection 40D Fullglass Black indbygget vinkøleskab, 28 flasker',
+			'role'    => 'Bedst til indbygning',
 			'reviews' => [],
-			'verdict' => 'Displaykøleskab med klar glaslåge, lodret LED-lys i fronten og oplyst top – drikkevarerne står udstillet.',
+			'verdict' => 'Indbygget vinkøleskab til 28 flasker med blanksort glasfront og fire udtrækkelige træhylder.',
 			'why'     => <<<'HTML'
-<p>Scandomestic SD 217 BE er til dig, der vil vise drikkevarerne frem. Det er et displaykøleskab med en stor, klar glaslåge, som du kender det fra caféen eller kiosken. Alle kan se, hvad der står klar, uden at åbne døren.</p>
-<p>Lodret LED-lys i fronten og en oplyst top får flasker og dåser til at stå flot frem, også når rummet er dæmpet. Skabet er bygget til barer, caféer og butikker, så det er et oplagt valg til hjemmebaren, festlokalet eller klubhuset, hvor der skal være kolde drikke til mange.</p>
+<p>Cavin Arctic Collection 40D Fullglass Black er til dig, der vil bygge skabet ind i køkkenet eller baren. Den blanksorte glasfront giver et stilrent og eksklusivt udtryk, og der er plads til 28 flasker.</p>
+<p>De fire udtrækkelige hylder er i træ, så du let kommer til flaskerne, også dem bagerst i skabet.</p>
 HTML,
-			'good'    => [ 'Hjemmebaren og festlokalet', 'Dig, der vil udstille drikkevarerne', 'Klubhuse og foreninger' ],
-			'less'    => [ 'Soveværelset og kontoret – det er bygget til barer og caféer' ],
+			'good'    => [ 'Indbygning i køkkenet eller baren', 'Stilrent udtryk med glasfront' ],
+			'less'    => [ 'Dig, der vil have et fritstående skab' ],
 		],
 		[
-			'ean'     => '5704704012974',
-			'price'   => 4795,
-			'name'    => 'Scandomestic SC 211 HDE barkøleskab',
-			'role'    => 'Bedst under bardisken',
+			'ean'     => '4038437006223',
+			'price'   => 3490,
+			'name'    => 'Caso WineSafe 12 vinkøleskab',
+			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Robust barkøleskab (back bar) med 158 liter nettovolumen – lavet til at stå under bardisken.',
+			'verdict' => 'Vinkøleskab til 12 flasker med justerbar temperatur og et ydre i rustfrit stål.',
 			'why'     => <<<'HTML'
-<p>Scandomestic SC 211 HDE er et barkøleskab, også kaldet en back bar. Det er lavet til at stå bag eller under bardisken, så de kolde drikke er lige ved hånden, når du skænker. Skabet er udviklet til barer, restauranter og caféer, men passer lige så godt i en stilren hjemmebar.</p>
-<p>Med en nettovolumen på 158 liter (198 liter brutto) er der god plads til øl, sodavand, vand og hvidvin, og du har overblik over, hvad der står klar. Konstruktionen er robust og bygget til at blive brugt meget – også når der er fest hver weekend.</p>
+<p>Caso WineSafe 12 er et enkelt og moderne vinkøleskab, der rummer op til 12 flasker ad gangen. Det er et godt valg, når du vil have et skab, der ikke fylder meget, men som stadig kan holde flaskerne på den rette temperatur.</p>
+<p>Temperaturen kan justeres, så den passer til det, du har liggende, og det strømlinede ydre i rustfrit stål gør, at det passer ind i de fleste omgivelser.</p>
 HTML,
-			'good'    => [ 'Hjemmebaren med bardisk', 'Mange drikkevarer', 'Dig, der vil have et robust skab' ],
-			'less'    => [ 'Små rum og små budgetter' ],
+			'good'    => [ 'Dem, der vil have et skab til en overkommelig pris', 'Justerbar temperatur' ],
+			'less'    => [ 'Større samlinger' ],
 		],
 	],
 	'guide'    => <<<'HTML'
@@ -94,8 +93,8 @@ HTML,
 <p>Et vinkøleskab holder en stabil temperatur og har hylder, hvor flaskerne kan ligge ned. Et drikkevarekøleskab kan typisk gå lavere i temperatur og har hylder til dåser og flasker, der står op. Mange vinkøleskabe kan godt bruges til øl og sodavand, men tjek den laveste temperatur, hvis drikkene skal være iskolde.</p>
 <h3>Størrelse</h3>
 <p>Kapaciteten angives i antal standardvinflasker. Regn med, at øl og sodavand fylder anderledes, og at store flasker som champagne kan kræve, at du fjerner en hylde.</p>
-<h3>Displaykøleskab og barkøleskab</h3>
-<p>Et displaykøleskab har en stor glaslåge og lys, så drikkevarerne står udstillet – som i en kiosk eller café. Et barkøleskab (back bar) er lavt og bredt og passer ind under en bardisk. Begge er bygget til barer og caféer, men gør sig også godt i en hjemmebar eller et stort festlokale.</p>
+<h3>Fritstående eller indbygget</h3>
+<p>Et fritstående skab kan stå næsten overalt, så længe der er luft omkring det. Et indbygget skab har en front, der passer ind i køkkenet eller baren, og kan bygges ind mellem skabene.</p>
 <h3>Én eller to zoner</h3>
 <p>Med to zoner kan du have rødvin og hvidvin ved hver sin temperatur. Med én zone er hele skabet samme temperatur – fint, hvis du mest har drikkevarer, der skal være kolde.</p>
 <h3>Støj og placering</h3>

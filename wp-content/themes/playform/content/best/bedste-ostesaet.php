@@ -37,7 +37,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Tre osteknive i Laguiole-stil til hårde, bløde og smørbare oste – leveres i gaveæske.',
 			'why'     => <<<'HTML'
-<p>Hâws' ostesæt i Laguiole-stil indeholder tre forskellige osteknive, der dækker både hårde, bløde og smørbare oste, og leveres i gaveæske – perfekt til oste- eller tapasbordet.</p>
+<p>Hâws' ostesæt i Laguiole-stil indeholder tre forskellige osteknive, der dækker både hårde, bløde og smørbare oste, og leveres i gaveæske, klar til oste- eller tapasbordet.</p>
 <p>Til prisen er det et godt sæt at give væk eller have i skuffen til julefrokosten.</p>
 HTML,
 			'good'    => [ 'Gaver', 'Tapas og ostebord' ],
@@ -58,34 +58,32 @@ HTML,
 			'less'    => [ 'Smøreoste' ],
 		],
 		[
-			'ean'     => '5722000300779',
-			'price'   => 319,
-			'name'    => 'Morsø Foresta ostesæt 3 dele',
-			'role'    => 'Bedst med egetræsskaft',
+			'ean'     => '8032732823055',
+			'price'   => 309,
+			'name'    => 'Legnoart Caseus CK40b osteknivsæt, lyst træ, 3 stk.',
+			'role'    => 'Bedst med træskaft',
 			'reviews' => [],
-			'verdict' => 'Tre osteknive i rustfrit stål med skafter i olieret eg, der får patina og bliver smukkere med årene.',
+			'verdict' => 'Tre osteknive i lyst træ, hver med sin opgave: én til cremede, én til hårde og én til bløde oste.',
 			'why'     => <<<'HTML'
-<p>Morsø Foresta er til dig, der vil have naturmaterialer på ostebordet. Sættet består af tre osteknive, så du har en kniv til flere slags ost og ikke blander smagene.</p>
-<p>Knivbladene er i rustfrit kvalitetsstål, og skafterne er i olieret eg. Træet udvikler patina, jo mere du bruger knivene, så sættet bliver smukkere med tiden – i stedet for at se slidt ud. Det varme træ passer fint til et ostebræt i træ og et nordisk dækket bord.</p>
-<p>Skafter i træ har det bedst med opvask i hånden.</p>
+<p>Legnoarts Caseus-sæt er til dig, der gerne vil have en elegant og funktionel anretning på ostebordet. Sættet består af tre knive, hver designet til sin type ost: cremede, hårde og bløde. Så du slipper for at bruge samme kniv til alt og blande smagene.</p>
+<p>De lyse træskafter giver ostebordet et naturligt udtryk, og håndtagene er formet ergonomisk. Træ har det bedst med opvask i hånden.</p>
 HTML,
-			'good'    => [ 'Nordisk borddækning', 'Gaver', 'Dig, der kan lide træ med patina' ],
+			'good'    => [ 'Dig, der vil have en kniv til hver ostetype', 'Lyse borddækninger og gaver' ],
 			'less'    => [ 'Dig, der vil komme knivene i opvaskemaskinen' ],
 		],
 		[
-			'ean'     => '8032732821884',
-			'price'   => 149,
-			'name'    => 'Legnoart Lattevivo ostesæt 3 dele',
+			'ean'     => '5711173214402',
+			'price'   => 129,
+			'name'    => 'Lisamai ostesæt - 3 dele',
 			'role'    => 'Billigst',
 			'reviews' => [],
-			'verdict' => 'Tre osteknive i japansk stål med lyst pakkatræ – et pænt sæt til ostebordet til en lav pris.',
+			'verdict' => 'Tre redskaber i rustfrit stål med håndtag i glødet akacietræ fra Bloomingville – det billigste sæt i guiden.',
 			'why'     => <<<'HTML'
-<p>Legnoart Lattevivo er det billigste sæt i guiden, men du får stadig tre osteknive, der ser godt ud på serveringsbordet. Sættet er lavet til osteelskere og værter, der gerne vil have både funktion og et gennemført udtryk, når osten skal frem.</p>
-<p>Knivbladene er i japansk stål, og skafterne er i lyst pakkatræ, der giver et lyst og venligt look. Det passer til både hverdagens ostebord og den store anretning med flere slags ost.</p>
-<p>Til prisen er det også oplagt at købe ét sæt til dig selv og ét i værtindegave.</p>
+<p>Lisamai fra Bloomingville er det billigste sæt i guiden, men du får stadig tre redskaber, der gør osteanretningen til en æstetisk oplevelse. Redskaberne er i robust rustfrit stål, som giver skarpe og præcise snit.</p>
+<p>Håndtagene er i varmt, glødet akacietræ, der giver sættet et naturligt og indbydende udtryk. Det er oplagt til hverdagens ostebord, og prisen gør det nemt at give ét sæt væk som værtindegave.</p>
 HTML,
-			'good'    => [ 'Lavt budget', 'Værtindegaver', 'Lyse borddækninger' ],
-			'less'    => [ 'Skafter i træ skal vaskes i hånden' ],
+			'good'    => [ 'Lavt budget', 'Værtindegaver' ],
+			'less'    => [ 'Håndtag i træ skal vaskes i hånden' ],
 		],
 	],
 	'guide'    => <<<'HTML'

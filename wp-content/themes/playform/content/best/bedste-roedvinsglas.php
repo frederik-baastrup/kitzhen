@@ -72,19 +72,18 @@ HTML,
 			'less'    => [ 'Opvaskemaskinen hver dag' ],
 		],
 		[
-			'ean'     => '4001836091473',
+			'ean'     => '4001836092418',
 			'price'   => 219,
-			'name'    => 'Zwiesel Vervino Bordeaux rødvinsglas 74 cl, 2 stk.',
-			'role'    => 'Bedst til kraftig rødvin',
+			'name'    => 'Zwiesel Vervino Burgundy rødvinsglas 95 cl, 2-pak',
+			'role'    => 'Bedst til lette rødvine',
 			'reviews' => [],
-			'verdict' => 'Stort bordeauxglas på 74 cl i Tritan-krystal, udviklet med sommelierer – og det tåler opvaskemaskine.',
+			'verdict' => 'Stort burgundyglas på 95 cl i Tritan-krystal, udviklet med sommelierer – til lettere rødvine med god syre.',
 			'why'     => <<<'HTML'
-<p>Zwiesel Vervino Bordeaux er glasset til de kraftige rødvine, der skal have luft. Kuplen rummer 74 cl, så selv en stor cabernet sauvignon eller merlot har god plads til at åbne sig. Den tynde kuppel og den slanke stilk gør glasset let og elegant i hånden.</p>
-<p>Vervino-serien er udviklet sammen med erfarne sommelierer og har fået både Red Dot Award og iF Design Award 2020. Glassene er lavet af Zwiesels Tritan-krystal, der holder sig pæne i lang tid.</p>
-<p>Det er også et glas til hverdagen: Det kan komme i opvaskemaskinen på glasprogrammet ved højst 55 °C. Du får to glas i pakken – en oplagt gave eller en start på et sæt.</p>
+<p>Zwiesel Vervino Burgundy har en generøs kuppel på 95 cl, der er bred i bunden og bliver lidt smallere mod toppen. Formen er lavet til lettere rødvine med god syre og færre tanniner, som pinot noir, hvor duften skal have plads til at samle sig.</p>
+<p>Vervino-serien er udviklet sammen med erfarne sommelierer og har fået både Red Dot Award og iF Design Award 2020. Glassene er lavet af Zwiesels Tritan-krystal, der holder sig pæne i lang tid. Du får to glas i pakken – en oplagt gave eller en start på et sæt.</p>
 HTML,
-			'good'    => [ 'Cabernet sauvignon, merlot og andre kraftige vine', 'Dig, der vil kunne bruge opvaskemaskinen', 'Gave til vinelskeren' ],
-			'less'    => [ 'Kun to glas i pakken', 'Elegante bourgognevine, der trives bedre i en bredere skål' ],
+			'good'    => [ 'Pinot noir og andre lettere rødvine med god syre', 'Gave til vinelskeren' ],
+			'less'    => [ 'Kun to glas i pakken', 'Kraftige, tanninrige vine, der trives bedre i et højere bordeauxglas' ],
 		],
 	],
 	'guide'    => <<<'HTML'
