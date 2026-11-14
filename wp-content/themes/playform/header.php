@@ -76,8 +76,7 @@ $pf_usps  = [
 												<a href="<?php echo esc_url( $p['url'] ); ?>" class="mm__more">Se alle <?php echo esc_html( mb_strtolower( $p['label'] ) ); ?> &rarr;</a>
 											</div>
 											<?php if ( $p['prices'] ) : ?>
-												<div class="mm__col">
-													<span class="mm__title">Pris</span>
+												<div class="mm__col mm__col--prices">
 													<?php foreach ( $p['prices'] as [ $label, $url ] ) : ?>
 														<a href="<?php echo esc_url( $url ); ?>" rel="nofollow"><?php echo esc_html( $label ); ?></a>
 													<?php endforeach; ?>
@@ -85,8 +84,7 @@ $pf_usps  = [
 											<?php endif; ?>
 										<?php else : ?>
 											<?php // Ingen underkategorier: pris står i midten, så panelet ikke ser tomt ud. ?>
-											<div class="mm__col">
-												<span class="mm__title"><?php echo esc_html( $p['label'] ); ?> efter pris</span>
+											<div class="mm__col mm__col--prices">
 												<?php foreach ( $p['prices'] as [ $label, $url ] ) : ?>
 													<a href="<?php echo esc_url( $url ); ?>" rel="nofollow"><?php echo esc_html( $label ); ?></a>
 												<?php endforeach; ?>

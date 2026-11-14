@@ -1696,3 +1696,9 @@ body { background: #F9FAF9; }
 	.mm__inner:has(.mm__cats--3) .mm__promo { grid-column: 4; aspect-ratio: auto; max-height: 360px; align-self: start; height: 100%; }
 	.mm__inner:has(.mm__cats--3) .mm__promo-body { padding-right: 60px; }
 }
+
+/* Prisintervaller i menuen som tags (uden overskrift). */
+.mm__col--prices { flex-direction: row; flex-wrap: wrap; align-content: flex-start; gap: 8px; }
+.mm__col--prices a:not(.mm__more) { padding: 7px 13px; border: 1px solid var(--line-2); border-radius: 999px; font-size: 13px; line-height: 1.2; white-space: nowrap; transition: border-color .15s ease, background-color .15s ease; }
+.mm__col--prices a:not(.mm__more):hover { text-decoration: none; border-color: var(--ink); background: var(--soft); }
+.mm__col--prices a.mm__more { flex-basis: 100%; margin-top: 8px; }
