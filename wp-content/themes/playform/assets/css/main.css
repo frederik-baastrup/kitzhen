@@ -1683,9 +1683,16 @@ body { background: #F9FAF9; }
 
 /* Mange underkategorier (fx Knive): tre kolonner og tættere rækker, så menuen ikke bliver så høj. */
 @media (min-width: 1280px) {
-	.mm__inner:has(.mm__cats--3) { grid-template-columns: 600px minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.3fr); padding-top: 22px; padding-bottom: 24px; }
+	.mm__inner:has(.mm__cats--3) { grid-template-columns: 600px minmax(0, 1fr) minmax(0, 1fr) 380px; padding-top: 22px; padding-bottom: 24px; }
 	.mm__cats--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 4px; }
 	.mm__cats--3 .mm__cat { padding: 6px 10px; font-size: 13.5px; white-space: nowrap; }
 	.mm__cats--3 .mm__cat svg { width: 12px; height: 12px; }
 	.mm__inner:has(.mm__cats--3) .mm__promo { min-height: 0; }
+}
+
+@media (min-width: 1280px) {
+	/* Uden underkategorier: priskolonnen fylder midten, og billedet bliver bredt i stedet for højt og smalt. */
+	.mm__inner:has(.mm__cats--3) .mm__pane > .mm__col:only-of-type { grid-column: 2 / 4; }
+	.mm__inner:has(.mm__cats--3) .mm__promo { grid-column: 4; aspect-ratio: auto; max-height: 360px; align-self: start; height: 100%; }
+	.mm__inner:has(.mm__cats--3) .mm__promo-body { padding-right: 60px; }
 }
