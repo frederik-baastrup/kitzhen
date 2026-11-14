@@ -1702,4 +1702,4 @@ body { background: #F9FAF9; }
 .mm__col--prices a:not(.mm__more) { padding: 7px 13px; border: 1px solid var(--line-2); border-radius: 999px; font-size: 13px; line-height: 1.2; white-space: nowrap; transition: border-color .15s ease, background-color .15s ease; }
 .mm__col--prices a:not(.mm__more):hover { text-decoration: none; border-color: var(--ink); background: var(--soft); }
 .mm__col--prices a.mm__more { flex-basis: 100%; margin-top: 8px; }
-.mm__col--prices { padding-top: 30px; } /* flugter med første kategori (under overskriften "Kategorier") */
+.mm__col--prices .mm__title { flex-basis: 100%; margin: 0 0 4px; } /* titel + mellemrum = 30px, så første tag flugter med første kategori */
