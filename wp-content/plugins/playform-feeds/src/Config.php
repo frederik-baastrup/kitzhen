@@ -117,7 +117,7 @@ final class Config {
 			'koekkenmaskiner' => [ 'name' => 'Køkkenmaskiner', 'match' => 'æggekoger|egg ?cooker|stavblender|blender|smoothie ?maker|røremaskine|køkkenmaskine|foodprocessor|food ?processor|minihakker|hakkemaskine|kødhakker|slow ?juicer|juicer|juicemaskine|saftpresser|citruspresser|spiralizer|pålægsmaskine|rullepølsepresse|pølsemaskine|elektrisk kartoffelskræller|kartoffelskræller,? elektrisk|håndmixer|håndmikser|elpisker|juice ?centrifuge' ],
 			'gryder-pander'   => [ 'name' => 'Gryder & pander', 'match' => 'gryde(?!ske|skab|lap|underlag|skraber)|kasserolle|sauterpande|(?<!paella)pande\b|stegepande|wok\b|wokpande|grillpande|blinispande|æbleskivepande|støbejern|dutch ?oven|bradepande|ovnfast fad|låg til' ],
 			'grill'           => [ 'name' => 'Grill & udekøkken', 'match' => 'gasgrill|kulgrill|kamado|big green egg|grill|røgeovn|smoker|bordgrill|raclette|gasbrænder|paella|grillkul|briketter|plancha|bålpande|udekøkken' ],
-			'knive-redskaber' => [ 'name' => 'Knive & redskaber', 'match' => 'kniv|knive|santoku|gyuto|nakiri|petty|knivsliber|slibesten|vandsten|knivblok|knivmagnet|skærebræt|skærebrædt|rivejern|parmesan|grøntsagshakker|mandolin|skræller|hvidløgspresse|køkkensaks|piskeris|grydeske|paletkniv|stegevender|\bøse\b|dørslag|sigte\b|køkkenvægt|stegetermometer|køkkentermometer|æggeur|måleske|målebæger|køkkenredskab' ],
+			'knive-redskaber' => [ 'name' => 'Knive & redskaber', 'match' => 'kniv|knive|santoku|gyuto|nakiri|petty|knivsliber|slibesten|vandsten|knivblok|knivmagnet|skærebræt|skærebrædt|rivejern|parmesan|grøntsagshakker|mandolin|skræller|hvidløgspresse|køkkensaks|piskeris|grydeske|paletkniv|stegevender|\bøse\b|dørslag|sigte\b|køkkenvægt|stegetermometer|køkkentermometer|æggeur|måleske|målebæger|køkkenredskab|peberkværn|saltkværn|krydderi?kværn' ],
 			'servering'       => [ 'name' => 'Servering & borddækning', 'match' => 'brødkasse|brødboks|brødkurv|vinglas|rødvinsglas|hvidvinsglas|champagneglas|ølglas|drikkeglas|\bglas\b|cocktailglas|espressokop|karaffel|dekanter|tallerken|\bskål\b|skåle|\bkop\b|kopper|krus|bestik|\bstel\b|julestel|spisestel|ostesæt|ostebræt|serveringsbakke|serveringsfad|\bfad\b|kande\b|bordskåner|dækkeserviet|tapasbræt' ],
 		];
 	}
@@ -273,6 +273,8 @@ final class Config {
 				'koekkenvaegt'    => [ 'name' => 'Køkkenvægt', 'match' => 'køkkenvægt|digital ?vægt|\bvægt\b', 'not' => 'kaffe|person|bade|bagage|\\+|med vægt|vægtskål|tilbehør|' . self::acc( 'vægt' ) ],
 				'piskeris'        => [ 'name' => 'Piskeris', 'match' => 'piskeris|ballonpisker', 'not' => 'tilbehør|elpisker|håndmixer|stavblender|' . self::acc( 'stavblender|køkkenmaskine|røremaskine' ) ],
 				'doerslag'        => [ 'name' => 'Dørslag', 'match' => 'dørslag', 'not' => self::acc( 'dørslag' ) ],
+				// Guiden /bedste-peberkvaern/. Rene saltkværne og krydderikværne er ikke peberkværne; bakker, tragte og holdere er tilbehør.
+				'peberkvaern'     => [ 'name' => 'Peberkværn', 'match' => 'peberkværn|peber ?kværn|pebermølle|pepparkvarn|pepper ?mill', 'not' => 'tragt|bakke|tabletopper|holder|stativ|refill|krydderisalt|' . self::acc( 'peberkværn|kværn' ) ],
 			],
 			'servering' => [
 				'broedkasse'   => [ 'name' => 'Brødkasse', 'match' => 'brødkasse|brødboks', 'not' => 'pose|klæde|' . self::acc( 'brødkasse' ) ],
@@ -310,7 +312,7 @@ final class Config {
 			// Hvidevarer, der ikke hører til i et køkken-sortiment for madlavning
 			'vaskemaskine|tørretumbler|vaskesøjle|opvaskemaskine|fryser|kummefryser|køle-?fryseskab|\bkøleskab\b(?!.*(drikke|vin|øl))|støvsuger|robotstøvsuger|affugter|aircondition|varmepumpe|\btv\b|fjernsyn',
 			// Fødevarer og forbrugsvarer (vi samler udstyr, ikke mad)
-			'kaffebønner|hele bønner|formalet kaffe|espressobønner|surdejsstarter|kapsler|kaffepuder|\bte\b \d|chokolade|slik|krydderi|olivenolie|eddike|sirup|marmelade|kulsyrepatron|rensetablet|afkalkning|filterposer',
+			'kaffebønner|hele bønner|formalet kaffe|espressobønner|surdejsstarter|kapsler|kaffepuder|\bte\b \d|^(?!.*kværn).*chokolade|slik|krydderi(?!kværn)|olivenolie|eddike|sirup|marmelade|kulsyrepatron|rensetablet|afkalkning|filterposer',
 			// Tøj og tekstiler
 			'forklæde|grydelapp|grydehandske|viskestykke|karklud|\bt-shirt\b',
 			// Køkkenindretning og bad (HvidevareShoppen sælger skabe, låger, emhætter og vaske)

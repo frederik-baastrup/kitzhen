@@ -24,7 +24,7 @@ HTML,
 			'verdict' => 'Alsidigt vinglas fra tyske Spiegelau – 12 glas, der passer til både rødvin og fyldig hvidvin.',
 			'why'     => <<<'HTML'
 <p>Spiegelau er en af de store tyske glasproducenter. Authentis er et alsidigt vinglas til både rødvin, hvidvin og fyldige vine – fra en kraftig Chianti til en fadlagret Chardonnay.</p>
-<p>Med 12 glas i pakken er det nemt at dække op til en middag, og et alsidigt glas betyder, at du ikke behøver forskellige glas til hver vin. glas.</p>
+<p>Med 12 glas i pakken er det nemt at dække op til en middag, og et alsidigt glas betyder, at du ikke behøver forskellige glas til hver vin.</p>
 HTML,
 			'good'    => [ 'Middage og fester', 'Både rødvin og hvidvin' ],
 			'less'    => [ 'De helt store bourgognevine' ],

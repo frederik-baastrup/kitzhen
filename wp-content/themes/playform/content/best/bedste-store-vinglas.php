@@ -23,7 +23,7 @@ HTML,
 			'reviews' => [],
 			'verdict' => 'Bourgogneglas på 75 cl med generøs kuppel og konisk top, der samler aromaerne.',
 			'why'     => <<<'HTML'
-<p>Zwiesel er en tysk producent af krystalglas til både restauranter og hjem. Enoteca Burgundy er det perfekte glas til røde bourgognevine af høj kvalitet: den generøse kuppel giver vinen masser af luft, mens den koniske top fremhæver aromaerne.</p>
+<p>Zwiesel er en tysk producent af krystalglas til både restauranter og hjem. Enoteca Burgundy er lavet til røde bourgognevine af høj kvalitet: den generøse kuppel giver vinen masser af luft, mens den koniske top fremhæver aromaerne.</p>
 HTML,
 			'good'    => [ 'Bourgogne og pinot noir', 'Særlige flasker' ],
 			'less'    => [ 'Store selskaber – kun 2 glas pr. pakke' ],
