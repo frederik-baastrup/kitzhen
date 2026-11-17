@@ -46,19 +46,18 @@ HTML,
 			'less'    => [ 'Store mængder kaffe hver morgen – den drejes med hånden' ],
 		],
 		[
-			'ean'     => '4008146045370',
-			'price'   => 437,
-			'name'    => 'Severin KM 3880 Deluxe',
+			'ean'     => '5722000336525',
+			'price'   => 469,
+			'name'    => 'Nordic Sense kaffekværn 200 W',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => '30 indstillinger, kværnskiver i stål og automatisk dosering til 2–12 kopper – meget kværn for pengene.',
+			'verdict' => 'Billig elektrisk kværn med konisk kværn og indstillinger fra espresso til stempelkande.',
 			'why'     => <<<'HTML'
-<p>Severin KM 3880 Deluxe er et oplagt valg, hvis du vil i gang med friskmalet kaffe uden at bruge en formue. Den klarer både morgenkoppen og kaffen til gæsterne, og du får fuld kontrol over, hvordan bønnerne males.</p>
-<p>Kværnskiverne er i rustfrit stål, og med 30 indstillinger kan du gå fra fint espressopulver til groft til stempelkanden. Doseringen gør hverdagen let: Du vælger 2, 4, 6, 8, 10 eller 12 kopper, og kværnen maler netop den mængde. Så spilder du ikke dyre bønner. Motoren på 140 W arbejder effektivt og forholdsvis stille.</p>
-<p>Bønnebeholderen rummer 240 g og kan tages af, og pulverbeholderen på 130 g har låg, så intet drysser ud. Begge er gennemsigtige, så du kan se, hvad der er i. Kværnen er kompakt, nem at gøre ren og har 2 års garanti.</p>
+<p>Nordic Sense er et godt sted at starte, hvis du vil have friskmalet kaffe uden at bruge mange penge. Den maler med en konisk kværn i stedet for roterende knive, og det er netop den type, der giver en mere ensartet formaling – også i den billige ende.</p>
+<p>Du indstiller grovheden efter bryggemetoden, så den kan bruges til alt fra espresso til stempelkande. Motoren er på 200 W, og bønnebeholderen tager op til 150 gram hele bønner, hvilket rækker til flere kander ad gangen.</p>
 HTML,
-			'good'    => [ 'Lavt budget', 'Kaffe til hele familien eller gæster', 'Dig, der vil undgå spild af bønner' ],
-			'less'    => [ 'Dig, der vil have en kværn helt i metal – den er delvist i plast' ],
+			'good'    => [ 'Lavt budget', 'Dig, der brygger på flere måder' ],
+			'less'    => [ 'Dig, der vil finjustere til espresso helt ned i detaljen' ],
 		],
 		[
 			'ean'     => '9312432029797',

@@ -12,7 +12,7 @@ return [
 	'more_cat' => 'gryde',
 	'intro'    => <<<'HTML'
 <p>En suppegryde er den store gryde i køkkenet – til suppe, fond, pasta, kartofler til mange og gryderetter, der skal række til flere dage. Den skal være stor nok, have en bund, der fordeler varmen, og håndtag, der er gode at løfte i, når gryden er fuld.</p>
-<p>Herunder er vores bud på de 5 bedste suppegryder fra de butikker, vi samarbejder med – fra 7,2 til 14,5 liter.</p>
+<p>Herunder er vores bud på de 5 bedste suppegryder fra de butikker, vi samarbejder med – fra 6,5 til 14,5 liter.</p>
 HTML,
 	'picks'    => [
 		[
@@ -31,19 +31,18 @@ HTML,
 			'less'    => [ 'Låg medfølger ikke', 'Små skabe' ],
 		],
 		[
-			'ean'     => '5706631257831',
-			'price'   => 600,
-			'name'    => 'Eva Trio gryde 9 liter, rustfrit stål',
+			'ean'     => '5706631257817',
+			'price'   => 569,
+			'name'    => 'Eva Trio gryde 6,5 liter, rustfrit stål',
 			'role'    => 'Lidt mindre',
 			'reviews' => [],
-			'verdict' => 'Eva Trio-gryde på 9 liter i genanvendt rustfrit stål – stor nok til familien, nem at gøre ren.',
+			'verdict' => 'Den mindre storebror i Eva Trio-serien: 6,5 liter i rustfrit stål til suppe, gryderetter og kartofler.',
 			'why'     => <<<'HTML'
-<p>Synes du, 10 liter er i overkanten, er Eva Trio på 9 liter et godt bud. Der er stadig plads til en stor gryde suppe, kartofler eller pasta til hele familien. Formen følger Ole Palsbys klassiske Eva Trio-design fra 1977, så låg fra serien passer.</p>
-<p>Stålet er 90 % genanvendt, og bunden er en indkapslet sandwichbund i aluminium. Den giver jævn varme over hele bunden, så du undgår, at maden sætter sig fast ét sted. Gryden kan bruges på alle typer kogeplader, også induktion.</p>
-<p>Når I har spist, sætter du den i opvaskemaskinen.</p>
+<p>Er 10 liter mere, end du får brugt til hverdag, er Eva Trio på 6,5 liter et godt bud. Den rummer stadig en ordentlig portion suppe eller en gryderet til familien, men fylder mindre på komfuret og i skabet. Den kan lige så godt bruges til kartofler, pasta og grøntsager.</p>
+<p>Gryden er i rustfrit stål og bygger på Ole Palsbys klassiske Eva Trio-design, så den passer ind ved siden af den store udgave og de andre gryder fra serien.</p>
 HTML,
-			'good'    => [ 'Familier', 'Supper og gryderetter til flere dage', 'Induktionskomfur' ],
-			'less'    => [ 'Låg medfølger ikke' ],
+			'good'    => [ 'Familier til hverdag', 'Dig, der allerede har andre Eva Trio-gryder' ],
+			'less'    => [ 'Fond og store portioner til mange gæster' ],
 		],
 		[
 			'ean'     => '083421715043',

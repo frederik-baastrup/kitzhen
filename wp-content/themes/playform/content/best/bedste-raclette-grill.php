@@ -16,19 +16,18 @@ return [
 HTML,
 	'picks'    => [
 		[
-			'ean'     => '3168430298941',
-			'price'   => 1059,
-			'name'    => 'Tefal Gourmet Nordic Spirit raclette 8 personer',
+			'ean'     => '8712836973978',
+			'price'   => 709,
+			'name'    => 'Princess Black Steel raclette 8 personer',
 			'role'    => 'Bedst samlet',
 			'reviews' => [],
-			'verdict' => 'Raclette, grill og plancha i én – med Thermo-Spot, der viser, når pladen er varm nok.',
+			'verdict' => 'Elektrisk raclette til op til 8 personer med et stort tilberedningsareal på 44 x 25 cm.',
 			'why'     => <<<'HTML'
-<p>Tefal Gourmet Nordic Spirit er tre apparater i ét: raclette, grill og plancha. Mens osten smelter i de ekstra dybe pander, griller I kød, fisk og grøntsager på pladen ovenpå. Med otte pander har alle ved bordet deres egen, og ingen skal vente på tur.</p>
-<p>Tefals Thermo-Spot viser, når stegefladen har den rette temperatur, så de første stykker bliver lige så gode som de sidste. Den titanforstærkede non-stick-belægning gør, at maden slipper let, og de 1350 W varmer hurtigt op og holder varmen hele aftenen.</p>
-<p>Oprydningen er også tænkt ind: Ledningen kan tages af, og de løse dele tåler opvaskemaskine. Træbenene giver et nordisk look, der passer fint på middagsbordet.</p>
+<p>Princess Black Steel er en elektrisk raclette, der samler op til otte personer om bordet – præcis det antal, de fleste familier og vennegrupper har brug for. Hver gæst laver sin egen mad og bestemmer selv, hvor meget ost der skal smelte over kartoflerne.</p>
+<p>Tilberedningsarealet måler 44 x 25 cm, så der er god plads til kød, pølser og grøntsager ovenpå, mens panderne arbejder nedenunder. Den sorte stålfinish giver et stramt udtryk på middagsbordet, og prisen ligger midt i feltet.</p>
 HTML,
-			'good'    => [ 'Familier og gæster op til 8 personer', 'Dig, der også vil grille og bruge plancha', 'Nem oprydning' ],
-			'less'    => [ 'Mindre husstande, der sjældent er mere end to' ],
+			'good'    => [ 'Familier og gæster op til 8 personer', 'Dig, der vil have god plads på grillfladen' ],
+			'less'    => [ 'Dig, der også vil lave fondue' ],
 		],
 		[
 			'ean'     => '4211129116497',

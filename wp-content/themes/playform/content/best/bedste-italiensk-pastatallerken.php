@@ -8,7 +8,7 @@ return [
 	'slug'     => 'bedste-italiensk-pastatallerken',
 	'date'     => '2023-07-07 05:56:41',
 	'title'    => 'Italiensk pastatallerken: Vores bud på de 5 bedste',
-	'excerpt'  => 'En italiensk pastatallerken er dyb i midten og har en bred kant. Her er vores bud på de 5 bedste pastatallerkener fra de butikker, vi samarbejder med – fra klassisk hvid porcelæn til håndlavet stentøj.',
+	'excerpt'  => 'En italiensk pastatallerken er dyb i midten og har en bred kant. Her er vores bud på de 5 bedste pastatallerkener fra de butikker, vi samarbejder med – fra klassisk hvid porcelæn til rustikt stentøj.',
 	'more_cat' => 'tallerkener',
 	'intro'    => <<<'HTML'
 <p>Den klassiske italienske pastatallerken er dyb i midten og har en bred, flad kant. Den dybe midte holder på sovsen og gør det nemt at sno spaghettien om gaflen, og den brede kant giver plads til parmesan, brød – eller bare et pænt udtryk på bordet. De fleste bruger den lige så meget til risotto, suppe, salat og gryderetter.</p>
@@ -44,17 +44,17 @@ HTML,
 			'less'    => [ 'Dig, der vil have farver' ],
 		],
 		[
-			'ean'     => '0745606643021',
-			'price'   => 226,
-			'name'    => 'Denby Halo Speckle pastatallerken 22 cm',
+			'ean'     => '0745606742564',
+			'price'   => 219,
+			'name'    => 'Denby Grain Wheat pastaskål 21 cm',
 			'role'    => 'Bedst i stentøj',
 			'reviews' => [],
-			'verdict' => 'Håndlavet keramik fra engelske Denby med en glasur, hvor hver tallerken ser lidt forskellig ud.',
+			'verdict' => 'Dyb pastaskål i slidstærkt stentøj fra Denby, som også kan gå i ovnen som et lille fad.',
 			'why'     => <<<'HTML'
-<p>Vil du have noget mere rustikt end hvid porcelæn, er Denby Halo Speckle et godt bud. Tallerkenen er håndlavet keramik fra engelske Denby af lokalt ler, og glasuren giver spændende detaljer.</p>
-<p>Med 22 cm er den mindre end en klassisk italiensk pastatallerken og mere en dyb pastaskål. Det gør den god til hverdagsportioner og nemmere at have i skabet.</p>
+<p>Foretrækker du stentøj frem for hvid porcelæn, er Denby Grain Wheat et godt bud. Skålen er lavet af slidstærkt stentøj og har en varm, beige farve, der giver bordet et mere rustikt præg end de klassiske hvide tallerkener.</p>
+<p>Med 21 cm i diameter er den mindre end en klassisk italiensk pastatallerken og nærmere en dyb pastaskål – god til en hverdagsportion pasta eller en salat. Den kan også bruges som en lille ovnfast form, fx til kartofler eller et gratin til en enkelt person.</p>
 HTML,
-			'good'    => [ 'Dig, der kan lide stentøj og glasur med liv', 'Hverdagsportioner' ],
+			'good'    => [ 'Dig, der kan lide stentøj', 'Hverdagsportioner og små ovnretter' ],
 			'less'    => [ 'Dig, der vil have den brede italienske kant' ],
 		],
 		[

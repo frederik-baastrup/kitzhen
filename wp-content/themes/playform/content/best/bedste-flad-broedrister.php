@@ -12,7 +12,7 @@ return [
 	'more_cat' => 'broedrister',
 	'intro'    => <<<'HTML'
 <p>En flad brødrister ligger ned i stedet for at stå op. Brødet ligger på en rist under et varmelegeme, så du kan riste alt det, der ikke passer i en almindelig toaster: boller, rundstykker, croissanter, tykke skiver rugbrød, bagels og pitabrød. Mange bruger den også til at lune wienerbrød eller smelte ost på en toast.</p>
-<p>Der findes ikke ret mange flade brødristere hos de butikker, vi samarbejder med. Lige nu har vi fundet fire, vi kan anbefale – de to første minder meget om hinanden. Nederst finder du en købsguide til ristefladen, varme og rengøring.</p>
+<p>Der findes ikke ret mange flade brødristere hos de butikker, vi samarbejder med. Lige nu har vi fundet fire, vi kan anbefale – med forskelle i design, ristefladens størrelse og betjening. Nederst finder du en købsguide til ristefladen, varme og rengøring.</p>
 HTML,
 	'picks'    => [
 		[
@@ -30,18 +30,18 @@ HTML,
 			'less'    => [ 'Dig, der kun rister almindeligt toastbrød' ],
 		],
 		[
-			'ean'     => '5707582995780',
-			'price'   => 349,
-			'name'    => 'Witt Classic flad brødrister',
-			'role'    => 'Godt alternativ',
+			'ean'     => '8711902088141',
+			'price'   => 299,
+			'name'    => 'Gastronoma flad brødrister',
+			'role'    => 'Med timer og autosluk',
 			'reviews' => [],
-			'verdict' => 'Flad brødrister med en risteflade på 25 x 20 cm – til flere slags brød på én gang.',
+			'verdict' => 'Flad brødrister med elektronisk timer, tre quartz-rør og automatisk slukning, når brødet er ristet.',
 			'why'     => <<<'HTML'
-<p>Witt Classic er bygget efter samme princip. Den har et fladt design, så du nemt kan riste flere typer brød og flere ad gangen, og ristearealet måler 25 x 20 cm – samme størrelse som OBH Nordica.</p>
-<p>De to modeller ligger tæt i pris, så det kan godt ende med at handle om, hvilken du synes ser bedst ud – og hvilken der er på tilbud.</p>
+<p>Gastronoma er et godt valg, hvis du gerne vil sætte brødet på og gå fra det et øjeblik. Den har en elektronisk timer og slukker selv, når ristningen er færdig, så rundstykkerne ikke ender sorte, mens du laver kaffe.</p>
+<p>Varmen kommer fra tre quartz-rør, der fordeler den jævnt over fladen, og effekten er 920 W. Brødristeren måler 22 x 35 cm, og krummebakken kan tages af, når den skal tømmes.</p>
 HTML,
-			'good'    => [ 'Rugbrød, boller og bagels', 'Brunch og weekendmorgenmad' ],
-			'less'    => [ 'Meget små køkkener' ],
+			'good'    => [ 'Travle morgener', 'Boller og rundstykker' ],
+			'less'    => [ 'Dig, der helst slipper for at vende brødet' ],
 		],
 		[
 			'ean'     => '5709846025929',

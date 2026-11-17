@@ -74,18 +74,18 @@ HTML,
 			'less'    => [ 'Dig, der allerede har en god blender' ],
 		],
 		[
-			'ean'     => '3519280017549',
-			'price'   => 4495,
-			'name'    => 'Magimix CS5200 XL foodprocessor, 1100 W, mat krom',
-			'role'    => 'Bedst til den ivrige kok',
+			'ean'     => '4242005109357',
+			'price'   => 1999,
+			'name'    => 'Bosch MC812S820 foodprocessor',
+			'role'    => 'Bedst til dej og store mængder',
 			'reviews' => [],
-			'verdict' => 'Kraftig foodprocessor med 1100 watt, der alligevel kører stille – og betjenes med tre knapper på fronten.',
+			'verdict' => 'Foodprocessor med en ekstra stærk motor, der er lavet til at tage store portioner og gærdej.',
 			'why'     => <<<'HTML'
-<p>Magimix CS5200 XL er til dig, der bruger foodprocessoren næsten hver dag og gerne vil have kræfter i overskud. Motoren på 1100 watt er den kraftigste i guiden, og på trods af effekten er den bygget til at køre stille. Det mærker du, når køkkenet også er stuen.</p>
-<p>Betjeningen er ligetil med tre knapper foran på maskinen, og den mat kromfarvede finish giver den et solidt udtryk på bordet. Det er en investering, men også et apparat, du ikke vokser fra.</p>
+<p>Bosch MC812S820 er til dig, der bruger foodprocessoren til mere end en hurtig omgang hakket løg. Motoren er ekstra stærk, så maskinen kan bearbejde større mængder ad gangen – og den kan også ælte gærdej, som ellers er en af de tungeste opgaver for en foodprocessor.</p>
+<p>Det gør den til et godt bud, hvis du både laver grøntsager til ugens madpakker og bager brød eller pizza i weekenden. Så har du én maskine til begge dele, uden at skulle op i den dyreste ende af feltet.</p>
 HTML,
-			'good'    => [ 'Dig, der laver meget mad fra bunden', 'Åbne køkkener, hvor støj betyder noget' ],
-			'less'    => [ 'Dig, der kun bruger foodprocessoren en gang imellem', 'Et stramt budget' ],
+			'good'    => [ 'Dig, der laver meget mad fra bunden', 'Brød- og pizzabagere' ],
+			'less'    => [ 'Dig, der kun bruger foodprocessoren en gang imellem' ],
 		],
 	],
 	'guide'    => <<<'HTML'

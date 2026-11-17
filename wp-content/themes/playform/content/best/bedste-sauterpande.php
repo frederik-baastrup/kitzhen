@@ -74,15 +74,15 @@ HTML,
 			'less'    => [ 'Dig, der vil have et låg med i købet' ],
 		],
 		[
-			'ean'     => '4054359040718',
-			'price'   => 584,
-			'name'    => 'Woll Carbon Stål sauterpande 28 cm, 3,1 liter',
+			'ean'     => '4054359040701',
+			'price'   => 545,
+			'name'    => 'Woll Carbon Stål sauterpande 24 cm, 2,3 liter',
 			'role'    => 'Bedst til høj varme',
 			'reviews' => [],
-			'verdict' => 'Sauterpande i kulstål på 28 cm og 3,1 liter – lavet til madlavning ved høje temperaturer.',
+			'verdict' => 'Sauterpande i kulstål på 24 cm og 2,3 liter, der reagerer hurtigt, når du skruer op og ned for varmen.',
 			'why'     => <<<'HTML'
 <p>Woll Carbon Stål er sauterpanden til dig, der kan lide at lave mad ved høj varme. Kulstål reagerer hurtigt, når du skruer op og ned, og fordeler varmen jævnt. Det giver en flot stegeskorpe på kød og grøntsager, som du bagefter kan koge en sauce på i den samme pande.</p>
-<p>Med 28 cm i diameter og 3,1 liter er der god plads i bunden, og de høje sider holder på væsken. Som al kulstål skal panden indbrændes og passes med lidt olie, men til gengæld bliver den mere og mere glat med årene.</p>
+<p>Med 24 cm i diameter og 2,3 liter er den en handy størrelse til en eller to personer, og de høje sider holder på væsken. Som al kulstål skal panden indbrændes og passes med lidt olie, men til gengæld bliver den mere og mere glat med årene.</p>
 HTML,
 			'good'    => [ 'Dig, der går op i en god stegeskorpe', 'Dig, der gerne passer på sit grej' ],
 			'less'    => [ 'Dig, der vil kunne sætte panden i opvaskemaskinen', 'Lange retter med meget syre, fx tomatsauce' ],
