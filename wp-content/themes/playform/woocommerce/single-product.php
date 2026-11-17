@@ -227,6 +227,32 @@ while ( have_posts() ) :
 		if ( $text ) {
 			the_content();
 			echo '<p class="ai-note">Teksten er skrevet med AI ud fra butikkens produktdata og tjekket automatisk for fakta.</p>';
+			// Kort tekst (butikkens data var tynde): suppler med generel købsrådgivning for kategorien og link til købsguiden.
+			if ( str_word_count( wp_strip_all_tags( get_the_content() ) ) < 70 ) {
+				$tip_terms = get_the_terms( $id, 'product_cat' );
+				$tip_term  = $tip_terms && ! is_wp_error( $tip_terms ) ? $tip_terms[0] : null;
+				foreach ( (array) $tip_terms as $tt ) { // dybeste kategori
+					if ( $tt instanceof WP_Term && $tt->parent ) { $tip_term = $tt; }
+				}
+				if ( $tip_term instanceof WP_Term ) {
+					$faq = (array) get_term_meta( $tip_term->term_id, 'pf_faq', true );
+					if ( ! array_filter( $faq ) && $tip_term->parent ) {
+						$faq = (array) get_term_meta( $tip_term->parent, 'pf_faq', true );
+					}
+					$faq    = array_slice( array_filter( $faq, 'is_array' ), 0, 3 );
+					$guides = function_exists( 'playform_guides_for_term' ) ? playform_guides_for_term( $tip_term, 1 ) : [];
+					if ( $faq || $guides ) {
+						echo '<div class="pf-tips"><h3>Godt at vide om ' . esc_html( mb_strtolower( $tip_term->name ) ) . '</h3>';
+						foreach ( $faq as $qa ) {
+							echo '<p><strong>' . esc_html( (string) ( $qa[0] ?? '' ) ) . '</strong><br>' . wp_kses_post( (string) ( $qa[1] ?? '' ) ) . '</p>';
+						}
+						if ( $guides && $guides[0] instanceof WP_Post ) {
+							echo '<p><a href="' . esc_url( get_permalink( $guides[0] ) ) . '">Læs købsguiden: ' . esc_html( get_the_title( $guides[0] ) ) . ' &rarr;</a></p>';
+						}
+						echo '</div>';
+					}
+				}
+			}
 		} else {
 			// Butikkens egen tekst vises ikke (duplicate content) – kun vores egne tekster.
 			echo '<p class="muted">Vores beskrivelse af produktet er på vej. Se specifikationerne herunder for de oplysninger, butikken har.</p>';

@@ -1738,3 +1738,4 @@ body { background: #F9FAF9; }
 .chart__stat--high b { color: var(--pc-high); }
 .chart--low .chart__stat--now b { color: var(--pc-low); }
 .chart--high .chart__stat--now b { color: var(--pc-high); }
+.pf-tips { margin-top: 28px; padding: 20px 22px; border: 1px solid var(--line-2); border-radius: 14px; } .pf-tips h3 { margin: 0 0 10px; font-size: 18px; } .pf-tips p { font-size: 15px; margin: 0 0 12px; } .pf-tips p:last-child { margin-bottom: 0; }
