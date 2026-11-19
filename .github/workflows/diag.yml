@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          for u in https://kitzhen.dk/ https://kitzhen.dk/grill/ https://kitzhen.dk/robots.txt; do
-            curl -s -o /tmp/b -w "$u %{http_code} %{time_total}s\n" -m 60 -A "Mozilla/5.0 (Macintosh) Chrome/131" "$u"; head -c 1500 /tmp/b | sed 's/<[^>]*>/ /g' | tr -s ' \n' ' '; echo; done
-          curl -sI -m 60 -A "Mozilla/5.0 Chrome/131" https://kitzhen.dk/
+          for u in https://kitzhen.dk/ https://kitzhen.dk/?x=1 https://koffee.dk/ https://kitzhen.dk/grill/ https://kitzhen.dk/robots.txt; do
+            curl --http1.1 -s -o /tmp/b -w "$u %{http_code} %{time_total}s\n" -m 60 -A "Mozilla/5.0 (Macintosh) Chrome/131" "$u" || true; head -c 1500 /tmp/b | sed 's/<[^>]*>/ /g' | tr -s ' \n' ' '; echo; done
+          curl --http1.1 -sI -m 60 -A "Mozilla/5.0 Chrome/131" https://kitzhen.dk/
