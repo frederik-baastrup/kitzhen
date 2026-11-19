@@ -1,0 +1,10 @@
+name: diag
+on: { push: { branches: [diag] } }
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in https://kitzhen.dk/ https://kitzhen.dk/grill/ https://kitzhen.dk/robots.txt; do
+            curl -s -o /tmp/b -w "$u %{http_code} %{time_total}s\n" -m 60 -A "Mozilla/5.0 (Macintosh) Chrome/131" "$u"; head -c 1500 /tmp/b | sed 's/<[^>]*>/ /g' | tr -s ' \n' ' '; echo; done
+          curl -sI -m 60 -A "Mozilla/5.0 Chrome/131" https://kitzhen.dk/
