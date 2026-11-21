@@ -56,7 +56,7 @@ function playform_how_html(): string {
 <ul>
 <li>Vi viser kun produkter fra butikker, der har et affiliate-program med produktfeed, og som har godkendt $name som partner.</li>
 <li>Vi viser kun de produkter, butikken selv har lagt i sit feed, til den pris og med den lagerstatus, butikken oplyser.</li>
-<li>Vi henter feedsne to gange i døgnet. Ændrer butikken en pris eller fjerner et produkt fra feedet, slår det igennem her ved næste opdatering.</li>
+<li>Vi henter feedsne hver dag. Ændrer butikken en pris eller fjerner et produkt fra feedet, slår det igennem her ved næste opdatering.</li>
 <li>Billeder og produktdata stammer fra butikkens feed. Billederne gemmes på vores egen server, så siden er hurtig, og så dine besøg ikke deles med andre.</li>
 </ul>
 

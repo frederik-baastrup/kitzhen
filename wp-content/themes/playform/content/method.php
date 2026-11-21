@@ -15,7 +15,7 @@ return [
 <h2>Krav for at komme med</h2>
 <ul>
 <li>Produktet skal sælges af en af <a href="/vores-butikker/">de danske webshops, vi samarbejder med</a>. Vi kan derfor kun sammenligne det, de fører – ikke hele markedet.</li>
-<li>Det skal være på lager og have et billede, da guiden blev skrevet. Pris og lager opdateres derefter automatisk to gange i døgnet.</li>
+<li>Det skal være på lager og have et billede, da guiden blev skrevet. Pris og lager opdateres derefter automatisk hver dag.</li>
 <li>Det skal passe til netop det, guiden handler om. En grillpande hører ikke hjemme i en guide om gasgrill.</li>
 <li>Vi viser højst fem modeller pr. guide, så valget bliver overskueligt.</li>
 </ul>

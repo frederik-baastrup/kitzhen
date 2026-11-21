@@ -53,7 +53,7 @@ if ( $campaign ) {
 } elseif ( $is_cat ) {
 	$title = $term->name;
 	$intro = $term->description ?: sprintf(
-		'Se %s fra de butikker, vi samarbejder med, samlet ét sted. Priser og lagerstatus opdateres to gange i døgnet, og du handler direkte hos butikken.',
+		'Se %s fra de butikker, vi samarbejder med, samlet ét sted. Priser og lagerstatus opdateres hver dag, og du handler direkte hos butikken.',
 		mb_strtolower( $label )
 	);
 } elseif ( $search !== '' ) {
@@ -309,7 +309,7 @@ if ( $campaign || $offer_hero ) :
 				<div class="empty">
 					<?php if ( $offers && ! $state['tags'] ) : ?>
 						<b>Ingen tilbud<?php echo $is_cat ? ' på ' . esc_html( mb_strtolower( $label ) ) : ''; ?> lige nu</b>
-						<span>Vi viser kun tilbud, som butikkerne selv har markeret, og som højst er <?php echo (int) ( class_exists( '\Playform\Feeds\Sales' ) ? \Playform\Feeds\Sales::DAYS : 14 ); ?> dage gamle. Kig forbi igen – priserne opdateres to gange i døgnet.</span>
+						<span>Vi viser kun tilbud, som butikkerne selv har markeret, og som højst er <?php echo (int) ( class_exists( '\Playform\Feeds\Sales' ) ? \Playform\Feeds\Sales::DAYS : 14 ); ?> dage gamle. Kig forbi igen – priserne opdateres hver dag.</span>
 						<?php if ( $is_cat ) : ?><a class="btn" href="<?php echo esc_url( get_term_link( $term ) ); ?>">Se alle <?php echo esc_html( mb_strtolower( $label ) ); ?></a><?php endif; ?>
 					<?php elseif ( in_array( 'tilbud', playform_active_filters()['egenskab'] ?? [], true ) ) : ?>
 						<b>Ingen tilbud matcher dine filtre</b>
@@ -321,7 +321,7 @@ if ( $campaign || $offer_hero ) :
 						<a class="btn" href="<?php echo esc_url( playform_reset_url() ); ?>">Nulstil filtre</a>
 					<?php else : ?>
 						<b>Ingen produkter i kategorien lige nu</b>
-						<span>Butikkerne har ikke varer på lager her i øjeblikket. Udvalget opdateres to gange i døgnet – kig forbi igen.</span>
+						<span>Butikkerne har ikke varer på lager her i øjeblikket. Udvalget opdateres hver dag – kig forbi igen.</span>
 						<a class="btn" href="<?php echo esc_url( home_url( '/' ) ); ?>">Til forsiden</a>
 					<?php endif; ?>
 				</div>

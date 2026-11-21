@@ -508,7 +508,7 @@ function playform_default_text( string $which ): string {
 	$name  = playform_site( 'name' );
 	$niche = playform_site( 'niche' );
 	if ( $which === 'butikker' ) {
-		return "<p>$name samler $niche fra de butikker, vi samarbejder med, ét sted. Vi henter produkter, priser og lagerstatus direkte fra butikkerne to gange i døgnet. Når du klikker på \"Gå til butik\", sendes du videre til butikken, hvor du handler som normalt.</p><h2>Butikker på $name</h2>";
+		return "<p>$name samler $niche fra de butikker, vi samarbejder med, ét sted. Vi henter produkter, priser og lagerstatus direkte fra butikkerne hver dag. Når du klikker på \"Gå til butik\", sendes du videre til butikken, hvor du handler som normalt.</p><h2>Butikker på $name</h2>";
 	}
 	return "<p>$name er gratis at bruge. Når du klikker videre til en butik og handler, får vi en lille provision fra butikken. Det koster ikke dig noget ekstra. Du kan altid sortere efter pris, tilbud eller nyeste.</p><p>Som tilbud viser vi kun butikkernes egne tilbud, og kun i højst 14 dage. Har vi selv fulgt prisen hos butikken i de 30 dage før tilbuddet, viser vi den laveste pris i perioden som førpris. Ellers viser vi butikkens egen førpris, tydeligt mærket som butikkens. Tjek altid den endelige pris hos butikken.</p>";
 }
@@ -536,6 +536,31 @@ function playform_seed_category_texts(): void {
 			}
 		}
 		update_option( 'playform_cat_texts_fix', 1, false );
+	}
+	// Én gang (21. nov. 2026): importen kører nu én gang i døgnet – gemte tekster må ikke love "to gange i døgnet".
+	if ( (int) get_option( 'playform_cat_texts_fix' ) < 2 ) {
+		$daily = static function ( $v ) use ( &$daily ) {
+			if ( is_array( $v ) ) {
+				return array_map( $daily, $v );
+			}
+			return is_string( $v ) ? (string) preg_replace(
+				[ '/Opdateret 2× dagligt/u', '/2× dagligt/u', '/To gange i døgnet henter vi/u', '/to gange (i døgnet|om dagen)/u', '/((?:[Pp]ris|lager|produktdata)[^.\n]{0,80}?)to gange dagligt/u', '/Morgen og aften opdaterer vi/u', '/hos butikkerne morgen og aften/u' ],
+				[ 'Opdateret hver dag', 'dagligt', 'Hver dag henter vi', 'hver dag', '$1dagligt', 'Hver morgen opdaterer vi', 'hos butikkerne hver morgen' ],
+				$v
+			) : $v;
+		};
+		foreach ( get_terms( [ 'taxonomy' => 'product_cat', 'hide_empty' => false ] ) as $tm ) {
+			if ( $tm->description !== $daily( $tm->description ) ) {
+				wp_update_term( $tm->term_id, 'product_cat', [ 'description' => $daily( $tm->description ) ] );
+			}
+			foreach ( [ 'pf_seo_text', 'pf_faq' ] as $mk ) {
+				$v = get_term_meta( $tm->term_id, $mk, true );
+				if ( $v && $v !== $daily( $v ) ) {
+					update_term_meta( $tm->term_id, $mk, $daily( $v ) );
+				}
+			}
+		}
+		update_option( 'playform_cat_texts_fix', 2, false );
 	}
 	foreach ( $texts as $slug => $t ) {
 		$term = get_term_by( 'slug', $slug, 'product_cat' );
