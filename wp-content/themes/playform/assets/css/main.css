@@ -1741,7 +1741,7 @@ body { background: #F9FAF9; }
 .pf-tips { margin-top: 28px; padding: 20px 22px; border: 1px solid var(--line-2); border-radius: 14px; } .pf-tips h3 { margin: 0 0 10px; font-size: 18px; } .pf-tips p { font-size: 15px; margin: 0 0 12px; } .pf-tips p:last-child { margin-bottom: 0; }
 
 /* Prissammenligning i købsguides (22. nov. 2026) */
-.pick__prices { margin-top: 18px; }
+.pick__prices { margin: 24px 0; }
 .pick__prices-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; margin-bottom: 8px; }
 .pick__prices-head b { font-size: 15px; font-weight: 600; }
 .pick__prices-head span { font-size: 13px; color: var(--muted, #6b6b6b); }
