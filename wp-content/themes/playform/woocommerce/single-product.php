@@ -234,23 +234,10 @@ while ( have_posts() ) :
 				foreach ( (array) $tip_terms as $tt ) { // dybeste kategori
 					if ( $tt instanceof WP_Term && $tt->parent ) { $tip_term = $tt; }
 				}
-				if ( $tip_term instanceof WP_Term ) {
-					$faq = (array) get_term_meta( $tip_term->term_id, 'pf_faq', true );
-					if ( ! array_filter( $faq ) && $tip_term->parent ) {
-						$faq = (array) get_term_meta( $tip_term->parent, 'pf_faq', true );
-					}
-					$faq    = array_slice( array_filter( $faq, 'is_array' ), 0, 3 );
-					$guides = function_exists( 'playform_guides_for_term' ) ? playform_guides_for_term( $tip_term, 1 ) : [];
-					if ( $faq || $guides ) {
-						echo '<div class="pf-tips"><h3>Godt at vide om ' . esc_html( mb_strtolower( $tip_term->name ) ) . '</h3>';
-						foreach ( $faq as $qa ) {
-							echo '<p><strong>' . esc_html( (string) ( $qa[0] ?? '' ) ) . '</strong><br>' . wp_kses_post( (string) ( $qa[1] ?? '' ) ) . '</p>';
-						}
-						if ( $guides && $guides[0] instanceof WP_Post ) {
-							echo '<p><a href="' . esc_url( get_permalink( $guides[0] ) ) . '">Læs købsguiden: ' . esc_html( get_the_title( $guides[0] ) ) . ' &rarr;</a></p>';
-						}
-						echo '</div>';
-					}
+				// Kun et link til købsguiden – kategoriens FAQ blev gentaget på hundredvis af produktsider (duplicate content, 22. nov. 2026).
+				$guides = $tip_term instanceof WP_Term && function_exists( 'playform_guides_for_term' ) ? playform_guides_for_term( $tip_term, 1 ) : [];
+				if ( $guides && $guides[0] instanceof WP_Post ) {
+					echo '<p class="pf-tips"><a href="' . esc_url( get_permalink( $guides[0] ) ) . '">Læs købsguiden: ' . esc_html( get_the_title( $guides[0] ) ) . ' &rarr;</a></p>';
 				}
 			}
 		} else {
