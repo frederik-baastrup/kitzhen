@@ -45,19 +45,18 @@ HTML,
 			'less'    => [ 'Dig, der vil have den letteste model (6,5 kg)' ],
 		],
 		[
-			'ean'     => '8711658519906',
-			'price'   => 855,
-			'name'    => 'Princess Raclette & Fondue',
-			'role'    => 'Flest funktioner',
+			'ean'     => '4894871033337',
+			'price'   => 1000,
+			'name'    => 'GreenPan Bistro raclettejern',
+			'role'    => 'Grill og pandekager',
 			'reviews' => [],
-			'verdict' => 'Fem funktioner i ét: raclette, grill, ostefondue, chokoladefondue og oliefondue.',
+			'verdict' => 'Raclette med en vendbar plade: grill på den ene side og pandekager på den anden – med keramisk non-stick.',
 			'why'     => <<<'HTML'
-<p>Princess Raclette &amp; Fondue er det oplagte valg, hvis I vil have både raclette og fondue uden at fylde skabet med to apparater. Den klarer raclette, grill, ostefondue, chokoladefondue og oliefondue, så én aften kan starte med grillmad og slutte med frugt dyppet i chokolade.</p>
-<p>Grillpladen på 31 × 31 cm har en ridsefast keramisk belægning, der fordeler varmen jævnt og er nem at gøre ren. Den dobbelte termostat lader dig styre raclette og fondue hver for sig, og de 1800 W giver masser af kraft.</p>
-<p>Alt er med i kassen: fonduegryde på 1,3 liter, 8 raclettepander, 8 spatler og 8 fonduegafler. De skridsikre fødder og ledningen på 2 meter gør den nem at placere midt på bordet.</p>
+<p>GreenPan Bistro er racletten til dig, der vil kunne mere end ost og grillmad. Pladen ovenpå kan vendes: den ene side er til at grille kød og grøntsager, den anden bruges til pandekager. Så kan aftenen starte med raclette og slutte med pandekager til dessert.</p>
+<p>Pladen har en keramisk non-stick-belægning med en ekstra slidstærk overflade, og den kan komme i opvaskemaskinen. Det gør oprydningen efter en lang middag langt mindre besværlig.</p>
 HTML,
-			'good'    => [ 'Fondue og raclette i ét', 'Op til 8 personer', 'Dig, der vil have mest for pengene' ],
-			'less'    => [ 'Dig, der kun vil have raclette' ],
+			'good'    => [ 'Raclette og pandekager på samme plade', 'Nem oprydning' ],
+			'less'    => [ 'Dig, der vil holde prisen nede' ],
 		],
 		[
 			'ean'     => '7350101117910',

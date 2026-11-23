@@ -61,19 +61,18 @@ HTML,
 			'less'    => [ 'Små køkkener – den vejer 9,9 kg' ],
 		],
 		[
-			'ean'     => '4008146031748',
-			'price'   => 2576,
-			'name'    => 'Severin ismaskine med kompressor og 2 isbeholdere',
-			'role'    => 'To beholdere',
+			'ean'     => '4038437032987',
+			'price'   => 2499,
+			'name'    => 'Caso IceGourmet ismaskine',
+			'role'    => 'Is og yoghurt',
 			'reviews' => [],
-			'verdict' => 'Indbygget kompressor og to beholdere på 2 liter hver – is på cirka 30 minutter uden at fryse noget på forhånd.',
+			'verdict' => 'Ismaskine med fire fuldautomatiske programmer, der laver både is og yoghurt – du hælder i og vælger program.',
 			'why'     => <<<'HTML'
-<p>Severins ismaskine er til dig, der vil lave to slags is samme dag. Den indbyggede kompressor køler selv, og der følger to isbeholdere med på 2 liter hver. Mens den ene portion står i fryseren, kan den næste røres færdig. Du skal ikke huske at fryse noget dagen før.</p>
-<p>På cirka 30 minutter har du cremet is med gelato-fornemmelse, men maskinen klarer også sorbet og frozen yoghurt. Den har desuden en funktion, der både varmer og køler, så du kan lave din egen yoghurt fra bunden.</p>
-<p>Kabinettet er i rustfrit stål og måler 29 × 43 cm og 22,5 cm i højden. Den vejer 13,31 kg, så den har det bedst med en fast plads på bordet. Severin giver 2 års garanti.</p>
+<p>Caso IceGourmet er til dig, der vil have en maskine, der kan mere end is. Den har fire fuldautomatiske programmer, og ud over is kan den også lave yoghurt. Så kan den samme maskine stå for både desserten og morgenmaden.</p>
+<p>Betjeningen er enkel: du kommer ingredienserne i, vælger det program, der passer, og lader maskinen klare resten. Det gør den let at gå til, også for dig, der aldrig har lavet is selv før.</p>
 HTML,
-			'good'    => [ 'Dig, der vil lave to slags is i træk', 'Is, sorbet, frozen yoghurt og yoghurt', 'Store portioner' ],
-			'less'    => [ 'Små køkkener – den vejer 13,31 kg' ],
+			'good'    => [ 'Is og hjemmelavet yoghurt', 'Dig, der vil have faste programmer' ],
+			'less'    => [ 'Dig, der kun laver is et par gange om året' ],
 		],
 		[
 			'ean'     => '7391091858148',

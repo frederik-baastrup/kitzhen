@@ -76,19 +76,18 @@ HTML,
 			'less'    => [ 'Opvaskemaskine – den skal rengøres tørt' ],
 		],
 		[
-			'ean'     => '8000011002200',
-			'price'   => 899,
-			'name'    => 'Marcato Atlas 180 Original',
-			'role'    => 'Bredeste pastaplader',
+			'ean'     => '3800139284008',
+			'price'   => 549,
+			'name'    => 'Luigi Ferrero italiensk pastamaskine med tilbehør',
+			'role'    => 'Flest valser med i kassen',
 			'reviews' => [],
-			'verdict' => 'Italiensk Atlas med 180 mm valser til bredere plader – med bordbeslag og mulighed for motor.',
+			'verdict' => 'Kraftig pastamaskine med tre slags valser – plader til lasagne og ravioli, tagliatelle og tynd pasta.',
 			'why'     => <<<'HTML'
-<p>Marcato Atlas 180 er den store udgave af den klassiske Atlas. Valserne er 180 mm brede, så du får bredere pastaplader end med Atlas 150+ – oplagt til lasagne og store ravioli. Med maskinen kan du også lave spaghetti og fettuccine.</p>
-<p>Du indstiller selv tykkelsen, så dejen kan blive lige så tynd, som retten kræver. Bordbeslaget følger med og holder maskinen fast, så den ikke flytter sig, mens du drejer. Vil du have begge hænder fri, kan du købe en Atlas-motor til den.</p>
-<p>Maskinen er produceret i Italien i aluminium og vejer 3,5 kg.</p>
+<p>Luigi Ferrero er en klassisk italiensk pastamaskine, der kommer med mere i kassen end de fleste. Du får tre forskellige valser, så du kan rulle plader til lasagne og ravioli og skære både tagliatelle og en tyndere pasta uden at købe ekstra tilbehør.</p>
+<p>Maskinen er bygget solidt, og det mærkes, når dejen skal igennem valserne flere gange. Den er et godt valg, hvis du vil have flere pastatyper fra starten til en pris, der ligger under Atlas-maskinerne i guiden.</p>
 HTML,
-			'good'    => [ 'Lasagne og brede plader', 'Dig, der vil kunne bygge på med motor', 'Erfarne pastamagere' ],
-			'less'    => [ 'Dig, der vil holde prisen nede' ],
+			'good'    => [ 'Lasagne, ravioli og tagliatelle', 'Dig, der vil have tilbehøret med fra start' ],
+			'less'    => [ 'Dig, der vil lave mange andre pastaformer end de tre' ],
 		],
 	],
 	'guide'    => <<<'HTML'

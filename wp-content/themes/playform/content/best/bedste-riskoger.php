@@ -76,17 +76,17 @@ HTML,
 			'less'    => [ 'Dig, der vil have programmer til quinoa og brune ris', 'Små køkkener med lidt plads' ],
 		],
 		[
-			'ean'     => '4011833303493',
-			'price'   => 285,
-			'name'    => 'Steba Riskoger med varmefunktion, 0,9 liter',
+			'ean'     => '7391091867089',
+			'price'   => 199,
+			'name'    => 'Champion RK400 mini riskoger 0,6 liter',
 			'role'    => 'Bedst til små husstande',
 			'reviews' => [],
-			'verdict' => 'Lille og kompakt riskoger fra Steba på 0,9 liter med varmefunktion, der kun vejer 1,1 kg.',
+			'verdict' => 'Lille riskoger på 0,6 liter til mindre husholdninger – nok til mellem 5 og 10 portioner og med non-stick indeni.',
 			'why'     => <<<'HTML'
-<p>Steba-riskogeren er til singlen, parret eller det lille køkken. Den kommer fra det tyske mærke Steba og er lille og kompakt, men rummer alligevel 0,9 liter, så der er plads til ris nok til en mindre husholdning.</p>
-<p>Med en vægt på kun 1,1 kg er den let at flytte rundt på og stille væk i skabet efter brug. Det gør den også oplagt at tage med på campingturen. Varmefunktionen holder risene varme, til du skal servere.</p>
+<p>Champion RK400 er riskogeren til singlen, parret eller det lille køkken, hvor en stor familiemodel bare står i vejen. Den rummer 0,6 liter og er lavet til mellem 5 og 10 portioner, så der er nok til aftensmaden og gerne lidt til madpakken dagen efter.</p>
+<p>Det kompakte format gør den nem at finde plads til, både på bordet og i skabet. Gryden har non-stick-belægning, så risene ikke sætter sig fast i bunden, og den er hurtig at skylle af bagefter.</p>
 HTML,
-			'good'    => [ 'Singler og par', 'Små køkkener og camping' ],
+			'good'    => [ 'Singler og par', 'Små køkkener' ],
 			'less'    => [ 'Familier, der laver store portioner' ],
 		],
 	],

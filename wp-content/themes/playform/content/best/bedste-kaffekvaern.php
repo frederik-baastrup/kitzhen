@@ -75,8 +75,9 @@ HTML,
 			'less'    => [ 'Dig, der vil have en lille kværn' ],
 		],
 		[
-			'ean'     => '8712072495111',
-			'price'   => 2499,
+			'ean'     => '8712072495128',
+			'eans'    => [ '8712072495128', '8712072495104', '8712072495111' ],
+			'price'   => 1899,
 			'name'    => 'Moccamaster KM5 Burr kaffekværn',
 			'role'    => 'Bedst design',
 			'reviews' => [],
@@ -84,7 +85,7 @@ HTML,
 			'why'     => <<<'HTML'
 <p>Moccamaster KM5 er kværnen til dig, der allerede har en Moccamaster på bordet – eller bare vil have en kværn, der ser lige så godt ud. Den er håndlavet i Holland af europæiske materialer og har det samme markante design som Moccamasters kaffemaskiner.</p>
 <p>De flade stålskiver på 50 mm maler bønnerne til en ensartet størrelse, og du justerer formalingen trinløst. Derfor passer den til mange bryggemetoder. Den kraftige motor arbejder lydsvagt og maler 60 gram kaffe på under 30 sekunder. Tuden er formet, så den mindsker spild og statisk elektricitet i den malede kaffe.</p>
-<p>Kværnen er godkendt af European Coffee Brewing Centre, og Moccamaster giver 5 års garanti. Her er den i matsort.</p>
+<p>Kværnen er godkendt af European Coffee Brewing Centre, og Moccamaster giver 5 års garanti.</p>
 HTML,
 			'good'    => [ 'Moccamaster-ejere', 'Filterkaffe og andre bryggemetoder', 'Dig, der vil have lang garanti' ],
 			'less'    => [ 'Små køkkener – den vejer 5 kg' ],

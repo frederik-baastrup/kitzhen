@@ -61,18 +61,17 @@ HTML,
 			'less'    => [ 'Meget store vandbade – den er lavet til omkring 20 liter' ],
 		],
 		[
-			'ean'     => '0850043914068',
-			'price'   => 1149,
-			'name'    => 'Anova Precision Cooker 3.0',
-			'role'    => 'Bedst alternativ',
+			'ean'     => '5060748950284',
+			'price'   => 999,
+			'name'    => 'iVide 2.0 sous vide-stav med wifi',
+			'role'    => 'Bedst med wifi',
 			'reviews' => [],
-			'verdict' => 'Let sous vide-cirkulator på under 1 kg, der giver saftige stege og jævnt tilberedt fisk i din egen gryde.',
+			'verdict' => 'Kompakt og vandtæt (IPX7) sous vide-stav med wifi – et godt alternativ til Steba-stavene.',
 			'why'     => <<<'HTML'
-<p>Anova Precision Cooker 3.0 er et godt alternativ til Steba-stavene, hvis du vil have et andet mærke på køkkenbordet. Du sætter cirkulatoren i din egen gryde med vand, indstiller den, og så tilberedes maden præcist og jævnt, mens du laver noget andet.</p>
-<p>Den er oplagt til de retter, hvor sous vide gør den store forskel: en saftig steg, der har samme stegegrad hele vejen igennem, eller fisk, der bliver jævnt tilberedt uden at tørre ud. Det er udstyret til middagen, hvor du vil imponere gæsterne.</p>
-<p>Cirkulatoren er lavet i plast og rustfrit stål og vejer kun 0,99 kg, så den er nem at tage frem og gemme væk i en skuffe.</p>
+<p>iVide 2.0 er værd at se på, hvis du vil have et andet mærke end Steba og gerne vil have wifi i staven. Du sætter den i din egen gryde eller beholder med vand, indstiller temperaturen, og så holder den vandbadet præcist, mens kødet, fisken eller grøntsagerne passer sig selv.</p>
+<p>Staven er kompakt, så den er nem at finde plads til i en skuffe, og den er IPX7-vandtæt, så stænk og damp fra gryden ikke er et problem. Den passer godt til hjemmekokken, der vil i gang med sous vide uden at købe et stort vandbad.</p>
 HTML,
-			'good'    => [ 'Steg og fisk', 'Dig, der vil bruge din egen gryde', 'Let at gemme væk' ],
+			'good'    => [ 'Dig, der vil have wifi', 'Dig, der vil bruge din egen gryde', 'Let at gemme væk' ],
 			'less'    => [ 'Dig, der også mangler en vakuumpakker' ],
 		],
 		[

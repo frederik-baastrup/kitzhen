@@ -46,15 +46,15 @@ HTML,
 			'less'    => [ 'Meget høj varme' ],
 		],
 		[
-			'ean'     => '7331059120818',
-			'price'   => 369,
-			'name'    => 'Ronneby Bruk Maestro pandekagepande i støbejern 24 cm',
+			'ean'     => '7350011670710',
+			'price'   => 389,
+			'name'    => 'Carl Victor Gold pandekagepande i støbejern 23 cm',
 			'role'    => 'Bedst i støbejern',
 			'reviews' => [],
-			'verdict' => 'Robust pandekagepande i støbejern med lav kant, der gør det nemt at vende pandekagerne.',
+			'verdict' => 'Pandekagepande i støbejern med lav kant – varmen fordeles jævnt, så pandekagerne får en ensartet gylden farve.',
 			'why'     => <<<'HTML'
-<p>Støbejern holder godt på varmen, og det mærker du, når du bager mange pandekager i træk. Temperaturen falder ikke, hver gang ny dej rammer panden, så den sidste pandekage bliver lige så gylden som den første.</p>
-<p>Ronneby Bruk Maestro har en lav kant, der gør det væsentligt nemmere at få paletten ind under pandekagen og vende den. Diameteren på 24 cm giver lidt mindre pandekager, som er nemme at håndtere. Panden er robust, og med lidt olie efter brug bliver den bedre og bedre. Det er en pande, du køber én gang.</p>
+<p>Støbejern er tungt, og det er netop pointen: panden gemmer på varmen, så temperaturen ikke dykker, hver gang du hælder ny dej på. Bager du en hel stak til familien, bliver den sidste pandekage derfor lige så flot som den første.</p>
+<p>Carl Victor Gold har en lav kant, så dejen er let at fordele tyndt, og paletten kommer nemt ind under pandekagen, når den skal vendes. Med 23 cm i diameter bliver pandekagerne lidt mindre end de klassiske og er nemme at styre. Giv panden en tynd hinde olie efter brug, så bliver overfladen bedre for hver gang, du bager.</p>
 HTML,
 			'good'    => [ 'Mange pandekager i træk', 'Jævn varme' ],
 			'less'    => [ 'Dig, der vil have en let pande' ],

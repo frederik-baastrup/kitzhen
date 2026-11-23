@@ -10,7 +10,7 @@ return [
 	'date'     => '2026-11-15 12:00:00',
 	'keyword'  => 'champagneglas',
 	'title'    => 'Champagneglas: Vores bud på de 5 bedste',
-	'excerpt'  => 'Smalle fløjter, der holder på boblerne, eller brede coupeglas med festlig retrostil? Her er vores bud på de 5 bedste champagneglas fra de butikker, vi samarbejder med – fra et billigt sæt til seks til mundblæst krystal til de store anledninger.',
+	'excerpt'  => 'Smalle fløjter, der holder på boblerne, eller brede coupeglas med festlig retrostil? Her er vores bud på de 5 bedste champagneglas fra de butikker, vi samarbejder med – fra et billigt sæt til seks til håndlavet krystal til de store anledninger.',
 	'more_cat' => 'champagneglas',
 	'intro'    => <<<'HTML'
 <p>Nytår, bryllup, studenterfest eller bare en fredag med en god flaske cava – bobler hører til, når der skal fejres. Og glasset betyder mere, end man tror. Et godt champagneglas leder boblerne op gennem vinen, samler duften ved kanten og får selv en billig mousserende vin til at føles som en lille begivenhed.</p>
@@ -74,18 +74,18 @@ HTML,
 			'less'    => [ 'Dig med et stramt budget' ],
 		],
 		[
-			'ean'     => '0793573619051',
-			'price'   => 735,
-			'name'    => 'Zalto champagneglas 22 cl, 2 stk.',
+			'ean'     => '9006206912209',
+			'price'   => 674,
+			'name'    => 'Riedel Sommelier Vintage champagneglas 33 cl',
 			'role'    => 'Bedst luksus',
 			'reviews' => [],
-			'verdict' => 'Ekstremt lette champagneglas, mundblæst i blyfri krystal – håndlavede, så hvert glas har sit eget lille præg.',
+			'verdict' => 'Håndlavet champagneglas i krystal fra Riedels Sommelier-serie – rummer 33 cl og er lavet til den gode årgang.',
 			'why'     => <<<'HTML'
-<p>Hos Zalto er det især vægten, der overrasker: glassene er ekstremt lette og tynde, så du næsten kun mærker vinen. De er mundblæst i blyfri krystal, og fordi hvert glas er lavet i hånden, kan der være små forskelle fra glas til glas.</p>
-<p>Hvert glas rummer 22 cl, og du får to i pakken. Det er et glas til den gode flaske, jubilæet eller som gave til en, der sætter pris på det særlige – og et, du nok vil vaske op i hånden.</p>
+<p>Riedels Sommelier-serie er kendt for glas, der er formet efter bestemte druer og vintyper, og Vintage-glasset er seriens bud på champagne. Glasset er lavet i hånden i krystalglas – noget andet end de maskinblæste glas, der står i de fleste skabe.</p>
+<p>Med 33 cl har vinen god plads til at folde duften ud, og det gør glasset særligt oplagt til lagret champagne og årgangsvin, hvor aromaen er en stor del af oplevelsen. Det er et glas til de store dage og en fin gave til en vinelsker – og et, du nok helst vasker op i hånden.</p>
 HTML,
-			'good'    => [ 'Gave til vinelskeren', 'Den helt særlige flaske' ],
-			'less'    => [ 'Store selskaber – kun 2 glas pr. pakke', 'Travle hverdage med opvaskemaskinen' ],
+			'good'    => [ 'Gave til vinelskeren', 'Lagret champagne og den helt særlige flaske' ],
+			'less'    => [ 'Store selskaber – prisen pr. glas er høj', 'Travle hverdage med opvaskemaskinen' ],
 		],
 	],
 	'guide'    => <<<'HTML'

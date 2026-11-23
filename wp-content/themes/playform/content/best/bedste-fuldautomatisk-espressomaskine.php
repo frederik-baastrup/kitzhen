@@ -30,18 +30,19 @@ HTML,
 			'less'    => [ 'Dig, der vil finjustere alt selv' ],
 		],
 		[
-			'ean'     => '8004399021372',
-			'price'   => 4499,
-			'name'    => 'De\'Longhi Magnifica Evo',
+			'ean'     => '8004399021419',
+			'eans'    => [ '8004399021419', '8004399021372' ],
+			'price'   => 2899,
+			'name'    => 'De\'Longhi Magnifica Evo ECAM290.81',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Fuldautomatisk maskine med fem kaffedrikke på et tryk – et godt sted at starte.',
+			'verdict' => 'Syv kaffedrikke på menuen og bønner i stedet for kapsler – en prisvenlig vej ind i de fuldautomatiske maskiner.',
 			'why'     => <<<'HTML'
-<p>De'Longhi Magnifica er en af de mest kendte fuldautomatiske maskiner. Du med Magnifica Evo hurtigt og nemt kan vælge mellem fem forskellige kaffedrikke.</p>
-<p>Den er billigere end de fleste og et godt valg, hvis du især drikker espresso og almindelig kaffe.</p>
+<p>Magnifica er De'Longhis serie af fuldautomatiske maskiner til hjemmet, og Evo er et oplagt sted at starte, når du vil skifte kapsler eller filterkaffe ud med hele bønner. I Magnifica Evo ECAM290.81 vælger du mellem syv kaffedrikke, og det går hurtigt og enkelt, så morgenkaffen ikke kræver andet end et tryk.</p>
+<p>Prisen ligger et godt stykke under de fleste andre maskiner i guiden. Det gør den til et fornuftigt valg, hvis du især drikker espresso og almindelig kaffe og ikke har brug for en stor skærm med mange profiler.</p>
 HTML,
 			'good'    => [ 'Dig, der vil prøve en fuldautomatisk maskine', 'Espresso og sort kaffe' ],
-			'less'    => [ 'Dig, der vil have mange mælkedrikke' ],
+			'less'    => [ 'Dig, der vil have stor skærm og brugerprofiler' ],
 		],
 		[
 			'ean'     => '4260083467794',

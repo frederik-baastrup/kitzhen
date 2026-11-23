@@ -13,7 +13,7 @@ return [
 	'more_cat' => 'trykkoger',
 	'intro'    => <<<'HTML'
 <p>Gullasch, der skal simre i tre timer. Tørrede bønner, der skal koge en hel eftermiddag. Med en trykkoger bliver den slags hverdagsmad. Det høje tryk hæver kogepunktet, så maden bliver mør og færdig langt hurtigere – og smagen bliver i gryden.</p>
-<p>Herunder er vores bud på de 5 bedste trykkogere fra de butikker, vi samarbejder med, lige nu: tre klassiske til komfuret og to elektriske multicookere, du bare tænder og går fra. Nederst finder du en købsguide til typer, størrelse og sikkerhed.</p>
+<p>Herunder er vores bud på de 5 bedste trykkogere fra de butikker, vi samarbejder med, lige nu: fire klassiske til komfuret og en elektrisk multicooker, du bare tænder og går fra. Nederst finder du en købsguide til typer, størrelse og sikkerhed.</p>
 HTML,
 	'picks'    => [
 		[
@@ -77,18 +77,17 @@ HTML,
 			'less'    => [ 'Køkkener med lidt bordplads' ],
 		],
 		[
-			'ean'     => '0810028585812',
-			'price'   => 899,
-			'name'    => 'Instant Pot Duo Mini 3 liter 7-i-1',
+			'ean'     => '3045384363485',
+			'price'   => 799,
+			'name'    => 'Tefal Secure Trendy trykkoger 4 liter',
 			'role'    => 'Til én eller to',
 			'reviews' => [],
-			'verdict' => 'Kompakt elektrisk trykkoger på 3 liter, der også er slow cooker, riskoger og yoghurtmaskine.',
+			'verdict' => 'Mindre trykkoger på 4 liter til komfuret – til risotto, gryderetter og hverdagsmad i små portioner.',
 			'why'     => <<<'HTML'
-<p>Bor du alene eller to, er en stor trykkoger ofte mere, end du har brug for. Instant Pot Duo Mini rummer 3 liter og fylder derfor mindre på bordet, men har stadig 7 funktioner.</p>
-<p>Den er trykkoger, slow cooker, riskoger og yoghurtmaskine i én. Det gør den oplagt til små køkkener, hvor der ikke er plads til et apparat for hver opgave.</p>
-<p>Et smart valg til lejligheden, kollegieværelset eller som ekstra hjælper ved siden af komfuret. Du kan sætte risene over, mens du laver resten af maden, og have det hele klar samtidig.</p>
+<p>Bor du alene eller to, er en gryde på 6 liter eller mere ofte større, end du har brug for. Tefal Secure Trendy rummer 4 liter, så den fylder mindre i skabet og bliver hurtigere varm med en mindre mængde mad i.</p>
+<p>Brug den til alt fra risotto til gryderetter, som ellers skulle simre længe på komfuret. Den sparer dig for meget tid ved komfuret på travle hverdage, og den er et godt supplement til en stor gryde, hvis du af og til laver mad til flere.</p>
 HTML,
-			'good'    => [ 'Singler og par', 'Små køkkener' ],
+			'good'    => [ 'Singler og par', 'Små køkkener', 'Risotto og gryderetter' ],
 			'less'    => [ 'Familier og store portioner' ],
 		],
 	],

@@ -72,17 +72,17 @@ HTML,
 			'less'    => [ 'Dig med lavt hængende overskabe – tjek højden' ],
 		],
 		[
-			'ean'     => '7044876023209',
-			'price'   => 699,
-			'name'    => 'Wilfa Dual Heating 6 liter',
+			'ean'     => '4011833200358',
+			'price'   => 899,
+			'name'    => 'Steba HF8000 Family Airfryer 8 liter',
 			'role'    => 'Bedst til prisen',
 			'reviews' => [],
-			'verdict' => 'Airfryer på 6 liter med varmelegeme både foroven og forneden – så du ikke behøver vende maden så ofte.',
+			'verdict' => 'Rummelig airfryer på 8 liter med timer og temperatur fra 80 til 200 °C – stor kurv uden stor pris.',
 			'why'     => <<<'HTML'
-<p>Wilfa Dual Heating har to varmelegemer. Den har en samlet effekt på 1600 watt plus 500 watt i det nederste element, og du derfor ikke behøver vende maden så ofte.</p>
-<p>Til under 1.000 kr. får du en stor kurv og varme fra to sider. Det er et godt sted at starte, hvis du ikke har haft en airfryer før.</p>
+<p>Steba HF8000 Family er bygget til husstande, hvor der skal mere end en lille portion pommes frites i kurven. Med 8 liter er der plads til aftensmaden til hele familien, og du kan både tilberede fra bunden og varme rester op – kød, kartofler, grøntsager og endda kage.</p>
+<p>Du stiller temperaturen mellem 80 og 200 °C og sætter timeren, så slukker den selv. Sammenlignet med en frituregryde kan du skære op til 80 % af fedtet fra. Det er et godt bud, hvis du vil have en stor airfryer uden at betale for to kurve.</p>
 HTML,
-			'good'    => [ 'Dig, der vil prøve en airfryer uden at give meget', 'To–fire personer' ],
+			'good'    => [ 'Familier, der vil have plads i kurven', 'Dig, der vil have meget airfryer for pengene' ],
 			'less'    => [ 'Dig, der vil lave to ting på én gang' ],
 		],
 	],
